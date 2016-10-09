@@ -10,7 +10,7 @@ title:            'Secure Systems Lab'
 #tagline:          'Laboriously Securing Systems'
 description:      'Laboriously Securing Systems'
 url:              https://ssl.engineering.nyu.edu
-baseurl:          /
+baseurl:          /ssl-site
 
 author:
   name:           'Mark Otto'
