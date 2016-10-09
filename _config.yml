@@ -7,16 +7,18 @@ permalink:        pretty
 
 # Setup
 title:            'Secure Systems Lab'
-#tagline:          'Laboriously Securing Systems'
 description:      'Laboriously Securing Systems'
 url:              https://ssl.engineering.nyu.edu
 baseurl:          /ssl-site/
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+#author:
+#  name:           'ssl'
+#  url:            https://ssl.engineering.nyu.edu
 
 #paginate:         5
+
+sass:
+  sass_dir: _sass
 
 # Custom vars
 version:
@@ -26,6 +28,4 @@ github:
 
 gems:
   - jekyll-paginate
-  - redcarpet
   - jekyll-gist
-  - pygments.rb
