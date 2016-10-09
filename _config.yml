@@ -1,5 +1,6 @@
 # Dependencies
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -15,7 +16,7 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         5
+#paginate:         5
 
 # Custom vars
 version:
