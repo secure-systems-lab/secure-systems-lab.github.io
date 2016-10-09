@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container sidebar-top">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
@@ -25,10 +25,12 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+  </div>
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+  <div class="container sidebar-bottom">
+    {% if site.github.repo != null %}
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+    {% endif %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

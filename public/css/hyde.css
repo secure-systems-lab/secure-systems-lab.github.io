@@ -79,8 +79,10 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.15;
 }
 
 /* Sidebar nav */
@@ -99,14 +101,27 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
+@media (min-width: 48em) {
+  .sidebar-top {
+    position: absolute;
+    right:  1rem;
+    top: 1rem;
+    left:   1rem;
+  }
+}
 
 @media (min-width: 48em) {
-  .sidebar-sticky {
+  .sidebar-middle {
+    position: absolute;
+    right:  1rem;
+    left:   1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 48em) {
+  .sidebar-bottom {
     position: absolute;
     right:  1rem;
     bottom: 1rem;
