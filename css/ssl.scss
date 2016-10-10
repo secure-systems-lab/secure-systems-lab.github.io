@@ -3,6 +3,8 @@
 @import "vendor/breakpoint";
 @import "vendor/breakpoint-slicer";
 
+$slicer-breakpoint-names: 'xs' 's' 'm' 'l' 'xl';
+
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
@@ -11,13 +13,13 @@ html {
 // 58em -  928 - 5
 // 64em - 1024 - 5
 
-@include from(4) {
+@include from('l') {
   html {
     font-size: 16px;
     background-color: green;
   }
 }
-@include from(5) {
+@include from('xl') {
   html {
     font-size: 20px;
     background-color: blue;
@@ -31,7 +33,7 @@ html {
   background-color: #202020;
 }
 
-@include from(4) {
+@include from('l') {
   .sidebar {
     position: fixed;
     top: 0;
@@ -73,7 +75,7 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-@include from(4) {
+@include from('l') {
   .sidebar-top {
     position: absolute;
     right:  1rem;
@@ -82,7 +84,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@include from(4) {
+@include from('l') {
   .sidebar-middle {
     position: absolute;
     right:  1rem;
@@ -92,7 +94,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@include from(4) {
+@include from('l') {
   .sidebar-bottom {
     position: absolute;
     right:  1rem;
@@ -113,7 +115,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@include from(4) {
+@include from('l') {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -121,7 +123,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@include from(5) {
+@include from('xl') {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
