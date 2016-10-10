@@ -1,17 +1,26 @@
 ---
 ---
+@import "vendor/breakpoint";
+@import "vendor/breakpoint-slicer";
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
+
+// 48em -  768 - 4
+// 58em -  928 - 5
+// 64em - 1024 - 5
+
+@include from(4) {
   html {
     font-size: 16px;
+    background-color: green;
   }
 }
-@media (min-width: 58em) {
+@include from(5) {
   html {
     font-size: 20px;
+    background-color: blue;
   }
 }
 
@@ -22,7 +31,7 @@ html {
   background-color: #202020;
 }
 
-@media (min-width: 48em) {
+@include from(4) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -64,7 +73,7 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-@media (min-width: 48em) {
+@include from(4) {
   .sidebar-top {
     position: absolute;
     right:  1rem;
@@ -73,7 +82,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@media (min-width: 48em) {
+@include from(4) {
   .sidebar-middle {
     position: absolute;
     right:  1rem;
@@ -83,7 +92,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@media (min-width: 48em) {
+@include from(4) {
   .sidebar-bottom {
     position: absolute;
     right:  1rem;
@@ -104,7 +113,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@include from(4) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -112,7 +121,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@media (min-width: 64em) {
+@include from(5) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
