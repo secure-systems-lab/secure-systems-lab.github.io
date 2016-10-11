@@ -24,7 +24,7 @@ html {
   color: rgba(255,255,255,.5);
   padding: 2em $side-pad-left;
 
-  @include to('m') {
+  @include to('s') {
      text-align: center;
     width: calc(#{$s-sidebar-width} - 2*#{$side-pad-left});
   }
@@ -78,12 +78,17 @@ html {
 }
 
 .sidebar-nav-item {
-  display: block;
   line-height: 1.75;
+  padding-right: 0.5em;
+  &:last-child { padding-right: 0; }
 
   .active {
     font-weight: bold;
   }
+
+
+  @include to('s') { display: inline-block; }
+  @include from('m') { display: block; }
 }
 
 a.sidebar-nav-item {
@@ -93,26 +98,21 @@ a.sidebar-nav-item {
 }
 
 
-@include from('l') {
-  .sidebar-top {
-    //position: absolute;
-    right:  1rem;
-    top:    1.2rem;
-    left:   1rem;
+.sidebar-bottom {
+  @include to('s') {
+    #copyright { display: none; }
   }
-}
-
-@include from('l') {
-  .sidebar-bottom {
-    //position: absolute;
+  @include from('m') {
+    position: fixed;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
   }
+  
 }
 
 .content {
-  @include   to('m') { margin-left: 0; }
+  @include   to('s') { margin-left: 0; }
   @include from('m') { margin-left: #{$m-sidebar-width}; }
   @include from('l') { margin-left: #{$l-sidebar-width}; }
 }
