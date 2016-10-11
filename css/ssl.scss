@@ -13,6 +13,11 @@ html {
 // 58em -  928 - 5
 // 64em - 1024 - 5
 
+@include from('m') {
+  html {
+    background-color: yellow;
+  }
+}
 @include from('l') {
   html {
     font-size: 16px;
@@ -26,27 +31,32 @@ html {
   }
 }
 
-.sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+.outer {
 }
 
-@include from('l') {
-  .sidebar {
+.sidebar {
+  top: 0;
+  left: 0;
+  background-color: #202020;
+  color: rgba(255,255,255,.5);
+  width: 100%;
+
+  @include to('l') {
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  @include from('l') {
+    position: fixed;
+    height: 100%;
     width: 18rem;
     text-align: left;
   }
-}
 
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
+  a {
+    color: #fff;
+  }
+
 }
 
 /* About section */
@@ -63,21 +73,26 @@ html {
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+
+  .active {
+    font-weight: bold;
+  }
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
+
+a.sidebar-nav-item {
+  hover, focus {
+    text-decoration: underline;
+  }
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
+
 
 @include from('l') {
   .sidebar-top {
-    position: absolute;
+    //position: absolute;
     right:  1rem;
     top:    1.2rem;
     left:   1rem;
@@ -85,50 +100,38 @@ a.sidebar-nav-item:focus {
 }
 
 @include from('l') {
-  .sidebar-middle {
-    position: absolute;
-    right:  1rem;
-    left:   1rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-@include from('l') {
   .sidebar-bottom {
-    position: absolute;
+    //position: absolute;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
   }
 }
 
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
-}
 
-@include from('l') {
-  .content {
-    max-width: 38rem;
+  @include from('l') {
     margin-left: 20rem;
     margin-right: 2rem;
   }
-}
 
-@include from('xl') {
-  .content {
+  @include from('xl') {
     margin-left: 22rem;
     margin-right: 4rem;
   }
 }
 
+.banner {
+  height: 20em;
+  background-color: #dfdfdf;
+}
+
+.mission-statement {
+  //color: black;
+  text-align: center;
+}
+
 @import "theme";
-@import "index";
+//@import "index";

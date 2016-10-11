@@ -1,10 +1,25 @@
 ---
-layout: default
+#layout: default
 title: Home
 ---
-<div class='banner'>
-</div>
+<html lang="en-us">
 
-<h4 class='mission-statement'>
-   The Secure Systems Laboratory at the NYU Tandon School of Engineering exists to identify and design solutions for security threats to software systems
-</div>
+  {% include head.html %}
+
+  <body>
+
+    <div class="outer">
+      {% include sidebar.html %}
+
+      <div class="content">
+        <div class='banner'>
+          <h4 class='mission-statement'>
+             The Secure Systems Laboratory at the NYU Tandon School of Engineering exists to identify and design solutions for security threats to software systems
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </body>
+</html>
