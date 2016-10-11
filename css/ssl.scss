@@ -14,24 +14,9 @@ $side-pad-left: 1rem;
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 
-  @include from('s') {
-    background-color: orange;
+  body {
+    margin: 0;
   }
-  @include from('m') {
-    background-color: yellow;
-  }
-  @include from('l') {
-    font-size: 16px;
-    background-color: green;
-  }
-  @include from('xl') {
-    font-size: 20px;
-    background-color: blue;
-  }
-}
-
-body {
-  margin: 0;
 }
 
 .sidebar {
@@ -59,7 +44,10 @@ body {
 
 
 
-  a { color: #fff; }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 .sidebar-about h1 {
@@ -140,8 +128,6 @@ a.sidebar-nav-item {
   text-align: center;
 }
 
-.sidebar {
-}
 .content a,
 .related-posts li a:hover {
   color: #aa759f;
