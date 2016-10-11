@@ -3,73 +3,88 @@
 @import "vendor/breakpoint";
 @import "vendor/breakpoint-slicer";
 
-$slicer-breakpoint-names: 'xs' 's' 'm' 'l' 'xl';
+//                       0    400   600   800   1050
+$slicer-breakpoint-names: 'xs'   's'   'm'   'l'    'xl';
+
+$s-sidebar-width: 100%;
+$m-sidebar-width: 13rem;
+$l-sidebar-width: 17rem;
+$side-pad-left: 1rem;
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
 
-// 48em -  768 - 4
-// 58em -  928 - 5
-// 64em - 1024 - 5
-
-@include from('m') {
-  html {
+  @include from('s') {
+    background-color: orange;
+  }
+  @include from('m') {
     background-color: yellow;
   }
-}
-@include from('l') {
-  html {
+  @include from('l') {
     font-size: 16px;
     background-color: green;
   }
-}
-@include from('xl') {
-  html {
+  @include from('xl') {
     font-size: 20px;
     background-color: blue;
   }
 }
 
-.outer {
+body {
+  margin: 0;
 }
 
 .sidebar {
-  top: 0;
-  left: 0;
-  background-color: #202020;
+  background-color: #aa759f;
   color: rgba(255,255,255,.5);
-  width: 100%;
+  padding: 2em $side-pad-left;
 
-  @include to('l') {
+  @include to('m') {
+     text-align: center;
+    width: calc(#{$s-sidebar-width} - 2*#{$side-pad-left});
+  }
+  @include from('m') {
     position: fixed;
-    text-align: center;
-    padding: 2rem 1rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    text-align: left;
+
+    width: calc(#{$m-sidebar-width} - 2*#{$side-pad-left});
   }
   @include from('l') {
-    position: fixed;
-    height: 100%;
-    width: 18rem;
-    text-align: left;
+    width: calc(#{$l-sidebar-width} - 2*#{$side-pad-left});
   }
 
-  a {
-    color: #fff;
-  }
 
+
+  a { color: #fff; }
 }
 
-/* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   font-family: "PT Sans", Arial, sans-serif;
-  font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.15;
+
+  
+
+  @include to('s') {
+    font-size: 1.5rem;
+  }
+  @include from('s') {
+    font-size: 2.5rem;
+  }
+  @include from('m') {
+    font-size: 3.0rem;
+  }
+  @include from('l') {
+    font-size: 3.5rem;
+  }
 }
 
-/* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
 }
@@ -109,23 +124,15 @@ a.sidebar-nav-item {
 }
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-
-  @include from('l') {
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
-
-  @include from('xl') {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
+  @include   to('m') { margin-left: 0; }
+  @include from('m') { margin-left: #{$m-sidebar-width}; }
+  @include from('l') { margin-left: #{$l-sidebar-width}; }
 }
 
 .banner {
-  height: 20em;
   background-color: #dfdfdf;
+
+  padding: 4rem 10% 4rem 10%;
 }
 
 .mission-statement {
@@ -133,5 +140,12 @@ a.sidebar-nav-item {
   text-align: center;
 }
 
-@import "theme";
+.sidebar {
+}
+.content a,
+.related-posts li a:hover {
+  color: #aa759f;
+}
+
+//@import "theme";
 //@import "index";
