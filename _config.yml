@@ -1,0 +1,5 @@
+highlighter: true
+permalink: /post/:title
+exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+sass:
+    sass_dir: _sass
