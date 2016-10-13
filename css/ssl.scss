@@ -7,8 +7,8 @@
 $slicer-breakpoint-names: 'xs'   's'   'm'   'l'    'xl';
 
 $s-sidebar-width: 100%;
-$m-sidebar-width: 13rem;
-$l-sidebar-width: 17rem;
+$m-sidebar-width: 16rem;
+$l-sidebar-width: 20rem;
 $side-pad-left: 1rem;
 
 html {
@@ -111,16 +111,46 @@ a.sidebar-nav-item {
   
 }
 
-.content {
+.full-content {
   @include   to('s') { margin-left: 0; }
-  @include from('m') { margin-left: #{$m-sidebar-width}; }
-  @include from('l') { margin-left: #{$l-sidebar-width}; }
+  @include from('m') { margin-left: $m-sidebar-width; }
+  @include from('l') { margin-left: $l-sidebar-width; }
 }
 
-.banner {
-  background-color: #dfdfdf;
+#photo-wrapper {
+  overflow: hidden;
+  text-align: center;
 
-  padding: 4rem 10% 4rem 10%;
+  #photo {
+    display: block;
+    height: 18rem;
+    margin: 0 -100px;
+  }
+}
+
+.content {
+  $content-margin: 5%;
+  @include   to('s') { margin-left: 0; }
+  @include from('m') {
+    margin-left: $content-margin;
+    margin-right: $content-margin;
+  }
+
+  max-width: 600px; // limit lines for readability
+}
+
+
+.banner {
+  background-color: #f5f5f5;
+
+  font-size: 1.5rem;
+  color: #666;
+
+  padding: 1rem 1rem;
+
+  @include from('m') {
+    margin-top: 3rem;
+  }
 }
 
 .mission-statement {
