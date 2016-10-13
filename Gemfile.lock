@@ -45,7 +45,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.2)
-  neat (~> 1.0.0)
+  neat (>= 1.0.0)
 
 BUNDLED WITH
    1.12.5

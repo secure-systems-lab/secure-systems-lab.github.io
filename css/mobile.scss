@@ -1,3 +1,5 @@
+---
+---
 // This file contains shared base styles and will be loaded on all browsers and devices
 
 @import 'bourbon/bourbon';
@@ -199,7 +201,9 @@ header .avatar {
       width: 100%;
       height: 100%;
     }
-    @media (max-width: em(327)) {
+    //@media (max-width: em(327)) {
+    //@include media(max-width 327em) {
+    @media screen and (max-width: em(327)) {
       display: none;
     }
 }
@@ -225,7 +229,8 @@ footer nav {
 
 footer nav ul li {
     @include span-columns(3);
-    @include media(max-width 40em) {
+    //@include media(max-width 40em) {
+    @media screen and (max-width: em(40)) {
         @include span-columns(12);
         margin-bottom: 10px;
         &:nth-child(2n) {
