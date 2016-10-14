@@ -1,7 +1,9 @@
 <footer>
     <nav class="container">
         <ul>
-            <li>&copy; Tyler Benziger 2013</li>
+            {% if site.copyright %}
+            <li>&copy; {{ site.copyright }} </li>
+            {% endif %}
         </ul>
     </nav>
 </footer>
