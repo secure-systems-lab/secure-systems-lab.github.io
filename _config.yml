@@ -4,4 +4,4 @@ exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
 sass:
     sass_dir: _sass
 avatar: img/ssl_lock.png
-base_url: ssl-site
+baseurl: ssl-site
