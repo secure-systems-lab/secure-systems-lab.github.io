@@ -1,0 +1,30 @@
+---
+---
+
+.people-boxes .person {
+  list-style-type: none;
+
+  max-width: 30em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+  margin-bottom: 2em;
+}
+
+.people-boxes .header {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.people-boxes .name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.people-boxes .photo {
+  float: right;
+  display: inline;
+  size: 6em;
+  width: 6em;
+}

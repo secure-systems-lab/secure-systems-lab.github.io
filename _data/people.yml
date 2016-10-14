@@ -1,0 +1,27 @@
+- name: Vladimir Diaz
+  since: 2013
+  photo: img/smiley.jpg
+  interests: Software update security
+  projects: Lead developer for <a href="https://theupdateframework.github.io/">TUF</a>
+  publications:
+    - name: NSDI 16
+      link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf
+    - name: PEP 458
+      link: https://www.python.org/dev/peps/pep-0458/
+    - name: PEP 480
+      link: http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html
+  deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at  repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI). 
+
+- name: Lukas Pühringer
+  since: 2016
+  photo: img/smiley.jpg
+  interests:  Security in operating systems and full stack networking; <br \> Distributed software development and version control systems; Front-end development and graphical user interfaces
+  projects: Lead Developer for Toto
+  publications:
+    - name: PIK 2013
+      link: https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf
+    - name: TryRepy Wiki
+      link: https://seattle.poly.edu/wiki/TryRepy
+  deployments: <a href="https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf">Sensorium Framework</a> (used on dozens of smartphones to capture data for Open3GMap), Sensibility Testbed.
+
+
