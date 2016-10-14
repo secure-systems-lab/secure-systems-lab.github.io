@@ -1,4 +1,4 @@
-highlighter: true
+highlighter: rouge
 permalink: /post/:title
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
 sass:
