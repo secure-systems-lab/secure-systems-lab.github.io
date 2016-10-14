@@ -1,0 +1,30 @@
+---
+---
+
+$blue: #6EC5FF;
+
+nav.main li a {
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  &:hover {
+    border-bottom: 10px solid $blue;
+    padding-bottom: 14px;
+    margin-bottom: -20px;
+    //width: calc(100%+500px);
+  }
+}
+
+nav.subnav li a {
+  margin-right: -1px;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  &:hover {
+    border-top: 10px solid $blue;
+    padding-top: 14px;
+    margin-top: -20px;
+  }
+}
+

@@ -129,12 +129,14 @@ header .nav-slider {
   height: 10px;
   background-color: $black;
   position: relative;
+  z-index: -1;
 }
 
 header .nav-selection {
     position: absolute;
     height: 10px;
-    background-color: $blue;
+    background-color: black;
+    //background-color: green;
 }
 
 header .nav-selection.about {
@@ -152,12 +154,12 @@ header .nav-selection.projects {
     left: 107px;
 }
 
-header .subnav-selection {
-  position: absolute;
-  height: 10px;
-  background-color: $black;
-  width: 50px;
-}
+//header .subnav-selection {
+//  position: absolute;
+//  height: 10px;
+//  background-color: $black;
+//  width: 50px;
+//}
 
 header .subnav-selection.exemplar-home {
   right: 140px;
