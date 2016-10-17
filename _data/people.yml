@@ -1,4 +1,5 @@
 - name: Vladimir Diaz
+  role: Developer
   since: 2013
   photo: img/smiley.jpg
   interests: Software update security
@@ -10,12 +11,13 @@
       link: https://www.python.org/dev/peps/pep-0458/
     - name: PEP 480
       link: http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html
-  deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at  repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI). 
+  deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI). 
 
 - name: Lukas Pühringer
+  role: Developer
   since: 2016
   photo: img/smiley.jpg
-  interests:  Security in operating systems and full stack networking; <br \> Distributed software development and version control systems; Front-end development and graphical user interfaces
+  interests:  Security in operating systems and full stack networking. Distributed software and version control systems.
   projects: Lead Developer for Toto
   publications:
     - name: PIK 2013

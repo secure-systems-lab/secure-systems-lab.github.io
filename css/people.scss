@@ -1,30 +1,72 @@
 ---
 ---
 
-.people-boxes .person {
-  list-style-type: none;
+.people-boxes {
+  margin-top: 3em;
+  font-size: 0.8em;
+}
 
-  max-width: 30em;
-  border-width: 2px;
+.people-boxes li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.people-boxes .person {
+  max-width: 35rem;
+  border-width: 5px;
   border-style: solid;
   border-color: black;
+  padding: 1rem;
 
-  margin-bottom: 2em;
+  position: relative;
+  height: 20rem;
 }
 
 .people-boxes .header {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
+  display: block;
 }
 
 .people-boxes .name {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .people-boxes .photo {
-  float: right;
-  display: inline;
-  size: 6em;
-  width: 6em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem 1rem;
+  width: 8rem;
+  border-style: solid;
+  border-width: 2px;
 }
+
+.people-boxes .role {
+  font-style: italic;
+}
+
+.people-boxes .interests {
+  position: absolute;
+  top: 4.5rem;
+  width: 65%;
+}
+
+.people-boxes .publications {
+  position: absolute;
+  top: 10rem;
+  left: 14rem;
+}
+
+.people-boxes .projects {
+  position: absolute;
+  top: 10rem;
+}
+
+.people-boxes .deployments {
+  position: absolute;
+  top: 14rem;
+}
+
+
