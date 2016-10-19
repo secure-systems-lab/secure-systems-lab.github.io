@@ -7,7 +7,7 @@ Though all of SSL’s research initiatives—past and present— revolve around 
 
 ## Current & Ongoing Projects
 
-##### *Remote Utilization and Testing of Wireless Devices* 
+##### Remote Utilization and Testing of Wireless Devices
 
 - **Seattle**: The oldest of the lab’s projects, and the foundation technology behind several emerging initiatives, one of which is described below. Seattle is a platform for networking and distributed systems research that runs on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to over 40K geographically distributed devices around the world. https://seattle.poly.edu/html/.
   - Products: Educational modules for classroom use designed to teach basic concepts in networking and system security; A clearinghouse of available resources to be accessed by users.  

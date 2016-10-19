@@ -7,6 +7,7 @@
 
 $sansFamily: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $headingFamily: 'Bebas Neue', Helvetica, Arial, sans-serif;
+$headingFamilyLight: 'Bebas Neue Book', Helvetica, Arial, sans-serif;
 $white: #FFFFFF;
 $black: #111;
 $darkGrey: #222;
@@ -32,12 +33,11 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5 {
+
+h1, h2, h3, h4, h5, h6 {
     color: $darkGrey;
-    font-family: $headingFamily;
-    text-transform: uppercase;
-    font-weight: normal;
     line-height: 0.8em;
+    font-weight: normal;
     margin: 0.4em 0;
     a {
         color: inherit;
@@ -47,24 +47,41 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-family: $headingFamily;
+}
+
+h4, h5, h6 {
+    font-family: $headingFamilyLight;
+}
+
+h5.logo {
+    font-family: $headingFamily;
+}
+
 h1 {
     font-size: 4em;
 }
 
 h2 {
-    font-size: 3.5em;
-}
-
-h3 {
     font-size: 3em;
 }
 
-h4 {
+h3 {
     font-size: 2.5em;
 }
 
-h5 {
+h4 {
     font-size: 2em;
+}
+
+h5 {
+    font-size: 1.7em;
+}
+
+h6 {
+    font-size: 1.3em;
 }
 
 h1.hero {
