@@ -11,7 +11,7 @@
       link: https://www.python.org/dev/peps/pep-0458/
     - name: PEP 480
       link: http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html
-  deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI). 
+  deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI).
 
 - name: Lukas Pühringer
   role: Developer
@@ -24,6 +24,15 @@
       link: https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf
     - name: TryRepy Wiki
       link: https://seattle.poly.edu/wiki/TryRepy
-  deployments: <a href="https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf">Sensorium Framework</a> (used on dozens of smartphones to capture data for Open3GMap), Sensibility Testbed.
+  deployments: <a href="https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf">Sensorium Framework</a> (used on smartphones to capture data for Open3GMap), Sensibility Testbed.
 
-
+- name: Dan Gopstein
+  role: Ph.D. Student (co-advised with Andy Nealen)
+  since: 2015
+  photo: img/smiley.jpg
+  interests: Programming languages and software systems
+  projects: <a href="https://atomsofconfusion.com/">Atoms of Confusion</a>
+  publications:
+    - name: SIGGRAPH Asia 2015
+      link: http://game.engineering.nyu.edu/projects/animesh/
+  deployments: <a href="https://rubygems.org/gems/deep_enumerable">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href="https://dgopstein.github.io/clust.bin.pair/">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data.
