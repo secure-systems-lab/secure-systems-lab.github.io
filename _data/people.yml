@@ -1,5 +1,5 @@
 
-#### Staff
+Staff
 - name: Justin Cappos
   role: Lab Director
   since:
@@ -51,8 +51,6 @@
       link: http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html
   deployments:  TUF (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI).
 
-
-
 - name: Lukas Pühringer
   role: Developer
   since: 2016
@@ -66,7 +64,7 @@
       link: https://seattle.poly.edu/wiki/TryRepy
   deployments: <a href="https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf">Sensorium Framework</a> (used on smartphones to capture data for Open3GMap), Sensibility Testbed.
 
-####Ph.D. Students
+Students
 
 - name: Yiwen Li
   role: Third year Ph.D. Candidate
@@ -78,7 +76,7 @@
       - name: NENS 2014 (poster)
         link: http://systems.cs.brown.edu/nens/?page_id=21
       - name: CATT 2014 (poster)
-        link: 
+        link:
 
 - name: Santiago Torres-Arias
   role: Second year Ph.D. Candidate
@@ -105,3 +103,43 @@
     - name: SIGGRAPH Asia 2015
       link: http://game.engineering.nyu.edu/projects/animesh/
   deployments: <a href="https://rubygems.org/gems/deep_enumerable">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href="https://dgopstein.github.io/clust.bin.pair/">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data.
+
+- name: Devon J. Powell
+  role: First year Ph.D. Student
+  since: 2016
+  photo: img/smiley.jpg
+  interests: Computer security, software engineering
+  projects: <a href="https://atomsofconfusion.com/">Atoms of Confusion</a>
+  GitHub Repo: https://github.com/D-Pow?tab=repositories
+
+- name: Rohan Ketan Bhirangi
+  role: Master's Student
+  since:
+  photo: img/smiley.jpg
+  interests: Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning
+  projects: Sensibility Testbed, Seatlle
+  publications:
+    - name: IJERT 2016
+      link:   http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf
+  deployments: Worked on sensor calibration [https://github.com/RohanBhirangi/Sensor-Calibration] and unit testing framework [https://github.com/RohanBhirangi/Sensor-Unit-Testing] for Sensibility Testbed. Developed a Python script which replicates all of the Seash functionality to automate the entire Sensibility-Seash process.
+
+- name: Shuyuan "Lolally" Luo
+  role: Undergradute Student
+  since:
+  photo: img/smiley.jpg
+  interests: Cyber security
+  projects: PolyPasswordHasher
+  deployments: Pluggable Authentication Module (PAM) for PolyPasswordHasher
+
+  Collaborators
+
+  - name: Kejian Wang
+    role: Research Intern
+    since:
+    photo: img/smiley.jpg
+    interests: Building secure future software/protecting unsafe existed software for real world
+    projects: TUF
+    publications:
+      - name: IJERT 2016
+        link:
+    deployments: Continuous Build and Integration System (CBIS), allows developer’s code to be continuously integrated into developing without aﬀecting other teammates’ work; Knotes, An android application to record and calculate bills for people living together. 
