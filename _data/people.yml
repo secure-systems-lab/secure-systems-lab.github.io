@@ -1,7 +1,7 @@
 - name: "Justin Cappos"
   role: "Lab Director"
   since: 2010
-  photo: "img/justin.jpg"
+  photo: "img/people/justin.jpg"
   interests: "Solving real world security problems in practice"
   projects: "Seattle, TUF, Toto [], PolyPasswordHasher, Uptane,  ... [link to projects page]"
   publications:
@@ -22,11 +22,11 @@
 - name: "Alfred Rafetseder"
   role: "Research Professor"
   since: "2011"
-  photo: "img/aaaalbert.jpg"
+  photo: "img/people/aaaalbert.jpg"
   interests: "Building useful, usable experimental platforms for research, education, and the general public."
   projects: "Seattle, Sensibility Testbed"
   publications:
-    - name: ";login: 2015"
+    - name: "login 2015"
       link: "http://isis.poly.edu/~jcappos/papers/zhuang_sensibility_login_2015.pdf"
     - name: "GREE 2013"
       link: "http://isis.poly.edu/~jcappos/papers/zhuang_seattle_gree_13.pdf"
@@ -37,7 +37,7 @@
 - name: "Vladimir Diaz"
   role: "Developer"
   since: "2013"
-  photo: "img/smiley.jpg"
+  photo: "img/people/smiley.jpg"
   interests: "Software update security"
   projects: "Lead developer for <a href=\"https://theupdateframework.github.io/\">TUF</a>"
   publications:
@@ -52,7 +52,7 @@
 - name: "Lukas Pühringer"
   role: "Developer"
   since: "2016"
-  photo: "img/smiley.jpg"
+  photo: "img/people/lukas.jpg"
   interests: " Security in operating systems and full stack networking. Distributed software and version control systems."
   projects: "Lead Developer for in-toto"
   publications:
@@ -65,7 +65,7 @@
 - name: "Yiwen Li"
   role: "Third year Ph.D. Candidate"
   since: "2013"
-  photo: "img/smiley.jpg"
+  photo: "img/people/yiwen.jpg"
   interests: "Operating system security, virtualization, network security"
   projects: "Lind, Caging"
   publications:
@@ -77,7 +77,7 @@
 - name: "Santiago Torres-Arias"
   role: "Second year Ph.D. Candidate"
   since: "2014"
-  photo: "img/smiley.jpg"
+  photo: "img/people/smiley.jpg"
   interests: "Password protection and securing the software supply chain"
   projects: "PolyPasswordHasher, in-toto"
   publications:
@@ -92,7 +92,7 @@
 - name: "Dan Gopstein"
   role: "Ph.D. Student (co-advised with Andy Nealen)"
   since: "2015"
-  photo: "img/smiley.jpg"
+  photo: "img/people/smiley.jpg"
   interests: "Programming languages and software systems"
   projects: "<a href=\"https://atomsofconfusion.com/\">Atoms of Confusion</a>"
   publications:
@@ -103,7 +103,7 @@
 - name: "Devon J. Powell"
   role: "First year Ph.D. Student"
   since: "2016"
-  photo: "img/smiley.jpg"
+  photo: "img/people/devon.jpg"
   interests: "Computer security, software engineering"
   projects: "<a href=\"https://atomsofconfusion.com/\">Atoms of Confusion</a>"
   github: "https://github.com/D-Pow?tab=repositories"
@@ -111,7 +111,7 @@
 - name: "Rohan Ketan Bhirangi"
   role: "Master's Student"
   since:
-  photo: "img/smiley.jpg"
+  photo: "img/people/rohan.jpg"
   interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning"
   projects: "Sensibility Testbed, Seatlle"
   publications:
@@ -119,10 +119,10 @@
       link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
   deployments: "Worked on sensor calibration [https://github.com/RohanBhirangi/Sensor-Calibration] and unit testing framework [https://github.com/RohanBhirangi/Sensor-Unit-Testing] for Sensibility Testbed. Developed a Python script which replicates all of the Seash functionality to automate the entire Sensibility-Seash process."
 
-- name: "Shuyuan \"Lolally\" Luo"
+- name: "Shuyuan \"Lolaly\" Luo"
   role: "Undergradute Student"
   since:
-  photo: "img/smiley.jpg"
+  photo: "img/people/lolaly.jpg"
   interests: "Cyber security"
   projects: "PolyPasswordHasher"
   deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
@@ -130,7 +130,7 @@
 - name: "Kejian Wang"
   role: "Research Intern"
   since:
-  photo: "img/smiley.jpg"
+  photo: "img/people/smiley.jpg"
   interests: "Building secure future software/protecting unsafe existed software for real world"
   projects: "TUF"
   publications:
