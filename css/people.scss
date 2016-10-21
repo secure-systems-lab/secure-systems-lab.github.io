@@ -28,7 +28,7 @@
   font-weight: bold;
   font-size: 1.2rem;
   display: block;
-  margin-top: 0.3em;
+  margin-top: 0.5em;
 }
 
 $photo_width: 8rem;
@@ -61,8 +61,7 @@ $photo_margin: 1rem;
 }
 
 .people-boxes .projects {
-  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
-  
+//  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
   @media(min-width: $tablet) {
     width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
     display: inline-block;
@@ -71,7 +70,7 @@ $photo_margin: 1rem;
 }
 
 .people-boxes .publications {
-  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
+//  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
   @media(min-width: $tablet) {
     width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
     display: inline-block;
