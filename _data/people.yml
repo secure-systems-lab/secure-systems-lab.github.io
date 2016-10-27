@@ -98,7 +98,7 @@
   publications:
     - name: "SIGGRAPH Asia 2015"
       link: "http://game.engineering.nyu.edu/projects/animesh/"
-  deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://dgopstein.github.io/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
+  deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
 
 - name: "Devon J. Powell"
   role: "First year Ph.D. Student"
