@@ -94,7 +94,7 @@
   since: "2015"
   photo: "img/people/smiley.jpg"
   interests: "Programming languages and software systems"
-  projects: "<a href=\"https://atomsofconfusion.com/\">Atoms of Confusion</a>"
+  projects: "<a href=\"http://atomsofconfusion.com/\">Atoms of Confusion</a>"
   publications:
     - name: "SIGGRAPH Asia 2015"
       link: "http://game.engineering.nyu.edu/projects/animesh/"
@@ -105,7 +105,7 @@
   since: "2016"
   photo: "img/people/devon.jpg"
   interests: "Computer security, software engineering"
-  projects: "<a href=\"https://atomsofconfusion.com/\">Atoms of Confusion</a>"
+  projects: "<a href=\"http://atomsofconfusion.com/\">Atoms of Confusion</a>"
   github: "https://github.com/D-Pow?tab=repositories"
 
 - name: "Rohan Ketan Bhirangi"

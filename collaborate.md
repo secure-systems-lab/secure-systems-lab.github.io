@@ -11,4 +11,4 @@ To apply to work with us, please email jcappos@nyu.edu with “Lab application�
 
 *Practitioners and Community*
 
-Our lab initiatives are performed as open source projects that are free for everyone to use.  Code and relevant documents are posted on GitHub to be accessed and worked with by other developers. If you’ve
+Our lab initiatives are performed as open source projects that are free for everyone to use.  Code and relevant documents are posted on GitHub to be accessed and worked with by other developers. Feel free to adapt and use code, and report back on your adaptations.
