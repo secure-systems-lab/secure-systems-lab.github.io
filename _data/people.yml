@@ -22,7 +22,7 @@
 - name: "Alfred Rafetseder"
   role: "Research Professor"
   since: "2011"
-  photo: "img/people/aaaalbert.jpg"
+  photo: "img/people/smiley.jpg"
   interests: "Building useful, usable experimental platforms for research, education, and the general public."
   projects: "Seattle, Sensibility Testbed"
   publications:
@@ -39,7 +39,7 @@
   since: "2013"
   photo: "img/people/smiley.jpg"
   interests: "Software update security"
-  projects: "Lead developer for <a href=\"https://theupdateframework.github.io/\">TUF</a>"
+  projects: "Lead developer for <a href=\"https://theupdateframework.github.io/\">TUF</a>; Assisted with TUF extensions, Uptane and Toto, as well as Seattle and PolypasswordHasher"
   publications:
     - name: "NSDI 16"
       link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
