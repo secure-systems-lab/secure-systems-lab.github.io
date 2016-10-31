@@ -6,7 +6,7 @@ people:
       - name: "Justin Cappos"
         role: "Lab Director"
         since: 2010
-        photo: "img/people/justin.jpg"
+        photo: "img/people/justin_cappos.jpg"
         site: "https://isis.poly.edu/~jcappos/"
         interests: "Solving real world security problems in practice"
         projects: "Seattle, TUF, Toto [], PolyPasswordHasher, Uptane,  ... [link to projects page]"
@@ -43,7 +43,7 @@ people:
       - name: "Sam Weber"
         role: "Research Professor"
         since: "2016"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/sam_weber.jpg"
         interests: "Secure development proesses, Cybersecurity."
         projects: "Atoms of Confusion"
         publications:
@@ -80,7 +80,7 @@ people:
       - name: "Vladimir Diaz"
         role: "Developer"
         since: "2013"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/vlad_diaz.jpg"
         interests: "Software update security"
         projects: "Lead developer for <a href=\"https://theupdateframework.github.io/\">TUF</a>; Assisted with TUF extensions, Uptane and Toto, as well as Seattle and PolypasswordHasher"
         publications:
@@ -106,7 +106,7 @@ people:
       - name: "Lukas Pühringer"
         role: "Developer"
         since: "2016"
-        photo: "img/people/lukas.jpg"
+        photo: "img/people/lukas_puhringer.jpg"
         interests: " Security in operating systems and full stack networking. Distributed software and version control systems."
         projects: "Lead Developer for in-toto"
         publications:
@@ -119,7 +119,7 @@ people:
       - name: "Lois Anne DeLong"
         role: "Research Associate/Technical Writer"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/lois_delong.jpg"
         interests: "Experimental design involving human subjects; links between natural languages and programming languages"
         projects: "Atoms of Confusion, API Blindspots, plus editorial support for all lab projects"
     
@@ -145,7 +145,7 @@ people:
       - name: "Yiwen Li"
         role: "Third year Ph.D. Candidate"
         since: "2013"
-        photo: "img/people/yiwen.jpg"
+        photo: "img/people/yiwen_li.jpg"
         interests: "Operating system security, virtualization, network security"
         projects: "Lind, Caging"
         publications:
@@ -157,7 +157,7 @@ people:
       - name: "Santiago Torres-Arias"
         role: "Second year Ph.D. Candidate"
         since: "2014"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/santiago_torres.png"
         interests: "Password protection and securing the software supply chain"
         projects: "PolyPasswordHasher, in-toto"
         publications:
@@ -183,7 +183,7 @@ people:
       - name: "Ghada Almashaqbeh"
         role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/ghada_almashaqbeh.jpg"
         interests: "Cryptography, security, distributed computing"
         projects: "CacheCash"
         publications:
@@ -196,7 +196,7 @@ people:
       - name: "Devon J. Powell"
         role: "First year Ph.D. Student"
         since: "2016"
-        photo: "img/people/devon.jpg"
+        photo: "img/people/devon_powell.jpg"
         interests: "Computer security, software engineering"
         projects: "<a href=\"http://atomsofconfusion.com/\">Atoms of Confusion</a>"
         github: "https://github.com/D-Pow?tab=repositories"
@@ -206,7 +206,7 @@ people:
       - name: "Rohan Ketan Bhirangi"
         role: "Master's Student"
         since:
-        photo: "img/people/rohan.jpg"
+        photo: "img/people/rohan_bhirangi.jpg"
         interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning"
         projects: "Sensibility Testbed, Seatlle"
         publications:
@@ -217,7 +217,7 @@ people:
       - name: "Ajay Shenoy"
         role: "Master's Student"
         since: 2015
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/ajay_shenoy.png"
         interests: "Addressing security flaws within cloud computing bases; Testing functionality for for bugs"
         projects: "Seatlle, Totolly Secure"
         deployments: "designed Totolly Secure, a version control checker for identifying malicious commits	https://github.com/kellender/Totolly-Secure; Contributed code to a porting strace https://github.com/SeattleTestbed/seattlelib_v2/pull/190 and added trigonometric functions to `math.r2py,” both in Seatle  https://github.com/SeattleTestbed/seattlelib_v2/pull/181"
@@ -232,7 +232,7 @@ people:
       - name: "Shuyuan \"Lolaly\" Luo"
         role: "Undergradute Student"
         since:
-        photo: "img/people/lolaly.jpg"
+        photo: "img/people/lolaly_luo.jpg"
         interests: "Cyber security"
         projects: "PolyPasswordHasher"
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
@@ -240,7 +240,7 @@ people:
       - name: "Kejian Wang"
         role: "Research Intern"
         since:
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/kejian_wang.jpg"
         interests: "Building secure future software/protecting unsafe existed software for real world"
         projects: "TUF"
         publications:
