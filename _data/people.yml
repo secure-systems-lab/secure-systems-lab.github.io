@@ -7,6 +7,7 @@ people:
         role: "Lab Director"
         since: 2010
         photo: "img/people/justin.jpg"
+        site: "https://isis.poly.edu/~jcappos/"
         interests: "Solving real world security problems in practice"
         projects: "Seattle, TUF, Toto [], PolyPasswordHasher, Uptane,  ... [link to projects page]"
         publications:

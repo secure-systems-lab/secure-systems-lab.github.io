@@ -15,8 +15,17 @@ layout: default
   {% for person in type.people %}
     <li>
       <div class="person">
-        <div class="name"> {{ person.name }} </div>
-        <div class="role"> {{ person.role }} </div>
+        <div class="name">
+	  {{ person.name }}
+
+	</div>
+        <div class="role">
+	  {{ person.role }}
+
+	  {% if person.site %}
+          &nbsp;&nbsp;-<span class="site"> <a href="{{ person.site }}">website</a> </span>
+	  {% endif %}
+	</div>
         <img class="photo" src="{{ person.photo }}" />
         <div class="interests">
           <span class="header">Research Interests</span>
@@ -26,17 +35,19 @@ layout: default
           <span class="header">Lab Projects</span>
           {{ person.projects }}
         </div>
-        <div class="publications">
-          <span class="header">Publications</span>
-          {% assign pubLinks = '' | split:':' %}
-          {% for publication in person.publications %}
-            {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
-            {% assign pubLinks = pubLinks | push: pubLink %}
-          {% endfor %}
-  
-  
-          {{ pubLinks | array_to_sentence_string }}
-        </div>
+        {% if person.publications %}
+          <div class="publications">
+            <span class="header">Publications</span>
+            {% assign pubLinks = '' | split:':' %}
+            {% for publication in person.publications %}
+              {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
+              {% assign pubLinks = pubLinks | push: pubLink %}
+            {% endfor %}
+  	  
+  	  
+            {{ pubLinks | array_to_sentence_string }}
+          </div>
+	{% endif %}
         <div class="deployments">
           <span class="header">Software/System Deployments</span>
           {{ person.deployments }}
