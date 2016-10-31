@@ -3,9 +3,22 @@
 
 @import 'variables';
 
+.intro {
+  margin-top: 2em;
+  font-size: 20pt;
+  text-align: justify;
+  padding: 0 1em;
+}
+
+.type {
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+}
+
 .people-boxes {
   margin-top: 3em;
   font-size: 0.8em;
+  padding: 0 2em;
 }
 
 .people-boxes li {
@@ -52,8 +65,7 @@ $photo_margin: 1rem;
 
 .people-boxes .role {
   max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
-  font-style: italic;
-  
+  font-style: italic;  
 }
 
 .people-boxes .interests {
@@ -61,7 +73,6 @@ $photo_margin: 1rem;
 }
 
 .people-boxes .projects {
-//  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
   @media(min-width: $tablet) {
     width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
     display: inline-block;
@@ -70,17 +81,10 @@ $photo_margin: 1rem;
 }
 
 .people-boxes .publications {
-//  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
   @media(min-width: $tablet) {
     width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
     display: inline-block;
     vertical-align: top;
   }
-
 }
-
-
-.people-boxes .deployments {
-}
-
 

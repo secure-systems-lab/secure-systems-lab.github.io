@@ -5,40 +5,48 @@ layout: default
 
 <link rel="stylesheet" href="{{ site.baseurl }}css/people.css">
 
+
+<div class="intro">{{ site.data.people.intro }}</div>
+
+
+{% for type in site.data.people.people %}
+<h2 class="type">{{ type.type }}</h2>
 <ul class="people-boxes">
-{% for person in site.data.people %}
-  <li>
-    <div class="person">
-      <div class="name"> {{ person.name }} </div>
-      <div class="role"> {{ person.role }} </div>
-      <img class="photo" src="{{ person.photo }}" />
-      <div class="interests">
-        <span class="header">Research Interests</span>
-        {{ person.interests }}
+  {% for person in type.people %}
+    <li>
+      <div class="person">
+        <div class="name"> {{ person.name }} </div>
+        <div class="role"> {{ person.role }} </div>
+        <img class="photo" src="{{ person.photo }}" />
+        <div class="interests">
+          <span class="header">Research Interests</span>
+          {{ person.interests }}
+        </div>
+        <div class="projects">
+          <span class="header">Lab Projects</span>
+          {{ person.projects }}
+        </div>
+        <div class="publications">
+          <span class="header">Publications</span>
+          {% assign pubLinks = '' | split:':' %}
+          {% for publication in person.publications %}
+            {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
+            {% assign pubLinks = pubLinks | push: pubLink %}
+          {% endfor %}
+  
+  
+          {{ pubLinks | array_to_sentence_string }}
+        </div>
+        <div class="deployments">
+          <span class="header">Software/System Deployments</span>
+          {{ person.deployments }}
+        </div>
       </div>
-      <div class="projects">
-        <span class="header">Lab Projects</span>
-        {{ person.projects }}
-      </div>
-      <div class="publications">
-        <span class="header">Publications</span>
-        {% assign pubLinks = '' | split:':' %}
-        {% for publication in person.publications %}
-          {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
-          {% assign pubLinks = pubLinks | push: pubLink %}
-        {% endfor %}
-
-
-        {{ pubLinks | array_to_sentence_string }}
-      </div>
-      <div class="deployments">
-        <span class="header">Software/System Deployments</span>
-        {{ person.deployments }}
-      </div>
-    </div>
-  </li>
+    </li>
+    {% endfor %}
+    </ul>
 {% endfor %}
-</ul>
+
 
 <div class="people-box">
 </div>
