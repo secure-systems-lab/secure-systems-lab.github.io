@@ -46,7 +46,7 @@ people:
         role: "Research Professor"
         since: "2016"
         photo: "img/people/sam_weber.jpg"
-        interests: "Secure development proesses, Cybersecurity."
+        interests: "Secure development processes, Cybersecurity."
         projects: "Atoms of Confusion"
         publications:
           - name: "ICSE 2016"
