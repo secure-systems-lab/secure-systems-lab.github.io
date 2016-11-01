@@ -9,7 +9,7 @@ people:
         photo: "img/people/justin_cappos.jpg"
         site: "https://isis.poly.edu/~jcappos/"
         interests: "Solving real world security problems in practice"
-        projects: "<a href=\"https://seattle.poly.edu/\">Seattle</a>; <a href=\"https://theupdateframework.github.io/\">TUF</a>, Toto [], PolyPasswordHasher, Uptane,  ... [link to projects page]"
+        projects: "<a href=\"https://seattle.poly.edu/\">Seattle</a>; <a href=\"https://theupdateframework.github.io/\">TUF</a>, <a href=\"https://polypasswordhasher.github.io/PolyPasswordHasher/\">PolyPasswordHasher</a>, <a href=\"https://uptane.github.io/\">Uptane</a>,  <a href=\"projects\">...</a>"
         publications:
           - name: "USENIX Security 2016"
             link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
