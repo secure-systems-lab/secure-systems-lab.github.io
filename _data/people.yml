@@ -23,7 +23,7 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/hooshangi_sigcse15.pdf"
           - name: "NSDI 2014"
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_netcheck_nsdi_14.pdf"
-          - name: "many more"
+          - name: "others"
             link: "https://isis.poly.edu/~jcappos/publications.php"
         deployments: "TUF used in Docker, fixing tag issues in git [url], Seattle deployed on thousands of devices [link], Stork's security model used in APT [link], Yum [link], YaST, Pacman [link]"
       
