@@ -9,7 +9,7 @@ Before committing changes, please make sure you commit looks good by checking yo
 - Open a terminal and `cd` to the directory where you've checked out this project
 - *First time only* install necessary ruby packages with `bundler install`
 - Run the local jekyll server: `jekyll build --trace  --baseurl '/' && jekyll serve --incremental --port 7000 --baseurl '/'`
-- View your draft at [localhost:7000](localhost:7000)
+- View your draft at [http://localhost:7000](http://localhost:7000)
 - Most files will be automatically re-processed as long as the server is running, if you edit a *.yml* file, however, you will need to manually kill the server and re-run the build command.
 
 
