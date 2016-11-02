@@ -1,10 +1,10 @@
 # Secure Systems Lab website
 
-This is the website for the Secure Systems Lab. You can see a live demo of this site at [dgopstein.github.io/ssl-site/](https://dgopstein.github.io/ssl-site/)
+This is the repository for the Secure Systems Lab website. You can see a live demo of this site at [dgopstein.github.io/ssl-site/](https://dgopstein.github.io/ssl-site/)
 
 ## Building locally
 
-Before committing changes, please make sure you commit looks good by checking your change locally.
+Before committing changes, please make sure your commit looks good by checking your change locally.
 
 - Open a terminal and `cd` to the directory where you've checked out this project
 - *First time only* install necessary ruby packages with `bundler install`
