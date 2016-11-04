@@ -236,7 +236,7 @@ people:
         since:
         photo: "img/people/rohan_bhirangi.jpg"
         interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning"
-        projects: "Sensibility Testbed, Seatlle"
+        projects: "Sensibility Testbed, Seattle"
         publications:
           - name: "IJERT 2016"
             link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
