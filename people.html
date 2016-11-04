@@ -37,7 +37,7 @@ layout: default
             <span class="header">Projects</span>
             {% assign pubLinks = '' | split:':' %}
             {% for project in person.projects %}
-              {% capture pubLink %}<a href="{{ project.link }}">{{ project.name }}</a>{% endcapture %}
+            {% capture pubLink %}{% if project.link %}<a href="{{ project.link }}">{% endif %}{{ project.name }}{% if project.link %}</a>{% endif %}{% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  
@@ -51,7 +51,7 @@ layout: default
             <span class="header">Publications</span>
             {% assign pubLinks = '' | split:':' %}
             {% for publication in person.publications %}
-              {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
+            {% capture pubLink %}{% if publication.link %}<a href="{{ publication.link }}">{% endif %}{{ publication.name }}{% if publication.link %}</a>{% endif %} {% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  

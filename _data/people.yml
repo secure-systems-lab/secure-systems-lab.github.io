@@ -1,19 +1,33 @@
 projects:
-  - seattle: &seattle
-      name: Seattle
-      link: "https://seattle.poly.edu/"
-  - tuf: &tuf
-      name: TUF
-      link: "https://theupdateframework.github.io/"
+  - atoms: &atoms
+      name: "Atoms of Confusion"
+  - blindspots: &blindspots
+      name: "API Blindspots"
+  - cachecash: &cachecash
+      name: CacheCash
+  - lind: &lind
+      name: Lind
+  - netcheck: &netcheck
+      name: NetCheck
+  - caging: &caging
+      name: Caging
   - pph: &pph
       name: PolyPasswordHasher
       link: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-  - uptane: &uptane
-      name: Uptane
-      link: "https://uptane.github.io/"
+  - seattle: &seattle
+      name: Seattle
+      link: "https://seattle.poly.edu/"
   - sensibility: &sensibility
       name: "Sensibility Testbed"
       link: "https://sensibilitytestbed.com"
+  - toto: &toto
+      name: Toto
+  - tuf: &tuf
+      name: TUF
+      link: "https://theupdateframework.github.io/"      
+  - uptane: &uptane
+      name: Uptane
+      link: "https://uptane.github.io/"
   - more: &more
       name: "[more]"
       link: "projects"
@@ -58,7 +72,9 @@ people:
         since: "2011"
         photo: "img/people/albert_rafetseder.jpg"
         interests: "Building useful, usable experimental platforms for research, education, and the general public."
-        projects: "<a href=\"https://seattle.poly.edu/\">Seattle</a>, Sensibility Testbed"
+        projects:
+          - *seattle
+          - *sensibility
         publications:
           - name: "login 2015"
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_sensibility_login_2015.pdf"
@@ -73,7 +89,8 @@ people:
         since: "2016"
         photo: "img/people/sam_weber.jpg"
         interests: "Secure development processes, Cybersecurity."
-        projects: "Atoms of Confusion"
+        projects:
+          - *atoms
         publications:
           - name: "ICSE 2016"
             link: "http://dx.doi.org/10.1145/2884781.2884798"
@@ -91,7 +108,10 @@ people:
         since: "2014"
         photo: "img/people/smiley.jpg"
         interests: "Mobile systems, wireless networks, privacy and security."
-        projects: "Sensibility Testbed, NetCheck, Atoms of Confusion"
+        projects:
+          - *sensibility
+          - *netcheck
+          - *atoms
         publications:
           - name: "TrustCom 2015"
             link: "http://isis.poly.edu/~jcappos/papers/weiss_trustcom2015.pdf"
@@ -110,7 +130,12 @@ people:
         since: "2013"
         photo: "img/people/vlad_diaz.jpg"
         interests: "Software update security"
-        projects: "Lead developer for <a href=\"https://theupdateframework.github.io/\">TUF</a>; Assisted with TUF extensions, Uptane and Toto, as well as Seattle and PolypasswordHasher"
+        projects:
+          - *tuf
+          - *uptane
+          - *toto
+          - *seattle
+          - *pph
         publications:
           - name: "NSDI 16"
             link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
@@ -125,7 +150,11 @@ people:
         since: "2015"
         photo: "img/people/smiley.jpg"
         interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
-        projects: "Uptane, TUF, Python dependency management, Seattle"
+        projects:
+          - *uptane
+          - *tuf
+          - name: "Python dependency managment"
+          - *seattle  
         publications:
           - name: "escar 2016"
             link: "https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf"
@@ -136,7 +165,8 @@ people:
         since: "2016"
         photo: "img/people/lukas_puhringer.jpg"
         interests: " Security in operating systems and full stack networking. Distributed software and version control systems."
-        projects: "Lead Developer for in-toto"
+        projects:
+          - *toto
         publications:
           - name: "PIK 2013"
             link: "https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf"
@@ -149,7 +179,10 @@ people:
         since: "2015"
         photo: "img/people/lois_delong.jpg"
         interests: "Experimental design involving human subjects; links between natural languages and programming languages"
-        projects: "Atoms of Confusion, API Blindspots, plus editorial support for all lab projects"
+        projects:
+          - *atoms
+          - *blindspots
+          - name: "editorial support for all projects"
     
   - type: "PhD. Students"
     people: 
@@ -158,7 +191,10 @@ people:
         since: "2011"
         photo: "img/people/smiley.jpg"
         interests: "Securing software updates for community repositories and automobiles"
-        projects: "TUF and its extensions (Diplomat, Mercury, Uptane), MB-PIR"
+        projects:
+          - *tuf
+          - name: TUF extensions (Diplomat, Mercury, and Uptane)
+          - name: MB-PIR
         publications:
             - name: "escar 2016"
               link: "https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf"
@@ -175,7 +211,9 @@ people:
         since: "2013"
         photo: "img/people/yiwen_li.jpg"
         interests: "Operating system security, virtualization, network security"
-        projects: "Lind, Caging"
+        projects:
+            - *lind
+            - *caging
         publications:
             - name: "NENS 2014 (poster)"
               link: "http://systems.cs.brown.edu/nens/?page_id=21"
@@ -187,7 +225,9 @@ people:
         since: "2014"
         photo: "img/people/santiago_torres.png"
         interests: "Password protection and securing the software supply chain"
-        projects: "PolyPasswordHasher, in-toto"
+        projects:
+            - *pph
+            - *toto
         publications:
             - name: "NSDI 2016"
               link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
@@ -202,7 +242,8 @@ people:
         since: "2015"
         photo: "img/people/smiley.jpg"
         interests: "Programming languages and software systems"
-        projects: "<a href=\"http://atomsofconfusion.com/\">Atoms of Confusion</a>"
+        projects:
+          - *atoms
         publications:
           - name: "SIGGRAPH Asia 2015"
             link: "http://game.engineering.nyu.edu/projects/animesh/"
@@ -213,7 +254,8 @@ people:
         since: "2015"
         photo: "img/people/ghada_almashaqbeh.jpg"
         interests: "Cryptography, security, distributed computing"
-        projects: "CacheCash"
+        projects:
+          - *cachecash
         publications:
           - name: "BMC Medical Informatics and Decision-Making 2015"
             link: "http://www.cse.nd.edu/~mblanton/papers/midm15.pdf"
@@ -226,7 +268,8 @@ people:
         since: "2016"
         photo: "img/people/devon_powell.jpg"
         interests: "Computer security, software engineering"
-        projects: "<a href=\"http://atomsofconfusion.com/\">Atoms of Confusion</a>"
+        projects:
+          - *atoms
         github: "https://github.com/D-Pow?tab=repositories"
     
   - type: "Students"
@@ -236,7 +279,9 @@ people:
         since:
         photo: "img/people/rohan_bhirangi.jpg"
         interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning"
-        projects: "Sensibility Testbed, Seattle"
+        projects:
+          - *sensibility
+          - *seattle
         publications:
           - name: "IJERT 2016"
             link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
@@ -247,7 +292,9 @@ people:
         since: 2015
         photo: "img/people/ajay_shenoy.png"
         interests: "Addressing security flaws within cloud computing bases; Testing functionality for for bugs"
-        projects: "Seatlle, Totolly Secure"
+        projects:
+          - *seattle
+          - name: "Totally Secure"
         deployments: "designed Totolly Secure, a version control checker for identifying malicious commits	https://github.com/kellender/Totolly-Secure; Contributed code to a porting strace https://github.com/SeattleTestbed/seattlelib_v2/pull/190 and added trigonometric functions to `math.r2py,” both in Seatle  https://github.com/SeattleTestbed/seattlelib_v2/pull/181"
       
       - name: "Deepankar Jaisia"
@@ -255,14 +302,17 @@ people:
         since: 2016
         photo: "img/people/smiley.jpg"
         interests: "Protecting privacy in personal communications; Expanding skills in Python"
-        projects: "Seatlle, working on a function call in Repy V2"
+        projects:
+          - *seattle
+          - name: "Repy V2"
       
       - name: "Shuyuan \"Lolaly\" Luo"
         role: "Undergradute Student"
         since:
         photo: "img/people/lolaly_luo.jpg"
         interests: "Cyber security"
-        projects: "PolyPasswordHasher"
+        projects:
+          - *pph
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
       
       - name: "Kejian Wang"
@@ -270,8 +320,8 @@ people:
         since:
         photo: "img/people/kejian_wang.jpg"
         interests: "Building secure future software/protecting unsafe existed software for real world"
-        projects: "TUF"
+        projects:
+          - *tuf
         publications:
           - name: "IJERT 2016"
-            link:
         deployments: "Continuous Build and Integration System (CBIS), allows developer’s code to be continuously integrated into developing without aﬀecting other teammates’ work; Knotes, An android application to record and calculate bills for people living together."
