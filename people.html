@@ -31,16 +31,27 @@ layout: default
           <span class="header">Research Interests</span>
           {{ person.interests }}
         </div>
-        <div class="projects">
-          <span class="header">Lab Projects</span>
-          {{ person.projects }}
-        </div>
+
+        {% if person.projects %}
+          <div class="projects">
+            <span class="header">Projects</span>
+            {% assign pubLinks = '' | split:':' %}
+            {% for project in person.projects %}
+              {% capture pubLink %}<a href="{{ project.link }}">{{ project.name }}</a>{% endcapture %}
+              {% assign pubLinks = pubLinks | push: pubLink %}
+            {% endfor %}
+  	  
+  	  
+            {{ pubLinks | array_to_sentence_string }}
+          </div>
+	{% endif %}
+	
         {% if person.publications %}
           <div class="publications">
             <span class="header">Publications</span>
             {% assign pubLinks = '' | split:':' %}
             {% for publication in person.publications %}
-              {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
+              {% capture pubLink %}<a href="{{ publication.link }}">{{ publication.name }}</a>{% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  
