@@ -32,7 +32,7 @@ layout: default
           {{ person.interests }}
         </div>
         <div class="projects">
-          <span class="header">Lab Projects</span>
+          <span class="header">Projects</span>
           {{ person.projects }}
         </div>
         {% if person.publications %}
@@ -40,7 +40,7 @@ layout: default
             <span class="header">Publications</span>
             {% assign pubLinks = '' | split:':' %}
             {% for publication in person.publications %}
-              {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a> {% endcapture %}
+              {% capture pubLink %} <a href="{{ publication.link }}">{{ publication.name }}</a>{% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  
@@ -48,10 +48,12 @@ layout: default
             {{ pubLinks | array_to_sentence_string }}
           </div>
 	{% endif %}
+        {% if person.deployments %}
         <div class="deployments">
           <span class="header">Software/System Deployments</span>
           {{ person.deployments }}
         </div>
+        {% endif %}
       </div>
     </li>
     {% endfor %}
