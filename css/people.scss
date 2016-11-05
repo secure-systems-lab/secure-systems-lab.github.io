@@ -29,7 +29,12 @@
 .people-boxes {
   margin-top: 3em;
   font-size: 0.8em;
-  padding: 0 2em;
+
+  padding: 0;
+  
+  @media(min-width: $tablet) {
+      padding: 0 2em;
+  }
 }
 
 .people-boxes li {
@@ -59,9 +64,13 @@ $photo_width: 8rem;
 $photo_margin: 1rem;
 
 .people-boxes .name {
-  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
-  font-weight: bold;
-  font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    @media(min-width: $tablet) {
+	max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
+    }
+
 }
 
 .people-boxes .site {
@@ -70,22 +79,32 @@ $photo_margin: 1rem;
 }
 
 .people-boxes .photo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: $photo_margin $photo_margin;
-  width: $photo_width;
-  border-style: solid;
-  border-width: 2px;
+    width: 100%;
+    margin-bottom: 1em;
+    
+    @media(min-width: $tablet) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: $photo_margin $photo_margin;
+	width: $photo_width;
+	border-style: solid;
+	border-width: 2px;
+    }
 }
 
 .people-boxes .role {
-  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
-  font-style: italic;  
+    font-style: italic;
+
+    @media(min-width: $tablet) {
+	max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
+    }
 }
 
 .people-boxes .interests {
-  max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
+    @media(min-width: $tablet) {
+	max-width: calc(100% - (#{$photo_width} + #{$photo_margin}));
+    }
 }
 
 .people-boxes .projects {

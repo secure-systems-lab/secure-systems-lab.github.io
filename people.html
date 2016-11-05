@@ -18,11 +18,13 @@ layout: default
 <a name="{{ type.anchor }}">
   <h2 class="type">{{ type.type }}</h2>
 </a>
-	     
+
 <ul class="people-boxes">
   {% for person in type.people %}
     <li>
       <div class="person">
+        <img class="photo" src="{{ person.photo }}" />
+
         <div class="name">
 	  {{ person.name }}
 
@@ -34,7 +36,7 @@ layout: default
           &nbsp;&nbsp;-<span class="site"> <a href="{{ person.site }}">website</a> </span>
 	  {% endif %}
 	</div>
-        <img class="photo" src="{{ person.photo }}" />
+	
         <div class="interests">
           <span class="header">Research Interests</span>
           {{ person.interests }}
