@@ -8,9 +8,17 @@ layout: default
 
 <div class="intro">{{ site.data.people.intro }}</div>
 
+<ul class="people-toc">
+{% for type in site.data.people.people %}
+  <li><a href="#{{ type.anchor }}">{{ type.type }}</a></li>
+{% endfor %}
+</ul>
 
 {% for type in site.data.people.people %}
-<h2 class="type">{{ type.type }}</h2>
+<a name="{{ type.anchor }}">
+  <h2 class="type">{{ type.type }}</h2>
+</a>
+	     
 <ul class="people-boxes">
   {% for person in type.people %}
     <li>

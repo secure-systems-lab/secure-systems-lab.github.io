@@ -35,7 +35,8 @@ projects:
 intro: "The SSL group is a team of professionals and students, ranging from researchers with dozens of years of experience to high school students. This diversity in background and experience supports a research community open to out-of-the-box thinking and fresh perspectives."
 
 people:
-  - type: "Faculty"
+  - type: Faculty
+    anchor: faculty
     people:
       - name: "Justin Cappos"
         role: "Professor and Lab Director"
@@ -102,28 +103,9 @@ people:
             link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
           - name: "SESS 2005"
             link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
-      
-      - name: "Yanyan Zhuang"
-        role: "Research Professor"
-        since: "2014"
-        photo: "img/people/smiley.jpg"
-        interests: "Mobile systems, wireless networks, privacy and security."
-        projects:
-          - *sensibility
-          - *netcheck
-          - *atoms
-        publications:
-          - name: "TrustCom 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/weiss_trustcom2015.pdf"
-          - name: "ACSAC 2014"
-            link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
-          - name: "NSDI 2014"
-            link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
-          - name: "SIGCSE 2014"
-            link: "http://dl.acm.org/citation.cfm?id=2538931"
-        deployments: "Sensibility Testbed"
     
-  - type: "Staff"
+  - type: Staff
+    anchor: staff
     people: 
       - name: "Vladimir Diaz"
         role: "Developer"
@@ -185,6 +167,7 @@ people:
           - name: "editorial support for all projects"
     
   - type: "PhD. Students"
+    anchor: phd
     people: 
       - name: "Trishank Kuppusamy"
         role: "Fifth year Ph.D. Candidate"
@@ -272,7 +255,8 @@ people:
           - *atoms
         github: "https://github.com/D-Pow?tab=repositories"
     
-  - type: "Students"
+  - type: Students
+    anchor: students
     people:
       - name: "Rohan Ketan Bhirangi"
         role: "Master's Student"
@@ -325,3 +309,26 @@ people:
         publications:
           - name: "IJERT 2016"
         deployments: "Continuous Build and Integration System (CBIS), allows developer’s code to be continuously integrated into developing without aﬀecting other teammates’ work; Knotes, An android application to record and calculate bills for people living together."
+
+  - type: Alumni
+    anchor: alumni
+    people:
+      - name: "Yanyan Zhuang"
+        role: "Research Professor"
+        since: "2014"
+        photo: "img/people/smiley.jpg"
+        interests: "Mobile systems, wireless networks, privacy and security."
+        projects:
+          - *sensibility
+          - *netcheck
+          - *atoms
+        publications:
+          - name: "TrustCom 2015"
+            link: "http://isis.poly.edu/~jcappos/papers/weiss_trustcom2015.pdf"
+          - name: "ACSAC 2014"
+            link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
+          - name: "NSDI 2014"
+            link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
+          - name: "SIGCSE 2014"
+            link: "http://dl.acm.org/citation.cfm?id=2538931"
+        deployments: "Sensibility Testbed"

@@ -10,6 +10,17 @@
   padding: 0 1em;
 }
 
+.people-toc {
+  margin: 4rem 0;
+  text-align: center;
+  
+  li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+}
+
 .type {
   margin-top: 0.75em;
   margin-bottom: 0.5em;
