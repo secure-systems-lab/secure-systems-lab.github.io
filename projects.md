@@ -43,7 +43,6 @@ https://polypasswordhasher.github.io/PolyPasswordHasher/
 
 <a name="tuf"></a>
 - **The Update Framework (TUF)**: TUF provides a comprehensive, flexible security framework that developers can integrate with any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks through the use of images and signing strategies. https://theupdateframework.github.io/
-TUF technology can be applied in many settings. Currently in development, the UPTANE project is adapting TUF to ensure secure updates of software on the electronic control units of vehicles. UPTANE can counter a comprehensive array of security attacks, and  is resilient to partial compromises, while  addressing  automotive specific vulnerabilities and limitations. This latter initiative is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
   * Current deployments: Flynn, LEAP, and Docker software repositories
 
@@ -51,10 +50,19 @@ TUF technology can be applied in many settings. Currently in development, the UP
 
   * Lessons Learned:
 
+
+<a name="uptane"></a>
+- **Uptane**: Currently in development, the Uptane project is adapting many of the ideas and concepts in TUF to ensure secure updates of software on the electronic control units of vehicles. Uptane can counter a comprehensive array of security attacks, and  is resilient to partial compromises, while  addressing  automotive specific vulnerabilities and limitations. This latter initiative is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
+
+  * On-going integrations:  Popular automakers
+
+  * Lessons Learned:
+
   ##### Secure Software Development
 
-<a name="toto"></a>
-- **in-toto**: A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” Toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who.
+<a name="in-toto"></a>
+- **in-toto**: A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who.
+
 
   * Current deployments:
 

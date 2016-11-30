@@ -4,8 +4,10 @@ projects:
       link: "http://atomsofconfusion.com/"
   - blindspots: &blindspots
       name: "API Blindspots"
+      link: "projects#blindspots"
   - cachecash: &cachecash
       name: CacheCash
+      link: "projects#cachecash"
   - lind: &lind
       name: Lind
   - netcheck: &netcheck
@@ -21,8 +23,9 @@ projects:
   - sensibility: &sensibility
       name: "Sensibility Testbed"
       link: "https://sensibilitytestbed.com"
-  - toto: &toto
-      name: Toto
+  - in-toto: &in-toto
+      name: in-toto
+      link: "projects#in-toto"
   - tuf: &tuf
       name: TUF
       link: "https://theupdateframework.github.io/"      
@@ -53,7 +56,7 @@ people:
           - *atoms
           - *uptane
           - *cachecash
-          - *toto
+          - *in-toto
           - *more
         publications:
           - name: "USENIX Security 2016"
@@ -119,7 +122,7 @@ people:
         projects:
           - *tuf
           - *uptane
-          - *toto
+          - *in-toto
           - *seattle
           - *pph
         publications:
@@ -152,7 +155,7 @@ people:
         photo: "img/people/lukas_puhringer.jpg"
         interests: " Security in operating systems and full stack networking. Distributed software and version control systems."
         projects:
-          - *toto
+          - *in-toto
         publications:
           - name: "PIK 2013"
             link: "https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf"
@@ -214,7 +217,7 @@ people:
         interests: "Password protection and securing the software supply chain"
         projects:
             - *pph
-            - *toto
+            - *in-toto
         publications:
             - name: "NSDI 2016"
               link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
