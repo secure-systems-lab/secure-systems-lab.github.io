@@ -1,6 +1,7 @@
 projects:
   - atoms: &atoms
       name: "Atoms of Confusion"
+      link: "http://atomsofconfusion.com/"
   - blindspots: &blindspots
       name: "API Blindspots"
   - cachecash: &cachecash
@@ -32,7 +33,7 @@ projects:
       name: "[more]"
       link: "projects"
 
-intro: "The SSL group is a team of professionals and students, ranging from researchers with dozens of years of experience to high school students. This diversity in background and experience supports a research community open to out-of-the-box thinking and fresh perspectives."
+intro: "The SSL group is a team of researchers, ranging from professors with dozens of years of experience to high school students. This diversity in background and experience is used to address real-world problems using fresh perspectives."
 
 people:
   - type: Faculty
@@ -48,8 +49,11 @@ people:
           - *seattle
           - *tuf
           - *pph
-          - *uptane
           - *sensibility
+          - *atoms
+          - *uptane
+          - *cachecash
+          - *toto
           - *more
         publications:
           - name: "USENIX Security 2016"
@@ -66,7 +70,7 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_netcheck_nsdi_14.pdf"
           - name: "[more]"
             link: "https://isis.poly.edu/~jcappos/publications.php"
-        deployments: "TUF used in Docker, fixing tag issues in git [url], Seattle deployed on thousands of devices [link], Stork's security model used in APT [link], Yum [link], YaST, Pacman [link]"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle deployed on thousands of devices and in about one hundred classrooms</a>; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"http://isis.poly.edu/~jcappos/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
       
       - name: "Albert Rafetseder"
         role: "Research Professor"
