@@ -16,10 +16,20 @@ Though all of SSL’s research initiatives—past and present— revolve around 
   - Lessons Learned:
 
 <a name="sensibility"></a>
-- **Sensibility Testbed**: Based on the design scheme of Seattle,  Sensibility is a distributed platform that allows researchers to directly run experiments on end-user devices. By giving the user control over what amount and type of data can gathered, Sensibility ensures the security of user information and the safety of the device, while giving researchers access to information that would otherwise be difficult to collect. https://sensibilitytestbed.com/projects/project.
+- **Sensibility Testbed**: Given the close proximity of smartphones to users, 
+researchers across many different fields would benefit from accessing 
+smartphone sensors. By giving the user control over what amount and type of 
+data can gathered, Sensibility ensures the security of user information and 
+the safety of the device, while giving researchers access to information that 
+would otherwise be difficult to collect. 
+
+  * Collaborators:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), [Richard Weiss](http://evergreen.edu/faculty/instructor/weissr), [Leon Resnik](https://www.cs.rit.edu/people/faculty/lr)
+
   * Products:
 
   * Lessons Learned:
+
+  * Website: [https://sensibilitytestbed.com/](https://sensibilitytestbed.com/)
 
 
   ##### Password Protection and Improved Network Security
@@ -52,11 +62,22 @@ https://polypasswordhasher.github.io/PolyPasswordHasher/
 
 
 <a name="uptane"></a>
-- **Uptane**: Currently in development, the Uptane project is adapting many of the ideas and concepts in TUF to ensure secure updates of software on the electronic control units of vehicles. Uptane can counter a comprehensive array of security attacks, and  is resilient to partial compromises, while  addressing  automotive specific vulnerabilities and limitations. This latter initiative is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
+- **Uptane**: Cars today use a truly enormous amount of software.  Like any
+software, this software has bugs.  Unfortunately there is not a secure way
+to update the software in cars today.  Our Uptane project provides a 
+mechanism to securely distribute updates to cars.  Uptane can counter a 
+comprehensive array of security attacks, and is resilient to partial 
+compromises, while addressing  automotive specific vulnerabilities and 
+limitations. 
 
-  * On-going integrations:  Popular automakers
+  * On-going integrations:  
 
   * Lessons Learned:
+
+  * Collaborators:  This initiative is a collaboration between the New York 
+University Tandon School of Engineering (NYU), the University of Michigan's 
+Transport Research Institute (UMTRI), and the Southwest Research Institute 
+(SWRI).
 
   ##### Secure Software Development
 
