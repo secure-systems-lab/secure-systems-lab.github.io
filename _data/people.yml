@@ -28,7 +28,7 @@ projects:
       link: "projects#in-toto"
   - tuf: &tuf
       name: TUF
-      link: "https://theupdateframework.github.io/"      
+      link: "https://theupdateframework.github.io/"
   - uptane: &uptane
       name: Uptane
       link: "https://uptane.github.io/"
@@ -74,12 +74,12 @@ people:
           - name: "[more]"
             link: "https://isis.poly.edu/~jcappos/publications.php"
         deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle deployed on thousands of devices and in about one hundred classrooms</a>; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"http://isis.poly.edu/~jcappos/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
-      
+
       - name: "Albert Rafetseder"
         role: "Research Professor"
         since: "2011"
         photo: "img/people/albert_rafetseder.jpg"
-        interests: "Building useful, usable experimental platforms for research, education, and the general public."
+        interests: "Building experimental platforms for research, education, and the general public."
         projects:
           - *seattle
           - *sensibility
@@ -90,8 +90,8 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_seattle_gree_13.pdf"
           - name: "USENIX ATC 2015 (Fence)"
             link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
-        deployments: "Seattle Testbed, running on a server,desktop, laptop, smartphone, WiFi router near you! https://seattle.poly.edu/"
-      
+        deployments: <a href=\"https://seattle.poly.edu/html/\">running on a server,desktop, laptop, smartphone, WiFi router near you!</a>"
+
       - name: "Sam Weber"
         role: "Research Professor"
         since: "2016"
@@ -110,10 +110,10 @@ people:
             link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
           - name: "SESS 2005"
             link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
-    
+
   - type: Staff
     anchor: staff
-    people: 
+    people:
       - name: "Vladimir Diaz"
         role: "Developer"
         since: "2013"
@@ -132,9 +132,9 @@ people:
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
             link: "http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html"
-        deployments: "TUF https://github.com/theupdateframework/tuf (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI)."
-      
-      - name: "Sebastien Awaad"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI)"
+
+      - name: "Sebastien Awwad"
         role: "Developer"
         since: "2015"
         photo: "img/people/smiley.jpg"
@@ -143,17 +143,17 @@ people:
           - *uptane
           - *tuf
           - name: "Python dependency managment"
-          - *seattle  
+          - *seattle
         publications:
           - name: "escar 2016"
             link: "https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf"
         deployments: "Uptane reference implementation, TUF modifications, Python dependency resolver"
-      
+
       - name: "Lukas Pühringer"
         role: "Developer"
         since: "2016"
         photo: "img/people/lukas_puhringer.jpg"
-        interests: " Security in operating systems and full stack networking. Distributed software and version control systems."
+        interests: "Security in operating systems and full stack networking. Distributed software and version control systems."
         projects:
           - *in-toto
         publications:
@@ -162,7 +162,24 @@ people:
           - name: "TryRepy Wiki"
             link: "https://seattle.poly.edu/wiki/TryRepy"
         deployments: "<a href=\"https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf\">Sensorium Framework</a> (used on smartphones to capture data for Open3GMap), Sensibility Testbed."
-      
+
+        - name: "Artiom Baloian"
+          role: "Developer"
+          since: "2016"
+          photo: "img/people/artiom_baloian.jpg"
+          interests: "Software Security, Code Obfuscation, Compilers"
+          projects:
+            - *Lind
+            - *TUF
+            - *uptane
+            - *in-toto
+          publications:
+            - name: "Mathematical Problems of Computer Science 2014"
+              link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
+            - name: "RAS 2015"
+              link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
+          deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO</a> a compiler framework dedicated to automatic, dynamic and speculative parallelization and optimization of programs' loop nests."
+
       - name: "Lois Anne DeLong"
         role: "Research Associate/Technical Writer"
         since: "2015"
@@ -172,14 +189,14 @@ people:
           - *atoms
           - *blindspots
           - name: "editorial support for all projects"
-    
+
   - type: "PhD. Students"
     anchor: phd
-    people: 
+    people:
       - name: "Trishank Kuppusamy"
         role: "Fifth year Ph.D. Candidate"
         since: "2011"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/trishank_kuppusamy.jpg"
         interests: "Securing software updates for community repositories and automobiles"
         projects:
           - *tuf
@@ -195,7 +212,23 @@ people:
             - name: "ISBA 2015"
               link: "http://ieeexplore.ieee.org/document/7126366/"
         deployments: "TUF https://github.com/theupdateframework/tuf/commits?author=trishankkarthik (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI); Uptane https://github.com/uptane), MB-PIR https://github.com/trishankkarthik/multiblockpir"
-      
+
+    - name: "Luqin Wang"
+      role: "Fifth year Ph.D. Candidate"
+      since: "2011"
+      photo: "img/people/luqin_wang.jpg"
+      interests: "Social networks, Internet measurement, network security and distributed systems"
+      projects:
+        - *CacheCash
+        - name: upPIR
+      publications:
+          - name: "PAM 2015"
+            link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
+          - name: "GLOBECOM 2015"
+            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
+          - name: "ISBA 2015"
+            link: "http://ieeexplore.ieee.org/document/7126366/"
+
       - name: "Yiwen Li"
         role: "Third year Ph.D. Candidate"
         since: "2013"
@@ -209,7 +242,7 @@ people:
               link: "http://systems.cs.brown.edu/nens/?page_id=21"
             - name: "CATT 2014 (poster)"
               link:
-      
+
       - name: "Santiago Torres-Arias"
         role: "Second year Ph.D. Candidate"
         since: "2014"
@@ -226,7 +259,7 @@ people:
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
         deployments: "Security fixes accepted into git, PolyPasswordHasher (used in Seattle clearinghouse, BioBank, ...)"
-      
+
       - name: "Dan Gopstein"
         role: "Ph.D. Student (co-advised with Andy Nealen)"
         since: "2015"
@@ -238,7 +271,7 @@ people:
           - name: "SIGGRAPH Asia 2015"
             link: "http://game.engineering.nyu.edu/projects/animesh/"
         deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
-      
+
       - name: "Ghada Almashaqbeh"
         role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
         since: "2015"
@@ -252,7 +285,15 @@ people:
           - name: "arXiv.org"
             link: "https://arxiv.org/pdf/1509.01763v2.pdf"
         deployments: "CacheCash reference implementation"
-      
+
+      - name: "Preston Kent Moore"
+        role: "Second year Ph.D. Student"
+        since: "2015"
+        photo: "img/people/smiley.jpg"
+        interests: "Secure software engineering, automated testing, systems security"
+        projects:
+          - *CrashSimulator
+
       - name: "Devon J. Powell"
         role: "First year Ph.D. Student"
         since: "2016"
@@ -261,7 +302,15 @@ people:
         projects:
           - *atoms
         github: "https://github.com/D-Pow?tab=repositories"
-    
+
+      - name: "Rad Akefirad"
+        role: "Ph.D. Student"
+        since: "2015"
+        photo: "img/people/smiley.jpg"
+        interests: "Software Engineering, Secure Software Design and Development, Distributed Systems, Microservices"
+        projects:
+            - *API Blindspots
+
   - type: Students
     anchor: students
     people:
@@ -269,7 +318,7 @@ people:
         role: "Master's Student"
         since:
         photo: "img/people/rohan_bhirangi.jpg"
-        interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, security within distributed systems, machine learning"
+        interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, machine learning"
         projects:
           - *sensibility
           - *seattle
@@ -277,7 +326,7 @@ people:
           - name: "IJERT 2016"
             link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
         deployments: "Worked on sensor calibration [https://github.com/RohanBhirangi/Sensor-Calibration] and unit testing framework [https://github.com/RohanBhirangi/Sensor-Unit-Testing] for Sensibility Testbed. Developed a Python script which replicates all of the Seash functionality to automate the entire Sensibility-Seash process."
-      
+
       - name: "Ajay Shenoy"
         role: "Master's Student"
         since: 2015
@@ -287,7 +336,7 @@ people:
           - *seattle
           - name: "Totally Secure"
         deployments: "designed Totolly Secure, a version control checker for identifying malicious commits	https://github.com/kellender/Totolly-Secure; Contributed code to a porting strace https://github.com/SeattleTestbed/seattlelib_v2/pull/190 and added trigonometric functions to `math.r2py,” both in Seatle  https://github.com/SeattleTestbed/seattlelib_v2/pull/181"
-      
+
       - name: "Deepankar Jaisia"
         role: "Master's Student"
         since: 2016
@@ -296,7 +345,7 @@ people:
         projects:
           - *seattle
           - name: "Repy V2"
-      
+
       - name: "Shuyuan \"Lolaly\" Luo"
         role: "Undergradute Student"
         since:
@@ -305,12 +354,12 @@ people:
         projects:
           - *pph
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
-      
+
       - name: "Kejian Wang"
         role: "Research Intern"
         since:
         photo: "img/people/kejian_wang.jpg"
-        interests: "Building secure future software/protecting unsafe existed software for real world"
+        interests: "Building secure software, protecting against unsafe software"
         projects:
           - *tuf
         publications:
