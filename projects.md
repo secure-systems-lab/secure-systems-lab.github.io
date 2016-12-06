@@ -40,6 +40,8 @@ Justin Cappos
 external collabs.  People in the lab should have this link go to their
 entry on this site...**
 
+  * Tags: Testbeds, Security, Systems, Internet of Things, Networking  
+** TODO: These should not just be text, but be used to allow searching, etc. **
 
 **TODO: Need some kind of break between projects.  Either space or a horizontal
 line or both.**
@@ -75,7 +77,8 @@ https://polypasswordhasher.github.io/PolyPasswordHasher/
 
 
 <a name="uptane"></a>
-- **Uptane**: Cars today use a truly enormous amount of software.  Like any
+- **[Uptane](https://uptane.github.io/)**: Cars today use a truly enormous 
+amount of software.  Like any
 software, this software has bugs.  Unfortunately there is not a secure way
 to update the software in cars today.  Our Uptane project provides a 
 mechanism to securely distribute updates to cars.  Uptane can counter a 
@@ -83,14 +86,22 @@ comprehensive array of security attacks, and is resilient to partial
 compromises, while addressing  automotive specific vulnerabilities and 
 limitations. 
 
-  * On-going integrations:  
+  * Products: [Our website](https://uptane.github.io/) contains high level
+information about the project, including the 
+[design specification](need link) and [deployment considerations](need link).
+For those who want lower level details, we also provide a
+[implementation guide](need link), an open source 
+[reference implementation](need link), [compliance tests](need link), and 
+a [runnable demo](need link).
 
-  * Lessons Learned:
 
-  * Collaborators:  This initiative is a collaboration between the New York 
-University Tandon School of Engineering (NYU), the University of Michigan's 
-Transport Research Institute (UMTRI), and the Southwest Research Institute 
-(SWRI).
+  * Project members:  Trishank Kuppusamy, Sebastien Awwad, Akanitoro Brown,
+Damon McCoy, Russ Bielawski (UMTRI), Cameron Mott (SWRI), Sam Lauzon (UMTRI),
+André Weimerskirch (UMTRI), Justin Cappos.  **TODO: Need links **
+
+  * Tags: Security, Software Updates, Internet of Things
+
+
 
   ##### Secure Software Development
 
@@ -115,9 +126,25 @@ Transport Research Institute (UMTRI), and the Southwest Research Institute
 ##### Understanding Code at the most Basic Level
 
 <a name="atoms"></a>
-- **Atoms of Confusion**: Within every confusing piece of software codes are small patterns that can lead developers  to outputs that radically differ from what was intended. In studying these “atoms of confusion” we look to build a firm empirical foundation for reducing code confusion in software development and, thus, also reduce the frequency of buggy and malfunctioning programs. This project is a collaboration with researchers at Pennsylvania State University and the University of Colorado, Colorado Springs, and is conducted with the support of the National Science Foundation.
+- **Atoms of Confusion**: Within every confusing piece of software codes
+  are small patterns that can lead developers  to outputs that radically
+differ from what was intended. In studying these “atoms of confusion” we
+look to build a firm empirical foundation for reducing code confusion in
+software development and, thus, also reduce the frequency of buggy and
+malfunctioning programs. 
 
-  * Products:  A web site, containing all study materials, is now active. A number of follow-up studies have also been planned.
+  * Project members:  Dan Gopstein, Devon Powell, Jake Iannacone, Lois Anne
+Delong, Apple Yan (PSU), Martin Yeh (PSU), Yanyan Zhuang (UCCS), Justin Cappos
+
+  * Products:  The [project website](https://atomsofconfusion.com) provides
+a rough background of our theory, studies, and analysis for this work.
+We make all of our [study
+materials and anonymized data](http://atomsofconfusion.com/experiments.html)
+openly available so that other researchers can replicate, validate, and 
+build on our findings.
+
+  * Tags: Software Engineering
+
 
 <a name="blindspots"></a>
 - **API Blindspots**: This project, a collaboration with researchers at the University of Florida, the University of Massachusetts-Amherst, and the University of Colorado, Colorado Springs, seeks to identify security-related blind spots in Application Programming Interfaces (APIs).
