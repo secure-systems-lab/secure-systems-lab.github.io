@@ -90,7 +90,7 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_seattle_gree_13.pdf"
           - name: "USENIX ATC 2015 (Fence)"
             link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
-        deployments: <a href=\"https://seattle.poly.edu/html/\">running on a server,desktop, laptop, smartphone, WiFi router near you!</a>"
+        deployments: "<a href=\"https://seattle.poly.edu/html/\">running on a server,desktop, laptop, smartphone, WiFi router near you!</a>"
 
       - name: "Sam Weber"
         role: "Research Professor"
@@ -163,22 +163,22 @@ people:
             link: "https://seattle.poly.edu/wiki/TryRepy"
         deployments: "<a href=\"https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf\">Sensorium Framework</a> (used on smartphones to capture data for Open3GMap), Sensibility Testbed."
 
-        - name: "Artiom Baloian"
-          role: "Developer"
-          since: "2016"
-          photo: "img/people/artiom_baloian.jpg"
-          interests: "Software Security, Code Obfuscation, Compilers"
-          projects:
-            - *Lind
-            - *TUF
-            - *uptane
-            - *in-toto
-          publications:
-            - name: "Mathematical Problems of Computer Science 2014"
-              link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
-            - name: "RAS 2015"
-              link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-          deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO</a> a compiler framework dedicated to automatic, dynamic and speculative parallelization and optimization of programs' loop nests."
+      - name: "Artiom Baloian"
+        role: "Developer"
+        since: "2016"
+        photo: "img/people/artiom_baloian.jpg"
+        interests: "Software Security, Code Obfuscation, Compilers"
+        projects:
+          - *lind
+          - *tuf
+          - *uptane
+          - *in-toto
+        publications:
+          - name: "Mathematical Problems of Computer Science 2014"
+            link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
+          - name: "RAS 2015"
+            link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
+        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO</a> a compiler framework dedicated to automatic, dynamic and speculative parallelization and optimization of programs' loop nests."
 
       - name: "Lois Anne DeLong"
         role: "Research Associate/Technical Writer"
@@ -213,21 +213,21 @@ people:
               link: "http://ieeexplore.ieee.org/document/7126366/"
         deployments: "TUF https://github.com/theupdateframework/tuf/commits?author=trishankkarthik (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI); Uptane https://github.com/uptane), MB-PIR https://github.com/trishankkarthik/multiblockpir"
 
-    - name: "Luqin Wang"
-      role: "Fifth year Ph.D. Candidate"
-      since: "2011"
-      photo: "img/people/luqin_wang.jpg"
-      interests: "Social networks, Internet measurement, network security and distributed systems"
-      projects:
-        - *CacheCash
-        - name: upPIR
-      publications:
-          - name: "PAM 2015"
-            link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
-          - name: "GLOBECOM 2015"
-            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-          - name: "ISBA 2015"
-            link: "http://ieeexplore.ieee.org/document/7126366/"
+      - name: "Luqin Wang"
+        role: "Fifth year Ph.D. Candidate"
+        since: "2011"
+        photo: "img/people/luqin_wang.jpg"
+        interests: "Social networks, Internet measurement, network security and distributed systems"
+        projects:
+          - *CacheCash
+          - name: upPIR
+        publications:
+            - name: "PAM 2015"
+              link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
+            - name: "GLOBECOM 2015"
+              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
+            - name: "ISBA 2015"
+              link: "http://ieeexplore.ieee.org/document/7126366/"
 
       - name: "Yiwen Li"
         role: "Third year Ph.D. Candidate"
@@ -309,7 +309,7 @@ people:
         photo: "img/people/smiley.jpg"
         interests: "Software Engineering, Secure Software Design and Development, Distributed Systems, Microservices"
         projects:
-            - *API Blindspots
+            - *blindspots
 
   - type: Students
     anchor: students
