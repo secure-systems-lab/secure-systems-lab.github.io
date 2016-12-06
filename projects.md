@@ -16,20 +16,33 @@ Though all of SSL’s research initiatives—past and present— revolve around 
   - Lessons Learned:
 
 <a name="sensibility"></a>
-- **Sensibility Testbed**: Given the close proximity of smartphones to users, 
-researchers across many different fields would benefit from accessing 
-smartphone sensors. By giving the user control over what amount and type of 
-data can gathered, Sensibility ensures the security of user information and 
-the safety of the device, while giving researchers access to information that 
-would otherwise be difficult to collect. 
+- **[Sensibility Testbed](https://sensibilitytestbed.com/)**:
+ Given the close proximity of smartphones to users, 
+researchers would benefit from accessing smartphone sensors. By giving the user
+control over what amount and type of data gathered, Sensibility ensures the 
+privacy of user information.  Sensibility also has additional security 
+protections that ensure the safety of the device, while giving researchers 
+access to unique information.
 
-  * Collaborators:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), [Richard Weiss](http://evergreen.edu/faculty/instructor/weissr), [Leon Resnik](https://www.cs.rit.edu/people/faculty/lr)
+**TODO: ADD IMAGE**
 
-  * Products:
+  * Products: [Install our Android app](https://play.google.com/store/apps/details?id=com.sensibility_testbed)
+or learn more by [visiting our blog](https://seattlesensor.wordpress.com/)!
 
-  * Lessons Learned:
+  * Project members:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), 
+Yu Hu,
+Lukas Pühringer,
+Felix Wang,
+[Richard Weiss](http://evergreen.edu/faculty/instructor/weissr), 
+[Leon Resnik](https://www.cs.rit.edu/people/faculty/lr),
+Justin Cappos
+**TODO: Somehow indicate the difference between internal links and 
+external collabs.  People in the lab should have this link go to their
+entry on this site...**
 
-  * Website: [https://sensibilitytestbed.com/](https://sensibilitytestbed.com/)
+
+**TODO: Need some kind of break between projects.  Either space or a horizontal
+line or both.**
 
 
   ##### Password Protection and Improved Network Security
