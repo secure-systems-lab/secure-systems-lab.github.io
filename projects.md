@@ -10,18 +10,28 @@ Though all of SSL’s research initiatives—past and present— revolve around 
 ##### Remote Utilization and Testing of Wireless Devices
 
 <a name="seattle"></a>
-- **Seattle**: The oldest of the lab’s projects, and the foundation technology behind several emerging initiatives, one of which is described below. Seattle is a platform for networking and distributed systems research that runs on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to over 40K geographically distributed devices around the world. https://seattle.poly.edu/html/.
-  - Products: Educational modules for classroom use designed to teach basic concepts in networking and system security; A clearinghouse of available resources to be accessed by users.  
+- **[Seattle](https://seattle.poly.edu/html/)**:
+Seattle is a software program that supports research in networking and distributed systems. Through its Clearinghouse, Seattle also offers a research platform that runs on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world. Its applications have included the development of secure testbeds that can gather information from mobile devices with no privacy threat to the device owner (see Sensibility Testbed below), and teaching modules used to help students learn key concepts about network systems and the Internet.
 
-  - Lessons Learned:
+  * Products: Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or donate use of their devices for research purposes.  
+
+  * Project members:  Albert Rafetseder,
+Lukas Pühringer,
+Sebastien Awwad,
+Rohan Ketan Bhirangi,
+Ajay Shenoy,
+Deepankar Jaisia,
+Justin Cappos
+
+  * Tags: networking, research platform, cloud technology
 
 <a name="sensibility"></a>
 - **[Sensibility Testbed](https://sensibilitytestbed.com/)**:
- Given the close proximity of smartphones to users, 
+ Given the close proximity of smartphones to users,
 researchers would benefit from accessing smartphone sensors. By giving the user
-control over what amount and type of data gathered, Sensibility ensures the 
-privacy of user information.  Sensibility also has additional security 
-protections that ensure the safety of the device, while giving researchers 
+control over what amount and type of data gathered, Sensibility ensures the
+privacy of user information.  Sensibility also has additional security
+protections that ensure the safety of the device, while giving researchers
 access to unique information.
 
 **TODO: ADD IMAGE**
@@ -29,14 +39,14 @@ access to unique information.
   * Products: [Install our Android app](https://play.google.com/store/apps/details?id=com.sensibility_testbed)
 or learn more by [visiting our blog](https://seattlesensor.wordpress.com/)!
 
-  * Project members:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), 
+  * Project members:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/),
 Yu Hu,
 Lukas Pühringer,
 Felix Wang,
-[Richard Weiss](http://evergreen.edu/faculty/instructor/weissr), 
+[Richard Weiss](http://evergreen.edu/faculty/instructor/weissr),
 [Leon Resnik](https://www.cs.rit.edu/people/faculty/lr),
 Justin Cappos
-**TODO: Somehow indicate the difference between internal links and 
+**TODO: Somehow indicate the difference between internal links and
 external collabs.  People in the lab should have this link go to their
 entry on this site...**
 
@@ -51,47 +61,62 @@ line or both.**
 
 
 <a name="pph"></a>
-- **PolyPasswordHasher (PPH)**:  is a secure password storage system that's highly resilient to offline password cracking. It achieves this resilience by
-introducing asymmetry in the effort that servers require to verify
-passwords, and crackers require to crack them.
-https://polypasswordhasher.github.io/PolyPasswordHasher/
+- **[PolyPasswordHasher (PPH)](https://polypasswordhasher.github.io/PolyPasswordHasher/)**:  Password database disclosures can be devastating, costing companies billions of dollars in damages. Polypasswordhasher is a secure password storage system that is highly resilient to cracking because it interrelates stored password data. Potential hackers need to crack passwords in sets, rather than individually. For many scenarios, cracking a PolyPasswordHasher-enabled database would be unfeasible, even for an adversary with millions of computers.
 
-  * Products:  Basic reference implementations of PPH  have been written for Python,  C,  and Ruby. A Django implementation that can be easily deployed is also in development. Research initiatives on PPH this summer have focused on providing easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM) and a Passport module. PAM is an authentication scheme used in a number of operating systems, including Linux and OS X, while the Passport module is authentication middleware that allows web users to store and authenticate their account with PPH by choosing “login with PPH”. Both modules can enable more applications to use PPH and increase the security of their password database exponentially in exchange for only modest adaptations to the OS or user behavior.
+  * Products:  Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM) used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank.
 
-    * Lessons Learned:
+  * Project Members:   Santiago Torres-Arias,
+  Vladimir Diaz,
+  Shuyuan "Lolaly" Luo,
+  Justin Cappos
+
+  * Tags: Password storage database, password cracking, asymmetric effort, password resiliency
 
 <a name="cachecash"></a>
-- **CacheCash**:  CacheCash presents a new design model for automated content delivery networks in which cryptocurrency payments are utilized to motivate participants to work honestly. Building on top of such a cryptocurrency, CacheCash creates an opportunity to construct a distributed, secure, and efficient incentivized content delivery system that does not depend upon a single entity to handle payments.
-    * Lessons Learned:
+- **CacheCash**:  With the rising demand for online content, decentralized delivery networks have emerged as an attractive solution to distribute the workload. The downside of these systems is that the incentives used to encourage content distributers can also encourage dishonest behavior. CacheCash is designed to address both the honesty and efficiency issues associated with many decentralized networks. A cryptocurrency system that provides a delivery mechanism on top of a currency exchange medium, CacheCash enforces honest behavior both through the use of cryptographic primitives and through a payment scheme that makes honest behavior more profitable for all concerned. In addition to its security aspects, early findings suggest CacheCash can scale to meet growing demand and adds only minimal bandwidth cost to users.
+
+* Products:  Reference implementation coming soon.
+
+* Project Members:   Ghada Almashaqbeh,
+Luqin Wang,
+[Allison Bishop Lewko](http://www.cs.columbia.edu/~allison/),
+Justin Cappos
+
+* Tags: content delivery networks, Bitcoin, cryptocurrency, peer to peer networks,blockchain.
 
 ##### Secure Software Updates
 
 <a name="tuf"></a>
-- **The Update Framework (TUF)**: TUF provides a comprehensive, flexible security framework that developers can integrate with any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks through the use of images and signing strategies. https://theupdateframework.github.io/
+- **[The Update Framework (TUF)](https://theupdateframework.github.io/)**: TUF provides a comprehensive, flexible security framework that developers can integrate into any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks through the use of images and signing strategies.
 
-  * Current deployments: Flynn, LEAP, and Docker software repositories
+  * Products: Currently deployed at [Leap](https://leap.se/en/2014/darkest-night), [Flynn](https://flynn.io/docs/development#the-update-framework-%28tuf%29\), and[Docker](http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\). Integrations are ongoing at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI.
 
-  * On-going integrations:  Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi
+  * Project Members:  Vladimir Diaz,
+  Sebastien Awwad,
+  Trishank Kuppusamy,
+  Artiom Baloian,
+  Felix Wang,
+  Justin Cappos
 
-  * Lessons Learned:
+  * Tags: software updates, package managers, application updaters, security framework, delegations, signing keys
 
 
 <a name="uptane"></a>
-- **[Uptane](https://uptane.github.io/)**: Cars today use a truly enormous 
+- **[Uptane](https://uptane.github.io/)**: Cars today use a truly enormous
 amount of software.  Like any
 software, this software has bugs.  Unfortunately there is not a secure way
-to update the software in cars today.  Our Uptane project provides a 
-mechanism to securely distribute updates to cars.  Uptane can counter a 
-comprehensive array of security attacks, and is resilient to partial 
-compromises, while addressing  automotive specific vulnerabilities and 
-limitations. 
+to update the software in cars today.  Our Uptane project provides a
+mechanism to securely distribute updates to cars.  Uptane can counter a
+comprehensive array of security attacks, and is resilient to partial
+compromises, while addressing  automotive specific vulnerabilities and
+limitations.
 
   * Products: [Our website](https://uptane.github.io/) contains high level
-information about the project, including the 
+information about the project, including the
 [design specification](need link) and [deployment considerations](need link).
 For those who want lower level details, we also provide a
-[implementation guide](need link), an open source 
-[reference implementation](need link), [compliance tests](need link), and 
+[implementation guide](need link), an open source
+[reference implementation](need link), [compliance tests](need link), and
 a [runnable demo](need link).
 
 
@@ -106,17 +131,28 @@ André Weimerskirch (UMTRI), Justin Cappos.  **TODO: Need links **
   ##### Secure Software Development
 
 <a name="in-toto"></a>
-- **in-toto**: A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who.
+- **in-toto**: Do you know where your software has been? Most software developers are careful to secure each step of their products supply chain, but  there is little or no security protection in-between these steps. in-toto  holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who.
 
+  * Products: in-Toto is currently being integrated into other lab projects, including PolyPasswordHasher.
 
-  * Current deployments:
+  * Project Members: Santiago Torres-Arias,
+  Lukas Pühringer,
+  Vladimir Diaz,
+  Artiom Baloian,
+  Justin Cappos
 
-  * Lessons Learned:
+  * Tags: software supply chain, link metadata, software tampering  
 
 <a name="lind"></a>
 - **Lind**: a virtual machine design that prevents the triggering of kernel bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code.
 
-  * Lessons Learned:
+  * Products:
+
+  * Project Members: Yiwen Li,
+  Brendan Dolan-Gavitt,
+  Justin Cappos
+
+  * Tags: virtual machine, kernel bugs, popular paths
 
 <a name="crashsimulator"></a>
 - **CrashSimulator**: a tool that simulates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released.		
@@ -131,16 +167,16 @@ André Weimerskirch (UMTRI), Justin Cappos.  **TODO: Need links **
 differ from what was intended. In studying these “atoms of confusion” we
 look to build a firm empirical foundation for reducing code confusion in
 software development and, thus, also reduce the frequency of buggy and
-malfunctioning programs. 
+malfunctioning programs.
 
   * Project members:  Dan Gopstein, Devon Powell, Jake Iannacone, Lois Anne
-Delong, Apple Yan (PSU), Martin Yeh (PSU), Yanyan Zhuang (UCCS), Justin Cappos
+DeLong, Apple Yan (PSU), Martin Yeh (PSU), Yanyan Zhuang (UCCS), Justin Cappos
 
   * Products:  The [project website](https://atomsofconfusion.com) provides
 a rough background of our theory, studies, and analysis for this work.
 We make all of our [study
 materials and anonymized data](http://atomsofconfusion.com/experiments.html)
-openly available so that other researchers can replicate, validate, and 
+openly available so that other researchers can replicate, validate, and
 build on our findings.
 
   * Tags: Software Engineering
