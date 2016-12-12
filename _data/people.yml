@@ -90,7 +90,7 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_seattle_gree_13.pdf"
           - name: "USENIX ATC 2015 (Fence)"
             link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
-        deployments: "<a href=\"https://seattle.poly.edu/html/\">running on a server,desktop, laptop, smartphone, WiFi router near you!</a>"
+        deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server,desktop, laptop, smartphone, WiFi router near you!"
 
       - name: "Sam Weber"
         role: "Research Professor"
@@ -211,7 +211,7 @@ people:
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
             - name: "ISBA 2015"
               link: "http://ieeexplore.ieee.org/document/7126366/"
-        deployments: "TUF https://github.com/theupdateframework/tuf/commits?author=trishankkarthik (used in Flynn, LEAP, and Docker software repositories; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI); Uptane https://github.com/uptane), MB-PIR https://github.com/trishankkarthik/multiblockpir"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>,<a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>. On-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI); Wrote software for <a href=\"https:\\github.com/uptane\">Uptane</a> and <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>."
 
       - name: "Luqin Wang"
         role: "Fifth year Ph.D. Candidate"
@@ -325,23 +325,23 @@ people:
         publications:
           - name: "IJERT 2016"
             link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
-        deployments: "Worked on sensor calibration [https://github.com/RohanBhirangi/Sensor-Calibration] and unit testing framework [https://github.com/RohanBhirangi/Sensor-Unit-Testing] for Sensibility Testbed. Developed a Python script which replicates all of the Seash functionality to automate the entire Sensibility-Seash process."
+        deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate Sensibility-Seash process."
 
       - name: "Ajay Shenoy"
         role: "Master's Student"
         since: 2015
         photo: "img/people/ajay_shenoy.png"
-        interests: "Addressing security flaws within cloud computing bases; Testing functionality for for bugs"
+        interests: "Addressing security flaws within cloud computing bases; Testing functionality for bugs"
         projects:
           - *seattle
           - name: "Totally Secure"
-        deployments: "designed Totolly Secure, a version control checker for identifying malicious commits	https://github.com/kellender/Totolly-Secure; Contributed code to a porting strace https://github.com/SeattleTestbed/seattlelib_v2/pull/190 and added trigonometric functions to `math.r2py,” both in Seatle  https://github.com/SeattleTestbed/seattlelib_v2/pull/181"
+        deployments: "designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
 
       - name: "Deepankar Jaisia"
         role: "Master's Student"
         since: 2016
         photo: "img/people/smiley.jpg"
-        interests: "Protecting privacy in personal communications; Expanding skills in Python"
+        interests: "Protecting privacy in personal communications; Expanding skills in using Python"
         projects:
           - *seattle
           - name: "Repy V2"
@@ -364,7 +364,7 @@ people:
           - *tuf
         publications:
           - name: "IJERT 2016"
-        deployments: "Continuous Build and Integration System (CBIS), allows developer’s code to be continuously integrated into developing without aﬀecting other teammates’ work; Knotes, An android application to record and calculate bills for people living together."
+        deployments: "Continuous Build and Integration System (CBIS), allows developer code to be continuously integrated without aﬀecting others work; Knotes,an Android application to calculate bills for people living together."
 
   - type: Alumni
     anchor: alumni
