@@ -21,6 +21,7 @@ layout: default
 
 <ul class="people-boxes">
   {% for person in type.people %}
+    <a name="{{ person.name | downcase | replace: ' ', '_' }}"></a>
     <li>
       <div class="person">
         <img class="photo" src="{{ person.photo }}" />
