@@ -5,7 +5,6 @@ layout: default
 
 <link rel="stylesheet" href="{{ site.baseurl }}css/people.css">
 
-
 <div class="intro">{{ site.data.people.intro }}</div>
 
 <ul class="people-toc">
@@ -48,7 +47,7 @@ layout: default
             <span class="header">Projects</span>
             {% assign pubLinks = '' | split:':' %}
             {% for project in person.projects %}
-            {% capture pubLink %}{% if project.link %}<a href="{{ project.link }}">{% endif %}{{ project.name }}{% if project.link %}</a>{% endif %}{% endcapture %}
+              {% capture pubLink %}{% if project.link %}<a href="{{ project.link }}">{% endif %}{{ project.name }}{% if project.link %}</a>{% endif %}{% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  

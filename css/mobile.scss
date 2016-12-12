@@ -284,30 +284,6 @@ ul {
     margin: 1em 0 -1.2em;
 }
 
-#projects {
-    margin-top: 40px;
-}
-
-.project {
-    display: block;
-    border: 1px solid $lightGrey;
-    margin-bottom: 2.35765%;
-    @include pad;
-    color: inherit;
-    &:hover {
-        border-color: $indigo;
-        text-decoration: none;
-    }
-}
-
-.project h2 {
-  font-size: 3em;
-}
-
-.project:nth-child(2n) {
-    @include omega;
-}
-
 .pagination {
     margin-top: 30px;
 }

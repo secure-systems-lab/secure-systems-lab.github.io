@@ -3,62 +3,63 @@ title: Projects
 layout: default
 ---
 
-Though all of SSL’s research initiatives—past and present— revolve around ensuring secure operation of computer systems, the specific areas addressed by the team vary greatly. Current initiatives can be grouped into five general categories.
+<link rel="stylesheet" href="{{ site.baseurl }}css/projects.css">
 
-## Current & Ongoing Projects
+<div class="intro">{{ site.data.projects.intro }}</div>
 
-##### Remote Utilization and Testing of Wireless Devices
+{% for project in site.data.projects.projects %}
+<div class="project">
+  <a name="{{ project.anchor }}"></a>
+  
+  <h3> {{ project.name }} </h3>
+  
+  <div class="description"><p>
+    {{ project.description }}
+  </p></div>
 
-<a name="seattle"></a>
-- **Seattle**: The oldest of the lab’s projects, and the foundation technology behind several emerging initiatives, one of which is described below. Seattle is a platform for networking and distributed systems research that runs on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to over 40K geographically distributed devices around the world. https://seattle.poly.edu/html/.
-  - Products: Educational modules for classroom use designed to teach basic concepts in networking and system security; A clearinghouse of available resources to be accessed by users.  
+  <img src="{{ project.image }}"></img>
 
-  - Lessons Learned:
+  <ul>
+     {% if project.site %}
+       <li>
+         <span class="header">Site: </span>
+         <a href="{{ project.site }}">{{ project.site }}</a>
+       </li>
+     {% endif %}
+     {% if project.products %}
+       <li>
+         <span class="header">Products: </span>
+         <span class="products">{{ project.products }}</span>
+       </li>
+     {% endif %}
 
-<a name="sensibility"></a>
-- **[Sensibility Testbed](https://sensibilitytestbed.com/)**:
- Given the close proximity of smartphones to users, 
-researchers would benefit from accessing smartphone sensors. By giving the user
-control over what amount and type of data gathered, Sensibility ensures the 
-privacy of user information.  Sensibility also has additional security 
-protections that ensure the safety of the device, while giving researchers 
-access to unique information.
+     {% if project.people %}
+        <li><div class="people">
+           <span class="header">People: </span>
+           {% assign personLinks = '' | split:':' %}
+           {% for person in project.people %}
+           {% capture personLink %}{% if person.link %}<a class={% if person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link }}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
+             {% assign personLinks = personLinks | push: personLink %}
+           {% endfor %}
+        
+           {{ personLinks | array_to_sentence_string }}
+        </div></li>
+     {% endif %}
+     {% if project.tags %}
+       <li>
+         <span class="header">Tags: </span>
+         {{ project.tags | array_to_sentence_string }}
+       </li>
+     {% endif %}
+  </ul>
+</div>
+{% endfor %}
 
-**TODO: ADD IMAGE**
-
-  * Products: [Install our Android app](https://play.google.com/store/apps/details?id=com.sensibility_testbed)
-or learn more by [visiting our blog](https://seattlesensor.wordpress.com/)!
-
-  * Project members:  [Yanyan Zhuang](http://www.cs.uccs.edu/~yzhuang/), 
-Yu Hu,
-Lukas Pühringer,
-Felix Wang,
-[Richard Weiss](http://evergreen.edu/faculty/instructor/weissr), 
-[Leon Resnik](https://www.cs.rit.edu/people/faculty/lr),
-Justin Cappos
-**TODO: Somehow indicate the difference between internal links and 
-external collabs.  People in the lab should have this link go to their
-entry on this site...**
-
-  * Tags: Testbeds, Security, Systems, Internet of Things, Networking  
 ** TODO: These should not just be text, but be used to allow searching, etc. **
-
-**TODO: Need some kind of break between projects.  Either space or a horizontal
-line or both.**
 
 
   ##### Password Protection and Improved Network Security
 
-
-<a name="pph"></a>
-- **PolyPasswordHasher (PPH)**:  is a secure password storage system that's highly resilient to offline password cracking. It achieves this resilience by
-introducing asymmetry in the effort that servers require to verify
-passwords, and crackers require to crack them.
-https://polypasswordhasher.github.io/PolyPasswordHasher/
-
-  * Products:  Basic reference implementations of PPH  have been written for Python,  C,  and Ruby. A Django implementation that can be easily deployed is also in development. Research initiatives on PPH this summer have focused on providing easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM) and a Passport module. PAM is an authentication scheme used in a number of operating systems, including Linux and OS X, while the Passport module is authentication middleware that allows web users to store and authenticate their account with PPH by choosing “login with PPH”. Both modules can enable more applications to use PPH and increase the security of their password database exponentially in exchange for only modest adaptations to the OS or user behavior.
-
-    * Lessons Learned:
 
 <a name="cachecash"></a>
 - **CacheCash**:  CacheCash presents a new design model for automated content delivery networks in which cryptocurrency payments are utilized to motivate participants to work honestly. Building on top of such a cryptocurrency, CacheCash creates an opportunity to construct a distributed, secure, and efficient incentivized content delivery system that does not depend upon a single entity to handle payments.
