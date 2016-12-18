@@ -23,6 +23,8 @@ layout: default
 -->
 </ul>
 
+<div id="selectedTag"></div>
+
 {% for project in site.data.projects.projects %}
 <div class="project">
   <a name="{{ project.anchor }}"></a>
@@ -70,7 +72,5 @@ layout: default
   </ul>
 </div>
 {% endfor %}
-
-** TODO: These should not just be text, but be used to allow searching, etc. **
 
 <script src="{{ site.baseurl }}js/project_tags.js"></script>

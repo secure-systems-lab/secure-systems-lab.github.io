@@ -26,13 +26,16 @@ for (var tag in tags) {
 function filterTag(tag) {
     var projectElements = document.getElementsByClassName('project');
 
-    var taggedProjects = tags[tag.toElement.name];
+    var tagName = tag && tag.toElement.name;
+    var taggedProjects = tags[tagName] || [];
 
     for (var i = 0; i < projectElements.length; i++) {
 	var projectElem = projectElements[i];
         var projectAnchor = projectElem.getElementsByTagName('a')[0].name;
 
-	if (taggedProjects.includes(projectAnchor)) {
+	// Show the projects associated with the selected tag or
+	// If no tag was given then show all projects
+	if (taggedProjects.includes(projectAnchor) || !tag) {
 	    projectElem.style.display = 'block';
 	    projectElem.style.display = 'inline';
 	    projectElem.style.display = 'inline-block';
@@ -40,4 +43,7 @@ function filterTag(tag) {
 	    projectElem.style.display = 'none'; 
 	}
     }
+
+    var selectedTagElem = document.getElementById('selectedTag');
+    selectedTagElem.innerHTML = tagName ? (tagName+'<a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
 }
