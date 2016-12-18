@@ -8,7 +8,7 @@ projects:
   - cachecash: &cachecash
       name: CacheCash
       link: "projects#cachecash"
-  - crash-simulator: &crash-simulator
+  - crashsimulator: &crashsimulator
       name: "Crash Simulator"
   - lind: &lind
       name: Lind
@@ -294,7 +294,7 @@ people:
         photo: "img/people/smiley.jpg"
         interests: "Secure software engineering, automated testing, systems security"
         projects:
-          - *crash-simulator
+          - *crashsimulator
 
       - name: "Devon J. Powell"
         role: "First year Ph.D. Student"

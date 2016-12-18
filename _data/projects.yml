@@ -15,6 +15,14 @@ people:
       name: "Lukas Pühringer"
       link: "people#lukas_pühringer"
       internal: true
+  - trishank_kuppusamy: &trishank_kuppusamy
+      name: "Trishank Kuppusamy"
+      link: "people#trishank_kuppusamy"
+      internal: true
+  - sebastien_awwad: &sebastien_awwad
+      name: "Sebastien Awwad"
+      link: "people#sebastien_awwad"
+      internal: true
 
 intro: "Though all of SSL’s research initiatives—past and present— revolve around ensuring secure operation of computer systems, the specific areas addressed by the team vary greatly. Current initiatives can be grouped into five general categories."
 
@@ -25,7 +33,6 @@ projects:
     site: "https://seattle.poly.edu/html/"
     description: "As networks and distributed systems grow more complex, there is a genuine need to better understand how they operate. The Seattle project is a software program and research platform, and supports an easy-to-access resource clearinghouse that supports both research and educational initiatives in these areas. Designed as a collaborative effort, all Seattle projects are run on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world."
     products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
-
     people:
       - *albert_rafetseder
       - *lukas_puhringer
@@ -70,7 +77,106 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
 
   - name: "PolyPasswordHasher (PPH)"
     anchor: "pph"
-    photo: "img/people/justin_cappos.jpg"
+    photo:
     site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
     description: "A password database disclosure can be devastating, costing companies billions of dollars in damages. Polypasswordhasher offers a new approach to preventing such disclosure. By interrelating stored password data, potential hackers are forced to crack passwords in sets. This increases the attackers’ level of difficulty, making a PolyPasswordHasher-enabled database very hard to breach, even for an adversary with millions of computers."
     products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank."
+    people:
+    tags:
+
+
+  - name: "CacheCash"
+    anchor: "cachecache"
+    photo:
+    site:
+    description: "CacheCash presents a new design model for automated content delivery networks in which cryptocurrency payments are utilized to motivate participants to work honestly. Building on top of such a cryptocurrency, CacheCash creates an opportunity to construct a distributed, secure, and efficient incentivized content delivery system that does not depend upon a single entity to handle payments."
+    products: 
+    people:
+    tags:
+
+  - name: "The Update Framework (TUF)"
+    anchor: "tuf"
+    photo:
+    site: "https://theupdateframework.github.io"
+    description: "TUF provides a comprehensive, flexible security framework that developers can integrate with any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks through the use of images and signing strategies."
+    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi"
+    people:
+    tags:
+
+  - name: "Uptane"
+    anchor: "uptane"
+    photo:
+    site: "https://uptane.github.io/"
+    description: "Cars today use a truly enormous 
+amount of software.  Like any
+software, this software has bugs.  Unfortunately there is not a secure way
+to update the software in cars today.  Our Uptane project provides a 
+mechanism to securely distribute updates to cars.  Uptane can counter a 
+comprehensive array of security attacks, and is resilient to partial 
+compromises, while addressing  automotive specific vulnerabilities and 
+limitations."
+    products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
+information about the project, including the 
+<a href=\"need link\">design specification</a> and <a href=\"need link\">deployment considerations</a>.
+For those who want lower level details, we also provide a
+<a href=\"need link\">implementation guide</a>, an open source 
+<a href=\"need link\">reference implementation</a>, <a href=\"need link\">compliance tests</a>, and 
+a <a href=\"need link\">runnable demo</a>."
+    people:
+      - *trishank_kuppusamy
+      - *sebastien_awwad
+      - name: Akanitoro Brown
+      - name: Damon McCoy
+      - name: Russ Bielawski (UMTRI)
+      - name: Cameron Mott (SWRI)
+      - name: Sam Lauzon (UMTRI)
+      - name: André Weimerskirch (UMTRI)
+      - *justin_cappos
+    tags:
+      - "Software Updates"
+      - "Internet of Things"
+
+  - name: "Lind"
+    anchor: "lind"
+    photo:
+    site:
+    description: "A virtual machine design that prevents the triggering of kernel bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
+    products:
+    people:
+    tags:
+
+  - name: "CrashSimulator"
+    anchor: "crashsimulator"
+    photo:
+    site:
+    description: "a tool that simulates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
+    products:
+    people:
+    tags:
+
+  - name: "Atoms of Confusion"
+    anchor: "atoms"
+    photo:
+    site:
+    description: "Within every confusing piece of software codes
+  are small patterns that can lead developers  to outputs that radically
+differ from what was intended. In studying these “atoms of confusion” we
+look to build a firm empirical foundation for reducing code confusion in
+software development and, thus, also reduce the frequency of buggy and
+malfunctioning programs."
+    products: "The <a href=\"https://atomsofconfusion.com\">project website</a> provides
+a rough background of our theory, studies, and analysis for this work.
+We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
+openly available so that other researchers can replicate, validate, and 
+build on our findings."
+    people:
+      - name: Dan Gopstein
+      - name: Devon Powell
+      - name: Jake Iannacone
+      - name: Lois Anne Delong
+      - name: Apple Yan (PSU)
+      - name: Martin Yeh (PSU)
+      - name: Yanyan Zhuang (UCCS)
+      - *justin_cappos
+    tags:
+      - "Software Engineering"
