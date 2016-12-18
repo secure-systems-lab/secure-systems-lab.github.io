@@ -23,18 +23,30 @@ projects:
     anchor: "seattle"
     photo: "img/people/justin_cappos.jpg"
     site: "https://seattle.poly.edu/html/"
-    description: "The oldest of the lab’s projects, and the foundation technology behind several emerging initiatives, one of which is described below. Seattle is a platform for networking and distributed systems research that runs on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to over 40K geographically distributed devices around the world."
-    products: "Educational modules for classroom use designed to teach basic concepts in networking and system security; A clearinghouse of available resources to be accessed by users."
+    description: "As networks and distributed systems grow more complex, there is a genuine need to better understand how they operate. The Seattle project is a software program and research platform, and supports an easy-to-access resource clearinghouse that supports both research and educational initiatives in these areas. Designed as a collaborative effort, all Seattle projects are run on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world."
+    products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
 
+    people:
+      - *albert_rafetseder
+      - *lukas_puhringer
+      - *sebastien_awwad
+      - *rohan_bhirangi
+      - *ajay_shenoy
+      - *justin_cappos
+    tags:
+      - "Research Llatform"
+      - "Networking"
+      - "Cloud Technology"
+      - "Smart Devices"
 
   - name: "Sensibility Testbed"
     anchor: "sensibility"
     photo: "img/people/justin_cappos.jpg"
     site:
-    description: "Given the close proximity of smartphones to users, 
-researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the 
-privacy of user information.  Sensibility also has additional security 
-protections that ensure the safety of the device, while giving researchers 
+    description: "Given the close proximity of smartphones to users,
+researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the
+privacy of user information.  Sensibility also has additional security
+protections that ensure the safety of the device, while giving researchers
 access to unique information."
     products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
@@ -60,7 +72,5 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     anchor: "pph"
     photo: "img/people/justin_cappos.jpg"
     site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-    description: "is a secure password storage system that's highly resilient to offline password cracking. It achieves this resilience by
-introducing asymmetry in the effort that servers require to verify
-passwords, and crackers require to crack them."
-    products: "Basic reference implementations of PPH  have been written for Python,  C,  and Ruby. A Django implementation that can be easily deployed is also in development. Research initiatives on PPH this summer have focused on providing easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM) and a Passport module. PAM is an authentication scheme used in a number of operating systems, including Linux and OS X, while the Passport module is authentication middleware that allows web users to store and authenticate their account with PPH by choosing “login with PPH”. Both modules can enable more applications to use PPH and increase the security of their password database exponentially in exchange for only modest adaptations to the OS or user behavior."
+    description: "A password database disclosure can be devastating, costing companies billions of dollars in damages. Polypasswordhasher offers a new approach to preventing such disclosure. By interrelating stored password data, potential hackers are forced to crack passwords in sets. This increases the attackers’ level of difficulty, making a PolyPasswordHasher-enabled database very hard to breach, even for an adversary with millions of computers."
+    products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank."
