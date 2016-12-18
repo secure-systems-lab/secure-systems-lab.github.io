@@ -37,11 +37,11 @@ projects:
       - *albert_rafetseder
       - *lukas_puhringer
       - *sebastien_awwad
-      - *rohan_bhirangi
-      - *ajay_shenoy
+      - name: Rohan Bhirangi
+      - name: Ajay Shenoy
       - *justin_cappos
     tags:
-      - "Research Llatform"
+      - "Research Platform"
       - "Networking"
       - "Cloud Technology"
       - "Smart Devices"
@@ -180,3 +180,39 @@ build on our findings."
       - *justin_cappos
     tags:
       - "Software Engineering"
+
+  - name: "in-toto"
+    anchor: "in-toto"
+    photo:
+    site:
+    description: "A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by whom."
+    products:
+    people:
+    tags:
+
+  - name: "API Blindspots"
+    anchor: "blindspots"
+    photo:
+    site:
+    description: "This project, a collaboration with researchers at the University of Florida, the University of Massachusetts-Amherst, and the University of Colorado, Colorado Springs, seeks to identify security-related blind spots in Application Programming Interfaces (APIs)."
+    products:
+    people:
+    tags:
+
+  - name: "NetCheck/CheckAPI"
+    anchor: "netcheck"
+    photo:
+    site: "https://netcheck.poly.edu/projects/project/wiki"
+    description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
+    products:
+    people:
+    tags:
+
+  - name: "upPIR"
+    anchor: "upPIR"
+    photo:
+    site:
+    description: "upPIR is a secure protocol by which a client can privately retrieve information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preference can be masked. In doing so, the privacy of the client is protected as the nature of the requested information can not be used to give away his sexual orientation, religious beliefs, political beliefs, or other sensitive data about the client and/or her company."
+    products:
+    people:
+    tags:

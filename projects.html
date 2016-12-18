@@ -1,11 +1,27 @@
 ---
 title: Projects
+subnav: projects
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}css/projects.css">
+<link rel="stylesheet" href="{{ site.baseurl }}css/projects.css"></link>
 
 <div class="intro">{{ site.data.projects.intro }}</div>
+
+<ul id="tags-toc">
+<!--
+  <li>Research Platform</li>
+  <li>Networking</li>
+  <li>Cloud Technology</li>
+  <li>Smart Devices</li>
+  <li>Testbeds</li>
+  <li>Security</li>
+  <li>Systems</li>
+  <li>Internet of Things</li>
+  <li>Software Updates</li>
+  <li>Software Engineering</li>
+-->
+</ul>
 
 {% for project in site.data.projects.projects %}
 <div class="project">
@@ -57,29 +73,4 @@ layout: default
 
 ** TODO: These should not just be text, but be used to allow searching, etc. **
 
-<a name="in-toto"></a>
-- **in-toto**: A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who.
-
-
-<a name="blindspots"></a>
-- **API Blindspots**: This project, a collaboration with researchers at the University of Florida, the University of Massachusetts-Amherst, and the University of Colorado, Colorado Springs, seeks to identify security-related blind spots in Application Programming Interfaces (APIs).
-  * Products:
-
-
-  ## Foundational Projects
-
-These earlier lab projects are now completed and no new work on them is currently being done. However, these research initiatives remain important for a number of reasons. First, they set some parameters for the practical, problem-solving type of research the lab would do. And, in some cases, they pioneered approaches to particular security areas that continue to evolve into today’s products.
-
-<a name="netcheck"></a>
-- **NetCheck/CheckAPI**: NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics.
-
-  * Products: The source code for the NetCheck tool and all relevant documentation remain available at https://netcheck.poly.edu/projects/project/wiki.
-
-  * Lessons Learned:
-
-<a name="upir"></a>
-- **upPIR**: upPIR is a secure protocol by which a client can privately retrieve information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preference can be masked. In doing so, the privacy of the client is protected as the nature of the requested information can not be used to give away his sexual orientation, religious beliefs, political beliefs, or other sensitive data about the client and/or her company.
-
-  * Products:
-
-  * Lessons Learned:
+<script src="{{ site.baseurl }}js/project_tags.js"></script>
