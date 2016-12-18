@@ -8,6 +8,8 @@ projects:
   - cachecash: &cachecash
       name: CacheCash
       link: "projects#cachecash"
+  - crash-simulator: &crash-simulator
+      name: "Crash Simulator"
   - lind: &lind
       name: Lind
   - netcheck: &netcheck
@@ -137,7 +139,7 @@ people:
       - name: "Sebastien Awwad"
         role: "Developer"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/sebastien_awwad.jpg"
         interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
         projects:
           - *uptane
@@ -219,7 +221,7 @@ people:
         photo: "img/people/luqin_wang.jpg"
         interests: "Social networks, Internet measurement, network security and distributed systems"
         projects:
-          - *CacheCash
+          - *cachecash
           - name: upPIR
         publications:
             - name: "PAM 2015"
@@ -292,7 +294,7 @@ people:
         photo: "img/people/smiley.jpg"
         interests: "Secure software engineering, automated testing, systems security"
         projects:
-          - *CrashSimulator
+          - *crash-simulator
 
       - name: "Devon J. Powell"
         role: "First year Ph.D. Student"
@@ -306,7 +308,7 @@ people:
       - name: "Rad Akefirad"
         role: "Ph.D. Student"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/rad_akefirad.jpg"
         interests: "Software Engineering, Secure Software Design and Development, Distributed Systems, Microservices"
         projects:
             - *blindspots
@@ -340,7 +342,7 @@ people:
       - name: "Deepankar Jaisia"
         role: "Master's Student"
         since: 2016
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/deepankar_jaisia.jpg"
         interests: "Protecting privacy in personal communications; Expanding skills in using Python"
         projects:
           - *seattle
@@ -372,7 +374,7 @@ people:
       - name: "Yanyan Zhuang"
         role: "Research Professor"
         since: "2014"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/yanyan_zhuang.jpg"
         interests: "Mobile systems, wireless networks, privacy and security."
         projects:
           - *sensibility
