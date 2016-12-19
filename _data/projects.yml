@@ -23,6 +23,50 @@ people:
       name: "Sebastien Awwad"
       link: "people#sebastien_awwad"
       internal: true
+  - santiago_torres: &santiago_torres
+      name: "Santiago Torres-Arias"
+      link: "people#santiago_torres"
+      internal: true
+  - kejian_wang: &kejian_wang
+      name: "Felix Wang"
+      link: "people#kejian_wang"
+      internal: true
+  - lolaly_luo: &lolaly_luo
+      name: "Shuyuan Luo"
+      link: "lolaly_luo"
+      internal: true
+  - vlad_diaz: &vlad_diaz
+      name: "Vladimir Diaz"
+      link: "people#vlad_diaz"
+      internal: true
+  - luqin_wang: &luqin_wang
+      name: "Luqin Wang"
+      link: "people#luqin_wang"
+      internal: true
+  - ghada_almashaqbeh: &ghada_almashaqbeh
+      name: "Ghada Almashaqbeh"
+      link: "people#ghada_almashaqbeh"
+      internal: true
+  - yiwen_li: &yiwen_li
+      name: "Yiwen Li"
+      link: "people#yiwen_li"
+      internal: true
+  - artiom_baloian: &artiom_baloian
+      name: "Artiom Baloian"
+      link: "people#artiom_baloian"
+      internal: true
+  - devon_powell: &devon_powell
+      name: "Devon Powell"
+      link: "people#devon_powell"
+      internal: true
+  - rad_akefirad: &rad_akefirad
+      name: "Rad Akefirad"
+      link: "people#rad_akefirad"
+      internal: true
+  - lois_delong: &lois_delong
+      name: "Lois Anne DeLong"
+      link: "people#lois_delong"
+      internal: true
 
 intro: "Though all of SSL’s research initiatives—past and present— revolve around ensuring secure operation of computer systems, the specific areas addressed by the team vary greatly. Current initiatives can be grouped into five general categories."
 
@@ -61,7 +105,7 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *yanyan_zhuang
       - *yu_hu
       - *lukas_puhringer
-      - name: "Felix Wang"
+      - *kejian_wang
       - name: "Richard Weiss"
         link: "http://evergreen.edu/faculty/instructor/weissr"
       - name: "Leon Resnik"
@@ -74,7 +118,6 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - "Internet of Things"
       - "Networking"
 
-
   - name: "PolyPasswordHasher (PPH)"
     anchor: "pph"
     photo:
@@ -82,45 +125,74 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     description: "A password database disclosure can be devastating, costing companies billions of dollars in damages. Polypasswordhasher offers a new approach to preventing such disclosure. By interrelating stored password data, potential hackers are forced to crack passwords in sets. This increases the attackers’ level of difficulty, making a PolyPasswordHasher-enabled database very hard to breach, even for an adversary with millions of computers."
     products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank."
     people:
+      - *santiago_torres
+      - *vlad_diaz
+      - *lolaly_luo
+      - *justin_cappos
     tags:
-
+      - "Password storage"
+      - "Password cracking"
+      - "Password protection"
+      - "Asymmetric effort"
 
   - name: "CacheCash"
     anchor: "cachecache"
     photo:
     site:
-    description: "CacheCash presents a new design model for automated content delivery networks in which cryptocurrency payments are utilized to motivate participants to work honestly. Building on top of such a cryptocurrency, CacheCash creates an opportunity to construct a distributed, secure, and efficient incentivized content delivery system that does not depend upon a single entity to handle payments."
-    products: 
+    description: "With the rising demand for fast and efficient delivery of online content, decentralized provider networks have emerged as an attractive solution. The downside of these systems is keeping all parties involved honest and reliable. CacheCash combines proven cryptographic strategies with a payment scheme that makes honest behavior profitable for all concerned. In addition to its security aspects, early findings suggest CacheCash can also scale to meet growing demands, while adding only minimal bandwidth cost for users."
+    products: "Reference implementation coming soon"
     people:
+      - *ghada_almashaqbeh
+      - *luqin_wang
+      - name: "Allison Bishop Lewko"
+        link: "http://www.columbia.edu/~allison"
+      - *justin_cappos
     tags:
+      - "Content delivery networks"
+      - "BitCoin"
+      - "Cryptocurrency"
+      - "Peer to peer networks"
+      - "Blockchain"
 
   - name: "The Update Framework (TUF)"
     anchor: "tuf"
     photo:
     site: "https://theupdateframework.github.io"
-    description: "TUF provides a comprehensive, flexible security framework that developers can integrate with any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks through the use of images and signing strategies."
+    description: "Software must be updated frequently to not only ensure improved operations, but also to address flaws that are often corrected in later versions. Unfortunately, updates can introduce new flaws, and thus pose a security risk. TUF is a comprehensive, flexible framework to secure such updates. Developers can integrate TUF into any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks."
     products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi"
     people:
+      - *vlad_diaz
+      - *sebastien_awwad
+      - *trishank_kuppusamy
+      - *artiom_baloian
+      - *kejian_wang
+      - *justin_cappos
     tags:
+      - "Software updates"
+      - "Package Managers"
+      - "Application updaters"
+      - "Security framework"
+      - "Delegations"
+      - "Signing keys"
 
   - name: "Uptane"
     anchor: "uptane"
     photo:
     site: "https://uptane.github.io/"
-    description: "Cars today use a truly enormous 
+    description: "Cars today use a truly enormous
 amount of software.  Like any
 software, this software has bugs.  Unfortunately there is not a secure way
-to update the software in cars today.  Our Uptane project provides a 
-mechanism to securely distribute updates to cars.  Uptane can counter a 
-comprehensive array of security attacks, and is resilient to partial 
-compromises, while addressing  automotive specific vulnerabilities and 
+to update the software in cars today.  Our Uptane project provides a
+mechanism to securely distribute updates to cars.  Uptane can counter a
+comprehensive array of security attacks, and is resilient to partial
+compromises, while addressing  automotive specific vulnerabilities and
 limitations."
     products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
-information about the project, including the 
+information about the project, including the
 <a href=\"need link\">design specification</a> and <a href=\"need link\">deployment considerations</a>.
 For those who want lower level details, we also provide a
-<a href=\"need link\">implementation guide</a>, an open source 
-<a href=\"need link\">reference implementation</a>, <a href=\"need link\">compliance tests</a>, and 
+<a href=\"need link\">implementation guide</a>, an open source
+<a href=\"need link\">reference implementation</a>, <a href=\"need link\">compliance tests</a>, and
 a <a href=\"need link\">runnable demo</a>."
     people:
       - *trishank_kuppusamy
@@ -140,19 +212,33 @@ a <a href=\"need link\">runnable demo</a>."
     anchor: "lind"
     photo:
     site:
-    description: "A virtual machine design that prevents the triggering of kernel bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
+    description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
     products:
     people:
+      - *yiwen_li
+      - *justin_cappos
+      - name: "Brendan Dolan-Gavitt"
+        link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
     tags:
+      - "Virtual Machine"
+      - "Kernel bugs"
+      - "Popular paths"
 
   - name: "CrashSimulator"
     anchor: "crashsimulator"
     photo:
     site:
-    description: "a tool that simulates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
+    description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
     products:
     people:
+      - name: "Preston Moore"
+      - *justin_cappos
+      - name: "Phyllis Frankl"
+        link: "http://engineering.nyu.edu/people/phyllis-frankl"
     tags:
+      - "Software testing"
+      - "Software flaws"
+      - "Simulation tools"
 
   - name: "Atoms of Confusion"
     anchor: "atoms"
@@ -167,28 +253,40 @@ malfunctioning programs."
     products: "The <a href=\"https://atomsofconfusion.com\">project website</a> provides
 a rough background of our theory, studies, and analysis for this work.
 We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
-openly available so that other researchers can replicate, validate, and 
+openly available so that other researchers can replicate, validate, and
 build on our findings."
     people:
       - name: Dan Gopstein
-      - name: Devon Powell
+      - *devon_powell
       - name: Jake Iannacone
-      - name: Lois Anne Delong
+      - *lois_delong
       - name: Apple Yan (PSU)
       - name: Martin Yeh (PSU)
       - name: Yanyan Zhuang (UCCS)
       - *justin_cappos
     tags:
       - "Software Engineering"
+      - "Code complexity"
+      - "Code comprehension"
 
   - name: "in-toto"
     anchor: "in-toto"
     photo:
     site:
-    description: "A program that holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. Through the use of “link metadata,” in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by whom."
-    products:
+    description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-Toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
+    products: "The in-Toto program is currently being integrated into other lab software, including PolyPasswordHasher."
     people:
+      - *santiago_torres
+      - *lukas_puhringer
+      - *vlad_diaz
+      - *artiom_baloian
+      - name: "Reza Curtmola"
+        link: "http:///web.njit.edu/~crix/"
+      - *justin_cappos
     tags:
+      - "Software supply chain"
+      - "Link metadata"
+      - "software tampering"
 
   - name: "API Blindspots"
     anchor: "blindspots"
@@ -197,22 +295,46 @@ build on our findings."
     description: "This project, a collaboration with researchers at the University of Florida, the University of Massachusetts-Amherst, and the University of Colorado, Colorado Springs, seeks to identify security-related blind spots in Application Programming Interfaces (APIs)."
     products:
     people:
+      - *rad_akefirad
+      - *lois_delong
+      - *justin_cappos
+      - name: "Daniela Oliviera (UF)"
+        link: "http://www.daniela.ece.ufl.edu/Home.html"
+      - name: "Olabode Anise (UF)"
+      - name: "Natalie Ebner (UF)"
+        link: "http://www.psych.ufl.edu/~ebner/"
+      - name: "Donovan Ellis (UF)"
+      - name: "Yuriy Brun (UMass-Amherst)"
+        link: "https://people.cs.umass.edu/~brun/"
+      - *yanyan_zhuang
     tags:
+      - "Software engineering"
+      - "Code complexity"
+      - "Program comprehension"
+      - "APIa"
 
-  - name: "NetCheck/CheckAPI"
+  - name: "NetCheck"
     anchor: "netcheck"
     photo:
     site: "https://netcheck.poly.edu/projects/project/wiki"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-    products:
+    products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site."
     people:
     tags:
+      - "Failure diagnosis"
+      - "Blackbox"
 
   - name: "upPIR"
     anchor: "upPIR"
     photo:
-    site:
-    description: "upPIR is a secure protocol by which a client can privately retrieve information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preference can be masked. In doing so, the privacy of the client is protected as the nature of the requested information can not be used to give away his sexual orientation, religious beliefs, political beliefs, or other sensitive data about the client and/or her company."
-    products:
+    site: "https://github.com/trishankkarthik/multiblockpir"
+    description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
+    products: "The prototype code for this project is available at its github repository."
     people:
+      -*luqin_wang
+      -*trishank_kuppusamy
+      -*justin_cappos
     tags:
+      - "Secure content retrieval"
+      - "Anonymous queries"
+      - "Privacy"
