@@ -134,7 +134,7 @@ people:
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
             link: "http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI)"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI"
 
       - name: "Sebastien Awwad"
         role: "Developer"
@@ -337,7 +337,7 @@ people:
         projects:
           - *seattle
           - name: "Totally Secure"
-        deployments: "designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
+        deployments: "Designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
 
       - name: "Deepankar Jaisia"
         role: "Master's Student"
