@@ -33,7 +33,7 @@ people:
       internal: true
   - lolaly_luo: &lolaly_luo
       name: "Shuyuan Luo"
-      link: "lolaly_luo"
+      link: "people#lolaly_luo"
       internal: true
   - vlad_diaz: &vlad_diaz
       name: "Vladimir Diaz"
@@ -67,6 +67,18 @@ people:
       name: "Lois Anne DeLong"
       link: "people#lois_delong"
       internal: true
+  - sam_weber: &sam_weber
+      name: "Sam Weber"
+      link: "people#sam_weber"
+      internal: true
+  - rohan_bhirangi: &rohan_bhirangi
+      name: "Rohan Ketan Bhirangi"
+      link: "people#rohan_bhirangi"
+      internal: true
+  - ajay_shenoy: &ajay_shenoy
+      name: "Ajay Shenoy"
+      link: "people#ajay_shenoy"
+      internal: true
 
 intro: "Though all of SSL’s research initiatives—past and present— revolve around ensuring secure operation of computer systems, the specific areas addressed by the team vary greatly. Current initiatives can be grouped into five general categories."
 
@@ -75,7 +87,7 @@ projects:
     anchor: "seattle"
     photo: "img/people/justin_cappos.jpg"
     site: "https://seattle.poly.edu/html/"
-    description: "As networks and distributed systems grow more complex, there is a genuine need to better understand how they operate. The Seattle project is a software program and research platform, and supports an easy-to-access resource clearinghouse that supports both research and educational initiatives in these areas. Designed as a collaborative effort, all Seattle projects are run on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world."
+    description: "As networks and distributed systems grow more complex, there is a genuine need to better understand how they operate. The Seattle project is a software program that supports networking research. The initiative offers an easy-to-access clearinghouse providing resources for both research and educational initiatives. Designed as a collaborative community effort, all Seattle projects are run on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world."
     products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
     people:
       - *albert_rafetseder
@@ -107,7 +119,7 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *lukas_puhringer
       - *kejian_wang
       - name: "Richard Weiss"
-        link: "http://evergreen.edu/faculty/instructor/weissr"
+        link: "http://evergreen.edu/people/weiss-richard"
       - name: "Leon Resnik"
         link: "https://www.cs.rit.edu/people/faculty/lr"
       - *justin_cappos
@@ -130,7 +142,6 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *lolaly_luo
       - *justin_cappos
     tags:
-      - "Password storage"
       - "Password cracking"
       - "Password protection"
       - "Asymmetric effort"
@@ -145,13 +156,11 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *ghada_almashaqbeh
       - *luqin_wang
       - name: "Allison Bishop Lewko"
-        link: "http://www.columbia.edu/~allison"
+        link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
     tags:
       - "Content delivery networks"
-      - "BitCoin"
       - "Cryptocurrency"
-      - "Peer to peer networks"
       - "Blockchain"
 
   - name: "The Update Framework (TUF)"
@@ -170,10 +179,8 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     tags:
       - "Software updates"
       - "Package Managers"
-      - "Application updaters"
       - "Security framework"
-      - "Delegations"
-      - "Signing keys"
+      - "Repositories"
 
   - name: "Uptane"
     anchor: "uptane"
@@ -199,13 +206,19 @@ a <a href=\"need link\">runnable demo</a>."
       - *sebastien_awwad
       - name: Akanitoro Brown
       - name: Damon McCoy
+        link: "http://engineering.nyu.edu/people/damon-mccoy"
       - name: Russ Bielawski (UMTRI)
+        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
       - name: Cameron Mott (SWRI)
+        link: "http://www.swri.org/iProfiles/ViewiProfile.asp?k=5f23y026tv89127"
       - name: Sam Lauzon (UMTRI)
+        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
       - name: André Weimerskirch (UMTRI)
+        link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
       - *justin_cappos
     tags:
       - "Software Updates"
+      - "Repositories"
       - "Internet of Things"
 
   - name: "Lind"
@@ -260,9 +273,13 @@ build on our findings."
       - *devon_powell
       - name: Jake Iannacone
       - *lois_delong
+      - *sam_weber
+      - name: Phyllis Frankl
+        link: "http://engineering.nyu.edu/people/phyllis-frankl"
       - name: Apple Yan (PSU)
       - name: Martin Yeh (PSU)
-      - name: Yanyan Zhuang (UCCS)
+        link: "http://brandywine.psu.edu/person/martin-yeh"
+      - *yanyan_zhuang
       - *justin_cappos
     tags:
       - "Software Engineering"
@@ -273,8 +290,8 @@ build on our findings."
     anchor: "in-toto"
     photo:
     site:
-    description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-Toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
-    products: "The in-Toto program is currently being integrated into other lab software, including PolyPasswordHasher."
+    description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
+    products: "The in-toto program is currently being integrated into other lab software, including PolyPasswordHasher."
     people:
       - *santiago_torres
       - *lukas_puhringer
@@ -311,7 +328,7 @@ build on our findings."
       - "Software engineering"
       - "Code complexity"
       - "Program comprehension"
-      - "APIa"
+      - "APIs"
 
   - name: "NetCheck"
     anchor: "netcheck"
