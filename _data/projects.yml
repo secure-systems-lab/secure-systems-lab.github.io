@@ -97,10 +97,9 @@ projects:
       - name: Ajay Shenoy
       - *justin_cappos
     tags:
-      - "Research Platform"
+      - "Security"
       - "Networking"
-      - "Cloud Technology"
-      - "Smart Devices"
+      - "Testbeds"
 
   - name: "Sensibility Testbed"
     anchor: "sensibility"
@@ -125,10 +124,9 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *justin_cappos
     tags:
       - "Testbeds"
-      - "Security"
-      - "Systems"
-      - "Internet of Things"
+      - "Privacy"
       - "Networking"
+      - "Internet of Things"
 
   - name: "PolyPasswordHasher (PPH)"
     anchor: "pph"
@@ -142,9 +140,8 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *lolaly_luo
       - *justin_cappos
     tags:
-      - "Password cracking"
-      - "Password protection"
-      - "Asymmetric effort"
+      - "Cryptography"
+      - "Security"
 
   - name: "CacheCash"
     anchor: "cachecache"
@@ -159,9 +156,10 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
         link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
     tags:
-      - "Content delivery networks"
-      - "Cryptocurrency"
-      - "Blockchain"
+      - "Security"
+      - "Cryptography"
+      - "Systems"
+      - "Networking"
 
   - name: "The Update Framework (TUF)"
     anchor: "tuf"
@@ -177,10 +175,8 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - *kejian_wang
       - *justin_cappos
     tags:
-      - "Software updates"
-      - "Package Managers"
-      - "Security framework"
-      - "Repositories"
+      - "Software Updates"
+      - "Security"
 
   - name: "Uptane"
     anchor: "uptane"
@@ -218,7 +214,7 @@ a <a href=\"need link\">runnable demo</a>."
       - *justin_cappos
     tags:
       - "Software Updates"
-      - "Repositories"
+      - "Security"
       - "Internet of Things"
 
   - name: "Lind"
@@ -233,9 +229,8 @@ a <a href=\"need link\">runnable demo</a>."
       - name: "Brendan Dolan-Gavitt"
         link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
     tags:
-      - "Virtual Machine"
-      - "Kernel bugs"
-      - "Popular paths"
+      - "Security"
+      - "Systems"
 
   - name: "CrashSimulator"
     anchor: "crashsimulator"
@@ -249,9 +244,9 @@ a <a href=\"need link\">runnable demo</a>."
       - name: "Phyllis Frankl"
         link: "http://engineering.nyu.edu/people/phyllis-frankl"
     tags:
-      - "Software testing"
-      - "Software flaws"
-      - "Simulation tools"
+      - "Software Engineering"
+      - "Testing Tools"
+      - "Systems"
 
   - name: "Atoms of Confusion"
     anchor: "atoms"
@@ -283,8 +278,6 @@ build on our findings."
       - *justin_cappos
     tags:
       - "Software Engineering"
-      - "Code complexity"
-      - "Code comprehension"
 
   - name: "in-toto"
     anchor: "in-toto"
@@ -301,9 +294,8 @@ build on our findings."
         link: "http:///web.njit.edu/~crix/"
       - *justin_cappos
     tags:
-      - "Software supply chain"
-      - "Link metadata"
-      - "software tampering"
+      - "Software Updates"
+      - "Security"
 
   - name: "API Blindspots"
     anchor: "blindspots"
@@ -325,10 +317,7 @@ build on our findings."
         link: "https://people.cs.umass.edu/~brun/"
       - *yanyan_zhuang
     tags:
-      - "Software engineering"
-      - "Code complexity"
-      - "Program comprehension"
-      - "APIs"
+      - "Software Engineering"
 
   - name: "NetCheck"
     anchor: "netcheck"
@@ -338,8 +327,8 @@ build on our findings."
     products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site."
     people:
     tags:
-      - "Failure diagnosis"
-      - "Blackbox"
+      - "Software Engineering"
+      - "Testing Tools"
 
   - name: "upPIR"
     anchor: "upPIR"
@@ -352,6 +341,6 @@ build on our findings."
       -*trishank_kuppusamy
       -*justin_cappos
     tags:
-      - "Secure content retrieval"
-      - "Anonymous queries"
-      - "Privacy"
+      - "Security"
+      - "Cryptography"
+      - "Networking"
