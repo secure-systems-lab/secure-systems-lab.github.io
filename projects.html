@@ -9,18 +9,6 @@ layout: default
 <div class="intro">{{ site.data.projects.intro }}</div>
 
 <ul id="tags-toc">
-<!--
-  <li>Research Platform</li>
-  <li>Networking</li>
-  <li>Cloud Technology</li>
-  <li>Smart Devices</li>
-  <li>Testbeds</li>
-  <li>Security</li>
-  <li>Systems</li>
-  <li>Internet of Things</li>
-  <li>Software Updates</li>
-  <li>Software Engineering</li>
--->
 </ul>
 
 <div id="selectedTag"></div>
@@ -56,7 +44,11 @@ layout: default
            <span class="header">People: </span>
            {% assign personLinks = '' | split:':' %}
            {% for person in project.people %}
-           {% capture personLink %}{% if person.link %}<a class={% if person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link }}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
+	     {% if person == nil %}
+               {% capture personLink %}<span style="color: red;">NAME MISSING</span>{% endcapture %}
+	     {% else %}
+               {% capture personLink %}{% if person.link %}<a class={% if person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link }}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
+	     {% endif %}
              {% assign personLinks = personLinks | push: personLink %}
            {% endfor %}
         

@@ -45,5 +45,5 @@ function filterTag(tag) {
     }
 
     var selectedTagElem = document.getElementById('selectedTag');
-    selectedTagElem.innerHTML = tagName ? (tagName+'<a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
+    selectedTagElem.innerHTML = tagName ? (tagName+' <a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
 }
