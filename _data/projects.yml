@@ -11,6 +11,10 @@ people:
       name: "Yu Hu"
       link: "people#yu_hu"
       internal: true
+  - albert_rafetseder: &albert_rafetseder
+      name: "Albert Rafetseder"
+      link: "people#albert_rafetseder"
+      internal: true
   - lukas_puhringer: &lukas_puhringer
       name: "Lukas Pühringer"
       link: "people#lukas_pühringer"
@@ -80,93 +84,28 @@ people:
       link: "people#ajay_shenoy"
       internal: true
 
-intro: "Though all of SSL’s research initiatives—past and present— revolve around ensuring secure operation of computer systems, the specific areas addressed by the team vary greatly. Current initiatives can be grouped into five general categories."
+intro: "Though all of SSL’s research initiatives—past and present— revolve 
+around ensuring secure operation of computer systems, the specific areas 
+addressed by the team vary greatly. Initiatives are grouped into 
+the following categories."
 
 projects:
-  - name: "Seattle"
-    anchor: "seattle"
-    photo: "img/people/justin_cappos.jpg"
-    site: "https://seattle.poly.edu/html/"
-    description: "As networks and distributed systems grow more complex, there is a genuine need to better understand how they operate. The Seattle project is a software program that supports networking research. The initiative offers an easy-to-access clearinghouse providing resources for both research and educational initiatives. Designed as a collaborative community effort, all Seattle projects are run on resources—such as laptops, servers, and phones— donated by users and institutions. It currently serves updates to more than 40K geographically distributed devices around the world."
-    products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
-    people:
-      - *albert_rafetseder
-      - *lukas_puhringer
-      - *sebastien_awwad
-      - name: Rohan Bhirangi
-      - name: Ajay Shenoy
-      - *justin_cappos
-    tags:
-      - "Security"
-      - "Networking"
-      - "Testbeds"
 
-  - name: "Sensibility Testbed"
-    anchor: "sensibility"
-    photo: "img/people/justin_cappos.jpg"
-    site:
-    description: "Given the close proximity of smartphones to users,
-researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the
-privacy of user information.  Sensibility also has additional security
-protections that ensure the safety of the device, while giving researchers
-access to unique information."
-    products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
-or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
-    people:
-      - *yanyan_zhuang
-      - *yu_hu
-      - *lukas_puhringer
-      - *kejian_wang
-      - name: "Richard Weiss"
-        link: "http://evergreen.edu/people/weiss-richard"
-      - name: "Leon Resnik"
-        link: "https://www.cs.rit.edu/people/faculty/lr"
-      - *justin_cappos
-    tags:
-      - "Testbeds"
-      - "Privacy"
-      - "Networking"
-      - "Internet of Things"
-
-  - name: "PolyPasswordHasher (PPH)"
-    anchor: "pph"
-    photo:
-    site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-    description: "A password database disclosure can be devastating, costing companies billions of dollars in damages. Polypasswordhasher offers a new approach to preventing such disclosure. By interrelating stored password data, potential hackers are forced to crack passwords in sets. This increases the attackers’ level of difficulty, making a PolyPasswordHasher-enabled database very hard to breach, even for an adversary with millions of computers."
-    products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank."
-    people:
-      - *santiago_torres
-      - *vlad_diaz
-      - *lolaly_luo
-      - *justin_cappos
-    tags:
-      - "Cryptography"
-      - "Security"
-
-  - name: "CacheCash"
-    anchor: "cachecache"
-    photo:
-    site:
-    description: "With the rising demand for fast and efficient delivery of online content, decentralized provider networks have emerged as an attractive solution. The downside of these systems is keeping all parties involved honest and reliable. CacheCash combines proven cryptographic strategies with a payment scheme that makes honest behavior profitable for all concerned. In addition to its security aspects, early findings suggest CacheCash can also scale to meet growing demands, while adding only minimal bandwidth cost for users."
-    products: "Reference implementation coming soon"
-    people:
-      - *ghada_almashaqbeh
-      - *luqin_wang
-      - name: "Allison Bishop Lewko"
-        link: "http://www.cs.columbia.edu/~allison"
-      - *justin_cappos
-    tags:
-      - "Security"
-      - "Cryptography"
-      - "Systems"
-      - "Networking"
 
   - name: "The Update Framework (TUF)"
     anchor: "tuf"
-    photo:
+    photo: "https://raw.githubusercontent.com/theupdateframework/tuf/develop/docs/images/banner_website.JPG"
     site: "https://theupdateframework.github.io"
-    description: "Software must be updated frequently to not only ensure improved operations, but also to address flaws that are often corrected in later versions. Unfortunately, updates can introduce new flaws, and thus pose a security risk. TUF is a comprehensive, flexible framework to secure such updates. Developers can integrate TUF into any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks."
-    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi"
+    description: "Software must be updated frequently to not only ensure 
+improved operations, but also to patch flaws that are corrected in later 
+versions. Unfortunately, the act of performing an updates can itself be a
+way to attack a computer, if a malicious update is installed. TUF is a 
+comprehensive, flexible framework to secure software updates even in situations
+where the software repository is compromised. Developers can integrate TUF 
+into any software update system, or native programming language due to its 
+concise, self-contained architecture and specification. It offers developers 
+and users protection from a host of potential attacks."
+    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi JAC: Needs links"
     people:
       - *vlad_diaz
       - *sebastien_awwad
@@ -178,6 +117,9 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
       - "Software Updates"
       - "Security"
 
+
+
+
   - name: "Uptane"
     anchor: "uptane"
     photo:
@@ -185,7 +127,7 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     description: "Cars today use a truly enormous
 amount of software.  Like any
 software, this software has bugs.  Unfortunately there is not a secure way
-to update the software in cars today.  Our Uptane project provides a
+to update software in cars.  Our Uptane project provides a
 mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
 compromises, while addressing  automotive specific vulnerabilities and
@@ -217,12 +159,127 @@ a <a href=\"need link\">runnable demo</a>."
       - "Security"
       - "Internet of Things"
 
+
+
+
+  - name: "Seattle"
+    anchor: "seattle"
+    photo: "img/people/justin_cappos.jpg"
+    site: "https://seattle.poly.edu/html/"
+    description: "Cloud computing can provide tremendous benefits due to the
+ability to offload computation on demand, however cloud resources are often
+located far from users.  The Seattle project enables users to securely share 
+(and acquire) computing resources from their desktop, laptop, or smartphone 
+in the same manner as with cloud computing.  Seattle is used for education, 
+software development, and research by thousands of people around the world."
+    products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes. JAC: Please add links!!!"
+    people:
+      - *albert_rafetseder
+      - *lukas_puhringer
+      - *sebastien_awwad
+      - name: Rohan Bhirangi
+      - name: Ajay Shenoy
+      - *justin_cappos
+    tags:
+      - "Security"
+      - "Networking"
+      - "Testbeds"
+
+
+
+
+  - name: "Sensibility Testbed"
+    anchor: "sensibility"
+    photo: "img/people/justin_cappos.jpg"
+    site:
+    description: "Given the close proximity of smartphones to users,
+researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the
+privacy of user information.  Sensibility also has additional security
+protections that ensure the safety of the device, while giving researchers
+access to unique information."
+    products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
+or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
+    people:
+      - *yanyan_zhuang
+      - *yu_hu
+      - *lukas_puhringer
+      - *kejian_wang
+      - name: "Richard Weiss"
+        link: "http://evergreen.edu/people/weiss-richard"
+      - name: "Leon Resnik"
+        link: "https://www.cs.rit.edu/people/faculty/lr"
+      - *justin_cappos
+    tags:
+      - "Testbeds"
+      - "Privacy"
+      - "Networking"
+      - "Internet of Things"
+
+
+
+
+  - name: "PolyPasswordHasher (PPH)"
+    anchor: "pph"
+    photo:
+    site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
+    description: "A password database disclosure can be devastating, costing 
+companies billions of dollars in damages. PolyPasswordHasher offers a new 
+approach to prevent an attacker from finding out which passwords users used. By
+interrelating stored password data, potential hackers are forced to crack 
+passwords in sets. This increases the attackers’ level of difficulty, making a 
+PolyPasswordHasher-enabled database very hard to breach, even for an adversary 
+with millions of computers."
+    products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank.  JAC: Need links!"
+    people:
+      - *santiago_torres
+      - *vlad_diaz
+      - *lolaly_luo
+      - *justin_cappos
+    tags:
+      - "Cryptography"
+      - "Security"
+
+
+
+
+  - name: "CacheCash"
+    anchor: "cachecache"
+    photo:
+    site:
+    description: "Delivery of large chunks of content, such as video, is a 
+substantial percentage of all Internet traffic.  This content is usually
+served by provider networks that contract with Internet Service Providers.
+CacheCash provides a similar content delivery service by having interested 
+users run caches of content.  These users are incentivized by obtaining 
+a crypto-currency (CacheCash) for serving content to users.  Cryptographic
+and economic techniques demonstrate that users are either forced or
+economically incentivized to honestly serve content to users.  Our analysis
+shows that CacheCash scales to meet the workload of even the most popular
+services used today."
+    products: "We are in stealth mode!  If you want to be contacted when we 
+publicly release, please email: ...  JAC: Needs email "
+    people:
+      - *ghada_almashaqbeh
+      - *luqin_wang
+      - name: "Allison Bishop Lewko"
+        link: "http://www.cs.columbia.edu/~allison"
+      - *justin_cappos
+    tags:
+      - "Security"
+      - "Cryptography"
+      - "Systems"
+      - "Networking"
+
+
+
+
   - name: "Lind"
     anchor: "lind"
     photo:
     site:
     description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
-    products:
+    products: "We are in stealth mode!  If you want to be contacted when we 
+publicly release, please email: ...  JAC: Needs email "
     people:
       - *yiwen_li
       - *justin_cappos
@@ -237,7 +294,8 @@ a <a href=\"need link\">runnable demo</a>."
     photo:
     site:
     description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
-    products:
+    products: "We are in stealth mode!  If you want to be contacted when we 
+publicly release, please email: ...  JAC: Needs email "
     people:
       - name: "Preston Moore"
       - *justin_cappos
@@ -284,7 +342,8 @@ build on our findings."
     photo:
     site:
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
-    products: "The in-toto program is currently being integrated into other lab software, including PolyPasswordHasher."
+    products: "We welcome you to download our software (link:) and follow the 
+directions (link:) to integrate in-toto into your software project!"
     people:
       - *santiago_torres
       - *lukas_puhringer
@@ -301,8 +360,12 @@ build on our findings."
     anchor: "blindspots"
     photo:
     site:
-    description: "This project, a collaboration with researchers at the University of Florida, the University of Massachusetts-Amherst, and the University of Colorado, Colorado Springs, seeks to identify security-related blind spots in Application Programming Interfaces (APIs)."
-    products:
+    description: "This project, seeks to identify situations where an API
+is misunderstood by developers and then this leads to security issues.
+In particular, we are looking for security-related blind spots in popular
+Java and Python APIs as a way to more holistically find and address bugs."
+    products: "We are in stealth mode!  If you want to be contacted when we 
+publicly release, please email: ...  JAC: Needs email "
     people:
       - *rad_akefirad
       - *lois_delong
@@ -319,23 +382,31 @@ build on our findings."
     tags:
       - "Software Engineering"
 
+
+
+
   - name: "NetCheck"
     anchor: "netcheck"
     photo:
     site: "https://netcheck.poly.edu/projects/project/wiki"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-    products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site."
+    products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site. JAC: Needs links"
+    experiences: "Note that this project is not currently being maintained.  
+Please read our blog to learn about our experiences."
     people:
     tags:
       - "Software Engineering"
       - "Testing Tools"
+
 
   - name: "upPIR"
     anchor: "upPIR"
     photo:
     site: "https://github.com/trishankkarthik/multiblockpir"
     description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
-    products: "The prototype code for this project is available at its github repository."
+    products: "The prototype code for this project is available at its github repository. JAC: Needs links"
+    experiences: "Note that this project is not currently being maintained.  
+Please read our blog to learn about our experiences."
     people:
       -*luqin_wang
       -*trishank_kuppusamy
