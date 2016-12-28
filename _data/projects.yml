@@ -105,7 +105,7 @@ where the software repository is compromised. Developers can integrate TUF
 into any software update system, or native programming language due to its 
 concise, self-contained architecture and specification. It offers developers 
 and users protection from a host of potential attacks."
-    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi JAC: Needs links"
+    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi JAC: Needs links / to be written in the right format"
     people:
       - *vlad_diaz
       - *sebastien_awwad
