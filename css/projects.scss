@@ -10,18 +10,33 @@
 }
 
 .people a.internal {
-    //color: #5ea5ff;
     font-weight: bold;
 }
 
-.people a.external {
-    //color: #2942ff;
+.project {
+    margin-top: 4em;
+
+    h3 {
+        display: inline;
+    }
+    .name-site {
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+    .tags {
+        margin-top: 0.4rem;
+        margin-bottom: 0.8rem;
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+
+    ul .header {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
 }
 
-.project ul .header {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
 
 
 #tags-toc {
