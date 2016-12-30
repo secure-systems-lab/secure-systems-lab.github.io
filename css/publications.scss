@@ -1,0 +1,23 @@
+---
+---
+
+@import 'variables';
+
+.intro {
+  margin: 2em;
+  font-size: 20pt;
+  text-align: justify;
+}
+
+.publication {
+    margin-top: 4em;
+
+    .title {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .link {
+        display: inline;
+    }
+}
