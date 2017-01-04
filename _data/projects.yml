@@ -453,7 +453,7 @@ Please read our blog to learn about our experiences."
 
 
   - name: "upPIR"
-    anchor: "upPIR"
+    anchor: "uppir"
     image:
     site: "https://github.com/trishankkarthik/multiblockpir"
     description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
