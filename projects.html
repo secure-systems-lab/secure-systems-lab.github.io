@@ -18,7 +18,9 @@ layout: default
   <a name="{{ project.anchor }}"></a>
 
   <h3> {{ project.name }} </h3>
-  <span> {{ project.status }} </span>
+  <span class="status"> {{ project.status.name }}
+    <div class="tooltip"> {{ project.status.description }} </div>
+  </span>
   {% if project.site %}
     <div class="name-site">
       <a href="{{ project.site }}">(website)</a>

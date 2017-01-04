@@ -1,3 +1,17 @@
+statuses:
+  - stealth: &stealh
+      name: Stealth
+      description: "Details Omitted"
+  - starting: &starting
+      name: Starting
+      description: "Beginning"
+  - adopted: &adopted
+      name: Adopted
+      description: "People are using this"
+  - retired: &retired
+      name: Retired
+      description: "We no longer maintain this"
+
 people:
   - justin_cappos: &justin_cappos
       name: "Justin Cappos"
@@ -96,7 +110,7 @@ projects:
     anchor: "tuf"
     photo: "https://raw.githubusercontent.com/theupdateframework/tuf/develop/docs/images/banner_website.JPG"
     site: "https://theupdateframework.github.io"
-    status: "Adopted"
+    status: *adopted
     description: "Software must be updated frequently to not only ensure 
 improved operations, but also to patch flaws that are corrected in later 
 versions. Unfortunately, the act of performing an updates can itself be a
@@ -247,6 +261,7 @@ with millions of computers."
     anchor: "cachecache"
     image:
     site:
+    status: *stealth
     description: "Delivery of large chunks of content, such as video, is a 
 substantial percentage of all Internet traffic.  This content is usually
 served by provider networks that contract with Internet Service Providers.
@@ -364,7 +379,7 @@ publicly release, please email: ...  JAC: Needs email "
     anchor: "atoms"
     image:
     site:
-    status: "Starting"
+    status: *starting
     description: "Within every confusing piece of software codes
   are small patterns that can lead developers  to outputs that radically
 differ from what was intended. In studying these “atoms of confusion” we
