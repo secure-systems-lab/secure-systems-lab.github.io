@@ -96,6 +96,7 @@ projects:
     anchor: "tuf"
     photo: "https://raw.githubusercontent.com/theupdateframework/tuf/develop/docs/images/banner_website.JPG"
     site: "https://theupdateframework.github.io"
+    status: "Adopted"
     description: "Software must be updated frequently to not only ensure 
 improved operations, but also to patch flaws that are corrected in later 
 versions. Unfortunately, the act of performing an updates can itself be a
@@ -363,6 +364,7 @@ publicly release, please email: ...  JAC: Needs email "
     anchor: "atoms"
     image:
     site:
+    status: "Starting"
     description: "Within every confusing piece of software codes
   are small patterns that can lead developers  to outputs that radically
 differ from what was intended. In studying these “atoms of confusion” we
