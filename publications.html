@@ -1,0 +1,41 @@
+---
+title: Publications
+subnav: publications
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}css/publications.css"></link>
+
+<div class="intro">{{ site.data.publications.intro }}</div>
+
+
+<div id="selectedTag"></div>
+
+<div class="publications">
+{% for pub in site.data.publications.publications %}
+  <div class="publication">
+    <a name="{{ pub.name }}"></a>
+  
+    <div class="title"> {{ pub.title }} </div>
+    {% if pub.authors %}
+      {% assign authorNames = '' | split:':' %}
+      {% for author in pub.authors %}
+        {% assign authorNames = authorNames | push: author.name %}
+      {% endfor %}
+      <div class="authors">{{ authorNames | join: ', ' }}</div>
+    {% endif %}
+    {% if pub.link %}
+      <div class="link">
+        <a href="{{ pub.link }}">(link)</a>
+      </div>
+    {% endif %}
+    {% if pub.abstract %}
+      <!--
+      <div class="abstract"><p>
+        {{ pub.abstract }}
+      </p></div>
+      -->
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
