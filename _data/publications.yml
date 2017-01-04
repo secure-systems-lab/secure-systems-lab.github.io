@@ -4,13 +4,47 @@ publications:
   - name:  "USENIX Security 2016"
     title: "On omitting commits and committing omissions"
     link:  "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
+    abstract: "A Paper about commits and committing things"
     authors:
       - name: Santiago Torres-Arias
       - name: Anil Kumar Ammula
       - name: Reza Curtmola
       - name: Justin Cappos
   - name: "NSDI 2016"
+    title: "Diplomat: Using Delegations to Protect Community Repositories"
     link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
+    abstract: "Community repositories, such as Docker Hub, PyPI,
+and RubyGems, are bustling marketplaces that distribute
+software. Even though these repositories use common
+software signing techniques (e.g., GPG and TLS), attackers
+can still publish malicious packages after a server
+compromise. This is mainly because a community repository
+must have immediate access to signing keys in order
+to certify the large number of new projects that are
+registered each day. <br /> <br />
+This work demonstrates that community repositories
+can offer compromise-resilience and real-time project
+registration by employing mechanisms that disambiguate
+trust delegations. This is done through two delegation
+mechanisms that provide flexibility in the amount of trust
+assigned to different keys. Using this idea we implement
+Diplomat, a software update framework that supports security
+models with different security / usability tradeoffs.
+By leveraging Diplomat, a community repository
+can achieve near-perfect compromise-resilience while allowing
+real-time project registration. For example, when
+Diplomat is deployed and configured to maximize security
+on s community repository, less than 1%
+of users will be at risk even if an attacker controls the
+repository and is undetected for a month. Diplomat is
+being integrated by Ruby, CoreOS, Haskell, OCaml, and
+Python, and has already been deployed by Flynn, LEAP,
+and Docker."
+    authors:
+      - name: Trishank Karthik Kuppusamy
+      - name: Santiago Torres-Arias
+      - name: Vladimir Diaz
+      - name: Justin Cappos
   - name: "USENIX ATC 2015"
     link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
   - name: "USENIX ATC 2015"
