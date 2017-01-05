@@ -112,8 +112,8 @@ projects:
     site: "https://theupdateframework.github.io"
     status: *adopted
     description: "Software must be updated frequently to not only ensure 
-improved operations, but also to patch flaws that are corrected in later 
-versions. Unfortunately, the act of performing an updates can itself be a
+improved operation, but also to patch security flaws.
+Unfortunately, the act of performing an updates can itself be a
 way to attack a computer, if a malicious update is installed. TUF is a 
 comprehensive, flexible framework to secure software updates even in situations
 where the software repository is compromised. Developers can integrate TUF 
@@ -158,6 +158,7 @@ a <a href=\"need link\">runnable demo</a>."
     people:
       - *trishank_kuppusamy
       - *sebastien_awwad
+      - *sam_weber
       - name: Akanitoro Brown
       - name: Damon McCoy
         link: "http://engineering.nyu.edu/people/damon-mccoy"
@@ -275,7 +276,8 @@ a crypto-currency (CacheCash) for serving content to users.  Cryptographic
 and economic techniques demonstrate that users are either forced or
 economically incentivized to honestly serve content to users.  Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
-services used today."
+services used today.  By building CacheCash, we intend to disrupt CDNs by 
+more readily and pervasively including end user served content."
     products: "We are in stealth mode!  If you want to be contacted when we 
 publicly release, please email: ...  JAC: Needs email "
     people:
@@ -303,6 +305,7 @@ publicly release, please email: ...  JAC: Needs email "
       - *justin_cappos
       - name: "Brendan Dolan-Gavitt"
         link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
+      - *sam_weber
     tags:
       - "Security"
       - "Systems"
@@ -320,6 +323,7 @@ publicly release, please email: ...  JAC: Needs email "
       - *justin_cappos
       - name: "Phyllis Frankl"
         link: "http://engineering.nyu.edu/people/phyllis-frankl"
+      - *sam_weber
     tags:
       - "Software Engineering"
       - "Testing Tools"
