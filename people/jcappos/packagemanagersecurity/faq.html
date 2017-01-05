@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Attacks on Package Managers</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div id="body">
+
+<div><img src="packagemanagers.png" alt="Attacks on Package Managers"
+width="781" height="193"/></div>
+
+<a href="attacks-on-package-managers.html#overview">Overview</a> |
+<a href="attacks-on-package-managers.html#explanation">Attack Anatomy</a> |
+<a href="attacks-on-package-managers.html#howtolaunchattack">Impact</a> |
+<a href="attacks-on-package-managers.html#protectingyourself">Protecting Yourself</a> |
+<a href="attacks-on-package-managers.html#people">People</a> |
+<a href="otherattacks.html">Other Attacks</a> |
+<a href="faq.html">FAQ</a> |
+<a href="papers.html">Papers</a> |
+<a href="attacks-on-package-managers.html#acknowledgements">Acknowledgments</a>
+
+<h2 id="faq">FAQ</h2>
+
+<div class="qa">
+  <p class="q">Q: My package manager uses signatures, so I'm not vulnerable right?
+  <p class="A">A: Unfortunately, you are vulnerable.   This attack works by giving old versions of correctly signed files to the package manager.
+</div>
+
+<div class="qa">
+  <p class="q">Q: Can an attacker use a replay attack to install arbitrary software of theirs on my computer?
+  <p class="A">A: Not directly.   However, they can have you install an outdated piece of software with known vulnerabilities and may be able to exploit that to install arbitrary software.
+</div>
+
+<div class="qa">
+  <p class="q">Q: Should I avoid using my package manager until it properly expires old packages?
+  <p class="A">A: Probably not.   While the risk of being targetted by a replay attack exists, attackers can also attack your system if it is running outdated, vulnerable software. 
+</div>
+
+<div class="qa">
+  <p class="q">Q: Is there any "safe way" to get package updates?
+  <p class="A">A: It's a good idea to check with a few different sources to try and determine the latest version of a package.  There are usually mailing lists and websites that can be monitored to keep you informed of updates released by your distribution. This can alert you that you should see those updates become available to your systems soon.
+
+  <p>It's also a good idea to try using different mirrors to see if you get different versions of packages.   If so, you should check with your distribution's main repository to resolve the conflict.
+
+  <p>Another way to increase the safety of your package updates is to track the timestamp in the repository metadata file for the mirrors you use.   If the timestamp is ever earlier than a previous timestamp, you should be very suspicious. This, however, is only useful with package managers and distributions that sign repository metadata files, not just packages.
+</div>
+
+<div class="qa">
+  <p class="q">Q: Is it more secure if I use several mirrors instead of using just one?
+  <p class="a">A: If you are manually verifying that the packages you get 
+from different mirrors are the same, then getting packages from multiple
+sources will only help your security.
+If you let your package manager do the verification for you, then the 
+impact of this depends on what information is signed by your distribution.
+The downside of using multiple mirrors is that by increasing the 
+number of mirrors you use, you
+also increase the likelihood you are using a malicious mirror.
+
+<p>If your distribution does not sign packages or repository metadata then using
+multiple mirrors increases your risk without providing any real benefit.   
+The reason is that an attacker can create versions of packages with newer
+metadata that will be prefered over the versions provided by a valid mirror.
+
+<p>If your distribution signs packages but does not sign repository metadata,
+using multiple mirrors may also decrease your security.   An attacker that 
+controls a mirror you use may be able to have you use vulnerable packages 
+their mirror hosts using an 
+<A HREF="otherattacks.html">Extraneous Dependencies</A> attack.   As a 
+result, using multiple mirrors is likely to increase your risk.
+
+<p>If your distribution signs repository metadata then using multiple mirrors
+provides better protection against replay attacks.   However, the risk of 
+being subject to <A HREF="otherattacks.html">other attacks</A>
+increases because you use multiple mirrors.   We believe that using two 
+mirrors is an intelligent choice for a client whose distribution signs 
+repository metadata.
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: Debian and Ubuntu use an official repository for security
+updates.   Doesn't that make them secure against attack?
+  <p class="a">A: This makes them much less vulnerable to replay attacks.   However,
+neither repository appears to support HTTPS.   This means it's
+possible for a man-in-the-middle attacker to masquerade as the
+security repository.   This attack is harder to perform, but has the
+same basic effect as operating a mirror the client uses.
+
+<p>Another item of concern is that both Ubuntu and Debian use several
+mirrors beside the security repository.   An attacker can use a mirror
+they control to prevent a client from getting security updates.   For
+example, an <A HREF="otherattacks.html">Endless Data</A> attack prevents
+any clients of the mirror from installing any packages from other
+sources (including the security repository).
+
+<p>It should also be noted that mirror selection tools for Debian and 
+Ubuntu (such as netselect-apt or Software Sources) may not preserve the 
+official security repository. This means that users who
+have used these tools to find faster or more reliable mirrors may not use
+the official security repositories anymore. Users that want the
+security benefit of using the official security mirror should manually verify
+their <tt>sources.list</tt> file after using any of the mirror
+selection tools.
+</div>
+
+<div class="qa">
+  <p class="q">Q: If I get my packages from my distribution's main repository am I safe?
+  <p class="A">A: Unless your package manager uses HTTPS to contact the repository, a man-in-the-middle attacker could masquerade as the repository and serve you malicious content.   However, in most cases this would be safer than using a mirror controlled by a third party you do not know.
+</div>
+
+<div class="qa">
+  <p class="q">Q: Why do you say that signing the repository metadata is better than signing the package?   I mean a signature is a signature, right?
+  <p class="A">A: If a package manager only checks signatures on packages, then an attacker can have a mirror which hosts vulnerable versions of packages that existed in the distribution at different times.   If the repository metadata is signed, the attacker must choose a set of packages that all existed on the repository at the same time since they only provide one repository metadata file.
+<p> Also, unsigned metadata allows an attacker to launch <A HREF="otherattacks.html">more types of attacks</A>.
+</div>
+
+<div class="qa">
+  <p class="q">Q: What about upgrading packages?   Won't my package manager notice if I'm upgrading to an older version?
+  <p class="A">A: If you are upgrading a pre-existing package, most package managers will not offer a lower-versioned package for upgrade.   However, one should remember that the danger is not just from being tricked into malicious installation, but also in the package manager not seeing updates available when serious vulnerabilities exist in your already installed packages.
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: I often like to run an old version of many of my packages
+for compatibility reasons, etc.   If my package manager is changed in the 
+way you suggest, won't my package manager refuse to check old signatures?
+
+  <p class="A">A: No.   We recommend that package managers warn when an 
+outdated package will be installed, but allow the user the option to do so.
+However, auto-update mechanisms should not install outdated packages.
+As you point out, there are many valid reasons to use outdated packages and 
+your package manager should give you the flexibility to choose if an old (but
+correctly signed) package is okay.
+
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: I want to turn off my auto-update, but I'm concerned that I'll forget to update manually.   Any advice?
+  <p class="A">A: Google Calendar and other fine tools can help by sending you periodic reminders.   Alternatively, if a cron job is normally used to activate your package manager for automatic updates, you can change it to send you an email reminder to check various sources to find out if updates are available.
+</div>
+
+<div class="qa">
+  <p class="q">Q: What about Windows / Mac-OS-X?   Are they vulnerable?
+  <p class="A">A: These operating systems use a different software distribution model where they don't rely on outside mirrors of content.   We didn't test their update systems, but since they control the "repositories" that provide updates, there is less risk to users from these specific attacks. 
+However, there is an excellent technical paper on the <a href="http://www.cs.duke.edu/usenix/06hotsec/tech/bellissimo.html">vulnerabilities in software updaters</a>.
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: The paper you link to only provides information about YUM,
+APT, and Stork, but the website talks about other package managers.   Why is
+this?
+  <p class="A">A: The paper was originally written for a conference with a 
+page limit.   To make the paper fit in the conference limits, we had to 
+compress much of the content.   Information about other package managers was
+one of the things we removed from the paper.
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: I use a service that distributes my requests to different mirrors for my distribution (like MirrorManager).   That means I'm not vulnerable, right?
+  <p class="A">A: The good aspect of these systems is that it may spread your requests across multiple mirrors in the normal case.   However, when testing some of these systems, we were able to target the clients that used our mirror and exclude them from using other mirrors.   This means that if an attacker wants to target your organization, these services may help the attacker do so.
+</div>
+
+
+<!--
+<div class="qa">
+  <p class="q">Q: What about OpenSUSE's download redirector?   Does it keep me safe from malicious mirrors?
+
+  <p class="a">A: OpenSUSE's 
+<a href="http://en.opensuse.org/Build_Service/Redirector">download redirector</a> 
+should protect users from replay attacks by malicious mirrors 
+but does not protect them from other attacks or replay attacks by 
+man-in-the-middle attackers.   The openSUSE download redirector policy 
+states that frequently changing files are served directly by the official 
+repository. This policy, if it is always applied to repository metadata, would 
+have the side effect of protecting users from replay attacks by malicious 
+mirrors. However, the package manager fails to address replay attacks in 
+general and is still vulnerable to man-in-the-middle attackers or an attacker
+that compromises the download redirector.  Additionally, YaST's vulnerability 
+to <a href="otherattacks.html#endlessdata">Endless Data</a> attacks gives 
+malicious mirrors the ability to prevent security updates even if the user has 
+obtained updated metadata from the official repository.   
+-->
+<div class="qa">
+  <p class="q">Q: What about OpenSUSE's download redirector?   Does it increase or decrease my security?
+
+  <p class="a">A: OpenSUSE's 
+<a href="http://en.opensuse.org/Build_Service/Redirector">download redirector</a> 
+increases the user's security because metadata is served directly by
+the download redirector.   This means that the client gets the metadata from 
+a trusted source (not a mirror).   While this doesn't protect against all 
+of the attacks a client may face (such as endless data attacks by mirrors 
+or replay attacks by
+a man-in-the-middle attacker), it does make it much more difficult for an
+attacker to successfully impact a client.   We strongly recommend that openSUSE 
+users use the download redirector (as is done by default) since it increases 
+their resistance to attack.
+
+
+<div class="qa">
+  <p class="q">Q: What package managers did you examine for security flaws?
+  <p class="A">A: 
+We looked at the package managers
+<A HREF="http://www.debian.org/doc/manuals/apt-howto/">APT</A>,
+<A HREF="http://apt-rpm.org/">APT-RPM</A>, 
+<A HREF="http://www.archlinux.org/pacman/">Pacman</A>, 
+<A HREF="http://www.gentoo.org/proj/en/portage/">Portage</A>, 
+<A HREF="http://www.freebsd.org/ports/">Ports</A>,
+<A HREF="http://slaktool.sourceforge.net/">Slaktool</A>, 
+<A HREF="http://www.cs.arizona.edu/stork">Stork</A>, 
+<A HREF="http://urpmi.org/">urpmi</A>,
+<A HREF="http://en.opensuse.org/YaST">YaST</A>, and 
+<A HREF="http://linux.duke.edu/projects/yum/">YUM</A>.
+<!--We also looked briefly at the security practices of the following distributions:
+<A HREF="http://www.debian.org">Debian</A>,
+<A HREF="http://www.fedoraproject.org">Fedora</A>,
+<A HREF="http://www.redhat.com">Red Hat Enterprise Linux</A>,
+<A HREF="http://www.centos.org">CentOS</A>,
+<A HREF="http://www.opensuse.org">OpenSuSE</A> and
+<A HREF="http://www.ubuntu.com">Ubuntu</A>.
+-->
+
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: I'm worried about security and have a choice of package
+managers.   What package manager should I use?
+  <p class="A">A: It depends on your situation.   If your distribution uses
+repository metadata signing (like YaST and APT) and a security repository or 
+download
+redirector (such as Ubuntu, Debian, OpenSUSE, and SUSE Enterprise Linux) 
+you are safe in most scenarios.
+
+<p> If you manage a distribution, we strongly 
+recommend using a package manager that signs the repository metadata and 
+supports HTTPS.   Of the package managers we examined,
+APT-RPM, Stork, and YaST have this support by default and APT has an optional
+package to support HTTPS.   
+</div>
+
+
+<div class="qa">
+  <p class="q">Q: I am a maintainer of a package manager.   Thanks for making
+me aware of these attacks.   What else should I watch for?
+  <p class="A">A: Be careful that you correctly verify certificates for HTTPS.
+We found that YUM doesn't correctly verify SSL certificates and so 
+distributions that use HTTPS and YUM (like RedHat Enterprise Linux) are 
+therefore vulnerable to man-in-the-middle attacks.
+</div>
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1868232-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

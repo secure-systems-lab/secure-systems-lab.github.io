@@ -1,0 +1,29 @@
+body {
+  font-family : verdana, sans-serif;
+  font-size : 78%;
+  max-width : 780px;
+  margin : 0 auto 15px auto;
+}
+h2 {
+  border-bottom : solid #bbb 1px;
+  font-size: 150%;
+  margin-bottom : 0.6em;
+}
+h3 {
+  color : #222;
+  font-size: 132%;
+}
+p, li {
+	margin: .4em 0 .9em 0;
+	line-height: 1.3em;
+}
+.qa {
+  margin-bottom : 1.4em;
+}
+.q {
+  font-weight : bold;
+  margin-bottom : 0.4em;
+}
+.a {
+  margin-top : 0;
+}

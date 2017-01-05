@@ -4,13 +4,13 @@ statuses:
       description: "Shhhh.  We're still figuring things out internally."
   - starting: &starting
       name: Starting
-      description: "We're in the early stages of adoption."
+      description: "Early adopters wanted!"
   - adopted: &adopted
       name: Adopted
-      description: "People are using this.  Join them!"
+      description: "Many people are using this.  Join them!"
   - retired: &retired
       name: Retired
-      description: "We no longer are actively developing this."
+      description: "We learned what we can and not actively developing anymore."
 
 people:
   - justin_cappos: &justin_cappos
