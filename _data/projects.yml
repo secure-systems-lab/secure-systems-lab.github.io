@@ -417,8 +417,8 @@ publicly release, please email: ...  JAC: Needs email "
     experiences: "Note that this project is not currently being maintained.  
 Please read our blog to learn about our experiences."
     people:
-      -*yanyan_zhaung
-      -*justin_cappos
+      - *yanyan_zhaung
+      - *justin_cappos
     tags:
       - "Software Engineering"
       - "Testing Tools"
@@ -434,9 +434,9 @@ Please read our blog to learn about our experiences."
     experiences: "Note that this project is not currently being maintained.  
 Please read our blog to learn about our experiences."
     people:
-      -*luqin_wang
-      -*trishank_kuppusamy
-      -*justin_cappos
+      - *luqin_wang
+      - *trishank_kuppusamy
+      - *justin_cappos
     tags:
       - "Security"
       - "Cryptography"
