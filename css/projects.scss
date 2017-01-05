@@ -24,6 +24,16 @@
         display: inline;
     }
 
+    .title-bar {
+	position: relative;
+    }
+
+    .status {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+    }
+
     .tags {
         margin-top: 0.4rem;
         margin-bottom: 0.8rem;
@@ -62,14 +72,14 @@
 
 /* Tooltips - http://www.w3schools.com/howto/howto_css_tooltip.asp */
 
-.status {
+.tooltip-wrapper {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
-.status .tooltip {
+.tooltip-wrapper .tooltip {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -91,7 +101,7 @@
 }
 
 /* Tooltip arrow */
-.status .tooltip::after {
+.tooltip-wrapper .tooltip::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -103,7 +113,7 @@
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.status:hover .tooltip {
+.tooltip-wrapper:hover .tooltip {
     visibility: visible;
     opacity: 1;
 }

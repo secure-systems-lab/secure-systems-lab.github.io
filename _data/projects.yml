@@ -1,5 +1,5 @@
 statuses:
-  - stealth: &stealh
+  - stealth: &stealth
       name: Stealth
       description: "Details Omitted"
   - starting: &starting
