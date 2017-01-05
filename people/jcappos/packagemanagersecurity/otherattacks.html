@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Attacks on Package Managers</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div id="body">
+
+<div><img src="packagemanagers.png" alt="Attacks on Package Managers"
+width="781" height="193"/></div>
+<a href="attacks-on-package-managers.html#overview">Overview</a> |
+<a href="attacks-on-package-managers.html#explanation">Attack Anatomy</a> |
+<a href="attacks-on-package-managers.html#howtolaunchattack">Impact</a> |
+<a href="attacks-on-package-managers.html#protectingyourself">Protecting Yourself</a> |
+<a href="attacks-on-package-managers.html#people">People</a> |
+<a href="otherattacks.html">Other Attacks</a> |
+<a href="faq.html">FAQ</a> |
+<a href="papers.html">Papers</a> |
+<a href="attacks-on-package-managers.html#acknowledgements">Acknowledgments</a>
+
+<h2 id="otherattacks">Other Attacks</h2>
+
+<p> In addition to replay attacks, several other attacks on package managers 
+have been identified.  Several popular package managers are vulnerable to an 
+attacker who streams an endless quantity of data to them (an 
+<A HREF="otherattacks.html#endlessdata">Endless Data</a> attack).   Package 
+managers that sign packages instead of the repository metadata are vulnerable
+to a number of metadata-based attacks including
+<A HREF="otherattacks.html#extradep">Extraneous Dependencies</a>, 
+<A HREF="otherattacks.html#unsatdep">Unsatisfiable Dependencies</a>, 
+and <A HREF="otherattacks.html#provideseverything">Provides Everything</A>.   
+
+
+<h2 id="endlessdata">Endless Data Attack</h2>
+
+<p>
+In an endless data attack, an attacker returns an endless stream of data to 
+the client whenever files are requested (as previously described in 
+<A HREF="http://insecure.org/stf/wietse_murphy.html">other work</A>).
+
+<p>
+Most package managers do not properly handle this type of attack.   The package
+managers YUM and APT are used as examples to illustrate the problem, however
+<b>this problem is not limited to YUM and APT</b>. 
+
+<p>
+When YUM is given a repository metadata file (repomd.xml) file 
+of unlimited size, it exits silently after the filesystem is full with a 1 exit
+code --- leaving the huge file on disk. Since no information is logged or 
+printed about the error, this may make discovering the problem complicated 
+(especially if YUM runs via auto-update).
+
+<p>
+APT is also vulnerable to this attack, but the size of the retrieved file is 
+assumed to fit in a C unsigned long. This means that APT will willingly 
+download up to 4 GB of data on 32 bit architectures for each file.  If APT is 
+compiled on a 64 bit architecture, then it will happily try to download files 
+greater than 18,000,000 TB!  Interestingly, APT could protect against this type of attack since the repository metadata is signed, known in advance to be small size, and provides the data sizes of the packages and other files to be downloaded. 
+
+<p>
+The endless data attack prevents clients from getting package updates from 
+other repositories.  However, this attack also consumes large amounts of disk 
+space on the client system as well as network bandwidth and CPU. Exhausting 
+resources, especially disk space, on a client machine can have disastrous
+effects. For example, on Fedora and Ubuntu this prevents logging, corrupts 
+databases, and halts mail delivery.
+
+
+<H4> How can I protect myself against this attack? </H4>
+
+<p>
+The effectiveness of this attack may be mitigated by using a separate 
+filesystem for the cache directory used by the package manager. However, 
+in some cases this attack also results in memory exhaustion (which is not
+solved by having a separate partition).   It is worth noting that even if 
+mitigation is successful, this attack 
+still prevents updates from other package repositories from being installed.
+
+
+
+<H2 id="extradep">Extraneous Dependencies</H2>
+
+<p>
+This attack only works on package managers that do not sign repository metadata.
+This attack is launched by providing false dependency information for a package
+the user will install. The false information says that one package also depends
+on another that it actually doesn't depend on.
+For example, an attacker can say that 
+every package depends on some extraneous package of their choice.
+
+<p>
+This attack works on most modern package managers that do not sign repository
+metadata. Surprisingly, they do 
+not verify that the dependencies in the metadata of the <i>signed</i> packages they 
+download match the <i>unsigned</i> package metadata they retrieve from the
+repository!  The only restriction in the choice of extraneous package is that 
+if package signatures are checked, then the extraneous package the attacker 
+wants the client to install needs to be correctly signed.
+Even when signatures are used, this attack can result in new,
+vulnerable packages being installed.
+
+<p>
+Another way to use extraneous dependencies is to return package metadata that 
+makes it look like a requested package has a huge number of package 
+dependencies. In most package managers, all of these packages will be 
+downloaded before any signatures are checked.
+
+<p>
+In addition to consuming disk and network resources on the client, this 
+attack can be used by a malicious repository to launch an attack on other 
+repositories. 
+The malicious repository can advertise a new version of a package that depends on the entire set of core distribution packages, none of which are hosted by the malicious repository.
+Assuming the client is configured to use multiple repositories, it will 
+download all the distribution's packages from the other repositories.
+
+
+<H4> How can I protect myself against this attack? </H4>
+
+<p>
+The easiest way is to use a package manager that signs the repository metadata
+(like APT or YaST).   You could also manually do dependency resolution and
+check signatures at the appropriate time, but that largely defeats the purpose
+of having a package manager.
+
+
+
+<H2 id="unsatdep">Unsatisfiable Dependencies</H2>
+
+<p>
+This attack only works on package managers that do not sign repository metadata.
+An attacker can prevent installation of a package by returning metadata which
+says the package has a dependency on a package that does not exist.
+This prevents package managers from installing
+the package, while to the user it appears that the repository or packager 
+was in error rather than it being a suspected attack. 
+
+<p>
+Note that the attacker need not be able to correctly sign the package of 
+interest. Since packages are not downloaded until after dependency resolution, 
+the client will not download the package (or check the signature).
+
+<H4> How can I protect myself against this attack? </H4>
+
+<p>
+The easiest way is to use a package manager that signs the repository metadata
+(like APT or YaST).   You could also download the package and tell your package
+manager to install the local copy.   Your package manager will check the 
+signature and use the dependency information from the local copy.
+
+
+<H2 id="provideseverything">Provides Everything</H2>
+
+<p>
+This attack only works on package managers that do not sign repository metadata.
+Details of this attack are deferred to
+<A HREF="ftp://ftp.cs.arizona.edu/reports/2008/TR08-02.pdf">this paper</A>.
+However, the result of this attack is that an attacker can cause a package
+of their choice to be installed when it is unneeded by indicating it 
+resolves dependencies in other packages.   This attack allows an attacker to
+cause a malicious package on their repository to be installed when certain 
+packages on other repositories are installed.
+
+
+<H4> How can I protect myself against this attack? </H4>
+
+<p>
+Once again, using a package manager that signs the repository metadata
+(like APT or YaST) solves this issue.  
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1868232-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
