@@ -13,6 +13,15 @@
     font-weight: bold;
 }
 
+.hidden {
+    display: none;
+}
+
+li a.selected {
+    font-weight: bold;
+    color: grey;
+}
+
 .project {
     margin-top: 4em;
 
@@ -56,7 +65,7 @@
 
 
 #tags-toc {
-  margin: 4rem 0;
+  margin: 4rem 0 0;
   text-align: center;
   line-height: 2.2em;
   
@@ -67,14 +76,9 @@
   }
 }
 
-#selectedTag {
-  margin: 0rem 0rem 0rem;
-  text-align: center;
-  line-height: 2.2em;
-  font-size: 1.5em;
-  font-weight: bold;
+.removeTag {
+    color: hsl(0, 100%, 75%);
 }
-
 
 /* Tooltips - http://www.w3schools.com/howto/howto_css_tooltip.asp */
 
