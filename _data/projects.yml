@@ -327,7 +327,7 @@ publicly release, please email: ...  JAC: Needs email "
 
   - name: "Atoms of Confusion"
     anchor: "atoms"
-    image:
+    image: "img/projects/atoms_placeholder.png"
     site:
     status: *starting
     description: "Within every confusing piece of software codes
@@ -417,7 +417,7 @@ publicly release, please email: ...  JAC: Needs email "
     experiences: "Note that this project is not currently being maintained.  
 Please read our blog to learn about our experiences."
     people:
-      - *yanyan_zhaung
+      - *yanyan_zhuang
       - *justin_cappos
     tags:
       - "Software Engineering"
