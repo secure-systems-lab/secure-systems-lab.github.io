@@ -1,16 +1,16 @@
 statuses:
   - stealth: &stealth
-      name: Stealth
-      description: "Details Omitted"
+      name: "Stealth Mode"
+      description: "Shhhh.  We're still figuring things out internally."
   - starting: &starting
       name: Starting
-      description: "Beginning"
+      description: "We're in the early stages of adoption."
   - adopted: &adopted
       name: Adopted
-      description: "People are using this"
+      description: "People are using this.  Join them!"
   - retired: &retired
       name: Retired
-      description: "We no longer maintain this"
+      description: "We no longer are actively developing this."
 
 people:
   - justin_cappos: &justin_cappos
@@ -108,7 +108,7 @@ projects:
 
   - name: "The Update Framework (TUF)"
     anchor: "tuf"
-    photo: "https://raw.githubusercontent.com/theupdateframework/tuf/develop/docs/images/banner_website.JPG"
+    image: "img/projects/tuf_diagram.png"
     site: "https://theupdateframework.github.io"
     status: *adopted
     description: "Software must be updated frequently to not only ensure 
@@ -137,7 +137,8 @@ and users protection from a host of potential attacks."
 
   - name: "Uptane"
     anchor: "uptane"
-    photo:
+    image: "https://raw.githubusercontent.com/uptane/uptane.github.io/master/logo.png"
+    status: *starting
     site: "https://uptane.github.io/"
     description: "Cars today use a truly enormous
 amount of software.  Like any
@@ -179,8 +180,9 @@ a <a href=\"need link\">runnable demo</a>."
 
   - name: "Seattle"
     anchor: "seattle"
-    image: "img/people/justin_cappos.jpg"
+    image: "img/projects/seattle_color_map.jpg"
     site: "https://seattle.poly.edu/html/"
+    status: *adopted
     description: "Cloud computing can provide tremendous benefits due to the
 ability to offload computation on demand, however cloud resources are often
 located far from users.  The Seattle project enables users to securely share 
@@ -205,7 +207,8 @@ software development, and research by thousands of people around the world."
 
   - name: "Sensibility Testbed"
     anchor: "sensibility"
-    image: "img/people/justin_cappos.jpg"
+    image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
+    status: *starting
     site:
     description: "Given the close proximity of smartphones to users,
 researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the
@@ -235,7 +238,8 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
 
   - name: "PolyPasswordHasher (PPH)"
     anchor: "pph"
-    image:
+    image: "img/projects/pph_diagram.png"
+    status: *starting
     site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
     description: "A password database disclosure can be devastating, costing 
 companies billions of dollars in damages. PolyPasswordHasher offers a new 
@@ -286,65 +290,10 @@ publicly release, please email: ...  JAC: Needs email "
       - "Systems"
       - "Networking"
 
-  - name: "The Update Framework (TUF)"
-    anchor: "tuf"
-    image:
-    site: "https://theupdateframework.github.io"
-    description: "Software must be updated frequently to not only ensure improved operations, but also to address flaws that are often corrected in later versions. Unfortunately, updates can introduce new flaws, and thus pose a security risk. TUF is a comprehensive, flexible framework to secure such updates. Developers can integrate TUF into any software update system, or native programming language due to its concise, self-contained architecture and specification. It offers developers and users protection from a host of potential attacks."
-    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi"
-    people:
-      - *vlad_diaz
-      - *sebastien_awwad
-      - *trishank_kuppusamy
-      - *artiom_baloian
-      - *kejian_wang
-      - *justin_cappos
-    tags:
-      - "Software Updates"
-      - "Security"
-
-  - name: "Uptane"
-    anchor: "uptane"
-    image:
-    site: "https://uptane.github.io/"
-    description: "Cars today use a truly enormous
-amount of software.  Like any
-software, this software has bugs.  Unfortunately there is not a secure way
-to update the software in cars today.  Our Uptane project provides a
-mechanism to securely distribute updates to cars.  Uptane can counter a
-comprehensive array of security attacks, and is resilient to partial
-compromises, while addressing  automotive specific vulnerabilities and
-limitations."
-    products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
-information about the project, including the
-<a href=\"need link\">design specification</a> and <a href=\"need link\">deployment considerations</a>.
-For those who want lower level details, we also provide a
-<a href=\"need link\">implementation guide</a>, an open source
-<a href=\"need link\">reference implementation</a>, <a href=\"need link\">compliance tests</a>, and
-a <a href=\"need link\">runnable demo</a>."
-    people:
-      - *trishank_kuppusamy
-      - *sebastien_awwad
-      - name: Akanitoro Brown
-      - name: Damon McCoy
-        link: "http://engineering.nyu.edu/people/damon-mccoy"
-      - name: Russ Bielawski (UMTRI)
-        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
-      - name: Cameron Mott (SWRI)
-        link: "http://www.swri.org/iProfiles/ViewiProfile.asp?k=5f23y026tv89127"
-      - name: Sam Lauzon (UMTRI)
-        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
-      - name: André Weimerskirch (UMTRI)
-        link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
-      - *justin_cappos
-    tags:
-      - "Software Updates"
-      - "Security"
-      - "Internet of Things"
-
   - name: "Lind"
     anchor: "lind"
     image:
+    status: *stealth
     site:
     description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
     products: "We are in stealth mode!  If you want to be contacted when we 
@@ -362,6 +311,7 @@ publicly release, please email: ...  JAC: Needs email "
     anchor: "crashsimulator"
     image:
     site:
+    status: *stealth
     description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
     products: "We are in stealth mode!  If you want to be contacted when we 
 publicly release, please email: ...  JAC: Needs email "
@@ -410,6 +360,7 @@ build on our findings."
   - name: "in-toto"
     anchor: "in-toto"
     image:
+    status: *stealth
     site:
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
     products: "We welcome you to download our software (link:) and follow the 
@@ -429,6 +380,7 @@ directions (link:) to integrate in-toto into your software project!"
   - name: "API Blindspots"
     anchor: "blindspots"
     image:
+    status: *stealth
     site:
     description: "This project, seeks to identify situations where an API
 is misunderstood by developers and then this leads to security issues.
@@ -457,6 +409,7 @@ publicly release, please email: ...  JAC: Needs email "
 
   - name: "NetCheck"
     anchor: "netcheck"
+    status: *retired
     image:
     site: "https://netcheck.poly.edu/projects/project/wiki"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
@@ -464,6 +417,8 @@ publicly release, please email: ...  JAC: Needs email "
     experiences: "Note that this project is not currently being maintained.  
 Please read our blog to learn about our experiences."
     people:
+      -*yanyan_zhaung
+      -*justin_cappos
     tags:
       - "Software Engineering"
       - "Testing Tools"
@@ -471,7 +426,8 @@ Please read our blog to learn about our experiences."
 
   - name: "upPIR"
     anchor: "uppir"
-    image:
+    status: *retired
+    image: "img/projects/uppir_data_download.png"
     site: "https://github.com/trishankkarthik/multiblockpir"
     description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
     products: "The prototype code for this project is available at its github repository. JAC: Needs links"
