@@ -13,6 +13,15 @@
     font-weight: bold;
 }
 
+.hidden {
+    display: none;
+}
+
+li a.selected {
+    font-weight: bold;
+    color: grey;
+}
+
 .project {
     margin-top: 4em;
 
@@ -24,11 +33,27 @@
         display: inline;
     }
 
+    .title-bar {
+	position: relative;
+    }
+
+    .status {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+    }
+
     .tags {
         margin-top: 0.4rem;
         margin-bottom: 0.8rem;
         margin-left: 2rem;
         font-weight: bold;
+    }
+
+    .image {
+	float: right;
+	margin: 0.8rem;
+	max-width: 50%;
     }
 
     ul .header {
@@ -40,7 +65,7 @@
 
 
 #tags-toc {
-  margin: 4rem 0;
+  margin: 4rem 0 0;
   text-align: center;
   line-height: 2.2em;
   
@@ -51,10 +76,54 @@
   }
 }
 
-#selectedTag {
-  margin: 4rem 0;
-  text-align: center;
-  line-height: 2.2em;
-  font-size: 1.5em;
-  font-weight: bold;
+.removeTag {
+    color: hsl(0, 100%, 75%);
+}
+
+/* Tooltips - http://www.w3schools.com/howto/howto_css_tooltip.asp */
+
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip-wrapper .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip-wrapper .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-wrapper:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }

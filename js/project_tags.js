@@ -1,6 +1,8 @@
 ---
 ---
 tags = {};
+tagLinks = [];
+selectedTag = undefined;
 
 // Populate a master hash with the mapping of tag_name=>project_name
 {% for project in site.data.projects.projects %}
@@ -14,19 +16,33 @@ for (var tag in tags) {
     var list = document.getElementById('tags-toc');
     var entry = document.createElement('li');
     var link = document.createElement('a');
+    var X = document.createElement('a');
     link.setAttribute("name", tag)
     link.appendChild(document.createTextNode(tag));
     entry.appendChild(link);
     list.appendChild(entry);
+    X.appendChild(document.createTextNode(' \u00D7'));
+    X.classList.add("hidden");
+    X.classList.add("removeTag");
+    link.appendChild(X);
 
     // When the link is clicked, filter to show only matching projects
     link.addEventListener("click", filterTag);
+
+    tagLinks.push(link);
 }
 
 function filterTag(tag) {
     var projectElements = document.getElementsByClassName('project');
 
     var tagName = tag && tag.toElement.name;
+
+    // since this tag was already selected, unselect it
+    if (selectedTag == tagName) {
+	tagName = false;
+    }
+    selectedTag = tagName;
+
     var taggedProjects = tags[tagName] || [];
 
     for (var i = 0; i < projectElements.length; i++) {
@@ -35,7 +51,7 @@ function filterTag(tag) {
 
 	// Show the projects associated with the selected tag or
 	// If no tag was given then show all projects
-	if (taggedProjects.includes(projectAnchor) || !tag) {
+	if (taggedProjects.includes(projectAnchor) || !tagName) {
 	    projectElem.style.display = 'block';
 	    projectElem.style.display = 'inline';
 	    projectElem.style.display = 'inline-block';
@@ -44,6 +60,19 @@ function filterTag(tag) {
 	}
     }
 
-    var selectedTagElem = document.getElementById('selectedTag');
-    selectedTagElem.innerHTML = tagName ? (tagName+' <a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
+    // Grey out all links except for the selected one
+    for (var i = 0; i < tagLinks.length; i++) {
+	var link = tagLinks[i];
+	var removeTag = link.querySelector(".removeTag");
+	if (link.getAttribute("name") == tagName) {
+	    link.classList = ["selected"];
+	    removeTag.classList.remove("hidden");
+	} else {
+	    link.classList = ["unselected"];
+	    removeTag.classList.add("hidden");
+	}
+    }
+
+    //var selectedTagElem = document.getElementById('selectedTag');
+    //selectedTagElem.innerHTML = tagName ? (tagName+' <a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
 }

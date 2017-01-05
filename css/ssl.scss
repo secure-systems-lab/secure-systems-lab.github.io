@@ -29,24 +29,25 @@ nav.subnav li a {
 }
 
 .index-hero {
-  font-size: 3.0em;
-  @media(min-width: $tablet) {
-    font-size: 6.5em;
-  }
-
   color: #222222;
   font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   line-height: 0.8em;
-  margin: 0.8em auto;
+  margin: 1em auto 0.5em auto;
   width: 4.5em;
+
+  font-size: 3.0em;
+  @media (min-width: $tablet) {
+    font-size: 13vmin;
+  }
+
 }
 
 .mission {
   font-size: 1.0em;
-  @media(min-width: $tablet) {
-    font-size: 1.5em;
+  @media (min-width: $tablet) {
+    font-size: 3.5vmin;
   }
 }
 

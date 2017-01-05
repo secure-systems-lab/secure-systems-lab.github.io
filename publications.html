@@ -24,18 +24,39 @@ layout: default
       {% endfor %}
       <div class="authors">{{ authorNames | join: ', ' }}</div>
     {% endif %}
+    {% if pub.abstract %}
+      <div class="showAbstract"> <a href="javascript:void(0);">(abstract)</a> </div>
+    {% endif %}
     {% if pub.link %}
       <div class="link">
         <a href="{{ pub.link }}">(link)</a>
       </div>
     {% endif %}
     {% if pub.abstract %}
-      <!--
-      <div class="abstract"><p>
+      <div class="abstract hidden"><p>
         {{ pub.abstract }}
       </p></div>
-      -->
     {% endif %}
   </div>
 {% endfor %}
 </div>
+
+<script>
+  function toggleAbstract(i){
+    var abstract = document.getElementsByClassName("abstract")[i];
+
+    if (abstract.classList.contains("hidden")) {
+      abstract.classList.remove("hidden");
+      abstract.classList.add("shown");
+    } else {
+      abstract.classList.remove("shown");
+      abstract.classList.add("hidden");
+    }
+  }
+  var links = document.getElementsByClassName('showAbstract');
+  for (var i = 0; i < links.length; i++) {
+    // since javascript won't close over i, pass it as a parameter to an anonymous function
+    // http://stackoverflow.com/questions/8214753/access-a-copied-integer-variable-in-javascript-anonymous-method
+    links[i].addEventListener('click', (function(j) { return function() { toggleAbstract(j); }})(i) );
+  }
+</script>

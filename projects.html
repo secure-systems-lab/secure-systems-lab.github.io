@@ -11,37 +11,36 @@ layout: default
 <ul id="tags-toc">
 </ul>
 
-<div id="selectedTag"></div>
-
 {% for project in site.data.projects.projects %}
 <div class="project">
   <a name="{{ project.anchor }}"></a>
 
-  <h3> {{ project.name }} </h3>
-  {% if project.site %}
-    <div class="name-site">
-      <a href="{{ project.site }}">(website)</a>
-    </div>
-  {% endif %}
+  <div class="title-bar">
+     <h3> {{ project.name }} </h3>
+     {% if project.site %}
+       <div class="name-site">
+         <a href="{{ project.site }}">(website)</a>
+       </div>
+     {% endif %}
+     {% if project.status %}
+       <span class="status tooltip-wrapper"> {{ project.status.name }}
+         <div class="tooltip"> {{ project.status.description }} </div>
+       </span>
+     {% endif %}
+  </div>
   {% if project.tags %}
     <div class="tags">
       {{ project.tags | array_to_sentence_string }}
     </div>
   {% endif %}
 
-  <img src="{{ project.image }}"></img>
+  <img class="image" src="{{ project.image }}"></img>
 
   <div class="description"><p>
     {{ project.description }}
   </p></div>
 
   <ul>
-     {% if project.site %}
-       <li>
-         <span class="header">Site: </span>
-         <a href="{{ project.site }}">{{ project.site }}</a>
-       </li>
-     {% endif %}
      {% if project.products %}
        <li>
          <span class="header">Products: </span>
