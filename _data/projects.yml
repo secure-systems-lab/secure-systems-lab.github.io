@@ -98,10 +98,10 @@ people:
       link: "people#ajay_shenoy"
       internal: true
 
-intro: "Though all of SSL’s research initiatives—past and present— revolve 
-around ensuring secure operation of computer systems, the specific areas 
-addressed by the team vary greatly. Initiatives are grouped into 
-the following categories."
+intro: "Though all of SSL’s research initiatives—past and present— revolve
+around ensuring secure operation of computer systems, the specific areas
+addressed by the team vary greatly. Initiatives are grouped into
+the following categories:"
 
 projects:
 
@@ -111,16 +111,16 @@ projects:
     image: "img/projects/tuf_diagram.png"
     site: "https://theupdateframework.github.io"
     status: *adopted
-    description: "Software must be updated frequently to not only ensure 
+    description: "Software must be updated frequently to not only ensure
 improved operation, but also to patch security flaws.
 Unfortunately, the act of performing an updates can itself be a
-way to attack a computer, if a malicious update is installed. TUF is a 
+way to attack a computer, if a malicious update is installed. TUF is a
 comprehensive, flexible framework to secure software updates even in situations
-where the software repository is compromised. Developers can integrate TUF 
-into any software update system, or native programming language due to its 
-concise, self-contained architecture and specification. It offers developers 
+where the software repository is compromised. Developers can integrate TUF
+into any software update system, or native programming language due to its
+concise, self-contained architecture and specification. It offers both developers
 and users protection from a host of potential attacks."
-    products: "Flynn, LEAP, and Docker software repositories, Repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPi JAC: Needs links / to be written in the right format"
+    products: "TUF is already being used in the <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a> software repositories. Integrations are also available for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.f0zkk0dy9Ruby\">RubyGems</a>, <a href=\"https://www.well-typed.com/blog/2015/07/hackage-security-alpha/Haskell\">Haskell</a>, and <a href=\"https://github.com/theupdateframework/tuf\">Python’s PyPi</a>."
     people:
       - *vlad_diaz
       - *sebastien_awwad
@@ -142,7 +142,7 @@ and users protection from a host of potential attacks."
     site: "https://uptane.github.io/"
     description: "Cars today use a truly enormous
 amount of software.  Like any
-software, this software has bugs.  Unfortunately there is not a secure way
+software, this software has bugs.  Unfortunately, there is no secure way
 to update software in cars.  Our Uptane project provides a
 mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
@@ -185,12 +185,12 @@ a <a href=\"need link\">runnable demo</a>."
     site: "https://seattle.poly.edu/html/"
     status: *adopted
     description: "Cloud computing can provide tremendous benefits due to the
-ability to offload computation on demand, however cloud resources are often
-located far from users.  The Seattle project enables users to securely share 
-(and acquire) computing resources from their desktop, laptop, or smartphone 
-in the same manner as with cloud computing.  Seattle is used for education, 
+ability to offload computation on demand. However, cloud resources are often
+located far from users.  The Seattle project enables users to securely share
+(and acquire) computing resources from their desktop, laptop, or smartphone
+in the same manner as with cloud computing.  Seattle is used for education,
 software development, and research by thousands of people around the world."
-    products: "Our website contains information and links to educational modules, and a clearinghouse of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes. JAC: Please add links!!!"
+    products: "Our website contains information and links to <a href= \"https://seattle.poly.edu/html/education.html\">educational modules</a>, and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">a clearinghouse</a> of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
     people:
       - *albert_rafetseder
       - *lukas_puhringer
@@ -242,14 +242,14 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     image: "img/projects/pph_diagram.png"
     status: *starting
     site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-    description: "A password database disclosure can be devastating, costing 
-companies billions of dollars in damages. PolyPasswordHasher offers a new 
-approach to prevent an attacker from finding out which passwords users used. By
-interrelating stored password data, potential hackers are forced to crack 
-passwords in sets. This increases the attackers’ level of difficulty, making a 
-PolyPasswordHasher-enabled database very hard to breach, even for an adversary 
+    description: "A password database disclosure can be devastating, costing
+companies billions of dollars in damages. PolyPasswordHasher offers a new
+approach to prevent an attacker from finding out which passwords are being used. By
+interrelating stored password data, potential hackers are forced to crack
+passwords in sets. This increases the attackers’ level of difficulty, making a
+PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-    products: "Basic reference implementations of PPH have been written for Python, C, and Ruby. Easy to integrate libraries for different applications, including the Pluggable Authentication Module (PAM), are used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank.  JAC: Need links!"
+    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementationPython\">Python</a>,<a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-RubyRuby\">Ruby</a>. Easy to integrate PPH libraries, including the Pluggable Authentication Module (PAM), are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank. LAD: Waiting on Santiago for additional link information"
     people:
       - *santiago_torres
       - *vlad_diaz
@@ -267,18 +267,18 @@ with millions of computers."
     image:
     site:
     status: *stealth
-    description: "Delivery of large chunks of content, such as video, is a 
+    description: "Delivery of large chunks of content, such as video, accounts for a
 substantial percentage of all Internet traffic.  This content is usually
 served by provider networks that contract with Internet Service Providers.
-CacheCash provides a similar content delivery service by having interested 
-users run caches of content.  These users are incentivized by obtaining 
+CacheCash provides a similar content delivery service by having interested
+users run caches of content.  These users are incentivized by obtaining
 a crypto-currency (CacheCash) for serving content to users.  Cryptographic
 and economic techniques demonstrate that users are either forced or
 economically incentivized to honestly serve content to users.  Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
-services used today.  By building CacheCash, we intend to disrupt CDNs by 
+services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
-    products: "We are in stealth mode!  If you want to be contacted when we 
+    products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email: ...  JAC: Needs email "
     people:
       - *ghada_almashaqbeh
@@ -298,7 +298,7 @@ publicly release, please email: ...  JAC: Needs email "
     status: *stealth
     site:
     description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
-    products: "We are in stealth mode!  If you want to be contacted when we 
+    products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email: ...  JAC: Needs email "
     people:
       - *yiwen_li
@@ -316,7 +316,7 @@ publicly release, please email: ...  JAC: Needs email "
     site:
     status: *stealth
     description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
-    products: "We are in stealth mode!  If you want to be contacted when we 
+    products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email: ...  JAC: Needs email "
     people:
       - name: "Preston Moore"
@@ -367,8 +367,8 @@ build on our findings."
     status: *stealth
     site:
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
-    products: "We welcome you to download our software (link:) and follow the 
-directions (link:) to integrate in-toto into your software project!"
+    products: "We welcome you to download the <a href=\"https://github.com/toto-framework/toto-framework.github.io/blob/master/toto-demo.pdfdemoinstructions\">instructions</a> for a demo version of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
+directions to integrate in-toto into your software project!"
     people:
       - *santiago_torres
       - *lukas_puhringer
@@ -390,7 +390,7 @@ directions (link:) to integrate in-toto into your software project!"
 is misunderstood by developers and then this leads to security issues.
 In particular, we are looking for security-related blind spots in popular
 Java and Python APIs as a way to more holistically find and address bugs."
-    products: "We are in stealth mode!  If you want to be contacted when we 
+    products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email: ...  JAC: Needs email "
     people:
       - *rad_akefirad
@@ -418,7 +418,7 @@ publicly release, please email: ...  JAC: Needs email "
     site: "https://netcheck.poly.edu/projects/project/wiki"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
     products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site. JAC: Needs links"
-    experiences: "Note that this project is not currently being maintained.  
+    experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
       - *yanyan_zhuang
@@ -435,7 +435,7 @@ Please read our blog to learn about our experiences."
     site: "https://github.com/trishankkarthik/multiblockpir"
     description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
     products: "The prototype code for this project is available at its github repository. JAC: Needs links"
-    experiences: "Note that this project is not currently being maintained.  
+    experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
       - *luqin_wang
