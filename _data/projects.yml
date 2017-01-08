@@ -270,7 +270,7 @@ with millions of computers."
 in the design of git</a> and worked to get fixes to many of those issues 
 included in production as of 
 <a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>.  
-We also welcome you to download the in-toto
+We welcome you to download the in-toto
 <a href=\"https://github.com/toto-framework/toto-framework.github.io/blob/master/toto-demo.pdfdemoinstructions\">instructions</a> 
 which includes a demo version of our software, or to clone our 
 <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
