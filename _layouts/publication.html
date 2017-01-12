@@ -1,0 +1,20 @@
+---
+---
+
+<div class="publication">
+
+  {{ reference }}
+
+  <br />
+
+  {% if entry.link %}
+    <a href="{{ entry.link }}">(link)</a>
+  {% endif %}
+
+  {% if entry.abstract %}
+    <div class="showAbstract"> <a href="javascript:void(0);">(abstract)</a> </div>
+    <div class="abstract hidden"><p>
+        {{ entry.abstract }}
+    </p></div>
+  {% endif %}
+</div>

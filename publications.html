@@ -9,9 +9,12 @@ layout: default
 <div class="intro">{{ site.data.publications.intro }}</div>
 
 
-<div id="selectedTag"></div>
 
 <div class="publications">
+
+{% bibliography --file publications --template publication %}
+
+{% comment %}
 {% for pub in site.data.publications.publications %}
   <div class="publication">
     <a name="{{ pub.name }}"></a>
@@ -40,6 +43,7 @@ layout: default
   </div>
 {% endfor %}
 </div>
+{% endcomment %}
 
 <script>
   function toggleAbstract(i){

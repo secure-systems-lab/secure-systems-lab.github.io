@@ -1,7 +1,10 @@
-highlighter: rouge
-permalink: /post/:title
+gems: ['jekyll/scholar']
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+baseurl: /
+permalink: /post/:title
+highlighter: rouge
 sass:
     sass_dir: _sass
 avatar: img/ssl_lock.png
-baseurl: /
+
+scholar:
