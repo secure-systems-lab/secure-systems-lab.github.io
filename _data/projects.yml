@@ -267,12 +267,12 @@ with millions of computers."
     site:
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
     products: "Through the course of doing this work, we <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">found security issues
-in the design of git</a> and worked to get fixes to many of those issues 
-included in production as of 
-<a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>.  
+in the design of git</a> and worked to get fixes to many of those issues
+included in production as of
+<a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>.
 We welcome you to download the in-toto
-<a href=\"https://github.com/toto-framework/toto-framework.github.io/blob/master/toto-demo.pdfdemoinstructions\">instructions</a> 
-which includes a demo version of our software, or to clone our 
+<a href=\"https://github.com/toto-framework/toto-framework.github.io/blob/master/toto-demo.pdfdemoinstructions\">instructions</a>
+which includes a demo version of our software, or to clone our
 <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
 directions to integrate in-toto into your software project!"
     people:
@@ -338,7 +338,7 @@ shows that CacheCash scales to meet the workload of even the most popular
 services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email: ...  JAC: Needs email "
+publicly release, please email: cachecash@googlegroups.com"
     people:
       - *ghada_almashaqbeh
       - *luqin_wang
@@ -380,7 +380,7 @@ publicly release, please email: ...  JAC: Needs email "
     status: *stealth
     description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email: ...  JAC: Needs email "
+publicly release, please email crashsimulator@googlegroups.com"
     people:
       - name: "Preston Moore"
       - *justin_cappos
