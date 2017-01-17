@@ -141,8 +141,8 @@ and users protection from a host of potential attacks."
     status: *starting
     site: "https://uptane.github.io/"
     description: "Cars today use a truly enormous
-amount of software.  Like any
-software, this software has bugs.  Unfortunately, there is no secure way
+amount of software, and, like any
+software, it contains bugs.  Unfortunately, there is no secure way
 to update software in cars.  Our Uptane project provides a
 mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
@@ -184,7 +184,7 @@ a <a href=\"need link\">runnable demo</a>."
     image: "img/projects/seattle_color_map.jpg"
     site: "https://seattle.poly.edu/html/"
     status: *adopted
-    description: "Cloud computing can provide tremendous benefits due to the
+    description: "Cloud computing can provide tremendous benefits due to its
 ability to offload computation on demand. However, cloud resources are often
 located far from users.  The Seattle project enables users to securely share
 (and acquire) computing resources from their desktop, laptop, or smartphone
@@ -271,8 +271,7 @@ in the design of git</a> and worked to get fixes to many of those issues
 included in production as of
 <a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>.
 We welcome you to download the in-toto
-<a href=\"https://github.com/toto-framework/toto-framework.github.io/blob/master/toto-demo.pdfdemoinstructions\">instructions</a>
-which includes a demo version of our software, or to clone our
+instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
 <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
 directions to integrate in-toto into your software project!"
     people:
@@ -403,7 +402,7 @@ is misunderstood by developers and then this leads to security issues.
 In particular, we are looking for security-related blind spots in popular
 Java and Python APIs as a way to more holistically find and address bugs."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email: ...  JAC: Needs email "
+publicly release, please email blindspots@googlegroups.com"
     people:
       - *rad_akefirad
       - *lois_delong
@@ -427,9 +426,9 @@ publicly release, please email: ...  JAC: Needs email "
     anchor: "netcheck"
     status: *retired
     image:
-    site: "https://netcheck.poly.edu/projects/project/wiki"
+    site: "https://netcheck.poly.edu/"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-    products: "Code for the NetCheck tool and all relevant documentation remain available on the NetCheck web site. JAC: Needs links"
+    products: "Code for the <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck tool</a> and all relevant documentation remain available on the NetCheck web site."
     experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
