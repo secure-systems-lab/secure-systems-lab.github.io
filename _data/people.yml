@@ -241,6 +241,7 @@ people:
               link:
 
       - name: "Santiago Torres-Arias"
+        anchor: santiago_torres
         role: "Second year Ph.D. Candidate"
         since: "2014"
         photo: "img/people/santiago_torres.png"
