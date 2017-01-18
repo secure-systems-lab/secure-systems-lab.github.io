@@ -106,7 +106,7 @@ the following categories:"
 projects:
 
 
-  - name: "<span class=\"upcase\">T</span>he <span class=\"upcase\">U</span>pdate <span class=\"upcase\">F</span>ramework (<span class=\"upcase\">TUF</span>)"
+  - name: "The Update Framework (TUF)"
     anchor: "tuf"
     image: "img/projects/tuf_diagram.png"
     site: "https://theupdateframework.github.io"

@@ -16,7 +16,7 @@ layout: default
   <a name="{{ project.anchor }}"></a>
 
   <div class="title-bar">
-     <h3> {{ project.name }} </h3>
+     <h3> {{ project.name | size_upcase }} </h3>
      {% if project.site %}
        <div class="name-site">
          <a href="{{ project.site }}">(website)</a>
