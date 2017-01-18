@@ -113,14 +113,14 @@ projects:
     status: *adopted
     description: "Software must be updated frequently to not only ensure
 improved operation, but also to patch security flaws.
-Unfortunately, the act of performing an updates can itself be a
+Unfortunately, the act of performing an update can itself be a
 way to attack a computer, if a malicious update is installed. TUF is a
 comprehensive, flexible framework to secure software updates even in situations
 where the software repository is compromised. Developers can integrate TUF
 into any software update system, or native programming language due to its
 concise, self-contained architecture and specification. It offers both developers
 and users protection from a host of potential attacks."
-    products: "TUF is already being used in the <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a> software repositories. Integrations are also available for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.f0zkk0dy9Ruby\">RubyGems</a>, <a href=\"https://www.well-typed.com/blog/2015/07/hackage-security-alpha/Haskell\">Haskell</a>, and <a href=\"https://github.com/theupdateframework/tuf\">Python’s PyPI</a>."
+    products: "TUF is already being used in the <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a> software repositories. Integrations are also available for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.f0zkk0dy9Ruby\">RubyGems</a>, <a href=\"https://www.well-typed.com/blog/2015/07/hackage-security-alpha/\">Haskell</a>, and <a href=\"https://github.com/theupdateframework/tuf\">Python’s PyPI</a>."
     people:
       - *vlad_diaz
       - *sebastien_awwad
@@ -150,9 +150,9 @@ compromises, while addressing  automotive specific vulnerabilities and
 limitations."
     products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
-<a href=\"need link\">design specification</a> and <a href=\"need link\">deployment considerations</a>.
+<a href=\"https://goo.gl/LmfODJ\">design specification</a> and <a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
 For those who want lower level details, we also provide a
-<a href=\"need link\">implementation guide</a>, an open source
+<a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, an open source
 <a href=\"need link\">reference implementation</a>, <a href=\"need link\">compliance tests</a>, and
 a <a href=\"need link\">runnable demo</a>."
     people:
@@ -195,8 +195,8 @@ software development, and research by thousands of people around the world."
       - *albert_rafetseder
       - *lukas_puhringer
       - *sebastien_awwad
-      - name: Rohan Bhirangi
-      - name: Ajay Shenoy
+      - *rohan_bhirangi
+      - *ajay_shenoy
       - *justin_cappos
     tags:
       - "Security"
@@ -212,7 +212,7 @@ software development, and research by thousands of people around the world."
     status: *starting
     site:
     description: "Given the close proximity of smartphones to users,
-researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data gathered, Sensibility ensures the
+researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
 privacy of user information.  Sensibility also has additional security
 protections that ensure the safety of the device, while giving researchers
 access to unique information."
@@ -220,11 +220,11 @@ access to unique information."
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
     people:
       - *yanyan_zhuang
-      - *yu_hu
+      - name: "Yu Hu"
       - *lukas_puhringer
       - *kejian_wang
       - name: "Richard Weiss"
-        link: "http://evergreen.edu/people/weiss-richard"
+        link: "http://evergreen.edu/directory/people/weissr"
       - name: "Leon Resnik"
         link: "https://www.cs.rit.edu/people/faculty/lr"
       - *justin_cappos
@@ -244,12 +244,11 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
     site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
     description: "A password database disclosure can be devastating, costing
 companies billions of dollars in damages. PolyPasswordHasher offers a new
-approach to prevent an attacker from finding out which passwords are being used. By
-interrelating stored password data, potential hackers are forced to crack
+approach to prevent attackers from finding out which passwords are being used. By interrelating stored password data, potential hackers are forced to crack
 passwords in sets. This increases the attackers’ level of difficulty, making a
 PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementationPython\">Python</a>,<a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-RubyRuby\">Ruby</a>. Easy to integrate PPH libraries, including the Pluggable Authentication Module (PAM), are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank. LAD: Waiting on Santiago for additional link information"
+    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>,<a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
     people:
       - *santiago_torres
       - *vlad_diaz
@@ -292,14 +291,14 @@ directions to integrate in-toto into your software project!"
     image: "img/projects/atoms_placeholder.png"
     site:
     status: *starting
-    description: "Within every confusing piece of software codes
+    description: "Within every confusing piece of software code
   are small patterns that can lead developers  to outputs that radically
 differ from what was intended. In studying these “atoms of confusion” we
 look to build a firm empirical foundation for reducing code confusion in
 software development and, thus, also reduce the frequency of buggy and
 malfunctioning programs."
     products: "The <a href=\"https://atomsofconfusion.com\">project website</a> provides
-a rough background of our theory, studies, and analysis for this work.
+background on our theory, studies, and analysis for this work.
 We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
 openly available so that other researchers can replicate, validate, and
 build on our findings."
@@ -336,8 +335,8 @@ economically incentivized to honestly serve content to users.  Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
 services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
-    products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email: cachecash@googlegroups.com"
+    products: "We are in stealth mode! If you want to be contacted when we
+publicly release, please send an email to cachecash@googlegroups.com."
     people:
       - *ghada_almashaqbeh
       - *luqin_wang
@@ -359,7 +358,7 @@ publicly release, please email: cachecash@googlegroups.com"
     site:
     description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email: ...  JAC: Needs email "
+publicly release, please send an email to lind-dev@googlegroups.com"
     people:
       - *yiwen_li
       - *justin_cappos
@@ -397,10 +396,8 @@ publicly release, please email crashsimulator@googlegroups.com"
     image:
     status: *stealth
     site:
-    description: "This project, seeks to identify situations where an API
-is misunderstood by developers and then this leads to security issues.
-In particular, we are looking for security-related blind spots in popular
-Java and Python APIs as a way to more holistically find and address bugs."
+    description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
+by developers. In particular, we are looking for security-related blind spots in popular Java and Python APIs as a way to more holistically find and address bugs."
     products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email blindspots@googlegroups.com"
     people:
@@ -443,9 +440,9 @@ Please read our blog to learn about our experiences."
     anchor: "uppir"
     status: *retired
     image: "img/projects/uppir_data_download.png"
-    site: "https://github.com/trishankkarthik/multiblockpir"
+    site: "https://uppir.poly.edu"
     description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
-    products: "The prototype code for this project is available at its github repository. JAC: Needs links"
+    products: "The prototype code for this project is available at its <a href=\"https://github.com/trishankkarthik/multiblockpir\">github repository</a>."
     experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
