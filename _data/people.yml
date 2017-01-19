@@ -143,7 +143,7 @@ people:
           - name: "PEP 458"
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
-            link: "http://catalog.unm.edu/catalogs/2013-2014/courses/PEP/480-582.html"
+            link: "http://www.python.org/dev/peps/pep-0480/"
         deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI"
 
       - name: "Sebastien Awwad"
@@ -241,6 +241,7 @@ people:
               link:
 
       - name: "Santiago Torres-Arias"
+        anchor: santiago_torres
         role: "Second year Ph.D. Candidate"
         since: "2014"
         photo: "img/people/santiago_torres.png"
@@ -255,7 +256,7 @@ people:
               link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes accepted into git, PolyPasswordHasher (used in Seattle clearinghouse, BioBank, ...)"
+        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>, Reference implementations of PolyPasswordHasher in a number of languages (used in Seattle clearinghouse, BioBank, ...)."
 
 
 
@@ -297,6 +298,7 @@ people:
 
 
       - name: "Devon J. Powell"
+        anchor: devon_powell
         role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
         since: "2016"
         photo: "img/people/devon_powell.jpg"
@@ -358,7 +360,7 @@ people:
           - *pph
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
 
-      - name: "Kejian Wang"
+      - name: "Kejian \"Felix\" Wang"
         role: "Research Intern"
         since:
         photo: "img/people/kejian_wang.jpg"
@@ -415,9 +417,7 @@ people:
               link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
             - name: "GLOBECOM 2015"
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-            - name: "ISBA 2015"
-              link: "http://ieeexplore.ieee.org/document/7126366/"
-
+              
 
       - name: "Sai Teja Peddinti"
         role: "Ph.D. graduated in 2015 (co-advised by Keith Ross)"
