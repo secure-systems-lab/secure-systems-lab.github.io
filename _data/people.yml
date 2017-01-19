@@ -182,8 +182,7 @@ people:
         interests: "Software Security, Code Obfuscation, Compilers"
         projects:
           - *lind
-          - *tuf
-          - *uptane
+          - *cachecash
           - *in-toto
         publications:
           - name: "Mathematical Problems of Computer Science 2014"
@@ -252,11 +251,11 @@ people:
         publications:
             - name: "NSDI 2016"
               link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
-            - name: "USENIX Security"
+            - name: "USENIX Security 2016"
               link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>, Reference implementations of PolyPasswordHasher in a number of languages (used in Seattle clearinghouse, BioBank, ...)."
+        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>, Reference implementations of PolyPasswordHasher in a number of languages (used in Seattle clearinghouse, BioBank, ...). (JAC: Need links)"
 
 
 

@@ -190,7 +190,14 @@ located far from users.  The Seattle project enables users to securely share
 (and acquire) computing resources from their desktop, laptop, or smartphone
 in the same manner as with cloud computing.  Seattle is used for education,
 software development, and research by thousands of people around the world."
-    products: "Our website contains information and links to <a href= \"https://seattle.poly.edu/html/education.html\">educational modules</a>, and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a> of available resources for those who wish to download and use the Seattle program, or to donate use of their devices for research purposes."
+    products: "Our website contains information and links to <a href=
+\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
+and a <a
+href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
+of available resources for those who wish to download and use the Seattle
+program, or to 
+<a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a> 
+some computing power on their device for research purposes."
     people:
       - *albert_rafetseder
       - *lukas_puhringer
@@ -210,7 +217,7 @@ software development, and research by thousands of people around the world."
     anchor: "sensibility"
     image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
     status: *starting
-    site:
+    site: "https://sensibilitytestbed.com/"
     description: "Given the close proximity of smartphones to users,
 researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
 privacy of user information.  Sensibility also has additional security
@@ -289,7 +296,7 @@ directions to integrate in-toto into your software project!"
   - name: "Atoms of Confusion"
     anchor: "atoms"
     image: "img/projects/atoms_placeholder.png"
-    site:
+    site: "https://atomsofconfusion.com/"
     status: *starting
     description: "Within every confusing piece of software code
   are small patterns that can lead developers  to outputs that radically
@@ -336,10 +343,11 @@ shows that CacheCash scales to meet the workload of even the most popular
 services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
     products: "We are in stealth mode! If you want to be contacted when we
-publicly release, please send an email to cachecash@googlegroups.com."
+publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
     people:
       - *ghada_almashaqbeh
       - *luqin_wang
+      - *artiom_baloian
       - name: "Allison Bishop Lewko"
         link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
@@ -356,12 +364,20 @@ publicly release, please send an email to cachecash@googlegroups.com."
     image:
     status: *stealth
     site:
-    description: "Despite the best efforts of developers most program kernels contain flaws, and strategies to defend against triggering them have fallen short. Lind is a new virtual machine design that defends against these bugs by locking all system calls into popular access paths. The design is based on the idea that popular paths—ones used every day to access basic system requests—are much less likely to contain vulnerabilities. This limited kernel access reduces the possibility of interaction with flawed code."
+    description: "Despite the best efforts of developers most operating system 
+kernels contain flaws, and strategies to defend against triggering them
+have fallen short. Lind is a new virtual machine design that defends
+against these bugs by locking all system calls into popular access paths.
+The design is based on the idea that popular paths—ones used every day to
+access basic system requests—are much less likely to contain
+vulnerabilities. This limited kernel access reduces the possibility of
+interaction with flawed code."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please send an email to lind-dev@googlegroups.com"
+publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
     people:
       - *yiwen_li
       - *justin_cappos
+      - *artiom_baloian
       - name: "Brendan Dolan-Gavitt"
         link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
       - *sam_weber
@@ -378,7 +394,7 @@ publicly release, please send an email to lind-dev@googlegroups.com"
     status: *stealth
     description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email crashsimulator@googlegroups.com"
+publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
     people:
       - name: "Preston Moore"
       - *justin_cappos
@@ -399,7 +415,7 @@ publicly release, please email crashsimulator@googlegroups.com"
     description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
 by developers. In particular, we are looking for security-related blind spots in popular Java and Python APIs as a way to more holistically find and address bugs."
     products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email blindspots@googlegroups.com"
+publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">blindspots@googlegroups.com</a>."
     people:
       - *rad_akefirad
       - *lois_delong
