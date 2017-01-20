@@ -211,7 +211,8 @@ people:
         interests: "Securing software updates for community repositories and automobiles"
         projects:
           - *tuf
-          - name: TUF extensions (Diplomat, Mercury, and Uptane)
+          - name: "TUF extensions (<a href=\"http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+          - *uptane
           - *uppir
         publications:
             - name: "escar 2016"
@@ -222,7 +223,7 @@ people:
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
             - name: "ISBA 2015"
               link: "http://ieeexplore.ieee.org/document/7126366/"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>,<a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>. On-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI); Wrote software for <a href=\"https:\\github.com/uptane\">Uptane</a> and <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>."
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. On-going integrations of TUF with <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>. Built experiments for <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>. Researched, documented, and gathered feedback and advocated for <a href=\"https://uptane.github.io/\">Uptane</a>."
 
 
       - name: "Yiwen Li"
@@ -416,7 +417,7 @@ people:
               link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
             - name: "GLOBECOM 2015"
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-              
+
 
       - name: "Sai Teja Peddinti"
         role: "Ph.D. graduated in 2015 (co-advised by Keith Ross)"
