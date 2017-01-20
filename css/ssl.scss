@@ -34,11 +34,12 @@ nav.subnav li a {
   text-transform: uppercase;
   font-weight: normal;
   line-height: 0.8em;
-  margin: 1em auto 0.5em auto;
+  margin: 1.2em auto 0.5em auto;
   width: 4.5em;
-
   font-size: 3.0em;
+  padding-left: 0.4em;
   @media (min-width: $tablet) {
+    margin: 1em auto 0.5em auto;
     font-size: 13vmin;
   }
 
@@ -51,11 +52,53 @@ nav.subnav li a {
   }
 }
 
+.intro {
+  font-size: 1.1em;
+  margin-top: 1em;
+  text-align: justify;
+  padding: 0 1em;
+  @media (min-width: $tablet) {
+    margin-top: 2em;
+    font-size: 20pt;
+    padding: 0 1em;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0 0.5em;
 }
 
+@media(max-width: $tablet) {
+  h1 {font-size: 2.7em;}
+  h2 {font-size: 2.3em;}
+  h3 {font-size: 2em;}
+}
+
 h1.hero {
+  font-size: 3em;
+  margin: 1em 0 0.2em;
+  @media(min-width: $tablet) {
     font-size: 6.5em;
     margin: 0.3em 0 0.2em;
+  }
+}
+
+.toc {
+  margin-top: 1rem;
+
+  li {
+    display: block;
+    font-size: 1em;
+  }
+
+  @media(min-width: $tablet) {
+    margin: 4rem 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: 1em;
+      font-size: 1.5em;
+    }
+  }
 }

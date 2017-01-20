@@ -3,24 +3,6 @@
 
 @import 'variables';
 
-.intro {
-  margin-top: 2em;
-  font-size: 20pt;
-  text-align: justify;
-  padding: 0 1em;
-}
-
-.people-toc {
-  margin: 4rem 0;
-  text-align: center;
-
-  li {
-    display: inline-block;
-    margin-right: 1em;
-    font-size: 1.5em;
-  }
-}
-
 .type {
   margin-top: 0.75em;
   margin-bottom: 0.5em;
@@ -109,15 +91,16 @@ $photo_margin: 1rem;
 
 .people-boxes .projects {
   @media(min-width: $tablet) {
-    width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
+    width: calc((99% - (#{$photo_width} + #{$photo_margin})) / 2);
     display: inline-block;
     vertical-align: top;
+    margin-right: calc(2%);
   }
 }
 
 .people-boxes .publications {
   @media(min-width: $tablet) {
-    width: calc((100% - (#{$photo_width} + #{$photo_margin})) / 2);;
+    width: calc((99% - (#{$photo_width} + #{$photo_margin})) / 2);
     display: inline-block;
     vertical-align: top;
   }

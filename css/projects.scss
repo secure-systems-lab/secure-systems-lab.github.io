@@ -3,12 +3,6 @@
 
 @import 'variables';
 
-.intro {
-  margin: 2em;
-  font-size: 20pt;
-  text-align: justify;
-}
-
 .people a.internal {
     font-weight: bold;
 }
@@ -38,9 +32,12 @@ li a.selected {
     }
 
     .status {
-	position: absolute;
-	right: 0;
-	bottom: 0;
+      display: block;
+      @media(min-width: $tablet) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
     }
 
     .tags {
@@ -51,29 +48,18 @@ li a.selected {
     }
 
     .image {
-	float: right;
-	margin: 0.8rem;
-	max-width: 50%;
+      float: right;
+      width: 100%;
+      @media(min-width: $tablet) {
+	width: 50%;
+        margin: 0.8rem;
+      }
     }
 
     ul .header {
         font-weight: bold;
         font-size: 1.2rem;
     }
-}
-
-
-
-#tags-toc {
-  margin: 4rem 0 0;
-  text-align: center;
-  line-height: 2.2em;
-  
-  li {
-    display: inline-block;
-    margin-right: 1em;
-    font-size: 1.5em;
-  }
 }
 
 .removeTag {
@@ -86,7 +72,9 @@ li a.selected {
 .tooltip-wrapper {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    @media(min-width: $tablet) {
+      border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    }
 }
 
 /* Tooltip text */
