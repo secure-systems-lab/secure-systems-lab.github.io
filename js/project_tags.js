@@ -35,7 +35,7 @@ for (var tag in tags) {
 function filterTag(tag) {
     var projectElements = document.getElementsByClassName('project');
 
-    var tagName = tag && tag.toElement.name;
+    var tagName = tag && tag.target.name;
 
     // since this tag was already selected, unselect it
     if (selectedTag == tagName) {
