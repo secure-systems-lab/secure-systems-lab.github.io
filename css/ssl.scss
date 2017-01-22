@@ -102,3 +102,22 @@ h1.hero {
     }
   }
 }
+
+#action-flash {
+    background: linear-gradient(to top, rgba(94,165,255,1), rgba(255,255,255,0));
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3vh;
+
+    &.fade-in {
+        opacity: 0.5;
+        transition: opacity .1s ease-in-out;
+    }
+
+    &.fade-out {
+        opacity: 0;
+        transition: opacity .6s ease-in-out;
+    }
+}

@@ -4,6 +4,17 @@ tags = {};
 tagLinks = [];
 selectedTag = undefined;
 
+function actionFlash() {
+    var af = document.getElementById('action-flash');
+    af.classList.remove("fade-out");
+    af.classList.add("fade-in");
+    window.setTimeout(function () {
+      af.classList.remove("fade-in");
+      af.classList.add("fade-out");
+    }, 250)
+
+}
+
 // Populate a master hash with the mapping of tag_name=>project_name
 {% for project in site.data.projects.projects %}
    {% for tag in project.tags %}
@@ -73,6 +84,5 @@ function filterTag(tag) {
 	}
     }
 
-    //var selectedTagElem = document.getElementById('selectedTag');
-    //selectedTagElem.innerHTML = tagName ? (tagName+' <a class="remove-tag" onclick="filterTag()">&#10005</a>') : "";
+    actionFlash();
 }
