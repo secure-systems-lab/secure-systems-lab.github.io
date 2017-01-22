@@ -33,12 +33,12 @@ for (var tag in tags) {
     entry.appendChild(link);
     list.appendChild(entry);
     X.appendChild(document.createTextNode(' \u00D7'));
-    X.classList.add("hidden");
     X.classList.add("removeTag");
-    link.appendChild(X);
+    X.classList.add("hidden");
+    entry.appendChild(X);
 
     // When the link is clicked, filter to show only matching projects
-    link.addEventListener("click", filterTag);
+    entry.addEventListener("click", filterTag);
 
     tagLinks.push(link);
 }
@@ -74,7 +74,7 @@ function filterTag(tag) {
     // Grey out all links except for the selected one
     for (var i = 0; i < tagLinks.length; i++) {
 	var link = tagLinks[i];
-	var removeTag = link.querySelector(".removeTag");
+	var removeTag = link.parentNode.querySelector(".removeTag");
 	if (link.getAttribute("name") == tagName) {
 	    link.classList = ["selected"];
 	    removeTag.classList.remove("hidden");

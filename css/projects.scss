@@ -63,8 +63,10 @@ li a.selected {
 }
 
 .removeTag {
-    //color: hsl(0, 100%, 75%);
     color: black;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 /* Tooltips - http://www.w3schools.com/howto/howto_css_tooltip.asp */
