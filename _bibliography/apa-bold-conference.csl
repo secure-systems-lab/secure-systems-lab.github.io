@@ -530,11 +530,13 @@
     <choose>
       <if type="post-weblog webpage" match="none">
         <group>
+	  <!--
           <choose>
             <if type="chapter paper-conference entry-encyclopedia" match="any">
               <text term="in" text-case="capitalize-first" suffix=" "/>
             </if>
           </choose>
+	  -->
           <group delimiter=", ">
             <text macro="container-contributors"/>
             <text macro="secondary-contributors"/>
@@ -550,6 +552,7 @@
         <text variable="container-title" font-style="italic" text-case="title"/>
       </if>
       <else-if type="bill legal_case legislation" match="none">
+        <!-- <text variable="container-title" font-style="italic"/> -->
         <text variable="container-title" font-style="italic"/>
       </else-if>
     </choose>
@@ -630,27 +633,31 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <!-- <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2"> -->
+  <bibliography hanging-indent="true" et-al-min="20" et-al-use-first="6" et-al-use-last="true" entry-spacing="0" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key macro="issued-sort" sort="ascending"/>
       <key macro="title"/>
     </sort>
     <layout>
-      <group suffix=".">
-        <group delimiter=". ">
-          <text macro="author"/>
-          <text macro="issued"/>
+      <!-- <group suffix="."> -->
           <text macro="title-plus-extra"/>
+          <text macro="issued"/>
+          <text macro="author" display="block" />
+          <text macro="container" display="block" font-weight="bold" />
+	  <!--
+          <text macro="author"/>
           <text macro="container"/>
-        </group>
+	  -->
+        <!-- </group> -->
         <text macro="legal-cites"/>
-        <text macro="locators"/>
-        <group delimiter=", " prefix=". ">
+        <!-- <text macro="locators"/> -->
+        <!-- <group delimiter=", " prefix=". ">
           <text macro="event"/>
           <text macro="publisher"/>
-        </group>
-      </group>
+        </group> -->
+      <!-- </group> -->
       <text macro="access" prefix=" "/>
       <text macro="original-date" prefix=" "/>
     </layout>
