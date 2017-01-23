@@ -6,5 +6,3 @@ highlighter: rouge
 sass:
     sass_dir: _sass
 avatar: img/ssl_lock.png
-
-scholar:

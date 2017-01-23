@@ -12,7 +12,7 @@ layout: default
 
 <div class="publications">
 
-{% bibliography --file publications --template publication %}
+{% bibliography --file publications --template publication --style _bibliography/apa-bold-conference.csl %}
 
 {% comment %}
 {% for pub in site.data.publications.publications %}
