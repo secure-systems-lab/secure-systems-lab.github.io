@@ -350,6 +350,15 @@ people:
         projects:
           - *seattle
           - name: "Repy V2"
+          
+      - name: "Ankit Bhatia"
+        role: "Master's Student"
+        since: 2016
+        photo: "img/people/ankit_bhatia.jpg"
+        interests: "Networking and network security"
+        projects:
+          - *seattle
+          - name: "IPv6 support to Repy V2"
 
       - name: "Shuyuan \"Lolaly\" Luo"
         role: "Undergradute Student"
