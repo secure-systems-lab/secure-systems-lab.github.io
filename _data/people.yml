@@ -256,7 +256,7 @@ people:
               link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>, Reference implementations of PolyPasswordHasher in a number of languages (used in Seattle clearinghouse, BioBank, ...). (JAC: Need links)"
+        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, now in use in a number of operating systems. Also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
 
 
 
