@@ -5,10 +5,17 @@ layout: default
 
 *Students and Academics*
 
-Professor Cappos is currently recruiting talented PhD students, developers, research professors, and postdoctoral researchers who are interested in building and deploying real world software.
+Professor Cappos is currently recruiting talented PhD students, developers, 
+research professors, and postdoctoral researchers who are interested in 
+building and deploying real world software.
 
-To apply to work with us, please email jcappos@nyu.edu with “Lab application” in the subject.  Please include a code sample and/or github ID along with your resume.  
+To apply to work with us, please email 
+<a href="mailto:jcappos@nyu.edu">jcappos@nyu.edu</a> with “Lab application” in 
+the subject.  Please include a code sample and/or github ID along with 
+your resume.  
 
 *Practitioners and Community*
 
-Our lab initiatives are performed as open source projects that are free for everyone to use.  Code and relevant documents are posted on GitHub to be accessed and worked with by other developers. Feel free to adapt and use our code, and report back on your adaptations.
+Our lab's research is <a href="LICENSE.txt">open source</a> and is free for 
+everyone to use (even for commercial purposes).  Code and relevant documents 
+are posted on GitHub. Feel free to use our code and let us know what you think!
