@@ -14,12 +14,12 @@ designs that [detect](projects#crashsimulator) and
 [isolate](projects#lind) security faults, [secure](projects#pph)
 [private data](projects#sensibility),
 provide a [secure mechanism](projects#tuf) for fixing software flaws in
-[different contexts](projects#uptane), and even give a deeper
+[different contexts](projects#uptane), and even foster a deeper
 understanding about how to avoid [security](projects#atoms)
 [flaws](projects#blindspots) in the first place.
 
-We focus on deploying our solutions in practice, to maximize the impact
-of our work.  In addition to the software we 
+We focus on deploying our solutions in practice to maximize the impact
+of our work.  In addition to the software we
 [distribute](projects#seattle),
 technology developed by the lab is being utilized in a
 variety of popular products including [Docker](https://www.docker.com/),

@@ -30,7 +30,7 @@ projects:
       link: "https://sensibilitytestbed.com"
   - in-toto: &in-toto
       name: in-toto
-      link: "projects#in-toto"
+      link: "https://in-toto.io"
   - tuf: &tuf
       name: TUF
       link: "https://theupdateframework.github.io/"
@@ -83,7 +83,7 @@ people:
             link: "http://isis.poly.edu/~jcappos/papers/zhuang_netcheck_nsdi_14.pdf"
           - name: "[more]"
             link: "https://isis.poly.edu/~jcappos/publications.php"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle deployed on thousands of devices and used in one hundred classes</a>; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"http://isis.poly.edu/~jcappos/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"http://isis.poly.edu/~jcappos/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
 
       - name: "Albert Rafetseder"
         role: "Research Professor"
@@ -135,9 +135,6 @@ people:
         projects:
           - *tuf
           - *uptane
-          - *in-toto
-          - *seattle
-          - *pph
         publications:
           - name: "NSDI 16"
             link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
@@ -145,7 +142,7 @@ people:
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
             link: "http://www.python.org/dev/peps/pep-0480/"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; on-going integrations at repositories for Ruby, CoreOS, Haskell, OCaml, and Python’s PyPI"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPi</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>,<a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
 
       - name: "Sebastien Awwad"
         role: "Developer"
@@ -169,12 +166,14 @@ people:
         interests: "Security in operating systems and full stack networking. Distributed software and version control systems."
         projects:
           - *in-toto
+          - *seattle
+          - *sensibility
         publications:
           - name: "PIK 2013"
             link: "https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf"
           - name: "TryRepy Wiki"
-            link: "https://seattle.poly.edu/wiki/TryRepy"
-        deployments: "<a href=\"https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf\">Sensorium Framework</a> (used on smartphones to capture data for Open3GMap), Sensibility Testbed."
+            link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
+        deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed"
 
       - name: "Artiom Baloian"
         role: "Developer"
@@ -183,14 +182,17 @@ people:
         interests: "Software Security, Code Obfuscation, Compilers"
         projects:
           - *lind
-          - *cachecash
+          - *tuf
+          - *uptane
           - *in-toto
         publications:
+          - name: "IMPACT 2017"
+            link: "http://impact.gforge.inria.fr/impact2017/papers/impact-17-apollo-automatic-specilative-polyhedral-loop-optimizer.pdf"
           - name: "Mathematical Problems of Computer Science 2014"
             link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
           - name: "RAS 2015"
             link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO</a> a compiler framework dedicated to automatic, dynamic and speculative parallelization and optimization of programs' loop nests."
+        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic speculative POLyhedral Loop Optimizer</a>, a C/C++ compiler framework based on LLVM. Its main goal is to parallel nested loops, and it is used to compile programs where performance is important."
 
       - name: "Lois Anne DeLong"
         role: "Research Associate/Technical Writer"

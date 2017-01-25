@@ -158,7 +158,9 @@ a <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
     people:
       - *trishank_kuppusamy
       - *sebastien_awwad
+      - *artiom_baloian
       - *sam_weber
+      - *vlad_diaz
       - name: Akanitoro Brown
       - name: Damon McCoy
         link: "http://engineering.nyu.edu/people/damon-mccoy"
@@ -229,7 +231,7 @@ access to unique information."
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
     people:
       - *yanyan_zhuang
-      - name: "Yu Hu"
+      - *yu_hu
       - *lukas_puhringer
       - *kejian_wang
       - name: "Richard Weiss"
@@ -260,7 +262,6 @@ with millions of computers."
     products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>,<a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
     people:
       - *santiago_torres
-      - *vlad_diaz
       - *lolaly_luo
       - *justin_cappos
     tags:
@@ -270,9 +271,9 @@ with millions of computers."
 
   - name: "in-toto"
     anchor: "in-toto"
-    image:
+    image: "img/projects/in-toto_diagram.png"
     status: *starting
-    site:
+    site: "https://in-toto.io"
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
     products: "Through the course of doing this work, we <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">found security issues
 in the design of git</a> and worked to get fixes to many of those issues
@@ -285,11 +286,14 @@ directions to integrate in-toto into your software project!"
     people:
       - *santiago_torres
       - *lukas_puhringer
-      - *vlad_diaz
+      - *rohan_bhirangi
       - *artiom_baloian
       - name: "Reza Curtmola"
         link: "http:///web.njit.edu/~crix/"
       - *justin_cappos
+      - name: "Anilkumar Ammula"
+      - name: "Hammad Afzali Nanize"
+      - name: "Sangat Vaidya"
     tags:
       - "Software Updates"
       - "Security"
@@ -330,17 +334,17 @@ build on our findings."
 
   - name: "CacheCash"
     anchor: "cachecache"
-    image:
+    image: "img/projects/cachecache_diagram.png"
     site:
     status: *stealth
     description: "Delivery of large chunks of content, such as video, accounts for a
 substantial percentage of all Internet traffic.  This content is usually
 served by provider networks that contract with Internet Service Providers.
 CacheCash provides a similar content delivery service by having interested
-users run caches of content.  These users are incentivized by obtaining
-a crypto-currency (CacheCash) for serving content to users.  Cryptographic
-and economic techniques demonstrate that users are either forced or
-economically incentivized to honestly serve content to users.  Our analysis
+users run caches of content.  These users are incentivized to participate by receiving
+a crypto-currency (Cachecoin) in exchange for serving content to users.  Both cryptographic
+and economic techniques demonstrate that, in CacheCash, these users are either forced or
+economically incentivized to honestly serve content.  Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
 services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
@@ -349,7 +353,6 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
     people:
       - *ghada_almashaqbeh
       - *luqin_wang
-      - *artiom_baloian
       - name: "Allison Bishop Lewko"
         link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
@@ -398,7 +401,7 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
     products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
     people:
-      - name: "Preston Moore"
+      - *preston_moore
       - *justin_cappos
       - name: "Phyllis Frankl"
         link: "http://engineering.nyu.edu/people/phyllis-frankl"
