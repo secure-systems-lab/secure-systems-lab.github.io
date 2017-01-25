@@ -80,7 +80,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
+      <name and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
       <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
@@ -642,10 +642,10 @@
     </sort>
     <layout>
       <!-- <group suffix="."> -->
-          <text macro="title-plus-extra"/>
+          <text macro="title-plus-extra" font-weight="bold"/>
           <text macro="issued"/>
           <text macro="author" display="block" />
-          <text macro="container" display="block" font-weight="bold" />
+          <text macro="container" display="block" />
 	  <!--
           <text macro="author"/>
           <text macro="container"/>
