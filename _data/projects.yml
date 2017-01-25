@@ -197,8 +197,8 @@ software development, and research by thousands of people around the world."
 and a <a
 href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
 of available resources for those who wish to download and use the Seattle
-program, or to 
-<a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a> 
+program, or to
+<a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a>
 some computing power on their device for research purposes."
     people:
       - *albert_rafetseder
@@ -366,7 +366,7 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
     image:
     status: *stealth
     site:
-    description: "Despite the best efforts of developers most operating system 
+    description: "Despite the best efforts of developers most operating system
 kernels contain flaws, and strategies to defend against triggering them
 have fallen short. Lind is a new virtual machine design that defends
 against these bugs by locking all system calls into popular access paths.

@@ -127,6 +127,7 @@ people:
     anchor: staff
     people:
       - name: "Vladimir Diaz"
+        anchor: vlad_diaz
         role: "Developer"
         since: "2013"
         photo: "img/people/vlad_diaz.jpg"
@@ -291,7 +292,7 @@ people:
       - name: "Preston Kent Moore"
         role: "Second year Ph.D. Student"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/preston_moore.jpg"
         interests: "Secure software engineering, automated testing, systems security"
         projects:
           - *crashsimulator
@@ -315,6 +316,8 @@ people:
         interests: "Software Engineering, Secure Software Design and Development, Distributed Systems, Microservices"
         projects:
             - *blindspots
+
+
 
   - type: "Other Students"
     anchor: otherstudents
@@ -350,7 +353,7 @@ people:
         projects:
           - *seattle
           - name: "Repy V2"
-          
+
       - name: "Ankit Bhatia"
         role: "Master's Student"
         since: 2016
@@ -368,6 +371,14 @@ people:
         projects:
           - *pph
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
+
+      - name: "Yu Hu"
+        role: "Ph.D. Student"
+        since: "2016"
+        photo: "img/people/yu_hu.jpg"
+        interests: "Side channel attack; Symbolic execution; Mobile sensor application"
+        projects:
+            - *sensibility
 
       - name: "Kejian \"Felix\" Wang"
         role: "Research Intern"
