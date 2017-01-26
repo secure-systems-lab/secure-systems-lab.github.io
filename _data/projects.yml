@@ -97,6 +97,10 @@ people:
       name: "Ajay Shenoy"
       link: "people#ajay_shenoy"
       internal: true
+  - preston_moore: &preston_moore
+      name: "Preston Moore"
+      link: "people#preston_moore"
+      internal: true
 
 intro: "Though all of SSL’s research initiatives—past and present— revolve
 around ensuring secure operation of computer systems, the specific areas
