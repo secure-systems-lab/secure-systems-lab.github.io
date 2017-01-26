@@ -141,7 +141,7 @@ and users protection from a host of potential attacks."
 
   - name: "Uptane"
     anchor: "uptane"
-    image: "https://raw.githubusercontent.com/uptane/uptane.github.io/master/logo.png"
+    image: "img/projects/uptane_diagram.png"
     status: *starting
     site: "https://uptane.github.io/"
     description: "Cars today use a truly enormous
@@ -162,7 +162,6 @@ a <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
     people:
       - *trishank_kuppusamy
       - *sebastien_awwad
-      - *artiom_baloian
       - *sam_weber
       - *vlad_diaz
       - name: Akanitoro Brown
@@ -279,25 +278,25 @@ with millions of computers."
     status: *starting
     site: "https://in-toto.io"
     description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
-    products: "Through the course of doing this work, we <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">found security issues
-in the design of git</a> and worked to get fixes to many of those issues
-included in production as of
-<a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>.
-We welcome you to download the in-toto
-instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
-<a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
-directions to integrate in-toto into your software project!"
+    products: "We welcome you to download the in-toto
+    instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
+    <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
+    directions to integrate in-toto into your software project! The program was recently used to address a number of security issues in the design of <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf/\">git</a> that we discovered in the course of developing this work. The fixes to many of those issues were
+    included in production as of
+    <a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>"
     people:
       - *santiago_torres
       - *lukas_puhringer
       - *rohan_bhirangi
       - *artiom_baloian
-      - name: "Reza Curtmola"
+      - name: "Reza Curtmola (NJIT)"
         link: "http:///web.njit.edu/~crix/"
+      - name: "Hammad Afzali Nanize (NJIT)"
+        link: "https://web.njit.edu/~ha285/"
+      - name: "Anil Kumar Ammula (NJIT)"
+      - name: "Sangat Vaidya (NJIT)"
       - *justin_cappos
-      - name: "Anilkumar Ammula"
-      - name: "Hammad Afzali Nanize"
-      - name: "Sangat Vaidya"
+
     tags:
       - "Software Updates"
       - "Security"
@@ -338,7 +337,7 @@ build on our findings."
 
   - name: "CacheCash"
     anchor: "cachecache"
-    image: "img/projects/cachecache_diagram.png"
+    image: "img/projects/cachecash_diagram.png"
     site:
     status: *stealth
     description: "Delivery of large chunks of content, such as video, accounts for a
@@ -357,6 +356,7 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
     people:
       - *ghada_almashaqbeh
       - *luqin_wang
+      - *artiom_baloian
       - name: "Allison Bishop Lewko"
         link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
