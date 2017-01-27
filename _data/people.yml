@@ -254,6 +254,7 @@ people:
         role: "Second year Ph.D. Candidate"
         since: "2014"
         photo: "img/people/santiago_torres.png"
+        site: "https://sangy.xyz"
         interests: "Password protection and securing the software supply chain"
         projects:
             - *pph

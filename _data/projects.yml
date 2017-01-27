@@ -450,7 +450,7 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
   - name: "NetCheck"
     anchor: "netcheck"
     status: *retired
-    image: "img/projects/netcheck_diagram.jpg"
+    image: "img/projects/netcheck_digram.png"
     site: "https://netcheck.poly.edu/"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
     products: "Code for the <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck tool</a> and all relevant documentation remain available on the NetCheck web site."
