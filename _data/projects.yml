@@ -97,12 +97,15 @@ people:
       name: "Ajay Shenoy"
       link: "people#ajay_shenoy"
       internal: true
+  - sai_peddinti: &sai_peddinti
+      name: Sai Teja Peddinti
+      link: "people#sai_peddinti"
   - preston_moore: &preston_moore
-      name: "Preston Moore"
+      name: "Preston Kent Moore"
       link: "people#preston_moore"
-      internal: true
 
-intro: "Though all of SSL’s research initiatives—past and present— revolve
+
+intro: "Though all of SSL’s research initiatives—past and present—revolve
 around ensuring secure operation of computer systems, the specific areas
 addressed by the team vary greatly. Initiatives are grouped into
 the following categories:"
@@ -336,7 +339,7 @@ build on our findings."
 
 
   - name: "CacheCash"
-    anchor: "cachecache"
+    anchor: "cachecash"
     image: "img/projects/cachecash_diagram.png"
     site:
     status: *stealth
@@ -370,7 +373,7 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
 
   - name: "Lind"
     anchor: "lind"
-    image:
+    image: "img/projects/lind_diagram.jpg"
     status: *stealth
     site:
     description: "Despite the best efforts of developers most operating system
@@ -478,3 +481,21 @@ Please read our blog to learn about our experiences."
       - "Security"
       - "Cryptography"
       - "Networking"
+
+  - name: "Virtual Secure Network (VSN)"
+    anchor: "vsn"
+    status: *retired
+    image: "img/projects/vsn_diagram.png"
+    site: "https://vsn.poly.edu"
+    description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
+    products: "The code for this project and all relevant documentation are  available on its <a href=\"https://vsn.poly.edu\">web site</a>."
+    experiences: "Note that this project is not currently being maintained.
+Please read our blog to learn about our experiences."
+    people:
+      - *sai_peddinti
+      - *trishank_kuppusamy
+      - *justin_cappos
+    tags:
+      - "Security"
+      - "Networking"
+      - "Privacy"

@@ -40,6 +40,9 @@ projects:
   - uppir: &uppir
       name: upPIR
       link: "projects#uppir"
+  - vsn:  &vsn
+      name: Virtual Secure Network
+      link: "https://vsn.poly.edu/projects/"
   - more: &more
       name: "[more]"
       link: "projects"
@@ -89,7 +92,7 @@ people:
         role: "Research Professor"
         since: "2011"
         photo: "img/people/albert_rafetseder.jpg"
-        interests: "Building experimental platforms for research, education, and the general public."
+        interests: "Building experimental platforms for research, education, and the general public"
         projects:
           - *seattle
           - *sensibility
@@ -106,7 +109,7 @@ people:
         role: "Research Professor"
         since: "2016"
         photo: "img/people/sam_weber.jpg"
-        interests: "Secure development processes, Cybersecurity."
+        interests: "Secure development processes, Cybersecurity"
         projects:
           - *atoms
           - *crashsimulator
@@ -143,7 +146,7 @@ people:
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
             link: "http://www.python.org/dev/peps/pep-0480/"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>,<a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>,<a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
 
       - name: "Sebastien Awwad"
         role: "Developer"
@@ -164,7 +167,7 @@ people:
         role: "Developer"
         since: "2016"
         photo: "img/people/lukas_puhringer.jpg"
-        interests: "Security in operating systems and full stack networking. Distributed software and version control systems."
+        interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
         projects:
           - *in-toto
           - *seattle
@@ -195,6 +198,7 @@ people:
         deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework based on LLVM. Its main goal is to parallel nested loops. It is used to compile programs where performance is important."
 
       - name: "Lois Anne DeLong"
+        anchor: lois_delong
         role: "Research Associate/Technical Writer"
         since: "2015"
         photo: "img/people/lois_delong.jpg"
@@ -211,6 +215,7 @@ people:
         role: "Fifth year Ph.D. Candidate"
         since: "2011"
         photo: "img/people/trishank_kuppusamy.jpg"
+        link: "http://https://github.com/trishankkarthik"
         interests: "Securing software updates for community repositories and automobiles"
         projects:
           - *tuf
@@ -226,13 +231,14 @@ people:
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
             - name: "ISBA 2015"
               link: "http://ieeexplore.ieee.org/document/7126366/"
-        deployments: "Lead efforts in the development of <a href=\"https://uptane.github.io/\">Uptane</a>, including researching, documenting, and gathering feedback from stakeholders. Worked on the development and implemenation of <a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. On-going integrations of TUF with <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>. Built experiments for <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>." 
+        deployments: "Lead efforts in the development of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on the development and implementation of <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with on-going integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>. Built experiments for <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>."
 
 
       - name: "Yiwen Li"
         role: "Third year Ph.D. Candidate"
         since: "2013"
         photo: "img/people/yiwen_li.jpg"
+        site: "http://engineering.nyu.edu/people/yiwen-li"
         interests: "Operating system security, virtualization, network security"
         projects:
             - *lind
@@ -259,7 +265,7 @@ people:
               link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, now in use in a number of operating systems. Also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
+        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, now in use in a number of operating systems. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
 
 
 
@@ -280,6 +286,7 @@ people:
         role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
         since: "2015"
         photo: "img/people/ghada_almashaqbeh.jpg"
+        site: "http://www.columbia.edu/~ghada"
         interests: "Cryptography, security, distributed computing"
         projects:
           - *cachecash
@@ -292,6 +299,7 @@ people:
 
 
       - name: "Preston Kent Moore"
+        anchor: preston_moore
         role: "Second year Ph.D. Student"
         since: "2015"
         photo: "img/people/preston_moore.jpg"
@@ -305,17 +313,17 @@ people:
         role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
         since: "2016"
         photo: "img/people/devon_powell.jpg"
+        site: "https://github.com/D-Pow?tab=repositories"
         interests: "Computer security, software engineering"
         projects:
           - *atoms
-        github: "https://github.com/D-Pow?tab=repositories"
 
 
       - name: "Rad Akefirad"
         role: "Ph.D. Student"
         since: "2015"
         photo: "img/people/rad_akefirad.jpg"
-        interests: "Software Engineering, Secure Software Design and Development, Distributed Systems, Microservices"
+        interests: "Software engineering, secure software design and development, distributed systems, microservices"
         projects:
             - *blindspots
 
@@ -328,22 +336,23 @@ people:
         role: "Ph.D. Student"
         since: "2016"
         photo: "img/people/yu_hu.jpg"
-        interests: "Side channel attack; Symbolic execution; Mobile sensor application"
+        interests: "Side channel attacks, symbolic execution, mobile sensor application"
         projects:
           - *sensibility
 
       - name: "Rohan Ketan Bhirangi"
+        anchor: "rohan_bhirangi"
         role: "Master's Student"
         since:
         photo: "img/people/rohan_bhirangi.jpg"
-        interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, machine learning"
+        interests: "Distributed systems, wireless sensor networks, internet of things, cloud infrastructure/computing, machine learning"
         projects:
           - *sensibility
           - *seattle
         publications:
           - name: "IJERT 2016"
             link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
-        deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate Sensibility-Seash process."
+        deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate the Sensibility-Seash process."
 
       - name: "Ajay Shenoy"
         role: "Master's Student"
@@ -359,7 +368,7 @@ people:
         role: "Master's Student"
         since: 2016
         photo: "img/people/deepankar_jaisia.jpg"
-        interests: "Protecting privacy in personal communications; Expanding skills in using Python"
+        interests: "Protecting privacy in personal communications, expanding skills in using Python"
         projects:
           - *seattle
           - name: "Repy V2"
@@ -374,15 +383,17 @@ people:
           - name: "IPv6 support to Repy V2"
 
       - name: "Shuyuan \"Lolaly\" Luo"
+        anchor: lolaly_luo
         role: "Undergradute Student"
         since:
         photo: "img/people/lolaly_luo.jpg"
-        interests: "Cyber security"
+        interests: "Cybersecurity"
         projects:
           - *pph
         deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
 
       - name: "Kejian \"Felix\" Wang"
+        anchor: kejian_wang
         role: "Research Intern"
         since:
         photo: "img/people/kejian_wang.jpg"
@@ -408,7 +419,8 @@ people:
         role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
         since: "2014"
         photo: "img/people/yanyan_zhuang.jpg"
-        interests: "Mobile systems, wireless networks, privacy and security."
+        site: "http://www.cs.uccs.edu/~yzhuang/"
+        interests: "Mobile systems, wireless networks, privacy and security"
         projects:
           - *sensibility
           - *netcheck
@@ -422,7 +434,7 @@ people:
             link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
           - name: "SIGCSE 2014"
             link: "http://dl.acm.org/citation.cfm?id=2538931"
-        deployments: "Sensibility Testbed"
+        deployments: Worked on development and application of <a href=\"Sensibility Testbed"
 
 
       - name: "Luqin Wang"
@@ -439,13 +451,13 @@ people:
             - name: "GLOBECOM 2015"
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
 
-
       - name: "Sai Teja Peddinti"
         role: "Ph.D. graduated in 2015 (co-advised by Keith Ross),
-        now a senior Research Scientist at Google"
+        now a Senior Research Scientist at Google"
         since: "2011"
-        photo: "img/people/smiley.jpg"
-        interests: "Privacy, Security, Social Networks, Machine Learning"
+        photo: "img/people/sai_peddinti.jpg"
+        site: "http://www.saitejapeddinti.com/"
+        interests: "Privacy, security, social networks, machine learning"
         projects:
               - name: "VSN-Virtual Secure Network"
                 link: "https://vsn.poly.edu/projects/project"
