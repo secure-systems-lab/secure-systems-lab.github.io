@@ -441,8 +441,8 @@ people:
 
 
       - name: "Sai Teja Peddinti"
-        role: "Ph.D. graduated in 2015 (co-advised by Keith Ross)
-        Currently senior Research Scientist at Google"
+        role: "Ph.D. graduated in 2015 (co-advised by Keith Ross),
+        now a senior Research Scientist at Google"
         since: "2011"
         photo: "img/people/smiley.jpg"
         interests: "Privacy, Security, Social Networks, Machine Learning"
