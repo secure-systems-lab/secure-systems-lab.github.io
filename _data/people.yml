@@ -452,6 +452,7 @@ people:
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
 
       - name: "Sai Teja Peddinti"
+        anchor: sai_peddinti
         role: "Ph.D. graduated in 2015 (co-advised by Keith Ross)
         Currently Senior Research Scientist at Google"
         since: "2011"
