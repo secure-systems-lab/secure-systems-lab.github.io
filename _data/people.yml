@@ -254,6 +254,7 @@ people:
         role: "Second year Ph.D. Candidate"
         since: "2014"
         photo: "img/people/santiago_torres.png"
+        site: "https://sangy.xyz"
         interests: "Password protection and securing the software supply chain"
         projects:
             - *pph
@@ -452,6 +453,7 @@ people:
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
 
       - name: "Sai Teja Peddinti"
+        anchor: sai_peddinti
         role: "Ph.D. graduated in 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
         since: "2011"
         photo: "img/people/sai_peddinti.jpg"
