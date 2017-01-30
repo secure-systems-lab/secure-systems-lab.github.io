@@ -233,7 +233,7 @@ on LLVM used by Airbus and other companies."
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
             - name: "ISBA 2015"
               link: "http://ieeexplore.ieee.org/document/7126366/"
-        deployments: "Lead efforts in the development of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on the development and implementation of <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with on-going integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>. Built experiments for <a href=\"https://github.com/trishankkarthik/multiblockpir\">MB-PIR</a>."
+        deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
 
 
       - name: "Yiwen Li"
@@ -268,7 +268,7 @@ on LLVM used by Airbus and other companies."
               link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes accepted into <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, now in use in a number of operating systems. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
+        deployments: "Security fixes related to <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
 
 
 
@@ -336,7 +336,7 @@ on LLVM used by Airbus and other companies."
     anchor: otherstudents
     people:
       - name: "Yu Hu"
-        role: "Ph.D. Student"
+        role: "Ph.D. Student (advised by Brendan Dolan-Gavitt)"
         since: "2016"
         photo: "img/people/yu_hu.jpg"
         interests: "Side channel attacks, symbolic execution, mobile sensor application"
@@ -393,7 +393,7 @@ on LLVM used by Airbus and other companies."
         interests: "Cybersecurity"
         projects:
           - *pph
-        deployments: "Pluggable Authentication Module (PAM) for PolyPasswordHasher"
+        deployments: "<a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">Pluggable Authentication Module (PAM)</a> for PolyPasswordHasher"
 
       - name: "Kejian \"Felix\" Wang"
         anchor: kejian_wang
