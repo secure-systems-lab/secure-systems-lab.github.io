@@ -146,7 +146,7 @@ people:
             link: "https://www.python.org/dev/peps/pep-0458/"
           - name: "PEP 480"
             link: "http://www.python.org/dev/peps/pep-0480/"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>,<a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
 
       - name: "Sebastien Awwad"
         role: "Developer"
@@ -195,7 +195,9 @@ people:
             link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
           - name: "RAS 2015"
             link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework based on LLVM. Its main goal is to parallel nested loops. It is used to compile programs where performance is important."
+        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic 
+speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework based 
+on LLVM used by Airbus and other companies."
 
       - name: "Lois Anne DeLong"
         anchor: lois_delong

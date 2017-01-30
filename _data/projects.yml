@@ -100,9 +100,11 @@ people:
   - sai_peddinti: &sai_peddinti
       name: Sai Teja Peddinti
       link: "people#sai_peddinti"
+      internal: true
   - preston_moore: &preston_moore
       name: "Preston Kent Moore"
       link: "people#preston_moore"
+      internal: true
 
 
 intro: "Though all of SSL’s research initiatives—past and present—revolve
