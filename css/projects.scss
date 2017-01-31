@@ -17,6 +17,10 @@ li a.selected {
 }
 
 .project {
+    &:first-child {
+      margin-top: 2em;
+    }
+
     margin-top: 4em;
 
     h3 {
