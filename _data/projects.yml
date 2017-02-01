@@ -100,15 +100,20 @@ people:
   - sai_peddinti: &sai_peddinti
       name: Sai Teja Peddinti
       link: "people#sai_peddinti"
+      internal: true
   - preston_moore: &preston_moore
       name: "Preston Kent Moore"
       link: "people#preston_moore"
   - dan_gopstein: &dan_gopstein
       name: "Dan Gopstein"
       link: "people#dan_gopstein"
+      internal: true
   - jake_iannacone: &jake_iannacone
       name: "Jake Iannacone"
-      link: "people#jake_iannacone"      
+      link: "people#jake_iannacone"
+      internal: true
+
+
 
 intro: "Though all of SSL’s research initiatives—past and present—revolve
 around ensuring secure operation of computer systems, the specific areas
