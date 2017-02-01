@@ -19,8 +19,8 @@ people:
       internal: true
   - yanyan_zhuang: &yanyan_zhuang
       name: "Yanyan Zhuang"
-      link: "http://www.cs.uccs.edu/~yzhuang/"
-      internal: false
+      link: "people#yanyan_zhuang"
+      internal: true
   - yu_hu: &yu_hu
       name: "Yu Hu"
       link: "people#yu_hu"
@@ -104,6 +104,14 @@ people:
   - preston_moore: &preston_moore
       name: "Preston Kent Moore"
       link: "people#preston_moore"
+      internal: true
+  - dan_gopstein: &dan_gopstein
+      name: "Dan Gopstein"
+      link: "people#dan_gopstein"
+      internal: true
+  - jake_iannacone: &jake_iannacone
+      name: "Jake Iannacone"
+      link: "people#jake_iannacone"
       internal: true
 
 
@@ -267,7 +275,7 @@ approach to prevent attackers from finding out which passwords are being used. B
 passwords in sets. This increases the attackers’ level of difficulty, making a
 PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>,<a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
+    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
     people:
       - *santiago_torres
       - *lolaly_luo
@@ -282,7 +290,7 @@ with millions of computers."
     image: "img/projects/in-toto_diagram.png"
     status: *starting
     site: "https://in-toto.io"
-    description: "Do you know who has handled your software prior to its installation on your machine? While most developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about the chain itself. As such, in-toto provides documentation that ensures clear accountability as to how software is written, packaged and distributed...and by who."
+    description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
     products: "We welcome you to download the in-toto
     instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
     <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
@@ -324,9 +332,9 @@ We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">stud
 openly available so that other researchers can replicate, validate, and
 build on our findings."
     people:
-      - name: Dan Gopstein
+      - *dan_gopstein
       - *devon_powell
-      - name: Jake Iannacone
+      - *jake_iannacone
       - *lois_delong
       - *sam_weber
       - name: Phyllis Frankl
@@ -452,14 +460,20 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
   - name: "NetCheck"
     anchor: "netcheck"
     status: *retired
-    image: "img/projects/netcheck_digram.png"
+    image: "img/projects/netcheck_diagram.png"
     site: "https://netcheck.poly.edu/"
     description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-    products: "Code for the <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck tool</a> and all relevant documentation remain available on the NetCheck web site."
+    products: "We found a networking bug in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our blog (coming soon) first to learn about our experiences."
     experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
       - *yanyan_zhuang
+      - name: "Eleni Gessiou" 
+      - name: "Steven Portzer" 
+      - name: "Fraida Fund" 
+      - name: "Monzur Muhammad"
+      - name: "Ivan Beschastnikh (UBC)"
+        link: "https://www.cs.ubc.ca/~bestchai/"
       - *justin_cappos
     tags:
       - "Software Engineering"
@@ -490,12 +504,16 @@ Please read our blog to learn about our experiences."
     image: "img/projects/vsn_diagram.png"
     site: "https://vsn.poly.edu"
     description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
-    products: "The code for this project and all relevant documentation are  available on its <a href=\"https://vsn.poly.edu\">web site</a>."
+    products: "This <a href=\"https://www.google.com/patents/US9246929\">patented technique</A> and its source code are available on the project <a href=\"https://vsn.poly.edu\">web site</a>."
     experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
     people:
       - *sai_peddinti
       - *trishank_kuppusamy
+      - name: "Keith Ross"
+        link: "http://engineering.nyu.edu/people/keith-w-ross"
+      - name: "Nasir Memon" 
+        link: "http://engineering.nyu.edu/people/nasir-memon"
       - *justin_cappos
     tags:
       - "Security"

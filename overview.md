@@ -15,13 +15,13 @@ designs that [detect](projects#crashsimulator) and
 [private data](projects#sensibility),
 provide a [secure mechanism](projects#tuf) for fixing software flaws in
 [different contexts](projects#uptane), and even foster a deeper
-understanding about how to avoid [security](projects#atoms)
-[flaws](projects#blindspots) in the first place.
+understanding about how to help programmers avoid 
+[security](projects#blindspots) [flaws](projects#atoms) in the first place.
 
 We focus on deploying our solutions in practice to maximize the impact
 of our work.  In addition to the software we
 [distribute](projects#seattle),
-technology developed by the lab is being utilized in a
+our technology is used in a
 variety of popular products including [Docker](https://www.docker.com/),
 [git](https://git-scm.com/), and the package managers for most [Linux
 distributions](https://en.wikipedia.org/wiki/Linux).

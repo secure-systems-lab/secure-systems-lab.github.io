@@ -275,7 +275,7 @@ on LLVM used by Airbus and other companies."
       - name: "Dan Gopstein"
         role: "Ph.D. Student (co-advised with Andy Nealen)"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/dan_gopstein.jpg"
         interests: "Programming languages and software systems"
         projects:
           - *atoms
@@ -289,7 +289,7 @@ on LLVM used by Airbus and other companies."
         role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
         since: "2015"
         photo: "img/people/ghada_almashaqbeh.jpg"
-        site: "http://www.columbia.edu/~ghada"
+        site: "http://www.cs.columbia.edu/~ghada/"
         interests: "Cryptography, security, distributed computing"
         projects:
           - *cachecash
@@ -410,7 +410,7 @@ on LLVM used by Airbus and other companies."
       - name: "Jake Iannacone"
         role: "High School Student"
         since:
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/jake_iannacone.jpg"
         interests: "Building secure software, protecting against unsafe software"
         projects:
           - *atoms
@@ -437,7 +437,7 @@ on LLVM used by Airbus and other companies."
             link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
           - name: "SIGCSE 2014"
             link: "http://dl.acm.org/citation.cfm?id=2538931"
-        deployments: Worked on development and application of <a href=\"Sensibility Testbed"
+        deployments: Worked on development and application of <a href=\"https://sensibilitytestbed.com\">Sensibility Testbed</a>
 
 
       - name: "Luqin Wang"
@@ -473,5 +473,5 @@ on LLVM used by Airbus and other companies."
                 link: "http://dl.acm.org/citation.cfm?id=2666625"
               - name: "S&P 2014"
                 link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
-              - name: "U.S. Patent"
+              - name: "U.S. Patent 9246929"
                 link: "https://www.google.com/patents/US9246929"
