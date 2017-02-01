@@ -104,6 +104,7 @@ people:
   - preston_moore: &preston_moore
       name: "Preston Kent Moore"
       link: "people#preston_moore"
+      internal: true
   - dan_gopstein: &dan_gopstein
       name: "Dan Gopstein"
       link: "people#dan_gopstein"
@@ -112,7 +113,6 @@ people:
       name: "Jake Iannacone"
       link: "people#jake_iannacone"
       internal: true
-
 
 
 intro: "Though all of SSL’s research initiatives—past and present—revolve
