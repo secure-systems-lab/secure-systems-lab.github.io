@@ -104,7 +104,15 @@ people:
   - preston_moore: &preston_moore
       name: "Preston Kent Moore"
       link: "people#preston_moore"
+  - dan_gopstein: &dan_gopstein
+      name: "Dan Gopstein"
+      link: "people#dan_gopstein"
       internal: true
+  - jake_iannacone: &jake_iannacone
+      name: "Jake Iannacone"
+      link: "people#jake_iannacone"
+      internal: true
+
 
 
 intro: "Though all of SSL’s research initiatives—past and present—revolve
@@ -324,9 +332,9 @@ We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">stud
 openly available so that other researchers can replicate, validate, and
 build on our findings."
     people:
-      - name: Dan Gopstein
+      - *dan_gopstein
       - *devon_powell
-      - name: Jake Iannacone
+      - *jake_iannacone
       - *lois_delong
       - *sam_weber
       - name: Phyllis Frankl

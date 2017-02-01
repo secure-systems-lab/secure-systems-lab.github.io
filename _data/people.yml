@@ -275,7 +275,7 @@ on LLVM used by Airbus and other companies."
       - name: "Dan Gopstein"
         role: "Ph.D. Student (co-advised with Andy Nealen)"
         since: "2015"
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/dan_gopstein.jpg"
         interests: "Programming languages and software systems"
         projects:
           - *atoms
@@ -289,7 +289,7 @@ on LLVM used by Airbus and other companies."
         role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
         since: "2015"
         photo: "img/people/ghada_almashaqbeh.jpg"
-        site: "http://www.columbia.edu/~ghada"
+        site: "http://www.cs.columbia.edu/~ghada/"
         interests: "Cryptography, security, distributed computing"
         projects:
           - *cachecash
@@ -410,7 +410,7 @@ on LLVM used by Airbus and other companies."
       - name: "Jake Iannacone"
         role: "High School Student"
         since:
-        photo: "img/people/smiley.jpg"
+        photo: "img/people/jake_iannacone.jpg"
         interests: "Building secure software, protecting against unsafe software"
         projects:
           - *atoms
