@@ -1,0 +1,20 @@
+intro: "Selected, recent press appearences by the Secure Systems Lab"
+
+presses:
+  - name:  "USENIX Security 2016"
+    title: "On omitting commits and committing omissions"
+    link:  "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
+    abstract: "A Paper about commits and committing things"
+    authors:
+      - name: Santiago Torres-Arias
+      - name: Anil Kumar Ammula
+      - name: Reza Curtmola
+      - name: Justin Cappos
+  - name: "NSDI 2016"
+    title: "Diplomat: Using Delegations to Protect Community Repositories"
+    link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
+    authors:
+      - name: Trishank Karthik Kuppusamy
+      - name: Santiago Torres-Arias
+      - name: Vladimir Diaz
+      - name: Justin Cappos

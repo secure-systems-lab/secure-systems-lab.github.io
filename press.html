@@ -1,0 +1,60 @@
+---
+title: Press
+subnav: press
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}css/press.css"></link>
+
+<div class="intro">{{ site.data.press.intro }}</div>
+
+<div class="presses">
+
+{% for press in site.data.press.presses %}
+  <div class="press">
+    <a name="{{ press.name }}"></a>
+  
+    <div class="title"> {{ press.title }} </div>
+    {% if press.authors %}
+      {% assign authorNames = '' | split:':' %}
+      {% for author in press.authors %}
+        {% assign authorNames = authorNames | push: author.name %}
+      {% endfor %}
+      <div class="authors">{{ authorNames | join: ', ' }}</div>
+    {% endif %}
+    {% if press.abstract %}
+      <div class="showAbstract"> <a href="javascript:void(0);">(description+)</a> </div>
+    {% endif %}
+    {% if press.link %}
+      <div class="link">
+        <a href="{{ press.link }}">(link)</a>
+      </div>
+    {% endif %}
+    {% if press.abstract %}
+      <div class="abstract hidden"><p>
+        {{ press.abstract }}
+      </p></div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
+<script>
+  function toggleAbstract(i){
+    var abstract = document.getElementsByClassName("abstract")[i];
+
+    if (abstract.classList.contains("hidden")) {
+      abstract.classList.remove("hidden");
+      abstract.classList.add("shown");
+    } else {
+      abstract.classList.remove("shown");
+      abstract.classList.add("hidden");
+    }
+  }
+  var links = document.getElementsByClassName('showAbstract');
+  for (var i = 0; i < links.length; i++) {
+    // since javascript won't close over i, pass it as a parameter to an anonymous function
+    // http://stackoverflow.com/questions/8214753/access-a-copied-integer-variable-in-javascript-anonymous-method
+    links[i].addEventListener('click', (function(j) { return function() { toggleAbstract(j); }})(i) );
+  }
+</script>

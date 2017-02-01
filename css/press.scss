@@ -1,0 +1,31 @@
+---
+---
+
+@import 'variables';
+
+.presses {
+}
+
+.press {
+    margin-top: 1em;
+    .title {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .link {
+        display: inline;
+    }
+
+    .showAbstract {
+        display: inline;
+    }
+
+    .hidden {
+	display: none;
+    }
+
+    .shown {
+	display: block;
+    }
+}
