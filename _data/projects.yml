@@ -3,8 +3,8 @@ statuses:
       name: "Stealth Mode"
       description: "Shhhh.  We're still figuring things out internally."
   - starting: &starting
-      name: Starting
-      description: "Early adopters wanted!"
+      name: Sprouting
+      description: "We're ready for use.  Early adopters wanted!"
   - adopted: &adopted
       name: Adopted
       description: "Many people are using this.  Join them!"
@@ -15,7 +15,7 @@ statuses:
 people:
   - justin_cappos: &justin_cappos
       name: "Justin Cappos"
-      link: "http://isis.poly.edu/~jcappos"
+      link: "/personalpages/jcappos"
       internal: true
   - yanyan_zhuang: &yanyan_zhuang
       name: "Yanyan Zhuang"
@@ -294,7 +294,7 @@ with millions of computers."
     products: "We welcome you to download the in-toto
     instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
     <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
-    directions to integrate in-toto into your software project! The program was recently used to address a number of security issues in the design of <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf/\">git</a> that we discovered in the course of developing this work. The fixes to many of those issues were
+    directions to integrate in-toto into your software project! The program was recently used to address a number of security issues in the design of <a href=\"/papers/torres_toto_usenixsec-2016.pdf/\">git</a> that we discovered in the course of developing this work. The fixes to many of those issues were
     included in production as of
     <a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>"
     people:

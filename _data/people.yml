@@ -59,7 +59,7 @@ people:
         role: "Professor and Lab Director"
         since: 2010
         photo: "img/people/justin_cappos.jpg"
-        site: "https://isis.poly.edu/~jcappos/"
+        site: "personalpages/jcappos/"
         interests: "Solving real world security problems in practice"
         projects:
           - *seattle
@@ -73,20 +73,20 @@ people:
           - *more
         publications:
           - name: "USENIX Security 2016"
-            link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
+            link: "/papers/torres_toto_usenixsec-2016.pdf"
           - name: "NSDI 2016"
-            link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
+            link: "/papers/kuppusamy_nsdi_16.pdf"
           - name: "USENIX ATC 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
+            link: "/papers/li-usenix-fence-2015.pdf"
           - name: "USENIX ATC 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/martins-atc15-camera.pdf"
+            link: "/papers/martins-atc15-camera.pdf"
           - name: "SIGCSE 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/hooshangi_sigcse15.pdf"
+            link: "/papers/hooshangi_sigcse15.pdf"
           - name: "NSDI 2014"
-            link: "http://isis.poly.edu/~jcappos/papers/zhuang_netcheck_nsdi_14.pdf"
+            link: "/papers/zhuang_netcheck_nsdi_14.pdf"
           - name: "[more]"
-            link: "https://isis.poly.edu/~jcappos/publications.php"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"http://isis.poly.edu/~jcappos/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+            link: "/personalpages/jcappos/publications.htm"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
 
       - name: "Albert Rafetseder"
         role: "Research Professor"
@@ -98,11 +98,11 @@ people:
           - *sensibility
         publications:
           - name: "login 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/zhuang_sensibility_login_2015.pdf"
+            link: "/papers/zhuang_sensibility_login_2015.pdf"
           - name: "GREE 2013"
-            link: "http://isis.poly.edu/~jcappos/papers/zhuang_seattle_gree_13.pdf"
+            link: "/papers/zhuang_seattle_gree_13.pdf"
           - name: "USENIX ATC 2015 (Fence)"
-            link: "http://isis.poly.edu/~jcappos/papers/li-usenix-fence-2015.pdf"
+            link: "/papers/li-usenix-fence-2015.pdf"
         deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
 
       - name: "Sam Weber"
@@ -137,7 +137,7 @@ people:
         interests: "Software update security"
         projects:
           - *tuf
-          - name: "TUF extensions (<a href=\"http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+          - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
           - *uptane
         publications:
           - name: "NSDI 16"
@@ -160,7 +160,7 @@ people:
           - *seattle
         publications:
           - name: "escar 2016"
-            link: "https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf"
+            link: "/papers/kuppusamy_escar_16.pdf"
         deployments: "Uptane reference implementation, TUF modifications, Python dependency resolver"
 
       - name: "Lukas Pühringer"
@@ -174,7 +174,7 @@ people:
           - *sensibility
         publications:
           - name: "PIK 2013"
-            link: "https://isis.poly.edu/~jcappos/papers/rafetseder_sensorium_netsys_13.pdf"
+            link: "/papers/rafetseder_sensorium_netsys_13.pdf"
           - name: "TryRepy Wiki"
             link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
         deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed"
@@ -221,14 +221,14 @@ on LLVM used by Airbus and other companies."
         interests: "Securing software updates for community repositories and automobiles"
         projects:
           - *tuf
-          - name: "TUF extensions (<a href=\"http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+          - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
           - *uptane
           - *uppir
         publications:
             - name: "escar 2016"
-              link: "https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf"
+              link: "/papers/kuppusamy_escar_16.pdf"
             - name: "NSDI 2016"
-              link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
+              link: "/papers/kuppusamy_nsdi_16.pdf"
             - name: "GLOBECOM 2015"
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
             - name: "ISBA 2015"
@@ -263,12 +263,12 @@ on LLVM used by Airbus and other companies."
             - *in-toto
         publications:
             - name: "NSDI 2016"
-              link: "http://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf"
+              link: "/papers/kuppusamy_nsdi_16.pdf"
             - name: "USENIX Security 2016"
-              link: "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
+              link: "/papers/torres_toto_usenixsec-2016.pdf"
             - name: "CyberTalks 2016"
               link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes related to <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
+        deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
 
 
 
@@ -298,7 +298,6 @@ on LLVM used by Airbus and other companies."
             link: "http://www.cse.nd.edu/~mblanton/papers/midm15.pdf"
           - name: "arXiv.org"
             link: "https://arxiv.org/pdf/1509.01763v2.pdf"
-        deployments: "CacheCash reference implementation"
 
 
       - name: "Preston Kent Moore"
@@ -430,7 +429,7 @@ on LLVM used by Airbus and other companies."
           - *atoms
         publications:
           - name: "TrustCom 2015"
-            link: "http://isis.poly.edu/~jcappos/papers/weiss_trustcom2015.pdf"
+            link: "/papers/weiss_trustcom2015.pdf"
           - name: "ACSAC 2014"
             link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
           - name: "NSDI 2014"

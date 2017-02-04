@@ -6,7 +6,7 @@ layout: default
 Computers are a pervasive and powerful part of our everyday lives.  Unfortunately, due to poor security design, they often also present substantial risk to our privacy and safety.
 
 The Secure Systems Laboratory (SSL) at New York University, under the
-direction of Professor [Justin Cappos](https://isis.poly.edu/~jcappos/), works
+direction of Professor [Justin Cappos](personalpages/jcappos/), works
 to find practical and
 deployable solutions to real-world security threats.   Over the past few
 years, the lab has developed products and improved on existing system
