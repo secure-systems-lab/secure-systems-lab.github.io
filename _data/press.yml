@@ -1,31 +1,36 @@
+projects:
+  - uptane: &uptane
+      name: Uptane
+      link: "https://uptane.github.io/"
+
 intro: "Selected, recent press appearences by the Secure Systems Lab"
 
 presses:
   - title:  "How Uptane Can Protect Your Car From Hackers"
     link:  "https://www.facebook.com/Reuters/videos/1364617036891982/"
     type: video
-    project: uptane
+    project: *uptane
     source: "Reuters (via Facebook Live)"
     date: "January 2017"
 
   - title: "A Future Car May Be Protected From Hacking By Software Developed In San Antonio"
     link: "http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0"
     type: audio
-    project: uptane
+    project: *uptane
     source: "Texas Public Radio"
     date: "January 2017"
 
   - title: "Automotive ECU Updates: Keeping the Hackers Out"
     link: "http://www.eetimes.com/document.asp?doc_id=1331232"
     type: article
-    project: uptane
+    project: *uptane
     source: "EE Times"
     date: "January 2017"
 
   - title: "Framework open source de cibersegurança para indústria automotiva é criado"
     link: "http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/?trace=824205206&amp;source=news-home"
     type: article-foreign
-    project: uptane
+    project: *uptane
     source: "iMasters"
     date: "January 2017"
 

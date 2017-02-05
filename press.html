@@ -13,48 +13,23 @@ layout: default
 {% for press in site.data.press.presses %}
   <div class="press">
     <a name="{{ press.name }}"></a>
-  
-    <div class="title"> {{ press.title }} </div>
-    {% if press.authors %}
-      {% assign authorNames = '' | split:':' %}
-      {% for author in press.authors %}
-        {% assign authorNames = authorNames | push: author.name %}
-      {% endfor %}
-      <div class="authors">{{ authorNames | join: ', ' }}</div>
-    {% endif %}
-    {% if press.abstract %}
-      <div class="showAbstract"> <a href="javascript:void(0);">(description+)</a> </div>
+    <span class="title">"{{ press.title }}"</span>
+    {% if press.project %}
+      <span class="project">
+        (Coverage of <a href="{{ press.project.link }}">{{ press.project.name }}</a>)
+      </span>
     {% endif %}
     {% if press.link %}
-      <div class="link">
-        <a href="{{ press.link }}">(link)</a>
-      </div>
+      {% if press.type %}
+        <div class="link">
+          <a href="{{ press.link }}">{{ press.type }}</a>
+        </div>
+      {% endif %}
     {% endif %}
-    {% if press.abstract %}
-      <div class="abstract hidden"><p>
-        {{ press.abstract }}
-      </p></div>
-    {% endif %}
+    <div class="small-info">
+      <span class="source"> {{ press.source }}</span>,
+      <span class="date"> {{ press.date }} </span>.
+    </div>
   </div>
 {% endfor %}
 </div>
-
-<script>
-  function toggleAbstract(i){
-    var abstract = document.getElementsByClassName("abstract")[i];
-
-    if (abstract.classList.contains("hidden")) {
-      abstract.classList.remove("hidden");
-      abstract.classList.add("shown");
-    } else {
-      abstract.classList.remove("shown");
-      abstract.classList.add("hidden");
-    }
-  }
-  var links = document.getElementsByClassName('showAbstract');
-  for (var i = 0; i < links.length; i++) {
-    // since javascript won't close over i, pass it as a parameter to an anonymous function
-    // http://stackoverflow.com/questions/8214753/access-a-copied-integer-variable-in-javascript-anonymous-method
-    links[i].addEventListener('click', (function(j) { return function() { toggleAbstract(j); }})(i) );
-  }
-</script>
