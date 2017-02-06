@@ -12,9 +12,6 @@ layout: default
 
 <div class="publications">
 
-{% bibliography --file publications --template publication --style _bibliography/apa-bold-conference.csl %}
-
-{% comment %}
 {% for pub in site.data.publications.publications %}
   <div class="publication">
     <a name="{{ pub.name }}"></a>
@@ -26,6 +23,9 @@ layout: default
         {% assign authorNames = authorNames | push: author.name %}
       {% endfor %}
       <div class="authors">{{ authorNames | join: ', ' }}</div>
+    {% endif %}
+    {% if pub.venue %}
+      <div class="venue">{{ pub.venue }}</div>
     {% endif %}
     {% if pub.abstract %}
       <div class="showAbstract"> <a href="javascript:void(0);">(abstract+)</a> </div>
@@ -43,7 +43,6 @@ layout: default
   </div>
 {% endfor %}
 </div>
-{% endcomment %}
 
 <script>
   function toggleAbstract(i){

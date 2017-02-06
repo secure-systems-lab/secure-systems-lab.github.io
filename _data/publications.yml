@@ -1,6 +1,36 @@
 intro: "Selected, recent papers from the Secure Systems Lab"
 
 publications:
+  - title: "Uptane: Securing Software Updates for Automobiles"
+    authors:
+      - name: "Karthik, Trishank and Brown, Akan and Awwad, Sebastien and McCoy, Damon and Bielawski, Russ and Mott, Cameron and Lauzon, Sam and Weimerskirch, Andr{\'e} and Cappos, Justin"
+    venue: ESCAR 2016
+    link: "https://isis.poly.edu/%7Ejcappos/papers/kuppusamy_escar_16.pdf"
+    abstract: "Software update systems for automobiles can deliver significant
+benefits, but, if not implemented carefully, they could potentially
+incur serious security vulnerabilities. Previous solutions for securing
+software updates consider standard attacks and deploy widely
+understood security mechanisms, such as digital signatures for the
+software updates, and hardware security modules (HSM) to sign
+software updates. However, no existing solution considers more
+advanced security objectives, such as resilience against a repository
+compromise, or freeze attacks to the vehicle’s update mechanism,
+or a compromise at a supplier’s site. Solutions developed
+for the PC world do not generalize to automobiles for two reasons:
+first, they do not solve problems that are unique to the automotive
+industry (e.g., that there are many different types of computers
+to be updated on a vehicle), and second, they do not address
+security attacks that can cause a vehicle to fail (e.g. a man-in-the-middle
+attack without compromising any signing key) or that can
+cause a vehicle to become unsafe. In this paper, we present Uptane,
+the first software update framework for automobiles that counters
+a comprehensive array of security attacks, and is resilient to partial
+compromises. Uptane adds strategic features to the state-of-the-art
+software update framework, TUF, in order to address automotivespecific
+vulnerabilities and limitations. Uptane is flexible and easy
+to adopt, and its design details were developed together with the
+main automotive industry stakeholders in the USA."
+
   - name:  "USENIX Security 2016"
     title: "On omitting commits and committing omissions"
     link:  "http://isis.poly.edu/~jcappos/papers/torres_toto_usenixsec-2016.pdf"
