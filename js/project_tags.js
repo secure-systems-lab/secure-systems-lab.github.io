@@ -1,5 +1,6 @@
 ---
 ---
+
 // Populate a master hash with the mapping of tag_name=>project_name
 tags = {};
 {% for project in site.data.projects.projects %}

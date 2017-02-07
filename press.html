@@ -8,11 +8,14 @@ layout: default
 
 <div class="intro">{{ site.data.press.intro }}</div>
 
+<ul class="toc" id="tags-toc"></ul>
+
 <div class="presses">
 
 {% for press in site.data.press.presses %}
   <div class="press-block">
-    <a name="{{ press.name }}"></a>
+    <a name="{{ press.anchor }}"></a>
+
     <span class="title">"{{ press.title }}"</span>
     {% if press.project %}
       <span class="project">
@@ -33,3 +36,7 @@ layout: default
   </div>
 {% endfor %}
 </div>
+
+<div id="action-flash" class="fade-out"></div>
+
+<script src="{{ site.baseurl }}js/press_tags.js"></script>
