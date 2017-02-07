@@ -19,7 +19,7 @@ for (var tag in tags) {
     var link = document.createElement('a');
     var X = document.createElement('a');
     link.setAttribute("name", tag)
-    link.appendChild(document.createTextNode(tag));
+    link.appendChild(document.createTextNode(tagPrettyName[tag]));
     entry.appendChild(link);
     list.appendChild(entry);
     X.appendChild(document.createTextNode(' \u00D7'));

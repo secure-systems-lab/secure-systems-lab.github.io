@@ -19,10 +19,10 @@ layout: default
        <h3> {{ project.name | size_upcase }} </h3>
          <div class="link-list">
            <div class="press-link">
-             <a href="/press?filter={{ project.name }}">(press)</a>
+             <a href="/press?filter={{ project.anchor }}">(press)</a>
 	   </div>
            <div class="pubs-link">
-             <a href="/publications?filter={{ project.name }}">(publications)</a>
+             <a href="/publications?filter={{ project.anchor }}">(publications)</a>
 	   </div>
            <div class="web-link">
              {% if project.site %}
@@ -38,7 +38,7 @@ layout: default
     </div>
     {% if project.tags %}
       <div class="tags">
-        {{ project.tags | array_to_sentence_string }}
+        {{ project.tags | map: 'name' | array_to_sentence_string }}
       </div>
     {% endif %}
 

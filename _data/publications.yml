@@ -1,9 +1,11 @@
 projects:
   - uptane: &uptane
       name: Uptane
+      anchor: uptane
       link: "https://uptane.github.io/"
   - tuf: &tuf
       name: TUF
+      anchor: tuf
       link: "https://tuf.github.io/"
 
 intro: "Selected, recent papers from the Secure Systems Lab"

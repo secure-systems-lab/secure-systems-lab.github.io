@@ -1,3 +1,11 @@
+tagPrettyName = {};
+function mapTagToPrettyName(tag, prettyName) {
+    if (!tagPrettyName[tag] && tag != "") {
+        tagPrettyName[tag] = prettyName;
+    }
+}
+
+tags = {};
 function mapTagToAnchor(tag, anchor) {
     if (tag != "") {
         (tags[tag] = (tags[tag] || [])).push(anchor);
