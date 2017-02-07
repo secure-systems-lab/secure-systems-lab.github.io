@@ -14,7 +14,7 @@ statuses:
 
 tags:
   - software_updates: &software_updates
-      name: "Softare Updates"
+      name: "Software Updates"
       anchor: software_updates
   - security: &security
       name: "Security"

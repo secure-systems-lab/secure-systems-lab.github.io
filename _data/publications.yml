@@ -17,7 +17,7 @@ publications:
     project: *uptane
     anchor: securing-software-updates
     booktitle: "ESCAR 2016"
-    link: "https://isis.poly.edu/%7Ejcappos/papers/kuppusamy_escar_16.pdf"
+    link: "/papers/kuppusamy_escar_16.pdf"
     abstract: "Software update systems for automobiles can deliver significant
 benefits, but, if not implemented carefully, they could potentially
 incur serious security vulnerabilities. Previous solutions for securing
