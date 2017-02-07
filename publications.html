@@ -8,11 +8,13 @@ layout: default
 
 <div class="intro">{{ site.data.publications.intro }}</div>
 
+<ul class="toc" id="tags-toc"></ul>
+
 <div class="publications">
 
 {% for pub in site.data.publications.publications %}
   <div class="publication">
-    <a name="{{ pub.name }}"></a>
+    <a name="{{ pub.anchor }}"></a>
   
     <div class="title"> {{ pub.title }} </div>
     {% if pub.authors %}
@@ -63,3 +65,7 @@ layout: default
     links[i].addEventListener('click', (function(j) { return function() { toggleAbstract(j); }})(i) );
   }
 </script>
+
+<div id="action-flash" class="fade-out"></div>
+
+<script src="{{ site.baseurl }}js/publication_tags.js"></script>

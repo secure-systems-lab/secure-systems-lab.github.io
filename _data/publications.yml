@@ -1,9 +1,19 @@
+projects:
+  - uptane: &uptane
+      name: Uptane
+      link: "https://uptane.github.io/"
+  - tuf: &tuf
+      name: TUF
+      link: "https://tuf.github.io/"
+
 intro: "Selected, recent papers from the Secure Systems Lab"
 
 publications:
   - title: "Uptane: Securing Software Updates for Automobiles"
     authors: 
       - name: "Karthik, Trishank and Brown, Akan and Awwad, Sebastien and McCoy, Damon and Bielawski, Russ and Mott, Cameron and Lauzon, Sam and Weimerskirch, Andr{\'e} and Cappos, Justin"
+    project: *uptane
+    anchor: securing-software-updates
     booktitle: "ESCAR 2016"
     link: "https://isis.poly.edu/%7Ejcappos/papers/kuppusamy_escar_16.pdf"
     abstract: "Software update systems for automobiles can deliver significant
@@ -34,6 +44,8 @@ main automotive industry stakeholders in the USA."
   - title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
     authors: 
       - name: "Torres-Arias, Santiago and Ammula, Anil Kumar and Curtmola, Reza and Cappos, J"
+    project: *tuf
+    anchor: omitting-commits
     booktitle: "25th USENIX Security Symposium, USENIX Security"
     volume: "16"
     pages: "10-12"
