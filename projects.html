@@ -17,11 +17,19 @@ layout: default
 
     <div class="title-bar">
        <h3> {{ project.name | size_upcase }} </h3>
-       {% if project.site %}
-         <div class="name-site">
-           <a href="{{ project.site }}">(website)</a>
-         </div>
-       {% endif %}
+         <div class="link-list">
+           <div class="press-link">
+             <a href="/press?filter={{ project.name }}">(press)</a>
+	   </div>
+           <div class="pubs-link">
+             <a href="/publications?filter={{ project.name }}">(publications)</a>
+	   </div>
+           <div class="web-link">
+             {% if project.site %}
+               <a href="{{ project.site }}">(website)</a>
+             {% endif %}
+           </div>
+	 </div>
        {% if project.status %}
          <span class="status tooltip-wrapper"> {{ project.status.name }}
            <div class="tooltip"> {{ project.status.description }} </div>

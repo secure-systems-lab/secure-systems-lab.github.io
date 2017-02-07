@@ -25,9 +25,13 @@
     h3 {
         display: inline;
     }
-    .name-site {
+
+    .link-list {
         font-size: 0.8rem;
-        display: inline;
+        display: inline-block;
+	div {
+          display: block;
+	}
     }
 
     .title-bar {

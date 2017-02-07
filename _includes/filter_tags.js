@@ -77,9 +77,9 @@ function filterTag(tag) {
     actionFlash();
 }
 
-// On page load see if there's a ?filter_tag=TAG query parameter
+// On page load see if there's a ?filter=TAG query parameter
 // If so, send a click-event to simulate someone click the tag selector
-var queryFilterTag = getParameterByName('filter_tag');
+var queryFilterTag = getParameterByName('filter');
 if (queryFilterTag) {
     var elem = document.querySelectorAll('[name="'+queryFilterTag+'"]')[0];
     eventFire(elem, 'click');
