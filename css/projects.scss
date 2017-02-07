@@ -2,6 +2,7 @@
 ---
 
 @import 'variables';
+@import 'filter_tags';
 
 .people a.internal {
     font-weight: bold;
@@ -16,11 +17,6 @@
 
 .hidden {
     display: none;
-}
-
-li a.selected {
-    font-weight: bold;
-    color: hsl(280, 100%, 75%);
 }
 
 .project {
@@ -70,13 +66,6 @@ li a.selected {
     ul .header {
         font-weight: bold;
         font-size: 1.2rem;
-    }
-}
-
-.removeTag {
-    color: black;
-    &:hover {
-        text-decoration: none;
     }
 }
 
