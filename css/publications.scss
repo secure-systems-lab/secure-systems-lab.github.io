@@ -2,12 +2,14 @@
 ---
 
 @import 'variables';
+@import 'filter_tags';
 
 .publications {
 }
 
 .publication {
     margin-top: 1em;
+    line-height: 1.5em;
     .title {
         display: inline;
         font-weight: bold;
@@ -27,5 +29,9 @@
 
     .shown {
 	display: block;
+    }
+
+    .booktitle {
+	font-style: italic;
     }
 }

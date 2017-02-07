@@ -8,8 +8,7 @@ layout: default
 
 <div class="intro">{{ site.data.projects.intro }}</div>
 
-<ul class="toc" id="tags-toc">
-</ul>
+<ul class="toc" id="tags-toc"></ul>
 
 <div class="projects">
   {% for project in site.data.projects.projects %}
@@ -18,11 +17,19 @@ layout: default
 
     <div class="title-bar">
        <h3> {{ project.name | size_upcase }} </h3>
-       {% if project.site %}
-         <div class="name-site">
-           <a href="{{ project.site }}">(website)</a>
-         </div>
-       {% endif %}
+         <div class="link-list">
+           <div class="press-link">
+             <a href="/press?filter={{ project.anchor }}">(press)</a>
+	   </div>
+           <div class="pubs-link">
+             <a href="/publications?filter={{ project.anchor }}">(publications)</a>
+	   </div>
+           <div class="web-link">
+             {% if project.site %}
+               <a href="{{ project.site }}">(website)</a>
+             {% endif %}
+           </div>
+	 </div>
        {% if project.status %}
          <span class="status tooltip-wrapper"> {{ project.status.name }}
            <div class="tooltip"> {{ project.status.description }} </div>
@@ -31,7 +38,7 @@ layout: default
     </div>
     {% if project.tags %}
       <div class="tags">
-        {{ project.tags | array_to_sentence_string }}
+        {{ project.tags | map: 'name' | array_to_sentence_string }}
       </div>
     {% endif %}
 

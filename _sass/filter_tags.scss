@@ -1,0 +1,15 @@
+li a.selected {
+    font-weight: bold;
+    color: hsl(280, 100%, 75%);
+}
+
+.removeTag {
+    color: black;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.hidden {
+    display: none;
+}

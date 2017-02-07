@@ -12,6 +12,38 @@ statuses:
       name: Retired
       description: "We learned what we can and not actively developing anymore."
 
+tags:
+  - software_updates: &software_updates
+      name: "Softare Updates"
+      anchor: software_updates
+  - security: &security
+      name: "Security"
+      anchor: security
+  - internet_of_things: &internet_of_things
+      name: "Internet of Things"
+      anchor: internet_of_things
+  - networking: &networking
+      name: "Networking"
+      anchor: networking
+  - testbeds: &testbeds
+      name: "Testbeds"
+      anchor: testbeds
+  - privacy: &privacy
+      name: "Privacy"
+      anchor: privacy
+  - cryptography: &cryptography
+      name: "Cryptography"
+      anchor: cryptography
+  - software_engingeering: &software_engingeering
+      name: "Software Engingeering"
+      anchor: software_engingeering
+  - systems: &systems
+      name: "Systems"
+      anchor: systems
+  - testing_tools: &testing_tools
+      name: "Testing Tools"
+      anchor: testing_tools
+
 people:
   - justin_cappos: &justin_cappos
       name: "Justin Cappos"
@@ -146,8 +178,8 @@ and users protection from a host of potential attacks."
       - *kejian_wang
       - *justin_cappos
     tags:
-      - "Software Updates"
-      - "Security"
+      - *software_updates
+      - *security
 
 
 
@@ -192,9 +224,9 @@ a <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
         link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
       - *justin_cappos
     tags:
-      - "Software Updates"
-      - "Security"
-      - "Internet of Things"
+      - *software_updates
+      - *security
+      - *internet_of_things
 
 
 
@@ -226,9 +258,9 @@ some computing power on their device for research purposes."
       - *ajay_shenoy
       - *justin_cappos
     tags:
-      - "Security"
-      - "Networking"
-      - "Testbeds"
+      - *security
+      - *networking
+      - *testbeds
 
 
 
@@ -256,10 +288,10 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our b
         link: "https://www.cs.rit.edu/people/faculty/lr"
       - *justin_cappos
     tags:
-      - "Testbeds"
-      - "Privacy"
-      - "Networking"
-      - "Internet of Things"
+      - *testbeds
+      - *privacy
+      - *networking
+      - *internet_of_things
 
 
 
@@ -281,8 +313,8 @@ with millions of computers."
       - *lolaly_luo
       - *justin_cappos
     tags:
-      - "Cryptography"
-      - "Security"
+      - *cryptography
+      - *security
 
 
   - name: "in-toto"
@@ -311,8 +343,8 @@ with millions of computers."
       - *justin_cappos
 
     tags:
-      - "Software Updates"
-      - "Security"
+      - *software_updates
+      - *security
 
 
   - name: "Atoms of Confusion"
@@ -345,7 +377,7 @@ build on our findings."
       - *yanyan_zhuang
       - *justin_cappos
     tags:
-      - "Software Engineering"
+      - *software_engineering
 
 
   - name: "CacheCash"
@@ -374,10 +406,10 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
         link: "http://www.cs.columbia.edu/~allison"
       - *justin_cappos
     tags:
-      - "Security"
-      - "Cryptography"
-      - "Systems"
-      - "Networking"
+      - *security
+      - *cryptography
+      - *systems
+      - *networking
 
 
 
@@ -406,8 +438,8 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
         link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
       - *sam_weber
     tags:
-      - "Security"
-      - "Systems"
+      - *security
+      - *systems
 
 
 
@@ -426,9 +458,9 @@ publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\
         link: "http://engineering.nyu.edu/people/phyllis-frankl"
       - *sam_weber
     tags:
-      - "Software Engineering"
-      - "Testing Tools"
-      - "Systems"
+      - *software_engineering
+      - *testing_tools
+      - *systems
 
 
   - name: "API Blindspots"
@@ -454,7 +486,7 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
         link: "https://people.cs.umass.edu/~brun/"
       - *yanyan_zhuang
     tags:
-      - "Software Engineering"
+      - *software_engineering
 
 
 
@@ -478,8 +510,8 @@ Please read our blog to learn about our experiences."
         link: "https://www.cs.ubc.ca/~bestchai/"
       - *justin_cappos
     tags:
-      - "Software Engineering"
-      - "Testing Tools"
+      - *software_engineering
+      - *testing_tools
 
 
   - name: "upPIR"
@@ -496,9 +528,9 @@ Please read our blog to learn about our experiences."
       - *trishank_kuppusamy
       - *justin_cappos
     tags:
-      - "Security"
-      - "Cryptography"
-      - "Networking"
+      - *security
+      - *cryptography
+      - *networking
 
   - name: "Virtual Secure Network (VSN)"
     anchor: "vsn"
@@ -518,6 +550,6 @@ Please read our blog to learn about our experiences."
         link: "http://engineering.nyu.edu/people/nasir-memon"
       - *justin_cappos
     tags:
-      - "Security"
-      - "Networking"
-      - "Privacy"
+      - *security
+      - *networking
+      - *privacy

@@ -1,5 +1,6 @@
 ---
 title: Collaborate
+subnav: collaborate
 layout: default
 ---
 

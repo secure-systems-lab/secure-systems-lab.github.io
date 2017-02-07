@@ -2,11 +2,9 @@
 ---
 
 @import 'variables';
+@import 'filter_tags';
 
-.presses {
-}
-
-.press {
+.press-block {
     margin-top: 1em;
     .title {
         display: inline;
