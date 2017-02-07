@@ -8,8 +8,6 @@ layout: default
 
 <div class="intro">{{ site.data.publications.intro }}</div>
 
-
-
 <div class="publications">
 
 {% for pub in site.data.publications.publications %}
@@ -24,9 +22,11 @@ layout: default
       {% endfor %}
       <div class="authors">{{ authorNames | join: ', ' }}</div>
     {% endif %}
-    {% if pub.venue %}
-      <div class="venue">{{ pub.venue }}</div>
-    {% endif %}
+    {% if pub.booktitle %} <div class="booktitle">{{ pub.booktitle }}</div> {% endif %}
+    <div class="address-year">
+      {% if pub.address %} <span class="address">{{ pub.address }}, </span> {% endif %}
+      {% if pub.year %} <span class="year">{{ pub.year }}</span> {% endif %}
+    </div>
     {% if pub.abstract %}
       <div class="showAbstract"> <a href="javascript:void(0);">(abstract+)</a> </div>
     {% endif %}
