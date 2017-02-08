@@ -5,6 +5,7 @@ module Jekyll
     attr_accessor :site, :context
     def read_data_file_with_inclusion(path)
         puts "\n\n !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n"
+        site = Jekyll.sites.last # If there are multiple sites this might be the wrong one
       #begin
         dir = File.dirname(path)
         filename = File.basename(path)
@@ -15,13 +16,9 @@ module Jekyll
           if contains_frontmatter?(content)
             scrubbed_content = without_frontmatter(content)
 
-            @site = Jekyll::Site.new(
-              Jekyll.configuration({
-                                     "source"      => '',
-                                     "destination" => '_site'}))
-            @context = Liquid::Context.new({}, {}, { :site => @site })
+            context = Liquid::Context.new({}, {}, { :site => site })
             template = Liquid::Template.parse(scrubbed_content)
-            rendered = template.render(@context, "foo" => 'abc')
+            rendered = template.render(context, "foo" => 'abc')
 
             puts "RENDERED:"
             puts rendered
