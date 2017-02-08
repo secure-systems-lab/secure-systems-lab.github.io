@@ -18,14 +18,22 @@ module Jekyll
 
             context = Liquid::Context.new({}, {}, { :site => site })
             template = Liquid::Template.parse(scrubbed_content)
-            rendered = template.render(context, "foo" => 'abc')
+            rendered = template.render(context)
 
             puts "RENDERED:"
             puts rendered
             puts"====="
             filename
+
+            Dir.mktmpdir do |dir|
+              tmppath = File.join(dir, filename)
+
+              File.write(tmppath, rendered)
+
+              read_data_file_without_liquid(tmppath)
+            end
           else
-            filename
+            read_data_file_without_liquid(path)
           end
       #rescue => e
       #  Jekyll.logger.warn "SSL-specific error reading file #{filename}: #{e.message}"
