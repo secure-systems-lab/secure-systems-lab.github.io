@@ -9,12 +9,12 @@ layout: default
 <div class="intro">{{ site.data.people.intro }}</div>
 
 <ul class="toc people-toc">
-{% for type in site.data.people.people %}
+{% for type in site.data.people.people_cards %}
   <li><a href="#{{ type.anchor }}">{{ type.type }}</a></li>
 {% endfor %}
 </ul>
 
-{% for type in site.data.people.people %}
+{% for type in site.data.people.people_cards %}
 <a name="{{ type.anchor }}">
   <h2 class="type">{{ type.type }}</h2>
 </a>
@@ -52,7 +52,7 @@ layout: default
             <span class="header">Projects</span>
             {% assign pubLinks = '' | split:':' %}
             {% for project in person.projects %}
-              {% capture pubLink %}{% if project.link %}<a href="{{ project.link }}">{% endif %}{{ project.name }}{% if project.link %}</a>{% endif %}{% endcapture %}
+              {% capture pubLink %}{% if project.anchor %}<a href="projects#{{ project.anchor }}">{% endif %}{{ project.name }}{% if project.anchor %}</a>{% endif %}{% endcapture %}
               {% assign pubLinks = pubLinks | push: pubLink %}
             {% endfor %}
   	  

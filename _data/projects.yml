@@ -1,3 +1,7 @@
+{% unless include.included %}
+  {% include_relative _data/people.yml included=true %}
+{% endunless %}
+
 statuses:
   - stealth: &stealth
       name: "Stealth Mode"
@@ -44,123 +48,19 @@ tags:
       name: "Testing Tools"
       anchor: testing_tools
 
-people:
-  - justin_cappos: &justin_cappos
-      name: "Justin Cappos"
-      link: "/personalpages/jcappos"
-      internal: true
-  - yanyan_zhuang: &yanyan_zhuang
-      name: "Yanyan Zhuang"
-      link: "people#yanyan_zhuang"
-      internal: true
-  - yu_hu: &yu_hu
-      name: "Yu Hu"
-      link: "people#yu_hu"
-      internal: true
-  - albert_rafetseder: &albert_rafetseder
-      name: "Albert Rafetseder"
-      link: "people#albert_rafetseder"
-      internal: true
-  - lukas_puhringer: &lukas_puhringer
-      name: "Lukas Pühringer"
-      link: "people#lukas_pühringer"
-      internal: true
-  - trishank_kuppusamy: &trishank_kuppusamy
-      name: "Trishank Kuppusamy"
-      link: "people#trishank_kuppusamy"
-      internal: true
-  - sebastien_awwad: &sebastien_awwad
-      name: "Sebastien Awwad"
-      link: "people#sebastien_awwad"
-      internal: true
-  - santiago_torres: &santiago_torres
-      name: "Santiago Torres-Arias"
-      link: "people#santiago_torres"
-      internal: true
-  - kejian_wang: &kejian_wang
-      name: "Felix Wang"
-      link: "people#kejian_wang"
-      internal: true
-  - lolaly_luo: &lolaly_luo
-      name: "Shuyuan Luo"
-      link: "people#lolaly_luo"
-      internal: true
-  - vlad_diaz: &vlad_diaz
-      name: "Vladimir Diaz"
-      link: "people#vlad_diaz"
-      internal: true
-  - luqin_wang: &luqin_wang
-      name: "Luqin Wang"
-      link: "people#luqin_wang"
-      internal: true
-  - ghada_almashaqbeh: &ghada_almashaqbeh
-      name: "Ghada Almashaqbeh"
-      link: "people#ghada_almashaqbeh"
-      internal: true
-  - yiwen_li: &yiwen_li
-      name: "Yiwen Li"
-      link: "people#yiwen_li"
-      internal: true
-  - artiom_baloian: &artiom_baloian
-      name: "Artiom Baloian"
-      link: "people#artiom_baloian"
-      internal: true
-  - devon_powell: &devon_powell
-      name: "Devon Powell"
-      link: "people#devon_powell"
-      internal: true
-  - rad_akefirad: &rad_akefirad
-      name: "Rad Akefirad"
-      link: "people#rad_akefirad"
-      internal: true
-  - lois_delong: &lois_delong
-      name: "Lois Anne DeLong"
-      link: "people#lois_delong"
-      internal: true
-  - sam_weber: &sam_weber
-      name: "Sam Weber"
-      link: "people#sam_weber"
-      internal: true
-  - rohan_bhirangi: &rohan_bhirangi
-      name: "Rohan Ketan Bhirangi"
-      link: "people#rohan_bhirangi"
-      internal: true
-  - ajay_shenoy: &ajay_shenoy
-      name: "Ajay Shenoy"
-      link: "people#ajay_shenoy"
-      internal: true
-  - sai_peddinti: &sai_peddinti
-      name: Sai Teja Peddinti
-      link: "people#sai_peddinti"
-      internal: true
-  - preston_moore: &preston_moore
-      name: "Preston Kent Moore"
-      link: "people#preston_moore"
-      internal: true
-  - dan_gopstein: &dan_gopstein
-      name: "Dan Gopstein"
-      link: "people#dan_gopstein"
-      internal: true
-  - jake_iannacone: &jake_iannacone
-      name: "Jake Iannacone"
-      link: "people#jake_iannacone"
-      internal: true
-
-
 intro: "Though all of SSL’s research initiatives—past and present—revolve
 around ensuring secure operation of computer systems, the specific areas
 addressed by the team vary greatly. Initiatives are grouped into
 the following categories:"
 
 projects:
-
-
-  - name: "The Update Framework (TUF)"
-    anchor: "tuf"
-    image: "img/projects/tuf_diagram.png"
-    site: "https://theupdateframework.github.io"
-    status: *adopted
-    description: "Software must be updated frequently to not only ensure
+  - tuf: &tuf
+      name: "The Update Framework (TUF)"
+      anchor: "tuf"
+      image: "img/projects/tuf_diagram.png"
+      site: "https://theupdateframework.github.io"
+      status: *adopted
+      description: "Software must be updated frequently to not only ensure
 improved operation, but also to patch security flaws.
 Unfortunately, the act of performing an update can itself be a
 way to attack a computer, if a malicious update is installed. TUF is a
@@ -169,27 +69,25 @@ where the software repository is compromised. Developers can integrate TUF
 into any software update system, or native programming language due to its
 concise, self-contained architecture and specification. It offers both developers
 and users protection from a host of potential attacks."
-    products: "<a href=\"https://theupdateframework.com\">TUF</a> is already being used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. TUF has been standardized for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. TUF is being integrated with <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
-    people:
-      - *vlad_diaz
-      - *sebastien_awwad
-      - *trishank_kuppusamy
-      - *artiom_baloian
-      - *kejian_wang
-      - *justin_cappos
-    tags:
+      products: "<a href=\"https://theupdateframework.com\">TUF</a> is already being used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. TUF has been standardized for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. TUF is being integrated with <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
+      people:
+        - *vlad_diaz
+        - *sebastien_awwad
+        - *trishank_kuppusamy
+        - *artiom_baloian
+        - *kejian_wang
+        - *justin_cappos
+      tags:
       - *software_updates
       - *security
 
-
-
-
-  - name: "Uptane"
-    anchor: "uptane"
-    image: "img/projects/uptane_diagram.png"
-    status: *starting
-    site: "https://uptane.github.io/"
-    description: "Cars today use a truly enormous
+  - uptane: &uptane
+      name: "Uptane"
+      anchor: "uptane"
+      image: "img/projects/uptane_diagram.png"
+      status: *starting
+      site: "https://uptane.github.io/"
+      description: "Cars today use a truly enormous
 amount of software, and, like any
 software, it contains bugs.  Unfortunately, there is no secure way
 to update software in cars.  Our Uptane project provides a
@@ -197,52 +95,50 @@ mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
 compromises, while addressing  automotive specific vulnerabilities and
 limitations. We invite all security researchers and academics to perform a security review of Uptane by going to our web site."
-    products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
+      products: "<a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
 <a href=\"https://goo.gl/LmfODJ\">design specification</a> and <a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
 For those who want lower level details, we also provide a
 <a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, an open source
 <a href=\"https://github.com/uptane/uptane\">reference implementation</a>, <a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and
 a <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
-    people:
-      - *trishank_kuppusamy
-      - *sebastien_awwad
-      - *sam_weber
-      - *vlad_diaz
-      - name: Akanitoro Brown
-      - name: Damon McCoy
-        link: "http://engineering.nyu.edu/people/damon-mccoy"
-      - name: Russ Bielawski (UMTRI)
-        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
-      - name: Cameron Mott (SWRI)
-        link: "http://www.swri.org/iProfiles/ViewiProfile.asp?k=5f23y026tv89127"
-      - name: John Liming (SWRI)
-        link:
-      - name: Sam Lauzon (UMTRI)
-        link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
-      - name: André Weimerskirch (UMTRI)
-        link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
-      - *justin_cappos
-    tags:
-      - *software_updates
-      - *security
-      - *internet_of_things
+      people:
+        - *trishank_kuppusamy
+        - *sebastien_awwad
+        - *sam_weber
+        - *vlad_diaz
+        - name: Akanitoro Brown
+        - name: Damon McCoy
+          link: "http://engineering.nyu.edu/people/damon-mccoy"
+        - name: Russ Bielawski (UMTRI)
+          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
+        - name: Cameron Mott (SWRI)
+          link: "http://www.swri.org/iProfiles/ViewiProfile.asp?k=5f23y026tv89127"
+        - name: John Liming (SWRI)
+          link:
+        - name: Sam Lauzon (UMTRI)
+          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
+        - name: André Weimerskirch (UMTRI)
+          link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
+        - *justin_cappos
+      tags:
+        - *software_updates
+        - *security
+        - *internet_of_things
 
-
-
-
-  - name: "Seattle"
-    anchor: "seattle"
-    image: "img/projects/seattle_color_map.jpg"
-    site: "https://seattle.poly.edu/html/"
-    status: *adopted
-    description: "Cloud computing can provide tremendous benefits due to its
+  - seattle: &seattle
+      name: "Seattle"
+      anchor: "seattle"
+      image: "img/projects/seattle_color_map.jpg"
+      site: "https://seattle.poly.edu/html/"
+      status: *adopted
+      description: "Cloud computing can provide tremendous benefits due to its
 ability to offload computation on demand. However, cloud resources are often
 located far from users.  The Seattle project enables users to securely share
 (and acquire) computing resources from their desktop, laptop, or smartphone
 in the same manner as with cloud computing.  Seattle is used for education,
 software development, and research by thousands of people around the world."
-    products: "Our website contains information and links to <a href=
+      products: "Our website contains information and links to <a href=
 \"https://seattle.poly.edu/html/education.html\">educational modules</a>,
 and a <a
 href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
@@ -250,142 +146,137 @@ of available resources for those who wish to download and use the Seattle
 program, or to
 <a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a>
 some computing power on their device for research purposes."
-    people:
-      - *albert_rafetseder
-      - *lukas_puhringer
-      - *sebastien_awwad
-      - *rohan_bhirangi
-      - *ajay_shenoy
-      - *justin_cappos
-    tags:
-      - *security
-      - *networking
-      - *testbeds
+      people:
+        - *albert_rafetseder
+        - *lukas_puhringer
+        - *sebastien_awwad
+        - *rohan_bhirangi
+        - *ajay_shenoy
+        - *justin_cappos
+      tags:
+        - *security
+        - *networking
+        - *testbeds
 
-
-
-
-  - name: "Sensibility Testbed"
-    anchor: "sensibility"
-    image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
-    status: *starting
-    site: "https://sensibilitytestbed.com/"
-    description: "Given the close proximity of smartphones to users,
+  - sensibility: &sensibility
+      name: "Sensibility Testbed"
+      anchor: "sensibility"
+      image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
+      status: *starting
+      site: "https://sensibilitytestbed.com/"
+      description: "Given the close proximity of smartphones to users,
 researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
 privacy of user information.  Sensibility also has additional security
 protections that ensure the safety of the device, while giving researchers
 access to unique information."
-    products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
+      products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
-    people:
-      - *yanyan_zhuang
-      - *yu_hu
-      - *lukas_puhringer
-      - *kejian_wang
-      - name: "Richard Weiss"
-        link: "http://evergreen.edu/directory/people/weissr"
-      - name: "Leon Reznik"
-        link: "https://www.cs.rit.edu/people/faculty/lr"
-      - *justin_cappos
-    tags:
-      - *testbeds
-      - *privacy
-      - *networking
-      - *internet_of_things
+      people:
+        - *yanyan_zhuang
+        - *yu_hu
+        - *lukas_puhringer
+        - *kejian_wang
+        - name: "Richard Weiss"
+          link: "http://evergreen.edu/directory/people/weissr"
+        - name: "Leon Reznik"
+          link: "https://www.cs.rit.edu/people/faculty/lr"
+        - *justin_cappos
+      tags:
+        - *testbeds
+        - *privacy
+        - *networking
+        - *internet_of_things
 
-
-
-
-  - name: "PolyPasswordHasher (PPH)"
-    anchor: "pph"
-    image: "img/projects/pph_diagram.png"
-    status: *starting
-    site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-    description: "A password database disclosure can be devastating, costing
+  - pph: &pph
+      name: "PolyPasswordHasher (PPH)"
+      anchor: "pph"
+      image: "img/projects/pph_diagram.png"
+      status: *starting
+      site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
+      description: "A password database disclosure can be devastating, costing
 companies billions of dollars in damages. PolyPasswordHasher offers a new
 approach to prevent attackers from finding out which passwords are being used. By interrelating stored password data, potential hackers are forced to crack
 passwords in sets. This increases the attackers’ level of difficulty, making a
 PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-    products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
-    people:
-      - *santiago_torres
-      - *lolaly_luo
-      - *justin_cappos
-    tags:
-      - *cryptography
-      - *security
+      products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
+      people:
+        - *santiago_torres
+        - *lolaly_luo
+        - *justin_cappos
+      tags:
+        - *cryptography
+        - *security
 
-
-  - name: "in-toto"
-    anchor: "in-toto"
-    image: "img/projects/in-toto_diagram.png"
-    status: *starting
-    site: "https://in-toto.io"
-    description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
-    products: "We welcome you to download the in-toto
+  - in-toto: &in-toto
+      name: "in-toto"
+      anchor: "in-toto"
+      image: "img/projects/in-toto_diagram.png"
+      status: *starting
+      site: "https://in-toto.io"
+      description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
+      products: "We welcome you to download the in-toto
     instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our
     <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the
     directions to integrate in-toto into your software project! The program was recently used to address a number of security issues in the design of <a href=\"/papers/torres_toto_usenixsec-2016.pdf/\">git</a> that we discovered in the course of developing this work. The fixes to many of those issues were
     included in production as of
     <a href=\"https://lwn.net/Articles/691223/\">git 2.9.0</a>"
-    people:
-      - *santiago_torres
-      - *lukas_puhringer
-      - *rohan_bhirangi
-      - *artiom_baloian
-      - name: "Reza Curtmola (NJIT)"
-        link: "http:///web.njit.edu/~crix/"
-      - name: "Hammad Afzali Nanize (NJIT)"
-        link: "https://web.njit.edu/~ha285/"
-      - name: "Anil Kumar Ammula (NJIT)"
-      - name: "Sangat Vaidya (NJIT)"
-      - *justin_cappos
+      people:
+        - *santiago_torres
+        - *lukas_puhringer
+        - *rohan_bhirangi
+        - *artiom_baloian
+        - name: "Reza Curtmola (NJIT)"
+          link: "http:///web.njit.edu/~crix/"
+        - name: "Hammad Afzali Nanize (NJIT)"
+          link: "https://web.njit.edu/~ha285/"
+        - name: "Anil Kumar Ammula (NJIT)"
+        - name: "Sangat Vaidya (NJIT)"
+        - *justin_cappos
+      tags:
+        - *software_updates
+        - *security
 
-    tags:
-      - *software_updates
-      - *security
-
-
-  - name: "Atoms of Confusion"
-    anchor: "atoms"
-    image: "img/projects/atoms_placeholder.png"
-    site: "https://atomsofconfusion.com/"
-    status: *starting
-    description: "Within every confusing piece of software code
+  - atoms: &atoms
+      name: "Atoms of Confusion"
+      anchor: "atoms"
+      image: "img/projects/atoms_placeholder.png"
+      site: "https://atomsofconfusion.com/"
+      status: *starting
+      description: "Within every confusing piece of software code
   are small patterns that can lead developers  to outputs that radically
 differ from what was intended. In studying these “atoms of confusion” we
 look to build a firm empirical foundation for reducing code confusion in
 software development and, thus, also reduce the frequency of buggy and
 malfunctioning programs."
-    products: "The <a href=\"https://atomsofconfusion.com\">project website</a> provides
+      products: "The <a href=\"https://atomsofconfusion.com\">project website</a> provides
 background on our theory, studies, and analysis for this work.
 We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
 openly available so that other researchers can replicate, validate, and
 build on our findings."
-    people:
-      - *dan_gopstein
-      - *devon_powell
-      - *jake_iannacone
-      - *lois_delong
-      - *sam_weber
-      - name: Phyllis Frankl
-        link: "http://engineering.nyu.edu/people/phyllis-frankl"
-      - name: Apple Yan (PSU)
-      - name: Martin Yeh (PSU)
-        link: "http://brandywine.psu.edu/person/martin-yeh"
-      - *yanyan_zhuang
-      - *justin_cappos
-    tags:
-      - *software_engineering
+      people:
+        - *dan_gopstein
+        - *devon_powell
+        - *jake_iannacone
+        - *lois_delong
+        - *sam_weber
+        - name: Phyllis Frankl
+          link: "http://engineering.nyu.edu/people/phyllis-frankl"
+        - name: Apple Yan (PSU)
+        - name: Martin Yeh (PSU)
+          link: "http://brandywine.psu.edu/person/martin-yeh"
+        - *yanyan_zhuang
+        - *justin_cappos
+      tags:
+        - *software_engineering
 
-
-  - name: "CacheCash"
-    anchor: "cachecash"
-    image: "img/projects/cachecash_diagram.png"
-    site:
-    status: *stealth
-    description: "Delivery of large chunks of content, such as video, accounts for a
+  - cachecash: &cachecash
+      name: "CacheCash"
+      anchor: "cachecash"
+      image: "img/projects/cachecash_diagram.png"
+      site:
+      status: *stealth
+      description: "Delivery of large chunks of content, such as video, accounts for a
 substantial percentage of all Internet traffic.  This content is usually
 served by provider networks that contract with Internet Service Providers.
 CacheCash provides a similar content delivery service by having interested
@@ -396,29 +287,28 @@ economically incentivized to honestly serve content.  Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
 services used today.  By building CacheCash, we intend to disrupt CDNs by
 more readily and pervasively including end user served content."
-    products: "We are in stealth mode! If you want to be contacted when we
+      products: "We are in stealth mode! If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
-    people:
-      - *ghada_almashaqbeh
-      - *luqin_wang
-      - *artiom_baloian
-      - name: "Allison Bishop Lewko"
-        link: "http://www.cs.columbia.edu/~allison"
-      - *justin_cappos
-    tags:
-      - *security
-      - *cryptography
-      - *systems
-      - *networking
+      people:
+        - *ghada_almashaqbeh
+        - *luqin_wang
+        - *artiom_baloian
+        - name: "Allison Bishop Lewko"
+          link: "http://www.cs.columbia.edu/~allison"
+        - *justin_cappos
+      tags:
+        - *security
+        - *cryptography
+        - *systems
+        - *networking
 
-
-
-  - name: "Lind"
-    anchor: "lind"
-    image: "img/projects/lind_diagram.jpg"
-    status: *stealth
-    site:
-    description: "Despite the best efforts of developers most operating system
+  - lind: &lind
+      name: "Lind"
+      anchor: "lind"
+      image: "img/projects/lind_diagram.jpg"
+      status: *stealth
+      site:
+      description: "Despite the best efforts of developers most operating system
 kernels contain flaws, and strategies to defend against triggering them
 have fallen short. Lind is a new virtual machine design that defends
 against these bugs by locking all system calls into popular access paths.
@@ -426,130 +316,152 @@ The design is based on the idea that popular paths—ones used every day to
 access basic system requests—are much less likely to contain
 vulnerabilities. This limited kernel access reduces the possibility of
 interaction with flawed code."
-    products: "We are in stealth mode!  If you want to be contacted when we
+      products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
-    people:
-      - *yiwen_li
-      - *justin_cappos
-      - *artiom_baloian
-      - name: "Chris Matthews"
-        link: "http://www.christophermatthews.ca/"
-      - name: "Brendan Dolan-Gavitt"
-        link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
-      - *sam_weber
-    tags:
-      - *security
-      - *systems
+      people:
+        - *yiwen_li
+        - *justin_cappos
+        - *artiom_baloian
+        - name: "Brendan Dolan-Gavitt"
+          link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
+        - *sam_weber
+      tags:
+        - *security
+        - *systems
 
-
-
-  - name: "CrashSimulator"
-    anchor: "crashsimulator"
-    image:
-    site:
-    status: *stealth
-    description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
-    products: "We are in stealth mode!  If you want to be contacted when we
+  - crashsimulator: &crashsimulator
+      name: "CrashSimulator"
+      anchor: "crashsimulator"
+      image:
+      site:
+      status: *stealth
+      description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
+      products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
-    people:
-      - *preston_moore
-      - *justin_cappos
-      - name: "Phyllis Frankl"
-        link: "http://engineering.nyu.edu/people/phyllis-frankl"
-      - *sam_weber
-    tags:
-      - *software_engineering
-      - *testing_tools
-      - *systems
+      people:
+        - *preston_moore
+        - *justin_cappos
+        - name: "Phyllis Frankl"
+          link: "http://engineering.nyu.edu/people/phyllis-frankl"
+        - *sam_weber
+      tags:
+        - *software_engineering
+        - *testing_tools
+        - *systems
 
-
-  - name: "API Blindspots"
-    anchor: "blindspots"
-    image: "img/projects/blindspots_diagram.png"
-    status: *stealth
-    site:
-    description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
+  - blindspots: &blindspots
+      name: "API Blindspots"
+      anchor: "blindspots"
+      image: "img/projects/blindspots_diagram.png"
+      status: *stealth
+      site:
+      description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
 by developers. In particular, we are looking for security-related blind spots in popular Java and Python APIs as a way to more holistically find and address bugs."
-    products: "We are in stealth mode!  If you want to be contacted when we
+      products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">blindspots@googlegroups.com</a>."
-    people:
-      - *rad_akefirad
-      - *lois_delong
-      - *justin_cappos
-      - name: "Daniela Oliviera (UF)"
-        link: "http://www.daniela.ece.ufl.edu/Home.html"
-      - name: "Olabode Anise (UF)"
-      - name: "Natalie Ebner (UF)"
-        link: "http://www.psych.ufl.edu/~ebner/"
-      - name: "Donovan Ellis (UF)"
-      - name: "Yuriy Brun (UMass-Amherst)"
-        link: "https://people.cs.umass.edu/~brun/"
-      - *yanyan_zhuang
-    tags:
-      - *software_engineering
+      people:
+        - *rad_akefirad
+        - *lois_delong
+        - *justin_cappos
+        - name: "Daniela Oliviera (UF)"
+          link: "http://www.daniela.ece.ufl.edu/Home.html"
+        - name: "Olabode Anise (UF)"
+        - name: "Natalie Ebner (UF)"
+          link: "http://www.psych.ufl.edu/~ebner/"
+        - name: "Donovan Ellis (UF)"
+        - name: "Yuriy Brun (UMass-Amherst)"
+          link: "https://people.cs.umass.edu/~brun/"
+        - *yanyan_zhuang
+      tags:
+        - *software_engineering
 
-
-
-
-  - name: "NetCheck"
-    anchor: "netcheck"
-    status: *retired
-    image: "img/projects/netcheck_diagram.png"
-    site: "https://netcheck.poly.edu/"
-    description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-    products: "We found a networking bug in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our blog (coming soon) first to learn about our experiences."
-    experiences: "Note that this project is not currently being maintained.
+  - netcheck: &netcheck
+      name: "NetCheck"
+      anchor: "netcheck"
+      status: *retired
+      image: "img/projects/netcheck_diagram.png"
+      site: "https://netcheck.poly.edu/"
+      description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
+      products: "We found a networking bug in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our blog (coming soon) first to learn about our experiences."
+      experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
-    people:
-      - *yanyan_zhuang
-      - name: "Eleni Gessiou" 
-      - name: "Steven Portzer" 
-      - name: "Fraida Fund" 
-      - name: "Monzur Muhammad"
-      - name: "Ivan Beschastnikh (UBC)"
-        link: "https://www.cs.ubc.ca/~bestchai/"
-      - *justin_cappos
-    tags:
-      - *software_engineering
-      - *testing_tools
+      people:
+        - *yanyan_zhuang
+        - name: "Eleni Gessiou" 
+        - name: "Steven Portzer" 
+        - name: "Fraida Fund" 
+        - name: "Monzur Muhammad"
+        - name: "Ivan Beschastnikh (UBC)"
+          link: "https://www.cs.ubc.ca/~bestchai/"
+        - *justin_cappos
+      tags:
+        - *software_engineering
+        - *testing_tools
 
-
-  - name: "upPIR"
-    anchor: "uppir"
-    status: *retired
-    image: "img/projects/uppir_data_download.png"
-    site: "https://uppir.poly.edu"
-    description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
-    products: "The prototype code for this project is available at its <a href=\"https://github.com/trishankkarthik/multiblockpir\">github repository</a>."
-    experiences: "Note that this project is not currently being maintained.
+  - uppir: &uppir
+      name: "upPIR"
+      anchor: "uppir"
+      status: *retired
+      image: "img/projects/uppir_data_download.png"
+      site: "https://uppir.poly.edu"
+      description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
+      products: "The prototype code for this project is available at its <a href=\"https://github.com/trishankkarthik/multiblockpir\">github repository</a>."
+      experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
-    people:
-      - *luqin_wang
-      - *trishank_kuppusamy
-      - *justin_cappos
-    tags:
-      - *security
-      - *cryptography
-      - *networking
+      people:
+        - *luqin_wang
+        - *trishank_kuppusamy
+        - *justin_cappos
+      tags:
+        - *security
+        - *cryptography
+        - *networking
 
-  - name: "Virtual Secure Network (VSN)"
-    anchor: "vsn"
-    status: *retired
-    image: "img/projects/vsn_diagram.png"
-    site: "https://vsn.poly.edu"
-    description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
-    products: "This <a href=\"https://www.google.com/patents/US9246929\">patented technique</A> and its source code are available on the project <a href=\"https://vsn.poly.edu\">web site</a>."
-    experiences: "Note that this project is not currently being maintained.
+  - vsn:  &vsn
+      name: "Virtual Secure Network (VSN)"
+      anchor: "vsn"
+      status: *retired
+      image: "img/projects/vsn_diagram.png"
+      site: "https://vsn.poly.edu"
+      description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
+      products: "This <a href=\"https://www.google.com/patents/US9246929\">patented technique</A> and its source code are available on the project <a href=\"https://vsn.poly.edu\">web site</a>."
+      experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
-    people:
-      - *sai_peddinti
-      - *trishank_kuppusamy
-      - name: "Keith Ross"
-        link: "http://engineering.nyu.edu/people/keith-w-ross"
-      - name: "Nasir Memon" 
-        link: "http://engineering.nyu.edu/people/nasir-memon"
-      - *justin_cappos
-    tags:
-      - *security
-      - *networking
-      - *privacy
+      people:
+        - *sai_peddinti
+        - *trishank_kuppusamy
+        - name: "Keith Ross"
+          link: "http://engineering.nyu.edu/people/keith-w-ross"
+        - name: "Nasir Memon" 
+          link: "http://engineering.nyu.edu/people/nasir-memon"
+        - *justin_cappos
+      tags:
+        - *security
+        - *networking
+        - *privacy
+  - caging: &caging
+      name: Caging
+  - more: &more
+      name: "[more]"
+      link: "projects"
+
+projects_intro: "Though all of SSL’s research initiatives—past and present—revolve
+around ensuring secure operation of computer systems, the specific areas
+addressed by the team vary greatly. Initiatives are grouped into
+the following categories:"
+
+project_cards:
+  - *tuf
+  - *uptane
+  - *seattle
+  - *sensibility
+  - *pph
+  - *in-toto
+  - *atoms
+  - *cachecash
+  - *lind
+  - *crashsimulator
+  - *blindspots
+  - *netcheck
+  - *uppir
+  - *vsn

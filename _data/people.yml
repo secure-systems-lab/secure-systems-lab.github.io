@@ -1,381 +1,387 @@
-projects:
-  - atoms: &atoms
-      name: "Atoms of Confusion"
-      link: "http://atomsofconfusion.com/"
-  - blindspots: &blindspots
-      name: "API Blindspots"
-      link: "projects#blindspots"
-  - cachecash: &cachecash
-      name: CacheCash
-      link: "projects#cachecash"
-  - crashsimulator: &crashsimulator
-      name: "Crash Simulator"
-      link: "projects#crashsimulator"
-  - lind: &lind
-      name: Lind
-      link: "projects#lind"
-  - netcheck: &netcheck
-      name: NetCheck
-      link: "projects#netcheck"
-  - caging: &caging
-      name: Caging
-  - pph: &pph
-      name: PolyPasswordHasher
-      link: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-  - seattle: &seattle
-      name: Seattle
-      link: "https://seattle.poly.edu/"
-  - sensibility: &sensibility
-      name: "Sensibility Testbed"
-      link: "https://sensibilitytestbed.com"
-  - in-toto: &in-toto
-      name: in-toto
-      link: "https://in-toto.io"
-  - tuf: &tuf
-      name: TUF
-      link: "https://theupdateframework.github.io/"
-  - uptane: &uptane
-      name: Uptane
-      link: "https://uptane.github.io/"
-  - uppir: &uppir
-      name: upPIR
-      link: "projects#uppir"
-  - vsn:  &vsn
-      name: Virtual Secure Network
-      link: "https://vsn.poly.edu/projects/"
-  - more: &more
-      name: "[more]"
-      link: "projects"
+{% unless include.included %}
+  {% include_relative _data/projects.yml included=true %}
+{% endunless %}
 
 intro: "Our lab's participants range from professors with dozens of years of
 experience to high school students. This diversity in background and experience
 enables us to address real-world problems using fresh perspectives."
 
 people:
-  - type: Faculty
-    anchor: faculty
-    people:
-      - name: "Justin Cappos"
-        role: "Professor and Lab Director"
-        since: 2010
-        photo: "img/people/justin_cappos.jpg"
-        site: "personalpages/jcappos/"
-        interests: "Solving real world security problems in practice"
-        projects:
-          - *seattle
-          - *tuf
-          - *pph
-          - *sensibility
-          - *atoms
-          - *uptane
-          - *cachecash
-          - *in-toto
-          - *more
-        publications:
-          - name: "USENIX Security 2016"
-            link: "/papers/torres_toto_usenixsec-2016.pdf"
-          - name: "NSDI 2016"
-            link: "/papers/kuppusamy_nsdi_16.pdf"
-          - name: "USENIX ATC 2015"
-            link: "/papers/li-usenix-fence-2015.pdf"
-          - name: "USENIX ATC 2015"
-            link: "/papers/martins-atc15-camera.pdf"
-          - name: "SIGCSE 2015"
-            link: "/papers/hooshangi_sigcse15.pdf"
-          - name: "NSDI 2014"
-            link: "/papers/zhuang_netcheck_nsdi_14.pdf"
-          - name: "[more]"
-            link: "/personalpages/jcappos/publications.htm"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+  - justin_cappos: &justin_cappos
+      name: "Justin Cappos"
+      link: "/personalpages/jcappos"
+      site: "personalpages/jcappos/"
+      internal: true
+      role: "Professor and Lab Director"
+      since: 2010
+      photo: "img/people/justin_cappos.jpg"
+      interests: "Solving real world security problems in practice"
+      projects:
+        - *seattle
+        - *tuf
+        - *pph
+        - *sensibility
+        - *atoms
+        - *uptane
+        - *cachecash
+        - *in-toto
+        - *more
+      publications:
+        - name: "USENIX Security 2016"
+          link: "/papers/torres_toto_usenixsec-2016.pdf"
+        - name: "NSDI 2016"
+          link: "/papers/kuppusamy_nsdi_16.pdf"
+        - name: "USENIX ATC 2015"
+          link: "/papers/li-usenix-fence-2015.pdf"
+        - name: "USENIX ATC 2015"
+          link: "/papers/martins-atc15-camera.pdf"
+        - name: "SIGCSE 2015"
+          link: "/papers/hooshangi_sigcse15.pdf"
+        - name: "NSDI 2014"
+          link: "/papers/zhuang_netcheck_nsdi_14.pdf"
+        - name: "[more]"
+          link: "/personalpages/jcappos/publications.htm"
+      deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
 
-      - name: "Albert Rafetseder"
-        role: "Research Professor"
-        since: "2011"
-        photo: "img/people/albert_rafetseder.jpg"
-        interests: "Building experimental platforms for research, education, and the general public"
-        projects:
-          - *seattle
-          - *sensibility
-        publications:
-          - name: "login 2015"
-            link: "/papers/zhuang_sensibility_login_2015.pdf"
-          - name: "GREE 2013"
-            link: "/papers/zhuang_seattle_gree_13.pdf"
-          - name: "USENIX ATC 2015 (Fence)"
-            link: "/papers/li-usenix-fence-2015.pdf"
-        deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
+  - albert_rafetseder: &albert_rafetseder
+      name: "Albert Rafetseder"
+      link: "people#albert_rafetseder"
+      internal: true
+      role: "Research Professor"
+      since: "2011"
+      photo: "img/people/albert_rafetseder.jpg"
+      interests: "Building experimental platforms for research, education, and the general public"
+      projects:
+        - *seattle
+        - *sensibility
+      publications:
+        - name: "login 2015"
+          link: "/papers/zhuang_sensibility_login_2015.pdf"
+        - name: "GREE 2013"
+          link: "/papers/zhuang_seattle_gree_13.pdf"
+        - name: "USENIX ATC 2015 (Fence)"
+          link: "/papers/li-usenix-fence-2015.pdf"
+      deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
 
-      - name: "Sam Weber"
-        role: "Research Professor"
-        since: "2016"
-        photo: "img/people/sam_weber.jpg"
-        interests: "Secure development processes, Cybersecurity"
-        projects:
-          - *atoms
-          - *crashsimulator
-          - *lind
-        publications:
-          - name: "ICSE 2016"
-            link: "http://dx.doi.org/10.1145/2884781.2884798"
-          - name: "IEEE Security and Privacy 2011"
-            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5629324"
-          - name: "IEEE Security and Privacy 2000"
-            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=848504"
-          - name: "Financial Crypto 2010"
-            link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
-          - name: "SESS 2005"
-            link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
+  - sam_weber: &sam_weber
+      name: "Sam Weber"
+      link: "people#sam_weber"
+      internal: true
+      role: "Research Professor"
+      since: "2016"
+      photo: "img/people/sam_weber.jpg"
+      interests: "Secure development processes, Cybersecurity"
+      projects:
+        - *atoms
+        - *crashsimulator
+        - *lind
+      publications:
+        - name: "ICSE 2016"
+          link: "http://dx.doi.org/10.1145/2884781.2884798"
+        - name: "IEEE Security and Privacy 2011"
+          link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5629324"
+        - name: "IEEE Security and Privacy 2000"
+          link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=848504"
+        - name: "Financial Crypto 2010"
+          link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
+        - name: "SESS 2005"
+          link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
 
-  - type: Staff
-    anchor: staff
-    people:
-      - name: "Vladimir Diaz"
-        anchor: vlad_diaz
-        role: "Developer"
-        since: "2013"
-        photo: "img/people/vlad_diaz.jpg"
-        interests: "Software update security"
-        projects:
-          - *tuf
-          - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
-          - *uptane
-        publications:
-          - name: "NSDI 16"
-            link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
-          - name: "PEP 458"
-            link: "https://www.python.org/dev/peps/pep-0458/"
-          - name: "PEP 480"
-            link: "http://www.python.org/dev/peps/pep-0480/"
-        deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+  - kejian_wang: &kejian_wang
+      name: "Felix Wang"
+      link: "people#kejian_wang"
+      internal: true
+      anchor: kejian_wang
+      role: "Research Intern"
+      since:
+      photo: "img/people/kejian_wang.jpg"
+      interests: "Building secure software, protecting against unsafe software"
+      projects:
+        - *tuf
+      publications:
+        - name: "IJERT 2016"
+      deployments: "Continuous Build and Integration System (CBIS), allows developer code to be continuously integrated without aﬀecting others work; Knotes,an Android application to calculate bills for people living together."
 
-      - name: "Sebastien Awwad"
-        role: "Developer"
-        since: "2015"
-        photo: "img/people/sebastien_awwad.jpg"
-        interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
-        projects:
-          - *uptane
-          - *tuf
-          - name: "Python dependency managment"
-          - *seattle
-        publications:
+  - lolaly_luo: &lolaly_luo
+      name: "Shuyuan Luo"
+      link: "people#lolaly_luo"
+      internal: true
+      anchor: lolaly_luo
+      role: "Undergradute Student"
+      since:
+      photo: "img/people/lolaly_luo.jpg"
+      interests: "Cybersecurity"
+      projects:
+        - *pph
+      deployments: "<a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">Pluggable Authentication Module (PAM)</a> for PolyPasswordHasher"
+
+  - vlad_diaz: &vlad_diaz
+      name: "Vladimir Diaz"
+      link: "people#vlad_diaz"
+      internal: true
+      anchor: vlad_diaz
+      role: "Developer"
+      since: "2013"
+      photo: "img/people/vlad_diaz.jpg"
+      interests: "Software update security"
+      projects:
+        - *tuf
+        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+        - *uptane
+      publications:
+        - name: "NSDI 16"
+          link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
+        - name: "PEP 458"
+          link: "https://www.python.org/dev/peps/pep-0458/"
+        - name: "PEP 480"
+          link: "http://www.python.org/dev/peps/pep-0480/"
+      deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"https://www.well-typed.com/blog/2015/04/improving-hackage-security/kqUMGIWSTyI/yQeR78PzIukJ\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+
+  - sebastien_awwad: &sebastien_awwad
+      name: "Sebastien Awwad"
+      link: "people#sebastien_awwad"
+      internal: true
+      role: "Developer"
+      since: "2015"
+      photo: "img/people/sebastien_awwad.jpg"
+      interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
+      projects:
+        - *uptane
+        - *tuf
+        - name: "Python dependency managment"
+        - *seattle
+      publications:
+        - name: "escar 2016"
+          link: "/papers/kuppusamy_escar_16.pdf"
+      deployments: "Uptane reference implementation, TUF modifications, Python dependency resolver"
+
+  - lukas_puhringer: &lukas_puhringer
+      name: "Lukas Pühringer"
+      link: "people#lukas_pühringer"
+      internal: true
+      role: "Developer"
+      since: "2016"
+      photo: "img/people/lukas_puhringer.jpg"
+      interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
+      projects:
+        - *in-toto
+        - *seattle
+        - *sensibility
+      publications:
+        - name: "PIK 2013"
+          link: "/papers/rafetseder_sensorium_netsys_13.pdf"
+        - name: "TryRepy Wiki"
+          link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
+      deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed"
+  - trishank_kuppusamy: &trishank_kuppusamy
+      name: "Trishank Kuppusamy"
+      link: "people#trishank_kuppusamy"
+      internal: true
+      role: "Fifth year Ph.D. Candidate"
+      since: "2011"
+      photo: "img/people/trishank_kuppusamy.jpg"
+      link: "http://https://github.com/trishankkarthik"
+      interests: "Securing software updates for community repositories and automobiles"
+      projects:
+        - *tuf
+        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+        - *uptane
+        - *uppir
+      publications:
           - name: "escar 2016"
             link: "/papers/kuppusamy_escar_16.pdf"
-        deployments: "Uptane reference implementation, TUF modifications, Python dependency resolver"
+          - name: "NSDI 2016"
+            link: "/papers/kuppusamy_nsdi_16.pdf"
+          - name: "GLOBECOM 2015"
+            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
+          - name: "ISBA 2015"
+            link: "http://ieeexplore.ieee.org/document/7126366/"
+      deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
+  - luqin_wang: &luqin_wang
+      name: "Luqin Wang"
+      link: "people#luqin_wang"
+      internal: true
+      role: "Ph.D. graduated in 2016 (co-advised by Yong Liu)"
+      since: "2011"
+      photo: "img/people/luqin_wang.jpg"
+      interests: "Social networks, Internet measurement, network security and distributed systems"
+      projects:
+        - *cachecash
+        - *uppir
+      publications:
+          - name: "PAM 2015"
+            link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
+          - name: "GLOBECOM 2015"
+            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
+  - ghada_almashaqbeh: &ghada_almashaqbeh
+      name: "Ghada Almashaqbeh"
+      link: "people#ghada_almashaqbeh"
+      internal: true
+      role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
+      since: "2015"
+      photo: "img/people/ghada_almashaqbeh.jpg"
+      site: "http://www.cs.columbia.edu/~ghada/"
+      interests: "Cryptography, security, distributed computing"
+      projects:
+        - *cachecash
+      publications:
+        - name: "BMC Medical Informatics and Decision-Making 2015"
+          link: "http://www.cse.nd.edu/~mblanton/papers/midm15.pdf"
+        - name: "arXiv.org"
+          link: "https://arxiv.org/pdf/1509.01763v2.pdf"
 
-      - name: "Lukas Pühringer"
-        role: "Developer"
-        since: "2016"
-        photo: "img/people/lukas_puhringer.jpg"
-        interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
-        projects:
-          - *in-toto
-          - *seattle
-          - *sensibility
-        publications:
-          - name: "PIK 2013"
-            link: "/papers/rafetseder_sensorium_netsys_13.pdf"
-          - name: "TryRepy Wiki"
-            link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
-        deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed"
-
-      - name: "Artiom Baloian"
-        role: "Developer"
-        since: "2016"
-        photo: "img/people/artiom_baloian.jpg"
-        interests: "Software Security, Code Obfuscation, Compilers"
-        projects:
-          - *cachecash
+  - yiwen_li: &yiwen_li
+      name: "Yiwen Li"
+      link: "people#yiwen_li"
+      internal: true
+      role: "Third year Ph.D. Candidate"
+      since: "2013"
+      photo: "img/people/yiwen_li.jpg"
+      site: "http://engineering.nyu.edu/people/yiwen-li"
+      interests: "Operating system security, virtualization, network security"
+      projects:
           - *lind
+          - *caging
+      publications:
+          - name: "NENS 2014 (poster)"
+            link: "http://systems.cs.brown.edu/nens/?page_id=21"
+          - name: "CATT 2014 (poster)"
+            link:
+
+  - santiago_torres: &santiago_torres
+      name: "Santiago Torres-Arias"
+      link: "people#santiago_torres"
+      internal: true
+      anchor: santiago_torres
+      role: "Second year Ph.D. Candidate"
+      since: "2014"
+      photo: "img/people/santiago_torres.png"
+      site: "https://sangy.xyz"
+      interests: "Password protection and securing the software supply chain"
+      projects:
+          - *pph
           - *in-toto
-        publications:
-          - name: "IMPACT 2017"
-            link: "http://impact.gforge.inria.fr/impact2017/papers/impact-17-apollo-automatic-specilative-polyhedral-loop-optimizer.pdf"
-          - name: "Mathematical Problems of Computer Science 2014"
-            link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
-          - name: "RAS 2015"
-            link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-        deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic 
+      publications:
+          - name: "NSDI 2016"
+            link: "/papers/kuppusamy_nsdi_16.pdf"
+          - name: "USENIX Security 2016"
+            link: "/papers/torres_toto_usenixsec-2016.pdf"
+          - name: "CyberTalks 2016"
+            link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
+      deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
+
+  - artiom_baloian: &artiom_baloian
+      name: "Artiom Baloian"
+      link: "people#artiom_baloian"
+      internal: true
+      role: "Developer"
+      since: "2016"
+      photo: "img/people/artiom_baloian.jpg"
+      interests: "Software Security, Code Obfuscation, Compilers"
+      projects:
+        - *cachecash
+        - *lind
+        - *in-toto
+      publications:
+        - name: "IMPACT 2017"
+          link: "http://impact.gforge.inria.fr/impact2017/papers/impact-17-apollo-automatic-specilative-polyhedral-loop-optimizer.pdf"
+        - name: "Mathematical Problems of Computer Science 2014"
+          link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
+        - name: "RAS 2015"
+          link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
+      deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic 
 speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework based 
 on LLVM used by Airbus and other companies."
 
-      - name: "Lois Anne DeLong"
-        anchor: lois_delong
-        role: "Research Associate/Technical Writer"
-        since: "2015"
-        photo: "img/people/lois_delong.jpg"
-        interests: "Experimental design involving human subjects; links between natural languages and programming languages"
-        projects:
-          - *atoms
+  - devon_powell: &devon_powell
+      name: "Devon Powell"
+      link: "people#devon_powell"
+      internal: true
+      anchor: devon_powell
+      role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
+      since: "2016"
+      photo: "img/people/devon_powell.jpg"
+      site: "https://github.com/D-Pow?tab=repositories"
+      interests: "Computer security, software engineering"
+      projects:
+        - *atoms
+
+  - rad_akefirad: &rad_akefirad
+      name: "Rad Akefirad"
+      link: "people#rad_akefirad"
+      internal: true
+      role: "Ph.D. Student"
+      since: "2015"
+      photo: "img/people/rad_akefirad.jpg"
+      interests: "Software engineering, secure software design and development, distributed systems, microservices"
+      projects:
           - *blindspots
-          - name: "editorial support for all projects"
 
-  - type: "PhD. Students"
-    anchor: phd
-    people:
-      - name: "Trishank Kuppusamy"
-        role: "Fifth year Ph.D. Candidate"
-        since: "2011"
-        photo: "img/people/trishank_kuppusamy.jpg"
-        link: "http://https://github.com/trishankkarthik"
-        interests: "Securing software updates for community repositories and automobiles"
-        projects:
-          - *tuf
-          - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
-          - *uptane
-          - *uppir
-        publications:
-            - name: "escar 2016"
-              link: "/papers/kuppusamy_escar_16.pdf"
-            - name: "NSDI 2016"
-              link: "/papers/kuppusamy_nsdi_16.pdf"
-            - name: "GLOBECOM 2015"
-              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-            - name: "ISBA 2015"
-              link: "http://ieeexplore.ieee.org/document/7126366/"
-        deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
+  - lois_delong: &lois_delong
+      name: "Lois Anne DeLong"
+      link: "people#lois_delong"
+      internal: true
+      anchor: lois_delong
+      role: "Research Associate/Technical Writer"
+      since: "2015"
+      photo: "img/people/lois_delong.jpg"
+      interests: "Experimental design involving human subjects; links between natural languages and programming languages"
+      projects:
+        - *atoms
+        - *blindspots
+        - name: "editorial support for all projects"
+  - yu_hu: &yu_hu
+      name: "Yu Hu"
+      link: "people#yu_hu"
+      internal: true
+      role: "Ph.D. Student (advised by Brendan Dolan-Gavitt)"
+      since: "2016"
+      photo: "img/people/yu_hu.jpg"
+      interests: "Side channel attacks, symbolic execution, mobile sensor application"
+      projects:
+        - *sensibility
+  - rohan_bhirangi: &rohan_bhirangi
+      name: "Rohan Ketan Bhirangi"
+      link: "people#rohan_bhirangi"
+      internal: true
+      anchor: "rohan_bhirangi"
+      role: "Master's Student"
+      since:
+      photo: "img/people/rohan_bhirangi.jpg"
+      interests: "Distributed systems, wireless sensor networks, internet of things, cloud infrastructure/computing, machine learning"
+      projects:
+        - *sensibility
+        - *seattle
+      publications:
+        - name: "IJERT 2016"
+          link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
+      deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate the Sensibility-Seash process."
+  - ajay_shenoy: &ajay_shenoy
+      name: "Ajay Shenoy"
+      link: "people#ajay_shenoy"
+      internal: true
+      role: "Master's Student"
+      since: 2015
+      photo: "img/people/ajay_shenoy.png"
+      interests: "Addressing security flaws within cloud computing bases; Testing functionality for bugs"
+      projects:
+        - *seattle
+        - name: "Totally Secure"
+      deployments: "Designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
 
-
-      - name: "Yiwen Li"
-        role: "Third year Ph.D. Candidate"
-        since: "2013"
-        photo: "img/people/yiwen_li.jpg"
-        site: "http://engineering.nyu.edu/people/yiwen-li"
-        interests: "Operating system security, virtualization, network security"
-        projects:
-            - *lind
-            - *caging
-        publications:
-            - name: "NENS 2014 (poster)"
-              link: "http://systems.cs.brown.edu/nens/?page_id=21"
-            - name: "CATT 2014 (poster)"
-              link:
-
-      - name: "Santiago Torres-Arias"
-        anchor: santiago_torres
-        role: "Second year Ph.D. Candidate"
-        since: "2014"
-        photo: "img/people/santiago_torres.png"
-        site: "https://sangy.xyz"
-        interests: "Password protection and securing the software supply chain"
-        projects:
-            - *pph
-            - *in-toto
-        publications:
-            - name: "NSDI 2016"
-              link: "/papers/kuppusamy_nsdi_16.pdf"
-            - name: "USENIX Security 2016"
-              link: "/papers/torres_toto_usenixsec-2016.pdf"
-            - name: "CyberTalks 2016"
-              link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-        deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
-
-
-
-      - name: "Dan Gopstein"
-        role: "Ph.D. Student (co-advised with Andy Nealen)"
-        since: "2015"
-        photo: "img/people/dan_gopstein.jpg"
-        interests: "Programming languages and software systems"
-        projects:
-          - *atoms
-        publications:
-          - name: "SIGGRAPH Asia 2015"
-            link: "http://game.engineering.nyu.edu/projects/animesh/"
-        deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
-
-
-      - name: "Ghada Almashaqbeh"
-        role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
-        since: "2015"
-        photo: "img/people/ghada_almashaqbeh.jpg"
-        site: "http://www.cs.columbia.edu/~ghada/"
-        interests: "Cryptography, security, distributed computing"
-        projects:
-          - *cachecash
-        publications:
-          - name: "BMC Medical Informatics and Decision-Making 2015"
-            link: "http://www.cse.nd.edu/~mblanton/papers/midm15.pdf"
-          - name: "arXiv.org"
-            link: "https://arxiv.org/pdf/1509.01763v2.pdf"
-
-
-      - name: "Preston Kent Moore"
-        anchor: preston_moore
-        role: "Second year Ph.D. Student"
-        since: "2015"
-        photo: "img/people/preston_moore.jpg"
-        interests: "Secure software engineering, automated testing, systems security"
-        projects:
-          - *crashsimulator
-
-
-      - name: "Devon J. Powell"
-        anchor: devon_powell
-        role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
-        since: "2016"
-        photo: "img/people/devon_powell.jpg"
-        site: "https://github.com/D-Pow?tab=repositories"
-        interests: "Computer security, software engineering"
-        projects:
-          - *atoms
-
-
-      - name: "Rad Akefirad"
-        role: "Ph.D. Student"
-        since: "2015"
-        photo: "img/people/rad_akefirad.jpg"
-        interests: "Software engineering, secure software design and development, distributed systems, microservices"
-        projects:
-            - *blindspots
-
-
-
-  - type: "Other Students"
-    anchor: otherstudents
-    people:
-      - name: "Yu Hu"
-        role: "Ph.D. Student (advised by Brendan Dolan-Gavitt)"
-        since: "2016"
-        photo: "img/people/yu_hu.jpg"
-        interests: "Side channel attacks, symbolic execution, mobile sensor application"
-        projects:
-          - *sensibility
-
-      - name: "Rohan Ketan Bhirangi"
-        anchor: "rohan_bhirangi"
-        role: "Master's Student"
-        since:
-        photo: "img/people/rohan_bhirangi.jpg"
-        interests: "Distributed systems, wireless sensor networks, internet of things, cloud infrastructure/computing, machine learning"
-        projects:
-          - *sensibility
-          - *seattle
-        publications:
-          - name: "IJERT 2016"
-            link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
-        deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate the Sensibility-Seash process."
-
-      - name: "Ajay Shenoy"
-        role: "Master's Student"
-        since: 2015
-        photo: "img/people/ajay_shenoy.png"
-        interests: "Addressing security flaws within cloud computing bases; Testing functionality for bugs"
-        projects:
-          - *seattle
-          - name: "Totally Secure"
-        deployments: "Designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
-
-      - name: "Deepankar Jaisia"
-        role: "Master's Student"
-        since: 2016
-        photo: "img/people/deepankar_jaisia.jpg"
-        interests: "Protecting privacy in personal communications, expanding skills in using Python"
-        projects:
-          - *seattle
-          - name: "Repy V2"
-
-      - name: "Ankit Bhatia"
+  - deepankar_jaisia: &deepankar_jaisia
+      name: "Deepankar Jaisia"
+      link: "people#deepankar_jaisia"
+      internal: true
+      role: "Master's Student"
+      since: 2016
+      photo: "img/people/deepankar_jaisia.jpg"
+      interests: "Protecting privacy in personal communications, expanding skills in using Python"
+      projects:
+        - *seattle
+        - name: "Repy V2"
+  - ankit_bhatia: &ankit_bhatia
+        name: "Ankit Bhatia"
         role: "Master's Student"
         since: 2016
         photo: "img/people/ankit_bhatia.jpg"
@@ -384,93 +390,133 @@ on LLVM used by Airbus and other companies."
           - *seattle
           - name: "IPv6 support to Repy V2"
 
-      - name: "Shuyuan \"Lolaly\" Luo"
-        anchor: lolaly_luo
-        role: "Undergradute Student"
-        since:
-        photo: "img/people/lolaly_luo.jpg"
-        interests: "Cybersecurity"
-        projects:
-          - *pph
-        deployments: "<a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">Pluggable Authentication Module (PAM)</a> for PolyPasswordHasher"
+  - sai_peddinti: &sai_peddinti
+      name: Sai Teja Peddinti
+      link: "people#sai_peddinti"
+      internal: true
+      anchor: sai_peddinti
+      role: "Ph.D. graduated in 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
+      since: "2011"
+      photo: "img/people/sai_peddinti.jpg"
+      site: "http://www.saitejapeddinti.com/"
+      interests: "Privacy, security, social networks, machine learning"
+      projects:
+            - name: "VSN-Virtual Secure Network"
+              link: "https://vsn.poly.edu/projects/project"
+      publications:
+            - name: "ICWSM 2016"
+              link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
+            - name: "COSN 2014"
+              link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
+            - name: "SPSM 2014"
+              link: "http://dl.acm.org/citation.cfm?id=2666625"
+            - name: "S&P 2014"
+              link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
+            - name: "U.S. Patent 9246929"
+              link: "https://www.google.com/patents/US9246929"
+  - preston_moore: &preston_moore
+      name: "Preston Kent Moore"
+      link: "people#preston_moore"
+      internal: true
+      anchor: preston_moore
+      role: "Second year Ph.D. Student"
+      since: "2015"
+      photo: "img/people/preston_moore.jpg"
+      interests: "Secure software engineering, automated testing, systems security"
+      projects:
+        - *crashsimulator
+  - dan_gopstein: &dan_gopstein
+      name: "Dan Gopstein"
+      link: "people#dan_gopstein"
+      internal: true
+      role: "Ph.D. Student (co-advised with Andy Nealen)"
+      since: "2015"
+      photo: "img/people/dan_gopstein.jpg"
+      interests: "Programming languages and software systems"
+      projects:
+        - *atoms
+      publications:
+        - name: "SIGGRAPH Asia 2015"
+          link: "http://game.engineering.nyu.edu/projects/animesh/"
+      deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
 
-      - name: "Kejian \"Felix\" Wang"
-        anchor: kejian_wang
-        role: "Research Intern"
-        since:
-        photo: "img/people/kejian_wang.jpg"
-        interests: "Building secure software, protecting against unsafe software"
-        projects:
-          - *tuf
-        publications:
-          - name: "IJERT 2016"
-        deployments: "Continuous Build and Integration System (CBIS), allows developer code to be continuously integrated without aﬀecting others work; Knotes,an Android application to calculate bills for people living together."
+  - jake_iannacone: &jake_iannacone
+      name: "Jake Iannacone"
+      link: "people#jake_iannacone"
+      internal: true
+      role: "High School Student"
+      since:
+      photo: "img/people/jake_iannacone.jpg"
+      interests: "Building secure software, protecting against unsafe software"
+      projects:
+        - *atoms
 
-      - name: "Jake Iannacone"
-        role: "High School Student"
-        since:
-        photo: "img/people/jake_iannacone.jpg"
-        interests: "Building secure software, protecting against unsafe software"
-        projects:
-          - *atoms
+  - yanyan_zhuang: &yanyan_zhuang
+      name: "Yanyan Zhuang"
+      link: "people#yanyan_zhuang"
+      site: "http://www.cs.uccs.edu/~yzhuang/"
+      internal: true
+      role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
+      since: "2014"
+      photo: "img/people/yanyan_zhuang.jpg"
+      interests: "Mobile systems, wireless networks, privacy and security"
+      projects:
+        - *sensibility
+        - *netcheck
+        - *atoms
+      publications:
+        - name: "TrustCom 2015"
+          link: "/papers/weiss_trustcom2015.pdf"
+        - name: "ACSAC 2014"
+          link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
+        - name: "NSDI 2014"
+          link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
+        - name: "SIGCSE 2014"
+          link: "http://dl.acm.org/citation.cfm?id=2538931"
+      deployments: Worked on development and application of <a href=\"https://sensibilitytestbed.com\">Sensibility Testbed</a>
+
+people_cards:
+  - type: Faculty
+    anchor: faculty
+    people:
+      - *justin_cappos
+      - *albert_rafetseder
+      - *sam_weber
+  - type: Staff
+    anchor: staff
+    people:
+      - *vlad_diaz
+      - *sebastien_awwad
+      - *lukas_puhringer
+      - *artiom_baloian
+      - *lois_delong
+  - type: "PhD. Students"
+    anchor: phd
+    people:
+      - *trishank_kuppusamy
+      - *yiwen_li
+      - *santiago_torres
+      - *dan_gopstein
+      - *ghada_almashaqbeh
+      - *preston_moore
+      - *devon_powell
+      - *rad_akefirad
+
+  - type: "Other Students"
+    anchor: otherstudents
+    people:
+      - *yu_hu
+      - *rohan_bhirangi
+      - *ajay_shenoy
+      - *deepankar_jaisia
+      - *ankit_bhatia
+      - *lolaly_luo
+      - *kejian_wang
+      - *jake_iannacone
 
   - type: Alumni
     anchor: alumni
     people:
-      - name: "Yanyan Zhuang"
-        role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
-        since: "2014"
-        photo: "img/people/yanyan_zhuang.jpg"
-        site: "http://www.cs.uccs.edu/~yzhuang/"
-        interests: "Mobile systems, wireless networks, privacy and security"
-        projects:
-          - *sensibility
-          - *netcheck
-          - *atoms
-        publications:
-          - name: "TrustCom 2015"
-            link: "/papers/weiss_trustcom2015.pdf"
-          - name: "ACSAC 2014"
-            link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
-          - name: "NSDI 2014"
-            link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
-          - name: "SIGCSE 2014"
-            link: "http://dl.acm.org/citation.cfm?id=2538931"
-        deployments: Worked on development and application of <a href=\"https://sensibilitytestbed.com\">Sensibility Testbed</a>
-
-
-      - name: "Luqin Wang"
-        role: "Ph.D. graduated in 2016 (co-advised by Yong Liu)"
-        since: "2011"
-        photo: "img/people/luqin_wang.jpg"
-        interests: "Social networks, Internet measurement, network security and distributed systems"
-        projects:
-          - *cachecash
-          - *uppir
-        publications:
-            - name: "PAM 2015"
-              link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
-            - name: "GLOBECOM 2015"
-              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-
-      - name: "Sai Teja Peddinti"
-        anchor: sai_peddinti
-        role: "Ph.D. graduated in 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
-        since: "2011"
-        photo: "img/people/sai_peddinti.jpg"
-        site: "http://www.saitejapeddinti.com/"
-        interests: "Privacy, security, social networks, machine learning"
-        projects:
-              - name: "VSN-Virtual Secure Network"
-                link: "https://vsn.poly.edu/projects/project"
-        publications:
-              - name: "ICWSM 2016"
-                link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
-              - name: "COSN 2014"
-                link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
-              - name: "SPSM 2014"
-                link: "http://dl.acm.org/citation.cfm?id=2666625"
-              - name: "S&P 2014"
-                link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
-              - name: "U.S. Patent 9246929"
-                link: "https://www.google.com/patents/US9246929"
+      - *yanyan_zhuang
+      - *luqin_wang
+      - *sai_peddinti
