@@ -92,6 +92,7 @@ This work demonstrates that community repositories can offer compromise-resilien
   - title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
     authors:
       - name: "Peddinti, Sai Teja and Ross, Keith W and Cappos, Justin"
+    anchor: sensitive-accounts-on-twitter
     booktitle: "Tenth International AAAI Conference on Web and Social Media"
     year: "2016"
     link: "https://nyuscholars.nyu.edu/en/publications/finding-sensitive-accounts-on-twitter-an-automated-approach-based"
@@ -260,6 +261,7 @@ violations that are confirmed bugs in widely-used software."
   - title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
     authors:
       - name: "Peddinti, Sai Teja and Ross, Keith W. and Cappos, Justin"
+    anchor: youre-a-dog
     booktitle: "Proceedings of the Second ACM Conference on Online Social Networks"
     series: "COSN '14"
     year: "2014"
@@ -453,6 +455,7 @@ system."
   - title: "Future Internet Bandwidth Trends: An Investigation on Current and Future Disruptive Technologies"
     authors:
       - name: "Zhuang, Yanyan and Cappos, Justin and Rappaport, Theodore S and McGeer, Rick"
+    anchor: internet-bandwidth-trends
     year: "2013"
     institution: "Tech. rep. tr-cse-2013-04, Polytechnic Institute of NYU"
     link: "https://isis.poly.edu/%7Ejcappos/papers/tr-cse-2013-04.pdf"
