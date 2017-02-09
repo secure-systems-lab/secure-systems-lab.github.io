@@ -19,10 +19,16 @@ layout: default
        <h3> {{ project.name | size_upcase }} </h3>
          <div class="link-list">
            <div class="press-link">
-             <a href="/press?filter={{ project.anchor }}">(press)</a>
+             {% capture press_projects %}{{ site.data.press.presses | map: 'project' | map: 'anchor' }}{% endcapture %}
+             {% if press_projects contains project.anchor %}
+               <a href="/press?filter={{ project.anchor }}">(press)</a>
+             {% endif %}
 	   </div>
            <div class="pubs-link">
-             <a href="/publications?filter={{ project.anchor }}">(publications)</a>
+             {% capture pub_projects %}{{ site.data.publications.publications | map: 'project' | map: 'anchor' }}{% endcapture %}
+             {% if pub_projects contains project.anchor %}
+               <a href="/publications?filter={{ project.anchor }}">(publications)</a>
+             {% endif %}
 	   </div>
            <div class="web-link">
              {% if project.site %}
