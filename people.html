@@ -15,16 +15,15 @@ layout: default
 </ul>
 
 {% for type in site.data.people.people_cards %}
-<a name="{{ type.anchor }}">
+  <a class="anchor" name="{{ type.anchor }}"></a>
   <h2 class="type">{{ type.type }}</h2>
-</a>
 
 <ul class="people-boxes">
   {% for person in type.people %}
     {% if person.anchor %}
-      <a name="{{ person.anchor }}"></a>
+      <a class="anchor" name="{{ person.anchor }}"></a>
     {% else %}
-      <a name="{{ person.name | downcase | replace: ' ', '_' }}"></a>
+      <a class="anchor" name="{{ person.name | downcase | replace: ' ', '_' }}"></a>
     {% endif %}
     <li>
       <div class="person">

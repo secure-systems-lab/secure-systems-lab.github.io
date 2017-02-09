@@ -8,6 +8,14 @@
   margin-bottom: 0.5em;
 }
 
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -2rem;
+  visibility: hidden;
+}
+
 .people-boxes {
   margin-top: 3em;
   font-size: 0.8em;
