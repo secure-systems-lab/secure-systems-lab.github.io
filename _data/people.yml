@@ -25,7 +25,8 @@ people:
         - *uptane
         - *cachecash
         - *in-toto
-        - *more
+        - name: "[more]"
+          anchor: ""
       publications:
         - name: "USENIX Security 2016"
           link: "/papers/torres_toto_usenixsec-2016.pdf"
@@ -241,7 +242,7 @@ people:
       interests: "Operating system security, virtualization, network security"
       projects:
           - *lind
-          - *caging
+          - name: Caging
       publications:
           - name: "NENS 2014 (poster)"
             link: "http://systems.cs.brown.edu/nens/?page_id=21"

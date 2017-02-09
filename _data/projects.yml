@@ -437,11 +437,6 @@ Please read our blog to learn about our experiences."
         - *security
         - *networking
         - *privacy
-  - caging: &caging
-      name: Caging
-  - more: &more
-      name: "[more]"
-      link: "projects"
 
 projects_intro: "Though all of SSL’s research initiatives—past and present—revolve
 around ensuring secure operation of computer systems, the specific areas
