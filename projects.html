@@ -13,7 +13,7 @@ layout: default
 <div class="projects">
   {% for project in site.data.projects.project_cards %}
   <div class="project">
-    <a name="{{ project.anchor }}"></a>
+    <a class="anchor" name="{{ project.anchor }}"></a>
 
     <div class="title-bar">
        <h3> {{ project.name | size_upcase }} </h3>

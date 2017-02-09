@@ -19,7 +19,7 @@ layout: default
     <span class="title">"{{ press.title }}"</span>
     {% if press.project %}
       <span class="project">
-        (Coverage of <a href="{{ press.project.link }}">{{ press.project.name }}</a>)
+        (Coverage of <a href="projects#{{ press.project.anchor }}">{{ press.project.name }}</a>)
       </span>
     {% endif %}
     {% if press.link %}
