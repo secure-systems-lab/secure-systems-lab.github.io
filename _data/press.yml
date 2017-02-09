@@ -2,7 +2,7 @@
   {% include_relative _data/projects.yml included=true %}
 {% endunless %}
 
-intro: "Selected, recent press appearences by the Secure Systems Lab"
+intro: "Selected mentions about our research in the press"
 
 presses:
   - title:  "How Uptane Can Protect Your Car From Hackers"
