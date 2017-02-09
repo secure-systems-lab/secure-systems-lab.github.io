@@ -77,6 +77,7 @@ Git."
     authors:
       - name: "Trishank Karthik Kuppusamy and Santiago Torres-Arias and Vladimir Diaz and Justin Cappos"
     project: *tuf
+    anchor: diplomat
     booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
     year: "2016"
     isbn: "978-1-931971-29-4"
@@ -101,6 +102,7 @@ This work demonstrates that community repositories can offer compromise-resilien
     authors:
       - name: "Tao Li and Albert Rafetseder and Rodrigo Fonseca and Justin Cappos"
     project: *seattle
+    anchor: fence
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
@@ -140,6 +142,7 @@ users"
     authors:
       - name: "J. Rasley and E. Gessiou and T. Ohmann and Y. Brun and S. Krishnamurthi and J. Cappos"
     project: *seattle
+    anchor: latent-api-violations
     booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
     year: "2015"
     pages: " 484-495"
@@ -173,6 +176,7 @@ violations that are confirmed bugs in widely-used software."
       - name: "Hooshangi, Sara and Weiss, Richard and Cappos, Justin"
     booktitle: "Proceedings of the 46th ACM Technical Symposium on Computer Science Education"
     project: *seattle
+    anchor: security-mindset-better-testers
     series: "SIGCSE '15"
     year: "2015"
     isbn: "978-1-4503-2966-8"
@@ -190,6 +194,7 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "R. Weiss and L. Reznik and Y. Zhuang and A. Hoffman and D. Pollard and A. Rafetseder and T. Li and J. Cappos"
     project: *sensibility
+    anchor: trust-evaluation
     booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
     year: "2015"
     volume: "1"
@@ -203,6 +208,7 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "Y. Zhuang and L. Law and A. Rafetseder and L. Wang and I. Beschastnikh and J. Cappos"
     project: *sensibility
+    anchor: sensibility-testbed
     booktitle: "2014 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)"
     year: "2014"
     pages: "139-140"
@@ -215,6 +221,7 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "J. Cappos and L. Wang and R. Weiss and Y. Yang and Y. Zhuang"
     project: *sensibility
+    anchor: blursense
     booktitle: "2014 IEEE Sensors Applications Symposium (SAS)"
     year: "2014"
     pages: "329-332"
@@ -227,6 +234,7 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "M. Reininger and S. Miller and Y. Zhuang and J. Cappos"
     project: *sensibility
+    anchor: vehicle-data-collection
     booktitle: "2015 IEEE Sensors Applications Symposium (SAS)"
     year: "2015"
     pages: "1-6"
@@ -239,6 +247,7 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "Marcelo Martins and Justin Cappos and Rodrigo Fonseca"
     project: *seattle
+    anchor: taming-background-apps
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
@@ -271,6 +280,7 @@ In this work we perform a large-scale analysis of Twitter to study the prevalenc
     authors:
       - name: "Yanyan Zhuang and Eleni Gessiou and Steven Portzer and Fraida Fund and Monzur Muhammad and Ivan Beschastnikh and Justin Cappos"
     project: *netcheck
+    anchor: netcheck
     booktitle: "11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14)"
     year: "2014"
     isbn: "978-1-931971-09-6"
@@ -285,7 +295,8 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
   - title: "PolyPasswordHasher: Protecting Passwords In The Event Of A Password File Disclosure"
     authors:
       - name: "Cappos, Justin and Torres, Santiago"
-    project: *polypasswordhasher
+    project: *pph
+    anchor: polypasswordhasher
     year: "2014"
     institution: "Technical report"
     link: "https://github.com/PolyPasswordHasher/PolyPasswordHasher/blob/master/academic-writeup/paper.pdf"
@@ -295,6 +306,7 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     authors:
       - name: "Cappos, Justin and Weiss, Richard"
     project: *seattle
+    anchor: teaching-security-mindset
     booktitle: "Proceedings of the 45th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '14"
     year: "2014"
@@ -315,6 +327,7 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     authors:
       - name: "Oliveira, Daniela and Rosenthal, Marissa and Morin, Nicole and Yeh, Kuo-Chuan and Cappos, Justin and Zhuang, Yanyan"
     project: *blindspots
+    anchor: psychology-stupid
     booktitle: "Proceedings of the 30th Annual Computer Security Applications Conference"
     series: "ACSAC '14"
     year: "2014"
@@ -334,6 +347,7 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     authors:
       - name: "Cappos, Justin and Zhuang, Yanyan and Oliveira, Daniela and Rosenthal, Marissa and Yeh, Kuo-Chuan"
     project: *blindspots
+    anchor: vulnerabilities-as-blind-spots
     booktitle: "Proceedings of the 2014 New Security Paradigms Workshop"
     series: "NSPW '14"
     year: "2014"
@@ -352,6 +366,7 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     authors:
       - name: "Cappos, Justin and Zhuang, Yanyan Zhuang and Beschastnikh, Ivan"
     project: *netcheck
+    anchor: netcheck-test-cases
     link: "http://isis.poly.edu/%7Ejcappos/papers/tr-cse-2013-03.pdf"
     abstract: "Application failures due to network issues are some of the most difficult to diagnose
 and debug. This is because the failure may be due to in-network state or
@@ -377,6 +392,7 @@ diagnosis by using a set of heuristics."
     authors:
       - name: "Y. Zhuang and A. Rafetseder and J. Cappos"
     project: *seattle
+    anchor: experience-with-seattle
     booktitle: "2013 Second GENI Research and Educational Experiment Workshop"
     year: "2013"
     pages: "37-44"
@@ -390,6 +406,7 @@ diagnosis by using a set of heuristics."
     authors:
       - name: "Justin Cappos"
     project: *uppir
+    anchor: avoiding-theoretical-optimality
     year: "2013"
     isbn: "9783642398834"
     volume: "7859 LNCS"
@@ -414,6 +431,7 @@ software updates with upPIR about as quickly as with FTP."
     authors:
       - name: "Rafetseder, Albert and Metzger, Florian and P{\"u}hringer, Lukas and Tutschku, Kurt and Zhuang, Yanyan and Cappos, Justin"
     project: *sensibility
+    anchor: sensorium
     journal: "Praxis der Informationsverarbeitung und Kommunikation"
     volume: "36"
     number: "1"
@@ -473,6 +491,7 @@ before they begin to shape the economy and society."
     authors:
       - name: "Muhammad, Monzur and Cappos, Justin"
     project: *seattle
+    anchor: representative-testbed
     booktitle: "The First GENI Research and Educational Workshop, GREE"
     volume: "12"
     year: "2012"
@@ -503,6 +522,7 @@ they are made."
     authors:
       - name: "Matthews, Chris and Cappos, Justin and McGeer, Rick and Neville, Stephen and Coady, Yvonne"
     project: *lind
+    anchor: lind
     booktitle: "Freeco 2011 Onward! Workshop: Towards Free Composition of Software Modules"
     year: "2011"
     link: "https://isis.poly.edu/%7Ejcappos/papers/matthews_etal.pdf"
@@ -537,6 +557,7 @@ virtual component model."
     authors:
       - name: "Collares, Leandro and Matthews, Chris and Cappos, Justin and Coady, Yvonne and McGeer, Rick"
     project: *seattle
+    anchor: et-smart-phone-home
     booktitle: "Proceedings of the Compilation of the Co-located Workshops on DSM'11, TMC'11, AGERE! 2011, AOOPES'11, NEAT'11, & VMIL'11"
     series: "SPLASH '11 Workshops"
     year: "2011"
@@ -555,6 +576,7 @@ virtual component model."
     authors:
       - name: "Wallace, Scott A. and Muhammad, Monzur and Mache, Jens and Cappos, Justin"
     project: *seattle
+    anchor: hands-on-internet
     link: "http://dl.acm.org/citation.cfm?id=2037151.2037181"
     abstract: "The Internet Connectivity module is a short assignment covering distributed computing and networking. The Internet Connectivity module is part of the curriculum created for the Northwest Distributed Computer Science Department and is built upon the Seattle distributed computing platform. In this paper, we describe the module and illustrate how Seattle facilitates networking projects and experiments that use computers/resources from across the globe. In addition, we describe how the Internet Connectivity module was used in two courses, provide some comments on students' reactions to the project, and conclude with suggestions for faculty considering how to use this module in their future courses."
 
@@ -562,6 +584,7 @@ virtual component model."
     authors:
       - name: "Cappos, Justin and Beschastnikh, Ivan and Krishnamurthy, Arvind and Anderson, Tom"
     project: *seattle
+    anchor: seattle-a-platform
     booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '09"
     year: "2009"
