@@ -1,6 +1,5 @@
 # Treat every _data file as liquid.
 # This allows us to include YAML files in other YAML files.
-
 module Jekyll
   # Monkey patch Jekyll::DataReader::read_data_file with our own implementation
   class DataReader
@@ -41,3 +40,27 @@ module Jekyll
     alias_method :read_data_file, :read_data_file_with_liquid
   end
 end
+
+# Only include the given file one time (in this call tree)
+# Useful for files that include files that include the original file
+module Jekyll
+  module Tags
+    class IncludeRelativeOnceTag < IncludeRelativeTag
+      # Create an argument to include_relative that indicates
+      # we're already 1 level deep in the inclusion, and don't
+      # go any farter down.
+      SENTINEL = 'included'
+      def render(context)
+        unless context.dig("include", SENTINEL)
+          context.stack do
+            context["include"] ||= {}
+            context["include"].merge!(SENTINEL => true)
+            super(context)
+          end
+        end
+      end
+    end
+  end
+end
+
+Liquid::Template.register_tag("include_relative_once", Jekyll::Tags::IncludeRelativeOnceTag)
