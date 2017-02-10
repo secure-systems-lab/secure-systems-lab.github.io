@@ -20,7 +20,6 @@ presses:
     date: "January 2017"
 
 
-
   - title: "Automotive ECU Updates: Keeping the Hackers Out"
     link: "http://www.eetimes.com/document.asp?doc_id=1331232"
     anchor: uptane3
@@ -59,4 +58,68 @@ presses:
     type: article
     project: *uptane
     source: "Forbes"
+    date: "January 2017"
+
+  - title: "Wanted: White hat hackers to break new automotive software updater code"
+    link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
+    anchor: uptane7
+    type: article
+    project: *uptane
+    source: "TechRepublic"
+    date: "February 2017"
+
+  - title: "White hackers to seek errors in open-source cybersecurity framework for cars"
+    link: "https://hotforsecurity.bitdefender.com/blog/white-hackers-to-seek-errors-in-open-source-cybersecurity-framework-for-cars-17550.html"
+    anchor: uptane8
+    type: article
+    project: *uptane
+    source: "Bitfender"
+    date: "January 2017"
+
+  - title: "Open source cybersecurity framework for the automotive industry"
+    link: "https://www.helpnetsecurity.com/2017/01/18/automotive-cybersecurity-framework/"
+    anchor: uptane9
+    type: article
+    project: *uptane
+    source: "helpnetsecurity"
+    date: "January 2017"
+
+  - title: "Uptane wil je 'connected car' beschermen tegen hackers"
+    link: "http://datanews.knack.be/ict/nieuws/uptane-wil-je-connected-car-beschermen-tegen-hackers/article-normal-805323.html"
+    anchor: uptane10
+    type: article-foreign
+    project: *uptane
+    source: "Knack"
+    date: "January 2017"
+
+  - title: "Call issued to white hat hackers—find the flaws in new automotive software updater"
+    link: "https://phys.org/news/2017-01-issued-white-hat-hackersfind-flaws.html"
+    anchor: uptane11
+    type: article
+    project: *uptane
+    source: "Phys.org"
+    date: "January 2017"
+
+  - title: "White hat hackers called to poke holes in open source connected car security platform"
+    link: "https://www.scmagazine.com/researchers-called-to-test-free-open-source-automotive-security-platform/article/632218/"
+    anchor: uptane12
+    type: article
+    project: *uptane
+    source: "SC Media"
+    date: "January 2017"
+
+  - title: "NYU Tandon prof unveils Homeland Security-funded framework for software security in cars"
+    link: "https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/"
+    anchor: uptane13
+    type: article
+    project: *uptane
+    source: "Technical.ly"
+    date: "January 2017"
+
+  - title: "Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater"
+    link: "https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html"
+    anchor: uptane14
+    type: article
+    project: *uptane
+    source: "Yahoo News"
     date: "January 2017"
