@@ -46,15 +46,13 @@ end
 module Jekyll
   module Tags
     class IncludeRelativeOnceTag < IncludeRelativeTag
-      # Create an argument to include_relative that indicates
-      # we're already 1 level deep in the inclusion, and don't
-      # go any farter down.
-      SENTINEL = 'included'
+      # Create a flag that indicates we're already 1 level
+      # deep in the inclusion, and don't go any farther down
+      SENTINEL = 'included_relative_once'
       def render(context)
-        unless context.dig("include", SENTINEL)
-          context.stack do
-            context["include"] ||= {}
-            context["include"].merge!(SENTINEL => true)
+        context.stack do
+          unless context[SENTINEL]
+            context[SENTINEL] = true
             super(context)
           end
         end
