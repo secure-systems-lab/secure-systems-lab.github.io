@@ -1,6 +1,4 @@
-{% unless include.included %}
-  {% include_relative _data/people.yml included=true %}
-{% endunless %}
+{% include_relative_once _data/people.yml %}
 
 statuses:
   - stealth: &stealth

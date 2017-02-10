@@ -1,15 +1,15 @@
-{% unless include.included %}
-  {% include_relative _data/projects.yml included=true %}
-{% endunless %}
+{% include_relative_once _data/projects.yml %}
 
-intro: "Selected, recent papers from the Secure Systems Lab"
+intro: "Selected, recent papers from the Secure Systems Lab.  
+Click a project name to filter by project."
 
 publications:
-  - title: "Uptane: Securing Software Updates for Automobiles"
+  - &kuppusamy_escar_16
+    anchor: kuppusamy_escar_16
+    title: "Uptane: Securing Software Updates for Automobiles"
     authors:
       - name: "Karthik, Trishank and Brown, Akan and Awwad, Sebastien and McCoy, Damon and Bielawski, Russ and Mott, Cameron and Lauzon, Sam and Weimerskirch, Andr{\'e} and Cappos, Justin"
     project: *uptane
-    anchor: kuppusamy_escar_16
     booktitle: "ESCAR 2016"
     link: "/papers/kuppusamy_escar_16.pdf"
     abstract: "Software update systems for automobiles can deliver significant
@@ -37,11 +37,12 @@ vulnerabilities and limitations. Uptane is flexible and easy
 to adopt, and its design details were developed together with the
 main automotive industry stakeholders in the USA."
 
-  - title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
+  - &torres_toto_usenixsec-2016
+    anchor: torres_toto_usenixsec-2016
+    title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
     authors:
       - name: "Torres-Arias, Santiago and Ammula, Anil Kumar and Curtmola, Reza and Cappos, J"
     project: *in-toto
-    anchor: torres_toto_usenixsec-2016
     booktitle: "25th USENIX Security Symposium, USENIX Security"
     volume: "16"
     pages: "10-12"
@@ -73,11 +74,12 @@ disclosure of the attacks and are working with the Git
 community to fix these issues in an upcoming version of
 Git."
 
-  - title: "Diplomat: Using Delegations to Protect Community Repositories"
+  - &kuppusamy_nsdi_16
+    anchor: kuppusamy_nsdi_16
+    title: "Diplomat: Using Delegations to Protect Community Repositories"
     authors:
       - name: "Trishank Karthik Kuppusamy and Santiago Torres-Arias and Vladimir Diaz and Justin Cappos"
     project: *tuf
-    anchor: kuppusamy_nsdi_16
     booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
     year: "2016"
     isbn: "978-1-931971-29-4"
@@ -89,21 +91,23 @@ Git."
 
 This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
 
-  - title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
+  - &Peddinti_ICWSM_2016
+    anchor: Peddinti_ICWSM_2016
+    title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
     authors:
       - name: "Peddinti, Sai Teja and Ross, Keith W and Cappos, Justin"
-    anchor: Peddinti_ICWSM_2016
     booktitle: "Tenth International AAAI Conference on Web and Social Media"
     year: "2016"
     link: "/papers/Peddinti_ICWSM_2016.pdf"
     abstract: "We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons."
     eprint: "arXiv:1702.00164"
 
-  - title: "Fence: Protecting Device Availability With Uniform Resource Control"
+  - &li-usenix-fence-2015
+    anchor: li-usenix-fence-2015
+    title: "Fence: Protecting Device Availability With Uniform Resource Control"
     authors:
       - name: "Tao Li and Albert Rafetseder and Rodrigo Fonseca and Justin Cappos"
     project: *seattle
-    anchor: li-usenix-fence-2015
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
@@ -139,11 +143,12 @@ Fence is publicly available and has been deployed
 in practice for five years, protecting tens of thousands of
 users"
 
-  - title: "Detecting latent cross-platform API violations"
+  - &rasley_checkapi_issre2015
+    anchor: rasley_checkapi_issre2015
+    title: "Detecting latent cross-platform API violations"
     authors:
       - name: "J. Rasley and E. Gessiou and T. Ohmann and Y. Brun and S. Krishnamurthi and J. Cappos"
     project: *seattle
-    anchor: rasley_checkapi_issre2015
     booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
     year: "2015"
     pages: " 484-495"
@@ -172,12 +177,13 @@ partial implementations. Validating CheckAPI on JavaScript,
 the Seattle project's Repy VM, and POSIX detects dozens of
 violations that are confirmed bugs in widely-used software."
 
-  - title: "Can the Security Mindset Make Students Better Testers?"
+  - &hooshangi_sigcse15
+    anchor: hooshangi_sigcse15
+    title: "Can the Security Mindset Make Students Better Testers?"
     authors:
       - name: "Hooshangi, Sara and Weiss, Richard and Cappos, Justin"
     booktitle: "Proceedings of the 46th ACM Technical Symposium on Computer Science Education"
     project: *seattle
-    anchor: hooshangi_sigcse15
     series: "SIGCSE '15"
     year: "2015"
     isbn: "978-1-4503-2966-8"
@@ -191,11 +197,12 @@ violations that are confirmed bugs in widely-used software."
     link: "/papers/hooshangi_sigcse15.pdf"
     abstract: "Writing secure code requires a programmer to think both as a defender and an attacker. One can draw a parallel between this model of thinking and techniques used in test-driven development, where students learn by thinking about how to effectively test their code and anticipate possible bugs. In this study, we analyzed the quality of both attack and defense code that students wrote for an assignment given in an introductory security class of 75 (both graduate and senior undergraduate levels) at NYU. We made several observations regarding students' behaviors and the quality of both their defensive and offensive code. We saw that student defensive programs (i.e., assignments) are highly unique and that their attack programs (i.e., test cases) are also relatively unique. In addition, we examined how student behaviors in writing defense programs correlated with their attack program's effectiveness. We found evidence that students who learn to write good defensive programs can write effective attack programs, but the converse is not true. While further exploration of causality is needed, our results indicate that a greater pedagogical emphasis on defensive security may benefit students more than one that emphasizes offense."
 
-  - title: "Trust Evaluation in Mobile Devices: An Empirical Study"
+  - &weiss_trustcom2015
+    anchor: weiss_trustcom2015
+    title: "Trust Evaluation in Mobile Devices: An Empirical Study"
     authors:
       - name: "R. Weiss and L. Reznik and Y. Zhuang and A. Hoffman and D. Pollard and A. Rafetseder and T. Li and J. Cappos"
     project: *sensibility
-    anchor: weiss_trustcom2015
     booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
     year: "2015"
     volume: "1"
@@ -207,11 +214,12 @@ violations that are confirmed bugs in widely-used software."
 
 
 #  JAC: Poster
-#  - title: "Sensibility testbed: An internet-wide cloud platform for programmable exploration of mobile devices"
+#  - &sensibility-testbed
+#    anchor: sensibility-testbed
+#    title: "Sensibility testbed: An internet-wide cloud platform for programmable exploration of mobile devices"
 #    authors:
 #      - name: "Y. Zhuang and L. Law and A. Rafetseder and L. Wang and I. Beschastnikh and J. Cappos"
 #    project: *sensibility
-#    anchor: sensibility-testbed
 #    booktitle: "2014 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)"
 #    year: "2014"
 #    pages: "139-140"
@@ -220,11 +228,12 @@ violations that are confirmed bugs in widely-used software."
 #    month: "April"
 #    abstract: "Smartphones contain sensors that provide information about the user of the device. Studying smartphones, therefore, provides an invaluable window into the behavioral patterns of users. In this work, we describe an open infrastructure that provides research communities with principled access to mobile devices and their sensors. Our platform, the Sensibility Testbed, is a free, community-driven platform for mobile devices. It provides secure data access to user-owned mobile devices while preserving user privacy. The unified programmable interface to sensors on heterogeneous devices in the Sensibility Testbed enables research scientists to design and deploy experiments that run across large numbers of devices, for example to measure the coverage and performance of cellular and WiFi networks. The Sensibility Testbed makes the sensing capabilities of smartphones more accessible to a broad range of researchers."
 
-  - title: "BlurSense: Dynamic fine-grained access control for smartphone privacy"
+  - &cappos_blursense_sas_14
+    anchor: cappos_blursense_sas_14
+    title: "BlurSense: Dynamic fine-grained access control for smartphone privacy"
     authors:
       - name: "J. Cappos and L. Wang and R. Weiss and Y. Yang and Y. Zhuang"
     project: *sensibility
-    anchor: cappos_blursense_sas_14
     booktitle: "2014 IEEE Sensors Applications Symposium (SAS)"
     year: "2014"
     pages: "329-332"
@@ -233,11 +242,12 @@ violations that are confirmed bugs in widely-used software."
     link: "/papers/cappos_blursense_sas_14.pdf"
     abstract: "For many people, smartphones serve as a technical interface to the modern world. These smart devices have embedded on-board sensors, such as accelerometers, gyroscopes, GPS sensors, and cameras, which can be used to develop new mobile applications. However, the sensors also pose privacy risks to users. This work describes BlurSense, a tool that provides secure and customizable access to all of the sensors on smartphones, tablets, and similar end user devices. The current access control to the smartphone resources, such as sensor data, is static and coarse-grained. BlurSense is a dynamic, fine-grained, flexible access control mechanism, acting as a line of defense that allows users to define and add privacy filters. As a result, the user can expose filtered sensor data to untrusted apps, and researchers can collect data in a way that safeguards users' privacy."
 
-  - title: "A first look at vehicle data collection via smartphone sensors"
+  - &reininger_sensevis_sas15
+    anchor: reininger_sensevis_sas15
+    title: "A first look at vehicle data collection via smartphone sensors"
     authors:
       - name: "M. Reininger and S. Miller and Y. Zhuang and J. Cappos"
     project: *sensibility
-    anchor: reininger_sensevis_sas15
     booktitle: "2015 IEEE Sensors Applications Symposium (SAS)"
     year: "2015"
     pages: "1-6"
@@ -246,11 +256,12 @@ violations that are confirmed bugs in widely-used software."
     link: "/papers/reininger_sensevis_sas15.pdf"
     abstract: "Smartphones serve as a technical interface to the outside world. These devices have embedded, on-board sensors (such as accelerometers, WiFi, and GPSes) that can provide valuable information for investigating users' needs and behavioral patterns. Similarly, computers that are embedded in vehicles are capable of collecting valuable sensor data that can be accessed by smartphones through the use of On-Board Diagnostics (OBD) sensors. This paper describes a prototype of a mobile computing platform that provides access to vehicles' sensors by using smartphones and tablets, without compromising these devices' security. Data such as speed, engine RPM, fuel consumption, GPS locations, etc. are collected from moving vehicles by using a WiFi On-Board Diagnostics (OBD) sensor, and then backhauled to a remote server for both real-time and offline analysis. We describe the design and implementation details of our platform, for which we developed a library for in-vehicle sensor access and created a non-relational database for scalable backend data storage. We propose that our data collection and visualization tools are useful for analyzing driving behaviors; we also discuss future applications, security, and privacy concerns specific to vehicular networks."
 
-  - title: "Selectively Taming Background Android Apps to Improve Battery Lifetime"
+  - &martins-atc15-camera
+    anchor: martins-atc15-camera
+    title: "Selectively Taming Background Android Apps to Improve Battery Lifetime"
     authors:
       - name: "Marcelo Martins and Justin Cappos and Rodrigo Fonseca"
     project: *seattle
-    anchor: martins-atc15-camera
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
@@ -260,10 +271,11 @@ violations that are confirmed bugs in widely-used software."
     publisher: "USENIX Association"
     abstract: "Background activities on mobile devices can cause significant battery drain with little visibility or recourse to the user. They can range from useful but sometimes overly aggressive tasks, such as polling for messages or updates from sensors and online services, to outright bugs that cause resources to be held unnecessarily. In this paper we instrument the Android OS to characterize background activities that prevent the device from sleeping. We present TAMER, an OS mechanism that interposes on events and signals that cause task wakeups, and allows for their detailed monitoring, filtering, and rate-limiting. We demonstrate how TAMER can help reduce battery drain in scenarios involving popular Android apps with background tasks. We also show how TAMER can mitigate the effects of well-known energy bugs while maintaining most of the apps' functionality. Finally, we elaborate on how developers and users can devise their own application-control policies for TAMER to maximize battery lifetime."
 
-  - title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
+  - &peddenti_cosn_14
+    anchor: peddenti_cosn_14
+    title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
     authors:
       - name: "Peddinti, Sai Teja and Ross, Keith W. and Cappos, Justin"
-    anchor: peddenti_cosn_14
     booktitle: "Proceedings of the Second ACM Conference on Online Social Networks"
     series: "COSN '14"
     year: "2014"
@@ -280,11 +292,12 @@ violations that are confirmed bugs in widely-used software."
 
 In this work we perform a large-scale analysis of Twitter to study the prevalence and behavior of Anonymous and Identifiable users. We employ Amazon Mechanical Turk (AMT) to classify Twitter users as Highly Identifiable, Identifiable, Partially Anonymous, and Anonymous. We find that a significant fraction of accounts are Anonymous or Partially Anonymous, demonstrating the importance of Anonymity in Twitter. We then select several broad topic categories that are widely considered sensitive--including pornography, escort services, sexual orientation, religious and racial hatred, online drugs, and guns--and find that there is a correlation between content sensitivity and a user's choice to be anonymous. Finally, we find that Anonymous users are generally less inhibited to be active participants, as they tweet more, lurk less, follow more accounts, and are more willing to expose their activity to the general public. To our knowledge, this is the first paper to conduct a large-scale data-driven analysis of user anonymity in online social networks."
 
-  - title: "NetCheck: Network Diagnoses from Blackbox Traces"
+  - &zhuang_netcheck_nsdi_14
+    anchor: zhuang_netcheck_nsdi_14
+    title: "NetCheck: Network Diagnoses from Blackbox Traces"
     authors:
       - name: "Yanyan Zhuang and Eleni Gessiou and Steven Portzer and Fraida Fund and Monzur Muhammad and Ivan Beschastnikh and Justin Cappos"
     project: *netcheck
-    anchor: zhuang_netcheck_nsdi_14
     booktitle: "11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14)"
     year: "2014"
     isbn: "978-1-931971-09-6"
@@ -296,21 +309,23 @@ In this work we perform a large-scale analysis of Twitter to study the prevalenc
 
 Our evaluation demonstrates that NetCheck is able to diagnose failures in popular and complex applications without relying on any application- or network-specific information. For instance, NetCheck correctly identified the existence of NAT devices, simultaneous network disconnection/ reconnection, and platform portability issues. In a more targeted evaluation, NetCheck correctly detects over 95% of the network problems we found from bug trackers of projects like Python, Apache, and Ruby. When applied to traces of faults reproduced in a live network, NetCheck identified the primary cause of the fault in 90% of the cases. Additionally, NetCheck is efficient and can process a GB-long trace in about 2 minutes."
 
-  - title: "PolyPasswordHasher: Protecting Passwords In The Event Of A Password File Disclosure"
+  - &polypasswordhasher_TR
+    anchor: polypasswordhasher_TR
+    title: "PolyPasswordHasher: Protecting Passwords In The Event Of A Password File Disclosure"
     authors:
       - name: "Cappos, Justin and Torres, Santiago"
     project: *pph
-    anchor: polypasswordhasher_TR
     year: "2014"
     institution: "Technical report"
     link: "https://github.com/PolyPasswordHasher/PolyPasswordHasher/blob/master/academic-writeup/paper.pdf"
     abstract: "Over the years, we have witnessed various password-hash database breaches that have affected small and large companies, with a diversity of users and budgets. The industry standard, salted hashing (and even key stretching), has proven to be insufficient protection against attackers who now have access to clusters of GPU-powered password crackers. Although there are various proposals for better securing password storage, most do not offer the same adoption model (software-only, server-side) as salted hashing, which may impede adoption. In this paper, we present PolyPasswordHasher, a software-only, server-side password storage mechanism that requires minimal additional work for the server, but exponentially increases the attacker's effort. PolyPasswordHasher uses a threshold cryptosystem to interrelate stored password data so that passwords cannot be individually cracked. Our analysis shows that PolyPasswordHasher is memory and storage efficient, hard to crack, and easy to implement. In many realistic scenarios, cracking a PolyPasswordHasher-enabled database would be infeasible even for an adversary with millions of computers."
 
-  - title: "Teaching the Security Mindset with Reference Monitors"
+  - &cappos_refmonitor_sigcse_14
+    anchor: cappos_refmonitor_sigcse_14
+    title: "Teaching the Security Mindset with Reference Monitors"
     authors:
       - name: "Cappos, Justin and Weiss, Richard"
     project: *seattle
-    anchor: cappos_refmonitor_sigcse_14
     booktitle: "Proceedings of the 45th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '14"
     year: "2014"
@@ -327,11 +342,12 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     keywords: "experience report, laboratory experience, privacy, security"
     abstract: "One of the central skills in computer security is reasoning about how programs fail. As a result, computer security necessarily involves thinking about the corner cases that arise when software executes. An unfortunate side effect of this is that computer security assignments typically necessitate deep understanding of a topic, such as how the stack is laid out in memory or how web applications interact with databases. This work presents a series of assignments that require very little background knowledge from students, yet provide them with the ability to reason about failures in programs. In this set of assignments, students implement two very simple programs in a high-level language (Python). Students first implement a reference monitor that tries to uphold a security property within a sandbox. For the second portion, the students are provided each others' reference monitors and then write attack code to try to bypass the reference monitors. By leveraging a Python-based sandbox, student code is isolated cleanly, which simplifies development and grading. These assignments have been used in about a dozen classes in a range of environments, including a research university, online classes, and a four year liberal arts school. Student and instructor feedback has been overwhelmingly positive. Furthermore, survey results demonstrate that after a 2-3 week module, 76% of the students who did not understand reference monitors and access control learned these key security concepts."
 
-  - title: "It's the Psychology Stupid: How Heuristics Explain Software Vulnerabilities and How Priming Can Illuminate Developer's Blind Spots"
+  - &oliveira_puzzles_acsac_2014
+    anchor: oliveira_puzzles_acsac_2014
+    title: "It's the Psychology Stupid: How Heuristics Explain Software Vulnerabilities and How Priming Can Illuminate Developer's Blind Spots"
     authors:
       - name: "Oliveira, Daniela and Rosenthal, Marissa and Morin, Nicole and Yeh, Kuo-Chuan and Cappos, Justin and Zhuang, Yanyan"
     project: *blindspots
-    anchor: oliveira_puzzles_acsac_2014
     booktitle: "Proceedings of the 30th Annual Computer Security Applications Conference"
     series: "ACSAC '14"
     year: "2014"
@@ -347,11 +363,12 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
 
 To validate this hypothesis we conducted a study with 47 developers using psychological manipulation. In this study each developer worked for approximately one hour on six vulnerable programming scenarios. The sessions progressed from providing no information about the possibility of vulnerabilities, to priming developers about unexpected results, and explicitly mentioning the existence of vulnerabilities in the code. The results show that (i) security is not a priority in software development environments, (ii) security is not part of developer's mindset while coding, (iii) developers assume common cases for their code, (iv) security thinking requires cognitive effort, (v) security education helps, but developers can have difficulties correlating a particular learned vulnerability or security information with their current working task, and (vi) priming or explicitly cueing about vulnerabilities on-the-spot is a powerful mechanism to make developers aware about potential vulnerabilities."
 
-  - title: "Vulnerabilities As Blind Spots in Developer's Heuristic-Based Decision-Making Processes"
+  - &cappos_nspw_2014
+    anchor: cappos_nspw_2014
+    title: "Vulnerabilities As Blind Spots in Developer's Heuristic-Based Decision-Making Processes"
     authors:
       - name: "Cappos, Justin and Zhuang, Yanyan and Oliveira, Daniela and Rosenthal, Marissa and Yeh, Kuo-Chuan"
     project: *blindspots
-    anchor: cappos_nspw_2014
     booktitle: "Proceedings of the 2014 New Security Paradigms Workshop"
     series: "NSPW '14"
     year: "2014"
@@ -366,11 +383,12 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     keywords: "api, automated checker, blind spots, cueing, heuristics, puzzles, vulnerabilities"
     abstract: "The security community spares no effort in emphasizing security awareness and the importance of building secure software. However, the number of new vulnerabilities found in today's systems is still increasing. Furthermore, old and well-studied vulnerability types such as buffer overflows and SQL injections, are still repeatedly reported in vulnerability databases. Historically, the common response has been to blame the developers for their lack of security education. This paper discusses a new hypothesis to explain this problem by introducing a new security paradigm where software vulnerabilities are viewed as developers' blind spots in their decision making. We argue that such a flawed mental process is heuristic-based, where humans solve problems without considering all the information available, just like taking shortcuts. This paper's thesis is that security thinking tends to be left out by developers during their programming, as vulnerabilities usually exist in corner cases with unusual information flows. Leveraging this paradigm, this paper introduces a novel methodology for capturing and understanding security-related blind spots in Application Programming Interfaces (APIs). Finally, it discusses how this methodology can be applied to the design and implementation of the next generation of automated diagnosis tools."
 
-  - title: "NetCheck Test Cases: Input Traces and NetCheck Output"
+  - &tr-cse-2013-03
+    anchor: tr-cse-2013-03
+    title: "NetCheck Test Cases: Input Traces and NetCheck Output"
     authors:
       - name: "Cappos, Justin and Zhuang, Yanyan Zhuang and Beschastnikh, Ivan"
     project: *netcheck
-    anchor: tr-cse-2013-03
     link: "/papers/tr-cse-2013-03.pdf"
     abstract: "Application failures due to network issues are some of the most difficult to diagnose
 and debug. This is because the failure may be due to in-network state or
@@ -392,11 +410,12 @@ a network model. The model is also used to identify those syscalls that deviate
 from expected network semantics. These deviations are then mapped to a
 diagnosis by using a set of heuristics."
 
-  - title: "Experience with Seattle: A Community Platform for Research and Education"
+  - &zhuang_seattle_gree_13
+    anchor: zhuang_seattle_gree_13
+    title: "Experience with Seattle: A Community Platform for Research and Education"
     authors:
       - name: "Y. Zhuang and A. Rafetseder and J. Cappos"
     project: *seattle
-    anchor: zhuang_seattle_gree_13
     booktitle: "2013 Second GENI Research and Educational Experiment Workshop"
     year: "2013"
     pages: "37-44"
@@ -405,12 +424,13 @@ diagnosis by using a set of heuristics."
     link: "/papers/zhuang_seattle_gree_13.pdf"
     abstract: "Hands-on experience is a critical part of research and education. Today's distributed testbeds fulfill that need for many students studying networking, distributed systems, cloud computing, security, operating systems, and similar topics. In this work, we discuss one such testbed, Seattle. Seattle is an open research and educational testbed that utilizes computational resources provided by end users on their existing devices. Unlike most other platforms, resources are not dedicated to the platform which allows a greater degree of network diversity and realism at the cost of programmability. Seattle is designed to preserve user security and to minimally impact application performance. We describe the architectural design of Seattle, and summarize our experiences with Seattle over the past few years as both researchers and educators. We have found that Seattle is very easy to adopt due to cross-platform support, and is also surprisingly easy for students to use. While there are programmability limitations, it is possible to construct complex applications integrated with real devices, networks, and users with Seattle as a core component. From an educational standpoint, Seattle has been shown not only to be useful as a teaching tool, it has been successful in variety of different systems classes at a variety of different types of schools. In our experience, when low-level programmability is not the main requirement, Seattle can supersede many existing testbeds for diverse educational and research tasks"
 
-  - title: "Avoiding theoretical optimality to efficiently and privately retrieve security updates"
+  - &cappos_uppir_fc_13
+    anchor: cappos_uppir_fc_13
+    title: "Avoiding theoretical optimality to efficiently and privately retrieve security updates"
     keywords: "Performance, Practical Security, Private Information Retrieval"
     authors:
       - name: "Justin Cappos"
     project: *uppir
-    anchor: cappos_uppir_fc_13
     year: "2013"
     isbn: "9783642398834"
     volume: "7859 LNCS"
@@ -431,11 +451,12 @@ data) fast enough to saturate a T3 link. Measurements run using mirrors
 distributed around the Internet demonstrate that a client can download
 software updates with upPIR about as quickly as with FTP."
 
-  - title: "Sensorium-A Generic Sensor Framework."
+  - &rafetseder_sensorium_netsys_13
+    anchor: rafetseder_sensorium_netsys_13
+    title: "Sensorium-A Generic Sensor Framework."
     authors:
       - name: "Rafetseder, Albert and Metzger, Florian and P{\"u}hringer, Lukas and Tutschku, Kurt and Zhuang, Yanyan and Cappos, Justin"
     project: *sensibility
-    anchor: rafetseder_sensorium_netsys_13
     journal: "Praxis der Informationsverarbeitung und Kommunikation"
     volume: "36"
     number: "1"
@@ -454,10 +475,11 @@ we crowd-source radio reception quality measurements in 3G
 networks. We combine the data into an open geo-information
 system."
 
-  - title: "Future Internet Bandwidth Trends: An Investigation on Current and Future Disruptive Technologies"
+  - &tr-cse-2013-04
+    anchor: tr-cse-2013-04
+    title: "Future Internet Bandwidth Trends: An Investigation on Current and Future Disruptive Technologies"
     authors:
       - name: "Zhuang, Yanyan and Cappos, Justin and Rappaport, Theodore S and McGeer, Rick"
-    anchor: tr-cse-2013-04
     year: "2013"
     institution: "Tech. rep. tr-cse-2013-04, Polytechnic Institute of NYU"
     link: "/papers/tr-cse-2013-04.pdf"
@@ -492,11 +514,12 @@ from this study can help business leaders
 and policy makers get an early jump on emerging technologies
 before they begin to shape the economy and society."
 
-  - title: "Towards a representive testbed: Harnessing volunteers for networks research"
+  - &muhammad_seattle_geni_12
+    anchor: muhammad_seattle_geni_12
+    title: "Towards a representive testbed: Harnessing volunteers for networks research"
     authors:
       - name: "Muhammad, Monzur and Cappos, Justin"
     project: *seattle
-    anchor: muhammad_seattle_geni_12
     booktitle: "The First GENI Research and Educational Workshop, GREE"
     volume: "12"
     year: "2012"
@@ -523,10 +546,11 @@ of over 4100 nodes and is constantly growing. Seattle looks
 to grow and meet the demands of networking testbeds as
 they are made."
 
-  - title: "Lind: Challenges turning virtual composition into reality"
+  - &matthews_etal
+    anchor: matthews_etal
+    title: "Lind: Challenges turning virtual composition into reality"
     authors:
       - name: "Matthews, Chris and Cappos, Justin and McGeer, Rick and Neville, Stephen and Coady, Yvonne"
-    anchor: matthews_etal
     booktitle: "Freeco 2011 Onward! Workshop: Towards Free Composition of Software Modules"
     year: "2011"
     link: "/papers/matthews_etal.pdf"
@@ -557,11 +581,12 @@ performance, isolation, security and composition provides
 insight into the possible advantages and disadvantages of a
 virtual component model."
 
-  - title: "ET (Smart) Phone Home!"
+  - &collares_ET_neat_11
+    anchor: collares_ET_neat_11
+    title: "ET (Smart) Phone Home!"
     authors:
       - name: "Collares, Leandro and Matthews, Chris and Cappos, Justin and Coady, Yvonne and McGeer, Rick"
     project: *seattle
-    anchor: collares_ET_neat_11
     booktitle: "Proceedings of the Compilation of the Co-located Workshops on DSM'11, TMC'11, AGERE! 2011, AOOPES'11, NEAT'11, & VMIL'11"
     series: "SPLASH '11 Workshops"
     year: "2011"
@@ -576,19 +601,21 @@ virtual component model."
     keywords: "distributed systems, human-computer interaction, network troubleshooting, sandbox environments, smartphones"
     abstract: "Most home users are not able to troubleshoot advanced network issues themselves. Hours on the phone with an ISP's customer representative is a common way to solve this problem. With the advent of mobile devices with both Wi-Fi and cellular radios, troubleshooters at the ISP have a new back-door into a malfunctioning residential network. However, placing full trust in an ISP is a poor choice for a home user. In this paper we present Extra Technician (ET), a system designed to provide ISPs and others with an environment to troubleshoot home networking in a remote, safe and flexible manner."
 
-  - title: "Hands-on Internet with Seattle and Computers from Across the Globe"
+  - &wallace_JCSC_seattle_2011
+    anchor: wallace_JCSC_seattle_2011
+    title: "Hands-on Internet with Seattle and Computers from Across the Globe"
     authors:
       - name: "Wallace, Scott A. and Muhammad, Monzur and Mache, Jens and Cappos, Justin"
     project: *seattle
-    anchor: wallace_JCSC_seattle_2011
     link: "/papers/wallace_JCSC_seattle_2011.pdf"
     abstract: "The Internet Connectivity module is a short assignment covering distributed computing and networking. The Internet Connectivity module is part of the curriculum created for the Northwest Distributed Computer Science Department and is built upon the Seattle distributed computing platform. In this paper, we describe the module and illustrate how Seattle facilitates networking projects and experiments that use computers/resources from across the globe. In addition, we describe how the Internet Connectivity module was used in two courses, provide some comments on students' reactions to the project, and conclude with suggestions for faculty considering how to use this module in their future courses."
 
-  - title: "Seattle: A Platform for Educational Cloud Computing"
+  - &cappos_seattle_sigcse_2009
+    anchor: cappos_seattle_sigcse_2009
+    title: "Seattle: A Platform for Educational Cloud Computing"
     authors:
       - name: "Cappos, Justin and Beschastnikh, Ivan and Krishnamurthy, Arvind and Anderson, Tom"
     project: *seattle
-    anchor: cappos_seattle_sigcse_2009
     booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '09"
     year: "2009"
@@ -626,3 +653,43 @@ current deployment of Seattle consists of about one thousand
 computers that are distributed around the world. We
 invite the computer science education community to employ
 Seattle in their courses."
+
+publication_cards:
+  - type: Conference Papers
+    anchor: conference
+    publications:
+      - *kuppusamy_escar_16
+      - *torres_toto_usenixsec-2016
+      - *kuppusamy_nsdi_16
+      - *Peddinti_ICWSM_2016
+      - *rasley_checkapi_issre2015
+      - *weiss_trustcom2015
+      - *li-usenix-fence-2015
+      - *martins-atc15-camera
+      - *reininger_sensevis_sas15
+      - *hooshangi_sigcse15
+      - *oliveira_puzzles_acsac_2014
+      - *peddenti_cosn_14
+      - *zhuang_netcheck_nsdi_14
+      - *cappos_blursense_sas_14
+      - *cappos_refmonitor_sigcse_14
+      - *cappos_uppir_fc_13
+      - *cappos_seattle_sigcse_2009
+
+  - type: Workshop Papers
+    anchor: workshop
+    publications:
+      - *cappos_nspw_2014
+      - *zhuang_seattle_gree_13
+      - *rafetseder_sensorium_netsys_13
+      - *muhammad_seattle_geni_12
+      - *matthews_etal
+      - *collares_ET_neat_11
+
+  - type: Journal Articles, Magazines, Tech Reports, etc.
+    anchor: journals
+    publications:
+      - *polypasswordhasher_TR
+      - *tr-cse-2013-04
+      - *tr-cse-2013-03
+      - *wallace_JCSC_seattle_2011
