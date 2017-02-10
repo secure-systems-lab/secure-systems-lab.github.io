@@ -19,6 +19,8 @@ presses:
     source: "Texas Public Radio"
     date: "January 2017"
 
+
+
   - title: "Automotive ECU Updates: Keeping the Hackers Out"
     link: "http://www.eetimes.com/document.asp?doc_id=1331232"
     anchor: uptane3
@@ -35,4 +37,26 @@ presses:
     source: "iMasters"
     date: "January 2017"
 
+  - title: "Automotive software developers call on hackers to find its flaws"
+    link: "http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/"
+    anchor: uptane4
+    type: article
+    project: *uptane
+    source: "ITS International"
+    date: "January 2017"
 
+  - title: "Are software updates key to stopping criminal car hacks?"
+    link: "http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks"
+    anchor: uptane5
+    type: article
+    project: *uptane
+    source: "Christian Science Monitor"
+    date: "January 2017"
+
+  - title: "Uptane will protect your car from hackers"
+    link: "http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25"
+    anchor: uptane6
+    type: article
+    project: *uptane
+    source: "Forbes"
+    date: "January 2017"
