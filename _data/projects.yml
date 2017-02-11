@@ -12,7 +12,7 @@ statuses:
       description: "Many people are using this.  Join them!"
   - retired: &retired
       name: Retired
-      description: "We learned what we can and not actively developing anymore."
+      description: "We learned what we can and are not actively developing anymore."
 
 tags:
   - software_updates: &software_updates
@@ -383,9 +383,9 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
 Please read our blog to learn about our experiences."
       people:
         - *yanyan_zhuang
-        - name: "Eleni Gessiou" 
-        - name: "Steven Portzer" 
-        - name: "Fraida Fund" 
+        - name: "Eleni Gessiou"
+        - name: "Steven Portzer"
+        - name: "Fraida Fund"
         - name: "Monzur Muhammad"
         - name: "Ivan Beschastnikh (UBC)"
           link: "https://www.cs.ubc.ca/~bestchai/"
@@ -428,7 +428,7 @@ Please read our blog to learn about our experiences."
         - *trishank_kuppusamy
         - name: "Keith Ross"
           link: "http://engineering.nyu.edu/people/keith-w-ross"
-        - name: "Nasir Memon" 
+        - name: "Nasir Memon"
           link: "http://engineering.nyu.edu/people/nasir-memon"
         - *justin_cappos
       tags:
