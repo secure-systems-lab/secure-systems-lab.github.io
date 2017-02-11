@@ -4,6 +4,15 @@
 @import 'variables';
 @import 'filter_tags';
 
+.people-toc {
+  width: 100%;
+  @media(min-width: $big-phone) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
 .type {
   margin-top: 0.75em;
   margin-bottom: 0.5em;

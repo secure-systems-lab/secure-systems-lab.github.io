@@ -10,8 +10,12 @@ i a.selected {
 
 .toc {
   margin-top: 1rem;
+  text-align: center;
+  font-size: 1.0em;
 
   li {
+    display: inline-block;
+
     a {
       text-decoration: underline;
       &.selected { color: #d580ff; }
@@ -21,18 +25,16 @@ i a.selected {
           color: black;
           text-decoration: none;
       }
-    }
 
-    display: block;
-    font-size: 1em;
+      margin-right: 0.3em;
+      margin-left: 0.3em;
+    }
   }
 
   @media(min-width: $tablet) {
     margin: 2rem 0 0;
-    text-align: center;
 
     li {
-      display: inline-block;
       margin-right: 1em;
       margin-top: 0.2em;
       font-size: 1.5em;
