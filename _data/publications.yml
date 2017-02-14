@@ -6,7 +6,7 @@ Click a project name to filter by project."
 publications:
 
   - &bender_sas_17
-    anchor: hooshangi_sas_17
+    anchor: bender_sas_17
     title: "Measuring the Fitness of Fitness Trackers"
     authors:
       - name: "C. Bender, J. Hoffstot, B. Combs, S. Hooshangi, and J. Cappos"
@@ -420,6 +420,45 @@ violations that are confirmed bugs in widely-used software."
     publisher: "USENIX Association"
     abstract: "Background activities on mobile devices can cause significant battery drain with little visibility or recourse to the user. They can range from useful but sometimes overly aggressive tasks, such as polling for messages or updates from sensors and online services, to outright bugs that cause resources to be held unnecessarily. In this paper we instrument the Android OS to characterize background activities that prevent the device from sleeping. We present TAMER, an OS mechanism that interposes on events and signals that cause task wakeups, and allows for their detailed monitoring, filtering, and rate-limiting. We demonstrate how TAMER can help reduce battery drain in scenarios involving popular Android apps with background tasks. We also show how TAMER can mitigate the effects of well-known energy bugs while maintaining most of the apps' functionality. Finally, we elaborate on how developers and users can devise their own application-control policies for TAMER to maximize battery lifetime."
 
+  - &zhuang-tr-cse-2015-01
+    anchor: zhuang-tr-cse-2015-01
+    title: "Tsumiki: A Meta-Platform for Building your own Testbed"
+    authors:
+      - name: "J. Cappos, Y. Zhuang, A. Rafetseder, and I. Beschastnikh"
+    year: "2015"
+    institution: "Tech. rep. tr-cse-2015-0, NYU Polytechnic"
+    link: "/papers/zhuang-tr-cse-2015-01.pdf"
+    abstract: "New technologies sometimes result in disruptive changes
+to the existing infrastructure. Without adequate foresight,
+industry, academia, and government can be caught
+flat-footed. In this work, we focus on the trends surrounding
+home Internet bandwidth - the bandwidth required
+by end user applications at home. As building and
+managing last mile network infrastructure incurs substantial
+cost, the foresight of such trends is necessary to
+plan upgrades.
+Using a bottom-up approach, we look at four potentially
+disruptive technologies, including millimeter wave
+wireless (mm-wave), the Internet of Things (IoT), Fog
+Computing, and Software Defined Networking (SDN).
+We examine use cases proposed by academia and industry,
+delve into the bandwidth requirements for proposed
+applications, and use this data to forecast future traffic
+demands for typical home users. Our projections show
+that bandwidth changes at end user devices will most
+likely be driven by two of the above technologies: millimeter
+wave wireless and Fog Computing. These technologies
+not only change the peak bandwidth, but also
+have noticeable secondary effects on bandwidth such as
+increasing upload bandwidth use, improving flash crowd
+tolerance, and increasing off-peak demand. While IoT
+and SDN are important, innovative technologies, they
+will not drastically alter the bandwidth usage patterns of
+ordinary users at home. We hope that the data and recommendations
+from this study can help business leaders
+and policy makers get an early jump on emerging technologies
+before they begin to shape the economy and society."
+
   - &peddenti_cosn_14
     anchor: peddenti_cosn_14
     title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
@@ -603,7 +642,7 @@ software updates with upPIR about as quickly as with FTP."
 
   - &rafetseder_sensorium_netsys_13
     anchor: rafetseder_sensorium_netsys_13
-    title: "Sensorium-A Generic Sensor Framework."
+    title: "Sensorium-A Generic Sensor Framework"
     authors:
       - name: "A. Rafetseder, F. Metzger, L. Pühringer, K. Tutschku,  Y. Zhuang, and J. Cappos"
     project: *sensibility
@@ -698,9 +737,10 @@ they are made."
 
   - &matthews_etal
     anchor: matthews_etal
-    title: "Lind: Challenges turning virtual composition into reality"
+    title: "Lind: Challenges Turning Virtual Composition into Reality"
     authors:
       - name: "C. Matthews, J. Cappos, R. McGeer, S. Neville,  and Y. Coady"
+    project: *lind
     booktitle: "Freeco 2011 Onward! Workshop: Towards Free Composition of Software Modules"
     year: "2011"
     link: "/papers/matthews_etal.pdf"
@@ -761,6 +801,47 @@ virtual component model."
     link: "/papers/wallace_JCSC_seattle_2011.pdf"
     abstract: "The Internet Connectivity module is a short assignment covering distributed computing and networking. The Internet Connectivity module is part of the curriculum created for the Northwest Distributed Computer Science Department and is built upon the Seattle distributed computing platform. In this paper, we describe the module and illustrate how Seattle facilitates networking projects and experiments that use computers/resources from across the globe. In addition, we describe how the Internet Connectivity module was used in two courses, provide some comments on students' reactions to the project, and conclude with suggestions for faculty considering how to use this module in their future courses."
 
+  - &cappos_nomodel_ssv_10
+    anchor: cappos_nomodel_ssv_10
+    title: "Model-based Testing Without a Model: Assessing Portability in the Seattle Testbed"
+    authors:
+      - name: "J.Cappos and J. Jacky"
+    project: *seatlle
+    booktitle: "5th Workshop on Systems Software Verification"
+    series: "SSV '10'"
+    year: "2010"
+    location:
+    publisher:
+    address:
+    link: "/papers/cappos_nomodel_ssv_10.pdf"
+    abstract: "Despite widespread OS, network, and hardware heterogeneity,
+there has been a lack of research into quantifying
+and improving portability of a programming environment.
+We have constructed a distributed testbed
+called Seattle built on a platform-independent programming
+API that is implemented on different operating systems
+and architectures. Our goal is to show that applications
+written to our API will be portable.
+In this work, we use an instrumented version of the
+programming environment for testing purposes. The instrumentation
+allows us to gather traces of actual program
+behavior from a running implementation. These
+traces can be used across different versions of the implementation
+exactly as if they were test cases generated
+offline from a model program, so we can commence testing
+using model based testing tools, without constructing
+a model program.
+Such offline testing is only effective in scenarios
+where traces are expected to be reproducible (deterministic).
+Where reproducibility is not expected, for instance
+due to nondeterminism in the network environment, we
+must resort to on-the-fly testing, which does require a
+model program. To validate this model program, we
+can use the recorded traces of actual behavior. Validating
+with captured traces should provide greater coverage
+than we could achieve by validating only with traces constructed
+a priori."
+
   - &samuel_tufccs_10
     anchor: samuel_tufccs_10
     title: "Survivable Key Compromise in Software Update Systems"
@@ -789,6 +870,44 @@ allow software update systems to survive key compromise.
 Using these ideas, we design and implement TUF, a software
 update framework that increases resilience to key compromise."
 
+  - &cappos_ccs_2010
+    anchor: samuel_tufccs_10
+    title: "Retaining Sandbox Containment Despite Bugs in Privileged Memory-Safe Code"
+    authors:
+      - name: "J. Cappos, A. Dadgar, J. Rasley, J. Samuel, I. Beschastnikh, C. Barsan, A. Krishnamurthy, and T. Anderson"
+    project: *lind
+    booktitle: "17th ACM Conference on Computer and Communications Security"
+    series: "CCS '10'"
+    year: "2010"
+    isbn: "978-1-4503-0245-6"
+    location:
+    pages: 212--223
+    numpages: 12
+    publisher: "ACM"
+    address:
+    link: "/papers/samuel_tuf_ccs_2010.pdf"
+    abstract: "Flaws in the standard libraries of secure sandboxes represent
+a major security threat to billions of devices worldwide. The
+standard libraries are hard to secure because they frequently
+need to perform low-level operations that are forbidden in
+untrusted application code. Existing designs have a single,
+large trusted computing base that contains security checks
+at the boundaries between trusted and untrusted code. Unfortunately,
+flaws in the standard library often allow an attacker
+to escape the security protections of the sandbox.
+In this work, we construct a Python-based sandbox that
+has a small, security-isolated kernel. Using a mechanism
+called a security layer, we migrate privileged functionality
+into memory-safe code on top of the sandbox kernel while retaining
+isolation. For example, significant portions of module
+import, file I/O, serialization, and network communication
+routines can be provided in security layers. By moving
+these routines out of the kernel, we prevent attackers from
+leveraging bugs in these routines to evade sandbox containment.
+We demonstrate the effectiveness of our approach by
+studying past bugs in Java’s standard libraries and show
+that most of these bugs would likely be contained in our
+sandbox."
 
   - &cappos_seattle_sigcse_2009
     anchor: cappos_seattle_sigcse_2009
@@ -799,15 +918,15 @@ update framework that increases resilience to key compromise."
     booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '09"
     year: "2009"
-    isbn: "978-1-60558-183-5"
+    isbn: ""
     location:
     pages: "111--115"
     numpages: "5"
-    acmid: "1508905"
+    acmid:
     publisher: "ACM"
     address:
-    keywords: "cloud computing, cluster computing, distributed computing, peer-to-peer computing"
     link: "/papers/cappos_seattle_sigcse_2009.pdf"
+    keywords: "cloud computing, peer-to-peer computing, cluster computing, distributed computing"
     abstract: "Cloud computing is rapidly increasing in popularity. Companies
 such as RedHat, Microsoft, Amazon, Goog
 le, and
@@ -858,6 +977,7 @@ publication_cards:
       - *cappos_refmonitor_sigcse_14
       - *cappos_uppir_fc_13
       - *samuel_tufccs_10
+      - *cappos_ccs_2010
       - *cappos_seattle_sigcse_2009
 
   - type: Workshop Papers
@@ -869,10 +989,12 @@ publication_cards:
       - *muhammad_seattle_geni_12
       - *matthews_etal
       - *collares_ET_neat_11
+      - *cappos_nomodel_ssv_10
 
   - type: Journal Articles, Magazines, Tech Reports, etc.
     anchor: journals
     publications:
+      - *zhuang-tr-cse-2015-01
       - *polypasswordhasher_TR
       - *tr-cse-2013-04
       - *tr-cse-2013-03
