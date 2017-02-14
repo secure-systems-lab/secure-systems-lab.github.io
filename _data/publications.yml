@@ -395,6 +395,18 @@ violations that are confirmed bugs in widely-used software."
     link: "/papers/reininger_sensevis_sas15.pdf"
     abstract: "Smartphones serve as a technical interface to the outside world. These devices have embedded, on-board sensors (such as accelerometers, WiFi, and GPSes) that can provide valuable information for investigating users' needs and behavioral patterns. Similarly, computers that are embedded in vehicles are capable of collecting valuable sensor data that can be accessed by smartphones through the use of On-Board Diagnostics (OBD) sensors. This paper describes a prototype of a mobile computing platform that provides access to vehicles' sensors by using smartphones and tablets, without compromising these devices' security. Data such as speed, engine RPM, fuel consumption, GPS locations, etc. are collected from moving vehicles by using a WiFi On-Board Diagnostics (OBD) sensor, and then backhauled to a remote server for both real-time and offline analysis. We describe the design and implementation details of our platform, for which we developed a library for in-vehicle sensor access and created a non-relational database for scalable backend data storage. We propose that our data collection and visualization tools are useful for analyzing driving behaviors; we also discuss future applications, security, and privacy concerns specific to vehicular networks."
 
+  - &zhuang_sensibility_login_2015
+    anchor: zhuang_sensibility_login_2015
+    title: "Privacy-Preserving Experimentation with Sensibility Testbed"
+    authors:
+      - name: "Y. Zhuang, A. Rafetseder, J. Cappos"
+    project: *sensibility
+    booktitle: ";login"
+    year: "2015"
+    link: "/papers/zhuang_sensibility_login_2015.pdf"
+    publisher: "USENIX.org"
+    abstract:
+
   - &martins-atc15-camera
     anchor: martins-atc15-camera
     title: "Selectively Taming Background Android Apps to Improve Battery Lifetime"
@@ -561,6 +573,46 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     keywords: "api, automated checker, blind spots, cueing, heuristics, puzzles, vulnerabilities"
     abstract: "The security community spares no effort in emphasizing security awareness and the importance of building secure software. However, the number of new vulnerabilities found in today's systems is still increasing. Furthermore, old and well-studied vulnerability types such as buffer overflows and SQL injections, are still repeatedly reported in vulnerability databases. Historically, the common response has been to blame the developers for their lack of security education. This paper discusses a new hypothesis to explain this problem by introducing a new security paradigm where software vulnerabilities are viewed as developers' blind spots in their decision making. We argue that such a flawed mental process is heuristic-based, where humans solve problems without considering all the information available, just like taking shortcuts. This paper's thesis is that security thinking tends to be left out by developers during their programming, as vulnerabilities usually exist in corner cases with unusual information flows. Leveraging this paradigm, this paper introduces a novel methodology for capturing and understanding security-related blind spots in Application Programming Interfaces (APIs). Finally, it discusses how this methodology can be applied to the design and implementation of the next generation of automated diagnosis tools."
 
+  - &torres_pph_login_2014
+    anchor: torres_pph_login_2014
+    title: "PolyPasswordHasher: Improving Password Storage Security"
+    authors:
+      - name: "S. Torres and J. Cappos"
+    project: *pph
+    booktitle: ";login"
+    year: "2014"
+    link: "/papers/torres_pph_login_2014.pdf"
+    publisher: "USENIX.org"
+    abstract:
+
+  - &mueller_tomato_pik_14
+    anchor: mueller_tomato_pik_14
+    title: "ToMaTo: A Virtual Research Environment for Large Scale Distributed Systems research"
+    authors:
+      - name: "P. Mueller, D. Schwerdel, and J. Cappos"
+    project:
+    booktitle: "PIK"
+    year: "2014"
+    link: "/papers/mueller_tomato_pik_14.pdf"
+    publisher:
+    abstract: ": Networks and distributed systems are an important
+field of research. To enable experimental research in
+this field we propose a new tool ToMaTo (Topology Management
+Tool) which was developed to support research
+projects within the BMBF funded project G-Lab. It should
+support researchers from various branches of science who
+investigate distributed systems by providing a virtual environment
+for their research.
+Using various virtualization technologies, ToMaTo is
+able to provide realistic components that can run realworld
+software as well as lightweight components that can
+be used to analyze algorithms at large scale.
+This paper describes how an additional virtualization
+technology from the Seattle testbed has been added to
+ToMaTo to allow even larger experiments with distributed
+algorithms. Moreover the paper describes some concrete
+experiments that are carried out with ToMaTo."
+
   - &tr-cse-2013-03
     anchor: tr-cse-2013-03
     title: "NetCheck Test Cases: Input Traces and NetCheck Output"
@@ -589,7 +641,7 @@ a network model. The model is also used to identify those syscalls that deviate
 from expected network semantics. These deviations are then mapped to a
 diagnosis by using a set of heuristics."
 
-  - &zhuang_seattle_gree_13
+  - &zhuang_seattle_gree
     anchor: zhuang_seattle_gree_13
     title: "Experience with Seattle: A Community Platform for Research and Education"
     authors:
@@ -653,6 +705,35 @@ use of Sensorium's virtues: For our web service Open3GMap,
 we crowd-source radio reception quality measurements in 3G
 networks. We combine the data into an open geo-information
 system."
+
+  - &tr-cse-2013-02
+    anchor: tr-cse-2013-02
+    title: "Understanding Password Database Compromises"
+    authors:
+      - name: "D. Mirante and J. Cappos"
+    year: "2013"
+    institution: "Tech. rep. tr-cse-2013-02, Polytechnic Institute of NYU"
+    link: "/papers/tr-cse-2013-02.pdf"
+    abstract: "Despite continuing advances in cyber security, website incursions, in which password
+databases are compromised, occur for high profile sites dozens of times each year. Dumps of
+recently stolen credentials appear on a regular basis at websites like pastebin.com and
+pastie.com, as do stories concerning significant breaches. As a result of these observations, we
+chose to examine this phenomenon.
+A study was undertaken to research information posted on the web concerning recent, high
+profile website intrusions, wherein user login credentials and other data were compromised. We
+searched for the party responsible for the incursion, the attack mechanism utilized, the format in
+which the login data was stored, and the location of any password dumps pilfered from the site.
+News stories from trade related journals, press releases from the victim company, hacker sites,
+and blogs from individuals and companies engaged in security analysis were, in particular,
+searched in order to find related information. A total of thirty four breaches were researched. It
+should be noted that some dumps, previously published, no longer exist. This is due to either
+the affected parties taking action against the site posting them, expiration of the allowed posting
+period, or removal by the original poster. An effort was made to locate copies of these files,
+sometimes to no avail. In those cases, details concerning the contents of the dumps were
+collected from published reports about them."
+
+
+
 
   - &tr-cse-2013-04
     anchor: tr-cse-2013-04
@@ -908,7 +989,7 @@ sandbox."
     booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '09"
     year: "2009"
-    isbn: ""
+    isbn:
     location:
     pages: "111--115"
     numpages: "5"
@@ -985,7 +1066,11 @@ publication_cards:
     anchor: journals
     publications:
       - *zhuang-tr-cse-2015-01
+      - *zhuang_sensibility_login_2015
+      - *torres_pph_login_2014
       - *polypasswordhasher_TR
+      - *mueller_tomato_pik_14
       - *tr-cse-2013-04
       - *tr-cse-2013-03
+      - *tr-cse-2013-02
       - *wallace_JCSC_seattle_2011
