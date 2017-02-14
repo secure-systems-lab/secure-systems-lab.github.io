@@ -104,16 +104,6 @@ Git."
 
 This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
 
-  - &Peddinti_ICWSM_2016
-    anchor: Peddinti_ICWSM_2016
-    title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
-    authors:
-      - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
-    booktitle: "Tenth International AAAI Conference on Web and Social Media"
-    year: "2016"
-    link: "/papers/Peddinti_ICWSM_2016.pdf"
-    abstract: "We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons."
-    eprint: "arXiv:1702.00164"
 
   - &li-usenix-fence-2015
     anchor: li-usenix-fence-2015
@@ -871,7 +861,7 @@ Using these ideas, we design and implement TUF, a software
 update framework that increases resilience to key compromise."
 
   - &cappos_ccs_2010
-    anchor: samuel_tufccs_10
+    anchor: cappos_ccs_10
     title: "Retaining Sandbox Containment Despite Bugs in Privileged Memory-Safe Code"
     authors:
       - name: "J. Cappos, A. Dadgar, J. Rasley, J. Samuel, I. Beschastnikh, C. Barsan, A. Krishnamurthy, and T. Anderson"
