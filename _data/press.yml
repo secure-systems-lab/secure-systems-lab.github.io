@@ -28,7 +28,7 @@ presses:
     source: "EE Times"
     date: "January 2017"
 
-  - title: "Framework open source de cibersegurança para indústria automotiva é criado"
+  - title: "Framework Open Source de Cibersegurança para Indústria Automotiva é Criado"
     link: "http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/?trace=824205206&amp;source=news-home"
     anchor: tuf1
     type: article-foreign
@@ -36,7 +36,7 @@ presses:
     source: "iMasters"
     date: "January 2017"
 
-  - title: "Automotive software developers call on hackers to find its flaws"
+  - title: "Automotive Software Developers Call on Hackers to Find its Flaws"
     link: "http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/"
     anchor: uptane4
     type: article
@@ -44,7 +44,7 @@ presses:
     source: "ITS International"
     date: "January 2017"
 
-  - title: "Are software updates key to stopping criminal car hacks?"
+  - title: "Are Software Updates Key to Stopping Criminal Car Hacks?"
     link: "http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks"
     anchor: uptane5
     type: article
@@ -52,7 +52,7 @@ presses:
     source: "Christian Science Monitor"
     date: "January 2017"
 
-  - title: "Uptane will protect your car from hackers"
+  - title: "Uptane will Protect your Car from Hackers"
     link: "http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25"
     anchor: uptane6
     type: article
@@ -60,7 +60,7 @@ presses:
     source: "Forbes"
     date: "January 2017"
 
-  - title: "Wanted: White hat hackers to break new automotive software updater code"
+  - title: "Wanted: White Hat Hackers to Break New Automotive Software Updater Code"
     link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
     anchor: uptane7
     type: article
@@ -68,7 +68,7 @@ presses:
     source: "TechRepublic"
     date: "February 2017"
 
-  - title: "White hackers to seek errors in open-source cybersecurity framework for cars"
+  - title: "White Hackers to Seek Errors in Open-source Cybersecurity Framework for Cars"
     link: "https://hotforsecurity.bitdefender.com/blog/white-hackers-to-seek-errors-in-open-source-cybersecurity-framework-for-cars-17550.html"
     anchor: uptane8
     type: article
@@ -76,7 +76,7 @@ presses:
     source: "Bitfender"
     date: "January 2017"
 
-  - title: "Open source cybersecurity framework for the automotive industry"
+  - title: "Open Source Cybersecurity Framework for the Automotive Industry"
     link: "https://www.helpnetsecurity.com/2017/01/18/automotive-cybersecurity-framework/"
     anchor: uptane9
     type: article
@@ -92,7 +92,7 @@ presses:
     source: "Knack"
     date: "January 2017"
 
-  - title: "Call issued to white hat hackers—find the flaws in new automotive software updater"
+  - title: "Call Issued to White Hat Hackers—Find the Flaws in New Automotive Software Updater"
     link: "https://phys.org/news/2017-01-issued-white-hat-hackersfind-flaws.html"
     anchor: uptane11
     type: article
@@ -100,7 +100,7 @@ presses:
     source: "Phys.org"
     date: "January 2017"
 
-  - title: "White hat hackers called to poke holes in open source connected car security platform"
+  - title: "White Hat Hackers Called to Poke Holes in Open Source Connected Car Security Platform"
     link: "https://www.scmagazine.com/researchers-called-to-test-free-open-source-automotive-security-platform/article/632218/"
     anchor: uptane12
     type: article
@@ -108,7 +108,7 @@ presses:
     source: "SC Media"
     date: "January 2017"
 
-  - title: "NYU Tandon prof unveils Homeland Security-funded framework for software security in cars"
+  - title: "NYU Tandon Prof Unveils Homeland Security-funded Framework for Software Security in Cars"
     link: "https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/"
     anchor: uptane13
     type: article
@@ -123,3 +123,27 @@ presses:
     project: *uptane
     source: "Yahoo News"
     date: "January 2017"
+
+  - title: "The Update Framework"
+    link: "https://news.ycombinator.com/item?id=12245587"
+    anchor: tuf2
+    type: article
+    project: *tuf
+    source: "Hacker News"
+    date: "August 2016"
+
+  - title: "Automotive Cybersecurity: Connected & Self-Driving Vehicles"
+    link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
+    anchor: uptane15
+    type: article
+    project: *uptane
+    source: "Online Engineering Programs Blog"
+    date: "September 2016"
+
+  - title: "Self-Driving Cars are Prone to Hacks—and Automakers are Barely Taking About it"
+    link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
+    anchor: uptane15
+    type: article
+    project: *uptane
+    source: "Business Insider"
+    date: "December 2016"

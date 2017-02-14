@@ -4,13 +4,26 @@ intro: "Selected, recent papers from the Secure Systems Lab.
 Click a project name to filter by project."
 
 publications:
+
+  - &bender_sas_17
+    anchor: hooshangi_sas_17
+    title: "Measuring the Fitness of Fitness Trackers"
+    authors:
+      - name: "C. Bender, J. Hoffstot, B. Combs, S. Hooshangi, and J. Cappos"
+    project:
+    booktitle: "IEEE Sensors Applications Symposium (SAS 2017)"
+    year: "To be presented in March 2017"
+    link:
+    abstract:
+
   - &kuppusamy_escar_16
     anchor: kuppusamy_escar_16
     title: "Uptane: Securing Software Updates for Automobiles"
     authors:
-      - name: "Karthik, Trishank and Brown, Akan and Awwad, Sebastien and McCoy, Damon and Bielawski, Russ and Mott, Cameron and Lauzon, Sam and Weimerskirch, Andr{\'e} and Cappos, Justin"
+      - name: "T. Karthik, A. Brown, and S.Awwad, D. McCoy, R. Bielawski, C. Mott, S. Lauzon, A. Weimerskirch, and J. Cappos"
     project: *uptane
-    booktitle: "ESCAR 2016"
+    booktitle: "14th escar (Embedded Security in Cars) Conference"
+    year: "2016"
     link: "/papers/kuppusamy_escar_16.pdf"
     abstract: "Software update systems for automobiles can deliver significant
 benefits, but, if not implemented carefully, they could potentially
@@ -41,7 +54,7 @@ main automotive industry stakeholders in the USA."
     anchor: torres_toto_usenixsec-2016
     title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
     authors:
-      - name: "Torres-Arias, Santiago and Ammula, Anil Kumar and Curtmola, Reza and Cappos, J"
+      - name: "S. Torres-Arias, A. Ammula, R. Curtmola, and J. Cappos"
     project: *in-toto
     booktitle: "25th USENIX Security Symposium, USENIX Security"
     volume: "16"
@@ -78,12 +91,12 @@ Git."
     anchor: kuppusamy_nsdi_16
     title: "Diplomat: Using Delegations to Protect Community Repositories"
     authors:
-      - name: "Trishank Karthik Kuppusamy and Santiago Torres-Arias and Vladimir Diaz and Justin Cappos"
+      - name: "T. Kuppusamy, S. Torres-Arias, V. Diaz, and J. Cappos"
     project: *tuf
     booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
     year: "2016"
     isbn: "978-1-931971-29-4"
-    address: "Santa Clara, CA"
+    address:
     pages: "567--581"
     publisher: "USENIX Association"
     link: "/papers/kuppusamy_nsdi_16.pdf"
@@ -95,7 +108,7 @@ This work demonstrates that community repositories can offer compromise-resilien
     anchor: Peddinti_ICWSM_2016
     title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
     authors:
-      - name: "Peddinti, Sai Teja and Ross, Keith W and Cappos, Justin"
+      - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
     booktitle: "Tenth International AAAI Conference on Web and Social Media"
     year: "2016"
     link: "/papers/Peddinti_ICWSM_2016.pdf"
@@ -106,12 +119,12 @@ This work demonstrates that community repositories can offer compromise-resilien
     anchor: li-usenix-fence-2015
     title: "Fence: Protecting Device Availability With Uniform Resource Control"
     authors:
-      - name: "Tao Li and Albert Rafetseder and Rodrigo Fonseca and Justin Cappos"
+      - name: "T. Li, A. Rafetseder, R. Fonseca, and J. Cappos"
     project: *seattle
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
-    address: "Santa Clara, CA"
+    address:
     pages: "177--191"
     publisher: "USENIX Association"
     link: "/papers/li-usenix-fence-2015.pdf"
@@ -143,15 +156,151 @@ Fence is publicly available and has been deployed
 in practice for five years, protecting tens of thousands of
 users"
 
+  - &torres_toto_usenixsec-2016
+    anchor: torres_toto_usenixsec-2016
+    title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
+    authors:
+      - name: "S. Torres-Arias, A. Ammula, R. Curtmola, and J. Cappos"
+    project: *in-toto
+    booktitle: "25th USENIX Security Symposium, USENIX Security"
+    volume: "16"
+    pages: "10-12"
+    year: "2016"
+    link: "/papers/torres_toto_usenixsec-2016.pdf"
+    abstract: "Metadata manipulation attacks represent a new threat
+class directed against Version Control Systems, such as
+the popular Git. This type of attack provides inconsistent
+views of a repository state to different developers,
+and deceives them into performing unintended operations
+with often negative consequences. These include
+omitting security patches, merging untested code into a
+production branch, and even inadvertently installing software
+containing known vulnerabilities. To make matters
+worse, the attacks are subtle by nature and leave no trace
+after being executed.
+We propose a defense scheme that mitigates these attacks
+by maintaining a cryptographically-signed log of
+relevant developer actions. By documenting the state
+of the repository at a particular time when an action is
+taken, developers are given a shared history, so irregularities
+are easily detected. Our prototype implementation
+of the scheme can be deployed immediately as it is
+backwards compatible and preserves current workflows
+and use cases for Git users. An evaluation shows that
+the defense adds a modest overhead while offering significantly
+stronger security. We performed responsible
+disclosure of the attacks and are working with the Git
+community to fix these issues in an upcoming version of
+Git."
+
+  - &kuppusamy_nsdi_16
+    anchor: kuppusamy_nsdi_16
+    title: "Diplomat: Using Delegations to Protect Community Repositories"
+    authors:
+      - name: "T. Kuppusamy, S. Torres-Arias, V. Diaz, and J. Cappos"
+    project: *tuf
+    booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
+    year: "2016"
+    isbn: "978-1-931971-29-4"
+    address:
+    pages: "567--581"
+    publisher: "USENIX Association"
+    link: "/papers/kuppusamy_nsdi_16.pdf"
+    abstract: "Community repositories, such as Docker Hub, PyPI, and RubyGems, are bustling marketplaces that distribute software. Even though these repositories use common software signing techniques (e.g., GPG and TLS), attackers can still publish malicious packages after a server compromise. This is mainly because a community repository must have immediate access to signing keys in order to certify the large number of new projects that are registered each day.
+
+This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
+
+  - &Peddinti_ICWSM_2016
+    anchor: Peddinti_ICWSM_2016
+    title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
+    authors:
+      - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
+    booktitle: "Tenth International AAAI Conference on Web and Social Media"
+    year: "2016"
+    link: "/papers/Peddinti_ICWSM_2016.pdf"
+    abstract: "We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons."
+    eprint: "arXiv:1702.00164"
+
+  - &li-usenix-fence-2015
+    anchor: li-usenix-fence-2015
+    title: "Fence: Protecting Device Availability With Uniform Resource Control"
+    authors:
+      - name: "T. Li, A. Rafetseder, R. Fonseca, and J. Cappos"
+    project: *seattle
+    booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
+    year: "2015"
+    isbn: "978-1-931971-225"
+    address:
+    pages: "177--191"
+    publisher: "USENIX Association"
+    link: "/papers/li-usenix-fence-2015.pdf"
+    abstract: "Applications such as software updaters or a run-away web
+app, even if low priority, can cause performance degradation,
+loss of battery life, or other issues that reduce a
+computing device's availability. The core problem is that
+OS resource control mechanisms unevenly apply uncoordinated
+policies across different resources. This paper
+shows how handling resources - e.g., CPU, memory, sockets,
+and bandwidth - in coordination, through a unifying
+abstraction, can be both simpler and more effective. We
+abstract resources along two dimensions of fungibility
+and renewability, to enable resource-agnostic algorithms
+to provide resource limits for a diverse set of applications.
+We demonstrate the power of our resource abstraction
+with a prototype resource control subsystem, Fence,
+which we implement for two sandbox environments running
+on a wide variety of operating systems (Windows,
+Linux, the BSDs, Mac OS X, iOS, Android, OLPC, and
+Nokia) and device types (servers, desktops, tablets, laptops,
+and smartphones). We use Fence to provide systemwide
+protection against resource hogging processes that
+include limiting battery drain, preventing overheating,
+and isolating performance. Even when there is interference,
+Fence can double the battery life and improve the
+responsiveness of other applications by an order of magnitude.
+Fence is publicly available and has been deployed
+in practice for five years, protecting tens of thousands of
+users"
+
+  - &wang_uppir_globecom2015
+    anchor: wang_uppir_globecom2015
+    title: "A Fast Multi-Server, Multi-Block Private Information Retrieval Protocol"
+    authors:
+      - name: "L. Wang, T. Kuppusamy, Y. Liu, and J. Cappos"
+    project: *uppir
+    booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
+    year: "2015"
+    pages: "484-495"
+    keywords: "application program interfaces;program debugging;program testing;software portability;CheckAPI;JavaScript;POSIX;Seattle project Repy VM;application code;cross-platform portability violation detection;latent cross-platform API violation detection;operating system;partial specification-based API implementation;portability bugs;Computer bugs;Libraries;Operating systems;Runtime;Sockets;Testing"
+    month: "Nov"
+    link: "/papers/wang_globecom2015.pdf"
+    abstract: "Private Information Retrieval (PIR) allows users
+to retrieve information from a database without revealing
+which information in the database was queried. The traditional
+information-theoretic PIR schemes utilize multiple servers to
+download a single data block, thus incurring high communication
+overhead and high computation burdens. In this paper,
+we develop an information-theoretic multi-block PIR scheme
+that significantly reduces client communication and computation
+overheads by downloading multiple data blocks at a time. The
+design of k-safe binary matrices insures the information will not
+be revealed even if up to k servers collude. Our scheme has much
+lower overhead than classic PIR schemes. The implementation of
+fast XOR operations benefits both servers and clients in reducing
+coding and decoding time. Our work demonstrates that multiblock
+PIR scheme can be optimized to simultaneously achieve
+low communication and computation overhead, comparable to
+even non-PIR systems, while maintaining a high level of privacy."
+
   - &rasley_checkapi_issre2015
     anchor: rasley_checkapi_issre2015
     title: "Detecting latent cross-platform API violations"
     authors:
-      - name: "J. Rasley and E. Gessiou and T. Ohmann and Y. Brun and S. Krishnamurthi and J. Cappos"
+      - name: "J. Rasley, E. Gessiou, T. Ohmann, Y. Brun, S. Krishnamurthi and J. Cappos"
     project: *seattle
     booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
     year: "2015"
-    pages: " 484-495"
+    pages: "484-495"
     keywords: "application program interfaces;program debugging;program testing;software portability;CheckAPI;JavaScript;POSIX;Seattle project Repy VM;application code;cross-platform portability violation detection;latent cross-platform API violation detection;operating system;partial specification-based API implementation;portability bugs;Computer bugs;Libraries;Operating systems;Runtime;Sockets;Testing"
     month: "Nov"
     link: "/papers/rasley_checkapi_issre2015.pdf"
@@ -181,18 +330,18 @@ violations that are confirmed bugs in widely-used software."
     anchor: hooshangi_sigcse15
     title: "Can the Security Mindset Make Students Better Testers?"
     authors:
-      - name: "Hooshangi, Sara and Weiss, Richard and Cappos, Justin"
+      - name: "S. Hooshangi, R. Weiss, and J. Cappos"
     booktitle: "Proceedings of the 46th ACM Technical Symposium on Computer Science Education"
     project: *seattle
     series: "SIGCSE '15"
     year: "2015"
     isbn: "978-1-4503-2966-8"
-    location: "Kansas City, Missouri, USA"
+    location:
     pages: "404--409"
     numpages: "6"
     acmid: "2677268"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     keywords: "access control, python, security, testing"
     link: "/papers/hooshangi_sigcse15.pdf"
     abstract: "Writing secure code requires a programmer to think both as a defender and an attacker. One can draw a parallel between this model of thinking and techniques used in test-driven development, where students learn by thinking about how to effectively test their code and anticipate possible bugs. In this study, we analyzed the quality of both attack and defense code that students wrote for an assignment given in an introductory security class of 75 (both graduate and senior undergraduate levels) at NYU. We made several observations regarding students' behaviors and the quality of both their defensive and offensive code. We saw that student defensive programs (i.e., assignments) are highly unique and that their attack programs (i.e., test cases) are also relatively unique. In addition, we examined how student behaviors in writing defense programs correlated with their attack program's effectiveness. We found evidence that students who learn to write good defensive programs can write effective attack programs, but the converse is not true. While further exploration of causality is needed, our results indicate that a greater pedagogical emphasis on defensive security may benefit students more than one that emphasizes offense."
@@ -201,7 +350,7 @@ violations that are confirmed bugs in widely-used software."
     anchor: weiss_trustcom2015
     title: "Trust Evaluation in Mobile Devices: An Empirical Study"
     authors:
-      - name: "R. Weiss and L. Reznik and Y. Zhuang and A. Hoffman and D. Pollard and A. Rafetseder and T. Li and J. Cappos"
+      - name: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
     project: *sensibility
     booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
     year: "2015"
@@ -232,7 +381,7 @@ violations that are confirmed bugs in widely-used software."
     anchor: cappos_blursense_sas_14
     title: "BlurSense: Dynamic fine-grained access control for smartphone privacy"
     authors:
-      - name: "J. Cappos and L. Wang and R. Weiss and Y. Yang and Y. Zhuang"
+      - name: "J. Cappos, L. Wang, R. Weiss, Y. Yang, and Y. Zhuang"
     project: *sensibility
     booktitle: "2014 IEEE Sensors Applications Symposium (SAS)"
     year: "2014"
@@ -244,9 +393,9 @@ violations that are confirmed bugs in widely-used software."
 
   - &reininger_sensevis_sas15
     anchor: reininger_sensevis_sas15
-    title: "A first look at vehicle data collection via smartphone sensors"
+    title: "A First Look at Vehicle Data Collection via Smartphone Sensors"
     authors:
-      - name: "M. Reininger and S. Miller and Y. Zhuang and J. Cappos"
+      - name: "M. Reininger, S. Miller, Y. Zhuang, and J. Cappos"
     project: *sensibility
     booktitle: "2015 IEEE Sensors Applications Symposium (SAS)"
     year: "2015"
@@ -260,12 +409,12 @@ violations that are confirmed bugs in widely-used software."
     anchor: martins-atc15-camera
     title: "Selectively Taming Background Android Apps to Improve Battery Lifetime"
     authors:
-      - name: "Marcelo Martins and Justin Cappos and Rodrigo Fonseca"
+      - name: "M. Martins, J. Cappos, and R. Fonseca"
     project: *seattle
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
     year: "2015"
     isbn: "978-1-931971-225"
-    address: "Santa Clara, CA"
+    address:
     pages: "563--575"
     link: "/papers/martins-atc15-camera.pdf"
     publisher: "USENIX Association"
@@ -275,7 +424,7 @@ violations that are confirmed bugs in widely-used software."
     anchor: peddenti_cosn_14
     title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
     authors:
-      - name: "Peddinti, Sai Teja and Ross, Keith W. and Cappos, Justin"
+      - name: "S.T. Peddinti,  K.W. Ross, and J. Cappos"
     booktitle: "Proceedings of the Second ACM Conference on Online Social Networks"
     series: "COSN '14"
     year: "2014"
@@ -286,7 +435,7 @@ violations that are confirmed bugs in widely-used software."
     link: "/papers/peddenti_cosn_14.pdf"
     acmid: "2660467"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     keywords: "anonymity, behavioral analysis, online social networks, quantify, twitter"
     abstract: "Twitter does not impose a Real-Name policy for usernames, giving users the freedom to choose how they want to be identified. This results in some users being Identifiable (disclosing their full name) and some being Anonymous (disclosing neither their first nor last name).
 
@@ -296,12 +445,12 @@ In this work we perform a large-scale analysis of Twitter to study the prevalenc
     anchor: zhuang_netcheck_nsdi_14
     title: "NetCheck: Network Diagnoses from Blackbox Traces"
     authors:
-      - name: "Yanyan Zhuang and Eleni Gessiou and Steven Portzer and Fraida Fund and Monzur Muhammad and Ivan Beschastnikh and Justin Cappos"
+      - name: "Y. Zhuang, E. Gessiou, S. Portzer, F. Fund, M. Muhammad, I. Beschastnikh, and J. Cappos"
     project: *netcheck
     booktitle: "11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14)"
     year: "2014"
     isbn: "978-1-931971-09-6"
-    address: "Seattle, WA"
+    address:
     pages: "115--128"
     link: "/papers/zhuang_netcheck_nsdi_14.pdf"
     publisher: "USENIX Association"
@@ -311,9 +460,9 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
 
   - &polypasswordhasher_TR
     anchor: polypasswordhasher_TR
-    title: "PolyPasswordHasher: Protecting Passwords In The Event Of A Password File Disclosure"
+    title: "PolyPasswordHasher: Protecting Passwords in the Event of a Password File Disclosure"
     authors:
-      - name: "Cappos, Justin and Torres, Santiago"
+      - name: "J. Cappos and S. Torres-Arias"
     project: *pph
     year: "2014"
     institution: "Technical report"
@@ -324,20 +473,20 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     anchor: cappos_refmonitor_sigcse_14
     title: "Teaching the Security Mindset with Reference Monitors"
     authors:
-      - name: "Cappos, Justin and Weiss, Richard"
+      - name: "J. Cappos and R. Weiss"
     project: *seattle
     booktitle: "Proceedings of the 45th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '14"
     year: "2014"
     isbn: "978-1-4503-2605-6"
-    location: "Atlanta, Georgia, USA"
+    location:
     pages: "523--528"
     numpages: "6"
     url: "http://doi.acm.org/10.1145/2538862.2538939"
     doi: "10.1145/2538862.2538939"
     acmid: "2538939"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     link: "/papers/cappos_refmonitor_sigcse_14.pdf"
     keywords: "experience report, laboratory experience, privacy, security"
     abstract: "One of the central skills in computer security is reasoning about how programs fail. As a result, computer security necessarily involves thinking about the corner cases that arise when software executes. An unfortunate side effect of this is that computer security assignments typically necessitate deep understanding of a topic, such as how the stack is laid out in memory or how web applications interact with databases. This work presents a series of assignments that require very little background knowledge from students, yet provide them with the ability to reason about failures in programs. In this set of assignments, students implement two very simple programs in a high-level language (Python). Students first implement a reference monitor that tries to uphold a security property within a sandbox. For the second portion, the students are provided each others' reference monitors and then write attack code to try to bypass the reference monitors. By leveraging a Python-based sandbox, student code is isolated cleanly, which simplifies development and grading. These assignments have been used in about a dozen classes in a range of environments, including a research university, online classes, and a four year liberal arts school. Student and instructor feedback has been overwhelmingly positive. Furthermore, survey results demonstrate that after a 2-3 week module, 76% of the students who did not understand reference monitors and access control learned these key security concepts."
@@ -346,40 +495,40 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     anchor: oliveira_puzzles_acsac_2014
     title: "It's the Psychology Stupid: How Heuristics Explain Software Vulnerabilities and How Priming Can Illuminate Developer's Blind Spots"
     authors:
-      - name: "Oliveira, Daniela and Rosenthal, Marissa and Morin, Nicole and Yeh, Kuo-Chuan and Cappos, Justin and Zhuang, Yanyan"
+      - name: "D. Oliveira, M. Rosenthal, N. Morin, K-C Yeh, J. Cappos, and Y. Zhuang"
     project: *blindspots
     booktitle: "Proceedings of the 30th Annual Computer Security Applications Conference"
     series: "ACSAC '14"
     year: "2014"
     isbn: "978-1-4503-3005-3"
-    location: "New Orleans, Louisiana, USA"
+    location:
     pages: "296--305"
     numpages: "10"
     link: "/papers/oliveira_puzzles_acsac_2014.pdf"
     acmid: "2664254"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     abstract: "Despite the security community's emphasis on the importance of building secure software, the number of new vulnerabilities found in our systems is increasing. In addition, vulnerabilities that have been studied for years are still commonly reported in vulnerability databases. This paper investigates a new hypothesis that software vulnerabilities are blind spots in developer's heuristic-based decision-making processes. Heuristics are simple computational models to solve problems without considering all the information available. They are an adaptive response to our short working memory because they require less cognitive effort. Our hypothesis is that as software vulnerabilities represent corner cases that exercise unusual information flows, they tend to be left out from the repertoire of heuristics used by developers during their programming tasks.
 
 To validate this hypothesis we conducted a study with 47 developers using psychological manipulation. In this study each developer worked for approximately one hour on six vulnerable programming scenarios. The sessions progressed from providing no information about the possibility of vulnerabilities, to priming developers about unexpected results, and explicitly mentioning the existence of vulnerabilities in the code. The results show that (i) security is not a priority in software development environments, (ii) security is not part of developer's mindset while coding, (iii) developers assume common cases for their code, (iv) security thinking requires cognitive effort, (v) security education helps, but developers can have difficulties correlating a particular learned vulnerability or security information with their current working task, and (vi) priming or explicitly cueing about vulnerabilities on-the-spot is a powerful mechanism to make developers aware about potential vulnerabilities."
 
   - &cappos_nspw_2014
     anchor: cappos_nspw_2014
-    title: "Vulnerabilities As Blind Spots in Developer's Heuristic-Based Decision-Making Processes"
+    title: "Vulnerabilities as Blind Spots in Developer's Heuristic-Based Decision-Making Processes"
     authors:
-      - name: "Cappos, Justin and Zhuang, Yanyan and Oliveira, Daniela and Rosenthal, Marissa and Yeh, Kuo-Chuan"
+      - name: "J. Cappos, Y. Zhuang, D. Oliveira, N. Rosenthal, and K-C Yeh"
     project: *blindspots
     booktitle: "Proceedings of the 2014 New Security Paradigms Workshop"
     series: "NSPW '14"
     year: "2014"
     isbn: "978-1-4503-3062-6"
-    location: "Victoria, British Columbia, Canada"
+    location:
     pages: "53--62"
     numpages: "10"
     link: "/papers/cappos_nspw_2014.pdf"
     acmid: "2683472"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     keywords: "api, automated checker, blind spots, cueing, heuristics, puzzles, vulnerabilities"
     abstract: "The security community spares no effort in emphasizing security awareness and the importance of building secure software. However, the number of new vulnerabilities found in today's systems is still increasing. Furthermore, old and well-studied vulnerability types such as buffer overflows and SQL injections, are still repeatedly reported in vulnerability databases. Historically, the common response has been to blame the developers for their lack of security education. This paper discusses a new hypothesis to explain this problem by introducing a new security paradigm where software vulnerabilities are viewed as developers' blind spots in their decision making. We argue that such a flawed mental process is heuristic-based, where humans solve problems without considering all the information available, just like taking shortcuts. This paper's thesis is that security thinking tends to be left out by developers during their programming, as vulnerabilities usually exist in corner cases with unusual information flows. Leveraging this paradigm, this paper introduces a novel methodology for capturing and understanding security-related blind spots in Application Programming Interfaces (APIs). Finally, it discusses how this methodology can be applied to the design and implementation of the next generation of automated diagnosis tools."
 
@@ -387,9 +536,10 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     anchor: tr-cse-2013-03
     title: "NetCheck Test Cases: Input Traces and NetCheck Output"
     authors:
-      - name: "Cappos, Justin and Zhuang, Yanyan Zhuang and Beschastnikh, Ivan"
+      - name: "J. Cappos, Y. Zhuang, and I. Beschastnikh"
     project: *netcheck
     link: "/papers/tr-cse-2013-03.pdf"
+    year: "2013"
     abstract: "Application failures due to network issues are some of the most difficult to diagnose
 and debug. This is because the failure may be due to in-network state or
 state maintained by a remote end-host, both of which are invisible to an application
@@ -414,7 +564,7 @@ diagnosis by using a set of heuristics."
     anchor: zhuang_seattle_gree_13
     title: "Experience with Seattle: A Community Platform for Research and Education"
     authors:
-      - name: "Y. Zhuang and A. Rafetseder and J. Cappos"
+      - name: "Y. Zhuang, A. Rafetseder and J. Cappos"
     project: *seattle
     booktitle: "2013 Second GENI Research and Educational Experiment Workshop"
     year: "2013"
@@ -426,10 +576,10 @@ diagnosis by using a set of heuristics."
 
   - &cappos_uppir_fc_13
     anchor: cappos_uppir_fc_13
-    title: "Avoiding theoretical optimality to efficiently and privately retrieve security updates"
+    title: "Avoiding Theoretical Optimality to Efficiently and Privately Retrieve Security Updates"
     keywords: "Performance, Practical Security, Private Information Retrieval"
     authors:
-      - name: "Justin Cappos"
+      - name: "J. Cappos"
     project: *uppir
     year: "2013"
     isbn: "9783642398834"
@@ -455,7 +605,7 @@ software updates with upPIR about as quickly as with FTP."
     anchor: rafetseder_sensorium_netsys_13
     title: "Sensorium-A Generic Sensor Framework."
     authors:
-      - name: "Rafetseder, Albert and Metzger, Florian and P{\"u}hringer, Lukas and Tutschku, Kurt and Zhuang, Yanyan and Cappos, Justin"
+      - name: "A. Rafetseder, F. Metzger, L. Pühringer, K. Tutschku,  Y. Zhuang, and J. Cappos"
     project: *sensibility
     journal: "Praxis der Informationsverarbeitung und Kommunikation"
     volume: "36"
@@ -479,7 +629,7 @@ system."
     anchor: tr-cse-2013-04
     title: "Future Internet Bandwidth Trends: An Investigation on Current and Future Disruptive Technologies"
     authors:
-      - name: "Zhuang, Yanyan and Cappos, Justin and Rappaport, Theodore S and McGeer, Rick"
+      - name: "Y. Zhuang, J. Cappos, T.S. Rappaport, and R. McGeer"
     year: "2013"
     institution: "Tech. rep. tr-cse-2013-04, Polytechnic Institute of NYU"
     link: "/papers/tr-cse-2013-04.pdf"
@@ -518,7 +668,7 @@ before they begin to shape the economy and society."
     anchor: muhammad_seattle_geni_12
     title: "Towards a representive testbed: Harnessing volunteers for networks research"
     authors:
-      - name: "Muhammad, Monzur and Cappos, Justin"
+      - name: "M. Muhammad and J. Cappos"
     project: *seattle
     booktitle: "The First GENI Research and Educational Workshop, GREE"
     volume: "12"
@@ -550,7 +700,7 @@ they are made."
     anchor: matthews_etal
     title: "Lind: Challenges turning virtual composition into reality"
     authors:
-      - name: "Matthews, Chris and Cappos, Justin and McGeer, Rick and Neville, Stephen and Coady, Yvonne"
+      - name: "C. Matthews, J. Cappos, R. McGeer, S. Neville,  and Y. Coady"
     booktitle: "Freeco 2011 Onward! Workshop: Towards Free Composition of Software Modules"
     year: "2011"
     link: "/papers/matthews_etal.pdf"
@@ -585,7 +735,7 @@ virtual component model."
     anchor: collares_ET_neat_11
     title: "ET (Smart) Phone Home!"
     authors:
-      - name: "Collares, Leandro and Matthews, Chris and Cappos, Justin and Coady, Yvonne and McGeer, Rick"
+      - name: "L. Collares, C. Matthews, J. Cappos, Y. Coady, and R. McGeer"
     project: *seattle
     booktitle: "Proceedings of the Compilation of the Co-located Workshops on DSM'11, TMC'11, AGERE! 2011, AOOPES'11, NEAT'11, & VMIL'11"
     series: "SPLASH '11 Workshops"
@@ -597,7 +747,7 @@ virtual component model."
     link: "/papers/collares_ET_neat_11.pdf"
     acmid: "2095098"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     keywords: "distributed systems, human-computer interaction, network troubleshooting, sandbox environments, smartphones"
     abstract: "Most home users are not able to troubleshoot advanced network issues themselves. Hours on the phone with an ISP's customer representative is a common way to solve this problem. With the advent of mobile devices with both Wi-Fi and cellular radios, troubleshooters at the ISP have a new back-door into a malfunctioning residential network. However, placing full trust in an ISP is a poor choice for a home user. In this paper we present Extra Technician (ET), a system designed to provide ISPs and others with an environment to troubleshoot home networking in a remote, safe and flexible manner."
 
@@ -605,31 +755,62 @@ virtual component model."
     anchor: wallace_JCSC_seattle_2011
     title: "Hands-on Internet with Seattle and Computers from Across the Globe"
     authors:
-      - name: "Wallace, Scott A. and Muhammad, Monzur and Mache, Jens and Cappos, Justin"
+      - name: "S.A Wallace, M. Muhammad, J. Mache, and J. Cappos"
     project: *seattle
+    year: "2011"
     link: "/papers/wallace_JCSC_seattle_2011.pdf"
     abstract: "The Internet Connectivity module is a short assignment covering distributed computing and networking. The Internet Connectivity module is part of the curriculum created for the Northwest Distributed Computer Science Department and is built upon the Seattle distributed computing platform. In this paper, we describe the module and illustrate how Seattle facilitates networking projects and experiments that use computers/resources from across the globe. In addition, we describe how the Internet Connectivity module was used in two courses, provide some comments on students' reactions to the project, and conclude with suggestions for faculty considering how to use this module in their future courses."
+
+  - &samuel_tufccs_10
+    anchor: samuel_tufccs_10
+    title: "Survivable Key Compromise in Software Update Systems"
+    authors:
+      - name: "J. Samuel, N. Matthewson, J. Cappos, R. Dingledine"
+    project: *tuf
+    booktitle: "17th ACM Conference on Computer and Communications Security"
+    series: "CCS '10'"
+    year: "2010"
+    location:
+    publisher: "ACM"
+    address:
+    link: "/papers/samuel_tuf_ccs_2010.pdf"
+    abstract: "Today’s software update systems have little or no defense
+against key compromise. As a result, key compromises have
+put millions of software update clients at risk. Here we identify
+three classes of information whose authenticity and integrity
+are critical for secure software updates. Analyzing
+existing software update systems with our framework, we
+find their ability to communicate this information securely
+in the event of a key compromise to be weak or nonexistent.
+We also find that the security problems in current software
+update systems are compounded by inadequate trust revocation
+mechanisms. We identify core security principles that
+allow software update systems to survive key compromise.
+Using these ideas, we design and implement TUF, a software
+update framework that increases resilience to key compromise."
+
 
   - &cappos_seattle_sigcse_2009
     anchor: cappos_seattle_sigcse_2009
     title: "Seattle: A Platform for Educational Cloud Computing"
     authors:
-      - name: "Cappos, Justin and Beschastnikh, Ivan and Krishnamurthy, Arvind and Anderson, Tom"
+      - name: "J. Cappos, I. Beschastnikh, A. Krishnamurthy, and T. Anderson"
     project: *seattle
     booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
     series: "SIGCSE '09"
     year: "2009"
     isbn: "978-1-60558-183-5"
-    location: "Chattanooga, TN, USA"
+    location:
     pages: "111--115"
     numpages: "5"
     acmid: "1508905"
     publisher: "ACM"
-    address: "New York, NY, USA"
+    address:
     keywords: "cloud computing, cluster computing, distributed computing, peer-to-peer computing"
     link: "/papers/cappos_seattle_sigcse_2009.pdf"
     abstract: "Cloud computing is rapidly increasing in popularity. Companies
-such as RedHat, Microsoft, Amazon, Google, and
+such as RedHat, Microsoft, Amazon, Goog
+le, and
 IBM are increasingly funding cloud computing infrastructure
 and research, making it important for students to gain
 the necessary skills to work with cloud-based resources. This
@@ -658,6 +839,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *bender_sas_17
       - *kuppusamy_escar_16
       - *torres_toto_usenixsec-2016
       - *kuppusamy_nsdi_16
@@ -665,6 +847,7 @@ publication_cards:
       - *rasley_checkapi_issre2015
       - *weiss_trustcom2015
       - *li-usenix-fence-2015
+      - *wang_uppir_globecom2015
       - *martins-atc15-camera
       - *reininger_sensevis_sas15
       - *hooshangi_sigcse15
@@ -674,6 +857,7 @@ publication_cards:
       - *cappos_blursense_sas_14
       - *cappos_refmonitor_sigcse_14
       - *cappos_uppir_fc_13
+      - *samuel_tufccs_10
       - *cappos_seattle_sigcse_2009
 
   - type: Workshop Papers
