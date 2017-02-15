@@ -39,9 +39,9 @@ presses:
 
   - title: "Framework Open Source de Cibersegurança para Indústria Automotiva é Criado"
     link: "http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/?trace=824205206&amp;source=news-home"
-    anchor: tuf1
+    anchor: uptaneimasters
     type: article-foreign
-    project: *tuf
+    project: *uptane
     source: "iMasters"
     date: "January 2017"
 
