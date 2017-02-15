@@ -3,9 +3,18 @@
 intro: "Selected mentions about our research in the press"
 
 presses:
+
+  - title: "Wanted: White Hat Hackers to Break New Automotive Software Updater Code"
+    link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
+    anchor: uptane1
+    type: article
+    project: *uptane
+    source: "TechRepublic"
+    date: "February 2017"
+
   - title:  "How Uptane Can Protect Your Car From Hackers"
     link:  "https://www.facebook.com/Reuters/videos/1364617036891982/"
-    anchor: uptane1
+    anchor: uptane2
     type: video
     project: *uptane
     source: "Reuters (via Facebook Live)"
@@ -13,7 +22,7 @@ presses:
 
   - title: "A Future Car May Be Protected From Hacking By Software Developed In San Antonio"
     link: "http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0"
-    anchor: uptane2
+    anchor: uptane3
     type: audio
     project: *uptane
     source: "Texas Public Radio"
@@ -22,7 +31,7 @@ presses:
 
   - title: "Automotive ECU Updates: Keeping the Hackers Out"
     link: "http://www.eetimes.com/document.asp?doc_id=1331232"
-    anchor: uptane3
+    anchor: uptane4
     type: article
     project: *uptane
     source: "EE Times"
@@ -38,7 +47,7 @@ presses:
 
   - title: "Automotive Software Developers Call on Hackers to Find its Flaws"
     link: "http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/"
-    anchor: uptane4
+    anchor: uptane5
     type: article
     project: *uptane
     source: "ITS International"
@@ -46,27 +55,19 @@ presses:
 
   - title: "Are Software Updates Key to Stopping Criminal Car Hacks?"
     link: "http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks"
-    anchor: uptane5
+    anchor: uptane6
     type: article
     project: *uptane
     source: "Christian Science Monitor"
     date: "January 2017"
 
-  - title: "Uptane will Protect your Car from Hackers"
+  - title: "Uptane will Protect your Connected Car from Hackers"
     link: "http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25"
-    anchor: uptane6
+    anchor: uptane7
     type: article
     project: *uptane
     source: "Forbes"
     date: "January 2017"
-
-  - title: "Wanted: White Hat Hackers to Break New Automotive Software Updater Code"
-    link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
-    anchor: uptane7
-    type: article
-    project: *uptane
-    source: "TechRepublic"
-    date: "February 2017"
 
   - title: "White Hackers to Seek Errors in Open-source Cybersecurity Framework for Cars"
     link: "https://hotforsecurity.bitdefender.com/blog/white-hackers-to-seek-errors-in-open-source-cybersecurity-framework-for-cars-17550.html"
@@ -84,7 +85,7 @@ presses:
     source: "helpnetsecurity"
     date: "January 2017"
 
-  - title: "Uptane wil je 'connected car' beschermen tegen hackers"
+  - title: "Uptane Wil Je 'Connected Car' beschermen Tegen Hackers"
     link: "http://datanews.knack.be/ict/nieuws/uptane-wil-je-connected-car-beschermen-tegen-hackers/article-normal-805323.html"
     anchor: uptane10
     type: article-foreign
@@ -124,6 +125,22 @@ presses:
     source: "Yahoo News"
     date: "January 2017"
 
+  - title: "Self-Driving Cars are Prone to Hacks—and Automakers are Barely Taking About it"
+    link: "http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12"
+    anchor: uptane15
+    type: article
+    project: *uptane
+    source: "Business Insider"
+    date: "December 2016"
+
+  - title: "Automotive Cybersecurity: Connected & Self-Driving Vehicles"
+    link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
+    anchor: uptane16
+    type: article
+    project: *uptane
+    source: "Online Engineering Programs Blog"
+    date: "September 2016"
+
   - title: "The Update Framework"
     link: "https://news.ycombinator.com/item?id=12245587"
     anchor: tuf2
@@ -132,18 +149,106 @@ presses:
     source: "Hacker News"
     date: "August 2016"
 
-  - title: "Automotive Cybersecurity: Connected & Self-Driving Vehicles"
-    link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
-    anchor: uptane15
+  - title: "A Password Hash Storage Scheme that Prevents Efficient Password Cracking"
+    link: "https://news.ycombinator.com/item?id=10229802"
+    anchor: pph1
     type: article
-    project: *uptane
-    source: "Online Engineering Programs Blog"
-    date: "September 2016"
+    project: *pph
+    source: "Hacker News"
+    date: "September 2015"
 
-  - title: "Self-Driving Cars are Prone to Hacks—and Automakers are Barely Taking About it"
-    link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
-    anchor: uptane15
+  - title: "Introducing Docker Content Trust"
+    link: "https://news.ycombinator.com/item?id=10048096"
+    anchor: tuf3
     type: article
-    project: *uptane
-    source: "Business Insider"
-    date: "December 2016"
+    project: *tuf
+    source: "Hacker News"
+    date: "August 2015"
+
+  - title: "Docker: With Content Trust, You Can Run Containers on Untrusted Networks"
+    link: "https://thenewstack.io/docker-content-trust-can-run-containers-untrusted-networks/"
+    anchor: tuf4
+    type: article
+    project: *tuf
+    source: "The New Stack"
+    date: "August 2015"
+
+  - title: "Improving Hackage Security"
+    link: "http://www.well-typed.com/blog/2015/04/improving-hackage-security/"
+    anchor: tuf5
+    type: article
+    project: *tuf
+    source: "Well-Typed (Blog)"
+    date: "April 2015"
+
+  - title: "Protecting Python Package Downloads"
+    link: "https://lwn.net/Articles/629426/"
+    anchor: tuf6
+    type: article
+    project: *tuf
+    source: "Linux Weekly News (LWN)"
+    date: "January 2015"
+
+  - title: "NSF Supports Researchers' Use of Psychology to Detect Software Vulnerabilities"
+    link: "http://engineering.nyu.edu/news/2015/01/22/nsf-supports-researchers-use-psychology-detect-software-vulnerabilities"
+    anchor: atoms1
+    type: article
+    project: *atoms
+    source: "NYU Engineering Newsletter"
+    date: "January 2015"
+
+  - title: "Incremental Plans to Improve Python Packaging"
+    link: "https://news.ycombinator.com/item?id=8780369"
+    anchor: tuf7
+    type: article
+    project: *tuf
+    source: "Hacker News"
+    date: "December 2014"
+
+  - title: "Docker Image Insecurity"
+    link: "https://titanous.com/posts/docker-insecurity"
+    anchor: tuf8
+    type: article
+    project: *tuf
+    source: "Titanous Blog"
+    date: "December 2014"
+
+  - title: "New Protection Scheme Makes Weak Passwords Virtually Uncrackable"
+    link: "http://www.securityweek.com/new-protection-scheme-makes-weak-passwords-virtually-uncrackable"
+    anchor: pph2
+    type: article
+    project: *pph
+    source: "Security Week"
+    date: "July 2014"
+
+  - title: "New Protection Scheme Makes Weak Passwords Virtually Uncrackable (excerpted from Security Week)"
+    link: "http://technews.acm.org/archives.cfm?fo=2014-08-aug/aug-04-2014.html#739109"
+    anchor: pph3
+    type: article
+    project: *pph
+    source: "ACM Tech News"
+    date: "August 2014"
+
+  - title: "Diagnostic Tool Reveals Unexpected Errors In Complex Networked Applications"
+    link: "http://www.broadwayworld.com/bwwgeeks/article/Diagnostic-Tool-Reveals-Unexpected-Errors-In-Complex-Networked-Applications-20140512#.U3DjT61dX_Y"
+    anchor: netcheck1
+    type: article
+    project: *netcheck
+    source: "Geeks World"
+    date: "May 2014"
+
+  - title: "NYU Group Says its Scheme Makes Cracking Individual Passwords Impossible"
+    link:  "https://it.slashdot.org/story/14/04/03/1440211/nyu-group-says-its-scheme-makes-cracking-individual-passwords-impossible"
+    anchor: pph4
+    type: article
+    project: *pph
+    source: "Slashdot"
+    date: "April 2014"
+
+  - title: "TUF Love"
+    link:  "http://www.linux-magazine.com/Issues/2014/160/Security-Lessons-TUF"
+    anchor: tuf9
+    type: article
+    project: *tuf
+    source: "Linux Magazine"
+    date: "March 2014"
