@@ -15,8 +15,10 @@ To apply to work with us, please email
 the subject.  Please include a code sample and/or github ID along with 
 your resume.  
 
-*Practitioners and Community*
+*Practitioners*
 
+We work closely with partners in industry on most projects.  Feel free to 
+contact us for questions about a project.
 Our lab's research is <a href="LICENSE.txt">open source</a> and is free for 
 everyone to use (even for commercial purposes).  Code and relevant documents 
 are posted on GitHub. Feel free to use our code and let us know what you think!

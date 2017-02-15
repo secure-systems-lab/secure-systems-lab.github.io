@@ -13,7 +13,7 @@ deployable solutions to real-world security threats.   Over the past few
 years, the lab has developed products and improved on existing system
 designs that [detect](projects#crashsimulator) and
 [isolate](projects#lind) security faults, [secure](projects#pph)
-[private data](projects#sensibility),
+[private](projects#sensibility) [data](projects#uppir),
 provide a [secure mechanism](projects#tuf) for fixing software flaws in
 [different contexts](projects#uptane), and even foster a deeper
 understanding about how to help programmers avoid 
