@@ -22,8 +22,8 @@ publications:
     authors:
       - name: "T. Karthik, A. Brown, and S.Awwad, D. McCoy, R. Bielawski, C. Mott, S. Lauzon, A. Weimerskirch, and J. Cappos"
     project: *uptane
-    booktitle: "14th escar (Embedded Security in Cars) Conference"
-    year: "2016"
+    booktitle: "14th Embedded Security in Cars Conference (escar 2016)"
+    year:
     link: "/papers/kuppusamy_escar_16.pdf"
     abstract: "Software update systems for automobiles can deliver significant
 benefits, but, if not implemented carefully, they could potentially
@@ -56,10 +56,10 @@ main automotive industry stakeholders in the USA."
     authors:
       - name: "S. Torres-Arias, A. Ammula, R. Curtmola, and J. Cappos"
     project: *in-toto
-    booktitle: "25th USENIX Security Symposium, USENIX Security"
+    booktitle: "25th USENIX Security Symposium (USENIX Sec 2016)"
     volume: "16"
     pages: "10-12"
-    year: "2016"
+    year:
     link: "/papers/torres_toto_usenixsec-2016.pdf"
     abstract: "Metadata manipulation attacks represent a new threat
 class directed against Version Control Systems, such as
@@ -94,7 +94,7 @@ Git."
       - name: "T. Kuppusamy, S. Torres-Arias, V. Diaz, and J. Cappos"
     project: *tuf
     booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
-    year: "2016"
+    year:
     isbn: "978-1-931971-29-4"
     address:
     pages: "567--581"
@@ -104,6 +104,18 @@ Git."
 
 This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
 
+  - &dev-pep-2016
+    anchor: dev-pep-2016
+    title: "PEP 480—Surviving a Compromise of PyPI: The Maximum Security Model"
+    authors:
+      - name: "T. Kuppusamy, V. Diaz, D. Stuffit, and J. Cappos"
+    year: "2016"
+    institution: "Python Enhancement Proposal"
+    link: "https://www.python.org/dev/peps/pep-0480/"
+    abstract: "Proposed is an extension to PEP 458 that adds support for end-to-end signing and the maximum security model. End-to-end signing allows both PyPI and developers to sign for the distributions that are downloaded by clients. The minimum security model proposed by PEP 458 supports continuous delivery of distributions (because they are signed by online keys), but that model does not protect distributions in the event that PyPI is compromised. In the minimum security model, attackers may sign for malicious distributions by compromising the signing keys stored on PyPI infrastructure. The maximum security model, described in this PEP, retains the benefits of PEP 458 (e.g., immediate availability of distributions that are uploaded to PyPI), but additionally ensures that end-users are not at risk of installing forged software if PyPI is compromised.
+
+This PEP discusses the changes made to PEP 458 but excludes its informational elements to primarily focus on the maximum security model. For example, an overview of The Update Framework or the basic mechanisms in PEP 458 are not covered here. The changes to PEP 458 include modifications to the snapshot process, key compromise analysis, auditing snapshots, and the steps that should be taken in the event of a PyPI compromise. The signing and key management process that PyPI MAY RECOMMEND is discussed but not strictly defined. How the release process should be implemented to manage keys and metadata is left to the implementors of the signing tools. That is, this PEP delineates the expected cryptographic key type and signature format included in metadata that MUST be uploaded by developers in order to support end-to-end verification of distributions."
+
 
   - &li-usenix-fence-2015
     anchor: li-usenix-fence-2015
@@ -112,7 +124,7 @@ This work demonstrates that community repositories can offer compromise-resilien
       - name: "T. Li, A. Rafetseder, R. Fonseca, and J. Cappos"
     project: *seattle
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
-    year: "2015"
+    year:
     isbn: "978-1-931971-225"
     address:
     pages: "177--191"
@@ -152,10 +164,10 @@ users"
     authors:
       - name: "S. Torres-Arias, A. Ammula, R. Curtmola, and J. Cappos"
     project: *in-toto
-    booktitle: "25th USENIX Security Symposium, USENIX Security"
+    booktitle: "25th USENIX Security Symposium, (USENIX Sec 2016)"
     volume: "16"
     pages: "10-12"
-    year: "2016"
+    year:
     link: "/papers/torres_toto_usenixsec-2016.pdf"
     abstract: "Metadata manipulation attacks represent a new threat
 class directed against Version Control Systems, such as
@@ -190,7 +202,7 @@ Git."
       - name: "T. Kuppusamy, S. Torres-Arias, V. Diaz, and J. Cappos"
     project: *tuf
     booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
-    year: "2016"
+    year:
     isbn: "978-1-931971-29-4"
     address:
     pages: "567--581"
@@ -205,20 +217,20 @@ This work demonstrates that community repositories can offer compromise-resilien
     title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
     authors:
       - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
-    booktitle: "Tenth International AAAI Conference on Web and Social Media"
-    year: "2016"
+    booktitle: "Tenth International AAAI Conference on Web and Social Media (ICWSM 16)"
+    year:
     link: "/papers/Peddinti_ICWSM_2016.pdf"
     abstract: "We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons."
     eprint: "arXiv:1702.00164"
 
   - &li-usenix-fence-2015
     anchor: li-usenix-fence-2015
-    title: "Fence: Protecting Device Availability With Uniform Resource Control"
+    title: "Fence: Protecting Device Availability with Uniform Resource Control"
     authors:
       - name: "T. Li, A. Rafetseder, R. Fonseca, and J. Cappos"
     project: *seattle
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
-    year: "2015"
+    year:
     isbn: "978-1-931971-225"
     address:
     pages: "177--191"
@@ -258,8 +270,8 @@ users"
     authors:
       - name: "L. Wang, T. Kuppusamy, Y. Liu, and J. Cappos"
     project: *uppir
-    booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
-    year: "2015"
+    booktitle: "IEEE GLOBECOM 2015 Conference (GLOBECOM 2015)"
+    year:
     pages: "484-495"
     keywords: "application program interfaces;program debugging;program testing;software portability;CheckAPI;JavaScript;POSIX;Seattle project Repy VM;application code;cross-platform portability violation detection;latent cross-platform API violation detection;operating system;partial specification-based API implementation;portability bugs;Computer bugs;Libraries;Operating systems;Runtime;Sockets;Testing"
     month: "Nov"
@@ -284,12 +296,12 @@ even non-PIR systems, while maintaining a high level of privacy."
 
   - &rasley_checkapi_issre2015
     anchor: rasley_checkapi_issre2015
-    title: "Detecting latent cross-platform API violations"
+    title: "Detecting Latent Cross-platform API Violations"
     authors:
       - name: "J. Rasley, E. Gessiou, T. Ohmann, Y. Brun, S. Krishnamurthi and J. Cappos"
     project: *seattle
-    booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)"
-    year: "2015"
+    booktitle: "2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE 2015)"
+    year:
     pages: "484-495"
     keywords: "application program interfaces;program debugging;program testing;software portability;CheckAPI;JavaScript;POSIX;Seattle project Repy VM;application code;cross-platform portability violation detection;latent cross-platform API violation detection;operating system;partial specification-based API implementation;portability bugs;Computer bugs;Libraries;Operating systems;Runtime;Sockets;Testing"
     month: "Nov"
@@ -321,10 +333,10 @@ violations that are confirmed bugs in widely-used software."
     title: "Can the Security Mindset Make Students Better Testers?"
     authors:
       - name: "S. Hooshangi, R. Weiss, and J. Cappos"
-    booktitle: "Proceedings of the 46th ACM Technical Symposium on Computer Science Education"
+    booktitle: "Proceedings of the 46th ACM Technical Symposium on Computer Science Education (SIGCSE '15)"
     project: *seattle
-    series: "SIGCSE '15"
-    year: "2015"
+    series:
+    year:
     isbn: "978-1-4503-2966-8"
     location:
     pages: "404--409"
@@ -343,7 +355,7 @@ violations that are confirmed bugs in widely-used software."
       - name: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
     project: *sensibility
     booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
-    year: "2015"
+    year:
     volume: "1"
     pages: "25-32"
     keywords: "Android (operating system);expert systems;mobile computing;power aware computing;program verification;resource allocation;smart phones;system monitoring;trusted computing;voltage measurement;Android smartphone;Android-based smartphones;CPU utilization;GPS location;OBD sensor;anomalous behavior detection;battery voltage measurement;expert rule system;hierarchical trust evaluation methodology;mobile devices;network communication;onboard diagnostics sensor;resource consumption patterns;resource utilization monitoring;tablets;trust metrics;trust verification;trustworthiness evaluation;Computer science;Electronic mail;Measurement;Privacy;Security;Smart phones;mobile computing;security;trust metrics"
@@ -373,8 +385,8 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "J. Cappos, L. Wang, R. Weiss, Y. Yang, and Y. Zhuang"
     project: *sensibility
-    booktitle: "2014 IEEE Sensors Applications Symposium (SAS)"
-    year: "2014"
+    booktitle: "IEEE Sensors Applications Symposium (SAS 2014)"
+    year:
     pages: "329-332"
     keywords: "authorisation;data privacy;sensors;smart phones;BlurSense;dynamic fine-grained access control;embedded on-board sensors;flexible access control mechanism;mobile applications;smartphone privacy filter;tablets;untrusted apps;Androids;Humanoid robots;Mobile communication;Monitoring;Privacy;Security;Sensors;Sensor access control;data filtering;privacy"
     month: "Feb"
@@ -387,8 +399,8 @@ violations that are confirmed bugs in widely-used software."
     authors:
       - name: "M. Reininger, S. Miller, Y. Zhuang, and J. Cappos"
     project: *sensibility
-    booktitle: "2015 IEEE Sensors Applications Symposium (SAS)"
-    year: "2015"
+    booktitle: "2015 IEEE Sensors Applications Symposium (SAS 2015)"
+    year:
     pages: "1-6"
     keywords: "on-board communications;smart phones;vehicles;wireless LAN;WiFi on-board diagnostics sensor;data collection;mobile computing platform;moving vehicles;offline analysis;real-time analysis;smartphone sensors;tablets;vehicle data collection;visualization tools;Data collection;IEEE 802.11 Standards;Prototypes;Security;Sensors;Servers;Vehicles;Smartphone sensors;data visualization and analysis;vehicular networks"
     month: "April"
@@ -414,7 +426,7 @@ violations that are confirmed bugs in widely-used software."
       - name: "M. Martins, J. Cappos, and R. Fonseca"
     project: *seattle
     booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
-    year: "2015"
+    year:
     isbn: "978-1-931971-225"
     address:
     pages: "563--575"
@@ -466,9 +478,9 @@ before they begin to shape the economy and society."
     title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
     authors:
       - name: "S.T. Peddinti,  K.W. Ross, and J. Cappos"
-    booktitle: "Proceedings of the Second ACM Conference on Online Social Networks"
-    series: "COSN '14"
-    year: "2014"
+    booktitle: "Proceedings of the Second ACM Conference on Online Social Networks (COSN '14)"
+    series:
+    year:
     isbn: "978-1-4503-3198-2"
     location: "Dublin, Ireland"
     pages: "83--94"
@@ -489,7 +501,7 @@ In this work we perform a large-scale analysis of Twitter to study the prevalenc
       - name: "Y. Zhuang, E. Gessiou, S. Portzer, F. Fund, M. Muhammad, I. Beschastnikh, and J. Cappos"
     project: *netcheck
     booktitle: "11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14)"
-    year: "2014"
+    year:
     isbn: "978-1-931971-09-6"
     address:
     pages: "115--128"
@@ -516,9 +528,9 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     authors:
       - name: "J. Cappos and R. Weiss"
     project: *seattle
-    booktitle: "Proceedings of the 45th ACM Technical Symposium on Computer Science Education"
-    series: "SIGCSE '14"
-    year: "2014"
+    booktitle: "Proceedings of the 45th ACM Technical Symposium on Computer Science Education (SIGCSE '14)"
+    series:
+    year:
     isbn: "978-1-4503-2605-6"
     location:
     pages: "523--528"
@@ -538,9 +550,9 @@ Our evaluation demonstrates that NetCheck is able to diagnose failures in popula
     authors:
       - name: "D. Oliveira, M. Rosenthal, N. Morin, K-C Yeh, J. Cappos, and Y. Zhuang"
     project: *blindspots
-    booktitle: "Proceedings of the 30th Annual Computer Security Applications Conference"
-    series: "ACSAC '14"
-    year: "2014"
+    booktitle: "Proceedings of the 30th Annual Computer Security Applications Conference (ACSAC '14)"
+    series:
+    year:
     isbn: "978-1-4503-3005-3"
     location:
     pages: "296--305"
@@ -559,9 +571,9 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     authors:
       - name: "J. Cappos, Y. Zhuang, D. Oliveira, N. Rosenthal, and K-C Yeh"
     project: *blindspots
-    booktitle: "Proceedings of the 2014 New Security Paradigms Workshop"
-    series: "NSPW '14"
-    year: "2014"
+    booktitle: "Proceedings of the 2014 New Security Paradigms Workshop (NSPW '14')"
+    series:
+    year:
     isbn: "978-1-4503-3062-6"
     location:
     pages: "53--62"
@@ -595,7 +607,7 @@ To validate this hypothesis we conducted a study with 47 developers using psycho
     year: "2014"
     link: "/papers/mueller_tomato_pik_14.pdf"
     publisher:
-    abstract: ": Networks and distributed systems are an important
+    abstract: "Networks and distributed systems are an important
 field of research. To enable experimental research in
 this field we propose a new tool ToMaTo (Topology Management
 Tool) which was developed to support research
@@ -647,7 +659,7 @@ diagnosis by using a set of heuristics."
     authors:
       - name: "Y. Zhuang, A. Rafetseder and J. Cappos"
     project: *seattle
-    booktitle: "2013 Second GENI Research and Educational Experiment Workshop"
+    booktitle: "Second GENI Research and Educational Experiment Workshop"
     year: "2013"
     pages: "37-44"
     keywords: "computer aided instruction;research and development;security of data;teaching;Seattle testbed;application performance;computational resource;education platform;educational standpoint;research platform;teaching tool;user security;Communities;Educational institutions;Monitoring;Security;Smart phones;Software;Virtual machining;Distributed Testbed;Educational Use;End-User Machines;Experimental Facilities"
@@ -732,7 +744,19 @@ period, or removal by the original poster. An effort was made to locate copies o
 sometimes to no avail. In those cases, details concerning the contents of the dumps were
 collected from published reports about them."
 
+  - &dev-pep-2013
+    anchor: dev-pep-2013
+    title: "PEP 458—Surviving a Compromise of PyPI"
+    authors:
+      - name: "T. Kuppusamy, V. Diaz, D. Stuffit, and J. Cappos"
+    year: "2013"
+    institution: "Python Enhancement Proposal"
+    link: "http://legacy.python.org/dev/peps/pep-0458/"
+    abstract: "This PEP proposes how the Python Package Index (PyPI [1]) should be integrated with The Update Framework [2] (TUF). TUF was designed to be a flexible security add-on to a software updater or package manager. The framework integrates best security practices such as separating role responsibilities, adopting the many-man rule for signing packages, keeping signing keys offline, and revocation of expired or compromised signing keys. For example, attackers would have to steal multiple signing keys stored independently to compromise a role responsible for specifying a repository's available files. Another role responsible for indicating the latest snapshot of the repository may have to be similarly compromised, and independent of the first compromised role.
 
+The proposed integration will allow modern package managers such as pip [3] to be more secure against various types of security attacks on PyPI and protect users from such attacks. Specifically, this PEP describes how PyPI processes should be adapted to generate and incorporate TUF metadata (i.e., the minimum security model). The minimum security model supports verification of PyPI distributions that are signed with keys stored on PyPI: distributions uploaded by developers are signed by PyPI, require no action from developers (other than uploading the distribution), and are immediately available for download. The minimum security model also minimizes PyPI administrative responsibilities by automating much of the signing process.
+
+This PEP does not prescribe how package managers such as pip should be adapted to install or update projects from PyPI with TUF metadata. Package managers interested in adopting TUF on the client side may consult TUF's library documentation [27], which exists for this purpose. Support for project distributions that are signed by developers (maximum security model) is also not discussed in this PEP, but is outlined in the appendix as a possible future extension and covered in detail in PEP 480 [26]. The PEP 480 extension focuses on the maximum security model, which requires more PyPI administrative work (none by clients), but it also proposes an easy-to-use key management solution for developers, how to interface with a potential future build farm on PyPI infrastructure, and discusses the feasibility of end-to-end signing."
 
 
   - &tr-cse-2013-04
@@ -776,7 +800,7 @@ before they begin to shape the economy and society."
 
   - &muhammad_seattle_geni_12
     anchor: muhammad_seattle_geni_12
-    title: "Towards a representive testbed: Harnessing volunteers for networks research"
+    title: "Towards a Representive Testbed: Harnessing Volunteers for Networks research"
     authors:
       - name: "M. Muhammad and J. Cappos"
     project: *seattle
@@ -812,8 +836,8 @@ they are made."
     authors:
       - name: "C. Matthews, J. Cappos, R. McGeer, S. Neville,  and Y. Coady"
     project: *lind
-    booktitle: "Freeco 2011 Onward! Workshop: Towards Free Composition of Software Modules"
-    year: "2011"
+    booktitle: "Workshop on Free Composition (FREECO '11)"
+    year:
     link: "/papers/matthews_etal.pdf"
     abstract: "Security is a constant sore spot in application development.
 Applications now need structural support for better isolation
@@ -848,9 +872,9 @@ virtual component model."
     authors:
       - name: "L. Collares, C. Matthews, J. Cappos, Y. Coady, and R. McGeer"
     project: *seattle
-    booktitle: "Proceedings of the Compilation of the Co-located Workshops on DSM'11, TMC'11, AGERE! 2011, AOOPES'11, NEAT'11, & VMIL'11"
-    series: "SPLASH '11 Workshops"
-    year: "2011"
+    booktitle: "Workshop on NExt-generation Applications of smarTphones (NEAT'11)"
+    series:
+    year:
     isbn: "978-1-4503-1183-0"
     location: "Portland, Oregon, USA"
     pages: "283--288"
@@ -868,7 +892,7 @@ virtual component model."
     authors:
       - name: "S.A Wallace, M. Muhammad, J. Mache, and J. Cappos"
     project: *seattle
-    year: "2011"
+    booktitle: "Journal of Computing Sciences in College"
     link: "/papers/wallace_JCSC_seattle_2011.pdf"
     abstract: "The Internet Connectivity module is a short assignment covering distributed computing and networking. The Internet Connectivity module is part of the curriculum created for the Northwest Distributed Computer Science Department and is built upon the Seattle distributed computing platform. In this paper, we describe the module and illustrate how Seattle facilitates networking projects and experiments that use computers/resources from across the globe. In addition, we describe how the Internet Connectivity module was used in two courses, provide some comments on students' reactions to the project, and conclude with suggestions for faculty considering how to use this module in their future courses."
 
@@ -878,7 +902,7 @@ virtual component model."
     authors:
       - name: "J.Cappos and J. Jacky"
     project: *seatlle
-    booktitle: "5th Workshop on Systems Software Verification"
+    booktitle: "5th Workshop on Systems Software Verification (SSV'10)"
     series: "SSV '10'"
     year: "2010"
     location:
@@ -919,9 +943,9 @@ a priori."
     authors:
       - name: "J. Samuel, N. Matthewson, J. Cappos, R. Dingledine"
     project: *tuf
-    booktitle: "17th ACM Conference on Computer and Communications Security"
-    series: "CCS '10'"
-    year: "2010"
+    booktitle: "17th ACM Conference on Computer and Communications Security (CCS'10)"
+    series:
+    year:
     location:
     publisher: "ACM"
     address:
@@ -947,9 +971,9 @@ update framework that increases resilience to key compromise."
     authors:
       - name: "J. Cappos, A. Dadgar, J. Rasley, J. Samuel, I. Beschastnikh, C. Barsan, A. Krishnamurthy, and T. Anderson"
     project: *lind
-    booktitle: "17th ACM Conference on Computer and Communications Security"
-    series: "CCS '10'"
-    year: "2010"
+    booktitle: "17th ACM Conference on Computer and Communications Security (CCS '10)"
+    series:
+    year:
     isbn: "978-1-4503-0245-6"
     location:
     pages: 212--223
@@ -986,9 +1010,9 @@ sandbox."
     authors:
       - name: "J. Cappos, I. Beschastnikh, A. Krishnamurthy, and T. Anderson"
     project: *seattle
-    booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education"
-    series: "SIGCSE '09"
-    year: "2009"
+    booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education (SIGCSE '09)"
+    series:
+    year:
     isbn:
     location:
     pages: "111--115"
@@ -1065,11 +1089,13 @@ publication_cards:
   - type: Journal Articles, Magazines, Tech Reports, etc.
     anchor: journals
     publications:
+      - *dev-pep-2016
       - *zhuang-tr-cse-2015-01
       - *zhuang_sensibility_login_2015
       - *torres_pph_login_2014
       - *polypasswordhasher_TR
       - *mueller_tomato_pik_14
+      - *dev-pep-2013
       - *tr-cse-2013-04
       - *tr-cse-2013-03
       - *tr-cse-2013-02
