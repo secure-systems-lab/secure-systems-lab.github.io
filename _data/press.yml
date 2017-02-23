@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Automotive Cyber Security: Keeping Hackers out of Cars"
+    link: "http://www.lowellsun.com/latestnews/ci_30802407/automotive-cyber-security-keeping-hackers-out-cars"
+    anchor: uptanelowell
+    type: article
+    project: *uptane
+    source: "Lowell Press"
+    date: "February 2017"
+
   - title: "Wanted: White Hat Hackers to Break New Automotive Software Updater Code"
     link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
     anchor: uptane1
