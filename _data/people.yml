@@ -475,6 +475,29 @@ on LLVM used by Airbus and other companies."
           link: "http://dl.acm.org/citation.cfm?id=2538931"
       deployments: Worked on development and application of <a href=\"https://sensibilitytestbed.com\">Sensibility Testbed</a>
 
+  - benson_kuang: &benson_kuang
+      name: "Benson Kuang"
+      link: "people#benson_kuang"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/benson_kuang.jpg"
+      interests: "Cybersecurity"
+      projects:
+        - name: "Reverse engineering the OnStar Module"
+
+  - ariella_feuchtwanger: &ariella_feuchtwanger
+      name: "Ariella C. Feuchtwanger"
+      link: "people#ariella_feuchtwanger"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/ariella_feuchtwanger .jpg"
+      interests: "Cybersecurity, security for the Internet of Things"
+      projects:
+        - name: "Upgrading software security for the Internet of Things"
+
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -510,6 +533,8 @@ people_cards:
       - *ajay_shenoy
       - *deepankar_jaisia
       - *ankit_bhatia
+      - *benson_kuang
+      - *ariella_feuchtwanger
       - *lolaly_luo
       - *kejian_wang
       - *jake_iannacone
