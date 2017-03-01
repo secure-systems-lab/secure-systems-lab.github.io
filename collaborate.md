@@ -8,12 +8,14 @@ layout: default
 
 Professor Cappos is currently recruiting talented PhD students, developers, 
 research professors, and postdoctoral researchers who are interested in 
-building and deploying real world software.
-
+building and deploying real world software.  
 To apply to work with us, please email 
 <a href="mailto:jcappos@nyu.edu">jcappos@nyu.edu</a> with “Lab application” in 
 the subject.  Please include a code sample and/or github ID along with 
 your resume.  
+
+Our <a href="https://github.com/secure-systems-lab/code-style-guidelines">Code
+Style Guidelines</a> outline our rules for writing readable code.  
 
 *Practitioners*
 
