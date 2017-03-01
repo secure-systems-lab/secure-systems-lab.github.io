@@ -14,8 +14,9 @@ To apply to work with us, please email
 the subject.  Please include a code sample and/or github ID along with 
 your resume.  
 
-Our <a href="https://github.com/secure-systems-lab/code-style-guidelines">Code
-Style Guidelines</a> outline our rules for writing readable code.  
+We have guidelines about how to work with our projects, including
+<a href="https://github.com/secure-systems-lab/code-style-guidelines">Code
+Style Guidelines</a>.
 
 *Practitioners*
 
