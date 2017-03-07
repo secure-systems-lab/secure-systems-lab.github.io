@@ -492,11 +492,21 @@ on LLVM used by Airbus and other companies."
       internal: true
       role: "Master's Student"
       since: 2017
-      photo: "img/people/ariella_feuchtwanger .jpg"
+      photo: "img/people/ariella_feuchtwanger.jpg"
       interests: "Cybersecurity, security for the Internet of Things"
       projects:
         - name: "Upgrading software security for the Internet of Things"
 
+  - chris_lo: &chris_lo
+      name: "Christopher Lo "
+      link: "people#chris_lo"
+      internal: true
+      role: "High School Student"
+      since: 2017
+      photo: "img/people/chris_lo"
+      interests: "Cybersecurity"
+      projects:
+        - *pph
 
 people_cards:
   - type: Faculty
@@ -538,6 +548,7 @@ people_cards:
       - *lolaly_luo
       - *kejian_wang
       - *jake_iannacone
+      - *chris_lo
 
   - type: Alumni
     anchor: alumni
