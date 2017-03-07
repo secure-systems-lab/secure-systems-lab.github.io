@@ -498,12 +498,12 @@ on LLVM used by Airbus and other companies."
         - name: "Upgrading software security for the Internet of Things"
 
   - chris_lo: &chris_lo
-      name: "Christopher Lo "
+      name: "Christopher Lo"
       link: "people#chris_lo"
       internal: true
       role: "High School Student"
       since: 2017
-      photo: "img/people/chris_lo"
+      photo: "img/people/chris_lo.jpg"
       interests: "Cybersecurity"
       projects:
         - *pph
