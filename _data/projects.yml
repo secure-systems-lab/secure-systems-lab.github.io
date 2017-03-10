@@ -37,7 +37,7 @@ tags:
       name: "Cryptography"
       anchor: cryptography
   - software_engineering: &software_engineering
-      name: "Software Engingeering"
+      name: "Software Engineering"
       anchor: software_engineering
   - systems: &systems
       name: "Systems"
