@@ -166,7 +166,8 @@ researchers would benefit from accessing smartphone sensors. By giving the user 
 privacy of user information.  Sensibility also has additional security
 protections that ensure the safety of the device, while giving researchers
 access to unique information."
-      products: "<a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
+      products: "We have had four hack-a-thons where teams competed to build
+best Sensibility App. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
       people:
         - *yanyan_zhuang
