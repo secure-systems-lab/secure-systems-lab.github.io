@@ -1,0 +1,13 @@
+---
+title: Blog
+subnav: blog
+permalink: /blog/
+layout: default
+---
+
+<div class="tiles">
+  <ul>
+{% for post in site.posts %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> &middot; {{ post.date | date: "%Y-%m-%d" }}</li>
+{% endfor %}
+</div><!-- /.tiles -->
