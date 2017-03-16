@@ -1,8 +1,9 @@
 gems: ['jekyll/scholar']
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
 baseurl: /
-permalink: /post/:title
+permalink: /blog/:year-:month-:day-:title
 highlighter: rouge
 sass:
     sass_dir: _sass
-avatar: img/ssl_lock.png
+avatar: /img/ssl_lock.png
+disqus-shortname: secure-systems-lab
