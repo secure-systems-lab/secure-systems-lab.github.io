@@ -2,6 +2,10 @@
 layout: article
 title: Why Does Our Lab Need A Blog?
 comments: true 
+tagline: "Ideas do not always come in conference paper-sized chunks.  Sometimes they are too small to fill a paper.  Other times they find themselves cut loose from a paper that did not have enough pages to discuss everything.  And, in..."
+author: '<a href="/people#justin_cappos">Justin Cappos</a>'
+categories: 'Informational'
+
 ---
 
 Ideas do not always come in conference paper-sized chunks.  Sometimes they

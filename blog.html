@@ -8,6 +8,12 @@ layout: default
 <div class="tiles">
   <ul>
 {% for post in site.posts %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> &middot; {{ post.date | date: "%Y-%m-%d" }}</li>
+  <li><span style="font-size: 22px"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span> <br/>
+ <span style="font-size: 14px">{{ post.date | date: "%Y-%m-%d" }} &middot; Posted by: {{ post.author }} &middot; Categories: {{ post.categories}} &middot; <a href="{{ site.url }}{{ post.url }}#disqus_thread">Comments</a></span><br/>
+ <span style="font-size:15px">{{ post.tagline }}</a>
+</li>
 {% endfor %}
 </div><!-- /.tiles -->
+
+<script id="dsq-count-scr" src="//securesystemslab-1.disqus.com/count.js" async></script>
+
