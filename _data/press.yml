@@ -4,12 +4,12 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
-  - title: "Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater"
-    link: "http://trueviralnews.com/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater/"
-    anchor: tvnuptane
-    type: article
+  - title: "Uptane on NPR's Here and Now"
+    link: "http://www.wbur.org/hereandnow/2017/03/17/march-17-2017-hn-one"
+    anchor: npruptane
+    type: audio
     project: *uptane
-    source: "True Viral News"
+    source: "NPR -- Here and Now"
     date: "March 2017"
 
   - title: "The Update Framework – Securing Your Software Updates with Justin Cappos – Episode 99"
