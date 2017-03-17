@@ -166,9 +166,9 @@ researchers would benefit from accessing smartphone sensors. By giving the user 
 privacy of user information.  Sensibility also has additional security
 protections that ensure the safety of the device, while giving researchers
 access to unique information."
-      products: "We have had four hack-a-thons where teams competed to build
-best Sensibility App. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
-or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our blog</a>!"
+      products: "We have had four years of hack-a-thons, where teams compete 
+to build the best application for Sensibility. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
+or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our project's blog</a>!"
       people:
         - *yanyan_zhuang
         - *yu_hu
@@ -197,7 +197,7 @@ approach to prevent attackers from finding out which passwords are being used. B
 passwords in sets. This increases the attackers’ level of difficulty, making a
 PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-      products: "Basic reference implementations of PPH have been written for <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also used in a number of operating systems, including Linux and OS X. PPH is also used in the Seattle Clearinghouse and BioBank, the latter using our <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a> implementation."
+      products: "PPH is used in several projects including the Seattle Clearinghouse and BioBank.  PPH has available implementations for seven languages, including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
       people:
         - *santiago_torres
         - *lolaly_luo
