@@ -380,7 +380,7 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
       image: "img/projects/netcheck_diagram.png"
       site: "https://netcheck.poly.edu/"
       description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-      products: "We found a networking bug in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our blog (coming soon) first to learn about our experiences."
+      products: "NetCheck identified a wide array of networking bugs in different projects, including in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our blog (coming soon) first to learn about our experiences."
       experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
       people:
