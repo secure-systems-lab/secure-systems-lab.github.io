@@ -1,15 +1,11 @@
-
-
 ---
 layout: article
-title: SHAttered: Not All It's Cracked Up to Be
+title: "SHAttered: Not All It‘s Cracked Up to Be"
 subnav: blog
 comments: true
-tagline: "NYU graduate student Santiago Torres-Arias has a one-word message for those who might be shaken up by Google’s February 23 announcement of “the first practical technique” for attacking systems based on SHA-1, and that word is “relax.""
+tagline: "NYU graduate student Santiago Torres-Arias has a one-word message for those who might be shaken up by Google’s February 23 announcement of \"the first practical technique\" for attacking systems based on SHA-1, and that word is \"relax.\""
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
-
 ---
-# SHAttered: Not All It‘s Cracked Up to Be
 
 NYU graduate student Santiago Torres-Arias has a one-word message for those who might be shaken up by Google’s February 23 announcement of “the first practical technique” for attacking systems based on SHA-1, and that word is “relax.” While acknowledging that the attack, carried out by researchers at Google and the CWI Institute in Amsterdam, represents an “important milestone for the history of cryptographic hash algorithms,” he’s quick to point out that just because the attack CAN be done, it is unlikely to become the path of choice for malicious parties looking to bring down systems secured by cryptographic hash algorithms.
 
