@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "SHAttered: Not All It‘s Cracked Up to Be"
+title: "SHAttered: Not All It's Cracked Up to Be"
 subnav: blog
 comments: true
 tagline: "NYU graduate student Santiago Torres-Arias has a one-word message for those who might be shaken up by Google’s February 23 announcement of \"the first practical technique\" for attacking systems based on SHA-1, and that word is \"relax.\""
