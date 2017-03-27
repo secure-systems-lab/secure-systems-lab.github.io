@@ -15,8 +15,8 @@ the subject.  Please include a code sample and/or github ID along with
 your resume.  
 
 To make it easier to work with us, we have guidelines for
-<a href="https://github.com/secure-systems-lab/code-style-guidelines">Code
-Style</a>, document preparation, 
+<a href="https://github.com/secure-systems-lab/code-style-guidelines">code
+style</a>, document preparation, 
 <a href="https://github.com/jhdalek55/lab-guidelines/blob/master/newproject.md"> how 
 to start a new project</a>, and, for new students and staff, procedures 
 for <a href="https://github.com/jhdalek55/lab-guidelines/blob/master/on-boarding.md">on-boarding</a> 
