@@ -6,7 +6,7 @@ comments: true
 tagline: "So, you’ve come up with a really cool idea, discussed it with some knowledgeable people in order to frame that idea for a specific market, and written a program that is now attracting attention..."
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
-  - 'Uptane'
+  - '<a href="/projects#uptane">Uptane</a>'
 
 ---
 
