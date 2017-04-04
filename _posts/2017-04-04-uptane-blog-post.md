@@ -1,4 +1,4 @@
-Driving Forward. How a Big Idea Begins its Journey towards Marketplace Acceptance
+# Driving Forward. How a Big Idea Begins its Journey towards Marketplace Acceptance
 
 So, you’ve come up with a really cool idea, discussed it with some knowledgeable people in order to frame that idea for a specific market, and written a program that is now attracting attention both within the designated industry and among the public at large. You’ve demonstrated and discussed the project with a broader representation from the target audience and used their feedback to make sure your proposed solution will work within the unique parameters of that industry. Finally, you have thoroughly documented the design of the project, along with detailed guidance for implementation and deployment. And, you’ve managed to do all of this in just about a year’s time.
 
@@ -8,16 +8,16 @@ Now, three months after all the hoopla, the Uptane research team is focused on m
 
 So, what will it take to take Uptane into the mainstream? We had a conversation with a few members of the research team, and based on their comments, here are few anticipated next steps to move the project forward. We’re posting this blog now in recognition that the status of this project has changed, in SSL’s view, from one that is “sprouting” to one that has had some adoption.  
 
-Step 1: Open the code to the community
+**Step 1: Open the code to the community**
 The day Uptane was formally introduced in New York City, its developers also issued a  challenge to the security community: take our code and do your best to break it. While this might seem the exact opposite of what you would anticipate at a product launch, it does reflect a commitment to transparency that has been a hallmark of Uptane from the start. 
 
-“There are no secrets here,” observes Trishank Karthik Kuppusamy, a Ph.D. candidate and the SSL team member who lead the specification for Uptane. “That has been the plan from day one,” he asserts, adding that every stage of the program’s development has been open to the scrutiny of workshop participants, or the industry representatives who participated in an online discussion forum. Releasing the code for further examination at https://github.com/uptane/uptane, and encouraging any and all interested parties to put it to the test, was merely the next logical step.
+“There are no secrets here,” observes Trishank Karthik Kuppusamy, a Ph.D. candidate and the SSL team member who lead the specification for Uptane. “That has been the plan from day one,” he asserts, adding that every stage of the program’s development has been open to the scrutiny of workshop participants, or the industry representatives who participated in an online discussion forum. Releasing the code for further examination through its [web site](https://github.com/uptane/uptane), and encouraging any and all interested parties to put it to the test, was merely the next logical step.
 
 Beyond just continuing the pattern of transparency, Kuppusamy also sees three distinct benefits to be reaped from this call to white hat hackers. “First,” he says, “it assures the auto industry that, in developing our design, we are not favoring one particular manufacturer or supplier. Second, we believe that all scientific knowledge is actually improved by criticism. And, lastly, by offering our code now, it gives the community a chance to break the design, rather than just one implementation of that design. This allows for feedback on a much deeper level, and can help us identify flaws at the design level.”
 
 While there have been some questions and suggestions to date, no serious design flaws have been found. Submissions are still being welcomed by members of the white hat hacking community. 
  
-Step 2: Promote use of Uptane’s inherent flexibility as a path to adoption
+**Step 2: Promote use of Uptane’s inherent flexibility as a path to adoption**
 Uptane was designed to meet the unique needs of the auto industry, one of which is being able customize vehicle designs to meet specific end uses. How manufacturers and suppliers work with that flexibility, and whether the current design resources provided by the Uptane team will be sufficient for the demands of customization, will probably be major influences on how the project proceeds. 
 
 So far, two suppliers for the auto industry have adopted and adapted Uptane technology for use in commercial applications. One of these suppliers, Kuppusamy observes, “came to us through the forum,” and, “without a lot of direct communication with us” was able to integrate Uptane into its own technology. “I would say this shows we are at the point where people can build their own version of Uptane,” he asserts. 
