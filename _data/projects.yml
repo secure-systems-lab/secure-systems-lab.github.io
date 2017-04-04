@@ -83,7 +83,7 @@ and users protection from a host of potential attacks."
       name: "Uptane"
       anchor: "uptane"
       image: "img/projects/uptane_diagram.png"
-      status: *starting
+      status: *adopted
       site: "https://uptane.github.io/"
       description: "Cars today use a truly enormous
 amount of software, and, like any
@@ -93,14 +93,18 @@ mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
 compromises, while addressing  automotive specific vulnerabilities and
 limitations. We invite all security researchers and academics to perform a security review of Uptane by going to our web site."
-      products: "Uptane has been adopted by multiple suppliers already, with 
-many others integrating it currently.  <a href=\"https://uptane.github.io/\">Our website</a> contains high level
+      products: "Uptane has been adopted by 
+<a href=\"/blog/2017-04-04-uptane-blog-post\">multiple suppliers already</a>, 
+with many others integrating it currently.  
+<a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
-<a href=\"https://goo.gl/LmfODJ\">design specification</a> and <a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
+<a href=\"https://goo.gl/LmfODJ\">design specification</a> and 
+<a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
 For those who want lower level details, we also provide a
 <a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, an open source
-<a href=\"https://github.com/uptane/uptane\">reference implementation</a>, <a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and
-a <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
+<a href=\"https://github.com/uptane/uptane\">reference implementation</a>, 
+<a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a 
+<a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
