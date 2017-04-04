@@ -10,7 +10,6 @@ categories:
 
 ---
 
-# Driving Forward. How a Big Idea Begins its Journey towards Marketplace Acceptance
 
 So, you’ve come up with a really cool idea, discussed it with some knowledgeable people in order to frame that idea for a specific market, and written a program that is now attracting attention both within the designated industry and among the public at large. You’ve demonstrated and discussed the project with a broader representation from the target audience and used their feedback to make sure your proposed solution will work within the unique parameters of that industry. Finally, you have thoroughly documented the design of the project, along with detailed guidance for implementation and deployment. And, you’ve managed to do all of this in just about a year’s time.
 
