@@ -50,7 +50,6 @@ which may make this tracing difficult, to put it mildly.” Furthermore, since
 tracing is done on a per-thread or per-process basis, many traces on a server
 will incidentally capture requests and other information from other users,
 thus creating some significant privacy issues.
-
   * *Potential remediation.*  This fundamental problem can not be remediated by SSL
 and thus prevents NetCheck from working for distributed applications in the
 cloud. However, within these limitations, server administrators certainly
