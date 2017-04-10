@@ -85,7 +85,7 @@ in different environments.”
 [Savvas Savvides](https://www.cs.purdue.edu/homes/ssavvide/), built a
 [parser](https://github.com/ssavvides/posix-omni-parser) that is meant to
 abstract away OS differences in traces.  This parser is currently being used in
-our on-going work with <a href="/projects#crashsimulator">CrashSim</a>, but,
+our on-going work with <a href="/projects#crashsimulator">CrashSimulator</a>, but,
 it would need to be much more complete to address this issue effectively.
 As an extreme example, working with
 Windows (via the WindowsAPI) would require re-engineering almost the entire
@@ -137,7 +137,7 @@ cited above.  Yet, even as NetCheck recedes to the archives, Zhuang makes
 the case for its importance in  opening an important new avenue for research.
 By pointing out that “people make assumptions when they code,” Zhuang contends
 that there is a direct connection from the ideas in NetCheck to two current lab
-initiatives: <a href="/projects#atomsofconfusion">Atoms of Confusion</a> and
+initiatives: <a href="/projects#atomsofconfusion">Atoms of Confusion</a>  and
 <a href="/projects#blindspots">API Blindspots</a>. Both projects deal with
 understanding how human perceptions and actions in writing and understanding
 code can influence code quality.  In this indirect manner, NetCheck’s potential
