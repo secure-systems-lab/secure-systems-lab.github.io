@@ -1,5 +1,4 @@
 ---
-
 layout: article
 title: Where the Rubber Meets the Road. Lessons learned from NetCheck
 subnav: blog
