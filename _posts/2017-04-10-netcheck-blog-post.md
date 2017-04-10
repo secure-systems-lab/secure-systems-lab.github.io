@@ -1,3 +1,17 @@
+---
+
+layout: article
+title: Where the Rubber Meets the Road. Lessons learned from NetCheck
+subnav: blog
+comments: true
+tagline: "In 2014, Eleni Gessiou, Yanyan Zhuang,
+Justin Cappos, and four of their students introduced a new diagnostic tool
+called..."
+author: '<a href="/people#justin_cappos">Justin Cappos</a>'
+categories:
+  - '<a href="/projects#netcheck">NetCheck</a>'
+
+---
 In 2014, Eleni Gessiou, <a href="/people#yanyan_zhuang">Yanyan Zhuang</a>,
 <a href="/people#justin_cappos">Justin Cappos</a>, and four of their students
 introduced a new diagnostic tool called [NetCheck]
@@ -37,19 +51,22 @@ which may make this tracing difficult, to put it mildly.” Furthermore, since
 tracing is done on a per-thread or per-process basis, many traces on a server
 will incidentally capture requests and other information from other users,
 thus creating some significant privacy issues.
+
 *Potential remediation.*  This fundamental problem can not be remediated by SSL
 and thus prevents NetCheck from working for distributed applications in the
 cloud. However, within these limitations, server administrators certainly
 could use it to debug things within their own environments.  If the user
 sends the server administrator the network trace, that would also work well.
 NetCheck is also useful for peer-to-peer software.
-2.**[Big hurdle] On many operating systems, system call tracing tools yield
+
+2. **[Big hurdle] On many operating systems, system call tracing tools yield
 incomplete or less than accurate results:** One consequence of this is that traces
 from some OSs (such as Mac and Windows) often lack all of the elements NetCheck
 requires for analysis.  For example, dtrace (on Mac) will not capture the
 SO_REUSEADDR flag’s setting.  Instead, it captures the memory address where
 this flag is stored.  As a result, many important parts of the trace would be
 omitted.
+
 *Potential remediation.*  To address this issue, “OS vendors would need to
 build more accurate tools,” Cappos asserts. “This is a fundamental issue that
 is difficult for us to surmount since, in some cases, it would requires kernel
@@ -63,6 +80,7 @@ all the trace elements required,” Cappos says. “Since the idea behind the
 development of the tool was for it to be useful across multiple operating
 systems, substantially more effort would be needed to make and test the tool
 in different environments.”
+
 *Potential remediation.*  A former NYU student,
 [Savvas Savvides](https://www.cs.purdue.edu/homes/ssavvide/), built a
 [parser](https://github.com/ssavvides/posix-omni-parser) that is meant to
@@ -81,6 +99,7 @@ such as NAT traversal or using a VPN.  As such, when using NetCheck in other
 scenarios, “we found we had overfit for our initial test set. Thus, the high
 level output we received from the classifier was not as useful as we had
 originally expected.”
+
 *Potential remediation.*  More data would be very useful in improving the
 classification.  With sufficient practical effort, we feel it is likely we
 could do a better job of categorization.  However, as it now stands,
@@ -93,16 +112,18 @@ long periods of time to handle user requests.  While it is possible to begin
 tracing a running application, NetCheck would need to be
 modified to do so.  Uncertainty about what issues might have occurred
 before the start of the trace could cause additional errors in diagnosis.
+
 *Potential remediation.*  “This seems more like an implementation detail at
 first glance,” Cappos notes, “but without accounting for it, it isn’t clear if
 there may be research problems lurking here.  If NetCheck were more widely
 used, we would explore this area further.”
-6.**[Small hurdle] Co-locating traces is a substantial challenge in some
+6. **[Small hurdle] Co-locating traces is a substantial challenge in some
 environments:**  Even if you can get different parties to agree to acquire and
 share traces, locating these (potentially large) files on the same system to
 run the analysis is time consuming.  Less effective tools, such as ping and
 traceroute, require much less effort.  As such, NetCheck is mostly useful
 for specialized debugging by moderately skilled users.  
+
 *Potential remediation.*  N/A.
 
 Though he still calls it “an appropriate idea for a research paper,”  Cappos
