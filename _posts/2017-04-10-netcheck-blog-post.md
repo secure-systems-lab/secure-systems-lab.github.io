@@ -88,7 +88,7 @@ As an extreme example, working with
 Windows (via the WindowsAPI) would require re-engineering almost the entire
 set of system call interactions in NetCheck.
 
-4. **[Medium hurdle]The classification of errors was too broad to be
+4. **[Medium hurdle] The classification of errors was too broad to be
 practical:** “NetCheck works by looking for error patterns that can be classified
 by the presence of bugs or evidence of specific types of behavior. The initial
 study documented in the paper  looked at 70 traces, and at the time we
