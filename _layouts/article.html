@@ -8,7 +8,7 @@
     <section id="main">
         <article class="container">
           {% if page.title %}
-            <h1 class="hero">{{page.title}}</h1>
+            <h2 class="hero">{{ page.title | size_upcase }}</h2>
           {% endif %}
           <span style="font-size: 0.8em; font-style: italic;">{{ page.date | date: "%Y-%m-%d" }} &middot; Posted by: {{ page.author }} &middot; Categories: {{ page.categories}} &middot; <a href="{{ site.url }}{{ page.url }}#disqus_thread">Comments</a></span><br/>
 
