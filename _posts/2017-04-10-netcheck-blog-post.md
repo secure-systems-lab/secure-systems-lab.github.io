@@ -66,10 +66,11 @@ SO_REUSEADDR flag’s setting.  Instead, it captures the memory address where
 this flag is stored.  As a result, many important parts of the trace would be
 omitted.
 
-*Potential remediation.*  To address this issue, “OS vendors would need to
+  * *Potential remediation.*  To address this issue, “OS vendors would need to
 build more accurate tools,” Cappos asserts. “This is a fundamental issue that
 is difficult for us to surmount since, in some cases, it would requires kernel
 access to non-open source OSes.”
+
 3. **[Medium hurdle] Traces are not uniform across operating systems:** Further
 complicating things, traces can differ substantially on different OSes.
 Experience has shown that system call tracing tools may record different
@@ -80,14 +81,16 @@ development of the tool was for it to be useful across multiple operating
 systems, substantially more effort would be needed to make and test the tool
 in different environments.”
 
-*Potential remediation.*  A former NYU student,
+  * *Potential remediation.*  A former NYU student,
 [Savvas Savvides](https://www.cs.purdue.edu/homes/ssavvide/), built a
 [parser](https://github.com/ssavvides/posix-omni-parser) that is meant to
 abstract away OS differences in traces.  This parser is currently being used in
-our on-going work with CrashSim (), but it would need to be much more
-complete to address this issue effectively. As an extreme example, working with
+our on-going work with <a href="/projects#crashsimulator">CrashSim</a>, but,
+it would need to be much more complete to address this issue effectively.
+As an extreme example, working with
 Windows (via the WindowsAPI) would require re-engineering almost the entire
 set of system call interactions in NetCheck.
+
 4. **[Medium hurdle]The classification of errors was too broad to be
 practical:** “NetCheck works by looking for error patterns that can be classified
 by the presence of bugs or evidence of specific types of behavior. The initial
@@ -99,11 +102,12 @@ scenarios, “we found we had overfit for our initial test set. Thus, the high
 level output we received from the classifier was not as useful as we had
 originally expected.”
 
-*Potential remediation.*  More data would be very useful in improving the
+* *Potential remediation.*  More data would be very useful in improving the
 classification.  With sufficient practical effort, we feel it is likely we
 could do a better job of categorization.  However, as it now stands,
 NetCheck’s results are “too broad or too vague, and would require too much work
 from a much larger dataset than could be reasonably obtained,” Cappos affirms.
+
 5. **[Small hurdle] In practice, collection would have many incomplete traces:**
 System call tracing for large running applications would be unlikely to start
 when the server begins running.  The reason is that servers often run over very
@@ -112,18 +116,19 @@ tracing a running application, NetCheck would need to be
 modified to do so.  Uncertainty about what issues might have occurred
 before the start of the trace could cause additional errors in diagnosis.
 
-*Potential remediation.*  “This seems more like an implementation detail at
+* *Potential remediation.*  “This seems more like an implementation detail at
 first glance,” Cappos notes, “but without accounting for it, it isn’t clear if
 there may be research problems lurking here.  If NetCheck were more widely
 used, we would explore this area further.”
+
 6. **[Small hurdle] Co-locating traces is a substantial challenge in some
 environments:**  Even if you can get different parties to agree to acquire and
 share traces, locating these (potentially large) files on the same system to
-run the analysis is time consuming.  Less effective tools, such as ping and
-traceroute, require much less effort.  As such, NetCheck is mostly useful
+run the analysis is time consuming. Less effective tools, such as ping and
+traceroute, require much less effort. As such, NetCheck is mostly useful
 for specialized debugging by moderately skilled users.  
 
-*Potential remediation.*  N/A.
+* *Potential remediation.*  N/A.
 
 Though he still calls it “an appropriate idea for a research paper,”  Cappos
 recently decided to stop trying to transition NetCheck into practical use,
@@ -132,7 +137,8 @@ cited above.  Yet, even as NetCheck recedes to the archives, Zhuang makes
 the case for its importance in  opening an important new avenue for research.
 By pointing out that “people make assumptions when they code,” Zhuang contends
 that there is a direct connection from the ideas in NetCheck to two current lab
-initiatives—Atoms of Confusion and API Blindspots. Both projects deal with
+initiatives: <a href="/projects#atomsofconfusion">Atoms of Confusion</a> and
+<a href="/projects#blindspots">API Blindspots</a>. Both projects deal with
 understanding how human perceptions and actions in writing and understanding
 code can influence code quality.  In this indirect manner, NetCheck’s potential
  may finally come to fruition.
