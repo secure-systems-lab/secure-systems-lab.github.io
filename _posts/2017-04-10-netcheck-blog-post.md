@@ -13,14 +13,14 @@ categories:
 ---
 In 2014, Eleni Gessiou, <a href="/people#yanyan_zhuang">Yanyan Zhuang</a>,
 <a href="/people#justin_cappos">Justin Cappos</a>, and four of their students
-introduced a new diagnostic tool called [NetCheck]
-(https://netcheck.poly.edu/projects/project) designed to detect the causes of
-failure in networked applications. What set this tool apart from other fault
-diagnostic tools is that it could pinpoint the cause of failure even if little
-was known about the network or the application itself. The system functioned
-“by simulating a set of system call (syscall) invocation traces collected at
-runtime using standard blackbox tracing tools, and running them against a
-network model,” Zhuang explained.
+introduced a new diagnostic tool called
+[NetCheck](https://netcheck.poly.edu/projects/project) designed to detect the
+causes of failure in networked applications. What set this tool apart from other
+fault diagnostic tools is that it could pinpoint the cause of failure, even
+if little was known about the network or the application itself. The system
+functioned “by simulating a set of system call (syscall) invocation traces
+collected at runtime using standard blackbox tracing tools, and running them
+against a network model,” Zhuang explained.
 
 Initial findings about the tool were quite positive. In a
 [paper](http://www.cs.ubc.ca/~yyzh/nsdi14netcheck.pdf) presented that
@@ -51,7 +51,7 @@ tracing is done on a per-thread or per-process basis, many traces on a server
 will incidentally capture requests and other information from other users,
 thus creating some significant privacy issues.
 
-*Potential remediation.*  This fundamental problem can not be remediated by SSL
+  * *Potential remediation.*  This fundamental problem can not be remediated by SSL
 and thus prevents NetCheck from working for distributed applications in the
 cloud. However, within these limitations, server administrators certainly
 could use it to debug things within their own environments.  If the user
