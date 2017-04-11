@@ -34,7 +34,7 @@ applications as Skype and VirtualBox.”
 Following its introduction, a few practitioners tried out the tool in a number
 of different contexts. One major financial company employed NetCheck to
 debug issues in their setup, but released little information publicly about
-their experiences. However, the [Seattle](https://https://seattle.poly.edu/html/)project, used NetCheck to
+their experiences. However, the [Seattle](https://https://seattle.poly.edu/html/) project, used NetCheck to
 help to diagnose network issues in its own deployment. Through this experience,
 some of NetCheck’s limitations and unstated assumptions became apparent.
 Cappos recently elaborated on these limitations, and explains why the biggest
