@@ -39,5 +39,5 @@ his work on <a href="/projects#CrashSimulator">CrashSimulator</a>.
 This tool replicates “real-world” testing for new and upgraded software
 without the complications of “real-world” deployment.
 
-The Expo is free, but attendees are asked to [register](tandonexpo2017.eventbrite.com).
+The Expo is free, but attendees are asked to [register](https://www.eventbrite.com/e/2017-nyu-tandon-school-of-engineering-research-expo-general-public-viewing-registration-33122091066).
 A full list of exhibitors is available at the [event web page](http://engineering.nyu.edu/events/2017/04/21/2017-nyu-tandon-school-engineering-research-expo.)
