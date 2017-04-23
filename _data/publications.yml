@@ -5,6 +5,27 @@ Click a project name to filter by project."
 
 publications:
 
+  - &mercury_usenix_17
+    anchor: mercury_usenix_17
+    title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories"
+    project: *tuf
+    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX 2017)"
+    authors: 
+      -name: "T. Kuppusamy, V. Diaz, J. Cappos"
+    link:
+    abstract:
+
+  - &lind_usenix_17
+    anchor: lind_usenix_17
+    title: "Lock-in-Pop: Securing Privileged Operating System Kernels by Keeping on the Beaten Path"
+    project: *lind
+    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX 2017)"
+    authors: 
+      -name: "Y. Li, B. Dolan-Gavitt, S. Weber, J. Cappos"
+    link:
+    abstract:
+
+
   - &bender_sas_17
     anchor: bender_sas_17
     title: "Measuring the Fitness of Fitness Trackers"
@@ -12,9 +33,32 @@ publications:
       - name: "C. Bender, J. Hoffstot, B. Combs, S. Hooshangi, and J. Cappos"
     project:
     booktitle: "IEEE Sensors Applications Symposium (SAS 2017)"
-    year: "To be presented in March 2017"
-    link:
-    abstract:
+    year: "2017"
+    link: /papers/bender_sas_2017.pdf
+    abstract:"Data collected by fitness trackers could play an important
+role in improving the health and well-being of the individuals who wear
+them. Many insurance companies even offer monetary rewards to participants
+who meet certain steps or calorie goals. However, in order for it to be
+useful, the collected data must be accurate and also reflect real-world
+performance. While previous studies have compared step counts data in
+controlled laboratory environments for limited periods of time, few studies
+have been done to measure performance over longer periods of time, while
+the subject does real-world activities. There are also few direct
+comparisons of a range of health indicators on different fitness tracking
+devices. In this study, we compared step counts, calories burned, and miles
+travelled data collected by three pairs of fitness trackers over a 14-day
+time period in free-living conditions. Our work indicates that the number
+of steps reported by different devices worn simultaneously could vary as
+much as 26%. At the same time, the variations seen in distance travelled,
+based on the step count, followed the same trends. Little correlation was
+found between the number of calories burned and the variations seen in the
+step count across multiple devices. Our results demonstrate that the
+reporting of health indicators, such as calories burned and miles
+travelled, are heavily dependent on the device itself, as well as the
+manufacturer’s proprietary algorithm to calculate or infer such data. As a
+result, it is difficult to use such measurements as an accurate predictor
+of health outcomes, or to develop a consistent criteria to rate the
+performance of such devices in head-to-head comparisons."
 
   - &kuppusamy_uptane_design-17
     anchor: kuppusamy_uptane_design-17
