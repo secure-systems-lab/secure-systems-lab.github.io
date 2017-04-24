@@ -3,10 +3,10 @@ layout: article
 title: "Notes from DockerCon 2017"
 subnav: blog
 comments: true
-tagline: "This week several members of the lab went to <a 
+tagline: 'This week several members of the lab went to <a 
 href="http://2017.dockercon.com/">DockerCon 2017</a> to learn about some of 
 the exciting new things happening in the Docker eco-system.  We also gave a 
-talk on <a href="/projects#tuf">TUF</a>..."
+talk on <a href="/projects#tuf">TUF</a>...'
 author: '<a href="/people#justin_cappos">Justin Cappos</a>'
 categories:
   - '<a href="/projects#tuf">TUF</a>'
