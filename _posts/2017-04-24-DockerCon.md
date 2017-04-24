@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Notes from DockerCon 2017
+title: "Notes from DockerCon 2017"
 subnav: blog
 comments: true
 tagline: "This week several members of the lab went to <a 
