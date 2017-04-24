@@ -34,7 +34,7 @@ these secrets.
 Docker's security team has been extending Notary's implementation of TUF to 
 ensure the secure distribution of secrets.  Their technique securely maps the
 secret into the file system of the worker container.  Even though the secret
-is mapped as a file, it is actually only stored in memory and is never
+is mapped as a file, it is only stored in memory and is never
 written to disk.  The Docker team has added a lot of clever
 design aspects to make this possible.  I'm sure I'll be
 talking in more detail about this new technique in a future post.
@@ -50,9 +50,9 @@ like <a href="/projects#lind">Lind</a> into container systems.
 
 **Software supply chain.**  One of the key things our <a
 href="/projects#in-toto">in-toto</a> project has been focused on over
-the past few years is providing security early in the development process.
-Multiple different companies at DockerCon are clearly starting to think in
-this direction as well.  Evidence of this can be seen by the amount of 
+the past few years is securing software projects early in the development process.
+A number of companies represented at DockerCon are clearly starting to think in
+this direction as well.  Evidence of this new mindset could be seen in the amount of 
 activity dealing with scanning
 containers to ensure that they do not contain libraries with known
 vulnerabilities, as well as assertions that the CI/CD process was run on the
@@ -61,11 +61,11 @@ software.
 This certainly indicates to us that we are focusing on a
 pressing and important problem.  However, we can provide much more
 holistic security, starting with the VCS or even the editor.  We also
-support a lot of supply chain verification on the software that goes into
+support much of the supply chain verification performed on software that goes into
 containers.  We've had some discussions with people on Docker's security 
 team and with the security groups of a few other major projects.  The 
 response to the added benefits and additional rigor of in-toto has been 
 very positive.  Now we will start to work with them toward full 
-integration of in-toto in the product.
+integration of in-toto in these products.
 
 ![Justin Poster from DockerCon](https://github.com/dgopstein/ssl-site/blob/master/img/justin_dockercon_424.jpg)
