@@ -68,4 +68,4 @@ response to the added benefits and additional rigor of in-toto has been
 very positive.  Now we will start to work with them toward full 
 integration of in-toto in the product.
 
-![Justin Poster from DockerCon](https://github.com/dgopstein/ssl-site/blob/master/img/justin_docker_424.jpg)
+![Justin Poster from DockerCon](https://github.com/dgopstein/ssl-site/blob/master/img/justin_dockercon_424.jpg)
