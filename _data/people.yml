@@ -26,6 +26,7 @@ people:
         - name: "[more]"
           anchor: ""
       publications:
+        - name: "USENIX ATC 2017 (x2)"
         - name: "USENIX Security 2016"
           link: "/papers/torres_toto_usenixsec-2016.pdf"
         - name: "NSDI 2016"
@@ -76,6 +77,7 @@ people:
         - *lind
         - *uptane
       publications:
+        - name: "USENIX ATC 2017"
         - name: "ICSE 2016"
           link: "http://dx.doi.org/10.1145/2884781.2884798"
         - name: "IEEE Security and Privacy 2011"
@@ -129,6 +131,7 @@ people:
         - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
         - *uptane
       publications:
+        - name: "USENIX ATC 2017"
         - name: "NSDI 16"
           link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
         - name: "PEP 458"
@@ -188,6 +191,7 @@ people:
         - *uptane
         - *uppir
       publications:
+          - name: "USENIX ATC 2017"
           - name: "escar 2016"
             link: "/papers/kuppusamy_escar_16.pdf"
           - name: "NSDI 2016"
@@ -243,6 +247,7 @@ people:
           - *lind
           - name: Caging
       publications:
+          - name: "USENIX ATC 2017"
           - name: "NENS 2014 (poster)"
             link: "http://systems.cs.brown.edu/nens/?page_id=21"
           - name: "CATT 2014 (poster)"
