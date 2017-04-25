@@ -9,8 +9,8 @@ the exciting new things happening in the Docker eco-system.  We also gave a
 talk on <a href="/projects#tuf">TUF</a>...'
 author: '<a href="/people#justin_cappos">Justin Cappos</a>'
 categories:
-  - '<a href="/projects#tuf">TUF</a>'
-  - '<a href="/projects#in-toto">in-toto</a>'
+  - '<a href="/projects#tuf">TUF</a>, '
+  - '<a href="/projects#in-toto">in-toto</a>, and ' 
   - '<a href="/projects#lind">lind</a>'
 ---  
 
