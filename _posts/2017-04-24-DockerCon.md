@@ -14,12 +14,14 @@ categories:
   - '<a href="/projects#lind">lind</a>'
 ---  
 
+
 This week, several members of the lab went to <a 
 href="http://2017.dockercon.com/">DockerCon 2017</a> to learn about some of
 the exciting new things happening in the Docker eco-system.  We also gave a
 talk on <a href="/projects#tuf">TUF</a>, focusing on it's integration into
 <a href="https://github.com/docker/notary">Notary</a>, one of the key
 security systems in Docker.  
+<img align="right" src="/img/justin_dockercon_424.jpg" style="margin: 0px 20px"/>
 
 There are many amazing things happening in the Docker ecosystem.
 However, three main things stuck with me, and I'd like to highlight them here.
@@ -68,4 +70,3 @@ response to the added benefits and additional rigor of in-toto has been
 very positive.  Now we will start to work with them toward full 
 integration of in-toto in these products.
 
-![Justin Poster from DockerCon](https://github.com/dgopstein/ssl-site/blob/master/img/justin_dockercon_424.jpg)
