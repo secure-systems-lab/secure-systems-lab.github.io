@@ -15,7 +15,6 @@ publications:
       - name: "T. Kuppusamy, V. Diaz, and J. Cappos"
     project: *tuf
     booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
-    year: "2017"
     link:
     abstract:
 
@@ -26,7 +25,6 @@ publications:
       - name: "Y. Li, B. Dolan-Gavitt, S. Weber, and J. Cappos"
     project: *lind
     booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
-    year: "2017"
     link:
     abstract:
 
