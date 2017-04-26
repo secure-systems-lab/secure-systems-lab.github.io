@@ -8,23 +8,24 @@ publications:
   - &mercury_usenix_17
     anchor: mercury_usenix_17
     title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories"
+    authors:
+      - name: "T. Kuppusamy, V. Diaz, and J. Cappos"
     project: *tuf
-    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX 2017)"
-    authors: 
-      -name: "T. Kuppusamy, V. Diaz, J. Cappos"
+    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
+    year: "2017"
     link:
     abstract:
 
   - &lind_usenix_17
     anchor: lind_usenix_17
     title: "Lock-in-Pop: Securing Privileged Operating System Kernels by Keeping on the Beaten Path"
+    authors:
+      - name: "Y. Li, B. Dolan-Gavitt, S. Weber, and J. Cappos"
     project: *lind
-    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX 2017)"
-    authors: 
-      -name: "Y. Li, B. Dolan-Gavitt, S. Weber, J. Cappos"
+    booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
+    year: "2017"
     link:
     abstract:
-
 
   - &bender_sas_17
     anchor: bender_sas_17
@@ -33,7 +34,6 @@ publications:
       - name: "C. Bender, J. Hoffstot, B. Combs, S. Hooshangi, and J. Cappos"
     project:
     booktitle: "IEEE Sensors Applications Symposium (SAS 2017)"
-    year: "2017"
     link: /papers/bender_sas_17.pdf
     abstract: "Data collected by fitness trackers could play an important
 role in improving the health and well-being of the individuals who wear
