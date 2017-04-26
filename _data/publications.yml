@@ -1130,6 +1130,8 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *mercury_usenix_17
+      - *lind_usenix_17
       - *bender_sas_17
       - *kuppusamy_escar_16
       - *torres_toto_usenixsec-2016
