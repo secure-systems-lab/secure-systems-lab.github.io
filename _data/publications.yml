@@ -5,6 +5,9 @@ Click a project name to filter by project."
 
 publications:
 
+### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
+### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
   - &mercury_usenix_17
     anchor: mercury_usenix_17
     title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories"
