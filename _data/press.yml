@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "How The Update Framework Improves Security of Software Updates"
+    link: "http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates"
+    anchor: tufdockercon
+    type: article
+    project: *tuf
+    source: "eWeek"
+    date: "April 2017"
+
   - title: "Uptane on NPR's Here and Now"
     link: "http://www.wbur.org/hereandnow/2017/03/17/researchers-software-car-hacking"
     anchor: npruptane
