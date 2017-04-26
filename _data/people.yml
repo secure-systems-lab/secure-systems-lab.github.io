@@ -515,6 +515,18 @@ on LLVM used by Airbus and other companies."
       projects:
         - *pph
 
+  - zach_pomerantz: &zach_pomerantz
+      name: "Zach Pomerantz"
+      link: "people#zach_pomerantz"
+      internal: true
+      role: "Research Intern"
+      since: 2017
+      photo: "img/people/zach_pomerantz.jpg"
+      interests: "Networks and systems"
+      projects:
+        - *lind
+      deployments: "<a href=\"http://ironframework.io\">Iron</a>, an extensible web framework for Rust"
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -554,6 +566,7 @@ people_cards:
       - *ariella_feuchtwanger
       - *lolaly_luo
       - *kejian_wang
+      - *zach_pomerantz
       - *jake_iannacone
       - *chris_lo
 
