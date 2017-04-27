@@ -5,13 +5,13 @@ statuses:
       name: "Stealth Mode"
       description: "Shhhh.  We're still figuring things out internally."
   - starting: &starting
-      name: Sprouting
+      name: <span style="color:green">Sprouting</span>
       description: "We're ready for use.  Early adopters wanted!"
   - adopted: &adopted
-      name: Adopted
+      name: <span style="color:gold">Adopted</span>
       description: "Many people are using this.  Join them!"
   - retired: &retired
-      name: Retired
+      name: <span style="color:silver">Retired</span>
       description: "We learned what we can and are not actively developing anymore."
 
 tags:
