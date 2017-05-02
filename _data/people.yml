@@ -308,7 +308,7 @@ on LLVM used by Airbus and other companies."
       role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
       since: "2016"
       photo: "img/people/devon_powell.jpg"
-      site: "https://github.com/D-Pow?tab=repositories"
+      site: "https://github.com/D-Pow"
       interests: "Computer security, software engineering"
       projects:
         - *atoms
