@@ -111,7 +111,7 @@ people:
       link: "people#lolaly_luo"
       internal: true
       anchor: lolaly_luo
-      role: "Undergradute Student"
+      role: "Undergraduate Student"
       since:
       photo: "img/people/lolaly_luo.jpg"
       interests: "Cybersecurity"
@@ -527,6 +527,18 @@ on LLVM used by Airbus and other companies."
         - *lind
       deployments: "<a href=\"http://ironframework.io\">Iron</a>, an extensible web framework for Rust"
 
+  - henry_zhou: &henry_zhou
+      name: "Henry Zhou"
+      link: "people#henry_zhou"
+      internal: true
+      role: "Undergraduate Student"
+      since: 2017
+      photo: "img/people/henry_zhou.jpg"
+      interests: "Game engineering and design, digital media, philosophy and
+      ethics of technology"
+      projects:
+        - *atoms
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -565,6 +577,7 @@ people_cards:
       - *benson_kuang
       - *ariella_feuchtwanger
       - *lolaly_luo
+      - *henry_zhou
       - *kejian_wang
       - *zach_pomerantz
       - *jake_iannacone
