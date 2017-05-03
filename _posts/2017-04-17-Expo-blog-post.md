@@ -42,15 +42,5 @@ without the complications of “real-world” deployment.
 The Expo is free, but attendees are asked to [register](https://www.eventbrite.com/e/2017-nyu-tandon-school-of-engineering-research-expo-general-public-viewing-registration-33122091066).
 A full list of exhibitors is available at the [event web page](http://engineering.nyu.edu/events/2017/04/21/2017-nyu-tandon-school-engineering-research-expo).
 
-**Scenes from the Exposition:**
-
-Preston Moore poses with his Expo Poster on his work with CrashSimulator
-![Preston Moore}(img/preston_expo_417.jpg)
-
-Shuyuan Luo challenges an Expo attendee to test the strength of his password.
-
-Santiago Torres-Arias talks with an attendee about PolyPasswordHasher
-
-
 
 
