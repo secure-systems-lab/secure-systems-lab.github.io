@@ -45,6 +45,7 @@ A full list of exhibitors is available at the [event web page](http://engineerin
 **Scenes from the Exposition:**
 
 Preston Moore poses with his Expo Poster on his work with CrashSimulator
+<img align="right"/img/preston_expo_417.jpg" Styles="margin: 0px 20px"/>
 
 Shuyuan Luo challenges an Expo attendee to test the strength of his password.
 
