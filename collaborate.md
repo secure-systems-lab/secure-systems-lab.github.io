@@ -16,12 +16,12 @@ your resume.
 
 To make it easier to work with us, we have guidelines for
 <a href="https://github.com/secure-systems-lab/code-style-guidelines">code
-style</a>, <a href="https://github.com/jhdalek55/lab-guidelines/blob/master/latexdocuments.md">document preparation</a>, 
-<a href="https://github.com/jhdalek55/lab-guidelines/blob/master/newproject.md"> how
+style</a>, <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/latexdocuments.md">document preparation</a>, 
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/newproject.md"> how
 to start a new project</a>, and, for new students and staff, procedures
-for <a href="https://github.com/jhdalek55/lab-guidelines/blob/master/on-boarding.md">on-boarding</a>
+for <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/on-boarding.md">on-boarding</a>
 and for preparing
-<a href="https://github.com/jhdalek55/lab-guidelines/blob/master/progressreport.md">progress reports.</a>
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/progressreport.md">progress reports.</a>
 
 *Practitioners*
 
