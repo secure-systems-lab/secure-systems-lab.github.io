@@ -3,15 +3,17 @@ layout: article
 title: "Demonstrated defense: Uptane takes a test drive"
 subnav: blog
 comments: true
-tagline: ''
+tagline: 'While the Uptane group continues to invite white hat hackers
+ to “break our system” before malicious parties attempt to do so for real,
+several of the developers..'
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
   - '<a href="/projects#sensibility">Sensibility</a>'
 
 ---  
 
-While the Uptane group continues to [invite white hat hackers](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater)to “break our system” before malicious parties attempt to do so for real,
-several of the developersbehind the project decided to put on their black hats
+While the Uptane group continues to [invite white hat hackers](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater) to “break our system” before malicious parties attempt to do so for real,
+several of the developers behind the project decided to put on their black hats
 and test the defenses themselves. To let potential users see how Uptane—a
 secure update framework for automotive computing units—works, Sebastien Awwad
 and Vladimir Diaz,developers with NYU’s Secure Systems Laboratory, have prepared
