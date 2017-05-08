@@ -15,9 +15,10 @@ categories:
 While the Uptane group continues to [invite white hat hackers](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater) to “break our system” before malicious parties attempt to do so for real,
 several of the developers behind the project decided to put on their black hats
 and test the defenses themselves. To let potential users see how Uptane—a
-secure update framework for automotive computing units—works, Sebastien Awwad
-and Vladimir Diaz,developers with NYU’s Secure Systems Laboratory, have prepared
-and posted a demonstration on YouTube. The [13 minute presentation](https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be)
+secure update framework for automotive computing units—works,
+<a href="people#sebastien_awwad">Sebastien Awwad</a>
+and <a href="people#vlad_diaz">Vladimir Diaz</a>,developers with NYU’s Secure
+Systems Laboratory, have prepared and posted a demonstration on YouTube. The [13 minute presentation](https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be)
 shows how Uptane provides resilience against six different, and increasingly
 malicious simulated attacks—a small sampling of the many threats against which
 Uptane can defend.
