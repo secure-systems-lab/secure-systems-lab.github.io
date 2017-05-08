@@ -8,7 +8,7 @@ tagline: 'While the Uptane group continues to invite white hat hackers
 several of the developers..'
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
-  - '<a href="/projects#sensibility">Sensibility</a>'
+  - '<a href="/projects#uptane">Uptane</a>'
 
 ---  
 
