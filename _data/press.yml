@@ -4,6 +4,16 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+
+  - title: "Cyber Security R&D Showcase Coming in July"
+    link: "http://www.newswise.com/articles/cyber-security-r-d-showcase-coming-in-july"
+    anchor: uptanedhsrdshowcase
+    type: article
+    project: *uptane
+    source: "Newswise"
+    date: "May 2017"
+
+
   - title: "How The Update Framework Improves Security of Software Updates"
     link: "http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates"
     anchor: tufdockercon
