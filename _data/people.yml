@@ -539,6 +539,28 @@ on LLVM used by Airbus and other companies."
       projects:
         - *atoms
 
+  - shiv_lakhanpal: &shiv_lakhanpal
+      name: "Shiv Lakhanpal"
+      link: "people#shiv_lakhanpal"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/shiv_lakhanpal"
+      interests: "Cybersecurity and privacy"
+      projects:
+        - *sensibility
+
+  - parina_kaewkrajang: &parina_kaewkrajang
+      name: "Parina Kaewkrajang"
+      link: "people#parina_kaewkrajang"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/parina_kaewkrajang.jpg"
+      interests: "Cybersecurity, system vulnerabilities"
+      projects:
+        - *lind
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -582,6 +604,8 @@ people_cards:
       - *zach_pomerantz
       - *jake_iannacone
       - *chris_lo
+      - *shiv_lakhanpal
+      - *parina_kaewkrajang
 
   - type: Alumni
     anchor: alumni
