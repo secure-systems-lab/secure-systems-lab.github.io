@@ -561,6 +561,29 @@ on LLVM used by Airbus and other companies."
       projects:
         - *lind
 
+  - sachit_malik: &sachit_malik
+      name: "Sachit Malik"
+      link: "people#sachit_malik"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/sachit_malik.jpg"
+      interests: "Web application security, malware analysis, cyber forensics"
+      projects:
+        - *in-toto
+
+  - yash_gautam: &yash_gautam
+      name: "Yash Gautam"
+      link: "people#yash_gautam"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/yash_gautam"
+      interests: "Cryptography, side channel attacks, compilers"
+      projects:
+        - *lind
+        - name: "Caging"
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -606,6 +629,8 @@ people_cards:
       - *chris_lo
       - *shiv_lakhanpal
       - *parina_kaewkrajang
+      - *yash_gautam
+      - *sachit_malik
 
   - type: Alumni
     anchor: alumni
