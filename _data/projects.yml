@@ -93,17 +93,17 @@ mechanism to securely distribute updates to cars.  Uptane can counter a
 comprehensive array of security attacks, and is resilient to partial
 compromises, while addressing  automotive specific vulnerabilities and
 limitations. We invite all security researchers and academics to perform a security review of Uptane by going to our web site."
-      products: "Uptane has been adopted by 
-<a href=\"/blog/2017-04-04-uptane-blog-post\">multiple suppliers already</a>, 
-with many others integrating it currently.  
+      products: "Uptane has been adopted by
+<a href=\"/blog/2017-04-04-uptane-blog-post\">multiple suppliers already</a>,
+with many others integrating it currently.
 <a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
-<a href=\"https://goo.gl/LmfODJ\">design specification</a> and 
+<a href=\"https://goo.gl/LmfODJ\">design specification</a> and
 <a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
 For those who want lower level details, we also provide a
 <a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, an open source
-<a href=\"https://github.com/uptane/uptane\">reference implementation</a>, 
-<a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a 
+<a href=\"https://github.com/uptane/uptane\">reference implementation</a>,
+<a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a
 <a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
       people:
         - *trishank_kuppusamy
@@ -170,7 +170,7 @@ researchers would benefit from accessing smartphone sensors. By giving the user 
 privacy of user information.  Sensibility also has additional security
 protections that ensure the safety of the device, while giving researchers
 access to unique information."
-      products: "We have had four years of hack-a-thons, where teams compete 
+      products: "We have had four years of hack-a-thons, where teams compete
 to build the best application for Sensibility. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
 or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our project's blog</a>!"
       people:
@@ -334,7 +334,7 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
   - crashsimulator: &crashsimulator
       name: "CrashSimulator"
       anchor: "crashsimulator"
-      image:
+      image: "img/projects/crashsimulator_diagram.png"
       site:
       status: *stealth
       description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
