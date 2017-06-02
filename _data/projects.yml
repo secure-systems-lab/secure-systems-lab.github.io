@@ -242,7 +242,7 @@ with millions of computers."
   - atoms: &atoms
       name: "Atoms of Confusion"
       anchor: "atoms"
-      image: "img/projects/atoms_placeholder.png"
+      image: "img/projects/atoms_business_card_back_color_nourl.png"
       site: "https://atomsofconfusion.com/"
       status: *starting
       description: "Within every confusing piece of software code
