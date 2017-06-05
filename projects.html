@@ -16,7 +16,7 @@ layout: default
     <a class="anchor" name="{{ project.anchor }}"></a>
 
     <div class="title-bar">
-       <h3> {{ project.name | size_upcase }} </h3>
+       <h3><a href="#{{ project.anchor }}"> {{ project.name | size_upcase }} </a></h3>
          <div class="link-list">
            <div class="press-link">
              {% capture press_projects %}{{ site.data.press.presses | map: 'project' | map: 'anchor' }}{% endcapture %}
