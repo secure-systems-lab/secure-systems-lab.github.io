@@ -26,6 +26,7 @@ people:
         - name: "[more]"
           anchor: ""
       publications:
+        - name: "FSE 2017"
         - name: "USENIX ATC 2017 (x2)"
         - name: "USENIX Security 2016"
           link: "/papers/torres_toto_usenixsec-2016.pdf"
@@ -337,6 +338,8 @@ on LLVM used by Airbus and other companies."
         - *atoms
         - *blindspots
         - name: "editorial support for all projects"
+      publications:
+            - name: "FSE 2017"
   - yu_hu: &yu_hu
       name: "Yu Hu"
       link: "people#yu_hu"
@@ -443,6 +446,7 @@ on LLVM used by Airbus and other companies."
       projects:
         - *atoms
       publications:
+        - name: "FSE 2017"
         - name: "SIGGRAPH Asia 2015"
           link: "http://game.engineering.nyu.edu/projects/animesh/"
       deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
@@ -457,7 +461,8 @@ on LLVM used by Airbus and other companies."
       interests: "Building secure software, protecting against unsafe software"
       projects:
         - *atoms
-
+      publications:
+            - name: "FSE 2017"
   - yanyan_zhuang: &yanyan_zhuang
       name: "Yanyan Zhuang"
       link: "people#yanyan_zhuang"
@@ -472,6 +477,7 @@ on LLVM used by Airbus and other companies."
         - *netcheck
         - *atoms
       publications:
+        - name: "FSE 2017"
         - name: "TrustCom 2015"
           link: "/papers/weiss_trustcom2015.pdf"
         - name: "ACSAC 2014"
