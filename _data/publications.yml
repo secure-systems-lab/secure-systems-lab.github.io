@@ -8,6 +8,17 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &atoms_fse_17
+    anchor: atoms_fse_17
+    title: "Understanding Misunderstandings in Source Code"
+    authors:
+      - name: "D. Gopstein, J. Iannacone, Y. Yan, L. DeLong, Y. Zhuang, K.C. Yeh,and J. Cappos"
+    project: *atoms
+    booktitle: "The 2017 ACM SIGSOFT Symposium on the Foundations of Software
+    Engineering (FSE 2017)"
+    link:
+    abstract:
+
   - &mercury_usenix_17
     anchor: mercury_usenix_17
     title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories"
@@ -1131,6 +1142,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *atoms_fse_17
       - *mercury_usenix_17
       - *lind_usenix_17
       - *bender_sas_17
