@@ -590,6 +590,28 @@ on LLVM used by Airbus and other companies."
         - *lind
         - name: "Caging"
 
+  - shikhar_sakhuja: &shikhar_sakhuja
+      name: "Shikhar Sakhuja"
+      link: "people#shikhar_sakhuja"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/shikhar_sakhuja.jpg"
+      interests: "Exploring the relationship between data science and cybersecurity"
+      projects:
+        - *uptane
+
+  - ryan_patton: &ryan_patton
+      name: "Ryan Patton"
+      link: "people#ryan_patton"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/ryan_patton.jpg"
+      interests: "Cybersecurity, user-friendly tools"
+      projects:
+        - *crashsimulator
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -637,6 +659,8 @@ people_cards:
       - *parina_kaewkrajang
       - *yash_gautam
       - *sachit_malik
+      - *shikhar_sakhuja
+      - *ryan_patton
 
   - type: Alumni
     anchor: alumni
