@@ -612,6 +612,18 @@ on LLVM used by Airbus and other companies."
       projects:
         - *crashsimulator
 
+  - aakar_jinwala: &aakar_jinwala
+      name: "Aakar Deveshkumar Jinwala"
+      link: "people#aakar_jinwala"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/aakar_jinwala.jpg"
+      interests: "Network security, Docker's resource isolation capability"
+      projects:
+        - *seattle
+        - name: "comparing Docker's resource isolation capabilities to Seattle"
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -649,6 +661,7 @@ people_cards:
       - *ankit_bhatia
       - *benson_kuang
       - *ariella_feuchtwanger
+      - *aakar_jinwala
       - *lolaly_luo
       - *henry_zhou
       - *kejian_wang
