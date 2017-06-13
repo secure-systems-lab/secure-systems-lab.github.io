@@ -95,7 +95,11 @@ compromises, while addressing  automotive specific vulnerabilities and
 limitations. We invite all security researchers and academics to perform a security review of Uptane by going to our web site."
       products: "Uptane has been adopted by
 <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple suppliers already</a>,
-with many others integrating it currently.
+with many others integrating it currently. It has just been
+<a href=\"https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html\">integrated</a>
+into OTA Plus and ATS Garage, two over the air software update products from
+Advanced Telematic Systems. To our knowledge, this marks the first European
+company to adopt the Uptane security framework.
 <a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
 <a href=\"https://goo.gl/LmfODJ\">design specification</a> and
