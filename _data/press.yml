@@ -4,6 +4,26 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "ATS is Integrating the Uptane Security Framework for Over-the-air
+  Software Updates to Connected Vehicles"
+    link: "http://security.itbusinessnet.com/article/ATS-is-Integrating-the-Uptane-Security-Framework-for-Over-the-air-Software-Updates-to-Connected-Vehicles-5003093"
+    anchor: uptaneatsinteg2
+    type: article
+    project: *uptane
+    source: "WVUE-TV Online, Fox 8 New Orleans (also featured on WOIO-TV Online
+    in Cleveland, and KMOV-TV Online,
+    St. Louis, and in online content for multiple other TV stations)"
+    date: "June 13, 2017"
+
+  - title: "ATS is Integrating the Uptane Security Framework for Over-the-air
+  Software Updates to Connected Vehicles"
+    link: "http://security.itbusinessnet.com/article/ATS-is-Integrating-the-Uptane-Security-Framework-for-Over-the-air-Software-Updates-to-Connected-Vehicles-5003093"
+    anchor: uptaneatsinteg1
+    type: article
+    project: *uptane
+    source: "IT Business Net (also featured in AEC Newsroom, AutoBlog, WardsAuto
+    and other print outlets)"
+    date: "June 13, 2017"
 
   - title: "Cyber Security R&D Showcase Coming in July"
     link: "http://www.newswise.com/articles/cyber-security-r-d-showcase-coming-in-july"
