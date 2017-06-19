@@ -47,7 +47,8 @@ find the password (the company's name!).
 
 Overall, it was a really interesting time and taught me a lot about the
 mindset of vendors in the space, and the challenges ahead in improving security
-in this sector. The vendors I spoke with are trying hard to address these issues,
-which is evidentby the fact that newer devices are much more secure than older
-ones.  I hope that we can work with them in the future to help secure these devices
-in which even the smallest vulnerability can have a profound impact on human health!
+in this sector. The vendors I spoke with are trying hard to address these 
+issues, which is evident by the fact that newer devices are much more secure 
+than older ones.  I hope that we can work with them in the future to help 
+secure these devices in which even the smallest vulnerability can have a 
+profound impact on human health!
