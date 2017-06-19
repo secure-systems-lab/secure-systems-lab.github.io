@@ -624,6 +624,18 @@ on LLVM used by Airbus and other companies."
         - *seattle
         - name: "comparing Docker's resource isolation capabilities to Seattle"
 
+  - brandon_zhu: &brandon_zhu
+      name: "Brandon Zhu"
+      link: "people#brandon_zhu"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/brandon_zhu.jpg"
+      interests: "Cybersecurity"
+      projects:
+        - *pph
+
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -674,6 +686,7 @@ people_cards:
       - *sachit_malik
       - *shikhar_sakhuja
       - *ryan_patton
+      - *brandon_zhu
 
   - type: Alumni
     anchor: alumni
