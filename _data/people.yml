@@ -291,15 +291,17 @@ people:
         - *lind
         - *in-toto
       publications:
+        - name: "Concurrency and Computation: Practice and Experience 2017"
+          link: "http://onlinelibrary.wiley.com/doi/10.1002/cpe.4192/abstract;jsessionid=CA0A84FDE4839370B0657E1D26AFF876.f02t03/"
         - name: "IMPACT 2017"
           link: "http://impact.gforge.inria.fr/impact2017/papers/impact-17-apollo-automatic-specilative-polyhedral-loop-optimizer.pdf"
-        - name: "Mathematical Problems of Computer Science 2014"
-          link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
         - name: "RAS 2015"
           link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-      deployments: "<a href=\"http://apollo.gforge.inria.fr\">APOLLO-Automatic
-speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework based
-on LLVM used by Airbus and other companies."
+        - name: "Mathematical Problems of Computer Science 2014"
+          link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
+      deployments: "<a href=\"http://apollo.gforge.inria.fr/\">APOLLO-Automatic
+        speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework
+        based on LLVM used by Airbus and other companies."
 
   - devon_powell: &devon_powell
       name: "Devon Powell"
