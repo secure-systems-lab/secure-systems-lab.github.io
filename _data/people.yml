@@ -28,6 +28,8 @@ people:
       publications:
         - name: "FSE 2017"
         - name: "USENIX ATC 2017 (x2)"
+        - name: "login 2017"
+          link: "/papers/kuppusamy_login_2017.pdf"
         - name: "USENIX Security 2016"
           link: "/papers/torres_toto_usenixsec-2016.pdf"
         - name: "NSDI 2016"
@@ -195,6 +197,8 @@ people:
         - *uppir
       publications:
           - name: "USENIX ATC 2017"
+          - name: ";login 2017"
+          - link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
           - name: "escar 2016"
             link: "/papers/kuppusamy_escar_16.pdf"
           - name: "NSDI 2016"
@@ -342,6 +346,8 @@ people:
         - name: "editorial support for all projects"
       publications:
             - name: "FSE 2017"
+            - name: ";login 2017"
+            - link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
   - yu_hu: &yu_hu
       name: "Yu Hu"
       link: "people#yu_hu"
