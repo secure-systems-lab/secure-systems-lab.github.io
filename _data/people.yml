@@ -347,7 +347,7 @@ people:
       publications:
             - name: "FSE 2017"
             - name: ";login 2017"
-            - link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
+              link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
   - yu_hu: &yu_hu
       name: "Yu Hu"
       link: "people#yu_hu"
