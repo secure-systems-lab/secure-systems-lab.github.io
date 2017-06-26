@@ -1,5 +1,3 @@
-gems: ['jekyll/scholar']
-exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
 url: https://ssl.engineering.nyu.edu
 baseurl: /
 permalink: /blog/:year-:month-:day-:title
@@ -8,3 +6,6 @@ sass:
     sass_dir: _sass
 avatar: /img/ssl_lock.png
 disqus-shortname: secure-systems-lab
+exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+gems:
+  - 'jekyll-feed'
