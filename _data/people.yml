@@ -643,6 +643,27 @@ people:
       projects:
         - *pph
 
+  - cynthia_xin_tong: &cynthia_xin_tong
+      name: "Cynthia Xin Tong"
+      link: "people#cynthia_xin_tong"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/cynthia_xin_tong.jpg"
+      interests: "Cybersecurity, software engineering"
+      projects:
+        - *seattle
+
+  - yu_zhang: &yu_zhang
+      name: "Yu Zhang"
+      link: "people#yu_zhang"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/yu_zhang.jpg"
+      interests: "Machine learning"
+      projects:
+        - *atoms
 
 people_cards:
   - type: Faculty
@@ -695,6 +716,8 @@ people_cards:
       - *shikhar_sakhuja
       - *ryan_patton
       - *brandon_zhu
+      - *cynthia_xin_tong
+      - *yu_zhang
 
   - type: Alumni
     anchor: alumni
