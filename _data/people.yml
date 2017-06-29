@@ -665,6 +665,17 @@ people:
       projects:
         - *atoms
 
+  - shikher_verma: &shikher_verma
+      name: "Shikher Verma"
+      link: "people#shikher_verma"
+      internal: true
+      role: "Intern"
+      since: 2017
+      photo: "img/people/shikher_verma.jpg"
+      interests: "Cybersecurity"
+      projects:
+        - *in-toto
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -718,6 +729,7 @@ people_cards:
       - *brandon_zhu
       - *cynthia_xin_tong
       - *yu_zhang
+      - *shikher_verma
 
   - type: Alumni
     anchor: alumni
