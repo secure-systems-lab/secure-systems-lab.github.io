@@ -494,7 +494,7 @@ people:
           link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
         - name: "SIGCSE 2014"
           link: "http://dl.acm.org/citation.cfm?id=2538931"
-      deployments: Led development and hack-a-thons for the <a href=\"https://sensibilitytestbed.com\">Sensibility Testbed</a>
+      deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
 
   - benson_kuang: &benson_kuang
       name: "Benson Kuang"
