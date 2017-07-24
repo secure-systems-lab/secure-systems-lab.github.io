@@ -40,8 +40,22 @@ consequences."
     project: *atoms
     booktitle: "The 2017 ACM SIGSOFT Symposium on the Foundations of Software
     Engineering (FSE 2017)"
-    link:
-    abstract:
+    link: /papers/gopstein_atoms_fse_2017.pdf
+    abstract: "Humans often mistake the meaning of source code, and so misjudge
+a programs true behavior. These mistakes can be caused
+by extremely small, isolated patterns in code, which can lead to
+significant runtime errors. These patterns are used in large, popular
+software projects and even recommended in style guides. To
+identify code patterns that may confuse programmers we extracted
+a preliminary set of 'atoms of confusion' from known confusing
+code. We show empirically in an experiment with 73 participants
+that these code patterns can lead to a significantly increased rate of
+misunderstanding versus equivalent code without the patterns. We
+then go on to take larger confusing programs and measure (in an
+experiment with 43 participants) the impact, in terms of programmer
+confusion, of removing these confusing patterns. All of our
+instruments, analysis code, and data are publicly available online
+for replication, experimentation, and feedback."
 
   - &mercury_usenix_17
     anchor: mercury_usenix_17
