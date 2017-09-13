@@ -27,7 +27,11 @@ people:
           anchor: ""
       publications:
         - name: "FSE 2017"
-        - name: "USENIX ATC 2017 (x2)"
+          link: "/papers/gopstein_atoms_fse_2017.pdf"
+        - name: "USENIX ATC 2017a"
+          link: "papers/kuppusamy-mercury-usenix-2017.pdf"
+        - name: "USENIX ATC 2017b"
+          link: "/papers/li_lind_usenix_2017.pdf"
         - name: "login 2017"
           link: "/papers/kuppusamy_login_2017.pdf"
         - name: "USENIX Security 2016"
@@ -83,6 +87,7 @@ people:
         - *uptane
       publications:
         - name: "USENIX ATC 2017"
+          link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
         - name: "ICSE 2016"
           link: "http://dx.doi.org/10.1145/2884781.2884798"
         - name: "IEEE Security and Privacy 2011"
@@ -137,6 +142,7 @@ people:
         - *uptane
       publications:
         - name: "USENIX ATC 2017"
+          link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
         - name: "NSDI 16"
           link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
         - name: "PEP 458"
@@ -197,8 +203,9 @@ people:
         - *uppir
       publications:
           - name: "USENIX ATC 2017"
+            link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
           - name: ";login 2017"
-          - link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
+            link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
           - name: "escar 2016"
             link: "/papers/kuppusamy_escar_16.pdf"
           - name: "NSDI 2016"
@@ -255,6 +262,7 @@ people:
           - name: Caging
       publications:
           - name: "USENIX ATC 2017"
+            link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
           - name: "NENS 2014 (poster)"
             link: "http://systems.cs.brown.edu/nens/?page_id=21"
           - name: "CATT 2014 (poster)"
@@ -346,6 +354,7 @@ people:
         - name: "editorial support for all projects"
       publications:
             - name: "FSE 2017"
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
             - name: ";login 2017"
               link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
   - yu_hu: &yu_hu
@@ -455,6 +464,7 @@ people:
         - *atoms
       publications:
         - name: "FSE 2017"
+          link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
         - name: "SIGGRAPH Asia 2015"
           link: "http://game.engineering.nyu.edu/projects/animesh/"
       deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
@@ -470,7 +480,8 @@ people:
       projects:
         - *atoms
       publications:
-            - name: "FSE 2017"
+          - name: "FSE 2017"
+            link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
   - yanyan_zhuang: &yanyan_zhuang
       name: "Yanyan Zhuang"
       link: "people#yanyan_zhuang"
@@ -486,6 +497,7 @@ people:
         - *atoms
       publications:
         - name: "FSE 2017"
+          link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
         - name: "TrustCom 2015"
           link: "/papers/weiss_trustcom2015.pdf"
         - name: "ACSAC 2014"
