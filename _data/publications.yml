@@ -59,13 +59,37 @@ for replication, experimentation, and feedback."
 
   - &mercury_usenix_17
     anchor: mercury_usenix_17
-    title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories"
+    title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks
+     Against Community Repositories"
     authors:
       - name: "T. Kuppusamy, V. Diaz, and J. Cappos"
     project: *tuf
     booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
-    link:
-    abstract:
+    link: /papers/kuppusamy-mercury-usenix-2017.pdf
+    abstract: "A popular community repository such as Docker Hub, PyPI,
+    or RubyGems distributes tens of thousands of soft- ware projects to
+    millions of users. The large number of projects and users make these
+    repositories attractive targets for exploitation. After a repository
+    compromise, a malicious party can launch a number of attacks on
+    unsuspecting users, including rollback attacks that revert projects to
+    obsolete and vulnerable versions. Unfortunately, due to the rapid rate
+    at which packages are updated, existing techniques that protect against
+    rollback attacks would cause each user to download 2–3 times the size of an
+    average package in metadata each month, making them impractical to deploy.
+
+    In this work, we develop a system called Mercury that uses a novel technique
+    to compactly disseminate version information while still protecting against
+    rollback attacks. Due to a different technique for dealing with key
+    revocation, users are protected from rollback attacks, even if the software
+    repository is compromised. This technique is bandwidth-efficient,
+    especially when delta compression is used to transmit only the
+    differences between previous and current lists of version information.
+    An analysis we performed for the Python community shows that once Mercury
+    is deployed on PyPI, each user will only download metadata each month
+    that is about 3.5% the size of an average package. Our work has been
+    incorporated into the latest versions of TUF, which is being integrated by
+    Haskell, OCaml, RubyGems, Python, and CoreOS, and is being used in
+    production by LEAP, Flynn, and Docker."
 
   - &lind_usenix_17
     anchor: lind_usenix_17
@@ -74,8 +98,23 @@ for replication, experimentation, and feedback."
       - name: "Y. Li, B. Dolan-Gavitt, S. Weber, and J. Cappos"
     project: *lind
     booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
-    link:
-    abstract:
+    link: papers/li_lind_usenix_2017.pdf
+    abstract: "Virtual machines (VMs) that try to isolate untrusted
+code are widely used in practice. However, it is often
+possible to trigger zero-day flaws in the host Operating
+System (OS) from inside of such virtualized systems. In
+this paper, we propose a new security metric showing
+strong correlation between “popular paths” and kernel
+vulnerabilities. We verify that the OS kernel paths accessed
+by popular applications in everyday use contain
+significantly fewer security bugs than less-used paths.
+We then demonstrate that this observation is useful in
+practice by building a prototype system which locks an
+application into using only popular OS kernel paths. By
+doing so, we demonstrate that we can prevent the triggering
+of zero-day kernel bugs significantly better than
+three other competing approaches, and argue that this is
+a practical approach to secure system design."
 
   - &bender_sas_17
     anchor: bender_sas_17
