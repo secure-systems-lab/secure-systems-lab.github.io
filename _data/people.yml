@@ -631,6 +631,6 @@ people_cards:
     anchor: alumni
     people:
       - *yanyan_zhuang
+      - *trishank_kuppusamy
       - *luqin_wang
       - *sai_peddinti
-      - *trishank_kuppusamy
