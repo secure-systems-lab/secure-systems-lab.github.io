@@ -39,7 +39,7 @@ consequences."
       - name: "D. Gopstein, J. Iannacone, Y. Yan, L. DeLong, Y. Zhuang, K.C. Yeh,and J. Cappos"
     project: *atoms
     booktitle: "The 2017 ACM SIGSOFT Symposium on the Foundations of Software
-    Engineering (FSE 2017)"
+    Engineering (FSE 2017)--Distinguished Paper Award"
     link: /papers/gopstein_atoms_fse_2017.pdf
     abstract: "Humans often mistake the meaning of source code, and so misjudge
 a programs true behavior. These mistakes can be caused
@@ -56,6 +56,16 @@ experiment with 43 participants) the impact, in terms of programmer
 confusion, of removing these confusing patterns. All of our
 instruments, analysis code, and data are publicly available online
 for replication, experimentation, and feedback."
+
+  - &fogcomp_fwc_17
+    anchor: fogcomp_fwc_17
+    title: "Practical Fog Computing with Seattle"
+    authors:
+      - name: "A. Rafetseder, L. Pühringer, and J. Cappos"
+    project: *seattle
+    booktitle: "to be presented at Fog World Congress 2017"
+    link:
+    abstract:
 
   - &mercury_usenix_17
     anchor: mercury_usenix_17
@@ -517,11 +527,10 @@ violations that are confirmed bugs in widely-used software."
   - &weiss_trustcom2015
     anchor: weiss_trustcom2015
     title: "Trust Evaluation in Mobile Devices: An Empirical Study"
-    authors:
-      - name: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
+    authors: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
     project: *sensibility
     booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
-    year:
+    year: "2015"
     volume: "1"
     pages: "25-32"
     keywords: "Android (operating system);expert systems;mobile computing;power aware computing;program verification;resource allocation;smart phones;system monitoring;trusted computing;voltage measurement;Android smartphone;Android-based smartphones;CPU utilization;GPS location;OBD sensor;anomalous behavior detection;battery voltage measurement;expert rule system;hierarchical trust evaluation methodology;mobile devices;network communication;onboard diagnostics sensor;resource consumption patterns;resource utilization monitoring;tablets;trust metrics;trust verification;trustworthiness evaluation;Computer science;Electronic mail;Measurement;Privacy;Security;Smart phones;mobile computing;security;trust metrics"
@@ -1219,6 +1228,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *fogcomp_fwc_17
       - *atoms_fse_17
       - *mercury_usenix_17
       - *lind_usenix_17
