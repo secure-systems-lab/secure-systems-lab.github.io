@@ -108,19 +108,20 @@ For those who want lower level details, we also provide a
 <a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, an open source
 <a href=\"https://github.com/uptane/uptane\">reference implementation</a>,
 <a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a
-<a href=\"https://github.com/uptane/uptane\">runnable demo</a>."
+<a href=\"https://github.com/uptane/uptane\">runnable demo</a>.
+A <a href=\"https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be\">a
+demo video</a> is available on youtube."
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
         - *sam_weber
         - *vlad_diaz
-        - name: Akanitoro Brown
         - name: Damon McCoy
           link: "http://engineering.nyu.edu/people/damon-mccoy"
         - name: Russ Bielawski (UMTRI)
           link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
         - name: Cameron Mott (SWRI)
-          link: "http://www.swri.org/iProfiles/ViewiProfile.asp?k=5f23y026tv89127"
+          link:
         - name: John Liming (SWRI)
           link:
         - name: Sam Lauzon (UMTRI)
@@ -155,8 +156,6 @@ some computing power on their device for research purposes."
         - *albert_rafetseder
         - *lukas_puhringer
         - *sebastien_awwad
-        - *rohan_bhirangi
-        - *ajay_shenoy
         - *justin_cappos
       tags:
         - *security
@@ -181,7 +180,6 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our p
         - *yanyan_zhuang
         - *yu_hu
         - *lukas_puhringer
-        - *kejian_wang
         - name: "Richard Weiss"
           link: "http://evergreen.edu/directory/people/weissr"
         - name: "Leon Reznik"
@@ -230,10 +228,9 @@ with millions of computers."
       people:
         - *santiago_torres
         - *lukas_puhringer
-        - *rohan_bhirangi
         - *artiom_baloian
         - name: "Reza Curtmola (NJIT)"
-          link: "http:///web.njit.edu/~crix/"
+          link: "https://cs.njit.edu/people/curtmola/"
         - name: "Hammad Afzali Nanize (NJIT)"
           link: "https://web.njit.edu/~ha285/"
         - name: "Anil Kumar Ammula (NJIT)"
@@ -267,6 +264,7 @@ build on our findings."
         - *henry_zhou
         - *lois_delong
         - *sam_weber
+        - *yu_zhang
         - name: Phyllis Frankl
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
         - name: Apple Yan (PSU)
@@ -370,12 +368,14 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
         - *rad_akefirad
         - *lois_delong
         - *justin_cappos
+        - *sam_weber
         - name: "Daniela Oliviera (UF)"
           link: "http://www.daniela.ece.ufl.edu/Home.html"
-        - name: "Olabode Anise (UF)"
+        - name: "Eliany Perez (UF)"
+        - name: "Sajidur Rahman (UF)"
         - name: "Natalie Ebner (UF)"
           link: "http://www.psych.ufl.edu/~ebner/"
-        - name: "Donovan Ellis (UF)"
+        - name: "Tian Lin (UF)"
         - name: "Yuriy Brun (UMass-Amherst)"
           link: "https://people.cs.umass.edu/~brun/"
         - *yanyan_zhuang
@@ -387,11 +387,11 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
       anchor: "upccinate"
       status: *stealth
       site: "https://upccinate.github.io/"
-      description: "Computerized medical devices are an efficient and 
+      description: "Computerized medical devices are an efficient and
 essential part of health care around the world today.  However, these devices
 are often riddled with security issues and outdated software.  Upccinate
-focuses on secure and usable mechanisms to distribute software updates to 
-medical devices.  Much like the <a href=\"#tuf\">TUF</a> and 
+focuses on secure and usable mechanisms to distribute software updates to
+medical devices.  Much like the <a href=\"#tuf\">TUF</a> and
 <a href=\"#uptane\">Uptane</a> projects, Upccinate is focused on providing
 compromise resilience, while addressing security issues that are domain
 specific.  More information will be forthcoming as this project progresses."

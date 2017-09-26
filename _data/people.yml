@@ -191,10 +191,10 @@ people:
       name: "Trishank Kuppusamy"
       link: "people#trishank_kuppusamy"
       internal: true
-      role: "Fifth year Ph.D. Candidate"
+      role:  "Ph.D. 2017"
       since: "2011"
       photo: "img/people/trishank_kuppusamy.jpg"
-      link: "http://https://github.com/trishankkarthik"
+      link: "https://github.com/trishankkarthik"
       interests: "Securing software updates for community repositories and automobiles"
       projects:
         - *tuf
@@ -235,7 +235,7 @@ people:
       name: "Ghada Almashaqbeh"
       link: "people#ghada_almashaqbeh"
       internal: true
-      role: "Second Year Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
+      role: "Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
       since: "2015"
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
@@ -252,7 +252,7 @@ people:
       name: "Yiwen Li"
       link: "people#yiwen_li"
       internal: true
-      role: "Third year Ph.D. Candidate"
+      role: "Ph.D. Candidate"
       since: "2013"
       photo: "img/people/yiwen_li.jpg"
       site: "http://engineering.nyu.edu/people/yiwen-li"
@@ -273,7 +273,7 @@ people:
       link: "people#santiago_torres"
       internal: true
       anchor: santiago_torres
-      role: "Second year Ph.D. Candidate"
+      role: "Ph.D. Candidate"
       since: "2014"
       photo: "img/people/santiago_torres.png"
       site: "https://sangy.xyz"
@@ -320,7 +320,7 @@ people:
       link: "people#devon_powell"
       internal: true
       anchor: devon_powell
-      role: "First year Ph.D. Student (co-advised with Phyllis Frankl)"
+      role: "Ph.D. Student (co-advised with Phyllis Frankl)"
       since: "2016"
       photo: "img/people/devon_powell.jpg"
       site: "https://github.com/D-Pow"
@@ -367,55 +367,6 @@ people:
       interests: "Side channel attacks, symbolic execution, mobile sensor application"
       projects:
         - *sensibility
-  - rohan_bhirangi: &rohan_bhirangi
-      name: "Rohan Ketan Bhirangi"
-      link: "people#rohan_bhirangi"
-      internal: true
-      anchor: "rohan_bhirangi"
-      role: "Master's Student"
-      since:
-      photo: "img/people/rohan_bhirangi.jpg"
-      interests: "Distributed systems, wireless sensor networks, Internet of Things, cloud infrastructure/computing, machine learning"
-      projects:
-        - *sensibility
-        - *seattle
-      publications:
-        - name: "IJERT 2016"
-          link: "  http://www.ermt.net/docs/papers/Volume_5/4_April2016/V5N4-126.pdf"
-      deployments: "Worked on sensor calibration and unit testing framework for <a href=\"https://github.com/RohanBhirangi\">Sensibility Testbed</a>. Developed a Python script which replicates Seash functionality to automate the Sensibility-Seash process."
-  - ajay_shenoy: &ajay_shenoy
-      name: "Ajay Shenoy"
-      link: "people#ajay_shenoy"
-      internal: true
-      role: "Master's Student"
-      since: 2015
-      photo: "img/people/ajay_shenoy.png"
-      interests: "Addressing security flaws within cloud computing bases; Testing functionality for bugs"
-      projects:
-        - *seattle
-        - name: "Totally Secure"
-      deployments: "Designed <a href=\"https://github.com/kellender/Totolly-Secure\">Totolly Secure</a>; Contributed code to a porting strace, and trigonometric functions to `math.r2py,” both in <a href=\"https://github.com/SeattleTestbed/seattlelib_v2\">Seattle</a>"
-
-  - deepankar_jaisia: &deepankar_jaisia
-      name: "Deepankar Jaisia"
-      link: "people#deepankar_jaisia"
-      internal: true
-      role: "Master's Student"
-      since: 2016
-      photo: "img/people/deepankar_jaisia.jpg"
-      interests: "Protecting privacy in personal communications, expanding skills in using Python"
-      projects:
-        - *seattle
-        - name: "Repy V2"
-  - ankit_bhatia: &ankit_bhatia
-        name: "Ankit Bhatia"
-        role: "Master's Student"
-        since: 2016
-        photo: "img/people/ankit_bhatia.jpg"
-        interests: "Networking and network security"
-        projects:
-          - *seattle
-          - name: "IPv6 support to Repy V2"
 
   - sai_peddinti: &sai_peddinti
       name: Sai Teja Peddinti
@@ -446,7 +397,7 @@ people:
       link: "people#preston_moore"
       internal: true
       anchor: preston_moore
-      role: "Second year Ph.D. Student (co-advised with Phyllis Frankl)"
+      role: "Ph.D. Candidate (co-advised with Phyllis Frankl)"
       since: "2015"
       photo: "img/people/preston_moore.jpg"
       interests: "Secure software engineering, automated testing, systems security"
@@ -499,7 +450,7 @@ people:
         - name: "FSE 2017"
           link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
         - name: "TrustCom 2015"
-          link: "/papers/weiss_trustcom2015.pdf"
+          link: "https://ssl.engineering.nyu.edu/papers/weiss_trustcom2015.pdf"
         - name: "ACSAC 2014"
           link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
         - name: "NSDI 2014"
@@ -541,18 +492,6 @@ people:
       projects:
         - *pph
 
-  - zach_pomerantz: &zach_pomerantz
-      name: "Zach Pomerantz"
-      link: "people#zach_pomerantz"
-      internal: true
-      role: "Research Intern"
-      since: 2017
-      photo: "img/people/zach_pomerantz.jpg"
-      interests: "Networks and systems"
-      projects:
-        - *lind
-      deployments: "<a href=\"http://ironframework.io\">Iron</a>, an extensible web framework for Rust"
-
   - henry_zhou: &henry_zhou
       name: "Henry Zhou"
       link: "people#henry_zhou"
@@ -565,28 +504,6 @@ people:
       projects:
         - *atoms
 
-  - shiv_lakhanpal: &shiv_lakhanpal
-      name: "Shiv Lakhanpal"
-      link: "people#shiv_lakhanpal"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/shiv_lakhanpal.jpg"
-      interests: "Cybersecurity and privacy"
-      projects:
-        - *sensibility
-
-  - parina_kaewkrajang: &parina_kaewkrajang
-      name: "Parina Kaewkrajang"
-      link: "people#parina_kaewkrajang"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/parina_kaewkrajang.jpg"
-      interests: "Cybersecurity, system vulnerabilities"
-      projects:
-        - *lind
-
   - sachit_malik: &sachit_malik
       name: "Sachit Malik"
       link: "people#sachit_malik"
@@ -598,23 +515,11 @@ people:
       projects:
         - *in-toto
 
-  - yash_gautam: &yash_gautam
-      name: "Yash Gautam"
-      link: "people#yash_gautam"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/yash_gautam.jpg"
-      interests: "Cryptography, side channel attacks, compilers"
-      projects:
-        - *lind
-        - name: "Caging"
-
   - shikhar_sakhuja: &shikhar_sakhuja
       name: "Shikhar Sakhuja"
       link: "people#shikhar_sakhuja"
       internal: true
-      role: "Intern"
+      role: "Undergraduate Student"
       since: 2017
       photo: "img/people/shikhar_sakhuja.jpg"
       interests: "Exploring the relationship between data science and cybersecurity"
@@ -654,17 +559,6 @@ people:
       interests: "Cybersecurity"
       projects:
         - *pph
-
-  - cynthia_xin_tong: &cynthia_xin_tong
-      name: "Cynthia Xin Tong"
-      link: "people#cynthia_xin_tong"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/cynthia_xin_tong.jpg"
-      interests: "Cybersecurity, software engineering"
-      projects:
-        - *seattle
 
   - yu_zhang: &yu_zhang
       name: "Yu Zhang"
@@ -706,7 +600,7 @@ people_cards:
   - type: "PhD. Students"
     anchor: phd
     people:
-      - *trishank_kuppusamy
+
       - *yiwen_li
       - *santiago_torres
       - *dan_gopstein
@@ -719,27 +613,17 @@ people_cards:
     anchor: otherstudents
     people:
       - *yu_hu
-      - *rohan_bhirangi
-      - *ajay_shenoy
-      - *deepankar_jaisia
-      - *ankit_bhatia
       - *benson_kuang
       - *ariella_feuchtwanger
       - *aakar_jinwala
       - *lolaly_luo
       - *henry_zhou
-      - *kejian_wang
-      - *zach_pomerantz
       - *jake_iannacone
       - *chris_lo
-      - *shiv_lakhanpal
-      - *parina_kaewkrajang
-      - *yash_gautam
       - *sachit_malik
       - *shikhar_sakhuja
       - *ryan_patton
       - *brandon_zhu
-      - *cynthia_xin_tong
       - *yu_zhang
       - *shikher_verma
 
@@ -749,3 +633,4 @@ people_cards:
       - *yanyan_zhuang
       - *luqin_wang
       - *sai_peddinti
+      - *trishank_kuppusamy
