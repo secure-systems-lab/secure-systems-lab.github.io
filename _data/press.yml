@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Software Protecting Future Cars Starting to Make Inroads"
+    link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
+    anchor: npruptanetx
+    type: audio
+    project: *uptane
+    source: "NPR-Texas Public Radio/KSTX"
+    date: "June 21, 2017"
+
   - title: "ATS is Integrating the Uptane Security Framework for Over-the-air
   Software Updates to Connected Vehicles"
     link: "http://www.fox8live.com/story/35652114/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles"
