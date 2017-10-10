@@ -582,6 +582,57 @@ people:
       projects:
         - *in-toto
 
+  - aakar_jinwala: &aakar_jinwala
+      name: "Aakar Deveshkumar Jinwala"
+      link: "people#aakar_jinwala"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/aakar_jinwala.jpg"
+      interests: "Network security, Docker's resource isolation capability"
+      projects:
+        - *seattle
+        - name: "comparing Docker's resource isolation capabilities to Seattle"
+
+  - ankit_chandra: &ankit_chandra
+      name: "Ankit Chandra"
+      link: "people#ankit_chandra"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/ankit_chandra.jpg"
+      interests: "System security, cloud security, network security"
+      projects:
+        - *lind
+      publications:
+        - name: "ICDCIT 2013"
+          link: "http://www.ijcaonline.org/proceedings/icdcit/number1/10242-1009"
+  - archit_goyal: &archit_goyal
+      name: "Archit Goyal"
+      link: "people#archit_goyal"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/archit_goyal.jpg"
+      interests: "Security and privacy, cryptography"
+      projects:
+        - *cachecash
+
+  - abhishek_singh: &abhishek_singh
+      name: "Abhishek Pratap Singh"
+      link: "people#abhishek_singh"
+      internal: true
+      role: "Master's Student"
+      since: 2017
+      photo: "img/people/abhishek_singh.jpg"
+      interests: "Cybersecurity, open source, software development"
+      projects:
+        - name: "securesystemslib"
+      deployments: While working at Red Hat, contributed to the
+       <a href="https://kubernetes.io">Kubernetes</a> container management system
+       and is still a maintainer of the "<a href=\"kompose.io\">Kompose</a> conversion tool.
+
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -616,6 +667,9 @@ people_cards:
       - *benson_kuang
       - *ariella_feuchtwanger
       - *aakar_jinwala
+      - *abhishek_singh
+      - *archit_goyal
+      - *ankit_chandra
       - *lolaly_luo
       - *henry_zhou
       - *jake_iannacone
