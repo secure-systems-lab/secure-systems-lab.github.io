@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "The year's most important innovations in security"
+    link: "https://www.popsci.com/top-security-innovations-2017"
+    anchor: popsciuptane
+    type: article
+    project: *uptane
+    source: "Popular Science"
+    date: "October 17, 2017"
+
   - title: "Software Protecting Future Cars Starting to Make Inroads"
     link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
     anchor: npruptanetx
