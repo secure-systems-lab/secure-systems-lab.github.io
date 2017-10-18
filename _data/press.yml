@@ -4,6 +4,16 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+
+  - title: "Cybersecurity Protocol that Fends off Automobile Hacks Named to
+Popular Science Magazine's List of Top 100 Technologies of the Year"
+    link: "http://news.sys-con.com/node/4181030"
+    anchor: sysconuptane
+    type: article
+    project: *uptane
+    source: "Sys Con"
+    date: "October 18, 2017"
+
   - title: "The year's most important innovations in security"
     link: "https://www.popsci.com/top-security-innovations-2017"
     anchor: popsciuptane
