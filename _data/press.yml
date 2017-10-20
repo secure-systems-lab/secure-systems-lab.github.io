@@ -4,6 +4,13 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Popular Science names two Brooklyn technologies among top 100 inventions of 2017"
+    link: https://technical.ly/brooklyn/2017/10/19/popular-science-names-two-brooklyn-technologies-among-top-100-inventions-2017/
+    anchor: technicallyuptane
+    type: article
+    project: *uptane
+    source: "Technical.ly"
+    date: "October 19, 2017"
 
   - title: "Cybersecurity Protocol that Fends off Automobile Hacks Named to
 Popular Science Magazine's List of Top 100 Technologies of the Year"
