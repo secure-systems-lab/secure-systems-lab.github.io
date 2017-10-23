@@ -29,6 +29,15 @@ Popular Science Magazine's List of Top 100 Technologies of the Year"
     source: "Popular Science"
     date: "October 17, 2017"
 
+  - title: "ELIV 2017: Advanced Telematic Systems presents secure OTA
+  technology based on the Uptane security framework"
+    link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
+    anchor: FNELIVUptane
+    type: article
+    project: *uptane
+    source: "FinanzNachrichten.de"
+    date: "October 17, 2017-01"
+
   - title: "Software Protecting Future Cars Starting to Make Inroads"
     link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
     anchor: npruptanetx
