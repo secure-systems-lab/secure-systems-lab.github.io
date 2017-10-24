@@ -316,17 +316,6 @@ people:
       projects:
         - *atoms
 
-  - rad_akefirad: &rad_akefirad
-      name: "Rad Akefirad"
-      link: "people#rad_akefirad"
-      internal: true
-      role: "Ph.D. Student"
-      since: "2015"
-      photo: "img/people/rad_akefirad.jpg"
-      interests: "Software engineering, secure software design and development, distributed systems, microservices"
-      projects:
-          - *blindspots
-
   - lois_delong: &lois_delong
       name: "Lois Anne DeLong"
       link: "people#lois_delong"
