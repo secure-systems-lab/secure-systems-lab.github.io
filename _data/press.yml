@@ -4,8 +4,97 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
+    link: "http://techrights.org/2017/10/24/archlabs-2017-10/"
+    anchor: TRlinks2410cncftuf
+    type: article
+    project: *tuf
+    source: "TechRights"
+    date: "October 24, 2017"
+
+  - title: "Linux Foundation Messages to the Media: The Cloud Native Computing
+   Foundation adds two security projects to its open source stable"
+    link: "http://www.tuxmachines.org/node/105925"
+    anchor: TuxMachcncftuf
+    type: article
+    project: *tuf
+    source: "Tux Machines"
+    date: "October 24, 2017"
+
+  - title: "The Cloud Native Computing Foundation adds two security projects to its open source stable"
+    link: "http://1wnc.com/tech/918985.html"
+    anchor: FWNCcncftuf
+    type: article
+    project: *tuf
+    source: "First World News Channel"
+    date: "October 24, 2017"
+
+  - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
+    link: "http://worldnews.easybranches.com/technology/innovation-nation/two-new-open-source-security-projects-are-joining-the-cloud-native-computing-foundation-379237"
+    anchor: ebrancncftuf
+    type: article
+    project: *tuf
+    source: "Easy Branches World News"
+    date: "October 24, 2017"
+
+  - title: "CNCF Brings in Notary, The Update Framework to Boost Container Security"
+    link: "https://www.eweek.com/security/cncf-brings-in-notary-the-update-framework-to-boost-container-security"
+    anchor: eweekcncftuf
+    type: article
+    project: *tuf
+    source: "eweek"
+    date: "October 24, 2017"
+
+  - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
+    link: "https://www.geekwire.com/2017/two-new-open-source-security-projects-joining-cloud-native-computing-foundation/"
+    anchor: gwcncftuf
+    type: article
+    project: *tuf
+    source: "GeekWire"
+    date: "October 24, 2017"
+
+  - title: "The Cloud Native Computing Foundation adds two security projects to its open source stable"
+    link: "https://techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/"
+    anchor: tccncftuf
+    type: article
+    project: *tuf
+    source: "TechCrunch"
+    date: "October 24, 2017"
+
+  - title: "SD Times news digest: CNCF's two new security projects"
+    link: "http://sdtimes.com/sd-times-news-digest-cncfs-two-new-projects-arms-platform-security-architecture-salesforces-new-appexchange/"
+    anchor: sdtcncftuf
+    type: article
+    project: *tuf
+    source: "SD Times"
+    date: "October 24, 2017"
+
+  - title: "CNCF's Latest Projects TUF and Notary Aimed at Security"
+    link: "https://www.sdxcentral.com/articles/news/cncfs-latest-projects-tuf-and-notary-aimed-at-security/2017/10/"
+    anchor: sdxtufcncf
+    type: article
+    project: *tuf
+    source: "sdx central"
+    date: "October 24, 2017"
+
+  - title: "Cloud Native Computing Foundation Adopts 2 Security Projects"
+    link: "http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560"
+    anchor: Cncftufcloudnews
+    type: article
+    project: *tuf
+    source: "Enterprise Cloud News"
+    date: "October 24, 2017"
+
+  - title: "CNCF Brings Security to the Cloud Native Stack with Notary, TUF Adoption"
+    link: "https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/"
+    anchor: newstkcncftuf
+    type: article
+    project: *tuf
+    source: "The New Stack"
+    date: "October 24, 2017"
+
   - title: "Popular Science names two Brooklyn technologies among top 100 inventions of 2017"
-    link: https://technical.ly/brooklyn/2017/10/19/popular-science-names-two-brooklyn-technologies-among-top-100-inventions-2017/
+    link: "https://technical.ly/brooklyn/2017/10/19/popular-science-names-two-brooklyn-technologies-among-top-100-inventions-2017/"
     anchor: technicallyuptane
     type: article
     project: *uptane
@@ -14,7 +103,7 @@ presses:
 
   - title: "Cybersecurity Protocol that Fends off Automobile Hacks Named to
 Popular Science Magazine's List of Top 100 Technologies of the Year"
-    link: "http://news.sys-con.com/node/4181030"
+    link: "http://news.sys-con.com/node/4181030/"
     anchor: sysconuptane
     type: article
     project: *uptane
@@ -33,7 +122,7 @@ Popular Science Magazine's List of Top 100 Technologies of the Year"
   technology based on the Uptane security framework"
     link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
     anchor: FNELIVUptane
-    type: article
+    type: article-foreign
     project: *uptane
     source: "FinanzNachrichten.de"
     date: "October 17, 2017-01"
