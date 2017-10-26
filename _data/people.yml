@@ -635,7 +635,6 @@ people_cards:
       - *ghada_almashaqbeh
       - *preston_moore
       - *devon_powell
-      - *rad_akefirad
 
   - type: "Other Students"
     anchor: otherstudents
