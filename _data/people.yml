@@ -628,7 +628,6 @@ people_cards:
   - type: "PhD. Students"
     anchor: phd
     people:
-
       - *yiwen_li
       - *santiago_torres
       - *dan_gopstein
