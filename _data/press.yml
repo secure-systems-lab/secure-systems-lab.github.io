@@ -4,6 +4,38 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "CNCF Adds Security, Service Mesh and Tracing Projects: Docker Notary, Lyft Envoy, and Uber Jaeger"
+    link: "https://www.infoq.com/news/2017/10/cncf-notary-envoy-jaeger"
+    anchor: InfoQTUFCNCF
+    type: article
+    project: *tuf
+    source: "InfoQ"
+    date: "October 30, 2017"
+
+  - title: "La Cloud Native Computing Foundation cuenta ya con 14 proyectos"
+    link: "http://www.silicon.es/la-cloud-native-computing-foundation-cuenta-ya-14-proyectos-2359052?inf_by=59f1407f681db80d668b484a"
+    anchor: siliconTUFCNCF
+    type: article-foreign
+    project: *tuf
+    source: "Silicon.es"
+    date: "October 24, 2017"
+
+  - title: "CNCF Adds 2 Projects to Better Secure Containers"
+    link: "https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/"
+    anchor: ContJrnlTUFCNCF
+    type: article
+    project: *tuf
+    source: "Container Journal"
+    date: "October 24, 2017"
+
+  - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
+    link: "http://techrights.org/2017/10/24/archlabs-2017-10/"
+    anchor: TRlinks2410cncftuf
+    type: article
+    project: *tuf
+    source: "TechRights"
+    date: "October 24, 2017"
+
   - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
     link: "http://techrights.org/2017/10/24/archlabs-2017-10/"
     anchor: TRlinks2410cncftuf
