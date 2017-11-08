@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Linux Foundation Taps Researcher's Security Framework as Standard for the Cloud"
+    link: "http://engineering.nyu.edu/press-releases/2017/11/08/linux-foundation-taps-researchers-security-framework-standard-cloud"
+    anchor: NYUpressrelTUF
+    type: article
+    project: *tuf
+    source: "NYU Press Room"
+    date: "November 8, 2017"
+
   - title: "CNCF Adds Security, Service Mesh and Tracing Projects: Docker Notary, Lyft Envoy, and Uber Jaeger"
     link: "https://www.infoq.com/news/2017/10/cncf-notary-envoy-jaeger"
     anchor: InfoQTUFCNCF
