@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "HERE to Acquire ATS to Power Highly Secure Software Updates for Connected and Autonomous Cars"
+    link: "https://www.automotiveworld.com/news-releases/acquire-ats-power-highly-secure-software-updates-connected-autonomous-cars/"
+    anchor: HEREATSuptane
+    type: article
+    project: *uptane
+    source: "Automotive World"
+    date: "November 28, 2017"
+
   - title: "Linux Foundation Taps Researcher's Security Framework as Standard for the Cloud"
     link: "http://engineering.nyu.edu/press-releases/2017/11/08/linux-foundation-taps-researchers-security-framework-standard-cloud"
     anchor: NYUpressrelTUF
