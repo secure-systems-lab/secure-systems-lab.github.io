@@ -282,7 +282,6 @@ build on our findings."
         - *jake_iannacone
         - *henry_zhou
         - *lois_delong
-        - *sam_weber
         - *yu_zhang
         - name: Phyllis Frankl
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
@@ -315,7 +314,6 @@ more readily and pervasively including end user served content."
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
         - *ghada_almashaqbeh
-        - *luqin_wang
         - *artiom_baloian
         - *archit_goyal
         - name: "Allison Bishop Lewko"
@@ -350,7 +348,6 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
         - *ankit_chandra
         - name: "Brendan Dolan-Gavitt"
           link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
-        - *sam_weber
       tags:
         - *security
         - *systems
@@ -369,7 +366,6 @@ publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\
         - *justin_cappos
         - name: "Phyllis Frankl"
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
-        - *sam_weber
       tags:
         - *software_engineering
         - *testing_tools
@@ -418,7 +414,6 @@ specific.  More information will be forthcoming as this project progresses."
       products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:upccinate-public@googlegroups.com\">upccinate-public@googlegroups.com</a>."
       people:
-        - *sam_weber
         - name: Stephanie Domas (Battelle)
         - name: David Giles (Battelle)
         - *justin_cappos
