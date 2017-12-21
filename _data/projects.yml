@@ -162,8 +162,8 @@ demo video</a> is available on youtube."
 ability to offload computation on demand. However, cloud resources are often
 located far from users.  The Seattle project enables users to securely share
 (and acquire) computing resources from their desktop, laptop, or smartphone
-in the same manner as with cloud computing.  Seattle is used for education,
-software development, and research by thousands of people around the world."
+in the same manner as with cloud computing.  Seattle is used by educators,
+and for software development and research by thousands of people around the world."
       products: "Seattle is used by thousands of developers and has been installed on tens of thousands of devices.  Our website contains information and links to <a href=\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
 and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
 of available resources for those who wish to download and use the Seattle
@@ -217,11 +217,14 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our p
       site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
       description: "A password database disclosure can be devastating, costing
 companies billions of dollars in damages. PolyPasswordHasher offers a new
-approach to prevent attackers from finding out which passwords are being used. By interrelating stored password data, potential hackers are forced to crack
+approach to prevent attackers from finding out which passwords are being used.
+By interrelating stored password data, potential hackers are forced to crack
 passwords in sets. This increases the attackers’ level of difficulty, making a
 PolyPasswordHasher-enabled database very hard to breach, even for an adversary
 with millions of computers."
-      products: "PPH is used in several projects including the Seattle Clearinghouse and BioBank.  PPH has available implementations for seven languages, including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
+      products: "PPH is used in several projects, including the Seattle
+      Clearinghouse and BioBank. PPH has implementations available in seven languages,
+      including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
       people:
         - *santiago_torres
         - *lolaly_luo
@@ -237,8 +240,8 @@ with millions of computers."
       status: *starting
       site: "https://in-toto.io"
       description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
-      products: "The in-toto software has been integrated by several open source
-    projects already. Most recently, Arch Linux announced that a patch to check for
+      products: "The in-toto software has already been integrated into several open source
+    projects. Most recently, Arch Linux announced that a patch to check for
     invalid tags in git will be integrated into the next release of its <a href=\"https://git.archlinux.org/pacman.git/commit/?id=39319c1860d200a9b4a3cc2c6975e3cece502f2d\">pacman</a>
     utility. We welcome you to download the in-toto
     instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software,
@@ -302,14 +305,14 @@ build on our findings."
       description: "Delivery of large chunks of content, such as video, accounts for a
 substantial percentage of all Internet traffic.  This content is usually
 served by provider networks that contract with Internet Service Providers.
-CacheCash provides a similar content delivery service by having interested
-users run caches of content.  These users are incentivized to participate by receiving
-a crypto-currency (Cachecoin) in exchange for serving content to users.  Both cryptographic
-and economic techniques demonstrate that, in CacheCash, these users are either forced or
-economically incentivized to honestly serve content.  Our analysis
+CacheCash provides a similar service in which interested
+users run caches, and are incentivized to participate by receiving
+a crypto-currency (Cachecoin) in exchange for serving content to other users.
+Both cryptographic and economic techniques demonstrate that CacheCash users are either forced or
+economically incentivized to honestly serve content. Our analysis
 shows that CacheCash scales to meet the workload of even the most popular
-services used today.  By building CacheCash, we intend to disrupt CDNs by
-more readily and pervasively including end user served content."
+services used today. By building CacheCash, we intend to change CDNs by
+more readily and pervasively including end-user served content."
       products: "We are in stealth mode! If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
@@ -429,8 +432,19 @@ publicly release, please email <a href=\"mailto:upccinate-public@googlegroups.co
       status: *retired
       image: "img/projects/netcheck_diagram.png"
       site: "https://netcheck.poly.edu/"
-      description: "NetCheck is a tool that can determine the cause of a failure in a networked application, without any application or network-specific knowledge, and without any modification to the application or its infrastructure. By treating an application as a blackbox, a diagnosis can be made using just a set of system call (syscall) invocation traces from the relevant end-hosts. By simulating the syscalls against a network model, syscalls that deviate from expected network semantics can be identified. In return, these deviations can be mapped to a diagnosis by using a set of heuristics."
-      products: "NetCheck identified a wide array of networking bugs in different projects, including in <a href=\"http://bugs.python.org/issue7995\">Python</a>.  The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a> is available, however it is worth reading our <a href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a> first to learn about our experiences."
+      description: "NetCheck is a tool that can determine the cause of a failure
+       in a networked application, without any application or network-specific knowledge,
+       and without any modification to the application or its infrastructure. By
+       treating an application as a blackbox, a diagnosis can be made using just
+       a set of system call (syscall) invocation traces from the relevant end-hosts.
+       By simulating the syscalls against a network model, syscalls that deviate
+      from expected network semantics can be identified. In return, these deviations
+      can be mapped to a diagnosis by using a set of heuristics."
+      products: "NetCheck identified a wide array of networking bugs in
+      different projects, including in <a href=\"http://bugs.python.org/issue7995\">Python</a>.
+      The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a>
+      is available. However, it is worth reading our <a href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a>
+      first to learn about our experiences."
       experiences: "Note that this project is not currently being maintained.
 Please read our blog to learn about our experiences."
       people:

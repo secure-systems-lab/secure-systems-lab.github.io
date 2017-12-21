@@ -83,9 +83,7 @@ people:
       photo: "img/people/sam_weber.jpg"
       interests: "Secure development processes, Cybersecurity"
       projects:
-        - *atoms
-        - *crashsimulator
-        - *lind
+        - *blindspots
         - *uptane
       publications:
         - name: "USENIX ATC 2017"
@@ -125,7 +123,7 @@ people:
       interests: "Software update security"
       projects:
         - *tuf
-        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury</a>)"
         - *uptane
       publications:
         - name: "USENIX ATC 2017"
@@ -186,7 +184,7 @@ people:
       interests: "Securing software updates for community repositories and automobiles"
       projects:
         - *tuf
-        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, Mercury)"
+        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury</a)"
         - *uptane
         - *uppir
       publications:
@@ -207,7 +205,7 @@ people:
       name: "Luqin Wang"
       link: "people#luqin_wang"
       internal: true
-      role: "Ph.D. graduated in 2016 (co-advised by Yong Liu)"
+      role: "Ph.D. 2016 (co-advised by Yong Liu)"
       since: "2011"
       photo: "img/people/luqin_wang.jpg"
       interests: "Social networks, Internet measurement, network security and distributed systems"
@@ -350,7 +348,7 @@ people:
       link: "people#sai_peddinti"
       internal: true
       anchor: sai_peddinti
-      role: "Ph.D. graduated in 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
+      role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
       since: "2011"
       photo: "img/people/sai_peddinti.jpg"
       site: "http://www.saitejapeddinti.com/"
@@ -481,17 +479,6 @@ people:
       projects:
         - *atoms
 
-  - sachit_malik: &sachit_malik
-      name: "Sachit Malik"
-      link: "people#sachit_malik"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/sachit_malik.jpg"
-      interests: "Web application security, malware analysis, cyber forensics"
-      projects:
-        - *in-toto
-
   - shikhar_sakhuja: &shikhar_sakhuja
       name: "Shikhar Sakhuja"
       link: "people#shikhar_sakhuja"
@@ -502,17 +489,6 @@ people:
       interests: "Exploring the relationship between data science and cybersecurity"
       projects:
         - *uptane
-
-  - ryan_patton: &ryan_patton
-      name: "Ryan Patton"
-      link: "people#ryan_patton"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/ryan_patton.jpg"
-      interests: "Cybersecurity, user-friendly tools"
-      projects:
-        - *crashsimulator
 
   - aakar_jinwala: &aakar_jinwala
       name: "Aakar Deveshkumar Jinwala"
@@ -616,7 +592,7 @@ people_cards:
     people:
       - *justin_cappos
       - *albert_rafetseder
-      - *sam_weber
+
   - type: Staff
     anchor: staff
     people:
@@ -649,9 +625,7 @@ people_cards:
       - *henry_zhou
       - *jake_iannacone
       - *chris_lo
-      - *sachit_malik
       - *shikhar_sakhuja
-      - *ryan_patton
       - *brandon_zhu
       - *yu_zhang
       - *shikher_verma
@@ -661,5 +635,6 @@ people_cards:
     people:
       - *yanyan_zhuang
       - *trishank_kuppusamy
+      - *sam_weber
       - *luqin_wang
       - *sai_peddinti
