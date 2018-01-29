@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Airbiquity OTAmatic Named 2017 New Product of the Year by Business Intelligence Group"
+    link: "https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group"
+    anchor: AirbiqUptane
+    type: article
+    project: *uptane
+    source: "Airbiquity.com"
+    date: "January 25, 2018"
+
   - title: "HERE to Acquire ATS to Power Highly Secure Software Updates for Connected and Autonomous Cars"
     link: "https://www.automotiveworld.com/news-releases/acquire-ats-power-highly-secure-software-updates-connected-autonomous-cars/"
     anchor: HEREATSuptane
