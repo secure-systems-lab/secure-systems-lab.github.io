@@ -115,11 +115,15 @@ It has just been
 <a href=\"https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html\">integrated</a>
 into OTA Plus and ATS Garage, two over-the-air software update products from
 Advanced Telematic Systems. To our knowledge, this marks the first European
-company to adopt the Uptane security framework.
+company to adopt the Uptane security framework. On January 25, 2018, Airbiquity
+announced receipt of a <a href=\"https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group\">BIG Award for Business</a>
+in the 2017 New Product Category for its OTAmatic
+program, in which Uptane is a key component of the security package.
 <a href=\"https://uptane.github.io/\">Our website</a> contains high level
 information about the project, including the
 <a href=\"https://goo.gl/LmfODJ\">design specification</a> and
-<a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>. We invite all
+<a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
+We invite all
 security researchers and academics to perform a
 security review of Uptane by going to our web site.
 For those who want lower level details, we also provide a
@@ -288,7 +292,7 @@ build on our findings."
         - *yu_zhang
         - name: Phyllis Frankl
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
-        - name: Apple Yan (PSU)
+        - name: April Yu Yan (PSU)
         - name: Martin Yeh (PSU)
           link: "http://martinyeh.com/"
         - *yanyan_zhuang
