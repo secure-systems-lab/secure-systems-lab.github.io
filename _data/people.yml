@@ -33,6 +33,7 @@ people:
         - name: "USENIX ATC 2017b"
           link: "/papers/li_lind_usenix_2017.pdf"
         - name: "FWC 2017"
+          link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
         - name: "login 2017"
           link: "/papers/kuppusamy_login_2017.pdf"
         - name: "USENIX Security 2016"
@@ -66,6 +67,7 @@ people:
         - *sensibility
       publications:
         - name: "FWC 2017"
+          link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
         - name: "login 2015"
           link: "/papers/zhuang_sensibility_login_2015.pdf"
         - name: "GREE 2013"
@@ -168,6 +170,7 @@ people:
         - *sensibility
       publications:
         - name: "FWC 2017"
+          link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
         - name: "PIK 2013"
           link: "/papers/rafetseder_sensorium_netsys_13.pdf"
         - name: "TryRepy Wiki"
@@ -177,14 +180,14 @@ people:
       name: "Trishank Kuppusamy"
       link: "people#trishank_kuppusamy"
       internal: true
-      role:  "Ph.D. 2017"
+      role:  "Ph.D. 2017, now Chief Security Solutions Engineer at DataDog"
       since: "2011"
       photo: "img/people/trishank_kuppusamy.jpg"
       link: "https://github.com/trishankkarthik"
       interests: "Securing software updates for community repositories and automobiles"
       projects:
         - *tuf
-        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury</a)"
+        - name: "TUF extensions <a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a> and <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury,</a"
         - *uptane
         - *uppir
       publications:
@@ -434,17 +437,6 @@ people:
           link: "http://dl.acm.org/citation.cfm?id=2538931"
       deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
 
-  - benson_kuang: &benson_kuang
-      name: "Benson Kuang"
-      link: "people#benson_kuang"
-      internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/benson_kuang.jpg"
-      interests: "Cybersecurity"
-      projects:
-        - name: "Reverse engineering the OnStar Module"
-
   - ariella_feuchtwanger: &ariella_feuchtwanger
       name: "Ariella C. Feuchtwanger"
       link: "people#ariella_feuchtwanger"
@@ -615,7 +607,6 @@ people_cards:
     anchor: otherstudents
     people:
       - *yu_hu
-      - *benson_kuang
       - *ariella_feuchtwanger
       - *aakar_jinwala
       - *abhishek_singh
