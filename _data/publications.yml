@@ -63,9 +63,22 @@ for replication, experimentation, and feedback."
     authors:
       - name: "A. Rafetseder, L. Pühringer, and J. Cappos"
     project: *seattle
-    booktitle: "to be presented at Fog World Congress 2017"
-    link:
-    abstract:
+    booktitle: "Fog World Congress 2017"
+    link: https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf
+    abstract: "In this paper we present Seattle, a practical and publicly
+accessible fog computing platform with a deployment history going back
+to 2009. Seattle’s cross-platform portable sandbox implementation
+tackles the widely-recognized issue of node heterogeneity. Its componentized
+architecture supports a number of approaches to operating a Seattle-based fog
+system, from isolated, standalone and peer-to-peer operations, to full-fledged
+provisioning by a dedicated operator, or federations of many operators.
+Seattle’s components and interfaces are designed for compatibility and reuse,
+and may be aligned with existing trust boundaries between different stakeholders.
+Seattle comprises implementations of all components discussed in this paper.
+Its free, open-source software stack has been used for teaching and research;
+outside groups have used existing Seattle components, and constructed new
+components with compatible interfaces in order to adapt the platform to
+their needs."
 
   - &mercury_usenix_17
     anchor: mercury_usenix_17
