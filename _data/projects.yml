@@ -136,7 +136,6 @@ demo video</a> is available on youtube."
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
-        - *sam_weber
         - *vlad_diaz
         - name: Damon McCoy
           link: "http://engineering.nyu.edu/people/damon-mccoy"
@@ -201,7 +200,6 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our p
       people:
         - *yanyan_zhuang
         - *yu_hu
-        - *lukas_puhringer
         - name: "Richard Weiss"
           link: "http://evergreen.edu/directory/people/weissr"
         - name: "Leon Reznik"
@@ -286,10 +284,8 @@ build on our findings."
       people:
         - *dan_gopstein
         - *devon_powell
-        - *jake_iannacone
         - *henry_zhou
         - *lois_delong
-        - *yu_zhang
         - name: Phyllis Frankl
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
         - name: April Yu Yan (PSU)
@@ -321,7 +317,6 @@ more readily and pervasively including end-user served content."
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
         - *ghada_almashaqbeh
-        - *artiom_baloian
         - *archit_goyal
         - name: "Allison Bishop Lewko"
           link: "http://www.cs.columbia.edu/~allison"
@@ -351,7 +346,6 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
       people:
         - *yiwen_li
         - *justin_cappos
-        - *artiom_baloian
         - *ankit_chandra
         - name: "Brendan Dolan-Gavitt"
           link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
@@ -389,9 +383,8 @@ by developers. In particular, we are looking for security-related blind spots in
       products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">blindspots@googlegroups.com</a>."
       people:
-        - *sam_weber
-        - *lois_delong
         - *justin_cappos
+        - *lois_delong
         - name: "Daniela Oliviera (UF)"
           link: "http://www.daniela.ece.ufl.edu/Home.html"
         - name: "Eliany Perez (UF)"
@@ -401,7 +394,6 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
         - name: "Tian Lin (UF)"
         - name: "Yuriy Brun (UMass-Amherst)"
           link: "https://people.cs.umass.edu/~brun/"
-        - *yanyan_zhuang
       tags:
         - *software_engineering
 
