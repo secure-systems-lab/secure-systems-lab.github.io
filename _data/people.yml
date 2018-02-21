@@ -277,6 +277,8 @@ people:
             link: "/papers/torres_toto_usenixsec-2016.pdf"
           - name: "CyberTalks 2016"
             link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
+          - name: ";login 2014"
+            link: "https://ssl.engineering.nyu.edu/papers/torres_pph_login_2014.pdf"
       deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
 
   - artiom_baloian: &artiom_baloian
@@ -398,19 +400,6 @@ people:
           link: "http://game.engineering.nyu.edu/projects/animesh/"
       deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
 
-  - jake_iannacone: &jake_iannacone
-      name: "Jake Iannacone"
-      link: "people#jake_iannacone"
-      internal: true
-      role: "High School Student"
-      since:
-      photo: "img/people/jake_iannacone.jpg"
-      interests: "Building secure software, protecting against unsafe software"
-      projects:
-        - *atoms
-      publications:
-          - name: "FSE 2017"
-            link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
   - yanyan_zhuang: &yanyan_zhuang
       name: "Yanyan Zhuang"
       link: "people#yanyan_zhuang"
@@ -436,17 +425,6 @@ people:
         - name: "SIGCSE 2014"
           link: "http://dl.acm.org/citation.cfm?id=2538931"
       deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
-
-  - ariella_feuchtwanger: &ariella_feuchtwanger
-      name: "Ariella C. Feuchtwanger"
-      link: "people#ariella_feuchtwanger"
-      internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/ariella_feuchtwanger.jpg"
-      interests: "Cybersecurity, security for the Internet of Things"
-      projects:
-        - name: "Upgrading software security for the Internet of Things"
 
   - chris_lo: &chris_lo
       name: "Christopher Lo"
@@ -504,17 +482,6 @@ people:
       interests: "Cybersecurity"
       projects:
         - *pph
-
-  - yu_zhang: &yu_zhang
-      name: "Yu Zhang"
-      link: "people#yu_zhang"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/yu_zhang.jpg"
-      interests: "Machine learning"
-      projects:
-        - *atoms
 
   - shikher_verma: &shikher_verma
       name: "Shikher Verma"
@@ -591,7 +558,6 @@ people_cards:
       - *vlad_diaz
       - *sebastien_awwad
       - *lukas_puhringer
-      - *artiom_baloian
       - *lois_delong
   - type: "PhD. Students"
     anchor: phd
@@ -607,18 +573,15 @@ people_cards:
     anchor: otherstudents
     people:
       - *yu_hu
-      - *ariella_feuchtwanger
       - *aakar_jinwala
       - *abhishek_singh
       - *archit_goyal
       - *ankit_chandra
       - *lolaly_luo
       - *henry_zhou
-      - *jake_iannacone
       - *chris_lo
       - *shikhar_sakhuja
       - *brandon_zhu
-      - *yu_zhang
       - *shikher_verma
 
   - type: Alumni
@@ -629,3 +592,4 @@ people_cards:
       - *sam_weber
       - *luqin_wang
       - *sai_peddinti
+      - *artiom_baloian
