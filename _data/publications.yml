@@ -8,6 +8,70 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &zhuang_sensibility_HotMobile_18
+    anchor: zhuang_sensibility_HotMobile_18
+    title: "Sensibility Testbed: Automated IRB Policy Enforcement in Mobile Research Apps"
+    authors:
+      - name: "Y. Zhuang, A. Rafetseder, Y. Hu, Y. Tian, and J. Cappos"
+    project: *sensibility
+    booktitle: "Proceedings of the 19th International Workshop on Mobile Computing Systems"
+    year: "February 12-13, 2018"
+    pages: "113-118"
+    publisher: "ACM"
+    link: ""
+    abstract: "Due to their omnipresence, mobile devices such as smartphones
+could be tremendously valuable to researchers. However, since research
+projects can extract data about device owners that could
+be personal or sensitive, there are substantial privacy concerns.
+Currently, the only regulation to protect user privacy for research
+projects is through Institutional Review Boards (IRBs) from researchers’
+institutions. However, there is no guarantee that researchers
+will follow the IRB protocol. Even worse, researchers
+without security expertise might build apps that are vulnerable to
+attacks.
+In this work, we present a platform, Sensibility Testbed, for
+automated enforcement of the privacy policies set by IRBs. Our
+platform enforces such policies when a researcher runs code on
+mobile devices. The enforcement mechanism is a set of obfuscation
+layers in a secure sandbox, that can be customized for any level
+of IRB compliance, and can be augmented by policies set by the
+device owner."
+
+  - &kuppusamy_VT_IEEE_18
+    anchor: kuppusamy_VT_IEEE_18
+    title: "Uptane: Security and Customizability of Software Updates for Vehicles"
+    authors:
+      - name: "T. Kuppusamy, L. DeLong, and J. Cappos"
+    project: *uptane
+    booktitle: "Vehicular Technology Magazine"
+    year: "March 2018"
+    publisher: "IEEE"
+    link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
+    abstract: "A widely accepted premise is that complex software frequently
+    contains bugs that can be remotely exploited by attackers. When this
+    software is on an electronic control unit (ECU) in a vehicle,
+exploitation of these bugs can have life or death
+consequences. Since software for vehicles is likely to
+proliferate and grow more complex in time, the number
+of exploitable vulnerabilities will increase. As a result,
+manufacturers are keenly aware of the need to quickly
+and efficiently deploy updates so that software vulnerabilities
+can be remedied as soon as possible.
+However, existing software-update security systems
+are not compromise resilient; if an attacker breaks into
+any portion of an automobile’s infrastructure, they could
+compromise numerous vehicles. The industry needs to
+dynamically choose updates for vehicles based on fresh
+information, forcing manufacturers to choose existing
+systems that sign updates using a key stored on the
+server. Attackers who compromise the repository can abuse this online key and cause malicious software to be
+installed on vehicles.
+In this article we discuss Uptane, the first, to our
+knowledge, compromise-resilient software update security
+system designed specifically for vehicles. It is
+designed to make obtaining all the pieces required to
+control a vehicle extremely difficult for attackers."
+
   - &kuppusamy_login_2017
     anchor: kuppusamy_login_2017
     title: "Securing Software Updates for Automotives Using Uptane"
@@ -1270,6 +1334,7 @@ publication_cards:
   - type: Workshop Papers
     anchor: workshop
     publications:
+      - *zhuang_sensibility_HotMobile_18
       - *cappos_nspw_2014
       - *zhuang_seattle_gree_13
       - *rafetseder_sensorium_netsys_13
@@ -1281,6 +1346,7 @@ publication_cards:
   - type: Journal Articles, Magazines, Tech Reports, etc.
     anchor: journals
     publications:
+      - *kuppusamy_VT_IEEE_18
       - *kuppusamy_login_2017
       - *kuppusamy_uptane_design-17
       - *uptane_implementation_17
