@@ -316,7 +316,6 @@ more readily and pervasively including end-user served content."
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
         - *ghada_almashaqbeh
-        - *archit_goyal
         - name: "Allison Bishop Lewko"
           link: "http://www.cs.columbia.edu/~allison"
         - *justin_cappos
