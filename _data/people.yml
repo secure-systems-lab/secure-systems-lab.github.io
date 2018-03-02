@@ -26,6 +26,8 @@ people:
         - name: "[more]"
           anchor: ""
       publications:
+        - name: "HotMobile 2018"
+          link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
         - name: "FSE 2017"
           link: "/papers/gopstein_atoms_fse_2017.pdf"
         - name: "USENIX ATC 2017a"
@@ -66,6 +68,8 @@ people:
         - *seattle
         - *sensibility
       publications:
+        - name: "HotMobile 2018"
+          link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
         - name: "FWC 2017"
           link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
         - name: "login 2015"
@@ -191,6 +195,8 @@ people:
         - *uptane
         - *uppir
       publications:
+          - name: "IEEE VT"
+            link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
           - name: "USENIX ATC 2017"
             link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
           - name: ";login 2017"
@@ -333,6 +339,8 @@ people:
         - *blindspots
         - name: "editorial support for all projects"
       publications:
+            - name: "IEEE VT"
+              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
             - name: "FSE 2017"
               link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
             - name: ";login 2017"
@@ -347,6 +355,9 @@ people:
       interests: "Side channel attacks, symbolic execution, mobile sensor application"
       projects:
         - *sensibility
+      publications:
+            - name: "HotMobile 2018"
+              link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
 
   - sai_peddinti: &sai_peddinti
       name: Sai Teja Peddinti
@@ -414,6 +425,8 @@ people:
         - *netcheck
         - *atoms
       publications:
+        - name: "HotMobile 2018"
+          link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
         - name: "FSE 2017"
           link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
         - name: "TrustCom 2015"
