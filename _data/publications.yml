@@ -14,11 +14,11 @@ publications:
     authors:
       - name: "Y. Zhuang, A. Rafetseder, Y. Hu, Y. Tian, and J. Cappos"
     project: *sensibility
-    booktitle: "Proceedings of the 19th International Workshop on Mobile Computing Systems"
-    year: "February 12-13, 2018"
+    booktitle: "Proceedings of the 19th International Workshop on Mobile Computing Systems (HotMobile '18)"
+    year: ""
     pages: "113-118"
     publisher: "ACM"
-    link: ""
+    link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
     abstract: "Due to their omnipresence, mobile devices such as smartphones
 could be tremendously valuable to researchers. However, since research
 projects can extract data about device owners that could
