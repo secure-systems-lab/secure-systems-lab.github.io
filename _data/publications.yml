@@ -8,6 +8,68 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &yeh_atomseeg_fie_17
+    anchor: yeh_atomseeg_fie_17
+    title: "Detecting and Comparing Brain Activity in Short Program Comprehension Using EEG"
+    authors:
+      - name: "M.K.-C. Yeh, D. Gopstein, Y. Yan, and Y. Zhuang"
+    project: *atoms
+    booktitle: "IEEE Frontiers in Education Conference (FIE '17)"
+    year: ""
+    pages: ""
+    publisher: "IEEE"
+    link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
+    abstract: "Program comprehension is a common task in
+software development. Programmers perform program
+comprehension at different stages of the software development
+life cycle. Detecting when a programmer experiences problems or
+confusion can be difficult. Self-reported data may be useful, but
+not reliable. More importantly, it is hard to use the self-reported
+feedback in real time.
+In this study, we use an inexpensive, non-invasive EEG device
+to record 8 subjects’ brain activity in short program
+comprehension. Subjects were presented either confusing or nonconfusing
+C/C++ code snippets. Paired sample t-tests are used to
+compare the average magnitude in alpha and theta frequency
+bands. The results show that the differences in the average
+magnitude in both bands are significant comparing confusing
+and non-confusing questions. We then use ANOVA to detect
+whether such difference also presented in the same type of
+questions. We found that there is no significant difference across
+questions of the same difficulty level. Our outcome, however,
+shows alpha and theta band powers both increased when subjects
+are under the heavy cognitive workload. Other research studies
+reported a negative correlation between (upper) alpha and theta
+band powers."
+
+  - &zhuang_sensibilityhack_sas_18
+    anchor: zhuang_sensibilityhack_sas_18
+    title: "Four Years Experience: Making Sensibility Testbed Work for SAS"
+    authors:
+      - name: "Y. Zhuang, A. Rafetseder, R. Weiss, and J. Cappos"
+    project: *sensibility
+    booktitle: "13th Annual Sensors Applications Symposium (SAS '18)"
+    year: ""
+    pages: ""
+    publisher: "IEEE"
+    link: ""
+    abstract: "Sensibility Testbed is a framework for developing sensor-based
+    applications that can run on user-provided smart- phones, and is easy to
+program. Over the past four years, we have been organizing hackathons at SAS in
+order to perform semi-controlled experiments with this platform. Any smartphone
+user can install Sensibility Testbed and develop a simple sensor application in
+less than a day. One of the problems with developing and testing such a
+framework is that there are many possible hardware platforms and system
+configurations. Hackathons provide an effective venue for observing the
+development of applications on a range of devices by users with no previous
+knowledge of the framework.
+
+In this paper, we describe our experiences with hosting hackathons in a variety
+of venues, including the challenges of working in unfamiliar environments and
+with researchers who had no prior knowledge of the testbed. The feedback from
+participants has been very useful in identifying usability issues, hardware
+issues, and the types of sensor applications that users want to create."
+
   - &zhuang_sensibility_HotMobile_18
     anchor: zhuang_sensibility_HotMobile_18
     title: "Sensibility Testbed: Automated IRB Policy Enforcement in Mobile Research Apps"
@@ -18,7 +80,7 @@ publications:
     year: ""
     pages: "113-118"
     publisher: "ACM"
-    link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
+    link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
     abstract: "Due to their omnipresence, mobile devices such as smartphones
 could be tremendously valuable to researchers. However, since research
 projects can extract data about device owners that could
@@ -1305,6 +1367,8 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *zhuang_sensibilityhack_sas_18
+      - *yeh_atomseeg_fie_17
       - *fogcomp_fwc_17
       - *atoms_fse_17
       - *mercury_usenix_17
