@@ -8,6 +8,32 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &afzali_git_asiaccs_18
+    anchor: afzali_git_asiaccs_18
+    title: "Towards Verifiable Web-based Git Repositories"
+    authors:
+      - name: "H. Afzali, S. Torres, R. Curtmola, and J.Cappos"
+    project: ""
+    booktitle: "to be presented at the ACM Asia Conference on Computer & Communications Security (AsiaCCS '18)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
+
+  - &gopstein_atomswild_msr_18
+    anchor: gopstein_atomswild_msr_18
+    title: "Prevalence of Confusing Code in Software Projects: Atoms of Confusion in the Wild"
+    authors:
+      - name: "D. Gopstein, H. Zhou, P. Frankl, and J. Cappos"
+    project: *atoms
+    booktitle: "to be presented at the 15th International Conference on Mining Software Repositories (MSR '18)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
+
   - &yeh_atomseeg_fie_17
     anchor: yeh_atomseeg_fie_17
     title: "Detecting and Comparing Brain Activity in Short Program Comprehension Using EEG"
@@ -52,7 +78,7 @@ band powers."
     year: ""
     pages: ""
     publisher: "IEEE"
-    link: ""
+    link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
     abstract: "Sensibility Testbed is a framework for developing sensor-based
     applications that can run on user-provided smart- phones, and is easy to
 program. Over the past four years, we have been organizing hackathons at SAS in
@@ -1367,6 +1393,8 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *afzali_git_asiaccs_18
+      - *gopstein_atomswild_msr_18
       - *zhuang_sensibilityhack_sas_18
       - *yeh_atomseeg_fie_17
       - *fogcomp_fwc_17
