@@ -26,7 +26,12 @@ people:
         - name: "[more]"
           anchor: ""
       publications:
-        - name: "SAS 2018"
+        - name: "AsiaCCS"
+        - name: "MSR 2018"
+        - name: "SAS 2018a"
+          link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
+        - name: "SAS 2018b"
+          link: "https://ssl.engineering.nyu.edu/papers/khokhlov_sensing_sas_2018.pdf"
         - name: "HotMobile 2018"
           link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
         - name: "FSE 2017"
@@ -70,6 +75,7 @@ people:
         - *sensibility
       publications:
         - name: "SAS 2018"
+          link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
           link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
         - name: "FWC 2017"
@@ -279,6 +285,7 @@ people:
           - *pph
           - *in-toto
       publications:
+          - name: "AsiaCCS"
           - name: "NSDI 2016"
             link: "/papers/kuppusamy_nsdi_16.pdf"
           - name: "USENIX Security 2016"
@@ -407,6 +414,7 @@ people:
       projects:
         - *atoms
       publications:
+        - name: "MSR 2018"
         - name: "FIE 2017"
           link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
         - name: "FSE 2017"
@@ -430,6 +438,7 @@ people:
         - *atoms
       publications:
         - name: "SAS 2018"
+          link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
           link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
         - name: "FIE 2017"
@@ -468,6 +477,8 @@ people:
       ethics of technology"
       projects:
         - *atoms
+      publications:
+              - name: "MSR 2018"
 
   - shikhar_sakhuja: &shikhar_sakhuja
       name: "Shikhar Sakhuja"
