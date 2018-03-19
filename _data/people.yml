@@ -246,8 +246,10 @@ people:
       projects:
         - *cachecash
       publications:
+        - name: "ACM Transactions on Privacy and Security 2018"
+          link: "https://dl.acm.org/citation.cfm?id=3154600"
         - name: "BMC Medical Informatics and Decision-Making 2015"
-          link: "http://www.cse.nd.edu/~mblanton/papers/midm15.pdf"
+          link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4"
         - name: "arXiv.org"
           link: "https://arxiv.org/pdf/1509.01763v2.pdf"
 
