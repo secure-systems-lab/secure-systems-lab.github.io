@@ -279,7 +279,8 @@ malfunctioning programs."
 background on our theory, studies, and analysis for this work.
 We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
 openly available so that other researchers can replicate, validate, and
-build on our findings."
+build on our findings. Our results have been used to fix bugs in the
+<a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
       people:
         - *dan_gopstein
         - *devon_powell
