@@ -31,8 +31,25 @@ publications:
     year: ""
     pages: ""
     publisher: ""
-    link: ""
-    abstract: ""
+    link: "papers/gopstein_atomswild_msr_2018.pdf"
+    abstract: "Prior work has shown that extremely small code patterns, such as
+    the conditional operator and implicit type conversion, can cause
+    considerable misunderstanding in programmers. Until now, the real world
+    impact of these patterns - known as 'atoms of confusion' - was only
+    speculative. This work uses a corpus of 14 of the most popular and
+    influential open source C and C++ projects to measure the prevalence and
+    significance of these small confusing patterns. Our results show that the 15
+    known types of confusing micro patterns occur millions of times in programs
+    like the Linux kernel and GCC, appearing on average once every 23 lines. We
+    show there is a strong correlation between these confusing patterns and
+    bug-ix commits as well as a tendency for confusing patterns to be
+    commented. We also explore patterns at the project level showing the rate of
+    security vulnerabilities is higher in projects with more atoms. Finally,
+    we examine real code examples containing these atoms, including ones that
+    were used to ind and ix bugs in our corpus. In total this work demonstrates
+    that beyond simple misunderstanding in the lab setting, atoms of confusion
+    are both prevalent - occurring often in real projects, and meaningful -
+    being removed by bug-fix commits at an elevated rate."
 
   - &yeh_atomseeg_fie_17
     anchor: yeh_atomseeg_fie_17
