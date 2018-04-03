@@ -1,0 +1,87 @@
+Prior to its 2014 conference, the IEEE Sensors Application Symposium (SAS) invited the
+Sensibility Testbed team from SSL to run a day-long workshop for participants at their 
+conference in Queenstown, New Zealand.
+At the time, the fledgling testbed project was new enough that it had only been 
+dubbed “Sensibility” 
+in August of the previous summer. As such, the workshop was an important showcase 
+for the test platform. During the workshop, teams of 3 to 4 participants used
+Sensibility to build applications that could
+securely access and creatively apply data from smartphone sensors. The initial
+Hackathon attracted about 20 people, and a team from the University of Houston
+took the top prize for an app that monitored battery levels and informed the
+user to turn off Wi-Fi or Bluetooth when power levels fell too low.
+
+The SSL team has gone on to host five more events at SAS conferences, counting
+this year’s program on March 13 at the Koreana Hotel in Seoul, Korea. The apps
+produced onsite at the workshops have included one that can detect when a device
+owner slips and falls (winning entry in 2016 Workshop
+in Catania, Italy, developed by a team with members from Qatar and Norway) 
+and another that scans nearby WiFi networks to identify the access router with
+the best signal quality (winning entry in last year’s event in Glassboro, NJ, built
+by Claudio Crema from the University of
+Brescia, and Majed Alowaidi from the University of Ottawa.)
+
+While sparking innovation in its participants, the workshops have also 
+been a learning experience for the Sensibility team. In a paper titled “Making
+Sensibility Testbed Work for SAS,” Yanyan Zhuang (University of Colorado-Colorado Springs),
+Richard Weiss(Evergreen College), Albert Rafetseder, and Justin Cappos (NYU Tandon) describe
+how the workshops helped them improve the basic design of the testbed. It also
+taught them a few lessons about how to run a successful hackathon.
+
+As described in the paper, during the second hackathon, held in Zadar, Croatia, in
+2015, a few complications emerged relating to two particular components. The XML-RPC
+interface, a remote procedure protocol was initially used to communicate between
+the Sensibility app, which was written in Java, and the sandbox, written in a form
+of Python. However, in observing Hackathon participants working with the testbed,
+it became clear that this interface was slowing down performance, particularly 
+Sensibility’s ability to access accelerometers and gyroscope at high frequencies,
+as needed for accurately studying the motions of a device. Even worse, as the
+authors observe, “the XML-RPC is not a secure communication channel. If an attacker
+learns about the designated port, he or she can use an XML-RPC call to get all 
+the sensor data as is desired.” 
+
+The other problematic component was a third-party library called Scripting
+Language for Android (sl4a), which enabled sensor interfaces in Java. Initially,
+once the Sensibility app was installed, it could automatically download this library.
+But, after a Google Play store policy change eliminated “in-app” installation, 
+the library had to be downloaded manually. This meant an additional step for 
+Hackathon participants, taking up time and making the installation process
+more complicated.  
+
+By the 2016 Hackathon, in Catania, Italy, the research team had created its own
+interface for Sensibility, “by using the Java Native Interface (JNI) to define
+Android app interfaces into the Android app on one side, and a custom Python
+interpreter that then hosts the Sensibility Testbed sandbox on the other side.”
+This change, coupled with a few other design modifications (writing and compiling
+custom sensor bindings into the Python interpreter using the CPython API, and 
+the creation of wrapper functions for the sandboxed code “so that the extent
+of sensor access can be tailored,” ) meant that both sl4a and the XML-RPC 
+interface could be eliminated. Now, installing Sensibility was a much simpler
+one-step process, and the testbed was both easier to use and more secure. 
+
+However, just because your design is optimized doesn’t mean your event will
+run smoothly. The authors note that the 2016 event was hosted in the Museo
+Diocesano in Catania, a museum holding artifacts that date back to the 13th 
+Century. The intermittent and poor quality WiFi in the building seemed
+designed to match the age of its surroundings. Whether compensating
+for slow WiFi, or making sure the testbed kept pace with the ever-evolving
+Linux kernel on which Android devices are based, the hackathons forced 
+the research team to stay a step ahead. Sometimes that meant improving
+documentation for those programming in Python for the first time, other times
+it meant guiding participants using Windows laptops through the process 
+of downloading the Python environment. 
+
+Lastly, the team acknowledges that balancing Sensibility between the
+security and privacy needs inherent in running on donated devices, 
+and the usability features required to allow rookie programmers to
+install and design apps with minimal training, is an ongoing challenge.
+Pointing to the cameras and microphones on devices, which Sensibility
+automatically disables access to in order to protect the privacy of donors,
+the researchers note that participants often request access to these sensors
+“for applications like facial recognition and intrusion detection.” The
+answer to such requests is always “no.” Though it’s “made some applications
+impossible to implement,” the authors conclude, “the resulting security
+benefit was greater.”
+
+To read more about the SAS workshops and Sensibility Testbed, access
+the article [here](https://ssl.engineering.nyu.edu/personalpages/jcappos/.)
