@@ -68,7 +68,9 @@ into any software update system, or native programming language due to its
 concise, self-contained architecture and specification. It offers both developers
 and users protection from a host of potential attacks."
       products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
-      production by a variety of projects, including <a href=\"https://www.vmware.com/\">VMware</a>,
+      production by a <a 
+href=\"https://theupdateframework.github.io/adoptions.html\">variety of 
+projects</a>, including <a href=\"https://www.vmware.com/\">VMware</a>,
       <a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
       <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>.
      It has been standardized for Python as documented in PEPs
