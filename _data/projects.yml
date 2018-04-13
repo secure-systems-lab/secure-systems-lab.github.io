@@ -395,30 +395,6 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
       tags:
         - *software_engineering
 
-  - upccinate: &upccinate
-      name: "Upccinate"
-      anchor: "upccinate"
-      status: *stealth
-      site: "https://upccinate.github.io/"
-      description: "Computerized medical devices are an efficient and
-essential part of health care around the world today.  However, these devices
-are often riddled with security issues and outdated software.  Upccinate
-focuses on secure and usable mechanisms to distribute software updates to
-medical devices.  Much like the <a href=\"#tuf\">TUF</a> and
-<a href=\"#uptane\">Uptane</a> projects, Upccinate is focused on providing
-compromise resilience, while addressing security issues that are domain
-specific.  More information will be forthcoming as this project progresses."
-      products: "We are in stealth mode!  If you want to be contacted when we
-publicly release, please email <a href=\"mailto:upccinate-public@googlegroups.com\">upccinate-public@googlegroups.com</a>."
-      people:
-        - name: Stephanie Domas (Battelle)
-        - name: David Giles (Battelle)
-        - *justin_cappos
-      tags:
-        - *software_updates
-        - *security
-        - *internet_of_things
-
 
   - netcheck: &netcheck
       name: "NetCheck"
