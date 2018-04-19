@@ -489,7 +489,6 @@ project_cards:
   - *lind
   - *crashsimulator
   - *blindspots
-  - *upccinate
   - *netcheck
   - *uppir
   - *vsn
