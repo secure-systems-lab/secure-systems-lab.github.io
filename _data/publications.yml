@@ -8,6 +8,22 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &cappos_tsumiki_TPDS_18
+    anchor: cappos_tsumiki_TPDS_18
+    title: "Tsumiki: A Meta-Platform for Building Your Own Testbed"
+    authors:
+      - name: "J.Cappos, Y. Zhuang, A. Rafetseder, and I. Beschastnikh"
+    projects:
+      - *seattle
+      - *sensibility
+    booktitle: "Transactions on Parallel and Distributed Systems"
+    year: "2018"
+    pages: ""
+    publisher: "IEEE"
+    link: ""
+    abstract: ""
+
+
   - &afzali_git_asiaccs_18
     anchor: afzali_git_asiaccs_18
     title: "le-git-imate: Towards Verifiable Web-based Git Repositories"
@@ -484,9 +500,24 @@ Git."
     pages: "567--581"
     publisher: "USENIX Association"
     link: "/papers/kuppusamy_nsdi_16.pdf"
-    abstract: "Community repositories, such as Docker Hub, PyPI, and RubyGems, are bustling marketplaces that distribute software. Even though these repositories use common software signing techniques (e.g., GPG and TLS), attackers can still publish malicious packages after a server compromise. This is mainly because a community repository must have immediate access to signing keys in order to certify the large number of new projects that are registered each day.
+    abstract: "Community repositories, such as Docker Hub, PyPI, and RubyGems,
+are bustling marketplaces that distribute software. Even though these repositories
+use common software signing techniques (e.g., GPG and TLS), attackers can
+still publish malicious packages after a server compromise. This is mainly
+because a community repository must have immediate access to signing keys in order
+to certify the large number of new projects that are registered each day.
 
-This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
+This work demonstrates that community repositories can offer compromise-resilience
+and real-time project registration by employing mechanisms that disambiguate trust delegations.
+This is done through two delegation mechanisms that provide flexibility in the
+amount of trust assigned to different keys. Using this idea we implement Diplomat,
+a software update framework that supports security models with different security / usability tradeoffs.
+By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience
+while allowing real-time project registration. For example, when Diplomat is deployed
+and configured to maximize security on Python's community repository, less than 1%
+of users will be at risk even if an attacker controls the repository and is
+undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell,
+OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
 
   - &dev-pep-2016
     anchor: dev-pep-2016
@@ -499,7 +530,6 @@ This work demonstrates that community repositories can offer compromise-resilien
     abstract: "Proposed is an extension to PEP 458 that adds support for end-to-end signing and the maximum security model. End-to-end signing allows both PyPI and developers to sign for the distributions that are downloaded by clients. The minimum security model proposed by PEP 458 supports continuous delivery of distributions (because they are signed by online keys), but that model does not protect distributions in the event that PyPI is compromised. In the minimum security model, attackers may sign for malicious distributions by compromising the signing keys stored on PyPI infrastructure. The maximum security model, described in this PEP, retains the benefits of PEP 458 (e.g., immediate availability of distributions that are uploaded to PyPI), but additionally ensures that end-users are not at risk of installing forged software if PyPI is compromised.
 
 This PEP discusses the changes made to PEP 458 but excludes its informational elements to primarily focus on the maximum security model. For example, an overview of The Update Framework or the basic mechanisms in PEP 458 are not covered here. The changes to PEP 458 include modifications to the snapshot process, key compromise analysis, auditing snapshots, and the steps that should be taken in the event of a PyPI compromise. The signing and key management process that PyPI MAY RECOMMEND is discussed but not strictly defined. How the release process should be implemented to manage keys and metadata is left to the implementors of the signing tools. That is, this PEP delineates the expected cryptographic key type and signature format included in metadata that MUST be uploaded by developers in order to support end-to-end verification of distributions."
-
 
   - &li-usenix-fence-2015
     anchor: li-usenix-fence-2015
@@ -519,8 +549,7 @@ app, even if low priority, can cause performance degradation,
 loss of battery life, or other issues that reduce a
 computing device's availability. The core problem is that
 OS resource control mechanisms unevenly apply uncoordinated
-policies across different resources. This paper
-shows how handling resources - e.g., CPU, memory, sockets,
+policies across different resources. This paper shows how handling resources - e.g., CPU, memory, sockets,
 and bandwidth - in coordination, through a unifying
 abstraction, can be both simpler and more effective. We
 abstract resources along two dimensions of fungibility
@@ -540,7 +569,7 @@ Fence can double the battery life and improve the
 responsiveness of other applications by an order of magnitude.
 Fence is publicly available and has been deployed
 in practice for five years, protecting tens of thousands of
-users"
+users."
 
   - &torres_toto_usenixsec-2016
     anchor: torres_toto_usenixsec-2016
@@ -1481,6 +1510,7 @@ publication_cards:
   - type: Journal Articles, Magazines, Tech Reports, etc.
     anchor: journals
     publications:
+      - *cappos_tsumiki_TPDS_18
       - *kuppusamy_VT_IEEE_18
       - *kuppusamy_login_2017
       - *kuppusamy_uptane_design-17
