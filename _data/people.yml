@@ -74,6 +74,7 @@ people:
         - *seattle
         - *sensibility
       publications:
+        - name: "TPDS 2018"
         - name: "SAS 2018"
           link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
@@ -439,6 +440,7 @@ people:
         - *netcheck
         - *atoms
       publications:
+        - name: "TPDS 2018"
         - name: "SAS 2018"
           link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
