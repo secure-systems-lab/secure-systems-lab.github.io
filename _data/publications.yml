@@ -84,11 +84,11 @@ Git repositories."
     known types of confusing micro patterns occur millions of times in programs
     like the Linux kernel and GCC, appearing on average once every 23 lines. We
     show there is a strong correlation between these confusing patterns and
-    bug-ix commits as well as a tendency for confusing patterns to be
+    bug-fix commits, as well as a tendency for confusing patterns to be
     commented. We also explore patterns at the project level showing the rate of
     security vulnerabilities is higher in projects with more atoms. Finally,
     we examine real code examples containing these atoms, including ones that
-    were used to ind and ix bugs in our corpus. In total this work demonstrates
+    were used to find and fix bugs in our corpus. In total, this work demonstrates
     that beyond simple misunderstanding in the lab setting, atoms of confusion
     are both prevalent - occurring often in real projects, and meaningful -
     being removed by bug-fix commits at an elevated rate."
