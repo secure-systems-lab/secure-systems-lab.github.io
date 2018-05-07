@@ -4,6 +4,22 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Exploring Container Security: Digging Into Grafeas Container Image Metadata"
+    link: "https://cloudplatform.googleblog.com/2018/04/exploring-container-security-digging-into-Grafeas-container-image-metadata.html"
+    anchor: Grafeasintoto
+    type: article
+    project: *in-toto
+    source: "Google Cloud Platform Blog"
+    date: "April 12, 2018"
+
+  - title: "A New Package Index for Python"
+    link: "https://lwn.net/Articles/751458/"
+    anchor: LWNTUFapr18
+    type: article
+    project: *tuf
+    source: "LWN.net"
+    date: "April 11, 2018"
+
   - title: "Lock-in-Pop: Securing Privileged Operating System Kernels by Keeping on the Beaten Path"
     link: "https://lobste.rs/s/beeojb/lock_pop_securing_privileged_operating"
     anchor: LobsterLind
@@ -198,6 +214,14 @@ Popular Science Magazine's List of Top 100 Technologies of the Year"
     project: *uptane
     source: "NPR-Texas Public Radio/KSTX"
     date: "June 21, 2017"
+
+  - title: "ATS Integrates Uptane Security"
+    link: "http://www.autoconnectedcar.com/2017/06/connected-car-news-marvell-telit-att-ats-continental-toyota-marvel-safe-drive-systems-cast-car2go-trimble/"
+    anchor: ATSautoconncar
+    type: article
+    project: *uptane
+    source: "Auto Connected Car News"
+    date: "June 16, 2017"
 
   - title: "ATS is Integrating the Uptane Security Framework for Over-the-air
   Software Updates to Connected Vehicles"
