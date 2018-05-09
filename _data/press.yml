@@ -24,7 +24,7 @@ presses:
     link: "https://lobste.rs/s/beeojb/lock_pop_securing_privileged_operating"
     anchor: LobsterLind
     type: article
-    project: *Lind
+    project: *lind
     source: "Lobste.rs"
     date: "March 9, 2018"
 
