@@ -8,6 +8,22 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+
+  - &oliveira_blindspots_SOUPS_18
+    anchor: oliveira_blindspots_SOUPS_18
+    title: "API Blindspots: Why Experienced Developers Write Vulnerable Code"
+    authors:
+      - name: "D. Oliveira, T. Lin, M. Rahman, R. Akefirad, D. Ellis, E. Perez, R. Bobhate, L. DeLong, J. Cappos, Y. Brun, and N. Ebner"
+    projects:
+      - *blindspots
+    booktitle: "to be presented at the Fourteenth Symposium on Usable Privacy and Security (SOUPS 2018)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
+
+
   - &cappos_tsumiki_TPDS_18
     anchor: cappos_tsumiki_TPDS_18
     title: "Tsumiki: A Meta-Platform for Building Your Own Testbed"
@@ -1465,6 +1481,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *oliveira_blindspots_SOUPS_18
       - *afzali_git_asiaccs_18
       - *gopstein_atomswild_msr_18
       - *zhuang_sensibilityhack_sas_18
