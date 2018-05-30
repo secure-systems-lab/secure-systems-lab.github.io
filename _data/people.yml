@@ -188,7 +188,11 @@ people:
           link: "/papers/rafetseder_sensorium_netsys_13.pdf"
         - name: "TryRepy Wiki"
           link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
-      deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed"
+      deployments: "<a
+      href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium
+      Framework</a> (used on smartphones to capture data for <a
+      href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>),
+      Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
   - trishank_kuppusamy: &trishank_kuppusamy
       name: "Trishank Kuppusamy"
       link: "people#trishank_kuppusamy"
