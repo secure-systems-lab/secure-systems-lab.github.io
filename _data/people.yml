@@ -28,6 +28,7 @@ people:
       publications:
         - name: "AsiaCCS"
         - name: "MSR 2018"
+          link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
         - name: "SAS 2018a"
           link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "SAS 2018b"
@@ -422,6 +423,7 @@ people:
         - *atoms
       publications:
         - name: "MSR 2018"
+          link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
         - name: "FIE 2017"
           link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
         - name: "FSE 2017"
@@ -487,6 +489,7 @@ people:
         - *atoms
       publications:
               - name: "MSR 2018"
+                link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
 
   - shikhar_sakhuja: &shikhar_sakhuja
       name: "Shikhar Sakhuja"
