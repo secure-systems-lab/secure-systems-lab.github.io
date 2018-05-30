@@ -85,7 +85,8 @@ Git repositories."
     authors:
       - name: "D. Gopstein, H. Zhou, P. Frankl, and J. Cappos"
     project: *atoms
-    booktitle: "to be presented at the 15th International Conference on Mining Software Repositories (MSR '18)"
+    booktitle: "The 15th International Conference on Mining Software
+    Repositories (MSR '18) <br/> Distinguished Paper Award"
     year: ""
     pages: ""
     publisher: ""
@@ -266,7 +267,7 @@ consequences."
       - name: "D. Gopstein, J. Iannacone, Y. Yan, L. DeLong, Y. Zhuang, K.C. Yeh,and J. Cappos"
     project: *atoms
     booktitle: "The 2017 ACM SIGSOFT Symposium on the Foundations of Software
-    Engineering (FSE 2017)--Distinguished Paper Award"
+    Engineering (FSE 2017)<br/>Distinguished Paper Award"
     link: /papers/gopstein_atoms_fse_2017.pdf
     abstract: "Humans often mistake the meaning of source code, and so misjudge
 a programs true behavior. These mistakes can be caused
