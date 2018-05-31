@@ -153,86 +153,6 @@ demo video</a> is available."
         - *security
         - *internet_of_things
 
-  - seattle: &seattle
-      name: "Seattle"
-      anchor: "seattle"
-      image: "img/projects/seattle_color_map.jpg"
-      site: "https://seattle.poly.edu/html/"
-      status: *adopted
-      description: "Cloud computing can provide tremendous benefits due to its
-ability to offload computation on demand. However, cloud resources are often
-located far from users.  The Seattle project enables users to securely share
-(and acquire) computing resources from their desktop, laptop, or smartphone
-in the same manner as with cloud computing.  Seattle is used by educators,
-and for software development and research by thousands of people around the world."
-      products: "Seattle is used by thousands of developers and has been installed on tens of thousands of devices.  Our website contains information and links to <a href=\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
-and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
-of available resources for those who wish to download and use the Seattle
-program, or to
-<a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a>
-some computing power on their device for research purposes."
-      people:
-        - *albert_rafetseder
-        - *lukas_puhringer
-        - *sebastien_awwad
-        - *justin_cappos
-      tags:
-        - *security
-        - *networking
-        - *testbeds
-
-  - sensibility: &sensibility
-      name: "Sensibility Testbed"
-      anchor: "sensibility"
-      image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
-      status: *starting
-      site: "https://sensibilitytestbed.com/"
-      description: "Given the close proximity of smartphones to users,
-researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
-privacy of user information.  Sensibility also has additional security
-protections that ensure the safety of the device, while giving researchers
-access to unique information."
-      products: "We have had four years of hack-a-thons, where teams compete
-to build the best application for Sensibility. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
-or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our project's blog</a>!"
-      people:
-        - *albert_rafetseder
-        - *yanyan_zhuang
-        - *yu_hu
-        - name: "Richard Weiss"
-          link: "http://evergreen.edu/directory/people/weissr"
-        - name: "Leon Reznik"
-          link: "https://www.cs.rit.edu/people/faculty/lr"
-        - *justin_cappos
-      tags:
-        - *testbeds
-        - *privacy
-        - *networking
-        - *internet_of_things
-
-  - pph: &pph
-      name: "PolyPasswordHasher (PPH)"
-      anchor: "pph"
-      image: "img/projects/pph_diagram.png"
-      status: *starting
-      site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
-      description: "A password database disclosure can be devastating, costing
-companies billions of dollars in damages. PolyPasswordHasher offers a new
-approach to prevent attackers from finding out which passwords are being used.
-By interrelating stored password data, potential hackers are forced to crack
-passwords in sets. This increases the attackers’ level of difficulty, making a
-PolyPasswordHasher-enabled database very hard to breach, even for an adversary
-with millions of computers."
-      products: "PPH is used in several projects, including the Seattle
-      Clearinghouse and BioBank. PPH has implementations available in seven languages,
-      including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
-      people:
-        - *santiago_torres
-        - *lolaly_luo
-        - *justin_cappos
-      tags:
-        - *cryptography
-        - *security
 
   - in-toto: &in-toto
       name: "in-toto"
@@ -369,6 +289,88 @@ publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\
         - *software_engineering
         - *testing_tools
         - *systems
+
+  - pph: &pph
+      name: "PolyPasswordHasher (PPH)"
+      anchor: "pph"
+      image: "img/projects/pph_diagram.png"
+      status: *starting
+      site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
+      description: "A password database disclosure can be devastating, costing
+companies billions of dollars in damages. PolyPasswordHasher offers a new
+approach to prevent attackers from finding out which passwords are being used.
+By interrelating stored password data, potential hackers are forced to crack
+passwords in sets. This increases the attackers’ level of difficulty, making a
+PolyPasswordHasher-enabled database very hard to breach, even for an adversary
+with millions of computers."
+      products: "PPH is used in several projects, including the Seattle
+      Clearinghouse and BioBank. PPH has implementations available in seven languages,
+      including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
+      people:
+        - *santiago_torres
+        - *lolaly_luo
+        - *justin_cappos
+      tags:
+        - *cryptography
+        - *security
+
+
+  - seattle: &seattle
+      name: "Seattle"
+      anchor: "seattle"
+      image: "img/projects/seattle_color_map.jpg"
+      site: "https://seattle.poly.edu/html/"
+      status: *adopted
+      description: "Cloud computing can provide tremendous benefits due to its
+ability to offload computation on demand. However, cloud resources are often
+located far from users.  The Seattle project enables users to securely share
+(and acquire) computing resources from their desktop, laptop, or smartphone
+in the same manner as with cloud computing.  Seattle is used by educators,
+and for software development and research by thousands of people around the world."
+      products: "Seattle is used by thousands of developers and has been installed on tens of thousands of devices.  Our website contains information and links to <a href=\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
+and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
+of available resources for those who wish to download and use the Seattle
+program, or to
+<a href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a>
+some computing power on their device for research purposes."
+      people:
+        - *albert_rafetseder
+        - *lukas_puhringer
+        - *sebastien_awwad
+        - *justin_cappos
+      tags:
+        - *security
+        - *networking
+        - *testbeds
+
+  - sensibility: &sensibility
+      name: "Sensibility Testbed"
+      anchor: "sensibility"
+      image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
+      status: *starting
+      site: "https://sensibilitytestbed.com/"
+      description: "Given the close proximity of smartphones to users,
+researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
+privacy of user information.  Sensibility also has additional security
+protections that ensure the safety of the device, while giving researchers
+access to unique information."
+      products: "We have had four years of hack-a-thons, where teams compete
+to build the best application for Sensibility. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
+or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our project's blog</a>!"
+      people:
+        - *albert_rafetseder
+        - *yanyan_zhuang
+        - *yu_hu
+        - name: "Richard Weiss"
+          link: "http://evergreen.edu/directory/people/weissr"
+        - name: "Leon Reznik"
+          link: "https://www.cs.rit.edu/people/faculty/lr"
+        - *justin_cappos
+      tags:
+        - *testbeds
+        - *privacy
+        - *networking
+        - *internet_of_things
 
   - blindspots: &blindspots
       name: "API Blindspots"
