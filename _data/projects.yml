@@ -482,14 +482,14 @@ the following categories:"
 project_cards:
   - *tuf
   - *uptane
-  - *seattle
-  - *sensibility
-  - *pph
   - *in-toto
   - *atoms
   - *cachecash
   - *lind
   - *crashsimulator
+  - *pph
+  - *seattle
+  - *sensibility
   - *blindspots
   - *netcheck
   - *uppir
