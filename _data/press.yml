@@ -4,6 +4,22 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Airbiquity with Uptane"
+    link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
+    anchor: accairbiqUptane
+    type: article
+    project: *uptane
+    source: "Auto Connected Car News"
+    date: "May 20, 2018"
+
+  - title: "Securing the Container Image Supply Chain"
+    link: "https://lwn.net/Articles/754443/"
+    anchor: LWNKubeCon
+    type: article
+    project: *in-toto
+    source: "LWN.net"
+    date: "May 17, 2018"
+
   - title: "Exploring Container Security: Digging Into Grafeas Container Image Metadata"
     link: "https://cloudplatform.googleblog.com/2018/04/exploring-container-security-digging-into-Grafeas-container-image-metadata.html"
     anchor: Grafeasintoto
