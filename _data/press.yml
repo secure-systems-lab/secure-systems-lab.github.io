@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Tandon Grad Student Wins Awards for His Computer Science Research"
+    link: "https://engineering.nyu.edu/news/tandon-grad-student-wins-awards-his-computer-science-research"
+    anchor: TandonNewsDanAward
+    type: article
+    project: *atoms
+    source: "Engineering.NYU News"
+    date: "June 11, 2018"
+
   - title: "Airbiquity with Uptane"
     link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
     anchor: accairbiqUptane
