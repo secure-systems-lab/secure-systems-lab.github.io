@@ -198,7 +198,8 @@ malfunctioning programs."
 background on our theory, studies, and analysis for this work.
 We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">study materials and anonymized data</a>
 openly available so that other researchers can replicate, validate, and
-build on our findings. Our results have been used to fix bugs in the
+build on our findings. Our results have been used to fix bugs in a variety
+of software projects, including the
 <a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
       people:
         - *dan_gopstein
@@ -320,7 +321,7 @@ with millions of computers."
       anchor: "seattle"
       image: "img/projects/seattle_color_map.jpg"
       site: "https://seattle.poly.edu/html/"
-      status: *adopted
+      status: *retired
       description: "Cloud computing can provide tremendous benefits due to its
 ability to offload computation on demand. However, cloud resources are often
 located far from users.  The Seattle project enables users to securely share
@@ -347,7 +348,7 @@ some computing power on their device for research purposes."
       name: "Sensibility Testbed"
       anchor: "sensibility"
       image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
-      status: *starting
+      status: *retired
       site: "https://sensibilitytestbed.com/"
       description: "Given the close proximity of smartphones to users,
 researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
@@ -488,9 +489,9 @@ project_cards:
   - *lind
   - *crashsimulator
   - *pph
+  - *blindspots
   - *seattle
   - *sensibility
-  - *blindspots
   - *netcheck
   - *uppir
   - *vsn
