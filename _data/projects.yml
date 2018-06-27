@@ -78,7 +78,8 @@ projects</a>, including <a href=\"https://www.vmware.com/\">VMware</a>,
      <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
     TUF, and Docker's popular implementation of TUF, are now
 <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a>
-    projects as part of the Cloud Native Computing Foundation."
+    projects as part of the Cloud Native Computing Foundation.  
+<a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
       people:
         - *vlad_diaz
         - *sebastien_awwad
