@@ -62,6 +62,9 @@ whether it passed or failed verification—would be forwarded to the Grafeas ser
 where it would instruct the “Admission Controller” as to whether or not it is safe to
 admit to the cloud.
 
+<img align="center" src="/img/blog/KubeCon_72.jpg" style="margin: 0px 20px"/>
+
+
 The value of such a merger would greatly reduce the attack surface for malicious players.
 An article about the conference, written by Antoine Beaupré for LWN.net, quotes Pühringer as
 saying that “Grafeas provides a well-defined API” that “allows the user access to where
