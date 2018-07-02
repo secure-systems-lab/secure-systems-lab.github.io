@@ -4,6 +4,16 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Security for Kubernetes"
+    link: "https://thenewstack.io/security-for-kubernetes/"
+    anchor: KubeConNewStack
+    type: video
+    project: *tuf
+    source: "The New Stack"
+    date: "June 26, 2018"
+
+
+
   - title: "Tandon Grad Student Wins Awards for His Computer Science Research"
     link: "https://engineering.nyu.edu/news/tandon-grad-student-wins-awards-his-computer-science-research"
     anchor: TandonNewsDanAward
@@ -11,6 +21,8 @@ presses:
     project: *atoms
     source: "Engineering.NYU News"
     date: "June 11, 2018"
+
+
 
   - title: "Airbiquity with Uptane"
     link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
@@ -43,6 +55,14 @@ presses:
     project: *tuf
     source: "LWN.net"
     date: "April 11, 2018"
+
+  - title: "SciTech Now, Episode 420 (7:50-12:16)"
+    link: "https://www.scitechnow.org/videos/scitech-now-episode-420/"
+    anchor: PBSscitech
+    type: video
+    project: *uptane
+    source: "PBS/WLIW 21"
+    date: "March 26, 2018"
 
   - title: "Lock-in-Pop: Securing Privileged Operating System Kernels by Keeping on the Beaten Path"
     link: "https://lobste.rs/s/beeojb/lock_pop_securing_privileged_operating"
@@ -229,7 +249,15 @@ Popular Science Magazine's List of Top 100 Technologies of the Year"
     type: article-foreign
     project: *uptane
     source: "FinanzNachrichten.de"
-    date: "October 17, 2017-01"
+    date: "October 17, 2017"
+
+  - title: "The Quick Guide to Simple and Secure Automatic Updates"
+    link: "https://paragonie.com/blog/2017/08/quick-guide-simple-and-secure-automatic-updates"
+    anchor: paratuf
+    type: article
+    project: *tuf
+    source: "Paragon Initiatives Enterprises Blog"
+    date: "August 30, 2017"
 
   - title: "Software Protecting Future Cars Starting to Make Inroads"
     link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"

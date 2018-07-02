@@ -26,7 +26,10 @@ people:
         - name: "[more]"
           anchor: ""
       publications:
+        - name: "SOUPS 2018"
+          link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
         - name: "AsiaCCS"
+          link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
         - name: "MSR 2018"
           link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
         - name: "SAS 2018a"
@@ -114,19 +117,6 @@ people:
           link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
         - name: "SESS 2005"
           link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
-
-  - lolaly_luo: &lolaly_luo
-      name: "Shuyuan Luo"
-      link: "people#lolaly_luo"
-      internal: true
-      anchor: lolaly_luo
-      role: "Undergraduate Student"
-      since:
-      photo: "img/people/lolaly_luo.jpg"
-      interests: "Cybersecurity"
-      projects:
-        - *pph
-      deployments: "<a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">Pluggable Authentication Module (PAM)</a> for PolyPasswordHasher"
 
   - vlad_diaz: &vlad_diaz
       name: "Vladimir Diaz"
@@ -294,6 +284,7 @@ people:
           - *in-toto
       publications:
           - name: "AsiaCCS"
+            link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
           - name: "NSDI 2016"
             link: "/papers/kuppusamy_nsdi_16.pdf"
           - name: "USENIX Security 2016"
@@ -356,6 +347,8 @@ people:
         - *blindspots
         - name: "editorial support for all projects"
       publications:
+            - name: "SOUPS 2018"
+              link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
             - name: "IEEE VT 2018"
               link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
             - name: "FSE 2017"
@@ -465,17 +458,6 @@ people:
           link: "http://dl.acm.org/citation.cfm?id=2538931"
       deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
 
-  - chris_lo: &chris_lo
-      name: "Christopher Lo"
-      link: "people#chris_lo"
-      internal: true
-      role: "High School Student"
-      since: 2017
-      photo: "img/people/chris_lo.jpg"
-      interests: "Cybersecurity"
-      projects:
-        - *pph
-
   - henry_zhou: &henry_zhou
       name: "Henry Zhou"
       link: "people#henry_zhou"
@@ -502,29 +484,6 @@ people:
       projects:
         - *uptane
 
-  - aakar_jinwala: &aakar_jinwala
-      name: "Aakar Deveshkumar Jinwala"
-      link: "people#aakar_jinwala"
-      internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/aakar_jinwala.jpg"
-      interests: "Network security, Docker's resource isolation capability"
-      projects:
-        - *seattle
-        - name: "comparing Docker's resource isolation capabilities to Seattle"
-
-  - brandon_zhu: &brandon_zhu
-      name: "Brandon Zhu"
-      link: "people#brandon_zhu"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/brandon_zhu.jpg"
-      interests: "Cybersecurity"
-      projects:
-        - *pph
-
   - shikher_verma: &shikher_verma
       name: "Shikher Verma"
       link: "people#shikher_verma"
@@ -536,56 +495,30 @@ people:
       projects:
         - *in-toto
 
-  - aakar_jinwala: &aakar_jinwala
-      name: "Aakar Deveshkumar Jinwala"
-      link: "people#aakar_jinwala"
+  - marina_moore: &marina_moore
+      name: "Marina Moore"
+      link: "people#marina_moore"
       internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/aakar_jinwala.jpg"
-      interests: "Network security, Docker's resource isolation capability"
+      role: "Ph.D. Student"
+      since: 2018
+      photo: "img/people/marina_moore.jpg"
+      interests: "Systems security, privacy"
       projects:
-        - *seattle
-        - name: "comparing Docker's resource isolation capabilities to Seattle"
+        - tbd
 
-  - ankit_chandra: &ankit_chandra
-      name: "Ankit Chandra"
-      link: "people#ankit_chandra"
+  - joey_pabalinas: &joey_pabalinas
+      name: "Joey Pabalinas"
+      link: "people#joey_pabalinas"
+      site: "https://alyp.tk/"
       internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/ankit_chandra.jpg"
-      interests: "System security, cloud security, network security"
+      role: "Developer"
+      since: 2018
+      photo: "img/people/joey_pabalinas.jpg"
+      interests: "Linux kernel development"
       projects:
-        - *lind
-      publications:
-        - name: "ICDCIT 2013"
-          link: "http://www.ijcaonline.org/proceedings/icdcit/number1/10242-1009"
-  - archit_goyal: &archit_goyal
-      name: "Archit Goyal"
-      link: "people#archit_goyal"
-      internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/archit_goyal.jpg"
-      interests: "Security and privacy, cryptography"
-      projects:
-        - *cachecash
-
-  - abhishek_singh: &abhishek_singh
-      name: "Abhishek Pratap Singh"
-      link: "people#abhishek_singh"
-      internal: true
-      role: "Master's Student"
-      since: 2017
-      photo: "img/people/abhishek_singh.jpg"
-      interests: "Cybersecurity, open source, software development"
-      projects:
-        - name: "securesystemslib"
-      deployments: While working at Red Hat, contributed to the
-       <a href="https://kubernetes.io">Kubernetes</a> container management system
-       and is still a maintainer of the "<a href=\"kompose.io\">Kompose</a> conversion tool.
-
+            - *lind
+            - *crashsimulator
+      deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
 people_cards:
   - type: Faculty
@@ -600,6 +533,7 @@ people_cards:
       - *vlad_diaz
       - *sebastien_awwad
       - *lukas_puhringer
+      - *joey_pabalinas
       - *lois_delong
   - type: "PhD. Students"
     anchor: phd
@@ -610,20 +544,14 @@ people_cards:
       - *ghada_almashaqbeh
       - *preston_moore
       - *devon_powell
+      - *marina_moore
 
   - type: "Other Students"
     anchor: otherstudents
     people:
       - *yu_hu
-      - *aakar_jinwala
-      - *abhishek_singh
-      - *archit_goyal
-      - *ankit_chandra
-      - *lolaly_luo
       - *henry_zhou
-      - *chris_lo
       - *shikhar_sakhuja
-      - *brandon_zhu
       - *shikher_verma
 
   - type: Alumni
