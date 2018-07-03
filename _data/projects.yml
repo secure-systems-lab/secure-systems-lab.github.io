@@ -266,7 +266,6 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
       people:
         - *yiwen_li
         - *justin_cappos
-        - *ankit_chandra
         - name: "Brendan Dolan-Gavitt"
           link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
       tags:
@@ -310,7 +309,6 @@ with millions of computers."
       including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
       people:
         - *santiago_torres
-        - *lolaly_luo
         - *justin_cappos
       tags:
         - *cryptography
