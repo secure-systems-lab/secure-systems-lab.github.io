@@ -4,6 +4,15 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "How the Update Framework Improves Software Distribution Security"
+    link: "http://www.eweek.com/security/how-the-update-framework-improves-software-distribution-security"
+    anchor: EweekTufVid
+    type: video
+    project: *tuf
+    source: "eWeek"
+    date: "July 13, 2018"
+
+
   - title: "Security for Kubernetes"
     link: "https://thenewstack.io/security-for-kubernetes/"
     anchor: KubeConNewStack
