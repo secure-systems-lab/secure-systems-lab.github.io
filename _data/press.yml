@@ -4,6 +4,22 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Automotive Cybersecurity: Open Source OTA, Crypto and Market"
+    link: "http://www.autoconnectedcar.com/2018/08/automotive-cybersecurity-open-source-ota-crypto-market/"
+    anchor: ConnectedCarAug
+    type: article
+    project: *uptane
+    source: "Auto Connected Car News"
+    date: "August 18, 2018"
+    
+  - title: "NYU Tandon Joins Top Open-Source Initiative for Automotive Software and Cybersecurity"
+    link: "https://markets.businessinsider.com/news/stocks/nyu-tandon-joins-top-open-source-initiative-for-automotive-software-and-cybersecurity-1027465410"
+    anchor: BusinessInsideUptane
+    type: article
+    project: *uptane
+    source: "Business Insider"
+    date: "August 16, 2018"
+
   - title: "How the Update Framework Improves Software Distribution Security"
     link: "http://www.eweek.com/security/how-the-update-framework-improves-software-distribution-security"
     anchor: EweekTufVid
@@ -11,7 +27,6 @@ presses:
     project: *tuf
     source: "eWeek"
     date: "July 13, 2018"
-
 
   - title: "Security for Kubernetes"
     link: "https://thenewstack.io/security-for-kubernetes/"
