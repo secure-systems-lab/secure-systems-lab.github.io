@@ -435,8 +435,10 @@ performance of such devices in head-to-head comparisons."
     project: *uptane
     booktitle:
     year: "2017"
-    link: "https://goo.gl/LmFODJ"
-    abstract: "This document presents the design of the Uptane secure software update protocol. This includes the high level design, rationale, and a rough security analysis."
+    link: "https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms"
+    abstract: "This document presents the design of the Uptane secure software
+    update protocol. This includes the high level design, rationale, and a
+    rough security analysis."
 
   - &uptane_implementation_17
     anchor: uptane_implementation_17
@@ -446,8 +448,14 @@ performance of such devices in head-to-head comparisons."
     project: *uptane
     booktitle:
     year: "2017"
-    link: "https://goo.gl/tNxCoj"
-    abstract: "This is the first of two documents designed to facilitate the design, implementation, and deployment of Uptane, a secure software update framework for automobiles. This document, the Implementation Specification, is intended to be read by the programmers of an OEM who wish to implement Uptane. Such an implementation will help ECUs on a vehicle to download, distribute, and verify software updates from an OEM repository in a compromise-resilient manner."
+    link: "https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit#heading=h.l6lkvdudrui2"
+    abstract: "This is the first of two documents designed to facilitate the
+    design, implementation, and deployment of Uptane, a secure software update
+    framework for automobiles. This document, the Implementation Specification,
+    is intended to be read by the programmers of an OEM who wish to implement
+    Uptane. Such an implementation will help ECUs on a vehicle to download,
+    distribute, and verify software updates from an OEM repository in a
+    compromise-resilient manner."
 
   - &uptane_deployment_17
     anchor: uptane_deployment_17
@@ -457,7 +465,7 @@ performance of such devices in head-to-head comparisons."
     project: *uptane
     booktitle:
     year: "2017"
-    link: "https://goo.gl/jzDDsf"
+    link: "https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit"
     abstract: "This instruction manual guides OEMs and suppliers on how to deploy and use Uptane in production.  Unlike the Implementation Specification, which describes the way to build an Uptane-compliant client, or the design document, which explains the rationale behind Uptane, the high level goal of this document is to explain how to setup, operate, integrate, and adapt Uptane to work in a variety of environments."
 
   - &kuppusamy_escar_16
