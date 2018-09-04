@@ -320,18 +320,18 @@ people:
         speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework
         based on LLVM used by Airbus and other companies."
 
-  - devon_powell: &devon_powell
-      name: "Devon Powell"
-      link: "people#devon_powell"
-      internal: true
-      anchor: devon_powell
-      role: "Ph.D. Student (co-advised with Phyllis Frankl)"
-      since: "2016"
-      photo: "img/people/devon_powell.jpg"
-      site: "https://github.com/D-Pow"
-      interests: "Computer security, software engineering"
-      projects:
-        - *atoms
+#  - devon_powell: &devon_powell
+#      name: "Devon Powell"
+#      link: "people#devon_powell"
+#      internal: true
+#      anchor: devon_powell
+#      role: "Ph.D. Student (co-advised with Phyllis Frankl)"
+#      since: "2016"
+#      photo: "img/people/devon_powell.jpg"
+#      site: "https://github.com/D-Pow"
+#      interests: "Computer security, software engineering"
+#      projects:
+#        - *atoms
 
   - lois_delong: &lois_delong
       name: "Lois Anne DeLong"
@@ -530,7 +530,6 @@ people_cards:
   - type: Staff
     anchor: staff
     people:
-      - *vlad_diaz
       - *sebastien_awwad
       - *lukas_puhringer
       - *joey_pabalinas
@@ -543,7 +542,6 @@ people_cards:
       - *dan_gopstein
       - *ghada_almashaqbeh
       - *preston_moore
-      - *devon_powell
       - *marina_moore
 
   - type: "Other Students"
@@ -563,3 +561,4 @@ people_cards:
       - *luqin_wang
       - *sai_peddinti
       - *artiom_baloian
+      - *vlad_diaz
