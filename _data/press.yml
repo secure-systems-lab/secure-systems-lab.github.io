@@ -4,6 +4,14 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "NYU Tandon Trains Students on Blockchain and Joins Automotive Cybersecurity Software Initiative"
+    link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-blockchain-and-joins-automotive-cybersecurity-software-initiative/"
+    anchor: BCUptanelinux
+    type: article
+    project: *uptane
+    source: "Bitcoin Exchange Guide"
+    date: "August 28, 2018"
+
   - title: "Automotive Cybersecurity: Open Source OTA, Crypto and Market"
     link: "http://www.autoconnectedcar.com/2018/08/automotive-cybersecurity-open-source-ota-crypto-market/"
     anchor: ConnectedCarAug
@@ -11,7 +19,7 @@ presses:
     project: *uptane
     source: "Auto Connected Car News"
     date: "August 18, 2018"
-    
+
   - title: "NYU Tandon Joins Top Open-Source Initiative for Automotive Software and Cybersecurity"
     link: "https://markets.businessinsider.com/news/stocks/nyu-tandon-joins-top-open-source-initiative-for-automotive-software-and-cybersecurity-1027465410"
     anchor: BusinessInsideUptane
