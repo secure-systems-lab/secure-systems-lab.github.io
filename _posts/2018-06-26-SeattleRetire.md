@@ -19,7 +19,7 @@ environment.  This started a project that featured code contributions from
 over 100 participants, was used by over four thousand developers, and was
 installed on tens of thousands of devices.  
 
-Seattle provided students, developers, and educators a chance to experience
+Seattle provided students, developers, and educators a chance to 
 run code on different computers, phones, and servers around the world.
 This was often used to relay traffic from a foreign location, giving
 students the opportunity to explore how the Internet's performance varies
