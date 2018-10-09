@@ -7,5 +7,5 @@ sass:
 avatar: /img/ssl_lock.png
 disqus-shortname: secure-systems-lab
 exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
-gems:
+plugins:
   - 'jekyll-feed'
