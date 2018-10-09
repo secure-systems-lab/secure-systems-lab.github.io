@@ -1,3 +1,5 @@
+require 'tmpdir'
+
 # Treat every _data file as liquid.
 # This allows us to include YAML files in other YAML files.
 module Jekyll
