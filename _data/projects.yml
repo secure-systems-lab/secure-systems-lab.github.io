@@ -204,7 +204,6 @@ of software projects, including the
 <a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
       people:
         - *dan_gopstein
-        - *devon_powell
         - *henry_zhou
         - *lois_delong
         - name: Phyllis Frankl
