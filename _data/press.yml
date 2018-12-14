@@ -4,6 +4,15 @@ intro: "Selected mentions about our research in the press"
 
 presses:
 
+  - title: "Airbiquity Bolsters OTAmatic Security and Data Analytic Features in Latest
+  Over-the-Air (OTA) Software and Data Management Offering for Automotive"
+    link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-blockchain-and-joins-automotive-cybersecurity-software-initiative/"
+    anchor: AirUptane
+    type: article
+    project: *uptane
+    source: "Airbiquity.com"
+    date: "December 14, 2018"
+
   - title: "NYU Tandon Trains Students on Blockchain and Joins Automotive Cybersecurity Software Initiative"
     link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-blockchain-and-joins-automotive-cybersecurity-software-initiative/"
     anchor: BCUptanelinux

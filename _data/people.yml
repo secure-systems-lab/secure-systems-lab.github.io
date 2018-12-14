@@ -343,6 +343,7 @@ people:
       photo: "img/people/lois_delong.jpg"
       interests: "Experimental design involving human subjects; links between natural languages and programming languages"
       projects:
+        - *uptane
         - *atoms
         - *blindspots
         - name: "editorial support for all projects"
@@ -504,7 +505,8 @@ people:
       photo: "img/people/marina_moore.jpg"
       interests: "Systems security, privacy"
       projects:
-        - tbd
+        - *uptane
+        - *tuf
 
   - joey_pabalinas: &joey_pabalinas
       name: "Joey Pabalinas"
