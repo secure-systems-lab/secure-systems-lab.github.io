@@ -1,3 +1,16 @@
+---
+
+layout: article
+title: "in-toto at the Reproducible Builds Summit-Paris 2018"
+subnav: blog
+comments: true
+tagline: 'Last December, the fourth annual Reproducible Builds summit drew an international cross-section of computer professionals to Paris. Though ...'
+author: '<a href="/people#lukas_puhringer">Lukas Pühringer</a>'
+categories:
+  - '<a href="/projects#in-toto">in-toto</a>'
+
+---
+
 Last December, the fourth annual [Reproducible Builds](https://reproducible-builds.org/events/paris2018/) summit drew an international cross-section of computer professionals to Paris. Though most of the attendees were involved in some way with Linux distributions and open source software projects, their backgrounds and affiliations were quite diverse. Yet, they all shared the common perception that software builds should be “reproducible,” meaning, as defined by [reproducible-builds.org](https://reproducible-builds.org/events/paris2018/), that any party should be able to generate “bit-by-bit identical copies of all specified artifacts, given the same source code, build environment and build instructions.”
 
 Reproducibility is a quality which has grown very desirable in recent days because by establishing a consensus on what a "correct" build entails, it  also allows users to identify "incorrect" results that could indicate a system compromise. For attackers, a build system is a particularly attractive target, because, as with other steps in the software supply chain, they can impact millions of users with just one successful compromise. As advocates for supply chain security, the [in-toto](https://in-toto.github.io/) team was happy to once more be given the opportunity to share its visions about software security at this year’s summit.  
