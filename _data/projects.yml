@@ -462,7 +462,6 @@ Please read our blog to learn about our experiences."
 Please read our blog to learn about our experiences."
       people:
         - *sai_peddinti
-        - *trishank_kuppusamy
         - name: "Keith Ross"
           link: "http://engineering.nyu.edu/people/keith-w-ross"
         - name: "Nasir Memon"
