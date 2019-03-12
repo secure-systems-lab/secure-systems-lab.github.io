@@ -474,28 +474,6 @@ people:
               - name: "MSR 2018"
                 link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
 
-  - shikhar_sakhuja: &shikhar_sakhuja
-      name: "Shikhar Sakhuja"
-      link: "people#shikhar_sakhuja"
-      internal: true
-      role: "Undergraduate Student"
-      since: 2017
-      photo: "img/people/shikhar_sakhuja.jpg"
-      interests: "Exploring the relationship between data science and cybersecurity"
-      projects:
-        - *uptane
-
-  - shikher_verma: &shikher_verma
-      name: "Shikher Verma"
-      link: "people#shikher_verma"
-      internal: true
-      role: "Intern"
-      since: 2017
-      photo: "img/people/shikher_verma.jpg"
-      interests: "Cybersecurity"
-      projects:
-        - *in-toto
-
   - marina_moore: &marina_moore
       name: "Marina Moore"
       link: "people#marina_moore"
@@ -515,10 +493,24 @@ people:
       internal: true
       role: "Developer"
       since: 2018
-      photo: "img/people/joey_pabalinas.jpg"
+      photo: "img/people/joey_pabalinas"
       interests: "Linux kernel development"
       projects:
             - *lind
+            - *crashsimulator
+      deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
+
+  - aditya_sirish: &aditya_sirish
+      name: "Aditya Sirish"
+      link: "people#aditya_sirish"
+      site:
+      internal: true
+      role: "Master's student"
+      since: 2019
+      photo: "img/people/aditya_sirish.jpg"
+      interests: "Internet privacy, systems security, machine learning"
+      projects:
+            - *in-toto
             - *crashsimulator
       deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
@@ -527,7 +519,6 @@ people_cards:
     anchor: faculty
     people:
       - *justin_cappos
-      - *albert_rafetseder
 
   - type: Staff
     anchor: staff
@@ -536,6 +527,7 @@ people_cards:
       - *lukas_puhringer
       - *joey_pabalinas
       - *lois_delong
+
   - type: "PhD. Students"
     anchor: phd
     people:
@@ -549,10 +541,8 @@ people_cards:
   - type: "Other Students"
     anchor: otherstudents
     people:
-      - *yu_hu
+      - *aditya_sirish
       - *henry_zhou
-      - *shikhar_sakhuja
-      - *shikher_verma
 
   - type: Alumni
     anchor: alumni
@@ -564,3 +554,4 @@ people_cards:
       - *sai_peddinti
       - *artiom_baloian
       - *vlad_diaz
+      - *albert_rafetseder
