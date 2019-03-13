@@ -41,5 +41,5 @@ associate member of both AGL and its parent organization, the Linux Foundation.
 In announcing the new affiliation, a [press release](https://engineering.nyu.edu/news/nyu-tandon-joins-top-open-source-initiative-automotive-software-and-cybersecurity) from NYU Tandon describes AGL as, “on track to be the leading shared software platform across the industry for in-vehicle applications including infotainment,
 instrument cluster, heads-up-display (HUD), telematics, autonomous driving, safety, and advanced driver assistance.”
 
-The standards document is available for review by any interested party, either through the 
-[GitHub repository](https://github.com/uptane/uptane-standard/blob/master/uptanestandard.md) or as an [html](https://uptane.github.io/uptane-standard/uptane-standard.html) doument.
+The Standards document is available for review by any interested party, either through the 
+[GitHub repository](https://github.com/uptane/uptane-standard) or as an [html](https://uptane.github.io/uptane-standard/uptane-standard.html) document.
