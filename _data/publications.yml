@@ -8,6 +8,19 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &almashaqbeh_capnet_CNS_19
+    anchor: &almashaqbeh_capnet_CNS_19
+    title: "CAPnet: A Defense Against Cache Accounting Attacks on Content Distribution Networks"
+    authors:
+      - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
+    projects:
+      - *CacheCash
+    booktitle: "to be presented at the IEEE Conference on Communications and Network Security (CNS 2019)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
 
   - &oliveira_blindspots_SOUPS_18
     anchor: oliveira_blindspots_SOUPS_18
@@ -63,8 +76,25 @@ of security and functionality teams)."
     year: "2018"
     pages: ""
     publisher: "IEEE"
-    link: ""
-    abstract: ""
+    link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
+    abstract: "Network testbeds are essential research tools that have been
+responsible for valuable network measurements and major advances in distributed
+systems research. However, no single testbed can satisfy the requirements of
+every research project,prompting continual efforts to develop new testbeds.
+The common practice is to re-implement functionality anew for each testbed.
+This work introduces a set of ready-to-use software components and interfaces
+called Tsumiki to help researchers to rapidly prototype custom networked testbeds
+without substantial effort. We derive Tsumiki’s design using a set of component
+and interface design principles, and demonstrate that Tsumiki can be used to
+ implement new, diverse, and useful testbeds. We detail a few such testbeds: a
+testbed composed of Android devices, a testbed that uses Docker for sandboxing,
+and a testbed that shares computation and storage resources among Facebook friends.
+A user study demonstrated that students with no prior experience with networked
+testbeds were able to use Tsumiki to create a testbed with new functionality and
+run an experiment on this testbed in under an hour.
+Furthermore, Tsumiki has been used in production in multiple testbeds,
+resulting in installations on tens of thousands of devices and
+use by thousands of researchers."
 
 
   - &afzali_git_asiaccs_18
@@ -1517,6 +1547,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *almashaqbeh_capnet_CNS_19
       - *oliveira_blindspots_SOUPS_18
       - *afzali_git_asiaccs_18
       - *gopstein_atomswild_msr_18
@@ -1551,6 +1582,7 @@ publication_cards:
   - type: Workshop Papers
     anchor: workshop
     publications:
+      - *almashaqbeh_ABC_cryblock_19
       - *zhuang_sensibility_HotMobile_18
       - *cappos_nspw_2014
       - *zhuang_seattle_gree_13

@@ -79,6 +79,7 @@ people:
         - *sensibility
       publications:
         - name: "TPDS 2018"
+          link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
         - name: "SAS 2018"
           link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
@@ -242,6 +243,8 @@ people:
       projects:
         - *cachecash
       publications:
+        - name: "IEEE Communications and Network Security 2019"
+        - name: "IEEE Workshop on Cryptocurrencies and Blockchains for Distributed Systems 2019"
         - name: "ACM Transactions on Privacy and Security 2018"
           link: "https://dl.acm.org/citation.cfm?id=3154600"
         - name: "BMC Medical Informatics and Decision-Making 2015"
@@ -356,19 +359,6 @@ people:
               link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
             - name: ";login 2017"
               link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
-  - yu_hu: &yu_hu
-      name: "Yu Hu"
-      link: "people#yu_hu"
-      internal: true
-      role: "Ph.D. Student (advised by Brendan Dolan-Gavitt)"
-      since: "2016"
-      photo: "img/people/yu_hu.jpg"
-      interests: "Side channel attacks, symbolic execution, mobile sensor application"
-      projects:
-        - *sensibility
-      publications:
-            - name: "HotMobile 2018"
-              link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
 
   - sai_peddinti: &sai_peddinti
       name: Sai Teja Peddinti
@@ -441,6 +431,7 @@ people:
         - *atoms
       publications:
         - name: "TPDS 2018"
+          link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
         - name: "SAS 2018"
           link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
         - name: "HotMobile 2018"
