@@ -503,7 +503,6 @@ people:
       projects:
             - *in-toto
             - *crashsimulator
-      deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
 people_cards:
   - type: Faculty
