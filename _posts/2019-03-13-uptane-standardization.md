@@ -15,7 +15,8 @@ technology. It implies that a sufficient level of adoption has occurred to warra
 
 The Uptane secure software update strategy has now reached this level.  At the
 end of 2018, the Uptane Alliance was formally launched as the newest member of
-IEEE’s Industry Standards and Technology Organization [(ISTO)](https://ieee-isto.org/press-releases/isto-uptane-2018/).  The nonprofit Alliance, which was formally voted
+IEEE’s [Industry Standards and Technology Organization](https://ieee-isto.org/press-releases/isto-uptane-2018/)
+(ISTO). The nonprofit Alliance, which was formally voted
 into existence on September 4, 2018, will take on the task of setting the future
 direction of the framework’s research, development, and deployment.
 As described on the [Uptane web site](https://uptane.github.io/), the group will
@@ -26,11 +27,12 @@ The standardization initiative began in the late summer months of 2018 and, as
 of year’s end, had produced a complete draft, which offers guidance on the
 design and implementation of the Uptane framework. The document benefitted from
 the input of 30-plus individuals employed by original equipment manufacturers,
-suppliers, and relevant government agencies.
+suppliers, and relevant government agencies, who continue to provide needed reviews and modifications
 
 In the early months of 2019, the Uptane standards team began compiling best
 practices for the deployment of the software update framework. Different from
-the standards volume, the deployment strategies will be presented as suggestions, rather than as the mandatory steps one must take to be Uptane compliant.
+the standards volume, the deployment strategies will be presented as suggestions, rather than as 
+the mandatory steps one must take to be Uptane compliant.
 
 The launch of the Alliance is just one of many milestones achieved by Uptane
 over the past year. The technology’s integration into Automotive Grade Linux (AGL)
@@ -39,5 +41,5 @@ associate member of both AGL and its parent organization, the Linux Foundation.
 In announcing the new affiliation, a [press release](https://engineering.nyu.edu/news/nyu-tandon-joins-top-open-source-initiative-automotive-software-and-cybersecurity)from NYU Tandon describes AGL as, “on track to be the leading shared software platform across the industry for in-vehicle applications including infotainment,
 instrument cluster, heads-up-display (HUD), telematics, autonomous driving, safety, and advanced driver assistance.”
 
-While the standards document is still undergoing some clarifications and enhancements, it is available for review by any interested party, either through the 
+The standards document is available for review by any interested party, either through the 
 [GitHub repository](https://github.com/uptane/uptane-standard/blob/master/uptanestandard.md) or in [html(https://uptane.github.io/uptane-standard/uptane-standard.html).
