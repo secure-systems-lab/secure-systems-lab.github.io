@@ -235,7 +235,7 @@ people:
       name: "Ghada Almashaqbeh"
       link: "people#ghada_almashaqbeh"
       internal: true
-      role: "Ph.D. Student (co-advised with Allison Bishop Lewko and Tal Malkin)"
+      role: "Ph.D. Candidate (co-advised with Allison Bishop Lewko and Tal Malkin)"
       since: "2015"
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
@@ -243,14 +243,12 @@ people:
       projects:
         - *cachecash
       publications:
-        - name: "IEEE Communications and Network Security 2019"
-        - name: "IEEE Workshop on Cryptocurrencies and Blockchains for Distributed Systems 2019"
+        - name: "CNS 2019"
+        - name: "CryBlock 2019"
         - name: "ACM Transactions on Privacy and Security 2018"
           link: "https://dl.acm.org/citation.cfm?id=3154600"
         - name: "BMC Medical Informatics and Decision-Making 2015"
           link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4"
-        - name: "arXiv.org"
-          link: "https://arxiv.org/pdf/1509.01763v2.pdf"
 
   - yiwen_li: &yiwen_li
       name: "Yiwen Li"
@@ -286,6 +284,9 @@ people:
           - *pph
           - *in-toto
       publications:
+
+          - name: "IFIP SEC"
+            link: "/papers/vaidya_cvcs_IFIPsec_19"
           - name: "AsiaCCS"
             link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
           - name: "NSDI 2016"
@@ -487,8 +488,7 @@ people:
       photo: "img/people/joey_pabalinas"
       interests: "Linux kernel development"
       projects:
-            - *lind
-            - *crashsimulator
+      - *crashsimulator
       deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
   - aditya_sirish: &aditya_sirish
