@@ -85,8 +85,8 @@ TUF even has <a href=\"https://store.cncf.io/collections/tuf\">merch</a>" for sa
 adaptation for automobiles, New York University's Tandon School of Engineering was
 named an associate member of the Linux Foundation."
       people:
-        - *vlad_diaz
         - *sebastien_awwad
+        - *marina_moore
         - *trishank_kuppusamy
         - *marina_moore
         - *justin_cappos
@@ -125,11 +125,30 @@ under the auspices of IEEE/ISTO to oversee standardization of the technology's d
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
+<<<<<<< HEAD
         - *marina_moore
         - *lois_delong
         - name: André Weimerskirch (Uptane Alliance Board)
         - name: Ira McDonald (Uptane Alliance Board)
         - *justin_cappos (Uptane Alliance Board)
+=======
+        - *vlad_diaz
+        - *marina_moore
+        - *lois_delong
+        - name: Damon McCoy
+          link: "http://engineering.nyu.edu/people/damon-mccoy"
+        - name: Russ Bielawski (UMTRI)
+          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
+        - name: Cameron Mott (SWRI)
+          link:
+        - name: John Liming (SWRI)
+          link:
+        - name: Sam Lauzon (UMTRI)
+          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
+        - name: André Weimerskirch (UMTRI)
+          link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
+        - *justin_cappos
+>>>>>>> master
       tags:
         - *software_updates
         - *security
@@ -279,6 +298,8 @@ publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\
         - *justin_cappos
         - name: "Phyllis Frankl"
           link: "http://engineering.nyu.edu/people/phyllis-frankl"
+        - name: "Thomas Wies"
+          link: "https://cs.nyu.edu/wies/"
       tags:
         - *software_engineering
         - *testing_tools
