@@ -8,6 +8,32 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &vaidya_cvcs_IFIPsec_19
+    anchor: &vaidya_cvcs_IFIPsec_19
+    title: "Commit Signatures for Centralized Version Control Systems"
+    authors:
+      - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
+    projects:
+      - 
+    booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy 
+    Protection (IFIP SEC '19)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: "papers/vaidya_cvc_IFIPsec_19.pdf"
+    abstract: "Version Control Systems (VCS-es) play a major role in the software development life cycle, 
+    yet historically their security has been relatively underdeveloped compared to their importance. 
+    Recent history has shown that source code repositories represent appealing attack targets. Attacks that 
+    violate the integrity of repository data can impact negatively millions of users. Some VCS-es,
+    such as Git, employ com- mit signatures as a mechanism to provide developers with cryptographic
+    protections for the code they contribute to a repository. However, an entire class of other VCS-es,
+    including the well-known Apache Subversion (SVN), lacks such protections. We design the first commit
+    signing mechanism for centralized version control systems, which supports features such as working
+    with a subset of the repository and allowing clients to work on disjoint sets of files without
+    having to retrieve each other’s changes. We implement a prototype for the proposed commit signing
+    mechanism on top of the SVN codebase and show experimentally that it only incurs a modest overhead. 
+    With our solution in place, the VCS security model is substantially improved."
+
   - &almashaqbeh_capnet_CNS_19
     anchor: &almashaqbeh_capnet_CNS_19
     title: "CAPnet: A Defense Against Cache Accounting Attacks on Content Distribution Networks"
@@ -15,13 +41,26 @@ publications:
       - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
     projects:
       - *CacheCash
-    booktitle: "to be presented at the IEEE Conference on Communications and Network Security (CNS 2019)"
+    booktitle: "to be presented at the 7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
     year: ""
     pages: ""
     publisher: ""
     link: ""
     abstract: ""
-
+    
+  - &almashaqbeh_ABC_cryblock_19
+    anchor: &almashaqbeh_cryblock_19
+    title: "ABC: A Cryptocurrency-Focused Threat Modeling Framework"
+    authors:
+      - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
+    projects:
+      - *CacheCash
+    booktitle: "to be presented at the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
   - &oliveira_blindspots_SOUPS_18
     anchor: oliveira_blindspots_SOUPS_18
     title: "API Blindspots: Why Experienced Developers Write Vulnerable Code"
@@ -29,7 +68,7 @@ publications:
       - name: "D. Oliveira, T. Lin, M. Rahman, R. Akefirad, D. Ellis, E. Perez, R. Bobhate, L. DeLong, J. Cappos, Y. Brun, and N. Ebner"
     projects:
       - *blindspots
-    booktitle: "to be presented at the Fourteenth Symposium on Usable Privacy and Security (SOUPS 2018)"
+    booktitle: "14th Symposium on Usable Privacy and Security (SOUPS '18)"
     year: ""
     pages: ""
     publisher: ""
@@ -103,7 +142,7 @@ use by thousands of researchers."
     authors:
       - name: "H. Afzali, S. Torres, R. Curtmola, and J.Cappos"
     project: ""
-    booktitle: "to be presented at the ACM Asia Conference on Computer & Communications Security (AsiaCCS '18)"
+    booktitle: "13th ACM Asia Conference on Computer & Communications Security (AsiaCCS '18)"
     year: ""
     pages: ""
     publisher: ""
@@ -1547,6 +1586,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *vaidya_cvc_IFIPsec_19
       - *almashaqbeh_capnet_CNS_19
       - *oliveira_blindspots_SOUPS_18
       - *afzali_git_asiaccs_18
