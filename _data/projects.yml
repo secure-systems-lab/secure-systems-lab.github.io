@@ -72,13 +72,11 @@ with Docker's popular implementation of the framework, now makes TUF the de fact
 security standard for the cloud."
 
       products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
-      production by a <a
-href=\"https://theupdateframework.github.io/adoptions.html\">variety of
+      production by a <a href=\"https://theupdateframework.github.io/adoptions.html\">variety of
 projects</a>, including <a href=\"https://www.vmware.com/\">VMware</a>,
 <a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
 <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>.
-It has been standardized for Python as documented in PEPs
-<a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
+It has been standardized for Python as documented in PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
 <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. And, through CNCF,
 TUF even has <a href=\"https://store.cncf.io/collections/tuf\">merch</a>" for sale.
       landmarks: "On the strength of its adoption of TUF and Uptane, the framework’s
@@ -100,28 +98,22 @@ named an associate member of the Linux Foundation."
       image: "img/projects/uptane_diagram.png"
       status: *adopted
       site: "https://uptane.github.io/"
-      description: "Uptane, which applies the basic TUF design to securing software
-      delivered over-the-air to the computerized units of automobiles, can thwart
-      attacks from malicious actors at the manufacturing level. It addresses
-      automotive specific vulnerabilities and limitations that existing
-      security systems could not handle, can counter a comprehensive array of
-      security attacks, and is resilient to partial compromises. Through
-      aktualizr, a C++ implementation from Advanced Telematic Systems (now HERE
-      Technologies), Uptane is integrated into
-      <a href=\"https://www.automotivelinux.org/\">Automotive Grade
-      Linux</a> an open source system currently used by many large OEMs, including
-      certain models of the <a href=\"https://www.electronicdesign.com/automotive/toyota-including-automotive-grade-linux-platform-2018-camry/">Toyota Camry</a>."
-      products: "In addition to actualizr, Uptane has been integrated into two
-      other over-the-air software update products from Here, OTA Plus and ATS Garage.
-      Uptane is also a key component of Airbiquity's OTAmatic program."
+      description: "Uptane, which applies the basic TUF design to securing software delivered over-the-air to the
+  computerized units of automobiles, can thwart attacks from malicious actors at the manufacturing level. It addresses
+  automotive specific vulnerabilities and limitations that existing security systems could not handle, can counter 
+  a comprehensive array of security attacks, and is resilient to partial compromises. Through aktualizr, 
+  a C++ implementation from Advanced Telematic Systems (now HERETechnologies), Uptane is integrated into
+   <a href=\"https://www.automotivelinux.org/\">Automotive Grade Linux</a> an open source system currently used by many 
+  large OEMs, including certain models of the <a href=\"https://www.electronicdesign.com/automotive/toyota-including-automotive-grade-linux-platform-2018-camry/">Toyota Camry</a>."
+      products: "In addition to actualizr, Uptane has been integrated into two other over-the-air software updateproducts 
+ from Here, OTA Plus and ATS Garage. Uptane is also a key component of Airbiquity's OTAmatic program."
       landmarks: "In 2017, Uptane was named one of the year’s top security innovations
-by <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Popular Science</a>
-Magazine. The following year, Airbiquity received a <a href=\"https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group\">BIG Award for Business</a>
+by <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Popular Science</a> Magazine. The 
+following year, Airbiquity received a <a href=\"https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group\">BIG Award for Business</a>
 in the 2017 New Product Category for its OTAmatic
 program. Also in 2018, The Uptane Alliance was officially formed as a nonprofit group
 under the auspices of IEEE/ISTO to oversee standardization of the technology's design and implementation."
-      in progress: "A working group has prepared an initial version of the
-      <a href=\"https://uptane.github.io/uptane-standard/uptane-standard.html\">Standards document</a>."
+      in progress: "A working group has prepared an initial version of the <a href=\"https://uptane.github.io/uptane-standard/uptane-standard.html\">Standards document</a>."
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
@@ -193,9 +185,14 @@ We make all of our <a href=\"http://atomsofconfusion.com/experiments.html\">stud
 openly available so that other researchers can replicate, validate, and
 build on our findings. Our results have been used to fix bugs in a variety
 of software projects, including the
-<a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
+<a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>".
       landmarks: Two of the three papers written about this project’s work have
-been honored with Distinguished Paper awards at <a href=\https://atomsofconfusion.com/papers/understanding-misunderstandings-fse-2017.pdf\"
+been honored with Distinguished Paper awards at
+<a href=\"https://atomsofconfusion.com/papers/understanding-misunderstandings-fse-2017.pdf\">ESEC/FSE 2017</a> and
+<a href="https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf\">MSR 2018</a>.
+      in progress: Current Atoms studies include the influence of natural languages on code perceptions, and
+increasing understanding of the nature of programmer confusion through both EEG studies and talk aloud interviews
+with developers.
       people:
         - *dan_gopstein
         - *henry_zhou
@@ -216,17 +213,12 @@ been honored with Distinguished Paper awards at <a href=\https://atomsofconfusio
       image: "img/projects/cachecash_diagram.png"
       site:
       status: *stealth
-      description: "Delivery of large chunks of content, such as video, accounts for a
-substantial percentage of all Internet traffic.  This content is usually
-served by provider networks that contract with Internet Service Providers.
-CacheCash provides a similar service in which interested
-users run caches, and are incentivized to participate by receiving
-a crypto-currency (Cachecoin) in exchange for serving content to other users.
-Both cryptographic and economic techniques demonstrate that CacheCash users are either forced or
-economically incentivized to honestly serve content. Our analysis
-shows that CacheCash scales to meet the workload of even the most popular
-services used today. By building CacheCash, we intend to change CDNs by
-more readily and pervasively including end-user served content."
+      description: "The emergence of distributed systems to process service requests for content, and the use of 
+      cryptocurrencies to pay for such services, have spawned a number of security issues. The CacheCash project 
+      presents a more secure design for such a system. In the process of developing this system, the project has
+      also spawned a number of new techniques and methods, from a threat model specifically designed for use with
+      cryptocurrencies, to a puzzle-based proof of delivery that makes cheating a more expensive option than honest
+      behavior."
       products: "We are in stealth mode! If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
@@ -247,13 +239,13 @@ publicly release, please send an email to <a href=\"mailto:cachecash@googlegroup
       status: *stealth
       site:
       description: "Despite the best efforts of developers most operating system
-kernels contain flaws, and strategies to defend against triggering them
-have fallen short. Lind is a new virtual machine design that defends
-against these bugs by locking all system calls into popular access paths.
-The design is based on the idea that popular paths—ones used every day to
-access basic system requests—are much less likely to contain
-vulnerabilities. This limited kernel access reduces the possibility of
-interaction with flawed code."
+kernels contain flaws. Strategies to defend against triggering kernel bugs have fallen
+short, and so have other metrics designed to tell designers how to avoid them. The Lind project has identified
+a reliable metric for building securer designs. It posits that the popular code paths—ones used every day 
+to access basic system requests—contain fewer bugs than less-frequently used paths. Operating on this principle,
+our research group has built a virtual machine called Lind that locks onto the popular paths and, by doing so,
+reduces the possibility of triggering flawed code. With the success of its initial application, the research 
+team is now working on applying the metric to securing containers."
       products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
       people:
@@ -271,7 +263,15 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
       image: "img/projects/crashsimulator_diagram.png"
       site:
       status: *stealth
-      description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
+      description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without 
+      the complications of “real-world” deployment. The tool is built on an easy-to-use method for detecting potential
+      flaws through anomalies identified in responses to application system calls. These responses to communications
+      within a particular environment can then be modified to simulate the presence of the anomalies, and replayed
+      so other applications can be tested against them. If any application fails to respond correctly, developers 
+      know to anticipate and design for potential problems within that environment. Thus, the tool can save
+      developers time and resource costs that would be incurred if tests were run in each individual 
+      environment--or as maintenance tasks after deployment. And, because the tool can store these anomalies,
+      developers can create libraries that can be used to test other applications as they are introduced."
       products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
       people:
