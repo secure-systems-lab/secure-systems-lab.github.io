@@ -40,7 +40,7 @@ publications:
     authors:
       - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
     projects:
-      - *CacheCash
+      - *cachecash
     booktitle: "to be presented at the 7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
     year: ""
     pages: ""
@@ -54,7 +54,7 @@ publications:
     authors:
       - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
     projects:
-      - *CacheCash
+      - *cachecash
     booktitle: "to be presented at the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
     year: ""
     pages: ""
