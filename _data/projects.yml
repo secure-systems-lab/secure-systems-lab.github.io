@@ -63,19 +63,21 @@ project metadata as frequently as every few minutes. This growing flow of update
 has created a large and potentially devastating new attack surface for malicious
 actors, as malware submitted through this process offers the opportunity to
 impact thousands of users at a time. The Update Framework (TUF) is a comprehensive,
-flexible approach to securing software updates, even in situations where the repository
+flexible framework to secure software updates, even in situations where the repository
 is compromised. Developers can integrate TUF into any software update system, or
 native programming language due to its concise, self-contained architecture and
-specification. It’s adoption in 2017 by the <a href=\"https://www.cncf.io\">Cloud Native Computing Foundation</a>
+application. It’s adoption in 2017 by the <a href=\"https://www.cncf.io\">Cloud Native Computing Foundation</a>
 of the <a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a> along
 with Docker's popular implementation of the framework, now makes TUF the de facto
 security standard for the cloud."
 
-      products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
-      production by a <a href=\"https://theupdateframework.github.io/adoptions.html\">variety of
-projects</a>, including <a href=\"https://www.vmware.com/\">VMware</a>,
-<a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
-<a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>.
+      products: "<a href=\"https://theupdateframework.com\">TUF</a> has been adopted by a growing number of
+companies, including <a href=\"https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_trustedcontent#registry_trustedcontent\">IBM Cloud Container Registry</a>, 
+<a href=\"https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust\">Microsoft Azure</a>, 
+<a href=\"https://www.vmware.com/\">VMware</a>, 
+<a href=\"https://www.airbiquity.com/news/press-releases/airbiquity-unveils-new-otamatictm-release-further-strengthening-over-air-ota-software-and-data-management-offering-automotive\">Airbiquity OTAmatic</a>,
+<a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>,
+<a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>. and <a href=\"https://www.here.com/products/automotive/ota-technology\">Here Technologies</a>.
 It has been standardized for Python as documented in PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
 <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. And, through CNCF,
 TUF even has <a href=\"https://store.cncf.io/collections/tuf\">merch</a>" for sale.
@@ -86,7 +88,6 @@ named an associate member of the Linux Foundation."
         - *sebastien_awwad
         - *marina_moore
         - *trishank_kuppusamy
-        - *marina_moore
         - *justin_cappos
       tags:
       - *software_updates
@@ -99,8 +100,8 @@ named an associate member of the Linux Foundation."
       status: *adopted
       site: "https://uptane.github.io/"
       description: "Uptane, which applies the basic TUF design to securing software delivered over-the-air to the
-  computerized units of automobiles, can thwart attacks from malicious actors at the manufacturing level. It addresses
-  automotive specific vulnerabilities and limitations that existing security systems could not handle, can counter 
+  computerized units of automobiles, by thwarting attacks from malicious actors delivered through update systems. It addresses
+  automotive specific vulnerabilities and limitations that existing update systems could not handle, can counter 
   a comprehensive array of security attacks, and is resilient to partial compromises. Through aktualizr, 
   a C++ implementation from Advanced Telematic Systems (now HERETechnologies), Uptane is integrated into
    <a href=\"https://www.automotivelinux.org/\">Automotive Grade Linux</a> an open source system currently used by many 
@@ -133,12 +134,14 @@ under the auspices of IEEE/ISTO to oversee standardization of the technology's d
       image: "img/projects/in-toto_diagram.png"
       status: *starting
       site: "https://in-toto.io"
-      description: "Even if developers are careful to secure each step in
-  their products' supply chain, there is little assurance about what happens
-  in-between these steps. The in-toto system holistically enforces the integrity
+      description: "From initial writing to final installation, most software products will be handled by a 
+     number of different parties that form a chain of multiple steps. Should an attacker be able to control any one
+  of these step in a software supply chain, it can alter the product for malicious intents that range from introducing
+  backdoors in the source code to including vulnerable libraries in the final product.
+  The in-toto system holistically enforces the integrity
   of a software supply chain by gathering and signing information about each
-  step in the process. As such, in-toto provides accountability about how software
-  is written, packaged and distributed...and by who. We welcome you to download
+  step in the process. As such, in-toto provides end-to-end security of software
+  products and ensures accountability from all involved parties. We welcome you to download
   the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software,
   or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a>
   and follow the directions to integrate in-toto into your software project!"
@@ -186,7 +189,7 @@ openly available so that other researchers can replicate, validate, and
 build on our findings. Our results have been used to fix bugs in a variety
 of software projects, including the
 <a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>".
-      landmarks: Two of the three papers written about this project’s work have
+      landmarks: Several of the papers written about this project’s work have
 been honored with Distinguished Paper awards at
 <a href=\"https://atomsofconfusion.com/papers/understanding-misunderstandings-fse-2017.pdf\">ESEC/FSE 2017</a> and
 <a href="https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf\">MSR 2018</a>.
@@ -213,12 +216,13 @@ with developers.
       image: "img/projects/cachecash_diagram.png"
       site:
       status: *stealth
-      description: "The emergence of distributed systems to process service requests for content, and the use of 
-      cryptocurrencies to pay for such services, have spawned a number of security issues. The CacheCash project 
-      presents a more secure design for such a system. In the process of developing this system, the project has
-      also spawned a number of new techniques and methods, from a threat model specifically designed for use with
-      cryptocurrencies, to a puzzle-based proof of delivery that makes cheating a more expensive option than honest
-      behavior."
+      description: "Delivery of large chunks of content, such as video, accounts for a substantial percentage of all 
+Internet traffic. This content is usually served by provider networks that contract with Internet Service Providers. 
+CacheCash provides a similar service in which interested users run caches, and are incentivized to participate by 
+receiving a crypto-currency (Cachecoin) in exchange for serving content to other users. Both cryptographic and economic
+techniques demonstrate that CacheCash users are either forced or economically incentivized to honestly serve content. 
+Our analysis shows that CacheCash scales to meet the workload of even the most popular services used today. 
+By building CacheCash, we intend to change CDNs by more readily and pervasively including end-user served content."
       products: "We are in stealth mode! If you want to be contacted when we
 publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
       people:
@@ -263,15 +267,16 @@ publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups
       image: "img/projects/crashsimulator_diagram.png"
       site:
       status: *stealth
-      description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without 
-      the complications of “real-world” deployment. The tool is built on an easy-to-use method for detecting potential
-      flaws through anomalies identified in responses to application system calls. These responses to communications
+      description: "CrashSimulator is a tool that can identify and replicate environmental conditions that can cause
+      applications to fail. The tool is built on the premise that potential
+      flaws can be identified in responses to application system calls. These responses to communications
       within a particular environment can then be modified to simulate the presence of the anomalies, and replayed
       so other applications can be tested against them. If any application fails to respond correctly, developers 
       know to anticipate and design for potential problems within that environment. Thus, the tool can save
       developers time and resource costs that would be incurred if tests were run in each individual 
       environment--or as maintenance tasks after deployment. And, because the tool can store these anomalies,
-      developers can create libraries that can be used to test other applications as they are introduced."
+      developers can create libraries that can be used to test other applications as they are introduced, developers do not
+      need to repeat the mistakes of others."
       products: "We are in stealth mode!  If you want to be contacted when we
 publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
       people:
@@ -316,13 +321,14 @@ with millions of computers."
       image: "img/projects/seattle_color_map.jpg"
       site: "https://seattle.poly.edu/html/"
       status: *retired
-      description: "Cloud computing can provide tremendous benefits due to its
-ability to offload computation on demand. However, cloud resources are often
-located far from users.  The Seattle project enables users to securely share
-(and acquire) computing resources from their desktop, laptop, or smartphone
-in the same manner as with cloud computing.  Seattle is used by educators,
-and for software development and research by thousands of people around the world."
-      products: "Seattle is used by thousands of developers and has been installed on tens of thousands of devices.  Our website contains information and links to <a href=\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
+      description: "Cloud computing can provide tremendous benefits due to its ability to offload computation on demand. 
+      However, cloud resources are often located far from users. The Seattle project enables users to securely share 
+      (and acquire) computing resources from their desktop, laptop, or smartphone in the same manner as with cloud 
+      computing. Though the project has been retired, Seattle modules and materials are still used by educators, 
+    and by thousands of people around the world for developing new software projects and conducting research. 
+    A decade of accomplishments for the Seattle project is summarized in  <a href=\"https://ssl.engineering.nyu.edu/blog/2018-06-26-SeattleRetire\">a blog post on this site</a>.
+      products: "Though it is not currently being updated, the <a href=\"https://seattle.poly.edu/html\"> Seattle website</a> can still be accessed. 
+      It contains information and links to <a href=\"https://seattle.poly.edu/html/education.html\">educational modules</a>,
 and a <a href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
 of available resources for those who wish to download and use the Seattle
 program, or to
@@ -344,18 +350,16 @@ some computing power on their device for research purposes."
       image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
       status: *retired
       site: "https://sensibilitytestbed.com/"
-      description: "Given the close proximity of smartphones to users,
-researchers would benefit from accessing smartphone sensors. By giving the user control over what amount and type of data is gathered from these sensors, Sensibility ensures the
-privacy of user information.  Sensibility also has additional security
-protections that ensure the safety of the device, while giving researchers
-access to unique information."
-      products: "We have had four years of hack-a-thons, where teams compete
-to build the best application for Sensibility. <a href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install our Android app</a>
-or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our project's blog</a>!"
+      description: "Sensibility Testbed took the privacy protection ideas of Seattle as the basis for a new way to
+      conduct experiments using cellphone sensors, without taxing the resources or endangering the privacy of the devices’
+      owners. Sensibility gives the user control over what amount and type of data is gathered from these sensors, 
+      protecting user information, while additional security protections ensure the safety of the device."
+      products: "We had four years of hack-a-thons, where teams competed
+to build the best application for Sensibility. Like Seattle, its website remains available as an archival source of 
+information and links."
       people:
         - *albert_rafetseder
         - *yanyan_zhuang
-        - *yu_hu
         - name: "Richard Weiss"
           link: "http://evergreen.edu/directory/people/weissr"
         - name: "Leon Reznik"
@@ -409,11 +413,8 @@ publicly release, please email <a href=\"mailto:blindspots@googlegroups.com\">bl
       can be mapped to a diagnosis by using a set of heuristics."
       products: "NetCheck identified a wide array of networking bugs in
       different projects, including in <a href=\"http://bugs.python.org/issue7995\">Python</a>.
-      The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a>
-      is available. However, it is worth reading our <a href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a>
-      first to learn about our experiences."
-      experiences: "Note that this project is not currently being maintained.
-Please read our blog to learn about our experiences."
+    Note that this project is not currently being maintained.
+Please read our <a href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a> to learn about our experiences."
       people:
         - *yanyan_zhuang
         - name: "Eleni Gessiou"
