@@ -13,7 +13,7 @@ publications:
     title: "Commit Signatures for Centralized Version Control Systems"
     authors:
       - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
-    projects:
+    project:
       - 
     booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy 
     Protection (IFIP SEC '19)"
@@ -39,7 +39,7 @@ publications:
     title: "CAPnet: A Defense Against Cache Accounting Attacks on Content Distribution Networks"
     authors:
       - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
-    projects:
+    project:
       - *cachecash
     booktitle: "to be presented at the 7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
     year: ""
@@ -53,7 +53,7 @@ publications:
     title: "ABC: A Cryptocurrency-Focused Threat Modeling Framework"
     authors:
       - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
-    projects:
+    project:
       - *cachecash
     booktitle: "to be presented at the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
     year: ""
@@ -66,7 +66,7 @@ publications:
     title: "API Blindspots: Why Experienced Developers Write Vulnerable Code"
     authors:
       - name: "D. Oliveira, T. Lin, M. Rahman, R. Akefirad, D. Ellis, E. Perez, R. Bobhate, L. DeLong, J. Cappos, Y. Brun, and N. Ebner"
-    projects:
+    project:
       - *blindspots
     booktitle: "14th Symposium on Usable Privacy and Security (SOUPS '18)"
     year: ""
