@@ -70,7 +70,7 @@ and users protection from a host of potential attacks."
       products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
       production by a <a 
 href=\"https://theupdateframework.github.io/adoptions.html\">variety of 
-projects</a>, including <a href=\"https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust\">Microsoft</a>, <a href=\"https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent\">IBM</a>,
+companies</a>, including <a href=\"https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust\">Microsoft</a>, <a href=\"https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent\">IBM</a>,
       <a href=\"https://www.vmware.com/\">VMware</a>,
       <a href=\"https://github.com/digitalocean/do-agent\">DigitalOcean</a>, 
       <a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
