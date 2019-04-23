@@ -515,7 +515,6 @@ people_cards:
     people:
       - *sebastien_awwad
       - *lukas_puhringer
-      - *joey_pabalinas
       - *lois_delong
 
   - type: "PhD. Students"
@@ -537,6 +536,7 @@ people_cards:
   - type: Alumni
     anchor: alumni
     people:
+      - *joey_pabalinas
       - *yanyan_zhuang
       - *trishank_kuppusamy
       - *sam_weber
