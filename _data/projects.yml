@@ -139,20 +139,13 @@ demo video</a> is available."
       people:
         - *trishank_kuppusamy
         - *sebastien_awwad
-        - *vlad_diaz
         - *marina_moore
         - *lois_delong
-        - name: Damon McCoy
-          link: "http://engineering.nyu.edu/people/damon-mccoy"
-        - name: Russ Bielawski (UMTRI)
-          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
+        - name: Ira McDonald (High North Inc.)
+          link: 
         - name: Cameron Mott (SWRI)
           link:
-        - name: John Liming (SWRI)
-          link:
-        - name: Sam Lauzon (UMTRI)
-          link: "http://umtri.umich.edu/who-we-are/research-groups/engineering-systems"
-        - name: André Weimerskirch (UMTRI)
+        - name: André Weimerskirch (UMTRI / Lear)
           link: "http://isd.engin.umich.edu/people/andre-weimerskirch"
         - *justin_cappos
       tags:
