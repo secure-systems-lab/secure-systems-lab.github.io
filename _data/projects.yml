@@ -70,7 +70,6 @@ application. It’s adoption in 2017 by the <a href=\"https://www.cncf.io\">Clou
 of the <a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a> along
 with Docker's popular implementation of the framework, now makes TUF the de facto
 security standard for the cloud."
-
       products: "<a href=\"https://theupdateframework.com\">TUF</a> has been adopted by a growing number of
 companies, including <a href=\"https://cloud.ibm.com/docs/services/Registry?topic=registry-registry_trustedcontent#registry_trustedcontent\">IBM Cloud Container Registry</a>, 
 <a href=\"https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust\">Microsoft Azure</a>, 

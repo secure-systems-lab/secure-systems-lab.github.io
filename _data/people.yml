@@ -235,7 +235,7 @@ people:
       name: "Ghada Almashaqbeh"
       link: "people#ghada_almashaqbeh"
       internal: true
-      role: "Ph.D. Candidate (co-advised with Allison Bishop Lewko and Tal Malkin)"
+      role: "Ph.D. Candidate at Columbia University (co-advised with Allison Bishop Lewko and Tal Malkin)"
       since: "2015"
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
@@ -502,8 +502,7 @@ people:
       interests: "Internet privacy, systems security, machine learning"
       projects:
             - *in-toto
-            - *crashsimulator
-
+         
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -515,7 +514,6 @@ people_cards:
     people:
       - *sebastien_awwad
       - *lukas_puhringer
-      - *joey_pabalinas
       - *lois_delong
 
   - type: "PhD. Students"
@@ -537,6 +535,7 @@ people_cards:
   - type: Alumni
     anchor: alumni
     people:
+      - *joey_pabalinas
       - *yanyan_zhuang
       - *trishank_kuppusamy
       - *sam_weber
