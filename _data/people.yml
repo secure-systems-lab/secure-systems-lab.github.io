@@ -235,7 +235,7 @@ people:
       name: "Ghada Almashaqbeh"
       link: "people#ghada_almashaqbeh"
       internal: true
-      role: "Ph.D. Candidate at Columbia University (co-advised with Allison Bishop Lewko and Tal Malkin)"
+      role: "Ph.D. 2019"
       since: "2015"
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
@@ -245,6 +245,7 @@ people:
       publications:
         - name: "CNS 2019"
         - name: "CryBlock 2019"
+          link: "/papers/almashaqbeh_ABC_cryblock_19.pdf"
         - name: "ACM Transactions on Privacy and Security 2018"
           link: "https://dl.acm.org/citation.cfm?id=3154600"
         - name: "BMC Medical Informatics and Decision-Making 2015"
@@ -285,8 +286,9 @@ people:
           - *in-toto
       publications:
 
+          - name: "USENIX Security 2019"
           - name: "IFIP SEC"
-            link: "/papers/vaidya_cvcs_IFIPsec_19"
+            link: "/papers/vaidya_cvc_IFIPsec_19"
           - name: "AsiaCCS"
             link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
           - name: "NSDI 2016"
@@ -502,7 +504,7 @@ people:
       interests: "Internet privacy, systems security, machine learning"
       projects:
             - *in-toto
-         
+
 people_cards:
   - type: Faculty
     anchor: faculty

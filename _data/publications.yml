@@ -8,22 +8,36 @@ publications:
 ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+  - &torres_intoto_usenixsec_19
+    anchor: &torres_intoto_usenixsec_19
+    title: "in-toto: providing farm-to-table security properties for bits and bytes"
+    authors:
+      - name: "S. Torres-Arias, H. Nanize, T. Kuppusamy, R. Curtmola, and J. Cappos"
+    project:
+      - *intoto
+    booktitle: "to be presented at the 28th USENIX Security Symposium (USENIX Sec'19)"
+    year: ""
+    pages: ""
+    publisher: ""
+    link: ""
+    abstract: ""
+
   - &vaidya_cvcs_IFIPsec_19
     anchor: &vaidya_cvcs_IFIPsec_19
     title: "Commit Signatures for Centralized Version Control Systems"
     authors:
       - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
     project:
-      - 
-    booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy 
+      -
+    booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy
     Protection (IFIP SEC '19)"
     year: ""
     pages: ""
     publisher: ""
     link: "papers/vaidya_cvc_IFIPsec_19.pdf"
-    abstract: "Version Control Systems (VCS-es) play a major role in the software development life cycle, 
-    yet historically their security has been relatively underdeveloped compared to their importance. 
-    Recent history has shown that source code repositories represent appealing attack targets. Attacks that 
+    abstract: "Version Control Systems (VCS-es) play a major role in the software development life cycle,
+    yet historically their security has been relatively underdeveloped compared to their importance.
+    Recent history has shown that source code repositories represent appealing attack targets. Attacks that
     violate the integrity of repository data can impact negatively millions of users. Some VCS-es,
     such as Git, employ com- mit signatures as a mechanism to provide developers with cryptographic
     protections for the code they contribute to a repository. However, an entire class of other VCS-es,
@@ -31,7 +45,7 @@ publications:
     signing mechanism for centralized version control systems, which supports features such as working
     with a subset of the repository and allowing clients to work on disjoint sets of files without
     having to retrieve each other’s changes. We implement a prototype for the proposed commit signing
-    mechanism on top of the SVN codebase and show experimentally that it only incurs a modest overhead. 
+    mechanism on top of the SVN codebase and show experimentally that it only incurs a modest overhead.
     With our solution in place, the VCS security model is substantially improved."
 
   - &almashaqbeh_capnet_CNS_19
@@ -47,20 +61,33 @@ publications:
     publisher: ""
     link: ""
     abstract: ""
-    
+
   - &almashaqbeh_ABC_cryblock_19
-    anchor: &almashaqbeh_cryblock_19
+    anchor: &almashaqbeh_ABC_cryblock_19
     title: "ABC: A Cryptocurrency-Focused Threat Modeling Framework"
     authors:
       - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
     project:
       - *cachecash
-    booktitle: "to be presented at the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
+    booktitle: "2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
     year: ""
     pages: ""
     publisher: ""
-    link: ""
-    abstract: ""
+    link: "/papers/almashaqbeh_ABC_cryblock_19.pdf"
+    abstract: "Cryptocurrencies are an emerging economic force, but there are concerns
+about their security. This is due, in part, to complex collusion
+cases and new threat vectors, that could be missed by conventional security assessment
+strategies. To address these issues, we propose ABC, an Asset-Based
+Cryptocurrency-focused threat modeling framework
+capable of identifying such risks. ABC’s key innovation is the use of
+collusion matrices. A collusion matrix forces a threat model to
+cover a large space of threat cases while simultaneously manages this
+process to prevent it from being overly complex. We demonstrate that ABC is
+effective by presenting real-world use cases and by conducting a user study.
+The user study showed that around 71% of those who used ABC were able to
+identify financial security threats, as compared to only 13% of participants
+who used the popular framework STRIDE."
+
   - &oliveira_blindspots_SOUPS_18
     anchor: oliveira_blindspots_SOUPS_18
     title: "API Blindspots: Why Experienced Developers Write Vulnerable Code"
@@ -1586,6 +1613,7 @@ publication_cards:
   - type: Conference Papers
     anchor: conference
     publications:
+      - *torres_intoto_usenixsec_19
       - *vaidya_cvc_IFIPsec_19
       - *almashaqbeh_capnet_CNS_19
       - *oliveira_blindspots_SOUPS_18
