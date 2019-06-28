@@ -131,7 +131,7 @@ under the auspices of IEEE/ISTO to oversee standardization of the technology's d
       name: "in-toto"
       anchor: "in-toto"
       image: "img/projects/in-toto_diagram.png"
-      status: *starting
+      status: *adopted
       site: "https://in-toto.io"
       description: "From initial writing to final installation, most software products will be handled by a 
      number of different parties that form a chain of multiple steps. Should an attacker be able to control any one
@@ -144,16 +144,8 @@ under the auspices of IEEE/ISTO to oversee standardization of the technology's d
   the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software,
   or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a>
   and follow the directions to integrate in-toto into your software project!"
-      products: "The in-toto software has already been integrated into several
-  open source projects, including a new version of the Arch Linux
-  <a href=\"https://git.archlinux.org/pacman.git/commit/?id=39319c1860d200a9b4a3cc2c6975e3cece502f2d/">pacman</a>
-  utility that adds support for reproducible builds, and includes a security check
-  for tampered git tag metadata. The first version of the official
-  <a href=\"https://plugins.jenkins.io/in-toto/">in-toto Jenkins</a> was released
-  early in 2019. This provenance agent provides a secure and distributed way for
-  users to  track and sign link metadata for any step within a pipeline."
-In Progress: "Integrations are underway with repeatr and Debtain, and with the
-reproducible builds community."
+      products: "The in-toto software has already been integrated into several open
+  source projects. Most recently, Datadog announced the use of <a href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF and in-toto</a> on their agents integration downloader. Also, a <a href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation of rebuilders</a> are generating in-toto metadata so you can check your Debian packages were built reproducibly when using <a href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We welcome you to download the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/in-toto/tree/develop/demo/\">demo version</a> of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the directions to integrate in-toto into your software project!"
       people:
         - *santiago_torres
         - *lukas_puhringer
