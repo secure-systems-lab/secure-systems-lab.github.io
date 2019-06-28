@@ -58,9 +58,8 @@ projects:
       image: "img/projects/tuf_diagram.png"
       site: "https://theupdateframework.github.io"
       status: *adopted
-      description: "Software repositories can receive updates on software or
-project metadata as frequently as every few minutes. This growing flow of updates
-has created a large and potentially devastating new attack surface for malicious
+      description: "Software on repositories are updated regularly software to add new features, and to correct flaws as they are identified.
+Unfortunately, in correcting existing flaws, software updates have created a large and potentially devastating new attack surface for malicious
 actors, as malware submitted through this process offers the opportunity to
 impact thousands of users at a time. The Update Framework (TUF) is a comprehensive,
 flexible framework to secure software updates, even in situations where the repository
