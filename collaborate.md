@@ -14,9 +14,13 @@ To apply to work with us, please email
 the subject.  Please include a code sample and/or github ID along with
 your resume.  
 
-To make it easier to work with us, we have guidelines for
+To make it easier to work with us, please follow our 
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md">lab's workflow</a>.  
+We have guidelines for
 <a href="https://github.com/secure-systems-lab/code-style-guidelines">code
-style</a>, <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/latexdocuments.md">document preparation</a>, 
+style</a>, 
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/code-review.md">code review</a>,
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/latexdocuments.md">document preparation</a>, 
 <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/newproject.md"> how
 to start a new project</a>, and, for new students and staff, procedures
 for <a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/on-boarding.md">on-boarding</a>
