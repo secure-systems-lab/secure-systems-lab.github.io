@@ -54,7 +54,7 @@ There were also differences in awareness about conferences.  Only 24% of industr
 
 One industry participant summed up the lack of interaction between academia and industry as follows: “I just didn't have the slightest idea of a conference academics would visit.  Considering I'm a wannabe-academic, that's not good.” So despite awareness and a desire to work together, there is still a substantial gap between academia and industry.
 
-<img align="left" src="/ssl-site/img/blog/istio_graphic.jpg" style="margin: 0px 20px"/> 
+<img align="left" src="/img/blog/istio_graphic.jpg" style="margin: 0px 20px"/> 
 
 ### **Is deep interaction between industry and academia possible in the field of computer science?**
 
