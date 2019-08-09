@@ -31,7 +31,7 @@ Note that this blog post focuses specifically on the systems and systems securit
 
 ### **Do academic and industry researchers in computer science see the world the same way?**
 
-To confirm what was initially just an observation, about the differing perspectives of academia and industry, I created a survey that asks some basic questions about a few different systems technologies and conferences.  The survey has 3 questions about conferences, 3 about technologies, and 4 questions about the
+To confirm what was initially just an observation, about the differing perspectives of academia and industry, I created [a survey](https://docs.google.com/forms/d/e/1FAIpQLSdtVvZI-z2NAONVMR2aDCCKP9y_zhTd0nLIzAvs4JVXalvPFw/viewform) that asks some basic questions about a few different systems technologies and conferences.  The survey has 3 questions about conferences, 3 about technologies, and 4 questions about the
 importance of certain technologies in practice, along with 3 demographic questions to
 determine if the participant was a developer, graduate student, professor, etc.  This survey was sent out to systems
 researchers who publish in the systems security space, and to industry personnel in the cloud-native community.
@@ -53,6 +53,8 @@ Even more concerning, the numbers for professors were more pronounced than for g
 There were also differences in awareness about conferences.  Only 24% of industry participants knew OSDI, one of the most prominent gatherings for systems researchers, was a conference, while 72% of academics polled stated this correctly.  While both academia and industry were not overly aware that Kubecon was the largest conference (at least by some metrics), only 8% of academics knew this, while about 30% of industry participants were aware.  Participants were asked to list a conference that academics would attend and to list a conference that industry developers would attend.  Strikingly, the only conference that appeared on both lists was USENIX, where one of the 80 respondents (a professor) listed it as a place that industry personnel would attend.  
 
 One industry participant summed up the lack of interaction between academia and industry as follows: “I just didn't have the slightest idea of a conference academics would visit.  Considering I'm a wannabe-academic, that's not good.” So despite awareness and a desire to work together, there is still a substantial gap between academia and industry.
+
+<img align="left" src="img/blog/istio_graphic.jpg" width="500" style="margin: 0px 20px"/>
 
 ### **Is deep interaction between industry and academia possible in the field of computer science?**
 
