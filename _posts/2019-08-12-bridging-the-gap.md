@@ -67,3 +67,10 @@ But, the gap can be bridged with a better understanding of exactly what type of 
 ### **Conclusion**
 
 This writeup was created to start a discussion about how academics might better collaborate with industry.  I’ve created a [Google group](https://groups.google.com/forum/#!forum/systems-research-in-practice/join ) to further this discussion, where we can discuss experiences, strategies, successes, and failures.  I will also be at USENIX Security 2019 in Santa Clara this week and would love to chat with people there in person.  I’m curious to hear from others about the extent to which they see the same problem and their attempts (both successful and unsuccessful)  to bridge the gap. Most importantly, this forum can provide a place to toss around ideas about how to move forward.  Working together on the problem, I’m sure we can greatly improve the state-of-the-art!
+
+### **Acknowledgments**
+
+I'd like to thank Lois Anne Delong who helped with the survey and also edited 
+this piece as well as Santiago Torres-Arias, Damon McCoy, and Rachel Greenstadt
+for their insightful feedback.
+
