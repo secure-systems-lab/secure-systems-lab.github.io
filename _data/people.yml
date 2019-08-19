@@ -505,6 +505,19 @@ people:
       projects:
             - *in-toto
 
+  - sumana_harihareswara: &sumana_harihareswara
+      name: "Sumana Harihareswara"
+      link: "people#sumana_harihareswara"
+      site: "https://www.changeset.nyc/"
+      internal: false
+      role: "Visiting scholar from Python Software Foundation"
+      since: 2019
+      photo: "img/people/sumana_harihareswara.jpg"
+      interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
+      projects:
+        - *tuf
+      deployments: Project manager for <a href="https://pypi.org/">the Python Package Index</a>.
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -533,6 +546,11 @@ people_cards:
     people:
       - *aditya_sirish
       - *henry_zhou
+
+  - type: "Visiting Scholars"
+    anchor: visitingscholars
+    people:
+      - *sumana_harihareswara
 
   - type: Alumni
     anchor: alumni
