@@ -15,56 +15,35 @@ people:
       photo: "img/people/justin_cappos.jpg"
       interests: "Solving real world security problems in practice"
       projects:
-        - *seattle
         - *tuf
-        - *pph
-        - *sensibility
-        - *atoms
         - *uptane
-        - *cachecash
         - *in-toto
+        - *cachecash
+        - *lind
+        - *atoms
         - name: "[more]"
           anchor: ""
       publications:
-        - name: "SOUPS 2018"
-          link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
-        - name: "AsiaCCS"
+        - name: "USENIX Security 2019"
+        - name: "AsiaCCS 2018"
           link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
         - name: "MSR 2018"
           link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
-        - name: "SAS 2018a"
-          link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
-        - name: "SAS 2018b"
-          link: "https://ssl.engineering.nyu.edu/papers/khokhlov_sensing_sas_2018.pdf"
-        - name: "HotMobile 2018"
-          link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
         - name: "FSE 2017"
+          link: "/papers/gopstein_atoms_fse_2017.pdf"
+        - name: "USENIX Security 2017"
           link: "/papers/gopstein_atoms_fse_2017.pdf"
         - name: "USENIX ATC 2017a"
           link: "papers/kuppusamy-mercury-usenix-2017.pdf"
         - name: "USENIX ATC 2017b"
           link: "/papers/li_lind_usenix_2017.pdf"
-        - name: "FWC 2017"
-          link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
-        - name: "login 2017"
-          link: "/papers/kuppusamy_login_2017.pdf"
         - name: "USENIX Security 2016"
           link: "/papers/torres_toto_usenixsec-2016.pdf"
         - name: "NSDI 2016"
           link: "/papers/kuppusamy_nsdi_16.pdf"
-        - name: "USENIX ATC 2015"
-          link: "/papers/li-usenix-fence-2015.pdf"
-        - name: "USENIX ATC 2015"
-          link: "/papers/martins-atc15-camera.pdf"
-        - name: "SIGCSE 2015"
-          link: "/papers/hooshangi_sigcse15.pdf"
-        - name: "NSDI 2014"
-          link: "/papers/zhuang_netcheck_nsdi_14.pdf"
-        - name: "SIGCSE 2014"
-          link: "/papers/cappos_refmonitor_sigcse_14.pdf"
         - name: "[more]"
           link: "/personalpages/jcappos/publications.htm"
-      deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+      deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in Microsoft, IBM, Google, VMware, Redhat, DigitalOcean, Datadog and Docker; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://uptane.github.io/\">Uptane</a> used in over a third of new cars on US roads starting in a few years.  <a href=\"in-toto.io\">in-toto</a> used by thousands of companies including Twitter, PBS, Washington Post, NBC, etc.  <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
 
   - albert_rafetseder: &albert_rafetseder
       name: "Albert Rafetseder"
