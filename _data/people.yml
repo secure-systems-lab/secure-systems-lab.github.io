@@ -540,7 +540,6 @@ people_cards:
       - *yiwen_li
       - *santiago_torres
       - *dan_gopstein
-      - *ghada_almashaqbeh
       - *preston_moore
       - *marina_moore
 
@@ -558,6 +557,7 @@ people_cards:
   - type: Alumni
     anchor: alumni
     people:
+      - *ghada_almashaqbeh
       - *joey_pabalinas
       - *yanyan_zhuang
       - *trishank_kuppusamy
