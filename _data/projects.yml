@@ -83,11 +83,11 @@ companies</a>, including <a href=\"https://docs.microsoft.com/en-us/azure/contai
     projects as part of the Cloud Native Computing Foundation.  
 <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
       people:
-
         - *sebastien_awwad
         - *marina_moore
         - *trishank_kuppusamy
         - *vlad_diaz
+        - *lukas_puhringer
         - *justin_cappos
       tags:
       - *software_updates
@@ -141,6 +141,7 @@ demo video</a> is available."
         - *sebastien_awwad
         - *marina_moore
         - *lois_delong
+        - *lukas_puhringer
         - name: Ira McDonald (High North Inc.)
           link: 
         - name: Cameron Mott (SWRI)
@@ -341,7 +342,6 @@ some computing power on their device for research purposes."
   - sensibility: &sensibility
       name: "Sensibility Testbed"
       anchor: "sensibility"
-      image: "https://sensibilitytestbed.com/projects/project/chrome/site/sense.jpg"
       status: *retired
       site: "https://sensibilitytestbed.com/"
       description: "Given the close proximity of smartphones to users,
@@ -355,11 +355,12 @@ or learn more by <a href=\"https://seattlesensor.wordpress.com/\">visiting our p
       people:
         - *albert_rafetseder
         - *yanyan_zhuang
-        - *yu_hu
+        - name: "Yu Hu"
         - name: "Richard Weiss"
           link: "http://evergreen.edu/directory/people/weissr"
         - name: "Leon Reznik"
           link: "https://www.cs.rit.edu/people/faculty/lr"
+        - *lukas_puhringer
         - *justin_cappos
       tags:
         - *testbeds

@@ -171,6 +171,8 @@ people:
       interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
       projects:
         - *in-toto
+        - *tuf
+        - *uptane
         - *seattle
         - *sensibility
       publications:
@@ -479,6 +481,7 @@ people:
       projects:
         - *uptane
         - *tuf
+        - *in-toto
 
   - joey_pabalinas: &joey_pabalinas
       name: "Joey Pabalinas"
@@ -487,7 +490,7 @@ people:
       internal: true
       role: "Developer"
       since: 2018
-      photo: "img/people/joey_pabalinas"
+      photo: "img/people/joey_pabalinas.jpg"
       interests: "Linux kernel development"
       projects:
       - *crashsimulator
