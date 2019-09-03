@@ -462,6 +462,19 @@ people:
         - *tuf
         - *in-toto
 
+  - nick_renner: &nick_renner
+      name: "Nick Renner"
+      link: "people#nick_renner"
+      internal: true
+      anchor: nick_renner
+      role: "Ph.D. Student (co-advised with Brendan Dolan-Gavitt)"
+      since: 2019
+      photo: "img/people/nick_renner.png"
+      site: "http://nickrenner.com"
+      interests: "Systems security, operating systems, Internet of Things"
+      projects:
+        - *lind
+
   - joey_pabalinas: &joey_pabalinas
       name: "Joey Pabalinas"
       link: "people#joey_pabalinas"
@@ -521,6 +534,7 @@ people_cards:
       - *dan_gopstein
       - *preston_moore
       - *marina_moore
+      - *nick_renner
 
   - type: "Other Students"
     anchor: otherstudents
