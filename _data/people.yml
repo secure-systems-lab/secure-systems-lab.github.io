@@ -453,7 +453,7 @@ people:
       name: "Marina Moore"
       link: "people#marina_moore"
       internal: true
-      role: "Ph.D. Student"
+      role: "Ph.D. Student (co-advised with Brendan Dolan-Gavitt)"
       since: 2018
       photo: "img/people/marina_moore.jpg"
       interests: "Systems security, privacy"
@@ -461,6 +461,19 @@ people:
         - *uptane
         - *tuf
         - *in-toto
+
+  - nick_renner: &nick_renner
+      name: "Nick Renner"
+      link: "people#nick_renner"
+      internal: true
+      anchor: nick_renner
+      role: "Ph.D. Student"
+      since: 2019
+      photo: "img/people/nick_renner.png"
+      site: "http://nickrenner.com"
+      interests: "Systems security, operating systems, Internet of Things"
+      projects:
+        - *lind
 
   - joey_pabalinas: &joey_pabalinas
       name: "Joey Pabalinas"
@@ -521,6 +534,7 @@ people_cards:
       - *dan_gopstein
       - *preston_moore
       - *marina_moore
+      - *nick_renner
 
   - type: "Other Students"
     anchor: otherstudents

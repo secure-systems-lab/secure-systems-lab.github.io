@@ -259,6 +259,7 @@ interaction with flawed code."
 publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
       people:
         - *yiwen_li
+        - *nick_renner
         - *justin_cappos
         - name: "Brendan Dolan-Gavitt"
           link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
