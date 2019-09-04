@@ -491,14 +491,14 @@ people:
   - aditya_sirish: &aditya_sirish
       name: "Aditya Sirish"
       link: "people#aditya_sirish"
-      site:
       internal: true
       role: "Master's student"
       since: 2019
       photo: "img/people/aditya_sirish.jpg"
-      interests: "Internet privacy, systems security, machine learning"
+      interests: "Internet privacy, systems security"
       projects:
             - *in-toto
+            - *tuf
 
   - sumana_harihareswara: &sumana_harihareswara
       name: "Sumana Harihareswara"
