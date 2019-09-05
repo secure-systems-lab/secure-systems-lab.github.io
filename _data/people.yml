@@ -216,7 +216,7 @@ people:
       name: "Ghada Almashaqbeh"
       link: "people#ghada_almashaqbeh"
       internal: true
-      role: "Ph.D. 2019"
+      role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now Cofounder and Research Scientist at CacheCash"
       since: "2015"
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
@@ -513,6 +513,19 @@ people:
         - *tuf
       deployments: Project manager for <a href="https://pypi.org/">the Python Package Index</a>.
 
+
+  - ashish_das: &ashish_das
+      name: "Ashish Das"
+      link: "people#ashish_das"
+      internal: true
+      role: "Master's student"
+      since: 2019
+      photo: "img/people/ashish_das.jpg"
+      interests: "Applied cryptography, secure systems"
+      projects:
+            - *in-toto
+          
+
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -540,6 +553,7 @@ people_cards:
     anchor: otherstudents
     people:
       - *aditya_sirish
+      - *ashish_das
       - *henry_zhou
 
   - type: "Visiting Scholars"
