@@ -524,8 +524,19 @@ people:
       interests: "Applied cryptography, secure systems"
       projects:
             - *in-toto
-          
-
+            
+  - priyanka_mahesh: &priyanka_mahesh
+      name: "Priyanka Mahesh"
+      link: "people#priyanka_mahesh"
+      internal: true
+      role: "Master's student"
+      since: 2019
+      photo: "img/people/priyanka_mahesh.jpg"
+      interests: "Telematics security, applied cryptography"
+      projects:
+            - *uptane
+            - *tuf
+            
 people_cards:
   - type: Faculty
     anchor: faculty
@@ -554,6 +565,7 @@ people_cards:
     people:
       - *aditya_sirish
       - *ashish_das
+      - *priyanka_mahesh
       - *henry_zhou
 
   - type: "Visiting Scholars"
