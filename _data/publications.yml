@@ -13,8 +13,7 @@ publications:
     title: "in-toto: providing farm-to-table security properties for bits and bytes"
     authors:
       - name: "S. Torres-Arias, H. Nanize, T. Kuppusamy, R. Curtmola, and J. Cappos"
-    project:
-      - *intoto
+    project: *in-toto
     booktitle: "to be presented at the 28th USENIX Security Symposium (USENIX Sec'19)"
     year: ""
     pages: ""
