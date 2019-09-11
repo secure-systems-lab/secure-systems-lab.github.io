@@ -9,7 +9,7 @@ publications:
 ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
   - &torres_intoto_usenixsec_19
-    anchor: &torres_intoto_usenixsec_19
+    anchor: torres_intoto_usenixsec_19
     title: "in-toto: providing farm-to-table security properties for bits and bytes"
     authors:
       - name: "S. Torres-Arias, H. Nanize, T. Kuppusamy, R. Curtmola, and J. Cappos"
@@ -23,7 +23,7 @@ publications:
     abstract: ""
 
   - &vaidya_cvcs_IFIPsec_19
-    anchor: &vaidya_cvcs_IFIPsec_19
+    anchor: vaidya_cvcs_IFIPsec_19
     title: "Commit Signatures for Centralized Version Control Systems"
     authors:
       - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
@@ -49,7 +49,7 @@ publications:
     With our solution in place, the VCS security model is substantially improved."
 
   - &almashaqbeh_capnet_CNS_19
-    anchor: &almashaqbeh_capnet_CNS_19
+    anchor: almashaqbeh_capnet_CNS_19
     title: "CAPnet: A Defense Against Cache Accounting Attacks on Content Distribution Networks"
     authors:
       - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
@@ -63,7 +63,7 @@ publications:
     abstract: ""
 
   - &almashaqbeh_ABC_cryblock_19
-    anchor: &almashaqbeh_ABC_cryblock_19
+    anchor: almashaqbeh_ABC_cryblock_19
     title: "ABC: A Cryptocurrency-Focused Threat Modeling Framework"
     authors:
       - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
