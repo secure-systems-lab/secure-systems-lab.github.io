@@ -1,8 +1,16 @@
 people:
+    intro: str()
     people: list(include('person'))
 
 projects:
+    intro: str()
+    statuses: list(include('status'))
+    tags: list(include('tag'))
     projects: list(include('project'))
+
+publications:
+    intro: str()
+    publications: list(include('publication'))
 ---
 person:
     name: str()
@@ -30,13 +38,28 @@ project:
     tags: list(include('tag'))
 
 proj_person:
-  name: str()
-  link: str(required=False)
+    name: str()
+    link: str(required=False)
 
 status:
-  name: str()
-  description: str()
+    name: str()
+    description: str()
 
 tag:
+    name: str()
+    anchor: str()
+
+publication:
+    anchor: str()
+    title: str()
+    authors: list(include('name'))
+    project: any(include('project'), str(required=False))
+    booktitle: str(required=False)
+    year: any(str(), int(), required=False)
+    pages: any(str(), int(), required=False)
+    publisher: str(required=False)
+    link: str(required=False)
+    abstract: str(required=False)
+
+name:
   name: str()
-  anchor: str()

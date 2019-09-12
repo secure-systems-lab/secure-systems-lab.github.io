@@ -487,48 +487,48 @@ people:
 
 projects:
     statuses:
-    - stealth: &stealth
+    - &stealth
         name: "Stealth Mode"
         description: "Shhhh.  We're still figuring things out internally."
-    - starting: &starting
+    - &starting
         name: <span style="color:green">Sprouting</span>
         description: "We're ready for use.  Early adopters wanted!"
-    - adopted: &adopted
+    - &adopted
         name: <span style="color:gold">Adopted</span>
         description: "Many people are using this.  Join them!"
-    - retired: &retired
+    - &retired
         name: <span style="color:silver">Retired</span>
         description: "We learned what we can and are not actively developing anymore."
 
     tags:
-    - software_updates: &software_updates
+    - &software_updates
         name: "Software Updates"
         anchor: software_updates
-    - security: &security
+    - &security
         name: "Security"
         anchor: security
-    - internet_of_things: &internet_of_things
+    - &internet_of_things
         name: "Internet of Things"
         anchor: internet_of_things
-    - networking: &networking
+    - &networking
         name: "Networking"
         anchor: networking
-    - testbeds: &testbeds
+    - &testbeds
         name: "Testbeds"
         anchor: testbeds
-    - privacy: &privacy
+    - &privacy
         name: "Privacy"
         anchor: privacy
-    - cryptography: &cryptography
+    - &cryptography
         name: "Cryptography"
         anchor: cryptography
-    - software_engineering: &software_engineering
+    - &software_engineering
         name: "Software Engineering"
         anchor: software_engineering
-    - systems: &systems
+    - &systems
         name: "Systems"
         anchor: systems
-    - testing_tools: &testing_tools
+    - &testing_tools
         name: "Testing Tools"
         anchor: testing_tools
 
@@ -1006,7 +1006,6 @@ publications:
       authors:
         - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
       project:
-        -
       booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy
       Protection (IFIP SEC '19)"
       year: ""
@@ -1031,8 +1030,7 @@ publications:
       title: "CAPnet: A Defense Against Cache Accounting Attacks on Content Distribution Networks"
       authors:
         - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
-      project:
-        - *cachecash
+      project: *cachecash
       booktitle: "to be presented at the 7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
       year: ""
       pages: ""
@@ -1045,8 +1043,7 @@ publications:
       title: "ABC: A Cryptocurrency-Focused Threat Modeling Framework"
       authors:
         - name: "G. Almashaqbeh, A. Bishop, and J. Cappos"
-      project:
-        - *cachecash
+      project: *cachecash
       booktitle: "2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock '19)"
       year: ""
       pages: ""
@@ -1071,8 +1068,7 @@ publications:
       title: "API Blindspots: Why Experienced Developers Write Vulnerable Code"
       authors:
         - name: "D. Oliveira, T. Lin, M. Rahman, R. Akefirad, D. Ellis, E. Perez, R. Bobhate, L. DeLong, J. Cappos, Y. Brun, and N. Ebner"
-      project:
-        - *blindspots
+      project: *blindspots
       booktitle: "14th Symposium on Usable Privacy and Security (SOUPS '18)"
       year: ""
       pages: ""
@@ -1113,9 +1109,7 @@ publications:
       title: "Tsumiki: A Meta-Platform for Building Your Own Testbed"
       authors:
         - name: "J.Cappos, Y. Zhuang, A. Rafetseder, and I. Beschastnikh"
-      projects:
-        - *seattle
-        - *sensibility
+      project: *sensibility
       booktitle: "Transactions on Parallel and Distributed Systems"
       year: "2018"
       pages: ""
@@ -1518,7 +1512,7 @@ publications:
       anchor: uptane_implementation_17
       title: "Uptane Implementation Specification"
       authors:
-        - name:
+        - name: ""
       project: *uptane
       booktitle:
       year: "2017"
@@ -1535,7 +1529,7 @@ publications:
       anchor: uptane_deployment_17
       title: "Uptane Deployment Considerations"
       authors:
-        - name:
+        - name: ""
       project: *uptane
       booktitle:
       year: "2017"
@@ -1650,6 +1644,7 @@ publications:
       title: "PEP 480—Surviving a Compromise of PyPI: The Maximum Security Model"
       authors:
         - name: "T. Kuppusamy, V. Diaz, D. Stuffit, and J. Cappos"
+      project:
       year: "2016"
       institution: "Python Enhancement Proposal"
       link: "https://www.python.org/dev/peps/pep-0480/"
@@ -1702,6 +1697,7 @@ publications:
       title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
       authors:
         - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
+      project:
       booktitle: "Tenth International AAAI Conference on Web and Social Media (ICWSM 16)"
       year:
       link: "/papers/Peddinti_ICWSM_2016.pdf"
@@ -1795,7 +1791,8 @@ publications:
     - &weiss_trustcom2015
       anchor: weiss_trustcom2015
       title: "Trust Evaluation in Mobile Devices: An Empirical Study"
-      authors: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
+      authors:
+        - name: "R. Weiss, L. Reznik, Y. Zhuang, A. Hoffman, D. Pollard, A. Rafetseder, T. Li, and J. Cappos"
       project: *sensibility
       booktitle: "2015 IEEE Trustcom/BigDataSE/ISPA"
       year: "2015"
@@ -1882,6 +1879,7 @@ publications:
       title: "Tsumiki: A Meta-Platform for Building your own Testbed"
       authors:
         - name: "J. Cappos, Y. Zhuang, A. Rafetseder, and I. Beschastnikh"
+      project:
       year: "2015"
       institution: "Tech. rep. tr-cse-2015-0, NYU Polytechnic"
       link: "/papers/zhuang-tr-cse-2015-01.pdf"
@@ -1921,6 +1919,7 @@ publications:
       title: "On the Internet, Nobody Knows You're a Dog: A Twitter Case Study of Anonymity in Social Networks"
       authors:
         - name: "S.T. Peddinti,  K.W. Ross, and J. Cappos"
+      project:
       booktitle: "Proceedings of the Second ACM Conference on Online Social Networks (COSN '14)"
       series:
       year:
@@ -2166,6 +2165,7 @@ publications:
       title: "Understanding Password Database Compromises"
       authors:
         - name: "D. Mirante and J. Cappos"
+      project:
       year: "2013"
       institution: "Tech. rep. tr-cse-2013-02, Polytechnic Institute of NYU"
       link: "/papers/tr-cse-2013-02.pdf"
@@ -2192,6 +2192,7 @@ publications:
       title: "PEP 458—Surviving a Compromise of PyPI"
       authors:
         - name: "T. Kuppusamy, V. Diaz, D. Stuffit, and J. Cappos"
+      project:
       year: "2013"
       institution: "Python Enhancement Proposal"
       link: "http://legacy.python.org/dev/peps/pep-0458/"
@@ -2207,6 +2208,7 @@ publications:
       title: "Future Internet Bandwidth Trends: An Investigation on Current and Future Disruptive Technologies"
       authors:
         - name: "Y. Zhuang, J. Cappos, T.S. Rappaport, and R. McGeer"
+      project:
       year: "2013"
       institution: "Tech. rep. tr-cse-2013-04, Polytechnic Institute of NYU"
       link: "/papers/tr-cse-2013-04.pdf"
