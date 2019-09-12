@@ -40,26 +40,31 @@ layout: default
           &nbsp;&nbsp;-<span class="site"> <a href="{{ person.site }}">website</a> </span>
 	  {% endif %}
 	</div>
-	
+
         <div class="interests">
           <span class="header">Research Interests</span>
           {{ person.interests }}
         </div>
 
-        {% if person.projects %}
           <div class="projects">
             <span class="header">Projects</span>
-            {% assign pubLinks = '' | split:':' %}
-            {% for project in person.projects %}
-              {% capture pubLink %}{% if project.anchor %}<a href="projects#{{ project.anchor }}">{% endif %}{{ project.name }}{% if project.anchor %}</a>{% endif %}{% endcapture %}
-              {% assign pubLinks = pubLinks | push: pubLink %}
+        {% assign pubLinks = '' | split:':' %}
+        {% for project_hash in site.data.projects.projects%}
+            {% for proj_tuple in project_hash %}
+                {% assign project = proj_tuple[1] %}
+                {% for proj_person in project.people %}
+                    {% if proj_person.name == person.name %}
+                       {% capture pubLink %}{% if project.anchor
+        %}<a href="projects#{{ project.anchor }}">{% endif %}{{ project.name
+        }}{% if project.anchor %}</a>{% endif %}{% endcapture %}
+                       {% assign pubLinks = pubLinks | push: pubLink %}
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
-  	  
-  	  
-            {{ pubLinks | array_to_sentence_string }}
-          </div>
-	{% endif %}
-	
+        {% endfor %}
+                       {{ pubLinks | array_to_sentence_string }}
+        </div>
+
         {% if person.publications %}
           <div class="publications">
             <span class="header">Publications</span>
