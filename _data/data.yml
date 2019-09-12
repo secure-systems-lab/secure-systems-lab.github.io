@@ -6,6 +6,7 @@ people:
     people:
       - &justin_cappos
           name: "Justin Cappos"
+          anchor: justin_cappos
           link: "/personalpages/jcappos"
           site: "personalpages/jcappos/"
           internal: true
@@ -37,7 +38,7 @@ people:
     
       - &albert_rafetseder
           name: "Albert Rafetseder"
-          link: "people#albert_rafetseder"
+          anchor: "albert_rafetseder"
           internal: true
           role: "Research Professor"
           since: "2011"
@@ -62,7 +63,7 @@ people:
     
       - &sam_weber
           name: "Sam Weber"
-          link: "people#sam_weber"
+          anchor: sam_weber
           internal: true
           role: "Research Professor"
           since: "2016"
@@ -84,7 +85,7 @@ people:
     
       - &vlad_diaz
           name: "Vladimir Diaz"
-          link: "people#vlad_diaz"
+          anchor: vlad_diaz
           internal: true
           anchor: vlad_diaz
           role: "Developer"
@@ -104,7 +105,7 @@ people:
     
       - &sebastien_awwad
           name: "Sebastien Awwad"
-          link: "people#sebastien_awwad"
+          anchor: sebastien_awwad
           internal: true
           role: "Developer"
           since: "2015"
@@ -117,7 +118,7 @@ people:
     
       - &lukas_puhringer
           name: "Lukas Pühringer"
-          link: "people#lukas_pühringer"
+          anchor: "lukas_pühringer"
           internal: true
           role: "Developer"
           since: "2016"
@@ -137,12 +138,12 @@ people:
           Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
       - &trishank_kuppusamy
           name: "Trishank Kuppusamy"
-          link: "people#trishank_kuppusamy"
+          anchor: trishank_kuppusamy
           internal: true
           role:  "Ph.D. 2017, now Chief Security Solutions Engineer at DataDog"
           since: "2011"
           photo: "img/people/trishank_kuppusamy.jpg"
-          link: "https://github.com/trishankkarthik"
+          site: "https://github.com/trishankkarthik"
           interests: "Securing software updates for community repositories and automobiles"
           publications:
               - name: "IEEE VT 2018"
@@ -162,7 +163,7 @@ people:
           deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
       - &luqin_wang
           name: "Luqin Wang"
-          link: "people#luqin_wang"
+          anchor: luqin_wang
           internal: true
           role: "Ph.D. 2016 (co-advised by Yong Liu)"
           since: "2011"
@@ -175,7 +176,7 @@ people:
                 link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
       - &ghada_almashaqbeh
           name: "Ghada Almashaqbeh"
-          link: "people#ghada_almashaqbeh"
+          anchor: ghada_almashaqbeh
           internal: true
           role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now Cofounder and Research Scientist at CacheCash"
           since: "2015"
@@ -193,7 +194,7 @@ people:
     
       - &yiwen_li
           name: "Yiwen Li"
-          link: "people#yiwen_li"
+          anchor: yiwen_li
           internal: true
           role: "Ph.D. Candidate"
           since: "2013"
@@ -210,7 +211,7 @@ people:
     
       - &santiago_torres
           name: "Santiago Torres-Arias"
-          link: "people#santiago_torres"
+          anchor: santiago_torres
           internal: true
           anchor: santiago_torres
           role: "Ph.D. Candidate"
@@ -237,7 +238,7 @@ people:
     
       - &artiom_baloian
           name: "Artiom Baloian"
-          link: "people#artiom_baloian"
+          anchor: artiom_baloian
           internal: true
           role: "Developer"
           since: "2016"
@@ -258,9 +259,8 @@ people:
     
       - &lois_delong
           name: "Lois Anne DeLong"
-          link: "people#lois_delong"
-          internal: true
           anchor: lois_delong
+          internal: true
           role: "Research Associate/Technical Writer"
           since: "2015"
           photo: "img/people/lois_delong.jpg"
@@ -277,9 +277,8 @@ people:
     
       - &sai_peddinti
           name: Sai Teja Peddinti
-          link: "people#sai_peddinti"
-          internal: true
           anchor: sai_peddinti
+          internal: true
           role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
           since: "2011"
           photo: "img/people/sai_peddinti.jpg"
@@ -298,17 +297,16 @@ people:
                   link: "https://www.google.com/patents/US9246929"
       - &preston_moore
           name: "Preston Kent Moore"
-          link: "people#preston_moore"
-          internal: true
           anchor: preston_moore
+          internal: true
           role: "Ph.D. Candidate (co-advised with Phyllis Frankl)"
           since: "2015"
           photo: "img/people/preston_moore.jpg"
           interests: "Secure software engineering, automated testing, systems security"
+
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
-          link: "people#dan_gopstein"
           internal: true
           role: "Ph.D. Student (co-advised with Andy Nealen)"
           since: "2015"
@@ -327,7 +325,7 @@ people:
     
       - &yanyan_zhuang
           name: "Yanyan Zhuang"
-          link: "people#yanyan_zhuang"
+          anchor: yanyan_zhuang
           site: "http://www.cs.uccs.edu/~yzhuang/"
           internal: true
           role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
@@ -357,7 +355,7 @@ people:
     
       - &henry_zhou
           name: "Henry Zhou"
-          link: "people#henry_zhou"
+          anchor: henry_zhou
           internal: true
           role: "Undergraduate Student"
           since: 2017
@@ -370,7 +368,7 @@ people:
     
       - &marina_moore
           name: "Marina Moore"
-          link: "people#marina_moore"
+          anchor: marina_moore
           internal: true
           role: "Ph.D. Student"
           since: 2018
@@ -379,9 +377,8 @@ people:
     
       - &nick_renner
           name: "Nick Renner"
-          link: "people#nick_renner"
-          internal: true
           anchor: nick_renner
+          internal: true
           role: "Ph.D. Student (co-advised with Brendan Dolan-Gavitt)"
           since: 2019
           photo: "img/people/nick_renner.png"
@@ -390,7 +387,7 @@ people:
     
       - &joey_pabalinas
           name: "Joey Pabalinas"
-          link: "people#joey_pabalinas"
+          anchor: joey_pabalinas
           site: "https://alyp.tk/"
           internal: true
           role: "Developer"
@@ -401,7 +398,7 @@ people:
     
       - &aditya_sirish
           name: "Aditya Sirish"
-          link: "people#aditya_sirish"
+          anchor: aditya_sirish
           internal: true
           role: "Master's student"
           since: 2019
@@ -410,7 +407,7 @@ people:
     
       - &sumana_harihareswara
           name: "Sumana Harihareswara"
-          link: "people#sumana_harihareswara"
+          anchor: sumana_harihareswara
           site: "https://www.changeset.nyc/"
           internal: false
           role: "Visiting scholar from Python Software Foundation"
@@ -422,7 +419,7 @@ people:
     
       - &ashish_das
           name: "Ashish Das"
-          link: "people#ashish_das"
+          anchor: ashish_das
           internal: true
           role: "Master's student"
           since: 2019
@@ -431,7 +428,7 @@ people:
                 
       - &priyanka_mahesh
           name: "Priyanka Mahesh"
-          link: "people#priyanka_mahesh"
+          anchor: priyanka_mahesh
           internal: true
           role: "Master's student"
           since: 2019
@@ -541,7 +538,7 @@ projects:
     the following categories:"
 
     projects:
-    - tuf: &tuf
+    - &tuf
         name: "The Update Framework (TUF)"
         anchor: "tuf"
         image: "img/projects/tuf_diagram.png"
@@ -582,7 +579,7 @@ projects:
         - *software_updates
         - *security
 
-    - uptane: &uptane
+    - &uptane
         name: "Uptane"
         anchor: "uptane"
         image: "img/projects/uptane_diagram.png"
@@ -644,7 +641,7 @@ projects:
             - *internet_of_things
 
 
-    - in-toto: &in-toto
+    - &in-toto
         name: "in-toto"
         anchor: "in-toto"
         image: "img/projects/in-toto_diagram.png"
@@ -667,7 +664,7 @@ projects:
             - *software_updates
             - *security
 
-    - atoms: &atoms
+    - &atoms
         name: "Atoms of Confusion"
         anchor: "atoms"
         image: "img/projects/atoms_business_card_closeup_small.png"
@@ -700,7 +697,7 @@ projects:
         tags:
             - *software_engineering
 
-    - cachecash: &cachecash
+    - &cachecash
         name: "CacheCash"
         anchor: "cachecash"
         image: "img/projects/cachecash_diagram.png"
@@ -730,7 +727,7 @@ projects:
             - *systems
             - *networking
 
-    - lind: &lind
+    - &lind
         name: "Lind"
         anchor: "lind"
         image: "img/projects/lind_diagram.jpg"
@@ -756,7 +753,7 @@ projects:
             - *security
             - *systems
 
-    - crashsimulator: &crashsimulator
+    - &crashsimulator
         name: "CrashSimulator"
         anchor: "crashsimulator"
         image: "img/projects/crashsimulator_diagram.png"
@@ -777,7 +774,7 @@ projects:
             - *testing_tools
             - *systems
 
-    - pph: &pph
+    - &pph
         name: "PolyPasswordHasher (PPH)"
         anchor: "pph"
         image: "img/projects/pph_diagram.png"
@@ -801,7 +798,7 @@ projects:
             - *security
 
 
-    - seattle: &seattle
+    - &seattle
         name: "Seattle"
         anchor: "seattle"
         image: "img/projects/seattle_color_map.jpg"
@@ -829,7 +826,7 @@ projects:
             - *networking
             - *testbeds
 
-    - sensibility: &sensibility
+    - &sensibility
         name: "Sensibility Testbed"
         anchor: "sensibility"
         status: *retired
@@ -858,7 +855,7 @@ projects:
             - *networking
             - *internet_of_things
 
-    - blindspots: &blindspots
+    - &blindspots
         name: "API Blindspots"
         anchor: "blindspots"
         image: "img/projects/blindspots_diagram.png"
@@ -884,7 +881,7 @@ projects:
             - *software_engineering
 
 
-    - netcheck: &netcheck
+    - &netcheck
         name: "NetCheck"
         anchor: "netcheck"
         status: *retired
@@ -918,7 +915,7 @@ projects:
             - *software_engineering
             - *testing_tools
 
-    - uppir: &uppir
+    - &uppir
         name: "upPIR"
         anchor: "uppir"
         status: *retired
@@ -937,7 +934,7 @@ projects:
             - *cryptography
             - *networking
 
-    - vsn:  &vsn
+    - &vsn
         name: "Virtual Secure Network (VSN)"
         anchor: "vsn"
         status: *retired

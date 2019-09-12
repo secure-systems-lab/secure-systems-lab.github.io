@@ -46,17 +46,20 @@ layout: default
         </div>
 
         {% assign pubLinks = '' | split:':' %}
-        {% for project_hash in site.data.data.projects.projects%}
-            {% for proj_tuple in project_hash %}
-                {% assign project = proj_tuple[1] %}
-                {% for proj_person in project.people %}
-                    {% if proj_person.name == person.name %}
-                       {% capture pubLink %}{% if project.anchor
-        %}<a href="projects#{{ project.anchor }}">{% endif %}{{ project.name
-        }}{% if project.anchor %}</a>{% endif %}{% endcapture %}
-                       {% assign pubLinks = pubLinks | push: pubLink %}
+        {% for project in site.data.data.projects.projects%}
+            {% for proj_person in project.people %}
+                {% if proj_person.name == person.name %}
+                  {% capture pubLink %}
+                    {% if project.anchor %}
+                      <a href="projects#{{ project.anchor }}">
                     {% endif %}
-                {% endfor %}
+                    {{ project.name}}
+                    {% if project.anchor %}
+                      </a>
+                    {% endif %}
+                  {% endcapture %}
+                {% assign pubLinks = pubLinks | push: pubLink %}
+                {% endif %}
             {% endfor %}
         {% endfor %}
 

@@ -1,16 +1,23 @@
 people:
     people: list(include('person'))
+
+projects:
+    projects: list(include('project'))
 ---
 person:
     name: str()
-    link: str()
+    anchor: str()
     internal: bool()
     role: str()
     since: any(int(min=2010,max=2025), str())
     photo: str()
     interests: str()
-    publications: list(include('publication'), required=False)
+    publications: list(include('person_publication'), required=False)
 
-publication:
+person_publication:
     name: str()
     link: str(required=False)
+
+project:
+    name: str()
+    anchor: str()
