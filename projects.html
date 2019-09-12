@@ -6,12 +6,12 @@ layout: default
 
 <link rel="stylesheet" href="{{ site.baseurl }}css/projects.css"></link>
 
-<div class="intro">{{ site.data.projects.intro }}</div>
+<div class="intro">{{ site.data.data.projects.intro }}</div>
 
 <ul class="toc" id="tags-toc"></ul>
 
 <div class="projects">
-  {% for project in site.data.projects.project_cards %}
+  {% for project in site.data.data.projects.project_cards %}
   <div class="project">
     <a class="anchor" name="{{ project.anchor }}"></a>
 
@@ -19,13 +19,13 @@ layout: default
        <h3><a href="#{{ project.anchor }}"> {{ project.name | size_upcase }} </a></h3>
          <div class="link-list">
            <div class="press-link">
-             {% capture press_projects %}{{ site.data.press.presses | map: 'project' | map: 'anchor' }}{% endcapture %}
+             {% capture press_projects %}{{ site.data.data.press.presses | map: 'project' | map: 'anchor' }}{% endcapture %}
              {% if press_projects contains project.anchor %}
                <a href="/press?filter={{ project.anchor }}">(press)</a>
              {% endif %}
 	   </div>
            <div class="pubs-link">
-             {% capture pub_projects %}{{ site.data.publications.publications | map: 'project' | map: 'anchor' }}{% endcapture %}
+             {% capture pub_projects %}{{ site.data.data.publications.publications | map: 'project' | map: 'anchor' }}{% endcapture %}
              {% if pub_projects contains project.anchor %}
                <a href="/publications?filter={{ project.anchor }}">(publications)</a>
              {% endif %}
