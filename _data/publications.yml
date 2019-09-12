@@ -1,4 +1,4 @@
-{% include_relative_once _data/projects.yml %}
+{% include_relative _data/projects.yml %}
 
 intro: "Selected, recent papers from the Secure Systems Lab.
 Click a project name to filter by project."

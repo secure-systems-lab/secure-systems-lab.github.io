@@ -1,5 +1,3 @@
-{% include_relative_once _data/projects.yml %}
-
 intro: "Our lab's participants range from professors with dozens of years of
 experience to high school students. This diversity in background and experience
 enables us to address real-world problems using fresh perspectives."
@@ -14,15 +12,6 @@ people:
       since: 2010
       photo: "img/people/justin_cappos.jpg"
       interests: "Solving real world security problems in practice"
-      projects:
-        - *tuf
-        - *uptane
-        - *in-toto
-        - *cachecash
-        - *lind
-        - *atoms
-        - name: "[more]"
-          anchor: ""
       publications:
         - name: "USENIX Security 2019"
         - name: "AsiaCCS 2018"
@@ -53,9 +42,6 @@ people:
       since: "2011"
       photo: "img/people/albert_rafetseder.jpg"
       interests: "Building experimental platforms for research, education, and the general public"
-      projects:
-        - *seattle
-        - *sensibility
       publications:
         - name: "TPDS 2018"
           link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
@@ -81,9 +67,6 @@ people:
       since: "2016"
       photo: "img/people/sam_weber.jpg"
       interests: "Secure development processes, Cybersecurity"
-      projects:
-        - *blindspots
-        - *uptane
       publications:
         - name: "USENIX ATC 2017"
           link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
@@ -107,10 +90,6 @@ people:
       since: "2013"
       photo: "img/people/vlad_diaz.jpg"
       interests: "Software update security"
-      projects:
-        - *tuf
-        - name: "TUF extensions (<a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a>, <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury</a>)"
-        - *uptane
       publications:
         - name: "USENIX ATC 2017"
           link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
@@ -130,11 +109,6 @@ people:
       since: "2015"
       photo: "img/people/sebastien_awwad.jpg"
       interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
-      projects:
-        - *uptane
-        - *tuf
-        - name: "Python dependency managment"
-        - *seattle
       publications:
         - name: "escar 2016"
           link: "/papers/kuppusamy_escar_16.pdf"
@@ -148,12 +122,6 @@ people:
       since: "2016"
       photo: "img/people/lukas_puhringer.jpg"
       interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
-      projects:
-        - *in-toto
-        - *tuf
-        - *uptane
-        - *seattle
-        - *sensibility
       publications:
         - name: "FWC 2017"
           link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
@@ -175,11 +143,6 @@ people:
       photo: "img/people/trishank_kuppusamy.jpg"
       link: "https://github.com/trishankkarthik"
       interests: "Securing software updates for community repositories and automobiles"
-      projects:
-        - *tuf
-        - name: "TUF extensions <a href=\"/papers/kuppusamy_nsdi_16.pdf\">Diplomat</a> and <a href=\"/papers/kuppusamy-mercury-usenix-2017.pdf\">Mercury,</a"
-        - *uptane
-        - *uppir
       publications:
           - name: "IEEE VT 2018"
             link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
@@ -204,9 +167,6 @@ people:
       since: "2011"
       photo: "img/people/luqin_wang.jpg"
       interests: "Social networks, Internet measurement, network security and distributed systems"
-      projects:
-        - *cachecash
-        - *uppir
       publications:
           - name: "PAM 2015"
             link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
@@ -221,8 +181,6 @@ people:
       photo: "img/people/ghada_almashaqbeh.jpg"
       site: "http://www.cs.columbia.edu/~ghada/"
       interests: "Cryptography, security, distributed computing"
-      projects:
-        - *cachecash
       publications:
         - name: "CNS 2019"
         - name: "CryBlock 2019"
@@ -241,9 +199,6 @@ people:
       photo: "img/people/yiwen_li.jpg"
       site: "http://engineering.nyu.edu/people/yiwen-li"
       interests: "Operating system security, virtualization, network security"
-      projects:
-          - *lind
-          - name: Caging
       publications:
           - name: "USENIX ATC 2017"
             link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
@@ -262,9 +217,6 @@ people:
       photo: "img/people/santiago_torres.png"
       site: "https://sangy.xyz"
       interests: "Password protection and securing the software supply chain"
-      projects:
-          - *pph
-          - *in-toto
       publications:
 
           - name: "USENIX Security 2019"
@@ -290,10 +242,6 @@ people:
       since: "2016"
       photo: "img/people/artiom_baloian.jpg"
       interests: "Software Security, Code Obfuscation, Compilers"
-      projects:
-        - *cachecash
-        - *lind
-        - *in-toto
       publications:
         - name: "Concurrency and Computation: Practice and Experience 2017"
           link: "http://onlinelibrary.wiley.com/doi/10.1002/cpe.4192/abstract;jsessionid=CA0A84FDE4839370B0657E1D26AFF876.f02t03/"
@@ -307,19 +255,6 @@ people:
         speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework
         based on LLVM used by Airbus and other companies."
 
-#  - devon_powell: &devon_powell
-#      name: "Devon Powell"
-#      link: "people#devon_powell"
-#      internal: true
-#      anchor: devon_powell
-#      role: "Ph.D. Student (co-advised with Phyllis Frankl)"
-#      since: "2016"
-#      photo: "img/people/devon_powell.jpg"
-#      site: "https://github.com/D-Pow"
-#      interests: "Computer security, software engineering"
-#      projects:
-#        - *atoms
-
   - lois_delong: &lois_delong
       name: "Lois Anne DeLong"
       link: "people#lois_delong"
@@ -329,11 +264,6 @@ people:
       since: "2015"
       photo: "img/people/lois_delong.jpg"
       interests: "Experimental design involving human subjects; links between natural languages and programming languages"
-      projects:
-        - *uptane
-        - *atoms
-        - *blindspots
-        - name: "editorial support for all projects"
       publications:
             - name: "SOUPS 2018"
               link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
@@ -354,9 +284,6 @@ people:
       photo: "img/people/sai_peddinti.jpg"
       site: "http://www.saitejapeddinti.com/"
       interests: "Privacy, security, social networks, machine learning"
-      projects:
-            - name: "VSN-Virtual Secure Network"
-              link: "https://vsn.poly.edu/projects/project"
       publications:
             - name: "ICWSM 2016"
               link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
@@ -377,8 +304,6 @@ people:
       since: "2015"
       photo: "img/people/preston_moore.jpg"
       interests: "Secure software engineering, automated testing, systems security"
-      projects:
-        - *crashsimulator
   - dan_gopstein: &dan_gopstein
       name: "Dan Gopstein"
       link: "people#dan_gopstein"
@@ -387,8 +312,6 @@ people:
       since: "2015"
       photo: "img/people/dan_gopstein.jpg"
       interests: "Programming languages and software systems"
-      projects:
-        - *atoms
       publications:
         - name: "MSR 2018"
           link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
@@ -409,10 +332,6 @@ people:
       since: "2014"
       photo: "img/people/yanyan_zhuang.jpg"
       interests: "Mobile systems, wireless networks, privacy and security"
-      projects:
-        - *sensibility
-        - *netcheck
-        - *atoms
       publications:
         - name: "TPDS 2018"
           link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
@@ -443,8 +362,6 @@ people:
       photo: "img/people/henry_zhou.jpg"
       interests: "Game engineering and design, digital media, philosophy and
       ethics of technology"
-      projects:
-        - *atoms
       publications:
               - name: "MSR 2018"
                 link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
@@ -457,10 +374,6 @@ people:
       since: 2018
       photo: "img/people/marina_moore.jpg"
       interests: "Systems security, privacy"
-      projects:
-        - *uptane
-        - *tuf
-        - *in-toto
 
   - nick_renner: &nick_renner
       name: "Nick Renner"
@@ -472,8 +385,6 @@ people:
       photo: "img/people/nick_renner.png"
       site: "http://nickrenner.com"
       interests: "Systems security, operating systems, Internet of Things"
-      projects:
-        - *lind
 
   - joey_pabalinas: &joey_pabalinas
       name: "Joey Pabalinas"
@@ -484,8 +395,6 @@ people:
       since: 2018
       photo: "img/people/joey_pabalinas.jpg"
       interests: "Linux kernel development"
-      projects:
-      - *crashsimulator
       deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
   - aditya_sirish: &aditya_sirish
@@ -496,9 +405,6 @@ people:
       since: 2019
       photo: "img/people/aditya_sirish.jpg"
       interests: "Internet privacy, systems security"
-      projects:
-            - *in-toto
-            - *tuf
 
   - sumana_harihareswara: &sumana_harihareswara
       name: "Sumana Harihareswara"
@@ -509,8 +415,6 @@ people:
       since: 2019
       photo: "img/people/sumana_harihareswara.jpg"
       interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
-      projects:
-        - *tuf
       deployments: Project manager for <a href="https://pypi.org/">the Python Package Index</a>.
 
 
@@ -522,8 +426,6 @@ people:
       since: 2019
       photo: "img/people/ashish_das.jpg"
       interests: "Applied cryptography, secure systems"
-      projects:
-            - *in-toto
             
   - priyanka_mahesh: &priyanka_mahesh
       name: "Priyanka Mahesh"
@@ -533,9 +435,6 @@ people:
       since: 2019
       photo: "img/people/priyanka_mahesh.jpg"
       interests: "Telematics security, applied cryptography"
-      projects:
-            - *uptane
-            - *tuf
             
 people_cards:
   - type: Faculty
