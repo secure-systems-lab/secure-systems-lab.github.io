@@ -45,8 +45,6 @@ layout: default
           {{ person.interests }}
         </div>
 
-          <div class="projects">
-            <span class="header">Projects</span>
         {% assign pubLinks = '' | split:':' %}
         {% for project_hash in site.data.data.projects.projects%}
             {% for proj_tuple in project_hash %}
@@ -61,7 +59,12 @@ layout: default
                 {% endfor %}
             {% endfor %}
         {% endfor %}
-                       {{ pubLinks | array_to_sentence_string }}
+
+        <div class="projects">
+            {% if pubLinks != empty %}
+              <span class="header">Projects</span>
+              {{ pubLinks | array_to_sentence_string }}
+            {% endif %}
         </div>
 
         {% if person.publications %}
