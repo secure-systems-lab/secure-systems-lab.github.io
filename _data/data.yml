@@ -901,8 +901,6 @@ projects:
         The code for <a href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a>
         is available. However, it is worth reading our <a href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a>
         first to learn about our experiences."
-        experiences: "Note that this project is not currently being maintained.
-    Please read our blog to learn about our experiences."
         people:
             - *yanyan_zhuang
             - name: "Eleni Gessiou"
@@ -924,8 +922,6 @@ projects:
         site: "https://uppir.poly.edu"
         description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
         products: "The prototype code for this project is available at its <a href=\"https://github.com/trishankkarthik/multiblockpir\">github repository</a>."
-        experiences: "Note that this project is not currently being maintained.
-    Please read our blog to learn about our experiences."
         people:
             - *luqin_wang
             - *trishank_kuppusamy
@@ -943,8 +939,6 @@ projects:
         site: "https://vsn.poly.edu"
         description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
         products: "This <a href=\"https://www.google.com/patents/US9246929\">patented technique</A> and its source code are available on the project <a href=\"https://vsn.poly.edu\">web site</a>."
-        experiences: "Note that this project is not currently being maintained.
-    Please read our blog to learn about our experiences."
         people:
             - *sai_peddinti
             - name: "Keith Ross"
@@ -956,11 +950,6 @@ projects:
             - *security
             - *networking
             - *privacy
-
-    projects_intro: "Though all of SSL’s research initiatives—past and present—revolve
-    around ensuring secure operation of computer systems, the specific areas
-    addressed by the team vary greatly. Initiatives are grouped into
-    the following categories:"
 
     project_cards:
     - *tuf
