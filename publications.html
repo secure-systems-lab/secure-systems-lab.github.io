@@ -6,13 +6,13 @@ layout: default
 
 <link rel="stylesheet" href="{{ site.baseurl }}css/publications.css"></link>
 
-<div class="intro">{{ site.data.publications.intro }}</div>
+<div class="intro">{{ site.data.data.publications.intro }}</div>
 
 <ul class="toc" id="tags-toc"></ul>
 
 <div class="publications">
 
-{% for type in site.data.publications.publication_cards %}
+{% for type in site.data.data.publications.publication_cards %}
   <a class="anchor" name="{{ type.anchor }}"></a>
   <h2 class="type">{{ type.type }}</h2>
 
