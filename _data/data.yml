@@ -4,7 +4,7 @@ people:
     enables us to address real-world problems using fresh perspectives."
     
     people:
-      - justin_cappos: &justin_cappos
+      - &justin_cappos
           name: "Justin Cappos"
           link: "/personalpages/jcappos"
           site: "personalpages/jcappos/"
@@ -35,7 +35,7 @@ people:
               link: "/personalpages/jcappos/publications.htm"
           deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in Microsoft, IBM, Google, VMware, Redhat, DigitalOcean, Datadog and Docker; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://uptane.github.io/\">Uptane</a> used in over a third of new cars on US roads starting in a few years.  <a href=\"in-toto.io\">in-toto</a> used by thousands of companies including Twitter, PBS, Washington Post, NBC, etc.  <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
     
-      - albert_rafetseder: &albert_rafetseder
+      - &albert_rafetseder
           name: "Albert Rafetseder"
           link: "people#albert_rafetseder"
           internal: true
@@ -60,7 +60,7 @@ people:
               link: "/papers/li-usenix-fence-2015.pdf"
           deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
     
-      - sam_weber: &sam_weber
+      - &sam_weber
           name: "Sam Weber"
           link: "people#sam_weber"
           internal: true
@@ -82,7 +82,7 @@ people:
             - name: "SESS 2005"
               link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
     
-      - vlad_diaz: &vlad_diaz
+      - &vlad_diaz
           name: "Vladimir Diaz"
           link: "people#vlad_diaz"
           internal: true
@@ -102,7 +102,7 @@ people:
               link: "http://www.python.org/dev/peps/pep-0480/"
           deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
     
-      - sebastien_awwad: &sebastien_awwad
+      - &sebastien_awwad
           name: "Sebastien Awwad"
           link: "people#sebastien_awwad"
           internal: true
@@ -115,7 +115,7 @@ people:
               link: "/papers/kuppusamy_escar_16.pdf"
           deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
     
-      - lukas_puhringer: &lukas_puhringer
+      - &lukas_puhringer
           name: "Lukas Pühringer"
           link: "people#lukas_pühringer"
           internal: true
@@ -135,7 +135,7 @@ people:
           Framework</a> (used on smartphones to capture data for <a
           href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>),
           Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
-      - trishank_kuppusamy: &trishank_kuppusamy
+      - &trishank_kuppusamy
           name: "Trishank Kuppusamy"
           link: "people#trishank_kuppusamy"
           internal: true
@@ -160,7 +160,7 @@ people:
               - name: "ISBA 2015"
                 link: "http://ieeexplore.ieee.org/document/7126366/"
           deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
-      - luqin_wang: &luqin_wang
+      - &luqin_wang
           name: "Luqin Wang"
           link: "people#luqin_wang"
           internal: true
@@ -173,7 +173,7 @@ people:
                 link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
               - name: "GLOBECOM 2015"
                 link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-      - ghada_almashaqbeh: &ghada_almashaqbeh
+      - &ghada_almashaqbeh
           name: "Ghada Almashaqbeh"
           link: "people#ghada_almashaqbeh"
           internal: true
@@ -191,7 +191,7 @@ people:
             - name: "BMC Medical Informatics and Decision-Making 2015"
               link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4"
     
-      - yiwen_li: &yiwen_li
+      - &yiwen_li
           name: "Yiwen Li"
           link: "people#yiwen_li"
           internal: true
@@ -208,7 +208,7 @@ people:
               - name: "CATT 2014 (poster)"
                 link:
     
-      - santiago_torres: &santiago_torres
+      - &santiago_torres
           name: "Santiago Torres-Arias"
           link: "people#santiago_torres"
           internal: true
@@ -235,7 +235,7 @@ people:
                 link: "https://ssl.engineering.nyu.edu/papers/torres_pph_login_2014.pdf"
           deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
     
-      - artiom_baloian: &artiom_baloian
+      - &artiom_baloian
           name: "Artiom Baloian"
           link: "people#artiom_baloian"
           internal: true
@@ -256,7 +256,7 @@ people:
             speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework
             based on LLVM used by Airbus and other companies."
     
-      - lois_delong: &lois_delong
+      - &lois_delong
           name: "Lois Anne DeLong"
           link: "people#lois_delong"
           internal: true
@@ -275,7 +275,7 @@ people:
                 - name: ";login 2017"
                   link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
     
-      - sai_peddinti: &sai_peddinti
+      - &sai_peddinti
           name: Sai Teja Peddinti
           link: "people#sai_peddinti"
           internal: true
@@ -296,7 +296,7 @@ people:
                   link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
                 - name: "U.S. Patent 9246929"
                   link: "https://www.google.com/patents/US9246929"
-      - preston_moore: &preston_moore
+      - &preston_moore
           name: "Preston Kent Moore"
           link: "people#preston_moore"
           internal: true
@@ -305,8 +305,9 @@ people:
           since: "2015"
           photo: "img/people/preston_moore.jpg"
           interests: "Secure software engineering, automated testing, systems security"
-      - dan_gopstein: &dan_gopstein
+      - &dan_gopstein
           name: "Dan Gopstein"
+          anchor: dan_gopstein
           link: "people#dan_gopstein"
           internal: true
           role: "Ph.D. Student (co-advised with Andy Nealen)"
@@ -324,7 +325,7 @@ people:
               link: "http://game.engineering.nyu.edu/projects/animesh/"
           deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
     
-      - yanyan_zhuang: &yanyan_zhuang
+      - &yanyan_zhuang
           name: "Yanyan Zhuang"
           link: "people#yanyan_zhuang"
           site: "http://www.cs.uccs.edu/~yzhuang/"
@@ -354,7 +355,7 @@ people:
               link: "http://dl.acm.org/citation.cfm?id=2538931"
           deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
     
-      - henry_zhou: &henry_zhou
+      - &henry_zhou
           name: "Henry Zhou"
           link: "people#henry_zhou"
           internal: true
@@ -367,7 +368,7 @@ people:
                   - name: "MSR 2018"
                     link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
     
-      - marina_moore: &marina_moore
+      - &marina_moore
           name: "Marina Moore"
           link: "people#marina_moore"
           internal: true
@@ -376,7 +377,7 @@ people:
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
     
-      - nick_renner: &nick_renner
+      - &nick_renner
           name: "Nick Renner"
           link: "people#nick_renner"
           internal: true
@@ -387,7 +388,7 @@ people:
           site: "http://nickrenner.com"
           interests: "Systems security, operating systems, Internet of Things"
     
-      - joey_pabalinas: &joey_pabalinas
+      - &joey_pabalinas
           name: "Joey Pabalinas"
           link: "people#joey_pabalinas"
           site: "https://alyp.tk/"
@@ -398,7 +399,7 @@ people:
           interests: "Linux kernel development"
           deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
     
-      - aditya_sirish: &aditya_sirish
+      - &aditya_sirish
           name: "Aditya Sirish"
           link: "people#aditya_sirish"
           internal: true
@@ -407,7 +408,7 @@ people:
           photo: "img/people/aditya_sirish.jpg"
           interests: "Internet privacy, systems security"
     
-      - sumana_harihareswara: &sumana_harihareswara
+      - &sumana_harihareswara
           name: "Sumana Harihareswara"
           link: "people#sumana_harihareswara"
           site: "https://www.changeset.nyc/"
@@ -419,7 +420,7 @@ people:
           deployments: Project manager for <a href="https://pypi.org/">the Python Package Index</a>.
     
     
-      - ashish_das: &ashish_das
+      - &ashish_das
           name: "Ashish Das"
           link: "people#ashish_das"
           internal: true
@@ -428,7 +429,7 @@ people:
           photo: "img/people/ashish_das.jpg"
           interests: "Applied cryptography, secure systems"
                 
-      - priyanka_mahesh: &priyanka_mahesh
+      - &priyanka_mahesh
           name: "Priyanka Mahesh"
           link: "people#priyanka_mahesh"
           internal: true
@@ -1698,60 +1699,6 @@ publications:
   in practice for five years, protecting tens of thousands of
   users."
   
-    - &torres_toto_usenixsec-2016
-      anchor: torres_toto_usenixsec-2016
-      title: "On omitting commits and committing omissions: Preventing git metadata tampering that (re) introduces software vulnerabilities"
-      authors:
-        - name: "S. Torres-Arias, A. Ammula, R. Curtmola, and J. Cappos"
-      project: *in-toto
-      booktitle: "25th USENIX Security Symposium, (USENIX Sec 2016)"
-      volume: "16"
-      pages: "10-12"
-      year:
-      link: "/papers/torres_toto_usenixsec-2016.pdf"
-      abstract: "Metadata manipulation attacks represent a new threat
-  class directed against Version Control Systems, such as
-  the popular Git. This type of attack provides inconsistent
-  views of a repository state to different developers,
-  and deceives them into performing unintended operations
-  with often negative consequences. These include
-  omitting security patches, merging untested code into a
-  production branch, and even inadvertently installing software
-  containing known vulnerabilities. To make matters
-  worse, the attacks are subtle by nature and leave no trace
-  after being executed.
-  We propose a defense scheme that mitigates these attacks
-  by maintaining a cryptographically-signed log of
-  relevant developer actions. By documenting the state
-  of the repository at a particular time when an action is
-  taken, developers are given a shared history, so irregularities
-  are easily detected. Our prototype implementation
-  of the scheme can be deployed immediately as it is
-  backwards compatible and preserves current workflows
-  and use cases for Git users. An evaluation shows that
-  the defense adds a modest overhead while offering significantly
-  stronger security. We performed responsible
-  disclosure of the attacks and are working with the Git
-  community to fix these issues in an upcoming version of
-  Git."
-  
-    - &kuppusamy_nsdi_16
-      anchor: kuppusamy_nsdi_16
-      title: "Diplomat: Using Delegations to Protect Community Repositories"
-      authors:
-        - name: "T. Kuppusamy, S. Torres-Arias, V. Diaz, and J. Cappos"
-      project: *tuf
-      booktitle: "13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)"
-      year:
-      isbn: "978-1-931971-29-4"
-      address:
-      pages: "567--581"
-      publisher: "USENIX Association"
-      link: "/papers/kuppusamy_nsdi_16.pdf"
-      abstract: "Community repositories, such as Docker Hub, PyPI, and RubyGems, are bustling marketplaces that distribute software. Even though these repositories use common software signing techniques (e.g., GPG and TLS), attackers can still publish malicious packages after a server compromise. This is mainly because a community repository must have immediate access to signing keys in order to certify the large number of new projects that are registered each day.
-  
-  This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
-  
     - &peddinti_ICWSM_2016
       anchor: peddinti_ICWSM_2016
       title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
@@ -1762,47 +1709,6 @@ publications:
       link: "/papers/Peddinti_ICWSM_2016.pdf"
       abstract: "We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons."
       eprint: "arXiv:1702.00164"
-  
-    - &li-usenix-fence-2015
-      anchor: li-usenix-fence-2015
-      title: "Fence: Protecting Device Availability with Uniform Resource Control"
-      authors:
-        - name: "T. Li, A. Rafetseder, R. Fonseca, and J. Cappos"
-      project: *seattle
-      booktitle: "2015 USENIX Annual Technical Conference (USENIX ATC 15)"
-      year:
-      isbn: "978-1-931971-225"
-      address:
-      pages: "177--191"
-      publisher: "USENIX Association"
-      link: "/papers/li-usenix-fence-2015.pdf"
-      abstract: "Applications such as software updaters or a run-away web
-  app, even if low priority, can cause performance degradation,
-  loss of battery life, or other issues that reduce a
-  computing device's availability. The core problem is that
-  OS resource control mechanisms unevenly apply uncoordinated
-  policies across different resources. This paper
-  shows how handling resources - e.g., CPU, memory, sockets,
-  and bandwidth - in coordination, through a unifying
-  abstraction, can be both simpler and more effective. We
-  abstract resources along two dimensions of fungibility
-  and renewability, to enable resource-agnostic algorithms
-  to provide resource limits for a diverse set of applications.
-  We demonstrate the power of our resource abstraction
-  with a prototype resource control subsystem, Fence,
-  which we implement for two sandbox environments running
-  on a wide variety of operating systems (Windows,
-  Linux, the BSDs, Mac OS X, iOS, Android, OLPC, and
-  Nokia) and device types (servers, desktops, tablets, laptops,
-  and smartphones). We use Fence to provide systemwide
-  protection against resource hogging processes that
-  include limiting battery drain, preventing overheating,
-  and isolating performance. Even when there is interference,
-  Fence can double the battery life and improve the
-  responsiveness of other applications by an order of magnitude.
-  Fence is publicly available and has been deployed
-  in practice for five years, protecting tens of thousands of
-  users"
   
     - &wang_uppir_globecom2015
       anchor: wang_uppir_globecom2015
