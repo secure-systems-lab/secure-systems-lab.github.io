@@ -1752,8 +1752,8 @@ publications:
   
   This work demonstrates that community repositories can offer compromise-resilience and real-time project registration by employing mechanisms that disambiguate trust delegations. This is done through two delegation mechanisms that provide flexibility in the amount of trust assigned to different keys. Using this idea we implement Diplomat, a software update framework that supports security models with different security / usability tradeoffs. By leveraging Diplomat, a community repository can achieve near-perfect compromise-resilience while allowing real-time project registration. For example, when Diplomat is deployed and configured to maximize security on Python's community repository, less than 1% of users will be at risk even if an attacker controls the repository and is undetected for a month. Diplomat is being integrated by Ruby, CoreOS, Haskell, OCaml, and Python, and has already been deployed by Flynn, LEAP, and Docker."
   
-    - &Peddinti_ICWSM_2016
-      anchor: Peddinti_ICWSM_2016
+    - &peddinti_ICWSM_2016
+      anchor: peddinti_ICWSM_2016
       title: "Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity"
       authors:
         - name: "S.T. Peddinti, K.W. Ross, and J. Cappos"
@@ -2024,7 +2024,7 @@ publications:
       location: "Dublin, Ireland"
       pages: "83--94"
       numpages: "12"
-      link: "/papers/peddenti_cosn_14.pdf"
+      link: "/papers/peddinti_cosn_14.pdf"
       acmid: "2660467"
       publisher: "ACM"
       address:
@@ -2192,7 +2192,7 @@ publications:
   from expected network semantics. These deviations are then mapped to a
   diagnosis by using a set of heuristics."
   
-    - &zhuang_seattle_gree
+    - &zhuang_seattle_gree_13
       anchor: zhuang_seattle_gree_13
       title: "Experience with Seattle: A Community Platform for Research and Education"
       authors:
@@ -2440,7 +2440,7 @@ publications:
       title: "Model-based Testing Without a Model: Assessing Portability in the Seattle Testbed"
       authors:
         - name: "J.Cappos and J. Jacky"
-      project: *seatlle
+      project: *seattle
       booktitle: "5th Workshop on Systems Software Verification (SSV'10)"
       series: "SSV '10'"
       year: "2010"
@@ -2593,7 +2593,7 @@ publications:
       anchor: conference
       publications:
         - *torres_intoto_usenixsec_19
-        - *vaidya_cvc_IFIPsec_19
+        - *vaidya_cvcs_IFIPsec_19
         - *almashaqbeh_capnet_CNS_19
         - *oliveira_blindspots_SOUPS_18
         - *afzali_git_asiaccs_18
@@ -2617,7 +2617,7 @@ publications:
         - *reininger_sensevis_sas15
         - *hooshangi_sigcse15
         - *oliveira_puzzles_acsac_2014
-        - *peddenti_cosn_14
+        - *peddinti_cosn_14
         - *zhuang_netcheck_nsdi_14
         - *cappos_blursense_sas_14
         - *cappos_refmonitor_sigcse_14
