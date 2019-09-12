@@ -21,3 +21,22 @@ person_publication:
 project:
     name: str()
     anchor: str()
+    image: str()
+    site: str(required=False)
+    status: include('status')
+    description: str()
+    products: str()
+    people: list(any(include('person'), include('proj_person')))
+    tags: list(include('tag'))
+
+proj_person:
+  name: str()
+  link: str(required=False)
+
+status:
+  name: str()
+  description: str()
+
+tag:
+  name: str()
+  anchor: str()
