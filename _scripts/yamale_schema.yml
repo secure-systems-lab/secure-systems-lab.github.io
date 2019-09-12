@@ -1,0 +1,16 @@
+people:
+    people: list(include('person'))
+---
+person:
+    name: str()
+    link: str()
+    internal: bool()
+    role: str()
+    since: any(int(min=2010,max=2025), str())
+    photo: str()
+    interests: str()
+    publications: list(include('publication'), required=False)
+
+publication:
+    name: str()
+    link: str(required=False)
