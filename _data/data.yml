@@ -87,7 +87,6 @@ people:
           name: "Vladimir Diaz"
           anchor: vlad_diaz
           internal: true
-          anchor: vlad_diaz
           role: "Developer"
           since: "2013"
           photo: "img/people/vlad_diaz.jpg"
@@ -213,7 +212,6 @@ people:
           name: "Santiago Torres-Arias"
           anchor: santiago_torres
           internal: true
-          anchor: santiago_torres
           role: "Ph.D. Candidate"
           since: "2014"
           photo: "img/people/santiago_torres.png"
@@ -2715,14 +2713,6 @@ press:
       type: article
       project: *tuf
       source: "Container Journal"
-      date: "October 24, 2017"
-  
-    - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
-      link: "http://techrights.org/2017/10/24/archlabs-2017-10/"
-      anchor: TRlinks2410cncftuf
-      type: article
-      project: *tuf
-      source: "TechRights"
       date: "October 24, 2017"
   
     - title: "Two new open-source security projects are joining the Cloud Native Computing Foundation"
