@@ -1,0 +1,86 @@
+people:
+    intro: "Our lab's participants range from professors with dozens of years of"
+    
+    people:
+      - &justin_cappos
+          name: "Justin Cappos"
+          anchor: justin_cappos
+          link: "/personalpages/jcappos"
+          site: "personalpages/jcappos/"
+          internal: true
+          role: "Professor and Lab Director"
+          since: 2010
+          photo: "img/people/justin_cappos.jpg"
+          interests: "Solving real world security problems in practice"
+          publications:
+            - name: "USENIX Security 2019"
+          deployments: "TUF used in Microsoft"
+                
+    people_cards:
+      - type: Faculty
+        anchor: faculty
+        people:
+          - *justin
+
+projects:
+    statuses:
+    - &stealth
+        name: "Stealth Mode"
+        description: "Shhhh.  We're still figuring things out internally."
+
+    tags:
+    - &software_updates
+        name: "Software Updates"
+        anchor: software_updates
+
+    intro: "Though all of SSL’s research"
+
+    projects:
+    - &tuf
+        name: "The Update Framework (TUF)"
+        anchor: "tuf"
+        image: "img/projects/tuf_diagram.png"
+        site: "https://theupdateframework.github.io"
+        status: *stealth
+        description: "Software must be updated frequently to not only ensure"
+        products: "TUF is used in production by"
+        people:
+            - *justin_cappos
+        tags:
+        - *software_updates
+
+    project_cards:
+    - *tuf
+
+publications:
+  intro: "Selected, recent papers from the Secure Systems Lab."
+  
+  publications:
+    - &mercury_usenix_17
+      anchor: mercury_usenix_17
+      title: "Mercury: Bandwidth-Effective Prevention of Rollback Attacks"
+      authors:
+        - name: "T. Kuppusamy, V. Diaz, and J. Cappos"
+      project:
+        - *tuf
+      booktitle: "The 2017 USENIX Annual Technical Conference (USENIX ATC 2017)"
+      link: /papers/kuppusamy-mercury-usenix-2017.pdf
+      abstract: "A popular community repository such as Docker Hub, PyPI"
+
+  publication_cards:
+    - type: Conference Papers
+      anchor: conference
+      publications:
+        - *mercury_usenix_17
+  
+press:
+  intro: "Selected mentions about our research in the press"
+  
+  presses:
+    - title: "Airbiquity Bolsters OTAmatic Security and Data Analytic Features in Latest"
+      link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-"
+      anchor: AirUptane
+      type: article
+      project: *tuf
+      source: "Airbiquity.com"
+      date: "December 14, 2018"

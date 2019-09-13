@@ -63,6 +63,7 @@ layout: default
        {% endif %}
 
        {% if project.people %}
+          <br />
           <li><div class="people">
              <span class="header">People: </span>
              {% assign personLinks = '' | split:':' %}
@@ -70,7 +71,9 @@ layout: default
              {% if person == nil %}
                  {% capture personLink %}<span style="color: red;">NAME MISSING</span>{% endcapture %}
              {% else %}
-                 {% capture personLink %}{% if person.link %}<a class={% if person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link }}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
+                 {% assign defaultLink = "people#" | append: person.anchor %}
+                 {% capture personLink %}{% if person.link or person.anchor %}<a class={% if
+             person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link | default: defaultLink}}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
              {% endif %}
                {% assign personLinks = personLinks | push: personLink %}
              {% endfor %}

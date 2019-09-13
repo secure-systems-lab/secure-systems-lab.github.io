@@ -1,0 +1,110 @@
+people:
+    intro: str()
+    people: list(include('person'))
+    people_cards: list(include('people_card'))
+
+projects:
+    intro: str()
+    statuses: list(include('status'))
+    tags: list(include('tag'))
+    projects: list(include('project'))
+    project_cards: list(include('project'))
+
+publications:
+    intro: str()
+    publications: list(include('publication'))
+    publication_cards: list(include('publication_card'))
+
+press:
+    intro: str()
+    presses: list(include('press'))
+---
+person:
+    name: str()
+    anchor: str()
+    link: str(required=False)
+    site: str(required=False)
+    internal: bool()
+    role: str()
+    since: any(int(min=2010,max=2025), str())
+    interests: str()
+    photo: str()
+    interests: str()
+    publications: list(include('person_publication'), required=False)
+    deployments: str(required=False)
+
+person_publication:
+    name: str()
+    link: str(required=False)
+
+people_card:
+    type: str()
+    anchor: str()
+    people: list(include('person'))
+
+project:
+    name: str()
+    anchor: str()
+    image: str()
+    site: str(required=False)
+    status: include('status')
+    description: str()
+    products: str()
+    people: list(any(include('person'), include('proj_person')))
+    tags: list(include('tag'))
+
+proj_person:
+    name: str()
+    link: str(required=False)
+
+status:
+    name: str()
+    description: str()
+
+tag:
+    name: str()
+    anchor: str()
+
+publication:
+    anchor: str()
+    title: str()
+    authors: list(include('name'))
+    project: any(include('project'), str(required=False))
+    booktitle: str(required=False)
+    year: any(str(), int(), required=False)
+    pages: any(str(), int(), required=False)
+    publisher: str(required=False)
+    link: str(required=False)
+    abstract: str(required=False)
+    series: str(required=False)
+    numpages: any(str(), int(), required=False)
+    location: str(required=False)
+    isbn: str(required=False)
+    keywords: str(required=False)
+    address: str(required=False)
+    acmid: str(required=False)
+    number: str(required=False)
+    journal: str(required=False)
+    volume: str(required=False)
+    institution: str(required=False)
+    month: str(required=False)
+    eprint: str(required=False)
+    doi: str(required=False)
+    url: str(required=False)
+
+publication_card:
+    type: str()
+    anchor: str()
+    publications: list(include('publication'))
+
+name:
+  name: str()
+
+press:
+    title: str()
+    link: str()
+    anchor: str()
+    type: str()
+    project: include('project')
+    source: str()
+    date: str()
