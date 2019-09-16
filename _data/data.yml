@@ -432,7 +432,34 @@ people:
           since: 2019
           photo: "img/people/priyanka_mahesh.jpg"
           interests: "Telematics security, applied cryptography"
-                
+  
+       - &yash_shah
+          name: "Yash Shah"
+          anchor: yash_shah
+          internal: true
+          role: "Master's student"
+          since: 2019
+          photo: "img/people/yash_shah.jpg"
+          interests: "Vulnerabilities, incident and event management"
+          
+       - &cindy_kim
+          name: "Cindy Kim"
+          anchor: cindy_kim
+          internal: true
+          role: "Undergraduate student"
+          since: 2019
+          photo: "img/people/cindy_kim.jpg"
+          interests: "Systems security, privacy, and social networks"        
+
+       - &kristel_fung
+          name: "Kristel Fung"
+          anchor: kristel_fung
+          internal: true
+          role: "Undergraduate student"
+          since: 2019
+          photo: "img/people/kristel_fung.jpg"
+          interests: "Cybersecurity, cryptography, software development"     
+
     people_cards:
       - type: Faculty
         anchor: faculty
@@ -462,6 +489,9 @@ people:
           - *aditya_sirish
           - *ashish_das
           - *priyanka_mahesh
+          - *yash_shah
+          - *cindy_kim
+          - *kristel_fung
           - *henry_zhou
     
       - type: "Visiting Scholars"
@@ -571,6 +601,8 @@ projects:
             - *marina_moore
             - *trishank_kuppusamy
             - *vlad_diaz
+            - *priyanka_mahesh
+            - *cindy_kim
             - *lukas_puhringer
             - *justin_cappos
         tags:
@@ -626,6 +658,8 @@ projects:
             - *marina_moore
             - *lois_delong
             - *lukas_puhringer
+            - *priyanka_mahesh
+            
             - name: Ira McDonald (High North Inc.)
               link: 
             - name: Cameron Mott (SWRI)
@@ -651,6 +685,8 @@ projects:
         people:
             - *santiago_torres
             - *lukas_puhringer
+            - *cindy_kim
+            - *kristel_fung
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
@@ -744,6 +780,7 @@ projects:
         people:
             - *yiwen_li
             - *nick_renner
+            - *yash_shah
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
