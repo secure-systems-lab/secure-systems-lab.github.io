@@ -433,7 +433,7 @@ people:
           photo: "img/people/priyanka_mahesh.jpg"
           interests: "Telematics security, applied cryptography"
   
-       - &yash_shah
+      - &yash_shah
           name: "Yash Shah"
           anchor: yash_shah
           internal: true
@@ -442,7 +442,7 @@ people:
           photo: "img/people/yash_shah.jpg"
           interests: "Vulnerabilities, incident and event management"
           
-       - &cindy_kim
+      - &cindy_kim
           name: "Cindy Kim"
           anchor: cindy_kim
           internal: true
@@ -451,7 +451,7 @@ people:
           photo: "img/people/cindy_kim.jpg"
           interests: "Systems security, privacy, and social networks"        
 
-       - &kristel_fung
+      - &kristel_fung
           name: "Kristel Fung"
           anchor: kristel_fung
           internal: true
