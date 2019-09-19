@@ -489,9 +489,9 @@ people:
           - *aditya_sirish
           - *ashish_das
           - *priyanka_mahesh
-          - *yash_shah
-          - *cindy_kim
-          - *kristel_fung
+#          - *yash_shah
+#          - *cindy_kim
+#          - *kristel_fung
           - *henry_zhou
 
       - type: "Visiting Scholars"
@@ -602,7 +602,7 @@ projects:
             - *trishank_kuppusamy
             - *vlad_diaz
             - *priyanka_mahesh
-            - *cindy_kim
+#            - *cindy_kim
             - *lukas_puhringer
             - *justin_cappos
         tags:
@@ -685,8 +685,8 @@ projects:
         people:
             - *santiago_torres
             - *lukas_puhringer
-            - *cindy_kim
-            - *kristel_fung
+#            - *cindy_kim
+#            - *kristel_fung
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
@@ -780,7 +780,7 @@ projects:
         people:
             - *yiwen_li
             - *nick_renner
-            - *yash_shah
+#            - *yash_shah
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
