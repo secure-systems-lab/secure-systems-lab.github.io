@@ -1011,6 +1011,19 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &moore_crashsim_issre_19
+      anchor: moore_crashsim_issre_19
+      title: "Charting a Course Through Uncertain Environments: SEA Uses Past Problems to Avoid Future Failures"
+      authors:
+        - name: "P. Moore, J. Cappos, P. Frankl,  and T. Wies"
+      project: *crashsimulator
+      booktitle: "to be presented at the 30th IEEE International Symposium on Software Reliability Engineering (ISSRE'19)"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: ""
+      abstract: ""
+
     - &torres_intoto_usenixsec_19
       anchor: torres_intoto_usenixsec_19
       title: "in-toto: providing farm-to-table security properties for bits and bytes"
@@ -1022,7 +1035,16 @@ publications:
       pages: ""
       publisher: ""
       link: ""
-      abstract: ""
+      abstract: "The software development process is quite complex and involves a number of independent actors. Developers 
+      check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems 
+      run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged 
+      for distribution into a delivered product, to be consumed by end users. An attacker that is able to compromise any single
+      step in the process can maliciously modify the software and harm any of the software’s users.
+      To address these issues, we designed in-toto, a framework that cryptographically ensures the integrity of the
+      software supply chain. in-toto grants the end user the ability to verify the software’s supply chain from the 
+      project’s inception to its deployment. We demonstrate in-toto’s effectiveness on 30 software supply chain compromises
+      that affected hundreds of million of users and showcase in-toto’s usage over cloud-native, hybrid-cloud and cloud-agnostic
+      applications. in-toto is integrated into products and open source projects that are used by millions of people daily."
 
     - &vaidya_cvcs_IFIPsec_19
       anchor: vaidya_cvcs_IFIPsec_19
@@ -2522,6 +2544,7 @@ publications:
     - type: Conference Papers
       anchor: conference
       publications:
+        - *moore_crashsim_issre_19
         - *torres_intoto_usenixsec_19
         - *vaidya_cvcs_IFIPsec_19
         - *almashaqbeh_capnet_CNS_19
@@ -2594,6 +2617,30 @@ press:
   intro: "Selected mentions about our research in the press"
 
   presses:
+  
+    - title: "Protecting Update Systems from Nation-state Attackers"
+      link: "https://lwn.net/Articles/794391/"
+      anchor: LWNUptanejuly
+      type: article
+      project: *uptane
+      source: "LWN.net"
+      date: "July 24, 2019"
+ 
+    - title: "Top OTA Expert Show How State Actors Hack into your car and What Happens Next: 'People will Die'"
+      link: "https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die"
+      anchor: DriveUptane19
+      type: article
+      project: *uptane
+      source: "The Drive.com"
+      date: "July 23, 2019"
+ 
+    - title: "33+ Kubernetes Security Tools"
+      link: "https://sysdig.com/blog/33-kubernetes-security-tools/"
+      anchor: 33KuberUptane
+      type: article
+      project: *uptane
+      source: "Sysdig.com"
+      date: "July 9, 2019"
 
     - title: "Airbiquity Bolsters OTAmatic Security and Data Analytic Features in Latest
     Over-the-Air (OTA) Software and Data Management Offering for Automotive"
@@ -2644,8 +2691,6 @@ press:
       source: "The New Stack"
       date: "June 26, 2018"
 
-
-
     - title: "Tandon Grad Student Wins Awards for His Computer Science Research"
       link: "https://engineering.nyu.edu/news/tandon-grad-student-wins-awards-his-computer-science-research"
       anchor: TandonNewsDanAward
@@ -2654,15 +2699,21 @@ press:
       source: "Engineering.NYU News"
       date: "June 11, 2018"
 
-
-
-    - title: "Airbiquity with Uptane"
+  - title: "Airbiquity with Uptane"
       link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
       anchor: accairbiqUptane
       type: article
       project: *uptane
       source: "Auto Connected Car News"
       date: "May 20, 2018"
+
+    - title: "Now more than ever, cars are just rolling computers"
+      link: "https://www.marketplace.org/2018/05/25/tech/now-more-ever-cars-are-just-rolling-computers/"
+      anchor: MktUptane
+      type: article
+      project: *uptane
+      source: "Marketplace.com"
+      date: "May 25, 2018"
 
     - title: "Securing the Container Image Supply Chain"
       link: "https://lwn.net/Articles/754443/"
