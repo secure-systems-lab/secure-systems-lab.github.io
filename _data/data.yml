@@ -464,7 +464,7 @@ people:
       - type: Faculty
         anchor: faculty
         people:
-          - *justin_cappos
+          - *justin
 
       - type: Staff
         anchor: staff
