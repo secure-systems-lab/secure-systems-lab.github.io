@@ -2699,7 +2699,7 @@ press:
       source: "Engineering.NYU News"
       date: "June 11, 2018"
 
-  - title: "Airbiquity with Uptane"
+    - title: "Airbiquity with Uptane"
       link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
       anchor: accairbiqUptane
       type: article
