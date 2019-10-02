@@ -39,11 +39,12 @@ else:
     print(str(n_fails) + " regressions failed")
 
 
-print()
-print("Testing production data...")
+print("\nTesting production data...\n")
 try:
     yamale.validate(schema, yamale.make_data(prod_data))
 except Exception as e:
-    print(Fore.YELLOW + str(e) + Style.RESET_ALL)
+    for line in str(e).splitlines():
+        print(Fore.MAGENTA + line)
+    print(Style.RESET_ALL)
 else:
     print("No errors found in production data!")
