@@ -46,5 +46,6 @@ except Exception as e:
     for line in str(e).splitlines():
         print(Fore.MAGENTA + line)
     print(Style.RESET_ALL)
+    exit(1)
 else:
     print("No errors found in production data!")
