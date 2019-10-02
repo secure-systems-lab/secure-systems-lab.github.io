@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
 import yamale
+import os
 
-test_dir = './'
-data_dir = test_dir+'data/'
-schema = yamale.make_schema(test_dir+'yamale_schema.yml')
+test_dir = os.path.dirname(os.path.abspath(__file__))
+test_data_dir = os.path.join(test_dir, 'data')
+prod_data = os.path.join(test_dir, '..', '_data', 'data.yml')
+schema_file = os.path.join(test_dir, 'yamale_schema.yml')
+schema = yamale.make_schema(schema_file)
 
 tests = [
     [True,  'test_data.yml'],
@@ -19,7 +22,7 @@ n_fails = 0
 for [should_pass, filename] in tests:
     did_pass = True
     try:
-        yamale.validate(schema, yamale.make_data(data_dir+filename))
+        yamale.validate(schema, yamale.make_data(os.path.join(test_data_dir, filename)))
     except Exception as e:
         did_pass = False
 
@@ -30,12 +33,12 @@ for [should_pass, filename] in tests:
         print("Fail: " + filename)
 
 if n_fails == 0:
-    print("All tests passed")
+    print("Regression tests passed")
 else:
-    print(str(n_fails) + " tests failed")
+    print(str(n_fails) + " regressions failed")
 
 
 print()
 print("Testing production data...")
-yamale.validate(schema, yamale.make_data('../_data/data.yml'))
+yamale.validate(schema, yamale.make_data(prod_data))
 print("No errors found in production data!")
