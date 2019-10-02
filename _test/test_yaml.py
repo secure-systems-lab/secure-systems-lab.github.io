@@ -2,6 +2,7 @@
 
 import yamale
 import os
+from colorama import Fore, Style
 
 test_dir = os.path.dirname(os.path.abspath(__file__))
 test_data_dir = os.path.join(test_dir, 'data')
@@ -40,5 +41,9 @@ else:
 
 print()
 print("Testing production data...")
-yamale.validate(schema, yamale.make_data(prod_data))
-print("No errors found in production data!")
+try:
+    yamale.validate(schema, yamale.make_data(prod_data))
+except Exception as e:
+    print(Fore.YELLOW + str(e) + Style.RESET_ALL)
+else:
+    print("No errors found in production data!")
