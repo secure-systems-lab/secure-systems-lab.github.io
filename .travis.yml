@@ -5,6 +5,7 @@ language: python
 
 install:
   - pip install yamale
+  - pip install colorama
 
 script:
   - _test/test_yaml.py

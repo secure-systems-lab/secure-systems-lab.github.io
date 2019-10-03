@@ -2,6 +2,7 @@
 
 import yamale
 import os
+from colorama import Fore, Style
 
 test_dir = os.path.dirname(os.path.abspath(__file__))
 test_data_dir = os.path.join(test_dir, 'data')
@@ -38,7 +39,13 @@ else:
     print(str(n_fails) + " regressions failed")
 
 
-print()
-print("Testing production data...")
-yamale.validate(schema, yamale.make_data(prod_data))
-print("No errors found in production data!")
+print("\nTesting production data...\n")
+try:
+    yamale.validate(schema, yamale.make_data(prod_data))
+except Exception as e:
+    for line in str(e).splitlines():
+        print(Fore.MAGENTA + line)
+    print(Style.RESET_ALL)
+    exit(1)
+else:
+    print("No errors found in production data!")
