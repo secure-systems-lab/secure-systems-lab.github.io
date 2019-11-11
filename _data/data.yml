@@ -1030,11 +1030,11 @@ publications:
       authors:
         - name: "S. Torres-Arias, H. Nanize, T. Kuppusamy, R. Curtmola, and J. Cappos"
       project: *in-toto
-      booktitle: "to be presented at the 28th USENIX Security Symposium (USENIX Sec'19)"
+      booktitle: "the 28th USENIX Security Symposium (USENIX Sec'19)"
       year: ""
       pages: ""
       publisher: ""
-      link: ""
+      link: "/papers/torres_toto_usenixsec-2016.pdf"
       abstract: "The software development process is quite complex and involves a number of independent actors. Developers 
       check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems 
       run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged 
@@ -1052,7 +1052,7 @@ publications:
       authors:
         - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
       project:
-      booktitle: "to be presented at the 34th International Conference on ICT Systems Security and Privacy
+      booktitle: "the 34th International Conference on ICT Systems Security and Privacy
       Protection (IFIP SEC '19)"
       year: ""
       pages: ""
