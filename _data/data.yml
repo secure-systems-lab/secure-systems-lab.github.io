@@ -16,6 +16,7 @@ people:
           interests: "Solving real world security problems in practice"
           publications:
             - name: "USENIX Security 2019"
+              link: "/papers/torres-toto-usenix19.pdf"
             - name: "AsiaCCS 2018"
               link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
             - name: "MSR 2018"
@@ -220,6 +221,7 @@ people:
           publications:
 
               - name: "USENIX Security 2019"
+                link: "/papers/torres-toto-usenix19.pdf"
               - name: "IFIP SEC"
                 link: "/papers/vaidya_cvc_IFIPsec_19"
               - name: "AsiaCCS"
@@ -1034,7 +1036,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/papers/torres_toto_usenixsec-2016.pdf"
+      link: "/papers/torres-toto-usenix19.pdf"
       abstract: "The software development process is quite complex and involves a number of independent actors. Developers 
       check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems 
       run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged 
