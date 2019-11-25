@@ -410,11 +410,11 @@ people:
           anchor: sumana_harihareswara
           site: "https://www.changeset.nyc/"
           internal: false
-          role: "Visiting scholar from Python Software Foundation"
+          role: "Visiting scholar contracted with Python Software Foundation"
           since: 2019
           photo: "img/people/sumana_harihareswara.jpg"
           interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
-          deployments: Project manager for <a href="https://pypi.org/">the Python Package Index</a>.
+          deployments: Project manager for <a href="https://pip.pypa.io/">pip</a>, previously for <a href="https://pypi.org/">the Python Package Index (PyPI)</a> (<a href="https://lwn.net/Articles/751458/">LWN coverage</a>).
 
 
       - &ashish_das
