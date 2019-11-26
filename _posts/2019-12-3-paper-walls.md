@@ -3,7 +3,7 @@ layout: article
 title: "Tearing Down the Paper Walls: Valuing Practical Problem-solving in Academia"
 subnav: blog
 comments: true
-tagline: 'While at KubeCon last week in San Diego. one of the 12K attendees present came up to me and said, ''You're at NYU. What are you doing at KubeCon?''...'
+tagline: "While at KubeCon last week in San Diego, one "
 author: '<a href="https://ssl.engineering.nyu.edu/personalpages/jcappos/">Justin Cappos</a>'
 categories:
   - 'Informational'
