@@ -1,5 +1,4 @@
 ---
-
 layout: article
 title: "Tearing Down the Paper Walls: Valuing Practical Problem-solving in Academia"
 subnav: blog
