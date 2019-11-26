@@ -7,7 +7,6 @@ tagline: 'While at KubeCon last week in San Diego. one of the 12K attendees pres
 author: '<a href="https://ssl.engineering.nyu.edu/personalpages/jcappos/">Justin Cappos</a>'
 categories:
   - 'Informational'
-
 ---
 
 While at KubeCon last week in San Diego. one of the 12K attendees present came up to me and said, ''You're at NYU. What are you doing at KubeCon?''  While I was unsurprised by the question, I was surprised to learn that the attendee was a PhD student at a major US university.  [Anonymity provided so as not to embarrass anyone.]  The student was even more surprised that an academic like myself had created two CNCF projects and was active in the community.
