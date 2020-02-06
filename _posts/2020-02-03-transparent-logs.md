@@ -84,4 +84,4 @@ We would like to thank Justin Cappos, Nick Coghlan, Lois Anne DeLong, Ernest W. 
 
 ## Changelog
 
-1. 2020-02-05: Added a footnote about the shared design goal of removing trust.
+1. 2020-02-05: Added a footnote about the shared design goal of [removing trust](https://github.com/secure-systems-lab/ssl-site/issues/96).
