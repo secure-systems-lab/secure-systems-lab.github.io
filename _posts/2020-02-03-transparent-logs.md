@@ -78,6 +78,10 @@ We would like to thank Justin Cappos, Nick Coghlan, Lois Anne DeLong, Ernest W. 
 
 ## Footnotes
 
-[^1]: A major design goal for Google was to make sure that the community would not have to trust them blindly, and thus these mechanisms are a means to an end, which is removing trust.
+[^1]: A major design goal for Google was to make sure that the community would not have to trust them blindly, and thus these mechanisms are a means to an end, which is removing trust. Both TLs and TUF share this design goal of removing as much trust as possible from the package repository.
 
 [^2]: In fact, assuming that the TL and package repository are independent, this does not even require attackers to compromise the TL. Since the TL would [automatically](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md#checksum-database) fetch missing versions of packages, all attackers would have to to do is to add malicious versions of packages to the repository (such as the GitHub repository belonging to the package developers), and somehow convince developers to refer to these malicious versions (say, by publishing new tags on GitHub). In this sense, TLs still depend on [Trust-On-First-Use (TOFU](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md#module-authentication-with)). While Go encourages pinning packages using [Semantic Versioning](https://semver.org/), which ameliorates the issue to some extent, the fact remains that malicious versions of packages can still be added automatically, which is especially problematic when package managers such as [`pip`](https://pypi.org/project/pip/) automatically try to find the latest versions of packages.
+
+## Changelog
+
+1. 2020-02-05: Added a footnote about the shared design goal of removing trust.
