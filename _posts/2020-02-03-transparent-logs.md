@@ -66,7 +66,7 @@ The table below offers a side-by-side comparison of the security features of the
 
 <img align="center" src="/img/blog/2020-02-03-transparent-logs/figure-3.png" style="margin: 0px 20px"/>
 
-In particular, the Datadog TUF and in-toto integration mentioned in the last column is discussed in more detail [here](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/).
+In particular, the Datadog TUF and in-toto integration mentioned in the last column is discussed in more detail [here](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/). As far as we know, it is the first compromise resilient packaging system that detects attacks _anywhere_ between developers and end-users.
 
 ## Conclusion
 
