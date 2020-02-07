@@ -76,6 +76,11 @@ TLs and TUF both help secure package repositories, but their priorities and goal
 
 We would like to thank Justin Cappos, Nick Coghlan, Lois Anne DeLong, Ernest W. Durbin III, Sumana Harihareswara, Joshua Lock, Santiago Torres-Arias, Filippo Valsorda, and the Python community for their feedback.
 
+## Changelog
+
+1. **2020-02-05**: Added a footnote about the shared design goal of [removing trust](https://github.com/secure-systems-lab/ssl-site/issues/96).
+1. **2020-02-06**: Added a footnote that covers the procedure for [recovering](https://github.com/secure-systems-lab/ssl-site/issues/95) from a key compromise in TLs.
+
 ## Footnotes
 
 [^1]: Since this article was published, we have [learned](https://github.com/secure-systems-lab/ssl-site/issues/95) that the procedure for recovering from a key compromise for TLs is, to _some_ extent, comparable to PEP 458 security model for TUF. It is best illustrated using the following scenario. Suppose that before time K, online key X was used. At time K, this online key X is compromised. After time K, we switch trust to online key Y instead. Using TLs (e.g., Go sumdb), the log will be signed using both online keys X and Y. This is so that [Go binary distributions](https://golang.org/doc/install) released before time K that are effectively baked with X can continue to trust the TL. Subsequent Go binary distributions will be baked with Y instead. Presumably, X will be considered deprecated / compromised, and some grace period will be allowed before X is completely revoked (i.e., no longer used to sign the TL).  Using TUF (PEP 458), there is no need to issue a new software update to permanently replace trust in X with Y. The TUF metadata repository administrators would use the offline keys for the `targets` role (not even necessarily the higher-level `root` role) to do so. Both old and new versions of the package manager can continue to permanently switch trust from X to Y, despite [backwards-incompatible](https://github.com/theupdateframework/taps/pull/107) changes to TUF metadata. There is no need to deprecate X and offer a grace period because it is no longer used. We feel that this is a subtle but important difference.
@@ -83,8 +88,3 @@ We would like to thank Justin Cappos, Nick Coghlan, Lois Anne DeLong, Ernest W. 
 [^2]: A major design goal for Google was to make sure that the community would not have to trust them blindly, and thus these mechanisms are a means to an end, which is removing trust. Both TLs and TUF share this design goal of removing as much trust as possible from the package / metadata repository or log.
 
 [^3]: In fact, assuming that the TL and package repository are independent, this does not even require attackers to compromise the TL. Since the TL would [automatically](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md#checksum-database) fetch missing versions of packages, all attackers would have to to do is to add malicious versions of packages to the repository (such as the GitHub repository belonging to the package developers), and somehow convince developers to refer to these malicious versions (say, by publishing new tags on GitHub). In this sense, TLs still depend on [Trust-On-First-Use (TOFU](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md#module-authentication-with)). While Go encourages pinning packages using [Semantic Versioning](https://semver.org/), which ameliorates the issue to some extent, the fact remains that malicious versions of packages can still be added automatically, which is especially problematic when package managers such as [`pip`](https://pypi.org/project/pip/) automatically try to find the latest versions of packages.
-
-## Changelog
-
-1. 2020-02-05: Added a footnote about the shared design goal of [removing trust](https://github.com/secure-systems-lab/ssl-site/issues/96).
-1. 2020-02-06: Added a footnote that covers the procedure for [recovering](https://github.com/secure-systems-lab/ssl-site/issues/95) from a key compromise in TLs.
