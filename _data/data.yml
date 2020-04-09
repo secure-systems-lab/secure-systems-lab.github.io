@@ -1106,7 +1106,7 @@ publications:
       authors:
         - name: "P. Moore, J. Cappos, P. Frankl, and T. Wies"
       project: *crashsimulator
-      booktitle: "30th IEEE International Symposium on Software Reliability Engineering (ISSRE'19) <br/> Best Paper Award"
+      booktitle: "30th IEEE International Symposium on Software Reliability Engineering (ISSRE'19) Best Paper Award"
       year: ""
       pages: ""
       publisher: ""
