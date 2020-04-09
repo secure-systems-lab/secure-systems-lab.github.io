@@ -475,7 +475,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/yuanrui_chen"
+          photo: "img/people/yuanrui_chen.jpg"
           interests: "Network security, software security, and software development"
 
       - &isha_dave
@@ -484,7 +484,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/isha_dave"
+          photo: "img/people/isha_dave.jpg"
           interests: "Cybersecurity and game design and development"
 
       - &kaitlyn_liu
@@ -493,7 +493,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/kaitlyn_liu"
+          photo: "img/people/kaitlyn_liu.jpg"
           interests: "Systems security and computer vision"
 
       - &benjamin_wu
@@ -502,7 +502,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/benjamin_wu"
+            photo: "img/people/benjamin_wu.jpg"
             interests: "Financial technology, cybersecurity, cryptography"
 
       - &ge_yang
@@ -511,7 +511,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/ge_yang"
+            photo: "img/people/ge_yang.jpg"
             interests: "Security and privacy"
 
     people_cards:
@@ -1087,7 +1087,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/papers/almashaqbeh_microcash_fc20"
+      link: "/papers/almashaqbeh_microcash_fc20.pdf"
       abstract: "Micropayments have a large number of potential applications. However, processing these small payments individually can be expensive, with transaction fees often exceeding the payment value itself. By aggregating the small transactions into a few larger ones, and using cryptocurrencies, today’s decentralized probabilistic micropayment schemes can reduce these fees. Unfortunately, existing solutions force micropayments to be issued sequentially, thus to support fast issuance rates a customer needs a large number of escrows, which bloats the blockchain. Moreover, these schemes incur a large computation and bandwidth overhead, limiting their applicability in large-scale systems. In this paper, we propose MicroCash, the first decentralized probabilistic framework that supports concurrent micropayments. MicroCash introduces a novel escrow setup that enables a customer to concurrently issue payment tickets at a fast rate using a single escrow. MicroCash is also cost effective because it allows for ticket exchange using only one round of communication, and it aggregates the micropayments using a non-interactive lottery protocol that requires only secure hashing and supports fixed winning rates. Our experiments show that MicroCash can process thousands of tickets per second, which is around 1.7-4.2x times the rate of a state-of-the-art sequential micropayment system. Moreover, MicroCash supports any ticket issue rate over any period using only one escrow, while the sequential scheme would need more than 1000 escrows per second to permit high rates. This enables our system to further reduce transaction fees and data on the blockchain by ∼ 50%."
 
 
