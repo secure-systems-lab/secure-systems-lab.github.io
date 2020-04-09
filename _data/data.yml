@@ -475,7 +475,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/yuanrui_chen"
+          photo: "img/people/yuanrui_chen.jpg"
           interests: "Network security, software security, and software development"
 
       - &isha_dave
@@ -484,7 +484,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/isha_dave"
+          photo: "img/people/isha_dave.jpg"
           interests: "Cybersecurity and game design and development"
 
       - &kaitlyn_liu
@@ -493,7 +493,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/kaitlyn_liu"
+          photo: "img/people/kaitlyn_liu.jpg"
           interests: "Systems security and computer vision"
 
       - &benjamin_wu
@@ -502,7 +502,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/benjamin_wu"
+            photo: "img/people/benjamin_wu.jpg"
             interests: "Financial technology, cybersecurity, cryptography"
 
       - &ge_yang
@@ -511,7 +511,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/ge_yang"
+            photo: "img/people/ge_yang.jpg"
             interests: "Security and privacy"
 
     people_cards:
