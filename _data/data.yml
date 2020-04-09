@@ -146,6 +146,8 @@ people:
           site: "https://github.com/trishankkarthik"
           interests: "Securing software updates for community repositories and automobiles"
           publications:
+              - name: "USENIX Security 2019"
+                link: "https://ssl.engineering.nyu.edu/papers/torres-toto-usenix19.pdf"
               - name: "IEEE VT 2018"
                 link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
               - name: "USENIX ATC 2017"
@@ -184,9 +186,12 @@ people:
           site: "http://www.cs.columbia.edu/~ghada/"
           interests: "Cryptography, security, distributed computing"
           publications:
+            - name: "Financial Crypto 2020"
+              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_microcash_fc20.pdf"
             - name: "CNS 2019"
+              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_capnet_cns19.pdf"
             - name: "CryBlock 2019"
-              link: "/papers/almashaqbeh_ABC_cryblock_19.pdf"
+              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_ABC_cryblock_19.pdf"
             - name: "ACM Transactions on Privacy and Security 2018"
               link: "https://dl.acm.org/citation.cfm?id=3154600"
             - name: "BMC Medical Informatics and Decision-Making 2015"
@@ -303,7 +308,9 @@ people:
           since: "2015"
           photo: "img/people/preston_moore.jpg"
           interests: "Secure software engineering, automated testing, systems security"
-
+          publications:
+            - name: "ISSRE 2019"
+              link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
@@ -462,13 +469,67 @@ people:
           photo: "img/people/kristel_fung.jpg"
           interests: "Cybersecurity, cryptography, software development"
 
+      - &yuanrui_chen
+          name: "Yuanrui Chen"
+          anchor: yuanrui_chen
+          internal: true
+          role: "Undergraduate student"
+          since: 2020
+          photo: "img/people/yuanrui_chen"
+          interests: "Network security, software security, and software development"
+
+      - &isha_dave
+          name: "Isha Vipul Dave"
+          anchor: isha_dave
+          internal: true
+          role: "Undergraduate student"
+          since: 2020
+          photo: "img/people/isha_dave"
+          interests: "Cybersecurity and game design and development"
+
+      - &kaitlyn_liu
+          name: "Kaitlyn Liu"
+          anchor: kaitlyn_liu
+          internal: true
+          role: "Undergraduate student"
+          since: 2020
+          photo: "img/people/kaitlyn_liu"
+          interests: "Systems security and computer vision"
+
+      - &benjamin_wu
+            name: "Benjamin Wu"
+            anchor: benjamin_wu
+            internal: true
+            role: "Undergraduate student"
+            since: 2020
+            photo: "img/people/benjamin_wu"
+            interests: "Financial technology, cybersecurity, cryptography"
+
+      - &ge_yang
+            name: "Ge Yang"
+            anchor: ge_yang
+            internal: true
+            role: "Undergraduate student"
+            since: 2020
+            photo: "img/people/ge_yang"
+            interests: "Security and privacy"
+
+    - &henry_zhou
+            name: "Henry Zhou"
+            anchor: henry_zhou
+            internal: true
+            role: "Undergraduate student"
+            since: 2018
+            photo: "img/people/henry_zhou"
+            interests: "Game engineering and design, digital media, philosophy and ethics of technology"
+
     people_cards:
-      - type: Faculty
+      - type: "Faculty"
         anchor: faculty
         people:
           - *justin_cappos
 
-      - type: Staff
+      - type: "staff"
         anchor: staff
         people:
           - *sebastien_awwad
@@ -494,6 +555,11 @@ people:
           - *yash_shah
           - *cindy_kim
           - *kristel_fung
+          - *yuanrui_chen
+          - *isha_dave
+          - *kaitlyn_liu
+          - *benjamin_wu
+          - *ge_yang
           - *henry_zhou
 
       - type: "Visiting Scholars"
@@ -626,7 +692,7 @@ projects:
     compromises, while addressing  automotive specific vulnerabilities and
     limitations. Uptane was recently named one of
     the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-    Security Innovations of 2017</a> by Popular Science Magazine. "
+    Security Innovations of 2017</a> by Popular Science Magazine."
         products: "Uptane has already been adopted by
     <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
     Uptane has been
@@ -642,13 +708,14 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://goo.gl/LmfODJ\">design specification</a> and
-    <a href=\"https://goo.gl/jzDDsf\">deployment considerations</a>.
+    <a href=\"https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html\">IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation</a>,
+    and a designated section for
+    <a href=\"https://uptane.github.io/deployment-considerations/index.html\">deployment considerations and best practices</a>.
     We invite all
     security researchers and academics to perform a
     security review of Uptane by going to our web site.
     For those who want lower level details, we also provide a
-    <a href=\"https://goo.gl/tNxCoj\">implementation guide</a>, a readable Python
+    a readable Python
     <a href=\"https://github.com/uptane/uptane\">reference implementation</a>,
     <a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a
     <a href=\"https://github.com/uptane/uptane\">runnable demo</a>.  A <a href=\"https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be\">
@@ -687,8 +754,12 @@ projects:
         people:
             - *santiago_torres
             - *lukas_puhringer
-            - *cindy_kim
+            - *aditya_sirish
+            - *ashish_das
+            - *isha_dave
             - *kristel_fung
+            - *cindy_kim
+            - *benjamin_wu
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
@@ -754,6 +825,7 @@ projects:
     publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
         people:
             - *ghada_almashaqbeh
+            - *ge_yang
             - name: "Allison Bishop Lewko"
               link: "http://www.cs.columbia.edu/~allison"
             - *justin_cappos
@@ -783,6 +855,7 @@ projects:
             - *yiwen_li
             - *nick_renner
             - *yash_shah
+            - *kaitlyn_liu
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
@@ -1013,18 +1086,36 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &almashaqbeh_microcash_fc20
+      anchor: almashaqbeh_microcash_fc20
+      title: "Microcash: Practical Concurrent Processing of Micropayments"
+      authors:
+        - name: "G. Almashaqbeh, A. Bishop, J. Cappos"
+      project: *cachecash
+      booktitle: ""
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/papers/almashaqbeh_microcash_fc20"
+      abstract: "Micropayments have a large number of potential applications. However, processing these small payments individually can be expensive, with transaction fees often exceeding the payment value itself. By aggregating the small transactions into a few larger ones, and using cryptocurrencies, today’s decentralized probabilistic micropayment schemes can reduce these fees. Unfortunately, existing solutions force micropayments to be issued sequentially, thus to support fast issuance rates a customer needs a large number of escrows, which bloats the blockchain. Moreover, these schemes incur a large computation and bandwidth overhead, limiting their applicability in large-scale systems. In this paper, we propose MicroCash, the first decentralized probabilistic framework that supports concurrent micropayments. MicroCash introduces a novel escrow setup that enables a customer to concurrently issue payment tickets at a fast rate using a single escrow. MicroCash is also cost effective because it allows for ticket exchange using only one round of communication, and it aggregates the micropayments using a non-interactive lottery protocol that requires only secure hashing and supports fixed winning rates. Our experiments show that MicroCash can process thousands of tickets per second, which is around 1.7-4.2x times the rate of a state-of-the-art sequential micropayment system. Moreover, MicroCash supports any ticket issue rate over any period using only one escrow, while the sequential scheme would need more than 1000 escrows per second to permit high rates. This enables our system to further reduce transaction fees and data on the blockchain by ∼ 50%."
+
+
     - &moore_crashsim_issre_19
       anchor: moore_crashsim_issre_19
       title: "Charting a Course Through Uncertain Environments: SEA Uses Past Problems to Avoid Future Failures"
       authors:
-        - name: "P. Moore, J. Cappos, P. Frankl,  and T. Wies"
+        - name: "P. Moore, J. Cappos, P. Frankl, and T. Wies"
       project: *crashsimulator
-      booktitle: "to be presented at the 30th IEEE International Symposium on Software Reliability Engineering (ISSRE'19)"
+      booktitle: "30th IEEE International Symposium on Software Reliability Engineering (ISSRE'19) <br/> Best Paper Award"
       year: ""
       pages: ""
       publisher: ""
-      link: ""
-      abstract: ""
+      link: "/papers/moore_crashsim_issre2019.pdf"
+      abstract: "A common problem for developers is applications exhibiting new bugs after deployment.
+      Many of these bugs can be traced to unexpected network, operating system, and file system differences
+      that cause program executions that were successful in a development environment to fail once deployed.
+      Preventing these bugs is difficult because it is impractical to test an application in every environment. Enter Simulating Environmental Anomalies (SEA), a technique that utilizes evidence of one application’s failure in a given environment to generate tests that can be applied to other applications, to see whether they suffer from analogous faults. In SEA, models of unusual properties extracted from interactions between an application, A, and its environment guide simulations of another application, B, running in the anomalous environment. This reveals faults B may experience in this environment without the expense of deployment. By accumulating these anomalies, applications can be tested against an increasing set of problematic conditions. We implemented a tool called CrashSimulator, which uses SEA, and evaluated it against Linux applications selected from coreutils
+and the Debian popularity contest. Our tests found a total of 63 bugs in 31 applications with effects including hangs, crashes, data loss, and remote denial of service conditions."
 
     - &torres_intoto_usenixsec_19
       anchor: torres_intoto_usenixsec_19
@@ -1032,18 +1123,18 @@ publications:
       authors:
         - name: "S. Torres-Arias, H. Nanize, T. Kuppusamy, R. Curtmola, and J. Cappos"
       project: *in-toto
-      booktitle: "the 28th USENIX Security Symposium (USENIX Sec'19)"
+      booktitle: "28th USENIX Security Symposium (USENIX Sec'19)"
       year: ""
       pages: ""
       publisher: ""
       link: "/papers/torres-toto-usenix19.pdf"
-      abstract: "The software development process is quite complex and involves a number of independent actors. Developers 
-      check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems 
-      run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged 
+      abstract: "The software development process is quite complex and involves a number of independent actors. Developers
+      check source code into a version control system, the code is compiled into software at a build farm, and CI/CD systems
+      run multiple tests to ensure the software’s quality among a myriad of other operations. Finally, the software is packaged
       for distribution into a delivered product, to be consumed by end users. An attacker that is able to compromise any single
       step in the process can maliciously modify the software and harm any of the software’s users.
       To address these issues, we designed in-toto, a framework that cryptographically ensures the integrity of the
-      software supply chain. in-toto grants the end user the ability to verify the software’s supply chain from the 
+      software supply chain. in-toto grants the end user the ability to verify the software’s supply chain from the
       project’s inception to its deployment. We demonstrate in-toto’s effectiveness on 30 software supply chain compromises
       that affected hundreds of million of users and showcase in-toto’s usage over cloud-native, hybrid-cloud and cloud-agnostic
       applications. in-toto is integrated into products and open source projects that are used by millions of people daily."
@@ -1054,7 +1145,7 @@ publications:
       authors:
         - name: "S. Vaidya, S. Torres-Arias, R. Curtmola, and J. Cappos"
       project:
-      booktitle: "the 34th International Conference on ICT Systems Security and Privacy
+      booktitle: "34th International Conference on ICT Systems Security and Privacy
       Protection (IFIP SEC '19)"
       year: ""
       pages: ""
@@ -1064,7 +1155,7 @@ publications:
       yet historically their security has been relatively underdeveloped compared to their importance.
       Recent history has shown that source code repositories represent appealing attack targets. Attacks that
       violate the integrity of repository data can impact negatively millions of users. Some VCS-es,
-      such as Git, employ com- mit signatures as a mechanism to provide developers with cryptographic
+      such as Git, employ commit signatures as a mechanism to provide developers with cryptographic
       protections for the code they contribute to a repository. However, an entire class of other VCS-es,
       including the well-known Apache Subversion (SVN), lacks such protections. We design the first commit
       signing mechanism for centralized version control systems, which supports features such as working
@@ -1079,12 +1170,12 @@ publications:
       authors:
         - name: "G. Almashaqbeh, A. Bishop, K. Kelley, and J. Cappos"
       project: *cachecash
-      booktitle: "to be presented at the 7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
+      booktitle: "7th Annual IEEE Conference on Communications and Network Security (CNS '19)"
       year: ""
       pages: ""
       publisher: ""
-      link: ""
-      abstract: ""
+      link: "/papers/almashaqbeh_capnet_cns19.pdf"
+      abstract: "Peer-assisted content distribution networks (CDNs) have emerged to improve performance and reduce deployment costs of traditional, infrastructure-based content delivery networks. This is done by employing peer-to-peer data transfers to supplement the resources of the network infrastructure. However, these hybrid systems are vulnerable to accounting attacks in which the peers, or caches, collude with clients in order to report that content was transferred when it was not. This is a particular issue in systems that incentivize cache participation, because malicious caches may collect rewards from the content publishers operating the CDN without doing any useful work. In this paper, we introduce CAPnet, the first technique that lets untrusted caches join a peer-assisted CDN while providing a bound on the effectiveness of accounting attacks. At its heart is a lightweight cache accountability puzzle that clients must solve before caches are given credit. This puzzle requires colocating the data a client has requested, so its solution confirms that the content has actually been retrieved. We analyze the security and overhead of our scheme in realistic scenarios. The results show that a modest client machine using a single core can solve puzzles at a rate sufficient to simultaneously watch dozens of 1080p videos. The technique is designed to be even more scalable on the server side. In our experiments, one core of a single low-end machine is able to generate puzzles for 4.26 Tbps of bandwidth, enabling 870,000 clients to concurrently view the same 1080p video. This demonstrates that our scheme can ensure cache accountability without degrading system productivity"
 
     - &almashaqbeh_ABC_cryblock_19
       anchor: almashaqbeh_ABC_cryblock_19
@@ -2546,6 +2637,7 @@ publications:
     - type: Conference Papers
       anchor: conference
       publications:
+        - *almashaqbeh_microcash_fc20
         - *moore_crashsim_issre_19
         - *torres_intoto_usenixsec_19
         - *vaidya_cvcs_IFIPsec_19
@@ -2619,7 +2711,7 @@ press:
   intro: "Selected mentions about our research in the press"
 
   presses:
-  
+
     - title: "Protecting Update Systems from Nation-state Attackers"
       link: "https://lwn.net/Articles/794391/"
       anchor: LWNUptanejuly
@@ -2627,7 +2719,7 @@ press:
       project: *uptane
       source: "LWN.net"
       date: "July 24, 2019"
- 
+
     - title: "Top OTA Expert Show How State Actors Hack into your car and What Happens Next: 'People will Die'"
       link: "https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die"
       anchor: DriveUptane19
@@ -2635,7 +2727,7 @@ press:
       project: *uptane
       source: "The Drive.com"
       date: "July 23, 2019"
- 
+
     - title: "33+ Kubernetes Security Tools"
       link: "https://sysdig.com/blog/33-kubernetes-security-tools/"
       anchor: 33KuberUptane
