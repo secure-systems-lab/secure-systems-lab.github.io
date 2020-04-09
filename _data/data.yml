@@ -514,15 +514,6 @@ people:
             photo: "img/people/ge_yang"
             interests: "Security and privacy"
 
-    - &henry_zhou
-            name: "Henry Zhou"
-            anchor: henry_zhou
-            internal: true
-            role: "Undergraduate student"
-            since: 2018
-            photo: "img/people/henry_zhou"
-            interests: "Game engineering and design, digital media, philosophy and ethics of technology"
-
     people_cards:
       - type: "Faculty"
         anchor: faculty
