@@ -395,7 +395,6 @@ people:
       - &joey_pabalinas
           name: "Joey Pabalinas"
           anchor: joey_pabalinas
-          site: "https://alyp.tk/"
           internal: true
           role: "Developer"
           since: 2018
@@ -651,9 +650,11 @@ projects:
         It has been standardized for Python as documented in PEPs
         <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
         <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
-        TUF, and Docker's popular implementation of TUF, are now
-    <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a>
-        projects as part of the Cloud Native Computing Foundation.
+        TUF is managed by the <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a> under
+        the <a href=\"https://www.cncf.io/\">Cloud Native Computing Foundation</a>.
+  In December 2019, TUF was awarded <a href=\"https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/\">graduate status</a>
+  within the organization, signifying that it
+  has completed a series of steps needed to move the project to the highest level of maturity in the CNCF.
     <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
         people:
             - *sebastien_awwad
@@ -681,9 +682,9 @@ projects:
     mechanism to securely distribute updates to cars.  Uptane can counter a
     comprehensive array of security attacks, and is resilient to partial
     compromises, while addressing  automotive specific vulnerabilities and
-    limitations. Uptane was recently named one of
+    limitations. In 2017, Uptane was named one of
     the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-    Security Innovations of 2017</a> by Popular Science Magazine."
+    Security Innovations of 2017</a> by Popular Science Magazine. In 2019, Uptane became a Linux Foundation <a href=\"http://www.jointdevelopment.org/\">Joint Development Foundation</a> project."
         products: "Uptane has already been adopted by
     <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
     Uptane has been
@@ -746,6 +747,7 @@ projects:
             - *santiago_torres
             - *lukas_puhringer
             - *aditya_sirish
+            - *yuanrui_chen
             - *ashish_das
             - *isha_dave
             - *kristel_fung
@@ -944,7 +946,7 @@ projects:
         people:
             - *albert_rafetseder
             - *yanyan_zhuang
-            - name: "Yu Hu"
+            - name: Yu Hu
             - name: "Richard Weiss"
               link: "http://evergreen.edu/directory/people/weissr"
             - name: "Leon Reznik"
@@ -1004,9 +1006,9 @@ projects:
         first to learn about our experiences."
         people:
             - *yanyan_zhuang
-            - name: "Eleni Gessiou"
-            - name: "Steven Portzer"
-            - name: "Fraida Fund"
+            - name: Eleni Gessiou
+            - name: Steven Portzer
+            - name: Fraida Fund
             - name: "Monzur Muhammad"
             - name: "Ivan Beschastnikh (UBC)"
               link: "https://www.cs.ubc.ca/~bestchai/"
@@ -2579,50 +2581,58 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
   that most of these bugs would likely be contained in our
   sandbox."
 
-    - &cappos_seattle_sigcse_2009
-      anchor: cappos_seattle_sigcse_2009
-      title: "Seattle: A Platform for Educational Cloud Computing"
-      authors:
-        - name: "J. Cappos, I. Beschastnikh, A. Krishnamurthy, and T. Anderson"
-      project: *seattle
-      booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education (SIGCSE '09)"
-      series:
-      year:
-      isbn:
-      location:
-      pages: "111--115"
-      numpages: "5"
-      acmid:
-      publisher: "ACM"
-      address:
-      link: "/papers/cappos_seattle_sigcse_2009.pdf"
-      keywords: "cloud computing, peer-to-peer computing, cluster computing, distributed computing"
-      abstract: "Cloud computing is rapidly increasing in popularity. Companies
-  such as RedHat, Microsoft, Amazon, Goog
-  le, and
-  IBM are increasingly funding cloud computing infrastructure
-  and research, making it important for students to gain
-  the necessary skills to work with cloud-based resources. This
-  paper presents a free, educational research platform called
-  Seattle that is community-driven, a common denominator
-  for diverse platform types, and is broadly deployed.
-  Seattle is community-driven - universities donate available
-  compute resources on multi-user machines to the platform.
-  These donations can come from systems with a wide
-  variety of systems operating and architectures, removing the
-  need for a dedicated infrastructure.
-  Seattle is also surprisingly flexible and supports a variety
-  of pedagogical uses because as a platform it represents a
-  common denominator for cloud computing, grid computing,
-  peer-to-peer networking, distributed systems, and networking.
-  Seattle programs are portable. Students' code can run
-  across different operating systems and architectures without
-  change, while the Seattle programming language is expressive
-  enough for experimentation at a fine-grained level. Our
-  current deployment of Seattle consists of about one thousand
-  computers that are distributed around the world. We
-  invite the computer science education community to employ
-  Seattle in their courses."
+  - &cappos_seattle_sigcse_2009
+    anchor: cappos_seattle_sigcse_2009
+    title: "Seattle: A Platform for Educational Cloud Computing"
+    authors:
+      - name: "J. Cappos, I. Beschastnikh, A. Krishnamurthy, and T. Anderson"
+    project: *seattle
+    booktitle: "Proceedings of the 40th ACM Technical Symposium on Computer Science Education (SIGCSE '09)"
+    series:
+    year:
+    isbn:
+    location:
+    pages: "111--115"
+    numpages: "5"
+    acmid:
+    publisher: "ACM"
+    address:
+    link: "/papers/cappos_seattle_sigcse_2009.pdf"
+    keywords: "cloud computing, peer-to-peer computing, cluster computing, distributed computing"
+    abstract: "Cloud computing is rapidly increasing in popularity. Companies
+such as RedHat, Microsoft, Amazon, Goog
+le, and
+IBM are increasingly funding cloud computing infrastructure
+and research, making it important for students to gain
+the necessary skills to work with cloud-based resources. This
+paper presents a free, educational research platform called
+Seattle that is community-driven, a common denominator
+for diverse platform types, and is broadly deployed.
+Seattle is community-driven - universities donate available
+compute resources on multi-user machines to the platform.
+These donations can come from systems with a wide
+variety of systems operating and architectures, removing the
+need for a dedicated infrastructure.
+Seattle is also surprisingly flexible and supports a variety
+of pedagogical uses because as a platform it represents a
+common denominator for cloud computing, grid computing,
+peer-to-peer networking, distributed systems, and networking.
+Seattle programs are portable. Students' code can run
+across different operating systems and architectures without
+change, while the Seattle programming language is expressive
+enough for experimentation at a fine-grained level. Our
+current deployment of Seattle consists of about one thousand
+computers that are distributed around the world. We
+invite the computer science education community to employ
+Seattle in their courses."
+
+  - &uptane_standard_IEEE_ISTO_19
+    anchor: &uptane_standard_IEEE_ISTO_19
+    title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
+    authors:
+      - name:
+    project: *uptane
+    link: "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html"
 
   publication_cards:
     - type: Conference Papers
@@ -2680,12 +2690,11 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *uptane_standard_IEEE_ISTO_19
         - *cappos_tsumiki_TPDS_18
         - *kuppusamy_VT_IEEE_18
         - *kuppusamy_login_2017
         - *kuppusamy_uptane_design-17
-        - *uptane_implementation_17
-        - *uptane_deployment_17
         - *dev-pep-2016
         - *zhuang-tr-cse-2015-01
         - *zhuang_sensibility_login_2015
@@ -2702,16 +2711,151 @@ press:
   intro: "Selected mentions about our research in the press"
 
   presses:
+    - title: "Open Source Framework Helps Automakers Secure OTA Updates"
+      link: "https://www.d2pmagazine.com/2020/04/02/6099/"
+      anchor: d2pUptaneapril
+      type: article
+      project: *uptane
+      source: "Design2Part Magazine"
+      date: "April 2, 2020"
+
+    - title: "AWS Launches Bottlerocket, a Linux-based OS for Container Hosting"
+      link: "https://techcrunch.com/2020/03/11/aws-launches-bottlerocket-a-linux-based-os-for-container-hosting/"
+      anchor: tcbottlerocketufmarch
+      type: article
+      project: *tuf
+      source: "TechCrunch"
+      date: "March 11, 2020"
+
+    - title: "People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says"
+      link: "https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/"
+      anchor: nj105uptanemarch
+      type: article
+      project: *uptane
+      source: "New Jersey 101.5"
+      date: "March 9, 2020"
+
+    - title: "An Update PyPI Funded Work"
+      link: "https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html"
+      anchor: pypipyblogmarch
+      type: article
+      project: *tuf
+      source: "Python Foundation Blogspot"
+      date: "March 4, 2020"
+
+    - title: "Wireless Vehicle Updates Pose Big Cybersecurity Risk for Automakers, Consumers"
+      link: "https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2"
+      anchor: spglobaluptanejan
+      type: article
+      project: *uptane
+      source: "S&P Global"
+      date: "January 9, 2020"
+
+    - title: "Security Vulnerabilities in Solution Deployment"
+      link: "https://blog.mp3monster.org/2020/01/04/security-vulnerabilities-in-solution-deployment/"
+      anchor: mp3monstertufjan
+      type: article
+      project: *tuf
+      source: "MP3 Monster's Blog"
+      date: "January 4, 2020"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://www.avnetwork.com/news/cloud-native-computing-foundation-announces-tuf-graduation"
+      anchor: cncftufavnewsdec
+      type: article
+      project: *tuf
+      source: "AV Network"
+      date: "December 27, 2019"
+
+    - title: "The Update Framework Graduates from the Linux Foundation's Cloud Native Computing Foundation"
+      link: "https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/"
+      anchor: cncftufhelpnetdec
+      type: article
+      project: *tuf
+      source: "Help Net Security"
+      date: "December 23, 2019"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://lwn.net/Articles/807777/"
+      anchor: cncflwntufdec
+      type: article
+      project: *tuf
+      source: "Linux Weekly News"
+      date: "December 19, 2019"
+
+    - title: "Open-source System Securing Software Updates 'Graduates' to Protect Leading Cloud Services"
+      link: "https://techxplore.com/news/2019-12-open-source-software-cloud.html"
+      anchor: techxptuf
+      type: article
+      project: *tuf
+      source: "TechXplore"
+      date: "December 19, 2019"
+
+    - title: "The Update Framework becomes ninth project to graduate CNCF"
+      link: "https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/"
+      anchor: devclasstufdec
+      type: article
+      project: *tuf
+      source: "DevClass.com"
+      date: "December 19, 2019"
+
+    - title: "CNCF Graduates TUF Project to Secure Software Updates"
+      link: "https://devops.com/cncf-graduates-tuf-project-to-secure-software-updates/"
+      anchor: devopstufdec
+      type: article
+      project: *tuf
+      source: "DevOps.com"
+      date: "December 18, 2019"
+
+    - title: "Cloud-native Project The Update Framework Hits Top-level CNCF Status"
+      link: "https://siliconangle.com/2019/12/18/cncf-announces-graduation-another-cloud-native-project-update-framework/"
+      anchor: siliconangtufdec
+      type: article
+      project: *tuf
+      source: "Silicon Angle"
+      date: "December 18, 2019"
+
+    - title: "Open-source System to Secure Software Updates 'Graduates' to Protect Leading Cloud Services"
+      link: "https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services"
+      anchor: nyutanduptdec
+      type: article
+      project: *tuf
+      source: "NYU Tandon Press Office"
+      date: "December 18, 2019"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/"
+      anchor: cncfuptreldec
+      type: article
+      project: *tuf
+      source: "Cloud Native Computing Foundation"
+      date: "December 18, 2019"
+
+    - title: "The Linux Foundation's Automated Compliance Work Garners New Funding, Advances Tools Development"
+      link: "https://www.linuxfoundation.org/press-release/2019/12/the-linux-foundations-automated-compliance-work-garners-new-funding-advances-tools-development/"
+      anchor: lftotoreldec
+      type: article
+      project: *intoto
+      source: "Linux Foundation"
+      date: "December 12, 2019"
+
+    - title: "in-toto: Providing Farm-to-table Guarantees for Bits and Bytes"
+      link: "https://blog.acolyer.org/2019/10/02/in-toto/"
+      anchor: mornpapertotooct
+      type: article
+      project: *intoto
+      source: "The Morning Paper"
+      date: "October 2, 2019"
 
     - title: "Protecting Update Systems from Nation-state Attackers"
       link: "https://lwn.net/Articles/794391/"
-      anchor: LWNUptanejuly
+      anchor: mornpapertotooct
       type: article
       project: *uptane
-      source: "LWN.net"
+      source: "Linux Weekly News"
       date: "July 24, 2019"
 
-    - title: "Top OTA Expert Show How State Actors Hack into your car and What Happens Next: 'People will Die'"
+    - title: "Top OTA Expert Shows How State Actors Hack into your Car and What Happens Next: 'People will Die'"
       link: "https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die"
       anchor: DriveUptane19
       type: article
