@@ -224,7 +224,6 @@ people:
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
-
               - name: "USENIX Security 2019"
                 link: "/papers/torres-toto-usenix19.pdf"
               - name: "IFIP SEC"
@@ -646,15 +645,14 @@ projects:
         <a href=\"https://www.vmware.com/\">VMware</a>,
         <a href=\"https://github.com/digitalocean/do-agent\">DigitalOcean</a>,
         <a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
-        <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>.
+        <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/">Docker</a>.
         It has been standardized for Python as documented in PEPs
         <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
         <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
-        TUF is managed by the <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a> under
-        the <a href=\"https://www.cncf.io/\">Cloud Native Computing Foundation</a>.
-  In December 2019, TUF was awarded <a href=\"https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/\">graduate status</a>
-  within the organization, signifying that it
-  has completed a series of steps needed to move the project to the highest level of maturity in the CNCF.
+        TUF is managed by the <a href=\"http://www.linuxfoundation.org/">Linux Foundation</a> under
+        the <a href=\"https://www.cncf.io/">Cloud Native Computing Foundation</a>. In December 2019, TUF was awarded <a href=\"https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/">graduate status</a>
+    within the organization, signifying that it
+    has completed a series of steps needed to move the project to the highest level of maturity in the CNCF.
     <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
         people:
             - *sebastien_awwad
@@ -684,7 +682,7 @@ projects:
     compromises, while addressing  automotive specific vulnerabilities and
     limitations. In 2017, Uptane was named one of
     the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-    Security Innovations of 2017</a> by Popular Science Magazine. In 2019, Uptane became a Linux Foundation <a href=\"http://www.jointdevelopment.org/\">Joint Development Foundation</a> project."
+    Security Innovations of 2017</a> by Popular Science Magazine. In 2019, Uptane became a Linux Foundation <a href=\"http://www.jointdevelopment.org/">Joint Development Foundation</a> project."
         products: "Uptane has already been adopted by
     <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
     Uptane has been
@@ -1009,7 +1007,7 @@ projects:
             - name: Eleni Gessiou
             - name: Steven Portzer
             - name: Fraida Fund
-            - name: "Monzur Muhammad"
+            - name: Monzur Muhammad
             - name: "Ivan Beschastnikh (UBC)"
               link: "https://www.cs.ubc.ca/~bestchai/"
             - *justin_cappos
@@ -2630,7 +2628,7 @@ Seattle in their courses."
     anchor: &uptane_standard_IEEE_ISTO_19
     title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
     authors:
-      - name:
+      - name: "Uptane Standards Group"
     project: *uptane
     link: "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html"
 
@@ -2815,7 +2813,7 @@ press:
       source: "Silicon Angle"
       date: "December 18, 2019"
 
-    - title: "Open-source System to Secure Software Updates 'Graduates' to Protect Leading Cloud Services"
+    - title: "Open-source System to Secure Software Updates Graduates to Protect Leading Cloud Services"
       link: "https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services"
       anchor: nyutanduptdec
       type: article
