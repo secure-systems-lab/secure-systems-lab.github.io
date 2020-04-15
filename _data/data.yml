@@ -2624,7 +2624,7 @@ invite the computer science education community to employ
 Seattle in their courses."
 
   - &uptane_standard_IEEE_ISTO_19
-    anchor: &uptane_standard_IEEE_ISTO_19
+    anchor: uptane_standard_IEEE_ISTO_19
     title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
     authors:
       - name: "Uptane Standards Group"
@@ -2846,7 +2846,7 @@ press:
 
     - title: "Protecting Update Systems from Nation-state Attackers"
       link: "https://lwn.net/Articles/794391/"
-      anchor: mornpapertotooct
+      anchor: lwnuptanejuly
       type: article
       project: *uptane
       source: "Linux Weekly News"
