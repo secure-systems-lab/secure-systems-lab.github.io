@@ -649,10 +649,9 @@ projects:
         It has been standardized for Python as documented in PEPs
         <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
         <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
-        TUF is managed by the <a href=\"https://www.linuxfoundation.org/">Linux Foundation</a> under
-        the Cloud Native Computing Foundation. In December 2019, TUF was awarded graduate status
-    within the organization, signifying that it
-    has completed a series of steps needed to move the project to the highest level of maturity in the CNCF.
+        TUF is managed by the <a href=\"https://www.linuxfoundation.org/">Linux Foundation</a> under the Cloud Native 
+        Computing Foundation. In December 2019, TUF was awarded graduate status within the organization, signifying that it
+        has completed a series of steps needed to move the project to the highest level of maturity in the CNCF.
     <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
         people:
             - *sebastien_awwad
