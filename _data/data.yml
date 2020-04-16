@@ -1654,17 +1654,6 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
       distribute, and verify software updates from an OEM repository in a
       compromise-resilient manner."
 
-    - &uptane_deployment_17
-      anchor: uptane_deployment_17
-      title: "Uptane Deployment Considerations"
-      authors:
-        - name: ""
-      project: *uptane
-      booktitle:
-      year: "2017"
-      link: "https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit"
-      abstract: "This instruction manual guides OEMs and suppliers on how to deploy and use Uptane in production.  Unlike the Implementation Specification, which describes the way to build an Uptane-compliant client, or the design document, which explains the rationale behind Uptane, the high level goal of this document is to explain how to setup, operate, integrate, and adapt Uptane to work in a variety of environments."
-
     - &kuppusamy_escar_16
       anchor: kuppusamy_escar_16
       title: "Uptane: Securing Software Updates for Automobiles"
@@ -2511,20 +2500,20 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
   than we could achieve by validating only with traces constructed
   a priori."
 
-    - &samuel_tufccs_10
-      anchor: samuel_tufccs_10
-      title: "Survivable Key Compromise in Software Update Systems"
-      authors:
+  - &samuel_tufccs_10
+    anchor: samuel_tufccs_10
+    title: "Survivable Key Compromise in Software Update Systems"
+    authors:
         - name: "J. Samuel, N. Matthewson, J. Cappos, R. Dingledine"
-      project: *tuf
-      booktitle: "17th ACM Conference on Computer and Communications Security (CCS'10)"
-      series:
-      year:
-      location:
-      publisher: "ACM"
-      address:
-      link: "/papers/samuel_tuf_ccs_2010.pdf"
-      abstract: "Today’s software update systems have little or no defense
+    project: *tuf
+    booktitle: "17th ACM Conference on Computer and Communications Security (CCS'10)"
+    series:
+    year:
+    location:
+    publisher: "ACM"
+    address:
+    link: "/papers/samuel_tuf_ccs_2010.pdf"
+    abstract: "Today’s software update systems have little or no defense
   against key compromise. As a result, key compromises have
   put millions of software update clients at risk. Here we identify
   three classes of information whose authenticity and integrity
@@ -2539,23 +2528,23 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
   Using these ideas, we design and implement TUF, a software
   update framework that increases resilience to key compromise."
 
-    - &cappos_ccs_2010
-      anchor: cappos_ccs_10
-      title: "Retaining Sandbox Containment Despite Bugs in Privileged Memory-Safe Code"
-      authors:
+  - &cappos_ccs_2010
+    anchor: cappos_ccs_10
+    title: "Retaining Sandbox Containment Despite Bugs in Privileged Memory-Safe Code"
+    authors:
         - name: "J. Cappos, A. Dadgar, J. Rasley, J. Samuel, I. Beschastnikh, C. Barsan, A. Krishnamurthy, and T. Anderson"
-      project: *lind
-      booktitle: "17th ACM Conference on Computer and Communications Security (CCS '10)"
-      series:
-      year:
-      isbn: "978-1-4503-0245-6"
-      location:
-      pages: 212--223
-      numpages: 12
-      publisher: "ACM"
-      address:
-      link: "/papers/samuel_tuf_ccs_2010.pdf"
-      abstract: "Flaws in the standard libraries of secure sandboxes represent
+    project: *lind
+    booktitle: "17th ACM Conference on Computer and Communications Security (CCS '10)"
+    series:
+    year:
+    isbn: "978-1-4503-0245-6"
+    location:
+    pages: 212--223
+    numpages: 12
+    publisher: "ACM"
+    address:
+    link: "/papers/samuel_tuf_ccs_2010.pdf"
+    abstract: "Flaws in the standard libraries of secure sandboxes represent
   a major security threat to billions of devices worldwide. The
   standard libraries are hard to secure because they frequently
   need to perform low-level operations that are forbidden in
@@ -2597,8 +2586,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     link: "/papers/cappos_seattle_sigcse_2009.pdf"
     keywords: "cloud computing, peer-to-peer computing, cluster computing, distributed computing"
     abstract: "Cloud computing is rapidly increasing in popularity. Companies
-such as RedHat, Microsoft, Amazon, Goog
-le, and
+such as RedHat, Microsoft, Amazon, Google, and
 IBM are increasingly funding cloud computing infrastructure
 and research, making it important for students to gain
 the necessary skills to work with cloud-based resources. This
@@ -2623,13 +2611,15 @@ computers that are distributed around the world. We
 invite the computer science education community to employ
 Seattle in their courses."
 
-  - &uptane_standard_IEEE_ISTO_19
-    anchor: uptane_standard_IEEE_ISTO_19
-    title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
-    authors:
-      - name: "Uptane Standards Group"
-    project: *uptane
-    link: "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html"
+ -&uptane_standard_IEEE_ISTO_19
+  anchor: uptane_standard_IEEE_ISTO_19
+  title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
+  authors:
+    - name: "Uptane Standards Group"
+  project: *uptane
+  booktitle:
+  year: "2019"
+  link: "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html"
 
   publication_cards:
     - type: Conference Papers
