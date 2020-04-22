@@ -2827,7 +2827,7 @@ press:
       link: "https://www.linuxfoundation.org/press-release/2019/12/the-linux-foundations-automated-compliance-work-garners-new-funding-advances-tools-development/"
       anchor: lftotoreldec
       type: article
-      project: *intoto
+      project: *in-toto
       source: "Linux Foundation"
       date: "December 12, 2019"
 
@@ -2835,7 +2835,7 @@ press:
       link: "https://blog.acolyer.org/2019/10/02/in-toto/"
       anchor: mornpapertotooct
       type: article
-      project: *intoto
+      project: *in-toto
       source: "The Morning Paper"
       date: "October 2, 2019"
 
