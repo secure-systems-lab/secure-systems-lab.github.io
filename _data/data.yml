@@ -747,6 +747,7 @@ projects:
             - *lukas_puhringer
             - *aditya_sirish
             - *ashish_das
+            - *yuanrui_chen
             - *isha_dave
             - *kristel_fung
             - *cindy_kim
@@ -1624,47 +1625,6 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
   result, it is difficult to use such measurements as an accurate predictor
   of health outcomes, or to develop a consistent criteria to rate the
   performance of such devices in head-to-head comparisons."
-
-    - &kuppusamy_uptane_design-17
-      anchor: kuppusamy_uptane_design-17
-      title: "Uptane Design Overview"
-      authors:
-        - name: "T.K. Kuppusamy, A. Brown, S. Awwad, D. McCoy, R. Bielawski, S. Weber, J. Liming, C. Mott, S. Lauzon, A. Weimerskirch, and J. Cappos"
-      project: *uptane
-      booktitle:
-      year: "2017"
-      link: "https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms"
-      abstract: "This document presents the design of the Uptane secure software
-      update protocol. This includes the high level design, rationale, and a
-      rough security analysis."
-
-    - &uptane_implementation_17
-      anchor: uptane_implementation_17
-      title: "Uptane Implementation Specification"
-      authors:
-        - name: ""
-      project: *uptane
-      booktitle:
-      year: "2017"
-      link: "https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit#heading=h.l6lkvdudrui2"
-      abstract: "This is the first of two documents designed to facilitate the
-      design, implementation, and deployment of Uptane, a secure software update
-      framework for automobiles. This document, the Implementation Specification,
-      is intended to be read by the programmers of an OEM who wish to implement
-      Uptane. Such an implementation will help ECUs on a vehicle to download,
-      distribute, and verify software updates from an OEM repository in a
-      compromise-resilient manner."
-
-    - &uptane_deployment_17
-      anchor: uptane_deployment_17
-      title: "Uptane Deployment Considerations"
-      authors:
-        - name: ""
-      project: *uptane
-      booktitle:
-      year: "2017"
-      link: "https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit"
-      abstract: "This instruction manual guides OEMs and suppliers on how to deploy and use Uptane in production.  Unlike the Implementation Specification, which describes the way to build an Uptane-compliant client, or the design document, which explains the rationale behind Uptane, the high level goal of this document is to explain how to setup, operate, integrate, and adapt Uptane to work in a variety of environments."
 
     - &kuppusamy_escar_16
       anchor: kuppusamy_escar_16
@@ -2624,6 +2584,22 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
   invite the computer science education community to employ
   Seattle in their courses."
 
+    - &uptane_standard_IEEE_ISTO_19
+        anchor: uptane_standard_IEEE_ISTO_19
+        title: "IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation"
+        authors:
+          - name: "Uptane Standards Group"
+        project: *uptane
+        booktitle:
+        year: "2019"
+        link: "https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html"
+        abstract: "Uptane is a secure software update framework for ground vehicles.
+        This document describes procedures to enable programmers for OEMs and suppliers to
+        securely design and implement this framework in a manner that better protects connected
+        units on ground vehicles. Integrating Uptane as outlined in the sections that
+        follow can reduce the ability of attackers to compromise critical systems.
+        It also assures a faster and easier recovery process should a compromise occur."
+
   publication_cards:
     - type: Conference Papers
       anchor: conference
@@ -2680,12 +2656,11 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *uptane_standard_IEEE_ISTO_19
         - *cappos_tsumiki_TPDS_18
         - *kuppusamy_VT_IEEE_18
         - *kuppusamy_login_2017
         - *kuppusamy_uptane_design-17
-        - *uptane_implementation_17
-        - *uptane_deployment_17
         - *dev-pep-2016
         - *zhuang-tr-cse-2015-01
         - *zhuang_sensibility_login_2015
