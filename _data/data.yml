@@ -2703,6 +2703,142 @@ press:
 
   presses:
 
+    - title: "Open Source Framework Helps Automakers Secure OTA Updates"
+      link: "https://www.d2pmagazine.com/2020/04/02/6099/"
+      anchor: d2pUptaneapril
+      type: article
+      project: *uptane
+      source: "Design2Part Magazine"
+      date: "April 2, 2020"
+
+    - title: "AWS Launches Bottlerocket, a Linux-based OS for Container Hosting"
+      link: "https://techcrunch.com/2020/03/11/aws-launches-bottlerocket-a-linux-based-os-for-container-hosting/"
+      anchor: tcbottlerocketufmarch
+      type: article
+      project: *tuf
+      source: "TechCrunch"
+      date: "March 11, 2020"
+
+    - title: "People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says"
+      link: "https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/"
+      anchor: nj105uptanemarch
+      type: article
+      project: *uptane
+      source: "New Jersey 101.5"
+      date: "March 9, 2020"
+
+    - title: "An Update PyPI Funded Work"
+      link: "https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html"
+      anchor: pypipyblogmarch
+      type: article
+      project: *tuf
+      source: "Python Foundation Blogspot"
+      date: "March 4, 2020"
+
+    - title: "Wireless Vehicle Updates Pose Big Cybersecurity Risk for Automakers, Consumers"
+      link: "https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2"
+      anchor: spglobaluptanejan
+      type: article
+      project: *uptane
+      source: "S&P Global"
+      date: "January 9, 2020"
+
+    - title: "Security Vulnerabilities in Solution Deployment"
+      link: "https://blog.mp3monster.org/2020/01/04/security-vulnerabilities-in-solution-deployment/"
+      anchor: mp3monstertufjan
+      type: article
+      project: *tuf
+      source: "MP3 Monster's Blog"
+      date: "January 4, 2020"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://www.avnetwork.com/news/cloud-native-computing-foundation-announces-tuf-graduation"
+      anchor: cncftufavnewsdec
+      type: article
+      project: *tuf
+      source: "AV Network"
+      date: "December 27, 2019"
+
+    - title: "The Update Framework Graduates from the Linux Foundation's Cloud Native Computing Foundation"
+      link: "https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/"
+      anchor: cncftufhelpnetdec
+      type: article
+      project: *tuf
+      source: "Help Net Security"
+      date: "December 23, 2019"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://lwn.net/Articles/807777/"
+      anchor: cncflwntufdec
+      type: article
+      project: *tuf
+      source: "Linux Weekly News"
+      date: "December 19, 2019"
+
+    - title: "Open-source System Securing Software Updates 'Graduates' to Protect Leading Cloud Services"
+      link: "https://techxplore.com/news/2019-12-open-source-software-cloud.html"
+      anchor: techxptuf
+      type: article
+      project: *tuf
+      source: "TechXplore"
+      date: "December 19, 2019"
+
+    - title: "The Update Framework becomes ninth project to graduate CNCF"
+      link: "https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/"
+      anchor: devclasstufdec
+      type: article
+      project: *tuf
+      source: "DevClass.com"
+      date: "December 19, 2019"
+
+    - title: "CNCF Graduates TUF Project to Secure Software Updates"
+      link: "https://devops.com/cncf-graduates-tuf-project-to-secure-software-updates/"
+      anchor: devopstufdec
+      type: article
+      project: *tuf
+      source: "DevOps.com"
+      date: "December 18, 2019"
+
+    - title: "Cloud-native Project The Update Framework Hits Top-level CNCF Status"
+      link: "https://siliconangle.com/2019/12/18/cncf-announces-graduation-another-cloud-native-project-update-framework/"
+      anchor: siliconangtufdec
+      type: article
+      project: *tuf
+      source: "Silicon Angle"
+      date: "December 18, 2019"
+
+    - title: "Open-source System to Secure Software Updates Graduates to Protect Leading Cloud Services"
+      link: "https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services"
+      anchor: nyutanduptdec
+      type: article
+      project: *tuf
+      source: "NYU Tandon Press Office"
+      date: "December 18, 2019"
+
+    - title: "Cloud Native Computing Foundation Announces TUF Graduation"
+      link: "https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/"
+      anchor: cncfuptreldec
+      type: article
+      project: *tuf
+      source: "Cloud Native Computing Foundation"
+      date: "December 18, 2019"
+
+    - title: "The Linux Foundation's Automated Compliance Work Garners New Funding, Advances Tools Development"
+      link: "https://www.linuxfoundation.org/press-release/2019/12/the-linux-foundations-automated-compliance-work-garners-new-funding-advances-tools-development/"
+      anchor: lftotoreldec
+      type: article
+      project: *in-toto
+      source: "Linux Foundation"
+      date: "December 12, 2019"
+
+    - title: "in-toto: Providing Farm-to-table Guarantees for Bits and Bytes"
+      link: "https://blog.acolyer.org/2019/10/02/in-toto/"
+      anchor: mornpapertotooct
+      type: article
+      project: *in-toto
+      source: "The Morning Paper"
+      date: "October 2, 2019"
+
     - title: "Protecting Update Systems from Nation-state Attackers"
       link: "https://lwn.net/Articles/794391/"
       anchor: LWNUptanejuly
