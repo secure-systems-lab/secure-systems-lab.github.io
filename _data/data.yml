@@ -520,7 +520,7 @@ people:
         people:
           - *justin_cappos
 
-      - type: "staff"
+      - type: "Staff"
         anchor: staff
         people:
           - *sebastien_awwad
