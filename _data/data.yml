@@ -1078,6 +1078,20 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &moore_pouf_2020
+      anchor: moore_pouf_2020
+      title: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+      authors:
+        - name: "M. Moore, I. McDonald, A. Weimerskirch, S. Awwad, L. A. DeLong, J. Cappos"
+      project: *uptane
+      booktitle: "ESCAR USA 2020 Special Issue"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/papers/moore_pouf_2020.pdf"
+      abstract: "This work introduces the concept of a dual-layer specification structure for standards that separates interoperability functions, such as backwards compatibility, localization, and deployment, from those essential to reliability, security, and functionality. The latter group of features, which constitute the actual standard, make up the baseline layer for instructions, while all the elements required for interoperability are specified in a second layer, known as a Protocols, Operations, Usage, and Formats (POUF) document. We applied this technique in the development of a standard for Uptane, a security framework for over-the-air software updates used in many automobiles. This standard is a good candidate for a dual-layer specification because it requires communication between entities, but does not require a specific format for this communication. By deferring wire protocols and other implementation details to POUFs, the creators of the Uptane Standard were able to focus on the basic procedures and operations needed to secure automotive updates. We demonstrate the effectiveness of this format by specifying a POUF for the Uptane Reference Implementation."
+
+
     - &almashaqbeh_microcash_fc20
       anchor: almashaqbeh_microcash_fc20
       title: "Microcash: Practical Concurrent Processing of Micropayments"
@@ -2656,6 +2670,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *moore_pouf_2020
         - *uptane_standard_IEEE_ISTO_19
         - *cappos_tsumiki_TPDS_18
         - *kuppusamy_VT_IEEE_18
