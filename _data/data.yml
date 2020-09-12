@@ -112,6 +112,8 @@ people:
           photo: "img/people/sebastien_awwad.jpg"
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
           publications:
+            - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+              link: "/papers/moore_pouf_2020.pdf"
             - name: "escar 2016"
               link: "/papers/kuppusamy_escar_16.pdf"
           deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
@@ -140,7 +142,7 @@ people:
           name: "Trishank Kuppusamy"
           anchor: trishank_kuppusamy
           internal: true
-          role:  "Ph.D. 2017, now Chief Security Solutions Engineer at DataDog"
+          role:  "Ph.D. 2017, now Staff Security Engineer at DataDog"
           since: "2011"
           photo: "img/people/trishank_kuppusamy.jpg"
           site: "https://github.com/trishankkarthik"
@@ -167,7 +169,7 @@ people:
           name: "Luqin Wang"
           anchor: luqin_wang
           internal: true
-          role: "Ph.D. 2016 (co-advised by Yong Liu)"
+          role: "Ph.D. 2016 (co-advised by Yong Liu), now a Research Scientist at Facebook"
           since: "2011"
           photo: "img/people/luqin_wang.jpg"
           interests: "Social networks, Internet measurement, network security and distributed systems"
@@ -180,7 +182,7 @@ people:
           name: "Ghada Almashaqbeh"
           anchor: ghada_almashaqbeh
           internal: true
-          role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now at NuCypher"
+          role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now a tenure track assistant professor at the University of Connecticut"
           since: "2015"
           photo: "img/people/ghada_almashaqbeh.jpg"
           site: "http://www.cs.columbia.edu/~ghada/"
@@ -218,13 +220,15 @@ people:
           name: "Santiago Torres-Arias"
           anchor: santiago_torres
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2020, now an assistant professor of electrical and computer engineering at Purdue University"
           since: "2014"
           photo: "img/people/santiago_torres.png"
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
 
+              - name: "Journal of Computer Security"
+                link: "/papers/afzali-webgit-jcs20.pdf"
               - name: "USENIX Security 2019"
                 link: "/papers/torres-toto-usenix19.pdf"
               - name: "IFIP SEC"
@@ -269,8 +273,10 @@ people:
           role: "Research Associate/Technical Writer"
           since: "2015"
           photo: "img/people/lois_delong.jpg"
-          interests: "Experimental design involving human subjects; links between natural languages and programming languages"
+          interests: "Experimental design involving human subjects; links between natural languages and programming languages, standards development"
           publications:
+                - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+                  link: "/papers/moore_pouf_2020.pdf"     
                 - name: "SOUPS 2018"
                   link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
                 - name: "IEEE VT 2018"
@@ -315,11 +321,13 @@ people:
           name: "Dan Gopstein"
           anchor: dan_gopstein
           internal: true
-          role: "Ph.D. Student (co-advised with Andy Nealen)"
+          role: "Ph.D. 2020 (co-advised with Andy Nealen)"
           since: "2015"
           photo: "img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
           publications:
+            - name: "FSE 2020"
+              link:
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -381,7 +389,9 @@ people:
           since: 2018
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
-
+          publications:
+              - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+                link: "/papers/moore_pouf_2020.pdf"
       - &nick_renner
           name: "Nick Renner"
           anchor: nick_renner
@@ -407,7 +417,7 @@ people:
           name: "Aditya Sirish"
           anchor: aditya_sirish
           internal: true
-          role: "Master's student"
+          role: "Ph.D. student"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
           interests: "Internet privacy, systems security"
@@ -422,7 +432,6 @@ people:
           photo: "img/people/sumana_harihareswara.jpg"
           interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
           deployments: Project manager for <a href="https://pip.pypa.io/">pip</a>, previously for <a href="https://pypi.org/">the Python Package Index (PyPI)</a> (<a href="https://lwn.net/Articles/751458/">LWN coverage</a>).
-
 
       - &ashish_das
           name: "Ashish Das"
@@ -513,6 +522,15 @@ people:
             since: 2020
             photo: "img/people/ge_yang.jpg"
             interests: "Security and privacy"
+            
+       - &jonathan_singer
+            name: "Jonathan Singer"
+            anchor: jonathan_singer
+            internal: true
+            role: "Undergraduate student"
+            since: 2020
+            photo: "img/people/jonathan_singer.jpg"
+            interests: "Systems security, network security, POSIX kernels"
 
     people_cards:
       - type: "Faculty"
@@ -531,28 +549,26 @@ people:
         anchor: phd
         people:
           - *yiwen_li
-          - *santiago_torres
-          - *dan_gopstein
           - *preston_moore
           - *marina_moore
           - *nick_renner
-
+          - *aditya_sirish
+          
       - type: "Other Students"
         anchor: otherstudents
-        people:
-          - *aditya_sirish
-          - *ashish_das
-          - *priyanka_mahesh
-          - *yash_shah
-          - *cindy_kim
-          - *kristel_fung
-          - *yuanrui_chen
+        people:  
+          - *jonathan_singer
           - *isha_dave
           - *kaitlyn_liu
           - *benjamin_wu
-          - *ge_yang
-          - *henry_zhou
-
+          - *ge_yang  
+          - *cindy_kim
+          - *kristel_fung
+          - *yuanrui_chen
+          - *priyanka_mahesh
+          - *yash_shah
+          - *ashish_das
+          
       - type: "Visiting Scholars"
         anchor: visitingscholars
         people:
@@ -561,16 +577,19 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *santiago_torres
+          - *dan_gopstein
           - *ghada_almashaqbeh
-          - *joey_pabalinas
           - *yanyan_zhuang
           - *trishank_kuppusamy
-          - *sam_weber
+          - *albert_rafetseder       
           - *luqin_wang
-          - *sai_peddinti
-          - *artiom_baloian
+          - *sai_peddinti    
           - *vlad_diaz
-          - *albert_rafetseder
+          - *sam_weber
+          - *joey_pabalinas
+          - *artiom_baloian
+ 
 
 projects:
     statuses:
@@ -784,11 +803,10 @@ projects:
     <a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
         people:
             - *dan_gopstein
-            - *henry_zhou
             - *lois_delong
             - name: Phyllis Frankl
               link: "http://engineering.nyu.edu/people/phyllis-frankl"
-            - name: April Yu Yan (PSU)
+            - name: April Yu Yan (UCSD)
             - name: Martin Yeh (PSU)
               link: "http://martinyeh.com/"
             - *yanyan_zhuang
@@ -846,6 +864,7 @@ projects:
         people:
             - *yiwen_li
             - *nick_renner
+            - *jonathan_singer
             - *yash_shah
             - *kaitlyn_liu
             - *justin_cappos
@@ -871,6 +890,8 @@ projects:
               link: "http://engineering.nyu.edu/people/phyllis-frankl"
             - name: "Thomas Wies"
               link: "https://cs.nyu.edu/wies/"
+            - name: "Marc Waldman"
+              link: "https://manhattan.edu/campus-directory/marc.waldman"         
         tags:
             - *software_engineering
             - *testing_tools
@@ -946,6 +967,7 @@ projects:
             - *albert_rafetseder
             - *yanyan_zhuang
             - name: "Yu Hu"
+              link: "https://www.linkedin.com/in/yu-hu-a9994793/"
             - name: "Richard Weiss"
               link: "http://evergreen.edu/directory/people/weissr"
             - name: "Leon Reznik"
@@ -1078,6 +1100,58 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &gopstein_thinking_fse20
+      anchor: gopstein_thinking_fse20
+      title: "Thinking Aloud About Confusing Code: A Qualitative Investigation of Program Comprehension and Atoms of Confusion"
+      authors:
+      - name: "D. Gopstein, A.L. Fayard, S. Apel, J. Cappos"
+      project: *atoms
+      booktitle: "To be presented at the 2020 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE20)"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: ""
+      abstract: "Atoms of confusion are small patterns of code that have been empirically validated to be difficult to
+      hand-evaluate by programmers. Previous research focused on defining and quantifying this phenomenon, but not on
+      explaining or critiquing it. In this work, we address core omissions to the body of work on atoms of confusion,
+      focusing on the ‘how’ and ‘why’ of programmer misunderstanding.
+
+      We performed a think-aloud study in which we observed programmers, both professionals and students, as they hand-evaluated confusing
+      code. We performed a qualitative analysis of the data and found several surprising results, which explain previous results,
+      outline avenues of further research, and suggest improvements of the research methodology.
+
+      A notable observation is that correct hand-evaluations do not imply understanding, and incorrect evaluations
+      not misunderstanding. We believe this and other observations may be used to improve future studies and models of
+      program comprehension. We argue that thinking of confusion as an atomic construct may pose challenges to formulating
+      new candidates for atoms of confusion. Ultimately, we question whether hand-evaluation correctness is,
+      itself, a sufficient instrument to study program comprehension."
+
+    - &afzali_verifiable_jcs_20
+      anchor: afzali_verifiable_jcs_20
+      title: "Towards Adding Verifiability to Web-based Git Repositories"
+      authors:
+        - name: "H. Afzali, S. Torres-Arias, R. Curtmola, and J. Cappos"
+      project:
+      booktitle: "Journal of Computer Security"
+      year: "April 2020"
+      pages: ""
+      publisher: "IOS Press"
+      link: "/papers/afzali-webgit-jcs20.pdf"
+      abstract: "Web-based Git hosting services such as GitHub and GitLab are popular choices to manage and interact with Git
+repositories. However, they lack an important security feature — the ability to sign Git commits. Users instruct the server to
+perform repository operations on their behalf and have to trust that the server will execute their requests faithfully. Such trust
+may be unwarranted though because a malicious or a compromised server may execute the requested actions in an incorrect
+manner, leading to a different state of the repository than what the user intended.
+In this paper, we show a range of high-impact attacks that can be executed stealthily when developers use the web UI of
+a Git hosting service to perform common actions such as editing files or merging branches. We then propose le-git-imate, a
+defense against these attacks, which enables users to protect their commits using Git’s standard commit signing mechanism.
+We implement le-git-imate as a Chrome browser extension. le-git-imate does not require changes on the server side and can
+thus be used immediately. It also preserves current workflows used in Github/GitLab and does not require the user to leave
+the browser, and it allows anyone to verify that the server’s actions faithfully follow the user’s requested actions. Moreover,
+experimental evaluation using the browser extension shows that le-git-imate has comparable performance with Git’s standard
+commit signature mechanism. With our solution in place, users can take advantage of GitHub/GitLab’s web-based features
+without sacrificing security, thus paving the way towards verifiable web-based Git repositories."
+
     - &moore_pouf_2020
       anchor: moore_pouf_2020
       title: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
@@ -1098,7 +1172,7 @@ publications:
       authors:
         - name: "G. Almashaqbeh, A. Bishop, J. Cappos"
       project: *cachecash
-      booktitle: ""
+      booktitle: "24th International Conference on Financial Cryptography and Data Security (FC2020)"
       year: ""
       pages: ""
       publisher: ""
@@ -2618,6 +2692,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *gopstein_thinking_fse20
         - *almashaqbeh_microcash_fc20
         - *moore_crashsim_issre_19
         - *torres_intoto_usenixsec_19
@@ -2670,6 +2745,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *afzali_verifiable_jcs_20
         - *moore_pouf_2020
         - *uptane_standard_IEEE_ISTO_19
         - *cappos_tsumiki_TPDS_18
@@ -2692,6 +2768,46 @@ press:
 
   presses:
 
+    - title: "Secure Software Updates via TUF -- Part 2"
+      link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-2-412c6a2b10ab"
+      anchor: mediumtufsept
+      type: article
+      project: *tuf
+      source: "Medium"
+      date: "September 1, 2020"
+
+    - title: "Secure Software Updates via TUF -- Part 1"
+      link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-1-f9bbb34bcbbc"
+      anchor: mediumtufaug
+      type: article
+      project: *tuf
+      source: "Medium"
+      date: "August 18, 2020"
+
+    - title: "Delivering Secure Automotive OTA Updates with Uptane and OTAmatic"
+      link: "https://www.airbiquity.com/blog-events/blog-posts/delivering-secure-automotive-ota-updates-uptane-and-otamatic"
+      anchor: airbiqUptaneaug
+      type: article
+      project: *uptane
+      source: "Airbiquity Blog"
+      date: "August 11, 2020"
+
+    - title: "How TUF can secure software systems from update vulnerabilities"
+      link: "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-TUF-can-secure-software-systems-from-update-vulnerabilities"
+      anchor: serversideuptane
+      type: article
+      project: *tuf
+      source: "The Server Side"
+      date: "August 1, 2020"
+
+    - title: "Protecting Connected Cars' Over-the-Air Software Updates"
+      link: "https://www.wardsauto.com/vehicles/protecting-connected-cars-over-air-software-updates"
+      anchor: wardsUptanejuly
+      type: article
+      project: *uptane
+      source: "Wards Auto.com"
+      date: "July 21, 2020"
+      
     - title: "Open Source Framework Helps Automakers Secure OTA Updates"
       link: "https://www.d2pmagazine.com/2020/04/02/6099/"
       anchor: d2pUptaneapril
