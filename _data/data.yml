@@ -113,7 +113,7 @@ people:
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
           publications:
             - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
-              link: "/papers/moore_pouf_2020.pdf"
+              link: "http://ssl.engineering.nyu.edu/papers/moore_pouf_2020.pdf"
             - name: "escar 2016"
               link: "/papers/kuppusamy_escar_16.pdf"
           deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
@@ -226,7 +226,6 @@ people:
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
-
               - name: "Journal of Computer Security"
                 link: "/papers/afzali-webgit-jcs20.pdf"
               - name: "USENIX Security 2019"
@@ -327,7 +326,7 @@ people:
           interests: "Programming languages and software systems"
           publications:
             - name: "FSE 2020"
-              link:
+              link: " "
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -368,18 +367,6 @@ people:
               link: "http://dl.acm.org/citation.cfm?id=2538931"
           deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
 
-      - &henry_zhou
-          name: "Henry Zhou"
-          anchor: henry_zhou
-          internal: true
-          role: "Undergraduate Student"
-          since: 2017
-          photo: "img/people/henry_zhou.jpg"
-          interests: "Game engineering and design, digital media, philosophy and
-          ethics of technology"
-          publications:
-                  - name: "MSR 2018"
-                    link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
 
       - &marina_moore
           name: "Marina Moore"
@@ -417,7 +404,7 @@ people:
           name: "Aditya Sirish"
           anchor: aditya_sirish
           internal: true
-          role: "Ph.D. student"
+          role: "Ph.D. Student"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
           interests: "Internet privacy, systems security"
@@ -1104,7 +1091,7 @@ publications:
       anchor: gopstein_thinking_fse20
       title: "Thinking Aloud About Confusing Code: A Qualitative Investigation of Program Comprehension and Atoms of Confusion"
       authors:
-      - name: "D. Gopstein, A.L. Fayard, S. Apel, J. Cappos"
+        - name: "D. Gopstein, A.L. Fayard, S. Apel, J. Cappos"
       project: *atoms
       booktitle: "To be presented at the 2020 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE20)"
       year: ""
@@ -1115,11 +1102,9 @@ publications:
       hand-evaluate by programmers. Previous research focused on defining and quantifying this phenomenon, but not on
       explaining or critiquing it. In this work, we address core omissions to the body of work on atoms of confusion,
       focusing on the ‘how’ and ‘why’ of programmer misunderstanding.
-
       We performed a think-aloud study in which we observed programmers, both professionals and students, as they hand-evaluated confusing
       code. We performed a qualitative analysis of the data and found several surprising results, which explain previous results,
       outline avenues of further research, and suggest improvements of the research methodology.
-
       A notable observation is that correct hand-evaluations do not imply understanding, and incorrect evaluations
       not misunderstanding. We believe this and other observations may be used to improve future studies and models of
       program comprehension. We argue that thinking of confusion as an atomic construct may pose challenges to formulating
@@ -1135,7 +1120,7 @@ publications:
       booktitle: "Journal of Computer Security"
       year: "April 2020"
       pages: ""
-      publisher: "IOS Press"
+      publisher: ""
       link: "/papers/afzali-webgit-jcs20.pdf"
       abstract: "Web-based Git hosting services such as GitHub and GitLab are popular choices to manage and interact with Git
 repositories. However, they lack an important security feature — the ability to sign Git commits. Users instruct the server to
