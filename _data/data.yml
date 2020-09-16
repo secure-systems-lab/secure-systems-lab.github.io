@@ -112,6 +112,8 @@ people:
           photo: "img/people/sebastien_awwad.jpg"
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
           publications:
+            - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+              link: "/papers/moore_pouf_2020.pdf"     
             - name: "escar 2016"
               link: "/papers/kuppusamy_escar_16.pdf"
           deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
@@ -140,7 +142,7 @@ people:
           name: "Trishank Kuppusamy"
           anchor: trishank_kuppusamy
           internal: true
-          role:  "Ph.D. 2017, now Chief Security Solutions Engineer at DataDog"
+          role:  "Ph.D. 2017, now Staff Security Engineer at DataDog"
           since: "2011"
           photo: "img/people/trishank_kuppusamy.jpg"
           site: "https://github.com/trishankkarthik"
@@ -167,7 +169,7 @@ people:
           name: "Luqin Wang"
           anchor: luqin_wang
           internal: true
-          role: "Ph.D. 2016 (co-advised by Yong Liu)"
+          role: "Ph.D. 2016 (co-advised by Yong Liu), now a Research Scientist at Facebook"
           since: "2011"
           photo: "img/people/luqin_wang.jpg"
           interests: "Social networks, Internet measurement, network security and distributed systems"
@@ -180,7 +182,7 @@ people:
           name: "Ghada Almashaqbeh"
           anchor: ghada_almashaqbeh
           internal: true
-          role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now at NuCypher"
+          role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now a tenure track assistant professor at UConn"
           since: "2015"
           photo: "img/people/ghada_almashaqbeh.jpg"
           site: "http://www.cs.columbia.edu/~ghada/"
@@ -218,13 +220,15 @@ people:
           name: "Santiago Torres-Arias"
           anchor: santiago_torres
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2020, now an assistant professor of Electrical and Computer Engineering at Purdue University"
           since: "2014"
           photo: "img/people/santiago_torres.png"
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
 
+              - name: "Journal of Computer Security"
+                link: "/papers/afzali-webgit-jcs20.pdf"
               - name: "USENIX Security 2019"
                 link: "/papers/torres-toto-usenix19.pdf"
               - name: "IFIP SEC"
@@ -271,6 +275,8 @@ people:
           photo: "img/people/lois_delong.jpg"
           interests: "Experimental design involving human subjects; links between natural languages and programming languages"
           publications:
+                - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+                  link: "/papers/moore_pouf_2020.pdf"
                 - name: "SOUPS 2018"
                   link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
                 - name: "IEEE VT 2018"
@@ -381,6 +387,9 @@ people:
           since: 2018
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
+          publications:      
+                  - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+                    link: "/papers/moore_pouf_2020.pdf"
 
       - &nick_renner
           name: "Nick Renner"
@@ -407,7 +416,7 @@ people:
           name: "Aditya Sirish"
           anchor: aditya_sirish
           internal: true
-          role: "Master's student"
+          role: "Ph.D. Student"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
           interests: "Internet privacy, systems security"
@@ -422,7 +431,6 @@ people:
           photo: "img/people/sumana_harihareswara.jpg"
           interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
           deployments: Project manager for <a href="https://pip.pypa.io/">pip</a>, previously for <a href="https://pypi.org/">the Python Package Index (PyPI)</a> (<a href="https://lwn.net/Articles/751458/">LWN coverage</a>).
-
 
       - &ashish_das
           name: "Ashish Das"
@@ -514,6 +522,15 @@ people:
             photo: "img/people/ge_yang.jpg"
             interests: "Security and privacy"
 
+      - &jonathan_singer
+            name: "jonathan_singer"
+            anchor: jonathan_singer
+            internal: true
+            role: "Undergraduate student"
+            since: 2020
+            photo: "img/people/jonathan_singer.jpg"
+            interests: "Systems security, network security, POSIX kernels"
+
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -530,19 +547,18 @@ people:
       - type: "PhD. Students"
         anchor: phd
         people:
+  
           - *yiwen_li
-          - *santiago_torres
-          - *dan_gopstein
           - *preston_moore
           - *marina_moore
           - *nick_renner
-
+          - *aditya_sirish
+          
       - type: "Other Students"
         anchor: otherstudents
         people:
-          - *aditya_sirish
-          - *ashish_das
-          - *priyanka_mahesh
+  
+          - *jonathan_singer  
           - *yash_shah
           - *cindy_kim
           - *kristel_fung
@@ -551,8 +567,9 @@ people:
           - *kaitlyn_liu
           - *benjamin_wu
           - *ge_yang
-          - *henry_zhou
-
+          - *ashish_das
+          - *priyanka_mahesh
+          
       - type: "Visiting Scholars"
         anchor: visitingscholars
         people:
@@ -561,6 +578,8 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *santiago_torres
+          - *dan_gopstein
           - *ghada_almashaqbeh
           - *joey_pabalinas
           - *yanyan_zhuang
