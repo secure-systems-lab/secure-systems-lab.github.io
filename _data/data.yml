@@ -275,7 +275,7 @@ people:
           photo: "img/people/lois_delong.jpg"
           interests: "Experimental design involving human subjects; links between natural languages and programming languages"
           publications:
-                - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+                - name: "ESCAR USA 2020 Special Issue"
                   link: "/papers/moore_pouf_2020.pdf"
                 - name: "SOUPS 2018"
                   link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
@@ -321,11 +321,13 @@ people:
           name: "Dan Gopstein"
           anchor: dan_gopstein
           internal: true
-          role: "Ph.D. Student (co-advised with Andy Nealen)"
+          role: "Ph.D. 2020 (co-advised with Andy Nealen)"
           since: "2015"
           photo: "img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
           publications:
+            - name: "FSE2020"
+              link: "" 
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -365,19 +367,6 @@ people:
             - name: "SIGCSE 2014"
               link: "http://dl.acm.org/citation.cfm?id=2538931"
           deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
-
-      - &henry_zhou
-          name: "Henry Zhou"
-          anchor: henry_zhou
-          internal: true
-          role: "Undergraduate Student"
-          since: 2017
-          photo: "img/people/henry_zhou.jpg"
-          interests: "Game engineering and design, digital media, philosophy and
-          ethics of technology"
-          publications:
-                  - name: "MSR 2018"
-                    link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
 
       - &marina_moore
           name: "Marina Moore"
@@ -523,13 +512,22 @@ people:
             interests: "Security and privacy"
 
       - &jonathan_singer
-            name: "jonathan_singer"
+            name: "Jonathan Singer"
             anchor: jonathan_singer
             internal: true
             role: "Undergraduate student"
             since: 2020
             photo: "img/people/jonathan_singer.jpg"
             interests: "Systems security, network security, POSIX kernels"
+
+      - &raghav_sai
+            name: "Raghav Sai"
+            anchor: raghav_sai
+            internal: true
+            role: "Master's Student"
+            since: 2020
+            photo: "img/people/raghav_sai.jpg"
+            interests: "Software development and security, Internet privacy"
 
     people_cards:
       - type: "Faculty"
@@ -559,6 +557,7 @@ people:
         people:
   
           - *jonathan_singer  
+          - *raghav_sai
           - *yash_shah
           - *cindy_kim
           - *kristel_fung
@@ -837,6 +836,7 @@ projects:
         people:
             - *ghada_almashaqbeh
             - *ge_yang
+            - *raghav_sai
             - name: "Allison Bishop Lewko"
               link: "http://www.cs.columbia.edu/~allison"
             - *justin_cappos
@@ -865,6 +865,7 @@ projects:
         people:
             - *yiwen_li
             - *nick_renner
+            - *jonathan_singer
             - *yash_shah
             - *kaitlyn_liu
             - *justin_cappos
