@@ -579,15 +579,15 @@ people:
           - *santiago_torres
           - *dan_gopstein
           - *ghada_almashaqbeh
-          - *joey_pabalinas
-          - *yanyan_zhuang
           - *trishank_kuppusamy
+          - *yanyan_zhuang
+          - *albert_rafetseder
+          - *vlad_diaz       
           - *sam_weber
           - *luqin_wang
           - *sai_peddinti
           - *artiom_baloian
-          - *vlad_diaz
-          - *albert_rafetseder
+          - *joey_pabalinas
 
 projects:
     statuses:
@@ -1095,6 +1095,34 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
+    - &gopstein_thinking_fse20
+      anchor: gopstein_thinking_fse20
+      title: "Thinking Aloud About Confusing Code: A Qualitative Investigation of Program Comprehension and Atoms of Confusion"
+      authors:
+        - name: "D. Gopstein, A. L. Fayard, S. Apel, J. Cappos"
+      project: *atoms
+      booktitle: "to be presented at the 2020 Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+     (ESEC/FSE 20)"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: ""
+      abstract: ""
+
+    - &afzali_webgit_JCS_2020
+      anchor: afzali_webgit_JCS_2020
+      title: "Towards Adding Verifiability to Web-based Git Repositories"
+      authors:
+        - name: "H. Afzali, S. Torres-Arias, R. Curtmola, and J. Cappos"
+      project: *uptane
+      booktitle: "The Journal of Computer Security"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/paper/afzali-webgit-jcs20.pdf"
+      abstract: “Web-based Git hosting services such as GitHub and GitLab are popular choices to manage and interact with Git repositories. However, they lack an important security feature — the ability to sign Git commits. Users instruct the server to perform repository operations on their behalf and have to trust that the server will execute their requests faithfully. Such trust may be unwarranted though because a malicious or a compromised server may execute the requested actions in an incorrect manner, leading to a different state of the repository than what the user intended.
+ In this paper, we show a range of high-impact attacks that can be executed stealthily when developers use the web UI of a Git hosting service to perform common actions such as editing files or merging branches. We then propose le-git-imate, a defense against these attacks, which enables users to protect their commits using Git’s standard commit signing mechanism. We implement le-git-imate as a Chrome browser extension. le-git-imate does not require changes on the server side and can thus be used immediately. It also preserves current workflows used in Github/GitLab and does not require the user to leave the browser, and it allows anyone to verify that the server’s actions faithfully follow the user’s requested actions. Moreover, experimental evaluation using the browser extension shows that le-git-imate has comparable performance with Git’s standard commit signature mechanism. With our solution in place, users can take advantage of GitHub/GitLab’s web-based features without sacrificing security, thus paving the way towards verifiable web-based Git repositories.”
 
     - &moore_pouf_2020
       anchor: moore_pouf_2020
@@ -2636,6 +2664,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *gopstein_thinking_fse20
         - *almashaqbeh_microcash_fc20
         - *moore_crashsim_issre_19
         - *torres_intoto_usenixsec_19
@@ -2688,6 +2717,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *afzali_webgit_JCS_2020
         - *moore_pouf_2020
         - *uptane_standard_IEEE_ISTO_19
         - *cappos_tsumiki_TPDS_18
