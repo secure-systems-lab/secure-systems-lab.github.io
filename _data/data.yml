@@ -226,7 +226,6 @@ people:
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
-
               - name: "Journal of Computer Security"
                 link: "/papers/afzali-webgit-jcs20.pdf"
               - name: "USENIX Security 2019"
@@ -377,8 +376,8 @@ people:
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
           publications:      
-                  - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
-                    link: "/papers/moore_pouf_2020.pdf"
+            - name: "ESCAR USA 2020 Special Issue"
+              link: "/papers/moore_pouf_2020.pdf"
 
       - &nick_renner
           name: "Nick Renner"
@@ -802,11 +801,10 @@ projects:
     <a href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux kernel</a>."
         people:
             - *dan_gopstein
-            - *henry_zhou
             - *lois_delong
             - name: Phyllis Frankl
               link: "http://engineering.nyu.edu/people/phyllis-frankl"
-            - name: April Yu Yan (PSU)
+            - name: April Yu Yan (UCSD)
             - name: Martin Yeh (PSU)
               link: "http://martinyeh.com/"
             - *yanyan_zhuang
