@@ -2737,6 +2737,46 @@ press:
 
   presses:
 
+    - title: "Secure Software Updates via TUF -- Part 2"
+      link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-2-412c6a2b10ab"
+      anchor: medium2tufmeta
+      type: article
+      project: *tuf
+      source: "Medium"
+      date: "September 1, 2020"
+      
+    - title: "Secure Software Updates via TUF -- Part 1"
+      link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-1-f9bbb34bcbbc"
+      anchor: medium1tufbasic
+      type: article
+      project: *tuf
+      source: "Medium"
+      date: "August 18, 2020"
+
+    - title: "Delivering Secure Automotive OTA Updates with Uptane and OTAmatic"
+      link: "https://www.airbiquity.com/blog-events/blog-posts/delivering-secure-automotive-ota-updates-uptane-and-otamatic"
+      anchor: airbiqblogaug20
+      type: article
+      project: *uptane
+      source: "Airbquity Blog"
+      date: "August 11, 2020"
+
+    - title: "How TUF can secure software systems from update vulnerabilities"
+      link: "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-TUF-can-secure-software-systems-from-update-vulnerabilities"
+      anchor: servertufsecure
+      type: article
+      project: *tuf
+      source: "The Server Side"
+      date: "August 1, 2020"
+
+    - title: "Protecting Connected Cars' Over-the-Air Software Updates"
+      link: "https://www.wardsauto.com/vehicles/protecting-connected-cars-over-air-software-updates"
+      anchor: wardsuptanejuly
+      type: article
+      project: *uptane
+      source: "Wards Auto"
+      date: "July 21, 2020"
+
     - title: "Open Source Framework Helps Automakers Secure OTA Updates"
       link: "https://www.d2pmagazine.com/2020/04/02/6099/"
       anchor: d2pUptaneapril
