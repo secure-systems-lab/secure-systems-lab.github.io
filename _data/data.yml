@@ -326,7 +326,7 @@ people:
           interests: "Programming languages and software systems"
           publications:
             - name: "FSE2020"
-              link: "" 
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE20" 
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -428,15 +428,6 @@ people:
           since: 2019
           photo: "img/people/ashish_das.jpg"
           interests: "Applied cryptography, secure systems"
-
-      - &priyanka_mahesh
-          name: "Priyanka Mahesh"
-          anchor: priyanka_mahesh
-          internal: true
-          role: "Master's student"
-          since: 2019
-          photo: "img/people/priyanka_mahesh.jpg"
-          interests: "Telematics security, applied cryptography"
 
       - &yash_shah
           name: "Yash Shah"
@@ -564,7 +555,6 @@ people:
           - *benjamin_wu
           - *ge_yang
           - *ashish_das
-          - *priyanka_mahesh
           
       - type: "Visiting Scholars"
         anchor: visitingscholars
@@ -668,14 +658,13 @@ projects:
         <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
         TUF, and Docker's popular implementation of TUF, are now
     <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a>
-        projects as part of the Cloud Native Computing Foundation.
+        projects as part of the Cloud Native Computing Foundation. In 2019, TUF became both the first security project and the first project led by an academic researcher to achieve <a href=\"https://lwn.net/Articles/807777/\">graduate status</a> within the CNCF. 
     <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
         people:
             - *sebastien_awwad
             - *marina_moore
             - *trishank_kuppusamy
             - *vlad_diaz
-            - *priyanka_mahesh
             - *cindy_kim
             - *lukas_puhringer
             - *justin_cappos
@@ -733,8 +722,7 @@ projects:
             - *marina_moore
             - *lois_delong
             - *lukas_puhringer
-            - *priyanka_mahesh
-
+           
             - name: Ira McDonald (High North Inc.)
               link:
             - name: Cameron Mott (SWRI)
@@ -756,7 +744,7 @@ projects:
         site: "https://in-toto.io"
         description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
         products: "The in-toto software has already been integrated into several open
-    source projects. Most recently, Datadog announced the use of <a href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF and in-toto</a> on their agents integration downloader. Also, a <a href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation of rebuilders</a> are generating in-toto metadata so you can check your Debian packages were built reproducibly when using <a href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We welcome you to download the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/demo/\">demo version</a> of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the directions to integrate in-toto into your software project!"
+    source projects. In 2019, Datadog announced the use of <a href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF and in-toto</a> on their agents integration downloader. In November 23 of 2020, the framework released<a href=\"https://techxplore.com/news/2020-12-free-tool-layer-software-chain.html/\">Version 1.0.0</a>. Also, a <a href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation of rebuilders</a> are generating in-toto metadata so you can check your Debian packages were built reproducibly when using <a href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We welcome you to download the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/demo/\">demo version</a> of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the directions to integrate in-toto into your software project!"
         people:
             - *santiago_torres
             - *lukas_puhringer
@@ -1100,13 +1088,27 @@ publications:
       authors:
         - name: "D. Gopstein, A. L. Fayard, S. Apel, J. Cappos"
       project: *atoms
-      booktitle: "to be presented at the 2020 Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+      booktitle: "2020 Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
      (ESEC/FSE 20)"
       year: ""
       pages: ""
       publisher: ""
-      link: ""
-      abstract: ""
+      link: "/papers/gopstein_thinking_FSE20"
+      abstract: "Atoms of confusion are small patterns of code that have been empirically validated to be difficult to hand-evaluate by programmers.
+Previous research focused on defining and quantifying this phenomenon, but not on explaining or critiquing it. In this work, we
+address core omissions to the body of work on atoms of confusion,
+focusing on the ‘how’ and ‘why’ of programmer misunderstanding.
+We performed a think-aloud study in which we observed programmers, both professionals and students, as they hand-evaluated
+confusing code. We performed a qualitative analysis of the data and
+found several surprising results, which explain previous results,
+outline avenues of further research, and suggest improvements of
+the research methodology.
+A notable observation is that correct hand-evaluations do not imply understanding, and incorrect evaluations not misunderstanding.
+We believe this and other observations may be used to improve future studies and models of program comprehension. We argue that
+thinking of confusion as an atomic construct may pose challenges to
+formulating new candidates for atoms of confusion. Ultimately, we
+question whether hand-evaluation correctness is, itself, a sufficient
+instrument to study program comprehension."
 
     - &afzali_webgit_JCS_2020
       anchor: afzali_webgit_JCS_2020
@@ -1118,7 +1120,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/paper/afzali-webgit-jcs20.pdf"
+      link: "/papers/afzali-webgit-jcs20.pdf"
       abstract: “Web-based Git hosting services such as GitHub and GitLab are popular choices to manage and interact with Git repositories. However, they lack an important security feature — the ability to sign Git commits. Users instruct the server to perform repository operations on their behalf and have to trust that the server will execute their requests faithfully. Such trust may be unwarranted though because a malicious or a compromised server may execute the requested actions in an incorrect manner, leading to a different state of the repository than what the user intended. In this paper, we show a range of high-impact attacks that can be executed stealthily when developers use the web UI of a Git hosting service to perform common actions such as editing files or merging branches. We then propose le-git-imate, a defense against these attacks, which enables users to protect their commits using Git’s standard commit signing mechanism. We implement le-git-imate as a Chrome browser extension. le-git-imate does not require changes on the server side and can thus be used immediately. It also preserves current workflows used in Github/GitLab and does not require the user to leave the browser, and it allows anyone to verify that the server’s actions faithfully follow the user’s requested actions. Moreover, experimental evaluation using the browser extension shows that le-git-imate has comparable performance with Git’s standard commit signature mechanism. With our solution in place, users can take advantage of GitHub/GitLab’s web-based features without sacrificing security, thus paving the way towards verifiable web-based Git repositories.”
 
     - &moore_pouf_2020
