@@ -112,7 +112,7 @@ people:
           photo: "img/people/sebastien_awwad.jpg"
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
           publications:
-            - name: "Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane"
+            - name: "ESCAR USA 2020 Special Issue"
               link: "/papers/moore_pouf_2020.pdf"     
             - name: "escar 2016"
               link: "/papers/kuppusamy_escar_16.pdf"
@@ -326,7 +326,7 @@ people:
           interests: "Programming languages and software systems"
           publications:
             - name: "FSE2020"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE20" 
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE20.pdf" 
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -519,6 +519,16 @@ people:
             photo: "img/people/raghav_sai.jpg"
             interests: "Software development and security, internet privacy"
 
+      - &caglar_dogan
+            name: "Caglar Dogan"
+            anchor: caglar_dogan
+            internal: true
+            role: "Undergraduate student"
+            since: 2020
+            photo: "img/people/caglar_dogan.jpg"
+            interests: "Theory of computation, cryptography, systems security"
+            
+            
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -553,6 +563,7 @@ people:
           - *isha_dave
           - *kaitlyn_liu
           - *benjamin_wu
+          - *caglar_dogan
           - *ge_yang
           - *ashish_das
           
@@ -685,9 +696,9 @@ projects:
     mechanism to securely distribute updates to cars.  Uptane can counter a
     comprehensive array of security attacks, and is resilient to partial
     compromises, while addressing  automotive specific vulnerabilities and
-    limitations. Uptane was recently named one of
+    limitations. It was named one of
     the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-    Security Innovations of 2017</a> by Popular Science Magazine."
+    Security Innovations of 2017</a> by Popular Science Magazine. Uptane is a <a href=\"https://www.jointdevelopment.org/\">Joint Development Foundation</a> project of the<a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a>, operating under the formal title of Joint Development Foundation Projects, LLC, Uptane Series."
         products: "Uptane has already been adopted by
     <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
     Uptane has been
@@ -703,9 +714,9 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/ieee-isto-6100.1.0.0.uptane-standard.html\">IEEE-ISTO 6100.1.0.0 Uptane Standard for Design and Implementation</a>,
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>,
     and a designated section for
-    <a href=\"https://uptane.github.io/deployment-considerations/index.html\">deployment considerations and best practices</a>.
+    <a href=\"https://uptane.github.io/deployment-considerations/index.html\">Deployment Best Practices</a>.
     We invite all
     security researchers and academics to perform a
     security review of Uptane by going to our web site.
@@ -759,7 +770,6 @@ projects:
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
               link: "https://web.njit.edu/~ha285/"
-            - name: "Anil Kumar Ammula (NJIT)"
             - name: "Sangat Vaidya (NJIT)"
             - *justin_cappos
         tags:
@@ -852,6 +862,7 @@ projects:
             - *jonathan_singer
             - *yash_shah
             - *kaitlyn_liu
+            - *caglar_dogan
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
@@ -1093,7 +1104,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/papers/gopstein_thinking_FSE20"
+      link: "/papers/gopstein_thinking_FSE20.pdf"
       abstract: "Atoms of confusion are small patterns of code that have been empirically validated to be difficult to hand-evaluate by programmers.
 Previous research focused on defining and quantifying this phenomenon, but not on explaining or critiquing it. In this work, we
 address core omissions to the body of work on atoms of confusion,
