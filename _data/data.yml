@@ -203,7 +203,7 @@ people:
           name: "Yiwen Li"
           anchor: yiwen_li
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2021(co-advised with Brendan Dolan-Gavitt)"
           since: "2013"
           photo: "img/people/yiwen_li.jpg"
           site: "http://engineering.nyu.edu/people/yiwen-li"
@@ -545,6 +545,7 @@ people:
       - type: "PhD. Students"
         anchor: phd
         people:
+         
           - *yiwen_li
           - *preston_moore
           - *marina_moore
