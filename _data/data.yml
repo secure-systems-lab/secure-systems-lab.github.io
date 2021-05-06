@@ -528,7 +528,7 @@ people:
             photo: "img/people/caglar_dogan.jpg"
             interests: "Theory of computation, cryptography, systems security"
   
-        - &almazhan_kapan
+      - &almazhan_kapan
             name: "Almazhan Kapan"
             anchor: almazhan_kapan
             internal: true
@@ -537,7 +537,7 @@ people:
             photo: "img/people/almazhan_kapan.jpg"
             interests: "Privacy, systems security, software development"
             
-          - &hugo_yin
+      - &hugo_yin
             name: "Hugo Yin"
             anchor: hugo_yin
             internal: true
