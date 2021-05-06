@@ -733,9 +733,9 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html/\">Uptane Standard for Design and Implementation v.1.1.0</a>
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
     and
-    <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html/\">Uptane Deployment Best Practices</a>.
+    <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
     We invite all
     security researchers and academics to perform a
     security review of Uptane."
