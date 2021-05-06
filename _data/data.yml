@@ -407,6 +407,7 @@ people:
           role: "Ph.D. Student"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
+          site: "https://saky.in/"
           interests: "Internet privacy, systems security"
 
       - &sumana_harihareswara
