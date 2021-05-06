@@ -326,7 +326,7 @@ people:
           interests: "Programming languages and software systems"
           publications:
             - name: "FSE2020"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE20.pdf" 
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE2020.pdf" 
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -529,7 +529,7 @@ people:
             interests: "Theory of computation, cryptography, systems security"
   
         - &almazhan_kapan
-            name: "Almazhan (Alma) Kapan"
+            name: "Almazhan Kapan"
             anchor: almazhan_kapan
             internal: true
             role: "Undergraduate student"
@@ -538,13 +538,13 @@ people:
             interests: "Privacy, systems security, software development"
             
           - &hugo_yin
-            name: "Zhexuan (Hugo) Yin"
+            name: "Hugo Yin"
             anchor: hugo_yin
             internal: true
             role: "Undergraduate student"
             since: 2021
             photo: "img/people/hugo_yin.jpg"
-            interests: "automated tests, software development"
+            interests: "Automated tests, software development"
                       
     people_cards:
       - type: "Faculty"
@@ -722,7 +722,7 @@ projects:
     Uptane has been
     <a href=\"https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html\">integrated</a>
     into multiple products including OTA Plus and ATS Garage, two over-the-air
-    software update products from Advanced Telematic Systems.   ATS also integrated
+    software update products from Advanced Telematic Systems. ATS also integrated
     <a href=\"https://github.com/advancedtelematic/aktualizr\">aktualizr</a>,
     a C++ implementation of Uptane, into <a
     href=\"https://www.automotivelinux.org/\">Automotive Grade Linux</a>.
@@ -732,12 +732,12 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html/\">Uptane Standard for Design and Implementation v.1.1.0</a>
     and
-    <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
+    <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html/\">Uptane Deployment Best Practices</a>.
     We invite all
     security researchers and academics to perform a
-    security review of Uptane.
+    security review of Uptane."
 
         people:
             - *trishank_kuppusamy
