@@ -554,15 +554,13 @@ people:
 
       - type: "Staff"
         anchor: staff
-        people:
-          - *sebastien_awwad
+        people:  
           - *lukas_puhringer
           - *lois_delong
 
       - type: "PhD. Students"
         anchor: phd
         people:
-         
           - *yiwen_li
           - *preston_moore
           - *marina_moore
@@ -713,7 +711,7 @@ projects:
         description: "Cars today use a truly enormous
     amount of software, and, like any
     software, it contains bugs. Uptane provides a
-    mechanism to securely distribute software updates to cars.  The framework can counter a
+    mechanism to securely distribute software updates to cars. The framework can counter a
     comprehensive array of security attacks, and is resilient to partial
     compromises, while addressing  automotive specific vulnerabilities and
     limitations. It was named one of
@@ -734,14 +732,12 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>,
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
     and
     <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
     We invite all
     security researchers and academics to perform a
     security review of Uptane.
-    A <a href=\"https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be\">
-    demo video</a> is available."
 
         people:
             - *trishank_kuppusamy
@@ -761,7 +757,6 @@ projects:
             - *software_updates
             - *security
             - *internet_of_things
-
 
     - &in-toto
         name: "in-toto"
@@ -1170,7 +1165,7 @@ instrument to study program comprehension."
       authors:
         - name: "G. Almashaqbeh, A. Bishop, J. Cappos"
       project: *cachecash
-      booktitle: "24th International Conference on Financial Cryptography and Data Security (FC '20), February 2020"
+      booktitle: "24th International Conference on Financial Cryptography and Data Security (FC '20)"
       year: ""
       pages: ""
       publisher: ""
