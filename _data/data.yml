@@ -325,8 +325,8 @@ people:
           photo: "img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
           publications:
-            - name: "FSE2020"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE2020.pdf" 
+            - name: "FSE 2020"
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_fse2020.pdf"
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -1116,7 +1116,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/papers/gopstein_thinking_FSE2020.pdf"
+      link: "/papers/gopstein_thinking_fse2020.pdf"
       abstract: "Atoms of confusion are small patterns of code that have been empirically validated to be difficult to hand-evaluate by programmers.
 Previous research focused on defining and quantifying this phenomenon, but not on explaining or critiquing it. In this work, we
 address core omissions to the body of work on atoms of confusion,
