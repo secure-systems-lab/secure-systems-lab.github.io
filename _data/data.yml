@@ -203,7 +203,7 @@ people:
           name: "Yiwen Li"
           anchor: yiwen_li
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt)"
           since: "2013"
           photo: "img/people/yiwen_li.jpg"
           site: "http://engineering.nyu.edu/people/yiwen-li"
@@ -325,8 +325,8 @@ people:
           photo: "img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
           publications:
-            - name: "FSE2020"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_FSE20.pdf" 
+            - name: "FSE 2020"
+              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_fse2020.pdf"
             - name: "MSR 2018"
               link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
             - name: "FIE 2017"
@@ -371,7 +371,7 @@ people:
           name: "Marina Moore"
           anchor: marina_moore
           internal: true
-          role: "Ph.D. Student"
+          role: "Ph.D. Candidate"
           since: 2018
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
@@ -383,7 +383,7 @@ people:
           name: "Nick Renner"
           anchor: nick_renner
           internal: true
-          role: "Ph.D. Student (co-advised with Brendan Dolan-Gavitt)"
+          role: "Ph.D. Student (co-advised by Brendan Dolan-Gavitt)"
           since: 2019
           photo: "img/people/nick_renner.png"
           site: "http://nickrenner.com"
@@ -407,6 +407,7 @@ people:
           role: "Ph.D. Student"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
+          site: "https://saky.in/"
           interests: "Internet privacy, systems security"
 
       - &sumana_harihareswara
@@ -527,8 +528,25 @@ people:
             since: 2020
             photo: "img/people/caglar_dogan.jpg"
             interests: "Theory of computation, cryptography, systems security"
+  
+      - &almazhan_kapan
+            name: "Almazhan Kapan"
+            anchor: almazhan_kapan
+            internal: true
+            role: "Undergraduate student"
+            since: 2021
+            photo: "img/people/almazhan_kapan.jpg"
+            interests: "Privacy, systems security, software development"
             
-            
+      - &hugo_yin
+            name: "Hugo Yin"
+            anchor: hugo_yin
+            internal: true
+            role: "Undergraduate student"
+            since: 2021
+            photo: "img/people/hugo_yin.jpg"
+            interests: "Automated tests, software development"
+                      
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -537,8 +555,7 @@ people:
 
       - type: "Staff"
         anchor: staff
-        people:
-          - *sebastien_awwad
+        people:  
           - *lukas_puhringer
           - *lois_delong
 
@@ -554,9 +571,7 @@ people:
       - type: "Other Students"
         anchor: otherstudents
         people:
-          - *jonathan_singer  
-          - *raghav_sai
-          - *yash_shah
+          - *jonathan_singer
           - *cindy_kim
           - *kristel_fung
           - *yuanrui_chen
@@ -565,6 +580,10 @@ people:
           - *benjamin_wu
           - *caglar_dogan
           - *ge_yang
+          - *almazhan_kapan
+          - *hugo_yin
+          - *raghav_sai
+          - *yash_shah
           - *ashish_das
           
       - type: "Visiting Scholars"
@@ -579,6 +598,7 @@ people:
           - *dan_gopstein
           - *ghada_almashaqbeh
           - *trishank_kuppusamy
+          - *sebastien_awwad
           - *yanyan_zhuang
           - *albert_rafetseder
           - *vlad_diaz       
@@ -691,20 +711,19 @@ projects:
         site: "https://uptane.github.io/"
         description: "Cars today use a truly enormous
     amount of software, and, like any
-    software, it contains bugs.  Unfortunately, there is no secure way
-    to update software in cars.  Our Uptane project provides a
-    mechanism to securely distribute updates to cars.  Uptane can counter a
+    software, it contains bugs. Uptane provides a
+    mechanism to securely distribute software updates to cars. The framework can counter a
     comprehensive array of security attacks, and is resilient to partial
     compromises, while addressing  automotive specific vulnerabilities and
     limitations. It was named one of
     the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-    Security Innovations of 2017</a> by Popular Science Magazine. Uptane is a <a href=\"https://www.jointdevelopment.org/\">Joint Development Foundation</a> project of the<a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a>, operating under the formal title of Joint Development Foundation Projects, LLC, Uptane Series."
+    Security Innovations of 2017</a> by Popular Science Magazine. Uptane is a <a href=\"https://www.jointdevelopment.org/\">Joint Development Foundation</a> project of the <a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a>, operating under the formal title of Joint Development Foundation Projects, LLC, Uptane Series."
         products: "Uptane has already been adopted by
     <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
     Uptane has been
     <a href=\"https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html\">integrated</a>
     into multiple products including OTA Plus and ATS Garage, two over-the-air
-    software update products from Advanced Telematic Systems.   ATS also integrated
+    software update products from Advanced Telematic Systems. ATS also integrated
     <a href=\"https://github.com/advancedtelematic/aktualizr\">aktualizr</a>,
     a C++ implementation of Uptane, into <a
     href=\"https://www.automotivelinux.org/\">Automotive Grade Linux</a>.
@@ -714,18 +733,12 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>,
-    and a designated section for
-    <a href=\"https://uptane.github.io/deployment-considerations/index.html\">Deployment Best Practices</a>.
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
+    and
+    <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
     We invite all
     security researchers and academics to perform a
-    security review of Uptane by going to our web site.
-    For those who want lower level details, we also provide a
-    a readable Python
-    <a href=\"https://github.com/uptane/uptane\">reference implementation</a>,
-    <a href=\"https://github.com/uptane/uptane\">compliance tests</a>, and a
-    <a href=\"https://github.com/uptane/uptane\">runnable demo</a>.  A <a href=\"https://www.youtube.com/watch?v=Iz1l7IK_y2c&feature=youtu.be\">
-    demo video</a> is available."
+    security review of Uptane."
 
         people:
             - *trishank_kuppusamy
@@ -745,7 +758,6 @@ projects:
             - *software_updates
             - *security
             - *internet_of_things
-
 
     - &in-toto
         name: "in-toto"
@@ -895,7 +907,7 @@ projects:
         name: "PolyPasswordHasher (PPH)"
         anchor: "pph"
         image: "img/projects/pph_diagram.png"
-        status: *starting
+        status: *retired
         site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
         description: "A password database disclosure can be devastating, costing
     companies billions of dollars in damages. PolyPasswordHasher offers a new
@@ -977,7 +989,7 @@ projects:
         name: "API Blindspots"
         anchor: "blindspots"
         image: "img/projects/blindspots_diagram.png"
-        status: *stealth
+        status: *retired
         site:
         description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
     by developers. In particular, we are looking for security-related blind spots in popular Java and Python APIs as a way to more holistically find and address bugs."
@@ -1104,7 +1116,7 @@ publications:
       year: ""
       pages: ""
       publisher: ""
-      link: "/papers/gopstein_thinking_FSE20.pdf"
+      link: "/papers/gopstein_thinking_fse2020.pdf"
       abstract: "Atoms of confusion are small patterns of code that have been empirically validated to be difficult to hand-evaluate by programmers.
 Previous research focused on defining and quantifying this phenomenon, but not on explaining or critiquing it. In this work, we
 address core omissions to the body of work on atoms of confusion,
@@ -1154,7 +1166,7 @@ instrument to study program comprehension."
       authors:
         - name: "G. Almashaqbeh, A. Bishop, J. Cappos"
       project: *cachecash
-      booktitle: ""
+      booktitle: "24th International Conference on Financial Cryptography and Data Security (FC '20)"
       year: ""
       pages: ""
       publisher: ""
