@@ -81,6 +81,7 @@ press:
       link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-"
       anchor: AirUptane
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Airbiquity.com"
       date: "December 14, 2018"
