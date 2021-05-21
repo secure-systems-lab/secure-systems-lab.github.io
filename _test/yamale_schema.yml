@@ -105,6 +105,6 @@ press:
     link: str()
     anchor: str()
     type: str()
-    project: include('project')
+    projects: list(include('project'))
     source: str()
     date: str()
