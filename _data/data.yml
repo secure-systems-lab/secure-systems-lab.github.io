@@ -383,7 +383,7 @@ people:
           name: "Nick Renner"
           anchor: nick_renner
           internal: true
-          role: "Ph.D. Candidate" (co-advised by Brendan Dolan-Gavitt)"
+          role: "Ph.D. Candidate (co-advised by Brendan Dolan-Gavitt)"
           since: 2019
           photo: "img/people/nick_renner.png"
           site: "http://nickrenner.com"
@@ -2772,10 +2772,10 @@ press:
       
     - title: "How LF communities enable security measures required by the US Executive Order on Cybersecurity"
       link: "https://www.linuxfoundation.org/en/blog/how-lf-communities-enable-security-measures-required-by-the-us-executive-order-on-cybersecurity/"
-      anchor: Linuxfoundexecorder
+      anchor: linuxfoundexecorder
       type: article
       project: *uptane
-      source: "Linux Foudation Blog"
+      source: "Linux Foundation Blog"
       date: "May 14, 2021"
       
     - title: "Secure Software Updates via TUF -- Part 2"
