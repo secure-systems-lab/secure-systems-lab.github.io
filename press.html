@@ -17,9 +17,14 @@ layout: default
     <a name="{{ press.anchor }}"></a>
 
     <span class="title">"{{ press.title }}"</span>
-    {% if press.project %}
+    {% if press.projects %}
+      {% assign pressProjects = '' | split:':' %}
+      {% for project in press.projects %}
+        {% capture projectLink %}{% if project.anchor %}<a href="projects#{{ project.anchor }}">{{ project.name }}</a>{% endif %}{% endcapture %}
+        {% assign pressProjects = pressProjects | push: projectLink %}
+      {% endfor %}
       <span class="project">
-        (Coverage of <a href="projects#{{ press.project.anchor }}">{{ press.project.name }}</a>)
+        (Coverage of {{ pressProjects | array_to_sentence_string }})
       </span>
     {% endif %}
     {% if press.link %}
