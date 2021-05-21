@@ -383,7 +383,7 @@ people:
           name: "Nick Renner"
           anchor: nick_renner
           internal: true
-          role: "Ph.D. Student (co-advised by Brendan Dolan-Gavitt)"
+          role: "Ph.D. Candidate" (co-advised by Brendan Dolan-Gavitt)"
           since: 2019
           photo: "img/people/nick_renner.png"
           site: "http://nickrenner.com"
@@ -404,7 +404,7 @@ people:
           name: "Aditya Sirish"
           anchor: aditya_sirish
           internal: true
-          role: "Ph.D. Student"
+          role: "Ph.D. Candidate"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
           site: "https://saky.in/"
@@ -2762,6 +2762,22 @@ press:
 
   presses:
 
+    - title: "Now Your Car is a Cybersecurity Risk, Too"
+      link: "https://www.eetimes.com/now-your-car-is-a-cybersecurity-risk-too/"
+      anchor: eetimesuptane
+      type: article
+      project: *uptane
+      source: "EE Times"
+      date: "May 21, 2021"
+      
+    - title: "How LF communities enable security measures required by the US Executive Order on Cybersecurity"
+      link: "https://www.linuxfoundation.org/en/blog/how-lf-communities-enable-security-measures-required-by-the-us-executive-order-on-cybersecurity/"
+      anchor: Linuxfoundexecorder
+      type: article
+      project: *uptane
+      source: "Linux Foudation Blog"
+      date: "May 14, 2021"
+      
     - title: "Secure Software Updates via TUF -- Part 2"
       link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-2-412c6a2b10ab"
       anchor: medium2tufmeta
