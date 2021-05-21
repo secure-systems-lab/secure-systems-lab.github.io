@@ -2766,7 +2766,8 @@ press:
       link: "https://www.eetimes.com/now-your-car-is-a-cybersecurity-risk-too/"
       anchor: eetimesuptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "EE Times"
       date: "May 21, 2021"
       
@@ -2774,7 +2775,10 @@ press:
       link: "https://www.linuxfoundation.org/en/blog/how-lf-communities-enable-security-measures-required-by-the-us-executive-order-on-cybersecurity/"
       anchor: linuxfoundexecorder
       type: article
-      project: *uptane
+      projects:
+        - *uptane
+        - *tuf
+        - *in-toto
       source: "Linux Foundation Blog"
       date: "May 14, 2021"
       
@@ -2782,7 +2786,8 @@ press:
       link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-2-412c6a2b10ab"
       anchor: medium2tufmeta
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Medium"
       date: "September 1, 2020"
       
@@ -2790,7 +2795,8 @@ press:
       link: "https://medium.com/@mulgundmath/secure-software-updates-via-tuf-part-1-f9bbb34bcbbc"
       anchor: medium1tufbasic
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Medium"
       date: "August 18, 2020"
 
@@ -2798,7 +2804,8 @@ press:
       link: "https://www.airbiquity.com/blog-events/blog-posts/delivering-secure-automotive-ota-updates-uptane-and-otamatic"
       anchor: airbiqblogaug20
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Airbquity Blog"
       date: "August 11, 2020"
 
@@ -2806,7 +2813,8 @@ press:
       link: "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-TUF-can-secure-software-systems-from-update-vulnerabilities"
       anchor: servertufsecure
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "The Server Side"
       date: "August 1, 2020"
 
@@ -2814,7 +2822,8 @@ press:
       link: "https://www.wardsauto.com/vehicles/protecting-connected-cars-over-air-software-updates"
       anchor: wardsuptanejuly
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Wards Auto"
       date: "July 21, 2020"
 
@@ -2822,7 +2831,8 @@ press:
       link: "https://www.d2pmagazine.com/2020/04/02/6099/"
       anchor: d2pUptaneapril
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Design2Part Magazine"
       date: "April 2, 2020"
 
@@ -2830,7 +2840,8 @@ press:
       link: "https://techcrunch.com/2020/03/11/aws-launches-bottlerocket-a-linux-based-os-for-container-hosting/"
       anchor: tcbottlerocketufmarch
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "TechCrunch"
       date: "March 11, 2020"
 
@@ -2838,7 +2849,8 @@ press:
       link: "https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/"
       anchor: nj105uptanemarch
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "New Jersey 101.5"
       date: "March 9, 2020"
 
@@ -2846,7 +2858,8 @@ press:
       link: "https://pyfound.blogspot.com/2020/03/an-update-pypi-funded-work.html"
       anchor: pypipyblogmarch
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Python Foundation Blogspot"
       date: "March 4, 2020"
 
@@ -2854,7 +2867,8 @@ press:
       link: "https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2"
       anchor: spglobaluptanejan
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "S&P Global"
       date: "January 9, 2020"
 
@@ -2862,7 +2876,8 @@ press:
       link: "https://blog.mp3monster.org/2020/01/04/security-vulnerabilities-in-solution-deployment/"
       anchor: mp3monstertufjan
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "MP3 Monster's Blog"
       date: "January 4, 2020"
 
@@ -2870,7 +2885,8 @@ press:
       link: "https://www.avnetwork.com/news/cloud-native-computing-foundation-announces-tuf-graduation"
       anchor: cncftufavnewsdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "AV Network"
       date: "December 27, 2019"
 
@@ -2878,7 +2894,8 @@ press:
       link: "https://www.helpnetsecurity.com/2019/12/23/update-framework-linux-foundation/"
       anchor: cncftufhelpnetdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Help Net Security"
       date: "December 23, 2019"
 
@@ -2886,7 +2903,8 @@ press:
       link: "https://lwn.net/Articles/807777/"
       anchor: cncflwntufdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Linux Weekly News"
       date: "December 19, 2019"
 
@@ -2894,7 +2912,8 @@ press:
       link: "https://techxplore.com/news/2019-12-open-source-software-cloud.html"
       anchor: techxptuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "TechXplore"
       date: "December 19, 2019"
 
@@ -2902,7 +2921,8 @@ press:
       link: "https://devclass.com/2019/12/19/the-update-framework-becomes-ninth-project-to-graduate-cncf/"
       anchor: devclasstufdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "DevClass.com"
       date: "December 19, 2019"
 
@@ -2910,7 +2930,8 @@ press:
       link: "https://devops.com/cncf-graduates-tuf-project-to-secure-software-updates/"
       anchor: devopstufdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "DevOps.com"
       date: "December 18, 2019"
 
@@ -2918,7 +2939,8 @@ press:
       link: "https://siliconangle.com/2019/12/18/cncf-announces-graduation-another-cloud-native-project-update-framework/"
       anchor: siliconangtufdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Silicon Angle"
       date: "December 18, 2019"
 
@@ -2926,7 +2948,8 @@ press:
       link: "https://engineering.nyu.edu/news/open-source-system-secure-software-updates-graduates-protect-leading-cloud-services"
       anchor: nyutanduptdec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "NYU Tandon Press Office"
       date: "December 18, 2019"
 
@@ -2934,7 +2957,8 @@ press:
       link: "https://www.cncf.io/announcement/2019/12/18/cloud-native-computing-foundation-announces-tuf-graduation/"
       anchor: cncfuptreldec
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Cloud Native Computing Foundation"
       date: "December 18, 2019"
 
@@ -2942,7 +2966,8 @@ press:
       link: "https://www.linuxfoundation.org/press-release/2019/12/the-linux-foundations-automated-compliance-work-garners-new-funding-advances-tools-development/"
       anchor: lftotoreldec
       type: article
-      project: *in-toto
+      projects:
+        - *in-toto
       source: "Linux Foundation"
       date: "December 12, 2019"
 
@@ -2950,7 +2975,8 @@ press:
       link: "https://blog.acolyer.org/2019/10/02/in-toto/"
       anchor: mornpapertotooct
       type: article
-      project: *in-toto
+      projects:
+        - *in-toto
       source: "The Morning Paper"
       date: "October 2, 2019"
 
@@ -2958,7 +2984,8 @@ press:
       link: "https://lwn.net/Articles/794391/"
       anchor: LWNUptanejuly
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "LWN.net"
       date: "July 24, 2019"
 
@@ -2966,7 +2993,8 @@ press:
       link: "https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die"
       anchor: DriveUptane19
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "The Drive.com"
       date: "July 23, 2019"
 
@@ -2974,7 +3002,8 @@ press:
       link: "https://sysdig.com/blog/33-kubernetes-security-tools/"
       anchor: 33KuberUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Sysdig.com"
       date: "July 9, 2019"
 
@@ -2983,7 +3012,8 @@ press:
       link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-blockchain-and-joins-automotive-cybersecurity-software-initiative/"
       anchor: AirUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Airbiquity.com"
       date: "December 14, 2018"
 
@@ -2991,7 +3021,8 @@ press:
       link: "https://bitcoinexchangeguide.com/nyu-tandon-trains-students-on-blockchain-and-joins-automotive-cybersecurity-software-initiative/"
       anchor: BCUptanelinux
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Bitcoin Exchange Guide"
       date: "August 28, 2018"
 
@@ -2999,7 +3030,8 @@ press:
       link: "http://www.autoconnectedcar.com/2018/08/automotive-cybersecurity-open-source-ota-crypto-market/"
       anchor: ConnectedCarAug
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Auto Connected Car News"
       date: "August 18, 2018"
 
@@ -3007,7 +3039,8 @@ press:
       link: "https://markets.businessinsider.com/news/stocks/nyu-tandon-joins-top-open-source-initiative-for-automotive-software-and-cybersecurity-1027465410"
       anchor: BusinessInsideUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Business Insider"
       date: "August 16, 2018"
 
@@ -3015,7 +3048,8 @@ press:
       link: "http://www.eweek.com/security/how-the-update-framework-improves-software-distribution-security"
       anchor: EweekTufVid
       type: video
-      project: *tuf
+      projects:
+        - *tuf
       source: "eWeek"
       date: "July 13, 2018"
 
@@ -3023,7 +3057,8 @@ press:
       link: "https://thenewstack.io/security-for-kubernetes/"
       anchor: KubeConNewStack
       type: video
-      project: *tuf
+      projects:
+        - *tuf
       source: "The New Stack"
       date: "June 26, 2018"
 
@@ -3031,7 +3066,8 @@ press:
       link: "https://engineering.nyu.edu/news/tandon-grad-student-wins-awards-his-computer-science-research"
       anchor: TandonNewsDanAward
       type: article
-      project: *atoms
+      projects:
+        - *atoms
       source: "Engineering.NYU News"
       date: "June 11, 2018"
 
@@ -3039,7 +3075,8 @@ press:
       link: "http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/"
       anchor: accairbiqUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Auto Connected Car News"
       date: "May 20, 2018"
 
@@ -3047,7 +3084,8 @@ press:
       link: "https://www.marketplace.org/2018/05/25/tech/now-more-ever-cars-are-just-rolling-computers/"
       anchor: MktUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Marketplace.com"
       date: "May 25, 2018"
 
@@ -3055,7 +3093,8 @@ press:
       link: "https://lwn.net/Articles/754443/"
       anchor: LWNKubeCon
       type: article
-      project: *in-toto
+      projects:
+        - *in-toto
       source: "LWN.net"
       date: "May 17, 2018"
 
@@ -3063,7 +3102,8 @@ press:
       link: "https://cloudplatform.googleblog.com/2018/04/exploring-container-security-digging-into-Grafeas-container-image-metadata.html"
       anchor: Grafeasintoto
       type: article
-      project: *in-toto
+      projects:
+        - *in-toto
       source: "Google Cloud Platform Blog"
       date: "April 12, 2018"
 
@@ -3071,7 +3111,8 @@ press:
       link: "https://lwn.net/Articles/751458/"
       anchor: LWNTUFapr18
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "LWN.net"
       date: "April 11, 2018"
 
@@ -3079,7 +3120,8 @@ press:
       link: "https://www.scitechnow.org/videos/scitech-now-episode-420/"
       anchor: PBSscitech
       type: video
-      project: *uptane
+      projects:
+        - *uptane
       source: "PBS/WLIW 21"
       date: "March 26, 2018"
 
@@ -3087,7 +3129,8 @@ press:
       link: "https://lobste.rs/s/beeojb/lock_pop_securing_privileged_operating"
       anchor: LobsterLind
       type: article
-      project: *lind
+      projects:
+        - *lind
       source: "Lobste.rs"
       date: "March 9, 2018"
 
@@ -3095,7 +3138,8 @@ press:
       link: "https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group"
       anchor: AirbiqUptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Airbiquity.com"
       date: "January 25, 2018"
 
@@ -3103,7 +3147,8 @@ press:
       link: "https://www.automotiveworld.com/news-releases/acquire-ats-power-highly-secure-software-updates-connected-autonomous-cars/"
       anchor: HEREATSuptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Automotive World"
       date: "November 28, 2017"
 
@@ -3111,7 +3156,8 @@ press:
       link: "http://engineering.nyu.edu/press-releases/2017/11/08/linux-foundation-taps-researchers-security-framework-standard-cloud"
       anchor: NYUpressrelTUF
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "NYU Press Room"
       date: "November 8, 2017"
 
@@ -3119,7 +3165,8 @@ press:
       link: "https://www.infoq.com/news/2017/10/cncf-notary-envoy-jaeger"
       anchor: InfoQTUFCNCF
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "InfoQ"
       date: "October 30, 2017"
 
@@ -3127,7 +3174,8 @@ press:
       link: "http://www.silicon.es/la-cloud-native-computing-foundation-cuenta-ya-14-proyectos-2359052?inf_by=59f1407f681db80d668b484a"
       anchor: siliconTUFCNCF
       type: article-foreign
-      project: *tuf
+      projects:
+        - *tuf
       source: "Silicon.es"
       date: "October 24, 2017"
 
@@ -3135,7 +3183,8 @@ press:
       link: "https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/"
       anchor: ContJrnlTUFCNCF
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Container Journal"
       date: "October 24, 2017"
 
@@ -3143,7 +3192,8 @@ press:
       link: "http://techrights.org/2017/10/24/archlabs-2017-10/"
       anchor: TRlinks2410cncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "TechRights"
       date: "October 24, 2017"
 
@@ -3152,7 +3202,8 @@ press:
       link: "http://www.tuxmachines.org/node/105925"
       anchor: TuxMachcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Tux Machines"
       date: "October 24, 2017"
 
@@ -3160,7 +3211,8 @@ press:
       link: "http://1wnc.com/tech/918985.html"
       anchor: FWNCcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "First World News Channel"
       date: "October 24, 2017"
 
@@ -3168,7 +3220,8 @@ press:
       link: "http://worldnews.easybranches.com/technology/innovation-nation/two-new-open-source-security-projects-are-joining-the-cloud-native-computing-foundation-379237"
       anchor: ebrancncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Easy Branches World News"
       date: "October 24, 2017"
 
@@ -3176,7 +3229,8 @@ press:
       link: "https://www.eweek.com/security/cncf-brings-in-notary-the-update-framework-to-boost-container-security"
       anchor: eweekcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "eweek"
       date: "October 24, 2017"
 
@@ -3184,7 +3238,8 @@ press:
       link: "https://www.geekwire.com/2017/two-new-open-source-security-projects-joining-cloud-native-computing-foundation/"
       anchor: gwcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "GeekWire"
       date: "October 24, 2017"
 
@@ -3192,7 +3247,8 @@ press:
       link: "https://techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/"
       anchor: tccncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "TechCrunch"
       date: "October 24, 2017"
 
@@ -3200,7 +3256,8 @@ press:
       link: "http://sdtimes.com/sd-times-news-digest-cncfs-two-new-projects-arms-platform-security-architecture-salesforces-new-appexchange/"
       anchor: sdtcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "SD Times"
       date: "October 24, 2017"
 
@@ -3208,7 +3265,8 @@ press:
       link: "https://www.sdxcentral.com/articles/news/cncfs-latest-projects-tuf-and-notary-aimed-at-security/2017/10/"
       anchor: sdxtufcncf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "sdx central"
       date: "October 24, 2017"
 
@@ -3216,7 +3274,8 @@ press:
       link: "http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560"
       anchor: Cncftufcloudnews
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Enterprise Cloud News"
       date: "October 24, 2017"
 
@@ -3224,7 +3283,8 @@ press:
       link: "https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/"
       anchor: newstkcncftuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "The New Stack"
       date: "October 24, 2017"
 
@@ -3232,7 +3292,8 @@ press:
       link: "https://technical.ly/brooklyn/2017/10/19/popular-science-names-two-brooklyn-technologies-among-top-100-inventions-2017/"
       anchor: technicallyuptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Technical.ly"
       date: "October 19, 2017"
 
@@ -3241,7 +3302,8 @@ press:
       link: "http://news.sys-con.com/node/4181030/"
       anchor: sysconuptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Sys Con"
       date: "October 18, 2017"
 
@@ -3249,7 +3311,8 @@ press:
       link: "https://www.popsci.com/top-security-innovations-2017"
       anchor: popsciuptane
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Popular Science"
       date: "October 17, 2017"
 
@@ -3258,7 +3321,8 @@ press:
       link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
       anchor: FNELIVUptane
       type: article-foreign
-      project: *uptane
+      projects:
+        - *uptane
       source: "FinanzNachrichten.de"
       date: "October 17, 2017"
 
@@ -3266,7 +3330,8 @@ press:
       link: "https://paragonie.com/blog/2017/08/quick-guide-simple-and-secure-automatic-updates"
       anchor: paratuf
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Paragon Initiatives Enterprises Blog"
       date: "August 30, 2017"
 
@@ -3274,7 +3339,8 @@ press:
       link: "http://tpr.org/post/software-protecting-future-cars-starts-make-inroads#stream/0"
       anchor: npruptanetx
       type: audio
-      project: *uptane
+      projects:
+        - *uptane
       source: "NPR-Texas Public Radio/KSTX"
       date: "June 21, 2017"
 
@@ -3282,7 +3348,8 @@ press:
       link: "http://www.autoconnectedcar.com/2017/06/connected-car-news-marvell-telit-att-ats-continental-toyota-marvel-safe-drive-systems-cast-car2go-trimble/"
       anchor: ATSautoconncar
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Auto Connected Car News"
       date: "June 16, 2017"
 
@@ -3291,7 +3358,8 @@ press:
       link: "http://www.fox8live.com/story/35652114/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles"
       anchor: uptaneatsinteg2
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "WVUE-TV Online, Fox 8 New Orleans (also featured on WOIO-TV Online
       in Cleveland, and KMOV-TV Online,
       St. Louis, and in online content for multiple other TV stations)"
@@ -3302,7 +3370,8 @@ press:
       link: "http://security.itbusinessnet.com/article/ATS-is-Integrating-the-Uptane-Security-Framework-for-Over-the-air-Software-Updates-to-Connected-Vehicles-5003093"
       anchor: uptaneatsinteg1
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "IT Business Net (also featured in AEC Newsroom, AutoBlog, WardsAuto
       and other print outlets)"
       date: "June 13, 2017"
@@ -3311,7 +3380,8 @@ press:
       link: "http://www.newswise.com/articles/cyber-security-r-d-showcase-coming-in-july"
       anchor: uptanedhsrdshowcase
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Newswise"
       date: "May 2017"
 
@@ -3320,7 +3390,8 @@ press:
       link: "http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates"
       anchor: tufdockercon
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "eWeek"
       date: "April 2017"
 
@@ -3328,7 +3399,8 @@ press:
       link: "http://www.wbur.org/hereandnow/2017/03/17/researchers-software-car-hacking"
       anchor: npruptane
       type: audio
-      project: *uptane
+      projects:
+        - *uptane
       source: "NPR -- Here and Now"
       date: "March 2017"
 
@@ -3336,7 +3408,8 @@ press:
       link: "https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/"
       anchor: Podcastinit
       type: audio
-      project: *tuf
+      projects:
+        - *tuf
       source: "Podcast.__init__"
       date: "March 2017"
 
@@ -3344,7 +3417,8 @@ press:
       link: "http://www.lowellsun.com/latestnews/ci_30802407/automotive-cyber-security-keeping-hackers-out-cars"
       anchor: uptanelowell
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Lowell Press"
       date: "February 2017"
 
@@ -3352,7 +3426,8 @@ press:
       link: "http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/"
       anchor: uptane1
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "TechRepublic"
       date: "February 2017"
 
@@ -3360,7 +3435,8 @@ press:
       link:  "https://www.facebook.com/Reuters/videos/1364617036891982/"
       anchor: uptane2
       type: video
-      project: *uptane
+      projects:
+        - *uptane
       source: "Reuters (via Facebook Live)"
       date: "January 2017"
 
@@ -3368,7 +3444,8 @@ press:
       link: "http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0"
       anchor: uptane3
       type: audio
-      project: *uptane
+      projects:
+        - *uptane
       source: "Texas Public Radio"
       date: "January 2017"
 
@@ -3377,7 +3454,8 @@ press:
       link: "http://www.eetimes.com/document.asp?doc_id=1331232"
       anchor: uptane4
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "EE Times"
       date: "January 2017"
 
@@ -3385,7 +3463,8 @@ press:
       link: "http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/?trace=824205206&amp;source=news-home"
       anchor: uptaneimasters
       type: article-foreign
-      project: *uptane
+      projects:
+        - *uptane
       source: "iMasters"
       date: "January 2017"
 
@@ -3393,7 +3472,8 @@ press:
       link: "http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/"
       anchor: uptane5
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "ITS International"
       date: "January 2017"
 
@@ -3401,7 +3481,8 @@ press:
       link: "http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks"
       anchor: uptane6
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Christian Science Monitor"
       date: "January 2017"
 
@@ -3409,7 +3490,8 @@ press:
       link: "http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25"
       anchor: uptane7
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Forbes"
       date: "January 2017"
 
@@ -3417,7 +3499,8 @@ press:
       link: "https://hotforsecurity.bitdefender.com/blog/white-hackers-to-seek-errors-in-open-source-cybersecurity-framework-for-cars-17550.html"
       anchor: uptane8
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Bitfender"
       date: "January 2017"
 
@@ -3425,7 +3508,8 @@ press:
       link: "https://www.helpnetsecurity.com/2017/01/18/automotive-cybersecurity-framework/"
       anchor: uptane9
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "helpnetsecurity"
       date: "January 2017"
 
@@ -3433,7 +3517,8 @@ press:
       link: "http://datanews.knack.be/ict/nieuws/uptane-wil-je-connected-car-beschermen-tegen-hackers/article-normal-805323.html"
       anchor: uptane10
       type: article-foreign
-      project: *uptane
+      projects:
+        - *uptane
       source: "Knack"
       date: "January 2017"
 
@@ -3441,7 +3526,8 @@ press:
       link: "https://phys.org/news/2017-01-issued-white-hat-hackersfind-flaws.html"
       anchor: uptane11
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Phys.org"
       date: "January 2017"
 
@@ -3449,7 +3535,8 @@ press:
       link: "https://www.scmagazine.com/researchers-called-to-test-free-open-source-automotive-security-platform/article/632218/"
       anchor: uptane12
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "SC Media"
       date: "January 2017"
 
@@ -3457,7 +3544,8 @@ press:
       link: "https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/"
       anchor: uptane13
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Technical.ly"
       date: "January 2017"
 
@@ -3465,7 +3553,8 @@ press:
       link: "https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html"
       anchor: uptane14
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Yahoo News"
       date: "January 2017"
 
@@ -3473,7 +3562,8 @@ press:
       link: "http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12"
       anchor: uptane15
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Business Insider"
       date: "December 2016"
 
@@ -3481,7 +3571,8 @@ press:
       link: "https://www.onlineengineeringprograms.com/features/automotive-cybersecurity"
       anchor: uptane16
       type: article
-      project: *uptane
+      projects:
+        - *uptane
       source: "Online Engineering Programs Blog"
       date: "September 2016"
 
@@ -3489,7 +3580,8 @@ press:
       link: "https://news.ycombinator.com/item?id=12245587"
       anchor: tuf2
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Hacker News"
       date: "August 2016"
 
@@ -3497,7 +3589,8 @@ press:
       link: "https://news.ycombinator.com/item?id=10229802"
       anchor: pph1
       type: article
-      project: *pph
+      projects:
+        - *pph
       source: "Hacker News"
       date: "September 2015"
 
@@ -3505,7 +3598,8 @@ press:
       link: "https://news.ycombinator.com/item?id=10048096"
       anchor: tuf3
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Hacker News"
       date: "August 2015"
 
@@ -3513,7 +3607,8 @@ press:
       link: "https://thenewstack.io/docker-content-trust-can-run-containers-untrusted-networks/"
       anchor: tuf4
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "The New Stack"
       date: "August 2015"
 
@@ -3521,7 +3616,8 @@ press:
       link: "http://www.well-typed.com/blog/2015/04/improving-hackage-security/"
       anchor: tuf5
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Well-Typed (Blog)"
       date: "April 2015"
 
@@ -3529,7 +3625,8 @@ press:
       link: "https://lwn.net/Articles/629426/"
       anchor: tuf6
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Linux Weekly News (LWN)"
       date: "January 2015"
 
@@ -3537,7 +3634,8 @@ press:
       link: "http://engineering.nyu.edu/news/2015/01/22/nsf-supports-researchers-use-psychology-detect-software-vulnerabilities"
       anchor: atoms1
       type: article
-      project: *atoms
+      projects:
+        - *atoms
       source: "NYU Engineering Newsletter"
       date: "January 2015"
 
@@ -3545,7 +3643,8 @@ press:
       link: "https://news.ycombinator.com/item?id=8780369"
       anchor: tuf7
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Hacker News"
       date: "December 2014"
 
@@ -3553,7 +3652,8 @@ press:
       link: "https://titanous.com/posts/docker-insecurity"
       anchor: tuf8
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Titanous Blog"
       date: "December 2014"
 
@@ -3561,7 +3661,8 @@ press:
       link: "http://www.securityweek.com/new-protection-scheme-makes-weak-passwords-virtually-uncrackable"
       anchor: pph2
       type: article
-      project: *pph
+      projects:
+        - *pph
       source: "Security Week"
       date: "July 2014"
 
@@ -3569,7 +3670,8 @@ press:
       link: "http://technews.acm.org/archives.cfm?fo=2014-08-aug/aug-04-2014.html#739109"
       anchor: pph3
       type: article
-      project: *pph
+      projects:
+        - *pph
       source: "ACM Tech News"
       date: "August 2014"
 
@@ -3577,7 +3679,8 @@ press:
       link: "http://www.broadwayworld.com/bwwgeeks/article/Diagnostic-Tool-Reveals-Unexpected-Errors-In-Complex-Networked-Applications-20140512#.U3DjT61dX_Y"
       anchor: netcheck1
       type: article
-      project: *netcheck
+      projects:
+        - *netcheck
       source: "Geeks World"
       date: "May 2014"
 
@@ -3585,7 +3688,8 @@ press:
       link:  "https://it.slashdot.org/story/14/04/03/1440211/nyu-group-says-its-scheme-makes-cracking-individual-passwords-impossible"
       anchor: pph4
       type: article
-      project: *pph
+      projects:
+        - *pph
       source: "Slashdot"
       date: "April 2014"
 
@@ -3593,6 +3697,7 @@ press:
       link:  "http://www.linux-magazine.com/Issues/2014/160/Security-Lessons-TUF"
       anchor: tuf9
       type: article
-      project: *tuf
+      projects:
+        - *tuf
       source: "Linux Magazine"
       date: "March 2014"
