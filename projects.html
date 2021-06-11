@@ -58,9 +58,13 @@ layout: default
     <img class="image" src="{{ project.image }}"></img>
     {% endif %}
 
-    <div class="description"><p>
-      {{ project.description }}
-    </p></div>
+    <div class="description">
+      {% for desc in project.description %}
+      <p>
+        {{ desc }}
+      </p>
+      {% endfor %}
+    </div>
 
     <ul>
        {% if project.products %}
