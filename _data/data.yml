@@ -780,15 +780,20 @@ projects:
         image: "img/projects/tuf_diagram.png"
         site: "https://theupdateframework.github.io"
         status: *adopted
-        description: "Software must be updated frequently to not only ensure
-    improved operation, but also to patch security flaws.
-    Unfortunately, the act of performing an update can itself be a
-    way to attack a computer, if a malicious update is installed. TUF is a
-    comprehensive, flexible framework to secure software updates even in situations
-    where the software repository is compromised. Developers can integrate TUF
-    into any software update system, or native programming language due to its
-    concise, self-contained architecture and specification. It offers both developers
-    and users protection from a host of potential attacks."
+        description:
+          - "Software must be updated frequently to not only ensure
+            improved operation, but also to patch security flaws.
+            Unfortunately, the act of performing an update can itself be a
+            way to attack a computer, if a malicious update is installed. TUF is a
+            comprehensive, flexible framework to secure software updates even in situations
+            where the software repository is compromised."
+          - "Developers can integrate TUF into any software update system, or
+            native programming language due to its concise, self-contained
+            architecture and specification. In 2019, it became both the
+            first security project and the first project led by an academic researcher to achieve
+            <a href=\"https://lwn.net/Articles/807777/\">graduate status</a> within the Cloud
+            Native Computing Foundation (CNCF).
+            <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
         products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
         production by a <a
     href=\"https://theupdateframework.github.io/adoptions.html\">variety of
@@ -802,8 +807,7 @@ projects:
         <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
         TUF, and Docker's popular implementation of TUF, are now
     <a href=\"http://www.linuxfoundation.org/\">Linux Foundation</a>
-        projects as part of the Cloud Native Computing Foundation. In 2019, TUF became both the first security project and the first project led by an academic researcher to achieve <a href=\"https://lwn.net/Articles/807777/\">graduate status</a> within the CNCF. 
-    <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
+        projects as part of the CNCF."
         people:
             - *sebastien_awwad
             - *marina_moore
