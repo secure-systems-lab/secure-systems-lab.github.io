@@ -12,7 +12,7 @@ people:
           internal: true
           role: "Professor and Lab Director"
           since: 2010
-          photo: "img/people/justin_cappos.jpg"
+          photo: "/img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
             - name: "USENIX Security 2019"
@@ -43,7 +43,7 @@ people:
           internal: true
           role: "Research Professor, now affiliated with Research Group Cooperative Systems at the University of Vienna"
           since: "2011"
-          photo: "img/people/albert_rafetseder.jpg"
+          photo: "/img/people/albert_rafetseder.jpg"
           interests: "Building experimental platforms for research, education, and the general public"
           publications:
             - name: "TPDS 2018"
@@ -68,7 +68,7 @@ people:
           internal: true
           role: "Research Professor"
           since: "2016"
-          photo: "img/people/sam_weber.jpg"
+          photo: "/img/people/sam_weber.jpg"
           interests: "Secure development processes, Cybersecurity"
           publications:
             - name: "USENIX ATC 2017"
@@ -90,7 +90,7 @@ people:
           internal: true
           role: "Developer"
           since: "2013"
-          photo: "img/people/vlad_diaz.jpg"
+          photo: "/img/people/vlad_diaz.jpg"
           interests: "Software update security"
           publications:
             - name: "USENIX ATC 2017"
@@ -109,7 +109,7 @@ people:
           internal: true
           role: "Developer, now Security Engineer at Anaconda"
           since: "2015"
-          photo: "img/people/sebastien_awwad.jpg"
+          photo: "/img/people/sebastien_awwad.jpg"
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
           publications:
             - name: "ESCAR USA 2020 Special Issue"
@@ -124,7 +124,7 @@ people:
           internal: true
           role: "Developer"
           since: "2016"
-          photo: "img/people/lukas_puhringer.jpg"
+          photo: "/img/people/lukas_puhringer.jpg"
           interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
           publications:
             - name: "FWC 2017"
@@ -144,7 +144,7 @@ people:
           internal: true
           role:  "Ph.D. 2017, now Engineering Manager at DataDog"
           since: "2011"
-          photo: "img/people/trishank_kuppusamy.jpg"
+          photo: "/img/people/trishank_kuppusamy.jpg"
           site: "https://github.com/trishankkarthik"
           interests: "Securing software updates for community repositories and automobiles"
           publications:
@@ -171,7 +171,7 @@ people:
           internal: true
           role: "Ph.D. 2016 (co-advised by Yong Liu), now a Research Scientist at Facebook"
           since: "2011"
-          photo: "img/people/luqin_wang.jpg"
+          photo: "/img/people/luqin_wang.jpg"
           interests: "Social networks, Internet measurement, network security and distributed systems"
           publications:
               - name: "PAM 2015"
@@ -184,7 +184,7 @@ people:
           internal: true
           role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now a tenure track assistant professor at UConn"
           since: "2015"
-          photo: "img/people/ghada_almashaqbeh.jpg"
+          photo: "/img/people/ghada_almashaqbeh.jpg"
           site: "http://www.cs.columbia.edu/~ghada/"
           interests: "Cryptography, security, distributed computing"
           publications:
@@ -205,7 +205,8 @@ people:
           internal: true
           role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Software Platform Architect at Intel"
           since: "2013"
-          photo: "img/people/yiwen_li.jpg"
+          photo: "/img/people/yiwen_li.jpg"
+          site: "http://engineering.nyu.edu/people/yiwen-li"
           interests: "Operating system security, virtualization, network security"
           publications:
               - name: "USENIX ATC 2017"
@@ -221,7 +222,7 @@ people:
           internal: true
           role: "Ph.D. 2020, now an assistant professor of Electrical and Computer Engineering at Purdue University"
           since: "2014"
-          photo: "img/people/santiago_torres.png"
+          photo: "/img/people/santiago_torres.png"
           site: "https://sangy.xyz"
           interests: "Password protection and securing the software supply chain"
           publications:
@@ -249,7 +250,7 @@ people:
           internal: true
           role: "Developer"
           since: "2016"
-          photo: "img/people/artiom_baloian.jpg"
+          photo: "/img/people/artiom_baloian.jpg"
           interests: "Software Security, Code Obfuscation, Compilers"
           publications:
             - name: "Concurrency and Computation: Practice and Experience 2017"
@@ -270,7 +271,7 @@ people:
           internal: true
           role: "Research Associate/Technical Writer"
           since: "2015"
-          photo: "img/people/lois_delong.jpg"
+          photo: "/img/people/lois_delong.jpg"
           interests: "Experimental design involving human subjects; links between natural and programming languages; preparation and dissemination of technical standards"
           publications:
                 - name: "Behaviour and Information Security"
@@ -292,7 +293,7 @@ people:
           internal: true
           role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
           since: "2011"
-          photo: "img/people/sai_peddinti.jpg"
+          photo: "/img/people/sai_peddinti.jpg"
           site: "http://www.saitejapeddinti.com/"
           interests: "Privacy, security, social networks, machine learning"
           publications:
@@ -312,7 +313,7 @@ people:
           internal: true
           role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
           since: "2015"
-          photo: "img/people/preston_moore2.jpg"
+          photo: "/img/people/preston_moore.jpg"
           interests: "Secure software engineering, automated testing, systems security"
           publications:
          
@@ -328,7 +329,7 @@ people:
           internal: true
           role: "Ph.D. 2020"
           since: "2015"
-          photo: "img/people/dan_gopstein.jpg"
+          photo: "/img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
           publications:
             - name: "FSE 2020"
@@ -350,7 +351,7 @@ people:
           internal: true
           role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
           since: "2014"
-          photo: "img/people/yanyan_zhuang.jpg"
+          photo: "/img/people/yanyan_zhuang.jpg"
           interests: "Mobile systems, wireless networks, privacy and security"
           publications:
             - name: "Behaviour and Information Security"
@@ -381,7 +382,7 @@ people:
           internal: true
           role: "Ph.D. Candidate"
           since: 2018
-          photo: "img/people/marina_moore.jpg"
+          photo: "/img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
           publications:      
             - name: "ESCAR USA 2020 Special Issue"
@@ -393,7 +394,7 @@ people:
           internal: true
           role: "Ph.D. Candidate (co-advised by Brendan Dolan-Gavitt)"
           since: 2019
-          photo: "img/people/nick_renner.png"
+          photo: "/img/people/nick_renner.png"
           site: "http://nickrenner.com"
           interests: "Systems security, operating systems, Internet of Things"
 
@@ -404,7 +405,7 @@ people:
           internal: true
           role: "Developer"
           since: 2018
-          photo: "img/people/joey_pabalinas.jpg"
+          photo: "/img/people/joey_pabalinas.jpg"
           interests: "Linux kernel development"
           deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
@@ -414,7 +415,7 @@ people:
           internal: true
           role: "Ph.D. Candidate"
           since: 2019
-          photo: "img/people/aditya_sirish.jpg"
+          photo: "/img/people/aditya_sirish.jpg"
           site: "https://saky.in/"
           interests: "Internet privacy, systems security"
 
@@ -425,7 +426,7 @@ people:
           internal: false
           role: "Visiting scholar contracted with Python Software Foundation"
           since: 2019
-          photo: "img/people/sumana_harihareswara.jpg"
+          photo: "/img/people/sumana_harihareswara.jpg"
           interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
           deployments: Project manager for <a href="https://pip.pypa.io/">pip</a>, previously for <a href="https://pypi.org/">the Python Package Index (PyPI)</a> (<a href="https://lwn.net/Articles/751458/">LWN coverage</a>).
 
@@ -435,7 +436,7 @@ people:
           internal: true
           role: "Master's student"
           since: 2019
-          photo: "img/people/ashish_das.jpg"
+          photo: "/img/people/ashish_das.jpg"
           interests: "Applied cryptography, secure systems"
 
       - &yash_shah
@@ -444,7 +445,7 @@ people:
           internal: true
           role: "Master's student"
           since: 2019
-          photo: "img/people/yash_shah.jpg"
+          photo: "/img/people/yash_shah.jpg"
           interests: "Vulnerabilities, incident and event management"
 
       - &cindy_kim
@@ -453,7 +454,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2019
-          photo: "img/people/cindy_kim.jpg"
+          photo: "/img/people/cindy_kim.jpg"
           interests: "Systems security, privacy, and social networks"
 
       - &kristel_fung
@@ -462,7 +463,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2019
-          photo: "img/people/kristel_fung.jpg"
+          photo: "/img/people/kristel_fung.jpg"
           interests: "Cybersecurity, cryptography, software development"
 
       - &yuanrui_chen
@@ -471,7 +472,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/yuanrui_chen.jpg"
+          photo: "/img/people/yuanrui_chen.jpg"
           interests: "Network security, software security, and software development"
 
       - &isha_dave
@@ -480,7 +481,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/isha_dave.jpg"
+          photo: "/img/people/isha_dave.jpg"
           interests: "Cybersecurity and game design and development"
 
       - &kaitlyn_liu
@@ -489,7 +490,7 @@ people:
           internal: true
           role: "Undergraduate student"
           since: 2020
-          photo: "img/people/kaitlyn_liu.jpg"
+          photo: "/img/people/kaitlyn_liu.jpg"
           interests: "Systems security and computer vision"
 
       - &benjamin_wu
@@ -498,7 +499,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/benjamin_wu.jpg"
+            photo: "/img/people/benjamin_wu.jpg"
             interests: "Financial technology, cybersecurity, cryptography"
 
       - &ge_yang
@@ -507,7 +508,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/ge_yang.jpg"
+            photo: "/img/people/ge_yang.jpg"
             interests: "Security and privacy"
 
       - &jonathan_singer
@@ -516,7 +517,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/jonathan_singer.jpg"
+            photo: "/img/people/jonathan_singer.jpg"
             interests: "Systems security, network security, POSIX kernels"
 
       - &raghav_sai
@@ -525,7 +526,7 @@ people:
             internal: true
             role: "Master's Student"
             since: 2020
-            photo: "img/people/raghav_sai.jpg"
+            photo: "/img/people/raghav_sai.jpg"
             interests: "Software development and security, internet privacy"
 
       - &caglar_dogan
@@ -534,7 +535,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2020
-            photo: "img/people/caglar_dogan.jpg"
+            photo: "/img/people/caglar_dogan.jpg"
             interests: "Theory of computation, cryptography, systems security"
   
       - &almazhan_kapan
@@ -543,7 +544,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2021
-            photo: "img/people/almazhan_kapan.jpg"
+            photo: "/img/people/almazhan_kapan.jpg"
             interests: "Privacy, systems security, software development"
             
       - &hugo_yin
@@ -552,7 +553,7 @@ people:
             internal: true
             role: "Undergraduate student"
             since: 2021
-            photo: "img/people/hugo_yin.jpg"
+            photo: "/img/people/hugo_yin.jpg"
             interests: "Automated tests, software development"
   
       - &ritik_roongta
@@ -777,7 +778,7 @@ projects:
     - &tuf
         name: "The Update Framework (TUF)"
         anchor: "tuf"
-        image: "img/projects/tuf_diagram.png"
+        image: "/img/projects/tuf_diagram.png"
         site: "https://theupdateframework.github.io"
         status: *adopted
         description:
@@ -822,7 +823,7 @@ projects:
     - &uptane
         name: "Uptane"
         anchor: "uptane"
-        image: "img/projects/uptane_diagram.png"
+        image: "/img/projects/uptane_diagram.png"
         status: *adopted
         site: "https://uptane.github.io/"
         description:
@@ -884,7 +885,7 @@ projects:
     - &in-toto
         name: "in-toto"
         anchor: "in-toto"
-        image: "img/projects/in-toto_diagram.png"
+        image: "/img/projects/in-toto_diagram.png"
         status: *adopted
         site: "https://in-toto.io"
         description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
@@ -908,7 +909,7 @@ projects:
     - &atoms
         name: "Atoms of Confusion"
         anchor: "atoms"
-        image: "img/projects/atoms_business_card_closeup_small.png"
+        image: "/img/projects/atoms_business_card_closeup_small.png"
         site: "https://atomsofconfusion.com/"
         status: *starting
         description: "Within every confusing piece of software code
@@ -940,7 +941,7 @@ projects:
     - &cachecash
         name: "CacheCash"
         anchor: "cachecash"
-        image: "img/projects/cachecash_diagram.png"
+        image: "/img/projects/cachecash_diagram.png"
         site:
         status: *stealth
         description: "Delivery of large chunks of content, such as video, accounts for a
@@ -971,7 +972,7 @@ projects:
     - &lind
         name: "Lind"
         anchor: "lind"
-        image: "img/projects/lind_diagram.jpg"
+        image: "/img/projects/lind_diagram.jpg"
         status: *stealth
         site:
         description: "Despite the best efforts of developers most operating system
@@ -1001,7 +1002,7 @@ projects:
     - &crashsimulator
         name: "CrashSimulator"
         anchor: "crashsimulator"
-        image: "img/projects/crashsimulator_diagram.png"
+        image: "/img/projects/crashsimulator_diagram.png"
         site:
         status: *retired
         description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
@@ -1022,7 +1023,7 @@ projects:
     - &pph
         name: "PolyPasswordHasher (PPH)"
         anchor: "pph"
-        image: "img/projects/pph_diagram.png"
+        image: "/img/projects/pph_diagram.png"
         status: *retired
         site: "https://polypasswordhasher.github.io/PolyPasswordHasher/"
         description: "A password database disclosure can be devastating, costing
@@ -1046,7 +1047,7 @@ projects:
     - &seattle
         name: "Seattle"
         anchor: "seattle"
-        image: "img/projects/seattle_color_map.jpg"
+        image: "/img/projects/seattle_color_map.jpg"
         site: "https://seattle.poly.edu/html/"
         status: *retired
         description: "Cloud computing can provide tremendous benefits due to its
@@ -1103,7 +1104,7 @@ projects:
     - &blindspots
         name: "API Blindspots"
         anchor: "blindspots"
-        image: "img/projects/blindspots_diagram.png"
+        image: "/img/projects/blindspots_diagram.png"
         status: *retired
         site:
         description: "This project seeks to identify situations where security issues are created by the misunderstanding of APIs
@@ -1129,7 +1130,7 @@ projects:
         name: "NetCheck"
         anchor: "netcheck"
         status: *retired
-        image: "img/projects/netcheck_diagram.png"
+        image: "/img/projects/netcheck_diagram.png"
         site: "https://netcheck.poly.edu/"
         description: "NetCheck is a tool that can determine the cause of a failure
         in a networked application, without any application or network-specific knowledge,
@@ -1161,7 +1162,7 @@ projects:
         name: "upPIR"
         anchor: "uppir"
         status: *retired
-        image: "img/projects/uppir_data_download.png"
+        image: "/img/projects/uppir_data_download.png"
         site: "https://uppir.poly.edu"
         description: "upPIR is a secure protocol that allows users to mask their information requests by privately retrieving information from a set of mirrors. By packaging the required information with other data that potentially could be requested, the user's preferences—and any assumptions that could be deduced from those preferences—remain hidden."
         products: "The prototype code for this project is available at its <a href=\"https://github.com/trishankkarthik/multiblockpir\">github repository</a>."
@@ -1178,7 +1179,7 @@ projects:
         name: "Virtual Secure Network (VSN)"
         anchor: "vsn"
         status: *retired
-        image: "img/projects/vsn_diagram.png"
+        image: "/img/projects/vsn_diagram.png"
         site: "https://vsn.poly.edu"
         description: "Virtual Secure Network (VSN) is a network service that provides remote users the security benefits of a managed (corporate/cloud) network, without sacrificing the faster Internet performance more typical of an insecure direct connection. A VSN is analogous to a Virtual Private Network (VPN) in that it offers security protections, such as firewalls, multiple Antivirus scanners, IDSs, and IPSs. However, VSN can guarantee lower costs for management, and better performance for its end users."
         products: "This <a href=\"https://www.google.com/patents/US9246929\">patented technique</A> and its source code are available on the project <a href=\"https://vsn.poly.edu\">web site</a>."
