@@ -546,7 +546,25 @@ people:
             since: 2021
             photo: "img/people/hugo_yin.jpg"
             interests: "Automated tests, software development"
-                      
+  
+      - &ritik_roongta
+            name: "Ritik Roongta"
+            anchor: ritik_roongta
+            internal: true
+            role: "Ph.D. student"
+            since: 2021
+            photo: "img/people/ritik_roongta.jpg"
+            interests: "Network and System Security"
+            
+      - &jack_cook
+            name: "Jack Cook"
+            anchor: jack_cook
+            internal: true
+            role: "Ph.D. student"
+            since: 2021
+            photo: "img/people/jack_cook.jpg"
+            interests: ""       
+            
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -562,11 +580,12 @@ people:
       - type: "PhD. Students"
         anchor: phd
         people:
-          - *yiwen_li
           - *preston_moore
           - *marina_moore
           - *nick_renner
           - *aditya_sirish
+          - *ritik_roongta
+          - *jack_cook
           
       - type: "Other Students"
         anchor: otherstudents
@@ -583,8 +602,6 @@ people:
           - *almazhan_kapan
           - *hugo_yin
           - *raghav_sai
-          - *yash_shah
-          - *ashish_das
           
       - type: "Visiting Scholars"
         anchor: visitingscholars
@@ -594,6 +611,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *yiwen_li
           - *santiago_torres
           - *dan_gopstein
           - *ghada_almashaqbeh
