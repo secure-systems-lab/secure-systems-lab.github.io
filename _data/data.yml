@@ -578,10 +578,7 @@ people:
               - name: "Cyber Defense Magazine"
                 link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
               - name:  "Cybrary"
-                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"
-              - name: "Several other articles in online cybersecurity publications"
-                link: ""
-            
+                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"      
    
     people_cards:
       - type: "Faculty"
