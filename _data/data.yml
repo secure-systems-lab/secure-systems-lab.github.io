@@ -564,7 +564,7 @@ people:
             since: 2021
             photo: "img/people/jack_cook.jpg"
             interests: ""       
-            deployments: "Lead developer for <a href="http://www.edurange.org/">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises."
+            deployments: "Lead developer for <a href=\"http://www.edurange.org/\">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises."
   
       - &staford_titus
             name: "Staford Titus"
