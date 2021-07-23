@@ -554,7 +554,7 @@ people:
             role: "Ph.D. student"
             since: 2021
             photo: "img/people/ritik_roongta.jpg"
-            interests: "Network and System Security"
+            interests: "Network and system Security"
             
       - &jack_cook
             name: "Jack Cook"
@@ -564,7 +564,7 @@ people:
             since: 2021
             photo: "img/people/jack_cook.jpg"
             interests: ""       
-            deployments: Lead developer for <a href="http://www.edurange.org/">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises.
+            deployments: "Lead developer for <a href="http://www.edurange.org/">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises."
   
       - &staford_titus
             name: "Staford Titus"
@@ -576,7 +576,6 @@ people:
             interests: "Malware Analysis & Reverse Engineering, Automobile Security, IOT Security"
             publications: "Several articles in online security magazines, including <a href="https://cyberdefensemagazine.tradepub.com/free/w_cyba96/">Cyber Defense Magazine</a> and <a href="https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/">Cybrary</a>" 
             
-   
    
     people_cards:
       - type: "Faculty"
