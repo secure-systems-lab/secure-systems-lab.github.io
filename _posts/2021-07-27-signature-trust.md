@@ -21,7 +21,7 @@ For cryptographic signatures, the source of truth lies in a verification strateg
 But what if a fake license was substituted for the real one at some point? To check if such a substitution is possible, we would need some key contextual information. In verifying signatures, that might include knowing who owns the private key used. For example, a software updater may send a signed package, along with the public key necessary to verify that package all in the same protocol. Yet, if an attacker is able to interrupt network traffic or gain access to the software repository, that attacker can then change both the package and the key used to sign the package. It would be the equivalent of the Grinch signing a letter with Santa’s name, and attaching a fake driver’s licence with a matching signature. This leaves the recipient no better off than when they download unsigned data.
 
 
-<img align="right" src="/img/signature-verification-exploit.jpg" style="margin: 0px 20px"/>
+<img align="right" src="/img/blog/signature-verification-exploit.jpg" style="margin: 0px 20px"/>
 
 In order to ensure that software is not only signed, but valid, you must ensure that you are using a public key that was communicated over a secure channel, thus keeping out any interfering Grinches. For cryptographic signatures, a secure channel can be a trusted PKI system such as TUF, or an offline mechanism. These mechanisms act like government issued ids and allow you to verify the identity of an individual. By ensuring that the public keys are communicated securely, you can ensure that when they are used to verify data, that data actually came from a trusted signer.
 
