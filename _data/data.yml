@@ -563,7 +563,7 @@ people:
             role: "Ph.D. student"
             since: 2021
             photo: "img/people/jack_cook.jpg"
-            interests: ""       
+            interests: "Systems security, distributed computing, and software development"       
             deployments: "Lead developer for <a href=\"http://www.edurange.org/\">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises."
   
       - &staford_titus
@@ -767,7 +767,7 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.1.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
+    <a href=\"https://uptane.github.io/papers/uptane-standard.1.2.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
     and
     <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
     We invite all
@@ -780,6 +780,7 @@ projects:
             - *marina_moore
             - *lois_delong
             - *lukas_puhringer
+            - *staford_titus
            
             - name: Ira McDonald (High North Inc.)
               link:
@@ -874,6 +875,7 @@ projects:
         products: "We are in stealth mode! If you want to be contacted when we
     publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
         people:
+            - *jack_cook
             - *ghada_almashaqbeh
             - *ge_yang
             - *raghav_sai
@@ -906,7 +908,6 @@ projects:
             - *yiwen_li
             - *nick_renner
             - *jonathan_singer
-            - *yash_shah
             - *kaitlyn_liu
             - *caglar_dogan
             - *justin_cappos
@@ -928,6 +929,8 @@ projects:
         people:
             - *preston_moore
             - *justin_cappos
+            - *hugo_yin
+            - *almazhan_kapan
             - name: "Phyllis Frankl"
               link: "http://engineering.nyu.edu/people/phyllis-frankl"
             - name: "Thomas Wies"
