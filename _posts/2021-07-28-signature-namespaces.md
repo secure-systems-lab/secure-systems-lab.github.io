@@ -20,3 +20,9 @@ Communicating which individual keys are eligible to sign packages can be a time-
 Not all keys should be trusted for every piece of software. A valid signature for Santa Claus should not be used to validate a Halloween card. A Debian developer trusted for maintaining the documentation shouldn’t need to be trusted to sign the kernel (though this is what happens today). This means that you not only need to know ahead of time what keys you trust, but also which of these keys should be used to verify specific packages.
 
 Now, our skeptical child can not only ensure that his Christmas card is authentic, they can make the same claim of every holiday card throughout the year. However, they still need to securely receive each trusted key. In the next part, we will discuss how to simplify key distribution through the use of delegations.
+
+[Go to part 4: Saving Santa some signing: Using delegations to distribute data](https://ssl.engineering.nyu.edu/blog/2021-08-12-signature-delegations)
+
+Previous posts in this series:
+* [Part 1: Did the Grinch intercept your Christmas card?: The importance of signature verification](https://ssl.engineering.nyu.edu/blog/2021-07-26-signature-verification)
+* [Part 2: Who is signing your Christmas card?: Establishing trust](https://ssl.engineering.nyu.edu/blog/2021-07-27-signature-trust)
