@@ -1170,6 +1170,19 @@ formulating new candidates for atoms of confusion. Ultimately, we
 question whether hand-evaluation correctness is, itself, a sufficient
 instrument to study program comprehension."
 
+    - &yeh_atoms_eeg_b_it_2021
+      anchor: yeh_atoms_eeg_b_it_2021
+      title: "Identifying Program Confusion using Electroencephalogram Measurements"
+      authors:
+        - name: "M.K-C. Yeh, Y. Yan, Y. Zhuang, L.A. DeLong"
+      project: *atoms
+      booktitle: "Behaviour & Information Technology"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/papers/yeh_atoms_eeg_b&it_2021.pdf"
+      abstract: "In this paper, we present an experimental study in which an electroencephalogram (EEG) device was used to measure cognitive load in programmers as they attempted to predict the output of C code snippets. Our goal was to see if particular patterns within the snippet induced higher levels of cognitive load, and if the collected EEG data might provide more detailed insights than performance measures. Our results suggest that while cognitive load can be an influence on code comprehension performance, other human factors, such as a tendency to forget certain programming rules or to misread what the code is asking them to do may also play a role, particularly for novice programmers. We conclude that: (1) different types of code patterns can affect programmers’ cognitive processes in disparate ways, (2) neither self-reported data nor brainwave activity alone is a reliable indicator of programmers’ level of comprehension for all types of code snippets, (3) EEG techniques could be useful to better understand the relationships between program comprehension, code patterns and cognitive processes, and (4) tests like ours could be useful to identify crucial learning gaps in novice programmers, which, in turn can be leveraged to improve programming tools and teaching strategies."
+      
     - &afzali_webgit_JCS_2020
       anchor: afzali_webgit_JCS_2020
       title: "Towards Adding Verifiability to Web-based Git Repositories"
@@ -2776,6 +2789,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Journal Articles, Magazines, Tech Reports, etc.
       anchor: journals
       publications:
+        - *yeh_atoms_eeg_b_it_2021
         - *afzali_webgit_JCS_2020
         - *moore_pouf_2020
         - *uptane_standard_IEEE_ISTO_19
