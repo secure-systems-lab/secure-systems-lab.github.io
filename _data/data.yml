@@ -274,6 +274,8 @@ people:
           photo: "img/people/lois_delong.jpg"
           interests: "Experimental design involving human subjects; links between natural languages and programming languages"
           publications:
+                - name: "Behaviour and Information Security"
+                  link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"
                 - name: "ESCAR USA 2020 Special Issue"
                   link: "/papers/moore_pouf_2020.pdf"
                 - name: "SOUPS 2018"
@@ -347,6 +349,8 @@ people:
           photo: "img/people/yanyan_zhuang.jpg"
           interests: "Mobile systems, wireless networks, privacy and security"
           publications:
+            - name: "Behaviour and Information Security"
+              link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"          
             - name: "TPDS 2018"
               link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
             - name: "SAS 2018"
@@ -2813,6 +2817,25 @@ press:
 
   presses:
 
+    - title: "Brainiacs episode 6: Defending defenders, boosting ideas, and blocking hackers"
+      link: "https://www.nyu.edu/about/news-publications/news/2021/june/-brainiacs--episode-6--defending-defenders--boosting-ideas--and-.html"
+      anchor: brainiacuptoto
+      type: video
+      projects: 
+        - *uptane
+        - *in-toto
+      source: "NYU News"
+      date: "June 29, 2021"
+
+    - title: "A new kind of trust root"
+      link: "https://blog.sigstore.dev/a-new-kind-of-trust-root-f11eeeed92ef"
+      anchor: sigstoretuftrust
+      type: article
+      projects: 
+        - *tuf
+      source: "Sigstore Blog"
+      date: "June 7, 2021"
+
     - title: "Now Your Car is a Cybersecurity Risk, Too"
       link: "https://www.eetimes.com/now-your-car-is-a-cybersecurity-risk-too/"
       anchor: eetimesuptane
@@ -2821,7 +2844,16 @@ press:
         - *uptane
       source: "EE Times"
       date: "May 21, 2021"
-      
+ 
+    - title: "How Uptane Meets the Key WP.29 Cybersecurity Management System Requirements"
+      link: "https://www.sibros.com/post/how-uptane-meets-the-key-wp-29-cybersecurity-management-system-requirements"
+      anchor: sibrosuptanexec
+      type: article
+      projects:
+        - *uptane
+      source: "Sibros"
+      date: "May 18, 2021"
+ 
     - title: "How LF communities enable security measures required by the US Executive Order on Cybersecurity"
       link: "https://www.linuxfoundation.org/en/blog/how-lf-communities-enable-security-measures-required-by-the-us-executive-order-on-cybersecurity/"
       anchor: linuxfoundexecorder
