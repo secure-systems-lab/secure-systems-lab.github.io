@@ -26,3 +26,8 @@ But what if a fake license was substituted for the real one at some point? To ch
 In order to ensure that software is not only signed, but valid, you must ensure that you are using a public key that was communicated over a secure channel, thus keeping out any interfering Grinches. For cryptographic signatures, a secure channel can be a trusted PKI system such as TUF, or an offline mechanism. These mechanisms act like government issued ids and allow you to verify the identity of an individual. By ensuring that the public keys are communicated securely, you can ensure that when they are used to verify data, that data actually came from a trusted signer.
 
 In this post, we established how to obtain a collection of trusted keys, but on it’s own this isn’t sufficient to build a secure signature system. In future posts, I will focus on other important considerations when using cryptographic signatures, including ensuring that signatures are valid at the time they are verified, ensuring that the revocation of keys or signatures is communicated to the verifier, and effectively communicating signing algorithms.
+
+[Go to part 3: Ensuring the Easter Bunny isn’t signing your Christmas cards: Applying limitations of trust](https://ssl.engineering.nyu.edu/blog/2021-07-28-signature-namespaces)
+
+Previous posts in this series:
+* [Part 1: Did the Grinch intercept your Christmas card?: The importance of signature verification](https://ssl.engineering.nyu.edu/blog/2021-07-26-signature-verification)
