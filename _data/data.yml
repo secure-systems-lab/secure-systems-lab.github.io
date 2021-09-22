@@ -203,10 +203,10 @@ people:
           name: "Yiwen Li"
           anchor: yiwen_li
           internal: true
-          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt)"
+          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Cloud Networking Solution Engineer at Intel"
           since: "2013"
           photo: "img/people/yiwen_li.jpg"
-          site: "http://engineering.nyu.edu/people/yiwen-li"
+          site: ""
           interests: "Operating system security, virtualization, network security"
           publications:
               - name: "USENIX ATC 2017"
@@ -582,8 +582,20 @@ people:
               - name: "Cyber Defense Magazine"
                 link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
               - name:  "Cybrary"
-                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"      
-   
+                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
+                
+     - &pinhan_zhao            
+            name: "Pinhan Zhao"
+            anchor: pinhan_zhao
+            internal: true
+            role: "Undergraduate"
+            since: 2021
+            photo: "img/people/pinhan_zhao.jpg"
+            interests: "Cybersecurity, privacy, software development, computer networks"
+            publications:
+              - name: "Netdev 0x15"
+                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"  
+    
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -621,7 +633,7 @@ people:
           - *ge_yang
           - *almazhan_kapan
           - *hugo_yin
-          - *raghav_sai
+          - *pinhan_zhao
           
       - type: "Visiting Scholars"
         anchor: visitingscholars
