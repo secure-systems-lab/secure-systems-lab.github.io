@@ -206,7 +206,6 @@ people:
           role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Cloud Networking Solution Engineer at Intel"
           since: "2013"
           photo: "img/people/yiwen_li.jpg"
-          site: ""
           interests: "Operating system security, virtualization, network security"
           publications:
               - name: "USENIX ATC 2017"
@@ -584,7 +583,7 @@ people:
               - name:  "Cybrary"
                 link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
                 
-     - &pinhan_zhao            
+      - &pinhan_zhao            
             name: "Pinhan Zhao"
             anchor: pinhan_zhao
             internal: true
