@@ -321,7 +321,7 @@ people:
           name: "Dan Gopstein"
           anchor: dan_gopstein
           internal: true
-          role: "Ph.D. 2020 (co-advised with Andy Nealen)"
+          role: "Ph.D. 2020"
           since: "2015"
           photo: "img/people/dan_gopstein.jpg"
           interests: "Programming languages and software systems"
