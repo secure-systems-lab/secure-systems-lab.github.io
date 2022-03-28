@@ -107,7 +107,7 @@ people:
           name: "Sebastien Awwad"
           anchor: sebastien_awwad
           internal: true
-          role: "Developer"
+          role: "Developer, now Security Engineer at Anaconda"
           since: "2015"
           photo: "img/people/sebastien_awwad.jpg"
           interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
@@ -142,7 +142,7 @@ people:
           name: "Trishank Kuppusamy"
           anchor: trishank_kuppusamy
           internal: true
-          role:  "Ph.D. 2017, now Staff Security Engineer at DataDog"
+          role:  "Ph.D. 2017, now Engineering Manager at DataDog"
           since: "2011"
           photo: "img/people/trishank_kuppusamy.jpg"
           site: "https://github.com/trishankkarthik"
@@ -203,7 +203,7 @@ people:
           name: "Yiwen Li"
           anchor: yiwen_li
           internal: true
-          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Cloud Networking Solution Engineer at Intel"
+          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Software Platform Architect at Intel"
           since: "2013"
           photo: "img/people/yiwen_li.jpg"
           interests: "Operating system security, virtualization, network security"
@@ -271,7 +271,7 @@ people:
           role: "Research Associate/Technical Writer"
           since: "2015"
           photo: "img/people/lois_delong.jpg"
-          interests: "Experimental design involving human subjects; links between natural languages and programming languages"
+          interests: "Experimental design involving human subjects; links between natural and programming languages; preparation and dissemination of technical standards"
           publications:
                 - name: "Behaviour and Information Security"
                   link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"
@@ -782,7 +782,7 @@ projects:
     program, in which Uptane is a key component of the security package.
     <a href=\"https://uptane.github.io/\">Our website</a> contains high level
     information about the project, including the
-    <a href=\"https://uptane.github.io/papers/uptane-standard.1.2.0.html\">Uptane Standard for Design and Implementation v.1.1.0</a>
+    <a href=\"https://uptane.github.io/papers/uptane-standard.2.0.0.html\">Uptane Standard for Design and Implementation v.2.0.0</a>
     and
     <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
     We invite all
@@ -817,7 +817,7 @@ projects:
         site: "https://in-toto.io"
         description: "Do you know who has handled your software prior to its installation on your machine? Even if developers are careful to secure each step in their products' supply chain, there is little assurance about what happens in-between these steps. The in-toto system holistically enforces the integrity of a software supply chain by gathering and signing information about each step in the process. As such, in-toto provides accountability about how software is written, packaged and distributed...and by who."
         products: "The in-toto software has already been integrated into several open
-    source projects. In 2019, Datadog announced the use of <a href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF and in-toto</a> on their agents integration downloader. In November 23 of 2020, the framework released<a href=\"https://techxplore.com/news/2020-12-free-tool-layer-software-chain.html/\">Version 1.0.0</a>. Also, a <a href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation of rebuilders</a> are generating in-toto metadata so you can check your Debian packages were built reproducibly when using <a href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We welcome you to download the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/demo/\">demo version</a> of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the directions to integrate in-toto into your software project!"
+    source projects. In 2019, Datadog announced the use of <a href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF and in-toto</a> on their agents integration downloader. In November 23 of 2020, the framework released<a href=\"https://techxplore.com/news/2020-12-free-tool-layer-software-chain.html/\">Version 1.0.0</a>, and on March 10, CNCF<a href=\"https://www.cncf.io/blog/2022/03/10/supply-chain-security-project-in-toto-moves-to-the-cncf-incubator/\"> announced</a> the project had graduated to the incubator. Also, a <a href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation of rebuilders</a> are generating in-toto metadata so you can check your Debian packages were built reproducibly when using <a href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We welcome you to download the in-toto instructions, which includes a <a href=\"https://github.com/in-toto/demo/\">demo version</a> of our software, or to clone our <a href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow the directions to integrate in-toto into your software project!"
         people:
             - *santiago_torres
             - *lukas_puhringer
