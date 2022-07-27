@@ -1162,7 +1162,6 @@ projects:
     - *tuf
     - *uptane
     - *in-toto
-    
     - *cachecash
     - *lind
     - *atoms
@@ -2862,7 +2861,7 @@ press:
       project: 
         - *uptane
       source: "Renesas Blog"
-      date: June 2022
+      date: "June 2022"
       
     - title: "As tech world weighs options for supply chain security, a call for urgency"
       link: "https://siliconangle.com/2022/06/10/thought-leaders-sound-call-for-urgency-as-tech-world-weighs-options-for-software-supply-chain-security-softwaresupplychain/"
