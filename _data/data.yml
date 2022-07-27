@@ -310,13 +310,17 @@ people:
           name: "Preston Kent Moore"
           anchor: preston_moore
           internal: true
-          role: "Ph.D. Candidate (co-advised with Phyllis Frankl)"
+          role: "Ph.D. 2022" (co-advised with Phyllis Frankl)
           since: "2015"
           photo: "img/people/preston_moore.jpg"
           interests: "Secure software engineering, automated testing, systems security"
           publications:
             - name: "ISSRE 2019"
               link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
+            - name: "ICSOFT 2022"
+              link: ""
+            - name: "CCSCNE 2022"
+              link: "" 
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
@@ -582,7 +586,25 @@ people:
                 link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
               - name:  "Cybrary"
                 link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
-                
+      
+      - &devansh_patel
+            name: "Devansh Patel"
+            anchor: devansh_patel
+            internal: true
+            role: "Master's student"
+            since: 2022
+            photo: "img/people/devansh_patel.jpg"
+            interests: "Systems security, Reverse engineering, Digital privacy"
+     
+      - &athena_hernandez
+            name: "Athena Hernandez"
+            anchor: athena_hernandez
+            internal: true
+            role: "High school student"
+            since: 2022
+            photo: "img/people/athena_hernandez.jpg"
+            interests: "Systems security, Privacy"
+
       - &pinhan_zhao            
             name: "Pinhan Zhao"
             anchor: pinhan_zhao
@@ -609,8 +631,7 @@ people:
 
       - type: "PhD. Students"
         anchor: phd
-        people:
-          - *preston_moore
+        people:         
           - *marina_moore
           - *nick_renner
           - *aditya_sirish
@@ -622,16 +643,18 @@ people:
         people:
           - *staford_titus
           - *jonathan_singer
+          - *devansh_patel
+          - *caglar_dogan
+          - *athena_hernandez
           - *cindy_kim
           - *kristel_fung
           - *yuanrui_chen
           - *isha_dave
-          - *kaitlyn_liu
-          - *benjamin_wu
-          - *caglar_dogan
-          - *ge_yang
           - *almazhan_kapan
           - *hugo_yin
+          - *kaitlyn_liu
+          - *benjamin_wu
+          - *ge_yang     
           - *pinhan_zhao
           
       - type: "Visiting Scholars"
@@ -642,6 +665,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *preston_moore
           - *yiwen_li
           - *santiago_torres
           - *dan_gopstein
