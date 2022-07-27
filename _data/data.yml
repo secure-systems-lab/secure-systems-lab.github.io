@@ -770,6 +770,7 @@ projects:
             - *trishank_kuppusamy
             - *vlad_diaz
             - *cindy_kim
+            - *athena_hernandez
             - *lukas_puhringer
             - *justin_cappos
         tags:
@@ -949,6 +950,7 @@ projects:
             - *jonathan_singer
             - *kaitlyn_liu
             - *caglar_dogan
+            - *devansh_patel
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
@@ -961,7 +963,7 @@ projects:
         anchor: "crashsimulator"
         image: "img/projects/crashsimulator_diagram.png"
         site:
-        status: *stealth
+        status: *retired
         description: "CrashSimulator is a tool that replicates “real-world” testing for new and upgraded software without the complications of “real-world” deployment. The program enables software developers to identify vulnerabilities in product designs long before they are packaged and released."
         products: "We are in stealth mode!  If you want to be contacted when we
     publicly release, please email <a href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
@@ -1160,9 +1162,10 @@ projects:
     - *tuf
     - *uptane
     - *in-toto
-    - *atoms
+    
     - *cachecash
     - *lind
+    - *atoms
     - *crashsimulator
     - *pph
     - *blindspots
@@ -1216,7 +1219,7 @@ instrument to study program comprehension."
         - name: "M.K-C. Yeh, Y. Yan, Y. Zhuang, L.A. DeLong"
       project: *atoms
       booktitle: "Behaviour & Information Technology"
-      year: ""
+      year: "2021"
       pages: ""
       publisher: ""
       link: "/papers/yeh_atoms_eeg_b&it_2021.pdf"
@@ -1229,7 +1232,7 @@ instrument to study program comprehension."
         - name: "H. Afzali, S. Torres-Arias, R. Curtmola, J. Cappos"
       project: 
       booktitle: "The Journal of Computer Security"
-      year: ""
+      year: "2020"
       pages: ""
       publisher: ""
       link: "/papers/afzali-webgit-jcs20.pdf"
@@ -1242,7 +1245,7 @@ instrument to study program comprehension."
         - name: "M. Moore, I. McDonald, A. Weimerskirch, S. Awwad, L. A. DeLong, J. Cappos"
       project: *uptane
       booktitle: "ESCAR USA 2020 Special Issue"
-      year: ""
+      year: "2020"
       pages: ""
       publisher: ""
       link: "/papers/moore_pouf_2020.pdf"
@@ -2852,6 +2855,33 @@ press:
 
   presses:
 
+    - title: "Securing Automotive Over-the-Air Software Updates"
+      link: "https://www.renesas.com/us/en/blogs/securing-automotive-over-air-software-updates"
+      anchor: uptphilren2022
+      type: article
+      project: 
+        - *uptane
+      source: "Renesas Blog"
+      date: June 2022
+      
+    - title: "As tech world weighs options for supply chain security, a call for urgency"
+      link: "https://siliconangle.com/2022/06/10/thought-leaders-sound-call-for-urgency-as-tech-world-weighs-options-for-software-supply-chain-security-softwaresupplychain/"
+      anchor: sangleintotosc22
+      type: article
+      project:
+        - *in-toto
+      source: "Siliconangle.com"
+      date: "June 10, 2022"
+        
+    - title: "As Software Supply Chain Attacks Keep Coming, TUF Gets Easier to Use"
+      link:  "https://blogs.vmware.com/opensource/2021/08/10/software-supply-chain-attacks-and-tuf/"
+      anchor: vmtuf1021
+      type: article
+      project: 
+        - *tuf
+      source: "VMWare Open Source Blog"
+      date: "August 10, 2021"
+      
     - title: "Brainiacs episode 6: Defending defenders, boosting ideas, and blocking hackers"
       link: "https://www.nyu.edu/about/news-publications/news/2021/june/-brainiacs--episode-6--defending-defenders--boosting-ideas--and-.html"
       anchor: brainiacuptoto
