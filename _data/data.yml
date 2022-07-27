@@ -1218,7 +1218,7 @@ instrument to study program comprehension."
         - name: "M.K-C. Yeh, Y. Yan, Y. Zhuang, L.A. DeLong"
       project: *atoms
       booktitle: "Behaviour & Information Technology"
-      year: "2021"
+      year: ""
       pages: ""
       publisher: ""
       link: "/papers/yeh_atoms_eeg_b&it_2021.pdf"
@@ -1231,7 +1231,7 @@ instrument to study program comprehension."
         - name: "H. Afzali, S. Torres-Arias, R. Curtmola, J. Cappos"
       project: 
       booktitle: "The Journal of Computer Security"
-      year: "2020"
+      year: ""
       pages: ""
       publisher: ""
       link: "/papers/afzali-webgit-jcs20.pdf"
@@ -1244,7 +1244,7 @@ instrument to study program comprehension."
         - name: "M. Moore, I. McDonald, A. Weimerskirch, S. Awwad, L. A. DeLong, J. Cappos"
       project: *uptane
       booktitle: "ESCAR USA 2020 Special Issue"
-      year: "2020"
+      year: ""
       pages: ""
       publisher: ""
       link: "/papers/moore_pouf_2020.pdf"
@@ -2865,7 +2865,7 @@ press:
       
     - title: "As tech world weighs options for supply chain security, a call for urgency"
       link: "https://siliconangle.com/2022/06/10/thought-leaders-sound-call-for-urgency-as-tech-world-weighs-options-for-software-supply-chain-security-softwaresupplychain/"
-      anchor: sangleintotosc22
+      anchor: sangleintotosc22h
       type: article
       project:
         - *in-toto
