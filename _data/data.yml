@@ -2858,7 +2858,7 @@ press:
       link: "https://www.renesas.com/us/en/blogs/securing-automotive-over-air-software-updates"
       anchor: uptphilren2022
       type: article
-      project: 
+      projects:
         - *uptane
       source: "Renesas Blog"
       date: "June 2022"
@@ -2867,7 +2867,7 @@ press:
       link: "https://siliconangle.com/2022/06/10/thought-leaders-sound-call-for-urgency-as-tech-world-weighs-options-for-software-supply-chain-security-softwaresupplychain/"
       anchor: sangleintotosc22h
       type: article
-      project:
+      projects:
         - *in-toto
       source: "Siliconangle.com"
       date: "June 10, 2022"
@@ -2876,7 +2876,7 @@ press:
       link:  "https://blogs.vmware.com/opensource/2021/08/10/software-supply-chain-attacks-and-tuf/"
       anchor: vmtuf1021
       type: article
-      project: 
+      projects:
         - *tuf
       source: "VMWare Open Source Blog"
       date: "August 10, 2021"
@@ -2885,7 +2885,7 @@ press:
       link: "https://www.nyu.edu/about/news-publications/news/2021/june/-brainiacs--episode-6--defending-defenders--boosting-ideas--and-.html"
       anchor: brainiacuptoto
       type: video
-      projects: 
+      projects:
         - *uptane
         - *in-toto
       source: "NYU News"
