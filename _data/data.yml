@@ -310,17 +310,18 @@ people:
           name: "Preston Kent Moore"
           anchor: preston_moore
           internal: true
-          role: "Ph.D. 2022 (co-advised with Phyllis Frankl)"
+          role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
           since: "2015"
-          photo: "img/people/preston_moore.jpg"
+          photo: "img/people/preston_moore2.jpg"
           interests: "Secure software engineering, automated testing, systems security"
           publications:
+         
+            - name: "ICSOFT 2022"
+              link: "http://ssl.engineering.nyu.edu/papers/port_icsoft_2022.pdf"
+            - name: "CCSCNE 2022"
+              link: "http://ssl.engineering.nyu.edu/papers/shuffle_ccsne_2022.pdf" 
             - name: "ISSRE 2019"
               link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
-            - name: "ICSOFT 2022"
-              link: ""
-            - name: "CCSCNE 2022"
-              link: "" 
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
