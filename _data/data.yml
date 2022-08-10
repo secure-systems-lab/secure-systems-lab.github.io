@@ -310,17 +310,18 @@ people:
           name: "Preston Kent Moore"
           anchor: preston_moore
           internal: true
-          role: "Ph.D. 2022 (co-advised with Phyllis Frankl)"
+          role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
           since: "2015"
-          photo: "img/people/preston_moore.jpg"
+          photo: "img/people/preston_moore2.jpg"
           interests: "Secure software engineering, automated testing, systems security"
           publications:
+         
+            - name: "ICSOFT 2022"
+              link: "http://ssl.engineering.nyu.edu/papers/port_icsoft_2022.pdf"
+            - name: "CCSCNE 2022"
+              link: "http://ssl.engineering.nyu.edu/papers/shuffle_ccsne_2022.pdf" 
             - name: "ISSRE 2019"
               link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
-            - name: "ICSOFT 2022"
-              link: ""
-            - name: "CCSCNE 2022"
-              link: "" 
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
@@ -847,7 +848,6 @@ projects:
             - *santiago_torres
             - *lukas_puhringer
             - *aditya_sirish
-            - *ashish_das
             - *yuanrui_chen
             - *isha_dave
             - *kristel_fung
@@ -945,12 +945,12 @@ projects:
         products: "We are in stealth mode!  If you want to be contacted when we
     publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
         people:
-            - *yiwen_li
             - *nick_renner
             - *jonathan_singer
             - *kaitlyn_liu
             - *caglar_dogan
             - *devansh_patel
+            - *yiwen_li
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
@@ -1088,7 +1088,6 @@ projects:
         tags:
             - *software_engineering
 
-
     - &netcheck
         name: "NetCheck"
         anchor: "netcheck"
@@ -1183,6 +1182,32 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &moore_port_icsoft_2022
+      anchor: moore_port_icsoft_2022
+      title: "Needles in a Haystack: Using PORT to Catch Bad Behaviors within Application Recordings"
+      authors:
+        - name: "P. Moore, T. Wies, M. Waldman, P. Frankl, J. Cappos"
+      project: *crashsimulator
+      booktitle: "2022 International Conference on Software Technologies (ICSOFT 2022)"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/papers/moore_port_icsoft_2022.pdf"
+      abstract: "Earlier work has proven that information extracted from recordings of an application’s activity can be tremendously valuable. However, given the many requests that pass between applications and external entities, it has been difficult to isolate the handful of patterns that indicate the potential for failure. In this paper, we propose a method that harnesses proven event processing techniques to find those problematic patterns. The key addi- tion is PORT, a new domain specific language which, when combined with its event stream recognition and transformation engine, enables users to extract patterns in system call recordings and other streams, and then rewrite input activity on the fly. The former task can spot activity that indicates a bug, while the latter produces a modified stream for use in more active testing. We evaluated PORT’s capabilities in several ways, starting with recreating the mutators and checkers utilized by an earlier work called SEA to modify and replay the results of system calls. Our re-implementations achieved the same efficacy using fewer lines of code. We also illustrated PORT’s extensibility by adding support for detecting malicious USB commands within recorded traffic."
+
+    - &moore_shuffle_ccsne_2022
+      anchor: moore_shuffle_ccsne_2022
+      title: "Cybersecurity Shuffle: Using Card Magic to Teach Introductory Cybersecurity Topics"
+      authors:
+        - name: "P. Moore, J. Cappos"
+      project: *crashsimulator
+      booktitle: "2022 Consortium for Computer Science Education Northeast (CCSNE 2022)"
+      year: ""
+      pages: ""
+      publisher: ""
+      link: "/papers/moore_shuffle_ccsne_2022.pdf"
+      abstract: "One of the main challenges in designing lessons for an introductory information security class is how to present new technical concepts in a manner comprehensible to students with widely different backgrounds. A non-traditional approach can help students engage with the material and master these unfamiliar ideas. We have devised a series of lessons that teach important information security topics, such as social engineering, side-channel attacks, and attacks on randomness using card magic. Each lesson centers around a card trick that allows the instructor to simulate the described attack in a way that makes sense, even for those who have no prior technical background. In this paper, we describe our experience using these lessons to teach cybersecurity topics to high school students with limited computer science knowledge. Students were assessed be- fore and after the demonstration to gauge their mastery of the material, and, while we had a very limited set of responses, the results show an improvement on post-test scores. Furthermore, several indicators affirm the students enjoyed the lessons and remained engaged throughout the session." 
+      
     - &gopstein_thinking_fse20
       anchor: gopstein_thinking_fse20
       title: "Thinking Aloud About Confusing Code: A Qualitative Investigation of Program Comprehension and Atoms of Confusion"
