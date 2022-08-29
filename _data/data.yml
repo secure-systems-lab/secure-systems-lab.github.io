@@ -317,9 +317,9 @@ people:
           publications:
          
             - name: "ICSOFT 2022"
-              link: "http://ssl.engineering.nyu.edu/papers/port_icsoft_2022.pdf"
+              link: "http://ssl.engineering.nyu.edu/papers/moore_port_icsoft_2022.pdf"
             - name: "CCSCNE 2022"
-              link: "http://ssl.engineering.nyu.edu/papers/shuffle_ccsne_2022.pdf" 
+              link: "http://ssl.engineering.nyu.edu/papers/moore_shuffle_ccsne_2022.pdf" 
             - name: "ISSRE 2019"
               link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
       - &dan_gopstein
@@ -647,15 +647,7 @@ people:
           - *devansh_patel
           - *caglar_dogan
           - *athena_hernandez
-          - *cindy_kim
-          - *kristel_fung
           - *yuanrui_chen
-          - *isha_dave
-          - *almazhan_kapan
-          - *hugo_yin
-          - *kaitlyn_liu
-          - *benjamin_wu
-          - *ge_yang     
           - *pinhan_zhao
           
       - type: "Visiting Scholars"
