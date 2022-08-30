@@ -762,7 +762,6 @@ projects:
             - *marina_moore
             - *trishank_kuppusamy
             - *vlad_diaz
-            - *cindy_kim
             - *athena_hernandez
             - *lukas_puhringer
             - *justin_cappos
@@ -841,10 +840,6 @@ projects:
             - *lukas_puhringer
             - *aditya_sirish
             - *yuanrui_chen
-            - *isha_dave
-            - *kristel_fung
-            - *cindy_kim
-            - *benjamin_wu
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
@@ -909,7 +904,6 @@ projects:
         people:
             - *jack_cook
             - *ghada_almashaqbeh
-            - *ge_yang
             - *raghav_sai
             - name: "Allison Bishop Lewko"
               link: "http://www.cs.columbia.edu/~allison"
@@ -962,8 +956,6 @@ projects:
         people:
             - *preston_moore
             - *justin_cappos
-            - *hugo_yin
-            - *almazhan_kapan
             - name: "Phyllis Frankl"
               link: "http://engineering.nyu.edu/people/phyllis-frankl"
             - name: "Thomas Wies"
@@ -2794,6 +2786,8 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *moore_port_icsoft_2022
+        - *moore_shuffle_ccsne_2022
         - *gopstein_thinking_fse20
         - *almashaqbeh_microcash_fc20
         - *moore_crashsim_issre_19
