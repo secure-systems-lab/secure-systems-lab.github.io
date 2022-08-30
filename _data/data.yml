@@ -2786,6 +2786,8 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *moore_port_icsoft_2022
+        - *moore_shuffle_ccsne_2022
         - *gopstein_thinking_fse20
         - *almashaqbeh_microcash_fc20
         - *moore_crashsim_issre_19
