@@ -21,6 +21,10 @@ Scudo brings to the solution of supply chain insecurity two established open sou
 
 The whitepaper offers a very high-level conceptual design of how Scudo works (see diagram). A supply chain orchestrator signs the image to be uploaded, and its associated in-toto metadata, and maps the relevant metadata to a corresponding layout. As the name implies, the layout defines the steps of a software supply chain that must be carried out in order to write, test, package and distribute your software. Put simply, the metadata says what was done while the layout states what was supposed to be done. Agreement between the two indicates the client is receiving a secure copy of the requested software. 
 
+<img align="center" src="/img/blog/scudo_figure_1.jpg" style="margin: 0px 20px"/>
+
+**Figure 1:** *Scudo modifies the standard Uptane structure by introducing in-toto metadata into one of the repositories. In this example, we have assumed in-toto metadata is stored alongside the images in the Image repository.*
+
 Scudo is built on a solution successfully implemented by [Datadog](https://www.datadoghq.com/) that uses both in-toto and [The Update Framework (TUF)](https://theupdateframework.io/), Uptane’s parent framework. The Datadog solution is used to secure hundreds of integrations for its Agent—a product that collects metrics for analysis of host machines. (You can read about this in-toto/TUF collaboration in a [Datadog blog](https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/), which was written by Scudo team member [Trishank Karthik Kuppusamy](https://www.linkedin.com/in/trishank-karthik-kuppusamy/). The specification was also submitted and approved as an [in-toto enhancement (ITE)](https://github.com/in-toto/ITE/blob/master/ITE/2/README.adoc),
 and serves as guidance for implementing compromise-resilient continuous integration/continuous pipelines). 
 
