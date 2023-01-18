@@ -669,12 +669,10 @@ people:
       - type: "Other Students"
         anchor: otherstudents
         people:
-          - *yuchen_zhang
           - *staford_titus
           - *jonathan_singer
           - *devansh_patel
           - *caglar_dogan
-          - *athena_hernandez
           - *yuanrui_chen
           - *pinhan_zhao
           
@@ -682,6 +680,7 @@ people:
         anchor: visitingscholars
         people:
           - *sumana_harihareswara
+          - *yuchen_zhang
 
       - type: Alumni
         anchor: alumni
