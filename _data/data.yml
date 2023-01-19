@@ -616,7 +616,35 @@ people:
             interests: "Cybersecurity, privacy, software development, computer networks"
             publications:
               - name: "Netdev 0x15"
-                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"  
+                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"
+
+      - &prasant_adhikari
+            name: "Prasant Adhikari"
+            anchor: prasant_adhikari
+            internal: true
+            role: "Ph.D. Candidate"
+            since: 2023
+            photo: "img/people/prasant-adhikari.jpg"
+            interests: "Software and network security"
+           
+      - &yuchen_zhang
+            name: "Yuchen (Dennis) Zhang"
+            anchor: yuchen_zhang
+            internal: true
+            role: "Post-doctoral researcher"
+            since: 2023
+            photo: "img/people/yuchen_zhang.jpg"
+            interests: "Fuzz testing, static analysis, system and software security, Rust language analysis and security"
+            publications:
+              - name: "ASE 2022"
+                link: "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494"
+              - name: "USENIX Security 2022"
+                link: "https://www.usenix.org/system/files/sec22-zhang-yuchen.pdf"
+              - name: "NDSS 2022"
+                link: "https://arxiv.org/pdf/2203.06834.pdf"
+              - name: "SecureCom 2021"
+                link: "https://arxiv.org/pdf/2109.08635.pdf"
+
     
     people_cards:
       - type: "Faculty"
@@ -636,6 +664,7 @@ people:
           - *marina_moore
           - *nick_renner
           - *aditya_sirish
+          - *prasant_adhikari
           
       - type: "Other Students"
         anchor: otherstudents
@@ -644,7 +673,6 @@ people:
           - *jonathan_singer
           - *devansh_patel
           - *caglar_dogan
-          - *athena_hernandez
           - *yuanrui_chen
           - *pinhan_zhao
           
@@ -652,6 +680,7 @@ people:
         anchor: visitingscholars
         people:
           - *sumana_harihareswara
+          - *yuchen_zhang
 
       - type: Alumni
         anchor: alumni
