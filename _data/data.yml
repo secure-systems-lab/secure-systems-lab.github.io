@@ -41,7 +41,7 @@ people:
           name: "Albert Rafetseder"
           anchor: "albert_rafetseder"
           internal: true
-          role: "Research Professor"
+          role: "Research Professor, now affiliated with Research Group Cooperative Systems at the University of Vienna"
           since: "2011"
           photo: "img/people/albert_rafetseder.jpg"
           interests: "Building experimental platforms for research, education, and the general public"
@@ -672,7 +672,6 @@ people:
           - *staford_titus
           - *jonathan_singer
           - *devansh_patel
-          - *caglar_dogan
           - *yuanrui_chen
           - *pinhan_zhao
           
@@ -695,11 +694,8 @@ people:
           - *yanyan_zhuang
           - *albert_rafetseder
           - *vlad_diaz       
-          - *sam_weber
           - *luqin_wang
           - *sai_peddinti
-          - *artiom_baloian
-          - *joey_pabalinas
 
 projects:
     statuses:
@@ -789,7 +785,6 @@ projects:
             - *marina_moore
             - *trishank_kuppusamy
             - *vlad_diaz
-            - *athena_hernandez
             - *lukas_puhringer
             - *justin_cappos
         tags:
@@ -929,7 +924,6 @@ projects:
         products: "We are in stealth mode! If you want to be contacted when we
     publicly release, please send an email to <a href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
         people:
-            - *jack_cook
             - *ghada_almashaqbeh
             - *raghav_sai
             - name: "Allison Bishop Lewko"
@@ -960,8 +954,6 @@ projects:
         people:
             - *nick_renner
             - *jonathan_singer
-            - *kaitlyn_liu
-            - *caglar_dogan
             - *devansh_patel
             - *yiwen_li
             - *justin_cappos
