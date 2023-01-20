@@ -29,7 +29,6 @@ person:
     since: any(int(min=2010,max=2025), str())
     interests: str()
     photo: str()
-    interests: str()
     publications: list(include('person_publication'), required=False)
     deployments: str(required=False)
 
@@ -59,6 +58,7 @@ proj_person:
 
 status:
     name: str()
+    tag: str()
     description: str()
 
 tag:
