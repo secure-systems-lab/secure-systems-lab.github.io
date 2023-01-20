@@ -701,15 +701,19 @@ projects:
     statuses:
     - &stealth
         name: "Stealth Mode"
+        tag: "stealth"
         description: "Shhhh.  We're still figuring things out internally."
     - &starting
         name: <span style="color:green">Sprouting</span>
+        tag: "sprouting"
         description: "We're ready for use.  Early adopters wanted!"
     - &adopted
         name: <span style="color:gold">Adopted</span>
+        tag: "adopted"
         description: "Many people are using this.  Join them!"
     - &retired
         name: <span style="color:silver">Retired</span>
+        tag: "retired"
         description: "We learned what we can and are not actively developing anymore."
 
     tags:
@@ -744,10 +748,10 @@ projects:
         name: "Testing Tools"
         anchor: testing_tools
 
-    intro: "Though all of SSL’s research initiatives—past and present—revolve
-    around ensuring secure operation of computer systems, the specific areas
-    addressed by the team vary greatly. Initiatives are grouped into
-    the following categories:"
+    intro: "Though all of SSL’s research initiatives—<a href='retired-projects'>past</a>
+    and <a href='projects'>present</a>—revolve around ensuring secure operation
+    of computer systems, the specific areas addressed by the team vary greatly.
+    Initiatives are grouped into the following categories:"
 
     projects:
     - &tuf

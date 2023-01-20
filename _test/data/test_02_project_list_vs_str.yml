@@ -26,6 +26,7 @@ projects:
     statuses:
     - &stealth
         name: "Stealth Mode"
+        tag: "stealth"
         description: "Shhhh.  We're still figuring things out internally."
 
     tags:

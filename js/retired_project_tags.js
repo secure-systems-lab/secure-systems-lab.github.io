@@ -5,7 +5,7 @@
 
 // Populate a master hash with the mapping of tag_name=>project_name
 {% for project in site.data.data.projects.project_cards %}
-  {% if project.status.tag == "retired" %}
+  {% if project.status.tag != "retired" %}
     {% continue %}
   {% endif %}
    {% for tag in project.tags %}
