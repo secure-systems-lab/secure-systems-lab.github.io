@@ -748,10 +748,10 @@ projects:
         name: "Testing Tools"
         anchor: testing_tools
 
-    intro: "Though all of SSL’s research initiatives—past and present—revolve
-    around ensuring secure operation of computer systems, the specific areas
-    addressed by the team vary greatly. Initiatives are grouped into
-    the following categories:"
+    intro: "Though all of SSL’s research initiatives—<a href='retired-projects'>past</a>
+    and <a href='projects'>present</a>—revolve around ensuring secure operation
+    of computer systems, the specific areas addressed by the team vary greatly.
+    Initiatives are grouped into the following categories:"
 
     projects:
     - &tuf
