@@ -7,7 +7,7 @@ comments: true
 tagline: ""
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
-  - '<a href="/projects#crashsimulator">CrashSimulator</a>'
+  - '<a href="/retired-projects#crashsimulator">CrashSimulator</a>'
 
 ---
 

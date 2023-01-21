@@ -50,9 +50,13 @@ layout: default
             {% for proj_person in project.people %}
                 {% if proj_person.name == person.name %}
                   {% capture pubLink %}
-                    {% if project.anchor %}
+                  {% if project.anchor %}
+                    {% if project.status.tag == "retired" %}
+                      <a href="retired-projects#{{ project.anchor }}">
+                    {% else %}
                       <a href="projects#{{ project.anchor }}">
                     {% endif %}
+                  {% endif %}
                     {{ project.name}}
                     {% if project.anchor %}
                       </a>

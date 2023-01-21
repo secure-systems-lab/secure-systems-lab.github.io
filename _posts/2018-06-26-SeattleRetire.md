@@ -9,8 +9,8 @@ in a Python based sandbox called Repy, intended for use in a new peer-to-peer
 cloud environment.  This started...'
 author: '<a href="/people#justin_cappos">Justin Cappos</a>'
 categories:
-  - '<a href="/projects#seattle">Seattle</a>'
-  - '<a href="/projects#sensibility">Sensibility</a>'
+  - '<a href="/retired-projects#seattle">Seattle</a>'
+  - '<a href="/retired-projects#sensibility">Sensibility</a>'
 ---
 
 Ten years ago, I (Justin Cappos) wrote the first few lines of code in a Python

@@ -8,7 +8,7 @@ Justin Cappos, and four of their students introduced a new diagnostic tool
 called..."
 author: '<a href="/people#justin_cappos">Justin Cappos</a>'
 categories:
-  - '<a href="/projects#netcheck">NetCheck</a>'
+  - '<a href="/retired-projects#netcheck">NetCheck</a>'
 
 ---
 In 2014, Eleni Gessiou, <a href="/people#yanyan_zhuang">Yanyan Zhuang</a>,

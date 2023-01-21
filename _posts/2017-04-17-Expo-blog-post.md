@@ -8,7 +8,7 @@ showcase where students and faculty alike can share their current research
 activities with the greater academic..."
 author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
-  - '<a href="/projects#pph">PolyPasswordHasher</a> and '
+  - '<a href="/retired-projects#pph">PolyPasswordHasher</a> and '
   - '<a href="/projects#CrashSimulator">CrashSimulator</a>'
 ---  
 

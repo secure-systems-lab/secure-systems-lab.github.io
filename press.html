@@ -20,7 +20,7 @@ layout: default
     {% if press.projects %}
       {% assign pressProjects = '' | split:':' %}
       {% for project in press.projects %}
-        {% capture projectLink %}{% if project.anchor %}<a href="projects#{{ project.anchor }}">{{ project.name }}</a>{% endif %}{% endcapture %}
+        {% capture projectLink %}{% if project.anchor %}{% if project.status.tag == "retired" %}<a href="retired-projects#{{ project.anchor }}">{% else %}<a href="projects#{{ project.anchor }}">{% endif %}{{ project.name }}</a>{% endif %}{% endcapture %}
         {% assign pressProjects = pressProjects | push: projectLink %}
       {% endfor %}
       <span class="project">
