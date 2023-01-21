@@ -54,7 +54,9 @@ layout: default
       </div>
     {% endif %}
 
+    {% if project.image %}
     <img class="image" src="{{ project.image }}"></img>
+    {% endif %}
 
     <div class="description"><p>
       {{ project.description }}

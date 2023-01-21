@@ -1043,7 +1043,6 @@ projects:
     - &sensibility
         name: "Sensibility Testbed"
         anchor: "sensibility"
-        image: "img/projects/"
         status: *retired
         site: "https://sensibilitytestbed.com/"
         description: "Given the close proximity of smartphones to users,
