@@ -44,7 +44,7 @@ people_card:
 project:
     name: str()
     anchor: str()
-    image: str()
+    image: str(required=False)
     site: str(required=False)
     status: include('status')
     description: str()
