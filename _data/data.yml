@@ -671,6 +671,8 @@ people:
         people:
           - *staford_titus
           - *jonathan_singer
+          - *justin_koe
+          - *tristan_brigham
           - *devansh_patel
           - *yuanrui_chen
           - *pinhan_zhao
@@ -959,6 +961,8 @@ projects:
             - *nick_renner
             - *jonathan_singer
             - *devansh_patel
+            - *justin_koe
+            - *tristan_brigham
             - *yiwen_li
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
