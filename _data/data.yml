@@ -626,7 +626,7 @@ people:
             since: 2023
             photo: "img/people/prasant-adhikari.jpg"
             interests: "Software and network security"
-           
+
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
             anchor: yuchen_zhang
@@ -645,7 +645,25 @@ people:
               - name: "SecureCom 2021"
                 link: "https://arxiv.org/pdf/2109.08635.pdf"
 
-    
+      - &justin_koe
+            name: "Justin Koe"
+            anchor: justin_koe
+            internal: true
+            role: "Undergraduate Student"
+            since: 2023
+            photo: "img/people/justin_koe.jpg"
+            interests: "Systems security, operating systems"
+
+      - &tristan_brigham
+            name: "Tristan Brigham"
+            anchor: tristan_brigham
+            internal: true
+            role: "Master's Student"
+            since: 2023
+            photo: "img/people/tristan_brigham.jpg"
+            interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
+
+
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -671,6 +689,8 @@ people:
         people:
           - *staford_titus
           - *jonathan_singer
+          - *justin_koe
+          - *tristan_brigham
           - *devansh_patel
           - *yuanrui_chen
           - *pinhan_zhao
@@ -959,6 +979,8 @@ projects:
             - *nick_renner
             - *jonathan_singer
             - *devansh_patel
+            - *justin_koe
+            - *tristan_brigham
             - *yiwen_li
             - *justin_cappos
             - name: "Brendan Dolan-Gavitt"
