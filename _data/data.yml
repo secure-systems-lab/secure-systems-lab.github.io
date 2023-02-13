@@ -658,7 +658,7 @@ people:
             name: "Tristan Brigham"
             anchor: tristan_brigham
             internal: true
-            role: "Master's Student"
+            role: "Undergraduate Student"
             since: 2023
             photo: "img/people/tristan_brigham.jpg"
             interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
