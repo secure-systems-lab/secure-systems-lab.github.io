@@ -1209,7 +1209,6 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
-  #
 
    - &moore_artemis_2023
       anchor: moore_artemis_2023
@@ -1217,8 +1216,7 @@ publications:
       authors:
         - name: "M. Moore, T. Kuppusamy, J. Cappos"
       project: *tuf
-      booktitle: "2023 Annual Computer Security Applications Conference (ACSAC 2023)[Artifact
-Functional]   [Artifact Reusable]   [Results Reproduced]"
+      booktitle: "2023 Annual Computer Security Applications Conference (ACSAC 2023)[Artifact Functional]   [Artifact Reusable]   [Results Reproduced]"
       year: "2023"
       pages: ""
       publisher: ""
