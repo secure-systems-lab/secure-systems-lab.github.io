@@ -1215,7 +1215,7 @@ publications:
       anchor: moore_artemis_2023
       title: "Artemis: Defanging Software Supply Chain Attacks in Multi-repository Update Systems"
       authors:
-        -name: "M. Moore, T. Kuppusamy, J. Cappos"
+        - name: "M. Moore, T. Kuppusamy, J. Cappos"
       project: *tuf
       booktitle: "2023 Annual Computer Security Applications Conference (ACSAC 2023)[Artifact
 Functional]   [Artifact Reusable]   [Results Reproduced]"
