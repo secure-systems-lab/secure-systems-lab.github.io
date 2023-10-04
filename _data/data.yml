@@ -15,6 +15,8 @@ people:
           photo: "img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "ACSAC 2023"
+              link: "/paper/moore_artemis_2023.pdf"
             - name: "USENIX Security 2019"
               link: "/papers/torres-toto-usenix19.pdf"
             - name: "AsiaCCS 2018"
@@ -384,6 +386,8 @@ people:
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
           publications:      
+            - name: "ACSAC 2023"
+              link: "/papers/moore_artemis_2023.pdf"
             - name: "ESCAR USA 2020 Special Issue"
               link: "/papers/moore_pouf_2020.pdf"
 
@@ -2844,6 +2848,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *moore_artemis_2023
         - *moore_port_icsoft_2022
         - *moore_shuffle_ccsne_2022
         - *gopstein_thinking_fse20
