@@ -900,6 +900,23 @@ projects:
             - *software_updates
             - *security
 
+    - &gittuf
+        name: "gittuf"
+        anchor: "gittuf"
+        status: *starting
+        site: "https://gittuf.github.io"
+        description: "gittuf provides a security layer for Git using some concepts introduced by The Update Framework (TUF). Among other features, gittuf handles key management for all developers on the repository, allows you to set permissions for repository branches, tags, files, etc., lets you use new cryptographic algorithms (SHA256, etc.), protects against other attacks Git is vulnerable to, and more — all while being backwards compatible with GitHub, GitLab, etc."
+        products: "gittuf is a Open Source Security Foundation (OpenSSF) sandbox project as part of the Supply Chain Integrity Working Group."
+        people:
+            - *aditya_sirish
+            - name: "Billy Lynch (Chainguard)"
+              link: "https://github.com/wlynch"
+            - name: "Reza Curtmola (NJIT)"
+              link: "https://cs.njit.edu/people/curtmola/"
+            - *justin_cappos
+        tags:
+            - *security
+
     - &atoms
         name: "Atoms of Confusion"
         anchor: "atoms"
@@ -1193,6 +1210,7 @@ projects:
     - *tuf
     - *uptane
     - *in-toto
+    - *gittuf
     - *cachecash
     - *lind
     - *atoms
