@@ -984,7 +984,7 @@ projects:
         name: "Lind"
         anchor: "lind"
         image: "img/projects/lind_diagram.jpg"
-        status: *stealth
+        status: *starting
         site:
         description: "Despite the best efforts of developers most operating system
     kernels contain flaws, and strategies to defend against triggering them
