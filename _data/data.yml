@@ -954,7 +954,7 @@ projects:
         anchor: "cachecash"
         image: "img/projects/cachecash_diagram.png"
         site:
-        status: *stealth
+        status: *retired
         description: "Delivery of large chunks of content, such as video, accounts for a
     substantial percentage of all Internet traffic.  This content is usually
     served by provider networks that contract with Internet Service Providers.
