@@ -1,10 +1,10 @@
 ---
 layout: article
-title: Uptane Website 2.0: Project “Front Door” Gets a Much Needed Upgrade
+title: "Uptane Website 2.0: Project “Front Door” Gets a Much Needed Upgrade"
 subnav: blog
 comments: true
 tagline: "In less than a decade, the Uptane secure software update project has made a significant impact, not only on the automotive world for which it was conceived, but increasingly on other industrial sectors where updates are routinely received over the air."
-author: '<a href="/people#lois_delong">Lois Anne DeLong</a>
+author: '<a href="/people#lois_delong">Lois Anne DeLong</a>'
 categories:
   - '<a href="/projects#uptane">Uptane</a>'
 ---
