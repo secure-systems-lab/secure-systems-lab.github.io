@@ -917,6 +917,24 @@ projects:
         tags:
             - *security
 
+    - &taf
+        name: "The Archive Framework (TAF)"
+        anchor: "taf"
+        status: *starting
+        site:
+        description: "Built on top of The Update Framework (TUF), TAF leverages TUF's security capabilities to protect Git repositories and provide archival authentication. Primarily applied in the legal field, it aims to enable government institutions to secure their entire legal supply chain and meet the standards for authentication and preservation set forth in The Uniform Electronic Legal Materials Act. Additionally, a key objective of TAF is to ensure that documents stored in Git repositories remain accessible and verifiable, not just in the immediate future, but for decades and even centuries to come."
+        products: "TAF is already being used by several governments, including the District of Columbia, to secure their laws, and by two libraries, including the University of Wisconsin Law Library. The D.C. law library, secured with TAF, is publically accessible on <a href=\"https://github.com/DCCouncil\">GitHub</a>."
+        people:
+            - name: "Renata Vaderna (Open Law Library)"
+              link: "https://github.com/renatav"
+            - name: "Dusan Nikolic (Open Law Library)"
+              link: "https://github.com/n-dusan"
+            - name: "David Greisen (Open Law Library)"
+              link: "https://github.com/dgreisen"
+            - *justin_cappos
+        tags:
+            - *security
+
     - &atoms
         name: "Atoms of Confusion"
         anchor: "atoms"
@@ -1211,6 +1229,7 @@ projects:
     - *uptane
     - *in-toto
     - *gittuf
+    - *taf
     - *cachecash
     - *lind
     - *atoms
