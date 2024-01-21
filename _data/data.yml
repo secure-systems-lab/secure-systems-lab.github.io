@@ -903,10 +903,11 @@ projects:
     - &gittuf
         name: "gittuf"
         anchor: "gittuf"
+        image: "img/projects/gittuf.png"
         status: *starting
         site: "https://gittuf.github.io"
         description: "gittuf provides a security layer for Git using some concepts introduced by The Update Framework (TUF). Among other features, gittuf handles key management for all developers on the repository, allows you to set permissions for repository branches, tags, files, etc., lets you use new cryptographic algorithms (SHA256, etc.), protects against other attacks Git is vulnerable to, and more — all while being backwards compatible with GitHub, GitLab, etc."
-        products: "gittuf is a Open Source Security Foundation (OpenSSF) sandbox project as part of the Supply Chain Integrity Working Group."
+        products: "gittuf is an Open Source Security Foundation (OpenSSF) sandbox project as part of the Supply Chain Integrity Working Group."
         people:
             - *aditya_sirish
             - name: "Billy Lynch (Chainguard)"
@@ -2964,6 +2965,15 @@ press:
   intro: "Selected mentions about our research in the press"
 
   presses:
+
+    - title: "Introducing gittuf: A Security Layer for Git Repositories"
+      link: "https://openssf.org/blog/2024/01/18/introducing-gittuf-a-security-layer-for-git-repositories/"
+      anchor: openssfgittuf
+      type: article
+      projects:
+        - *gittuf
+      source: "Open Source Security Foundation"
+      date: "January 18, 2024"
 
     - title: "Securing Automotive Over-the-Air Software Updates"
       link: "https://www.renesas.com/us/en/blogs/securing-automotive-over-air-software-updates"
