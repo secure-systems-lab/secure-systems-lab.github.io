@@ -666,6 +666,15 @@ people:
             since: 2023
             photo: "img/people/tristan_brigham.jpg"
             interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
+            
+      - &neil_naveen
+            name: "Neil Naveen"
+            anchor: neil_naveen
+            internal: true 
+            role: "High School Student"
+            since: 2024
+            photo: "img/people/neil_naveen.jpg"
+            interests: "Security and algorithms"
 
 
     people_cards:
@@ -698,6 +707,7 @@ people:
           - *devansh_patel
           - *yuanrui_chen
           - *pinhan_zhao
+          - *neil_naveen
           
       - type: "Visiting Scholars"
         anchor: visitingscholars
@@ -912,6 +922,7 @@ projects:
             - *aditya_sirish
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
+            - *neil_naveen
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - *justin_cappos
