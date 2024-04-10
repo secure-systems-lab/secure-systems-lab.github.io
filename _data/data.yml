@@ -687,7 +687,6 @@ people:
         anchor: staff
         people:  
           - *lukas_puhringer
-          - *lois_delong
 
       - type: "PhD. Students"
         anchor: phd
@@ -718,6 +717,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *lois_delong
           - *preston_moore
           - *yiwen_li
           - *santiago_torres
