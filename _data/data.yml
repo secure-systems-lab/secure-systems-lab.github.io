@@ -676,6 +676,21 @@ people:
             photo: "img/people/neil_naveen.jpg"
             interests: "Security and algorithms"
 
+      - &renata_vaderna
+            name: "Renata Vaderna"
+            anchor: renata_vaderna
+            internal: true
+            role: "Post-doctoral researcher"
+            since: 2024
+            photo: "img/people/renata_vaderna.jpg"
+            interests: "Sofrware engineering, software security"
+            publications:
+              - name: "Scientific Programming 2018"
+                link: "https://www.hindawi.com/journals/sp/2018/7264060/"
+              - name: "Knowledge-Based Systems 2016"
+                link: "https://www.researchgate.net/publication/309705513_textX_A_Python_tool_for_Domain-Specific_Languages_Implementation"
+              - name: "Knowledge-Based Systems 2015"
+                link: https://www.researchgate.net/publication/287967078_Arpeggio_A_flexible_PEG_parser_for_Python
 
     people_cards:
       - type: "Faculty"
@@ -713,6 +728,7 @@ people:
         people:
           - *sumana_harihareswara
           - *yuchen_zhang
+          - *renata_vaderna
 
       - type: Alumni
         anchor: alumni
@@ -937,8 +953,7 @@ projects:
         description: "Built on top of The Update Framework (TUF), TAF leverages TUF's security capabilities to protect Git repositories and provide archival authentication. Primarily applied in the legal field, it aims to enable government institutions to secure their entire legal supply chain and meet the standards for authentication and preservation set forth in The Uniform Electronic Legal Materials Act. Additionally, a key objective of TAF is to ensure that documents stored in Git repositories remain accessible and verifiable, not just in the immediate future, but for decades and even centuries to come."
         products: "TAF is already being used by several governments, including the District of Columbia, to secure their laws, and by two libraries, including the University of Wisconsin Law Library. The D.C. law library, secured with TAF, is publically accessible on <a href=\"https://github.com/DCCouncil\">GitHub</a>."
         people:
-            - name: "Renata Vaderna (Open Law Library)"
-              link: "https://github.com/renatav"
+            - *renata_vaderna
             - name: "Dusan Nikolic (Open Law Library)"
               link: "https://github.com/n-dusan"
             - name: "David Greisen (Open Law Library)"
@@ -974,6 +989,7 @@ projects:
             - name: April Yu Yan (UCSD)
             - name: Martin Yeh (PSU)
               link: "http://martinyeh.com/"
+            - *renata_vaderna
             - *yanyan_zhuang
             - *justin_cappos
         tags:
