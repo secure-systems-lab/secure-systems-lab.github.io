@@ -61,7 +61,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thor (0.20.3)
     unicode-display_width (1.7.0)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -70,7 +70,7 @@ DEPENDENCIES
   jekyll (>= 3.6.3)
   jekyll-feed
   neat (>= 1.0.0)
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.16
