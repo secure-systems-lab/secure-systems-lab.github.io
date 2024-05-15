@@ -5,4 +5,8 @@ gem "neat", ">= 1.0.0"
 gem 'jekyll-feed'
 
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
+
+gem "pathutil", "~> 0.16.2"
+
+gem "json", "~> 2.7"
