@@ -3004,6 +3004,15 @@ press:
 
   presses:
 
+    - title: "Securing Git repositories with gittuf"
+      link: "https://lwn.net/Articles/972467/"
+      anchor: lwngittuf
+      type: article
+      projects:
+        - *gittuf
+      source: "LWN"
+      date: "May 8, 2024"
+
     - title: "Introducing gittuf: A Security Layer for Git Repositories"
       link: "https://openssf.org/blog/2024/01/18/introducing-gittuf-a-security-layer-for-git-repositories/"
       anchor: openssfgittuf
