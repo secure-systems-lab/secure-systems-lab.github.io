@@ -3010,7 +3010,7 @@ press:
       type: article
       projects:
         - *gittuf
-      source: "LWN"
+      source: "LWN.net"
       date: "May 8, 2024"
 
     - title: "Introducing gittuf: A Security Layer for Git Repositories"
