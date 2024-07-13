@@ -944,6 +944,16 @@ projects:
             - *justin_cappos
         tags:
             - *security
+    - &jot
+        name: "Just One Turtle"
+        anchor: "just-one-turtle"
+        status: *starting
+        description: "The 2020 SolarWinds attack highlighted severe supply chain risks in software development. The attackers compromised SolarWinds’ Orion software update process, leading to widespread and complex cyberattacks on numerous federal institutions and companies, including Microsoft. This incident underscores the urgent need for secure and isolated operational environments. The “Just One Turtle” plan aims to enhance software resilience by leveraging the Lind sandbox and Intel SGX to create highly secure computing environments for critical operations."
+        people:
+            - *yuchen_zhang
+            - *justin_cappos
+        tags:
+            - *security
 
     - &taf
         name: "The Archive Framework (TAF)"
@@ -1257,6 +1267,7 @@ projects:
     - *uptane
     - *in-toto
     - *gittuf
+    - *jot
     - *taf
     - *cachecash
     - *lind
@@ -2992,6 +3003,15 @@ press:
   intro: "Selected mentions about our research in the press"
 
   presses:
+
+    - title: "Securing Git repositories with gittuf"
+      link: "https://lwn.net/Articles/972467/"
+      anchor: lwngittuf
+      type: article
+      projects:
+        - *gittuf
+      source: "LWN.net"
+      date: "May 8, 2024"
 
     - title: "Introducing gittuf: A Security Layer for Git Repositories"
       link: "https://openssf.org/blog/2024/01/18/introducing-gittuf-a-security-layer-for-git-repositories/"
