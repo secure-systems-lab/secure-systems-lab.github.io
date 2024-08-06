@@ -1,5 +1,5 @@
 url: https://secure-systems-lab.github.io
-baseurl: https://secure-systems-lab.github.io
+baseurl: /
 permalink: /blog/:year-:month-:day-:title
 highlighter: rouge
 sass:
