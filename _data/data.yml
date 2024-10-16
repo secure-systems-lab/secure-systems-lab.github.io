@@ -692,6 +692,15 @@ people:
               - name: "Knowledge-Based Systems 2015"
                 link: https://www.researchgate.net/publication/287967078_Arpeggio_A_flexible_PEG_parser_for_Python
 
+      - &yaxuan_wen
+            name: "Yaxuan(Alice) Wen"
+            anchor: yaxuan_wen
+            internal: true
+            role: "Ph.D. Candidate"
+            since: 2024
+            photo: "img/people/yaxuan_wen.jpg"
+            interests: "System security, software security"
+
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -710,6 +719,7 @@ people:
           - *nick_renner
           - *aditya_sirish
           - *prasant_adhikari
+          - *yaxuan_wen
           
       - type: "Other Students"
         anchor: otherstudents
@@ -952,7 +962,7 @@ projects:
         description: "The 2020 SolarWinds attack highlighted severe supply chain risks in software development. The attackers compromised SolarWinds’ Orion software update process, leading to widespread and complex cyberattacks on numerous federal institutions and companies, including Microsoft. This incident underscores the urgent need for secure and isolated operational environments. The “Just One Turtle” plan aims to enhance software resilience by leveraging the Lind sandbox and Intel SGX to create highly secure computing environments for critical operations."
         products: ""
         people:
-            - name: "Yaxuan (Alice) Wen"
+            - *yaxuan_wen
             - *yuchen_zhang
             - name: "Marcela Melara (Intel)"
               link: "https://masomel.github.io/index.html"
@@ -1061,6 +1071,7 @@ projects:
     publicly release, please send an email to <a href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
         people:
             - *nick_renner
+            - *yaxuan_wen
             - *jonathan_singer
             - *devansh_patel
             - *justin_koe
