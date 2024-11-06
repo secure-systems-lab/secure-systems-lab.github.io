@@ -65,7 +65,7 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.7.6)
+    json (2.8.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -142,7 +142,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 3.6.3)
   jekyll-feed
-  json (~> 2.7)
+  json (~> 2.8)
   neat (>= 1.0.0)
   pathutil (~> 0.16.2)
   webrick (~> 1.9)
