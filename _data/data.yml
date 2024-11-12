@@ -701,6 +701,15 @@ people:
             photo: "img/people/yaxuan_wen.jpg"
             interests: "System security, software security"
 
+      - &patrick_zielinski
+            name: "Patrick Zielinski"
+            anchor: patrick_zielinski
+            internal: true
+            role: "Ph.D. Student"
+            since: 2024
+            photo: "img/people/patrick_zielinski.jpg"
+            interests: "Distributed systems, version control systems, and cryptography"
+
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -720,6 +729,7 @@ people:
           - *aditya_sirish
           - *prasant_adhikari
           - *yaxuan_wen
+          - *patrick_zielinski
           
       - type: "Other Students"
         anchor: otherstudents
@@ -946,6 +956,7 @@ projects:
         products: "gittuf is an Open Source Security Foundation (OpenSSF) sandbox project as part of the Supply Chain Integrity Working Group."
         people:
             - *aditya_sirish
+            - *patrick_zielinski
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
@@ -981,6 +992,7 @@ projects:
         products: "TAF is already being used by several governments, including the District of Columbia, to secure their laws, and by two libraries, including the University of Wisconsin Law Library. The D.C. law library, secured with TAF, is publically accessible on <a href=\"https://github.com/DCCouncil\">GitHub</a>."
         people:
             - *renata_vaderna
+            - *patrick_zielinski
             - name: "Dusan Nikolic (Open Law Library)"
               link: "https://github.com/n-dusan"
             - name: "David Greisen (Open Law Library)"
