@@ -1325,7 +1325,7 @@ publications:
       title: "CovSBOM: Enhancing Software Bill of Materials with Integrated Code Coverage Analysis"
       authors:
         - name: "Y. Zhao, Y. Zhang, D. Chacko, J. Cappos."
-      project: *tuf
+      project:
       booktitle: "The 35th IEEE International Symposium on Software Reliability Engineering (ISSRE 2023)"
       year: "2024"
       pages: ""
