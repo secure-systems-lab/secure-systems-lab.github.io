@@ -1320,6 +1320,19 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &covsbom_issre_2024
+      anchor: covsbom_issre_2024
+      title: "CovSBOM: Enhancing Software Bill of Materials with Integrated Code Coverage Analysis"
+      authors:
+        - name: "Y. Zhao, Y. Zhang, D. Chacko, J. Cappos."
+      project:
+      booktitle: "The 35th IEEE International Symposium on Software Reliability Engineering (ISSRE 2023)"
+      year: "2024"
+      pages: ""
+      publisher: ""
+      link: "/papers/covsbom_issre_2024.pdf"
+      abstract: "The widespread integration of open-source software into commercial codebases, government systems, and critical infrastructure presents significant security challenges, particularly due to the inclusion of vulnerable components. Software Bills of Materials (SBOMs) are crucial for tracking these components; however, they lack detailed insights into the actual utilization of each component, thereby limiting their effectiveness in vulnerability management. This paper introduces CovSBOM, a novel tool that integrates code coverage analysis into SBOMs to provide enhanced transparency and facilitate precise vulnerability detection. CovSBOM addresses the gap between current SBOM and security scanning tools by providing detailed insights into which parts of third-party libraries are actually being used, thereby reducing inefficiencies and the misallocation of developer resources caused by overemphasizing irrelevant vulnerabilities. Through a comprehensive evaluation of 23 large-scale applications, encompassing 1,614 dependencies and 145 vulnerability alerts, CovSBOM has demonstrated a significant reduction in false positives, accurately identifying 105 such instances. This improvement enhances the precision of vulnerability detection by approximately 72%, while effectively maintaining a reasonable level of scalability and usability."
+
     - &moore_artemis_2023
       anchor: moore_artemis_2023
       title: "Artemis: Defanging Software Supply Chain Attacks in Multi-repository Update Systems"
@@ -2954,6 +2967,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *covsbom_issre_2024
         - *moore_artemis_2023
         - *moore_port_icsoft_2022
         - *moore_shuffle_ccsne_2022
