@@ -1320,7 +1320,7 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
-   - &covsbom_issre_2024
+    - &covsbom_issre_2024
       anchor: covsbom_issre_2024
       title: "CovSBOM: Enhancing Software Bill of Materials with Integrated Code Coverage Analysis"
       authors:
