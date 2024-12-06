@@ -15,8 +15,10 @@ people:
           photo: "img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "NDSS 2025"
+              link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
             - name: "ACSAC 2023"
-              link: "/paper/moore_artemis_2023.pdf"
+              link: "/papers/moore_artemis_2023.pdf"
             - name: "USENIX Security 2019"
               link: "/papers/torres-toto-usenix19.pdf"
             - name: "AsiaCCS 2018"
@@ -386,6 +388,8 @@ people:
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
           publications:      
+            - name: "VehicleSec 2024"
+              link: "/papers/moore_scudo_vehiclesec_2024.pdf"
             - name: "ACSAC 2023"
               link: "/papers/moore_artemis_2023.pdf"
             - name: "ESCAR USA 2020 Special Issue"
@@ -413,7 +417,7 @@ people:
           deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
 
       - &aditya_sirish
-          name: "Aditya Sirish"
+          name: "Aditya Sirish A Yelgundhalli"
           anchor: aditya_sirish
           internal: true
           role: "Ph.D. Candidate"
@@ -421,6 +425,11 @@ people:
           photo: "img/people/aditya_sirish.jpg"
           site: "https://saky.in/"
           interests: "Internet privacy, systems security"
+          publications:      
+            - name: "NDSS 2025"
+              link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+            - name: "VehicleSec 2024"
+              link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
       - &sumana_harihareswara
           name: "Sumana Harihareswara"
@@ -709,6 +718,11 @@ people:
             since: 2024
             photo: "img/people/patrick_zielinski.jpg"
             interests: "Distributed systems, version control systems, and cryptography"
+            publications:
+              - name: "NDSS 2025"
+                link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+              - name: "ACSAC 2024"
+                link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
 
     people_cards:
       - type: "Faculty"
@@ -724,7 +738,6 @@ people:
       - type: "PhD. Students"
         anchor: phd
         people:         
-          - *marina_moore
           - *nick_renner
           - *aditya_sirish
           - *prasant_adhikari
@@ -753,6 +766,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *marina_moore
           - *lois_delong
           - *preston_moore
           - *yiwen_li
@@ -1319,6 +1333,51 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
+    - &yelgundhalli_gittuf_ndss_2025
+      anchor: yelgundhalli_gittuf_ndss_2025
+      title: "Rethinking Trust in Forge-Based Git Security"
+      authors:
+        - name: "A.S.A. Yelgundhalli, P. Zielinski, R. Curtmola, J. Cappos"
+      project: *gittuf
+      booktitle: "Network and Distributed System Security Symposium 2025 (NDSS 2025)"
+      year: "2025"
+      pages: ""
+      publisher: ""
+      link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+      abstract: "Git is the most popular version control system today, with Git forges such as GitHub, GitLab, and Bitbucket used to add functionality. Significantly, these forges are used to enforce security controls. However, due to the lack of an open protocol for ensuring a repository’s integrity, forges cannot prove themselves to be trustworthy, and have to carry the responsibility of being non-verifiable trusted third parties in modern software supply chains.
+
+In this paper, we present gittuf, a system that decentralizes Git security and enables every user to contribute to collectively enforcing the repository’s security. First, gittuf enables distributing of policy declaration and management responsibilities among more parties such that no single user is trusted entirely or unilaterally. Second, gittuf decentralizes the tracking of repository activity, ensuring that a single entity cannot manipulate repository events. Third, gittuf decentralizes policy enforcement by enabling all developers to independently verify the policy, eliminating the single point of trust placed in the forge as the only arbiter for whether a change in the repository is authorized. Thus, gittuf can provide strong security guarantees in the event of a compromise of the centralized forge, the underlying infrastructure, or a subset of privileged developers trusted to set policy. gittuf also implements policy features that can protect against unauthorized changes to branches and tags (i.e., pushes) as well as files/folders (i.e., commits). Our analysis of gittuf shows that its properties and policy features provide protections against previously seen version control system attacks. In addition, our evaluation of gittuf shows it is viable even for large repositories with a high volume of activity such as those of Git and Kubernetes (less than 4% storage overhead and under 0.59s of time to verify each push).
+
+Currently, gittuf is an OpenSSF sandbox project hosted by the Linux Foundation. gittuf is being used in projects hosted by the OpenSSF and the CNCF, and an enterprise pilot at Bloomberg is underway."
+
+    - &covsbom_issre_2024
+      anchor: covsbom_issre_2024
+      title: "CovSBOM: Enhancing Software Bill of Materials with Integrated Code Coverage Analysis"
+      authors:
+        - name: "Y. Zhao, Y. Zhang, D. Chacko, J. Cappos."
+      project:
+      booktitle: "The 35th IEEE International Symposium on Software Reliability Engineering (ISSRE 2024)"
+      year: "2024"
+      pages: ""
+      publisher: ""
+      link: "/papers/covsbom_issre_2024.pdf"
+      abstract: "The widespread integration of open-source software into commercial codebases, government systems, and critical infrastructure presents significant security challenges, particularly due to the inclusion of vulnerable components. Software Bills of Materials (SBOMs) are crucial for tracking these components; however, they lack detailed insights into the actual utilization of each component, thereby limiting their effectiveness in vulnerability management. This paper introduces CovSBOM, a novel tool that integrates code coverage analysis into SBOMs to provide enhanced transparency and facilitate precise vulnerability detection. CovSBOM addresses the gap between current SBOM and security scanning tools by providing detailed insights into which parts of third-party libraries are actually being used, thereby reducing inefficiencies and the misallocation of developer resources caused by overemphasizing irrelevant vulnerabilities. Through a comprehensive evaluation of 23 large-scale applications, encompassing 1,614 dependencies and 145 vulnerability alerts, CovSBOM has demonstrated a significant reduction in false positives, accurately identifying 105 such instances. This improvement enhances the precision of vulnerability detection by approximately 72%, while effectively maintaining a reasonable level of scalability and usability."
+
+    - &moore_scudo_vehiclesec_2024
+      anchor: moore_scudo_vehiclesec_2024
+      title: "Securing Automotive Software Supply Chains"
+      authors:
+        - name: "M. Moore, A.S.A. Yelgundhalli, J. Cappos"
+      project: *uptane
+      booktitle: "Symposium on Vehicles Security and Privacy (VehicleSec) 2024"
+      year: "2024"
+      pages: ""
+      publisher: ""
+      link: "/papers/moore_scudo_vehiclesec_2024.pdf"
+      abstract: "Software supply chain attacks are a major concern and need to be addressed by every organization, including automakers. While there are many effective technologies in both the software delivery and broader software supply chain security space, combining these technologies presents challenges specific to automotive applications. We explore the trust boundaries between the software supply chain and software delivery systems to determine where verification of software supply chain metadata should occur, how to establish a root of trust, and how supply chain policy can be distributed. Using this exploration, we design Scudo, a secure combination of software over the air and software supply chain security technologies. We show that adding full verification of software supply chain metadata on-vehicle is not only inefficient, but is also largely unnecessary for security with multiple points of repository-side verification.
+
+In addition, this paper describes a secure instantiation of Scudo, which integrates Uptane, a state of the art software update security solution, and in-toto, a comprehensive supply chain security framework. A practical deployment has shown that Scudo provides robust software supply chain protections. The client side power and processing costs are negligible, with the updated metadata comprising 0.504% of the total update transmission. The client side verification adds 0.21 seconds to the total update flow. This demonstrates that Scudo is easy to deploy in ways that can efficiently and effectively catch software supply chain attacks."
 
     - &moore_artemis_2023
       anchor: moore_artemis_2023
@@ -2954,6 +3013,8 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *yelgundhalli_gittuf_ndss_2025
+        - *covsbom_issre_2024
         - *moore_artemis_2023
         - *moore_port_icsoft_2022
         - *moore_shuffle_ccsne_2022
@@ -2997,6 +3058,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Workshop Papers
       anchor: workshop
       publications:
+        - *moore_scudo_vehiclesec_2024
         - *almashaqbeh_ABC_cryblock_19
         - *zhuang_sensibility_HotMobile_18
         - *cappos_nspw_2014
