@@ -12,8 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
-      with:
-        python-version: 3.8
       uses: actions/setup-python@v5
     - name: Install dependencies
       run: |
