@@ -721,6 +721,8 @@ people:
             publications:
               - name: "NDSS 2025"
                 link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+              - name: "ACSAC 2024"
+                link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
 
     people_cards:
       - type: "Faculty"
