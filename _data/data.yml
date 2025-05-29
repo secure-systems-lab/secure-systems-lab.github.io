@@ -967,7 +967,7 @@ projects:
         status: *starting
         site: "https://gittuf.github.io"
         description: "gittuf provides a security layer for Git using some concepts introduced by The Update Framework (TUF). Among other features, gittuf handles key management for all developers on the repository, allows you to set permissions for repository branches, tags, files, etc., lets you use new cryptographic algorithms (SHA256, etc.), protects against other attacks Git is vulnerable to, and more — all while being backwards compatible with GitHub, GitLab, etc."
-        products: "gittuf is an Open Source Security Foundation (OpenSSF) sandbox project as part of the Supply Chain Integrity Working Group."
+        products: "gittuf is an incubating project at the Open Source Security Foundation (OpenSSF) as part of the Supply Chain Integrity Working Group."
         people:
             - *aditya_sirish
             - *patrick_zielinski
