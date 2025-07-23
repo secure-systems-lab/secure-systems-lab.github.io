@@ -714,7 +714,7 @@ people:
             name: "Patrick Zielinski"
             anchor: patrick_zielinski
             internal: true
-            role: "Ph.D. Student"
+            role: "Ph.D. Candidate"
             since: 2024
             photo: "img/people/patrick_zielinski.jpg"
             interests: "Distributed systems, version control systems, and cryptography"
