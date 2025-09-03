@@ -705,8 +705,9 @@ people:
             name: "Yaxuan(Alice) Wen"
             anchor: yaxuan_wen
             internal: true
-            role: "Ph.D. Student"
+            role: "Ph.D. Candidate"
             since: 2024
+            site: "https://alicewyx.me"
             photo: "img/people/yaxuan_wen.jpg"
             interests: "System security, software security"
 
