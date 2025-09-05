@@ -733,10 +733,9 @@ people:
         people:
           - *justin_cappos
 
-      - type: "Staff"
-        anchor: staff
-        people:  
-          - *lukas_puhringer
+      # - type: "Staff"
+      #   anchor: staff
+      #   people:
 
       - type: "PhD. Students"
         anchor: phd
@@ -769,6 +768,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *lukas_puhringer
           - *marina_moore
           - *lois_delong
           - *preston_moore
