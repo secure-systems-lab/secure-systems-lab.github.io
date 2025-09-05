@@ -734,8 +734,7 @@ people:
 
       - type: "Staff"
         anchor: staff
-        people:  
-          - *lukas_puhringer
+        people:
 
       - type: "PhD. Students"
         anchor: phd
@@ -768,6 +767,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *lukas_puhringer
           - *marina_moore
           - *lois_delong
           - *preston_moore
