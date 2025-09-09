@@ -383,7 +383,7 @@ people:
           name: "Marina Moore"
           anchor: marina_moore
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2024"
           since: 2018
           photo: "img/people/marina_moore.jpg"
           interests: "Systems security, privacy"
@@ -420,7 +420,7 @@ people:
           name: "Aditya Sirish A Yelgundhalli"
           anchor: aditya_sirish
           internal: true
-          role: "Ph.D. Candidate"
+          role: "Ph.D. 2025"
           since: 2019
           photo: "img/people/aditya_sirish.jpg"
           site: "https://saky.in/"
@@ -741,7 +741,6 @@ people:
         anchor: phd
         people:         
           - *nick_renner
-          - *aditya_sirish
           - *prasant_adhikari
           - *yaxuan_wen
           - *patrick_zielinski
@@ -768,6 +767,7 @@ people:
       - type: Alumni
         anchor: alumni
         people:
+          - *aditya_sirish
           - *lukas_puhringer
           - *marina_moore
           - *lois_delong
