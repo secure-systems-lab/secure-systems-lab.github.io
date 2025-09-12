@@ -727,6 +727,15 @@ people:
               - name: "ACSAC 2024"
                 link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
 
+      - &yongjae_chung
+            name: "Yongjae Chung"
+            anchor: yongjae_chung
+            internal: true 
+            role: "Master's student"
+            since: 2024
+            photo: "img/people/yongjae_chung.jpg"
+            interests: "Systems security, machine learning"
+
     people_cards:
       - type: "Faculty"
         anchor: faculty
@@ -756,6 +765,7 @@ people:
           - *yuanrui_chen
           - *pinhan_zhao
           - *neil_naveen
+          - *yongjae_chung
           
       - type: "Visiting Scholars"
         anchor: visitingscholars
@@ -977,6 +987,7 @@ projects:
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
+            - *yongjae_chung
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - *justin_cappos
