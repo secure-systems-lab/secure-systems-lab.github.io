@@ -631,15 +631,6 @@ people:
               - name: "Netdev 0x15"
                 link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"
 
-      - &prasant_adhikari
-            name: "Prasant Adhikari"
-            anchor: prasant_adhikari
-            internal: true
-            role: "Ph.D. Candidate"
-            since: 2023
-            photo: "img/people/prasant-adhikari.jpg"
-            interests: "Software and network security"
-
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
             anchor: yuchen_zhang
