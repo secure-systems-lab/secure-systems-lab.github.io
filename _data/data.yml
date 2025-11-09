@@ -431,17 +431,6 @@ people:
             - name: "VehicleSec 2024"
               link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
-      - &sumana_harihareswara
-          name: "Sumana Harihareswara"
-          anchor: sumana_harihareswara
-          site: "https://www.changeset.nyc/"
-          internal: false
-          role: "Visiting scholar contracted with Python Software Foundation"
-          since: 2019
-          photo: "img/people/sumana_harihareswara.jpg"
-          interests: "Open source software maintainership, release management, Python dependency management, packaging and distribution"
-          deployments: Project manager for <a href="https://pip.pypa.io/">pip</a>, previously for <a href="https://pypi.org/">the Python Package Index (PyPI)</a> (<a href="https://lwn.net/Articles/751458/">LWN coverage</a>).
-
       - &ashish_das
           name: "Ashish Das"
           anchor: ashish_das
@@ -760,7 +749,6 @@ people:
       - type: "Visiting Scholars"
         anchor: visitingscholars
         people:
-          - *sumana_harihareswara
           - *yuchen_zhang
           - *renata_vaderna
 
