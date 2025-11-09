@@ -741,7 +741,6 @@ people:
         anchor: phd
         people:         
           - *nick_renner
-          - *prasant_adhikari
           - *yaxuan_wen
           - *patrick_zielinski
           
