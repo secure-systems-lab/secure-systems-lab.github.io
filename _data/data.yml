@@ -724,6 +724,18 @@ people:
             since: 2025
             photo: "img/people/ziyi_xu.jpg"
             interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
+        
+      - &aman_ns
+            name: "Aman N S"
+            anchor: aman_ns
+            internal: true 
+            role: "Master's student"
+            since: 2025
+            photo: "img/people/aman_ns.jpg"
+            interests: "Cybersecurity, Software Development, Algorithms"
+
+
+
             
       - &sanchit_sahay
             name: "Sanchit Sahay"
@@ -765,6 +777,7 @@ people:
           - *neil_naveen
           - *yongjae_chung
           - *ziyi_xu
+          - *aman_ns
           - *sanchit_sahay
 
       - type: "Visiting Scholars"
