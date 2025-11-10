@@ -431,6 +431,28 @@ people:
             - name: "VehicleSec 2024"
               link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
+      - &aaditya_rengarajan
+          name: "Aaditya Rengarajan"
+          anchor: aaditya_rengarajan
+          site: "https://aaditya.intellx.in/"
+          internal: true
+          role: "Master's student"
+          since: 2025
+          photo: "img/people/aadi.jpg"
+          interests: "Cybersecurity, Network Security, Cyber Threat Intelligence, Dark Web Monitoring, Privacy-Preserving Machine Learning, AI in Cybersecurity, Offensive Security, Malware Classification, Cloud Storage Security, Incident Response, Dynamic Policy Adjustment"
+          publications:
+            - name: "Enhancing the Resilience of Privacy-Preserving Machine Learning using Adversarial Techniques"
+              link: "https://doi.org/10.1109/ICDSCNC62492.2024.10939481"
+            - name: "FLARE: Federated Learning And Resilient Encryption for Firewalls"
+              link: "https://doi.org/10.1109/PuneCon63413.2024.10895282"
+            - name: "SHADOW: A framework for Systematic Heuristic Analysis and Detection of Observations on the Web"
+              link: "https://doi.org/10.1109/ICAMAC62387.2024.10828750" 
+            - name: "Enhancing Cybersecurity Resilience with CYBRANA: A Cyber YARA/YAML-Based Resilience Firewall Solution Applied with Next-Gen AI"
+              link: "https://doi.org/10.1109/CVMI61877.2024.10782249"  
+            - name: "Leveraging detection of Data Breaches by applying Snowball Sampling"
+              link: "https://psgcare.org/wp-content/uploads/2023/06/ICHPIC-Souvenir-with-ISBN.pdf#page=63"
+        
+     
       - &ashish_das
           name: "Ashish Das"
           anchor: ashish_das
