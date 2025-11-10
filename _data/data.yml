@@ -438,7 +438,7 @@ people:
           internal: true
           role: "Master's student"
           since: 2025
-          photo: "img/people/aadi.jpg"
+          photo: "img/people/aaditya_rengarajan.png"
           interests: "Cybersecurity, Network Security, Cyber Threat Intelligence, Dark Web Monitoring, Privacy-Preserving Machine Learning, AI in Cybersecurity, Offensive Security, Malware Classification, Cloud Storage Security, Incident Response, Dynamic Policy Adjustment"
           publications:
             - name: "Enhancing the Resilience of Privacy-Preserving Machine Learning using Adversarial Techniques"
