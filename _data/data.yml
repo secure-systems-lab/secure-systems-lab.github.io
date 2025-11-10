@@ -736,6 +736,16 @@ people:
 
 
 
+            
+      - &sanchit_sahay
+            name: "Sanchit Sahay"
+            anchor: sanchit_sahay
+            internal: true 
+            role: "Master's student"
+            since: 2025
+            photo: "img/people/sanchit_sahay.jpg"
+            interests: "Operating Systems, Systems Software"
+            site: "https://stupendoussuperpowers.github.io"
 
     people_cards:
       - type: "Faculty"
@@ -768,7 +778,8 @@ people:
           - *yongjae_chung
           - *ziyi_xu
           - *aman_ns
-          
+          - *sanchit_sahay
+
       - type: "Visiting Scholars"
         anchor: visitingscholars
         people:
@@ -969,6 +980,7 @@ projects:
             - name: "Hammad Afzali Nanize (NJIT)"
               link: "https://web.njit.edu/~ha285/"
             - name: "Sangat Vaidya (NJIT)"
+            - *sanchit_sahay
             - *justin_cappos
         tags:
             - *software_updates
@@ -1119,6 +1131,7 @@ projects:
             - *tristan_brigham
             - *yiwen_li
             - *justin_cappos
+            - *sanchit_sahay
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
