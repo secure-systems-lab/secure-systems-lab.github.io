@@ -715,15 +715,19 @@ people:
             since: 2024
             photo: "img/people/yongjae_chung.jpg"
             interests: "Systems security, machine learning"
-
-     - &ziyi_xu
+            
+      - &ziyi_xu
             name: "Ziyi Xu"
             anchor: ziyi_xu
-            internal: true
+            internal: true 
             role: "Master's student"
             since: 2025
             photo: "img/people/ziyi_xu.jpg"
             interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
+        
+  
+
+
 
 
     people_cards:
