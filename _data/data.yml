@@ -441,15 +441,15 @@ people:
           photo: "img/people/aaditya_rengarajan.png"
           interests: "Cybersecurity, Network Security, Cyber Threat Intelligence, Dark Web Monitoring, Privacy-Preserving Machine Learning, AI in Cybersecurity, Offensive Security, Malware Classification, Cloud Storage Security, Incident Response, Dynamic Policy Adjustment"
           publications:
-            - name: "Enhancing the Resilience of Privacy-Preserving Machine Learning using Adversarial Techniques"
+            - name: "ICDSCNC 2024"
               link: "https://doi.org/10.1109/ICDSCNC62492.2024.10939481"
-            - name: "FLARE: Federated Learning And Resilient Encryption for Firewalls"
+            - name: "PuneCon 2024"
               link: "https://doi.org/10.1109/PuneCon63413.2024.10895282"
-            - name: "SHADOW: A framework for Systematic Heuristic Analysis and Detection of Observations on the Web"
+            - name: "ICAMAC 2024"
               link: "https://doi.org/10.1109/ICAMAC62387.2024.10828750" 
-            - name: "Enhancing Cybersecurity Resilience with CYBRANA: A Cyber YARA/YAML-Based Resilience Firewall Solution Applied with Next-Gen AI"
+            - name: "CVMI 2024"
               link: "https://doi.org/10.1109/CVMI61877.2024.10782249"  
-            - name: "Leveraging detection of Data Breaches by applying Snowball Sampling"
+            - name: "ICHPIC 2023"
               link: "https://psgcare.org/wp-content/uploads/2023/06/ICHPIC-Souvenir-with-ISBN.pdf#page=63"
         
      
