@@ -451,8 +451,19 @@ people:
               link: "https://doi.org/10.1109/CVMI61877.2024.10782249"  
             - name: "ICHPIC 2023"
               link: "https://psgcare.org/wp-content/uploads/2023/06/ICHPIC-Souvenir-with-ISBN.pdf#page=63"
-        
-     
+      
+      - &naman_badlani
+          name: "Naman Badlani"
+          anchor: naman_badlani
+          internal: true
+          role: "Master's student"
+          since: 2025
+          photo: "img/people/naman_badlani.jpg"
+          interests: "Cybersecurity, Vulnerability Assessment, Penetration Testing, Kernel Security, Privilege Escalation, LLM Security, Deepfake Audio Classification, Machine Learning, Computer Networks"
+          publications:
+            - name: "ICCES 2024"
+              link: "https://ieeexplore.ieee.org/document/10859322"
+
       - &ashish_das
           name: "Ashish Das"
           anchor: ashish_das
@@ -802,6 +813,7 @@ people:
           - *aman_ns
           - *sanchit_sahay
           - *aaditya_rengarajan
+          - *naman_badlani
 
       - type: "Visiting Scholars"
         anchor: visitingscholars
