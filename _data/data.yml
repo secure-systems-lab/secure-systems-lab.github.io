@@ -7,8 +7,7 @@ people:
       - &justin_cappos
           name: "Justin Cappos"
           anchor: justin_cappos
-          link: "/personalpages/jcappos"
-          site: "personalpages/jcappos/"
+          site: "https://ssl.engineering.nyu.edu/personalpages/jcappos/"
           internal: true
           role: "Professor and Lab Director"
           since: 2010
