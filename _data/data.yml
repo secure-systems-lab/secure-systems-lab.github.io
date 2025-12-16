@@ -14,6 +14,8 @@ people:
           photo: "/img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "NDSS 2026"
+              link: "/papers/vaderna_taf_ndss_2026.pdf"
             - name: "NDSS 2025"
               link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
             - name: "ACSAC 2023"
@@ -706,6 +708,8 @@ people:
             photo: "/img/people/renata_vaderna.jpg"
             interests: "Sofrware engineering, software security"
             publications:
+              - name: "NDSS 2026"
+                link: "/papers/vaderna_taf_ndss_2026.pdf"
               - name: "Scientific Programming 2018"
                 link: "https://www.hindawi.com/journals/sp/2018/7264060/"
               - name: "Knowledge-Based Systems 2016"
@@ -732,6 +736,8 @@ people:
             photo: "/img/people/patrick_zielinski.jpg"
             interests: "Distributed systems, version control systems, and cryptography"
             publications:
+              - name: "NDSS 2026"
+                link: "/papers/vaderna_taf_ndss_2026.pdf"
               - name: "VehicleSec 2025"
                 link: "https://mlab.engineering.nyu.edu/static/vehiclesec25-final9.pdf"
               - name: "NDSS 2025"
@@ -1508,13 +1514,62 @@ publications:
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
 
+    - &vaderna_taf_ndss26
+      anchor: vaderna_taf_ndss26
+      title: "Enhancing Legal Document Security and Accessibility with TAF"
+      authors:
+        - name: "R. Vaderna, D. Nikolic, P. Zielinski, D. Greisen, B. Ard, J. Cappos"
+      project: *taf
+      booktitle: "To appear in the Network and Distributed System Security Symposium 2026 (NDSS 2026) [Artifact Available] [Artifact Functional] [Artifact Reproduced]"
+      year: "2026"
+      pages: ""
+      publisher: ""
+      link: "/papers/vaderna_taf_ndss_2026.pdf"
+      abstract: "The digital age has caused more and more services to be
+                accessible online. A key exception to this has been access to
+                the law, which remains published on paper or aging online
+                platforms. Jurisdictions that have adopted digital law platforms
+                often face difficulties with ensuring the security of their law
+                online.
+
+                In this paper, we introduce TAF, a system designed to secure
+                legal repositories against unauthorized changes, and ensure the
+                integrity of the law. Unlike prior archival or update
+                frameworks, it is the first system that is designed for a threat
+                model where an attacker fully controls the hosting repository.
+                It also binds each signed repository state to publisher-defined
+                legal dates, enabling verifiable as-of-date retrieval. First,
+                TAF enables a repository of legal documents to remain accessible
+                and authenticatable, no matter how long has passed since its
+                publication. Second, TAF enables the independent verification of
+                changes to a legal repository by anyone with read access to the
+                repository. Third, TAF remains usable by users without a
+                technical background or knowledge of cybersecurity.
+
+                TAF builds on the software-update guarantees of TUF, the
+                version-control structure of Git, and a strong notion of time,
+                where time is treated as signed data bound to specific
+                repository states. TAF transforms the entire evolution of legal
+                documents into an authenticatable, timestamped sequence of
+                states, ensuring that every version, past or present, can be
+                cryptographically verified. This property is not provided by Git
+                or TUF alone.
+
+                We demonstrate that TAF is secure, scalable and performant,
+                analyzing its behavior in various attack scenarios and its
+                performance on large legal repositories, as well as ease of use.
+                As a testament to TAF's security properties and performance, TAF
+                is in production use by 14 jurisdictions in the US, including
+                the City of Baltimore, the State of Maryland and Washington,
+                D.C."
+
     - &yelgundhalli_gittuf_ndss_2025
       anchor: yelgundhalli_gittuf_ndss_2025
       title: "Rethinking Trust in Forge-Based Git Security"
       authors:
         - name: "A.S.A. Yelgundhalli, P. Zielinski, R. Curtmola, J. Cappos"
       project: *gittuf
-      booktitle: "Network and Distributed System Security Symposium 2025 (NDSS 2025)"
+      booktitle: "Network and Distributed System Security Symposium 2025 (NDSS 2025) [Artifact Available] [Artifact Functional] [Artifact Reproduced] <br/> Distinguished Paper Award"
       year: "2025"
       pages: ""
       publisher: ""
@@ -3187,6 +3242,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *vaderna_taf_ndss26
         - *yelgundhalli_gittuf_ndss_2025
         - *covsbom_issre_2024
         - *moore_artemis_2023
