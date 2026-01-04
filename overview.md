@@ -32,5 +32,4 @@ SSL projects are developed in collaboration with foundations and
 standards bodies such as the [JDF](https://jointdevelopment.org/), CNCF, and 
 the [Open Source Security Foundation (OpenSSF)](https://openssf.org/), helping 
 ensure that research results translate into widely adopted, interoperable 
-solutions. Learn more about collaborating with the lab on the 
-[Collaborate](/collaborate/) page.
+solutions. Learn more about collaborating [here](/collaborate/).
