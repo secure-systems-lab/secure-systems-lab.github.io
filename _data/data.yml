@@ -317,7 +317,7 @@ people:
           internal: true
           role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
           since: "2015"
-          photo: "/img/people/preston_moore.jpg"
+          photo: "/img/people/preston_moore2.jpg"
           interests: "Secure software engineering, automated testing, systems security"
           publications:
          
@@ -817,15 +817,15 @@ people:
           - *aaditya_rengarajan
           - *naman_badlani
 
-      - type: "Visiting Scholars"
-        anchor: visitingscholars
-        people:
-          - *yuchen_zhang
-          - *renata_vaderna
+      # - type: "Visiting Scholars"
+      #   anchor: visitingscholars
+      #   people:
 
       - type: Alumni
         anchor: alumni
         people:
+          - *yuchen_zhang
+          - *renata_vaderna
           - *aditya_sirish
           - *lukas_puhringer
           - *marina_moore
