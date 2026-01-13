@@ -26,7 +26,7 @@ person:
     site: str(required=False)
     internal: bool()
     role: str()
-    since: any(int(min=2010,max=2025), str())
+    since: any(int(min=2010,max=2026), str())
     interests: str()
     photo: str()
     publications: list(include('person_publication'), required=False)
