@@ -1082,7 +1082,7 @@ projects:
         name: "gittuf"
         anchor: "gittuf"
         image: "/img/projects/gittuf.png"
-        status: *starting
+        status: *adopted
         site: "https://gittuf.github.io"
         description:
           - "gittuf provides a security layer for Git using some concepts
@@ -1170,7 +1170,7 @@ projects:
         anchor: "atoms"
         image: "/img/projects/atoms_business_card_closeup_small.png"
         site: "https://atomsofconfusion.com/"
-        status: *starting
+        status: *retired
         description:
           - "Within every confusing piece of software code
             are small patterns that can lead developers  to outputs that radically
