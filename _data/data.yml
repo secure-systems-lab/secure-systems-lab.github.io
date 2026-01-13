@@ -745,6 +745,27 @@ people:
               - name: "ACSAC 2024"
                 link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
 
+      - &marco_de_vincenzi
+            name: "Marco De Vincenzi"
+            anchor: marco_de_vincenzi
+            internal: true
+            role: "Postdoctoral Associate (starting March 2026)"
+            since: 2026
+            photo: "/img/people/marco.png"
+            site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
+            interests: "Automotive cybersecurity, cyber-physical systems, V2X authentication"
+            publications:
+                - name: "ACM Computing Surveys"
+                  link: "https://dl.acm.org/doi/pdf/10.1145/3637059"
+                - name: "IEEE Transactions on Vehicular Technology"
+                  link: "https://ieeexplore.ieee.org/document/11123165"
+                - name: "IEEE Transactions on Intelligent Transportation Systems"
+                  link: "https://ieeexplore.ieee.org/abstract/document/9945656"
+                - name: "Journal of Computer Virology and Hacking Techniques"
+                  link: "https://link.springer.com/article/10.1007/s11416-024-00522-4"
+                - name: IEEE Open Journal of Vehicular Technology
+                  link: "https://ieeexplore.ieee.org/document/10818588" 
+
       - &yongjae_chung
             name: "Yongjae Chung"
             anchor: yongjae_chung
@@ -817,9 +838,10 @@ people:
           - *aaditya_rengarajan
           - *naman_badlani
 
-      # - type: "Visiting Scholars"
-      #   anchor: visitingscholars
-      #   people:
+      - type: "Postdocs"
+        anchor: postdocs
+        people:
+          - *marco_de_vincenzi
 
       - type: Alumni
         anchor: alumni
