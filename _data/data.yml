@@ -143,6 +143,7 @@ people:
           Framework</a> (used on smartphones to capture data for <a
           href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>),
           Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
+      
       - &trishank_kuppusamy
           name: "Trishank Kuppusamy"
           anchor: trishank_kuppusamy
@@ -170,6 +171,7 @@ people:
               - name: "ISBA 2015"
                 link: "http://ieeexplore.ieee.org/document/7126366/"
           deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
+      
       - &luqin_wang
           name: "Luqin Wang"
           anchor: luqin_wang
@@ -248,27 +250,6 @@ people:
                 link: "https://ssl.engineering.nyu.edu/papers/torres_pph_login_2014.pdf"
           deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
 
-      - &artiom_baloian
-          name: "Artiom Baloian"
-          anchor: artiom_baloian
-          internal: true
-          role: "Developer"
-          since: "2016"
-          photo: "/img/people/artiom_baloian.jpg"
-          interests: "Software Security, Code Obfuscation, Compilers"
-          publications:
-            - name: "Concurrency and Computation: Practice and Experience 2017"
-              link: "http://onlinelibrary.wiley.com/doi/10.1002/cpe.4192/abstract;jsessionid=CA0A84FDE4839370B0657E1D26AFF876.f02t03/"
-            - name: "IMPACT 2017"
-              link: "http://impact.gforge.inria.fr/impact2017/papers/impact-17-apollo-automatic-specilative-polyhedral-loop-optimizer.pdf"
-            - name: "RAS 2015"
-              link: "http://www.ispras.ru/en/proceedings/isp_27_2015_1/isp_27_2015_1_39/"
-            - name: "Mathematical Problems of Computer Science 2014"
-              link: "http://mpcs.sci.am/filesimages/volumes/volume_42/05.pdf"
-          deployments: "<a href=\"http://apollo.gforge.inria.fr/\">APOLLO-Automatic
-            speculative POLyhedral Loop Optimizer</a> is a C/C++ compiler framework
-            based on LLVM used by Airbus and other companies."
-
       - &lois_delong
           name: "Lois Anne DeLong"
           anchor: lois_delong
@@ -291,26 +272,6 @@ people:
                 - name: ";login 2017"
                   link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
 
-      - &sai_peddinti
-          name: Sai Teja Peddinti
-          anchor: sai_peddinti
-          internal: true
-          role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
-          since: "2011"
-          photo: "/img/people/sai_peddinti.jpg"
-          site: "http://www.saitejapeddinti.com/"
-          interests: "Privacy, security, social networks, machine learning"
-          publications:
-                - name: "ICWSM 2016"
-                  link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
-                - name: "COSN 2014"
-                  link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
-                - name: "SPSM 2014"
-                  link: "http://dl.acm.org/citation.cfm?id=2666625"
-                - name: "S&P 2014"
-                  link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
-                - name: "U.S. Patent 9246929"
-                  link: "https://www.google.com/patents/US9246929"
       - &preston_moore
           name: "Preston Kent Moore"
           anchor: preston_moore
@@ -327,6 +288,7 @@ people:
               link: "http://ssl.engineering.nyu.edu/papers/moore_shuffle_ccsne_2022.pdf" 
             - name: "ISSRE 2019"
               link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
+      
       - &dan_gopstein
           name: "Dan Gopstein"
           anchor: dan_gopstein
@@ -406,17 +368,6 @@ people:
           site: "http://nickrenner.com"
           interests: "Systems security, operating systems, Internet of Things"
 
-      - &joey_pabalinas
-          name: "Joey Pabalinas"
-          anchor: joey_pabalinas
-          site: "https://alyp.tk/"
-          internal: true
-          role: "Developer"
-          since: 2018
-          photo: "/img/people/joey_pabalinas.jpg"
-          interests: "Linux kernel development"
-          deployments: <a href="https://github.com/alyptik/cepl/">CEPL</a>, an interactive C read-eval-print loop.
-
       - &aditya_sirish
           name: "Aditya Sirish A Yelgundhalli"
           anchor: aditya_sirish
@@ -465,42 +416,7 @@ people:
             - name: "ICCES 2024"
               link: "https://ieeexplore.ieee.org/document/10859322"
 
-      - &ashish_das
-          name: "Ashish Das"
-          anchor: ashish_das
-          internal: true
-          role: "Master's student"
-          since: 2019
-          photo: "/img/people/ashish_das.jpg"
-          interests: "Applied cryptography, secure systems"
-
-      - &yash_shah
-          name: "Yash Shah"
-          anchor: yash_shah
-          internal: true
-          role: "Master's student"
-          since: 2019
-          photo: "/img/people/yash_shah.jpg"
-          interests: "Vulnerabilities, incident and event management"
-
-      - &cindy_kim
-          name: "Cindy Kim"
-          anchor: cindy_kim
-          internal: true
-          role: "Undergraduate student"
-          since: 2019
-          photo: "/img/people/cindy_kim.jpg"
-          interests: "Systems security, privacy, and social networks"
-
-      - &kristel_fung
-          name: "Kristel Fung"
-          anchor: kristel_fung
-          internal: true
-          role: "Undergraduate student"
-          since: 2019
-          photo: "/img/people/kristel_fung.jpg"
-          interests: "Cybersecurity, cryptography, software development"
-
+    
       - &yuanrui_chen
           name: "Yuanrui Chen"
           anchor: yuanrui_chen
@@ -509,42 +425,6 @@ people:
           since: 2020
           photo: "/img/people/yuanrui_chen.jpg"
           interests: "Network security, software security, and software development"
-
-      - &isha_dave
-          name: "Isha Vipul Dave"
-          anchor: isha_dave
-          internal: true
-          role: "Undergraduate student"
-          since: 2020
-          photo: "/img/people/isha_dave.jpg"
-          interests: "Cybersecurity and game design and development"
-
-      - &kaitlyn_liu
-          name: "Kaitlyn Liu"
-          anchor: kaitlyn_liu
-          internal: true
-          role: "Undergraduate student"
-          since: 2020
-          photo: "/img/people/kaitlyn_liu.jpg"
-          interests: "Systems security and computer vision"
-
-      - &benjamin_wu
-            name: "Benjamin Wu"
-            anchor: benjamin_wu
-            internal: true
-            role: "Undergraduate student"
-            since: 2020
-            photo: "/img/people/benjamin_wu.jpg"
-            interests: "Financial technology, cybersecurity, cryptography"
-
-      - &ge_yang
-            name: "Ge Yang"
-            anchor: ge_yang
-            internal: true
-            role: "Undergraduate student"
-            since: 2020
-            photo: "/img/people/ge_yang.jpg"
-            interests: "Security and privacy"
 
       - &jonathan_singer
             name: "Jonathan Singer"
@@ -563,141 +443,6 @@ people:
             since: 2020
             photo: "/img/people/raghav_sai.jpg"
             interests: "Software development and security, internet privacy"
-
-      - &caglar_dogan
-            name: "Caglar Dogan"
-            anchor: caglar_dogan
-            internal: true
-            role: "Undergraduate student"
-            since: 2020
-            photo: "/img/people/caglar_dogan.jpg"
-            interests: "Theory of computation, cryptography, systems security"
-  
-      - &almazhan_kapan
-            name: "Almazhan Kapan"
-            anchor: almazhan_kapan
-            internal: true
-            role: "Undergraduate student"
-            since: 2021
-            photo: "/img/people/almazhan_kapan.jpg"
-            interests: "Privacy, systems security, software development"
-            
-      - &hugo_yin
-            name: "Hugo Yin"
-            anchor: hugo_yin
-            internal: true
-            role: "Undergraduate student"
-            since: 2021
-            photo: "/img/people/hugo_yin.jpg"
-            interests: "Automated tests, software development"
-  
-      - &ritik_roongta
-            name: "Ritik Roongta"
-            anchor: ritik_roongta
-            internal: true
-            role: "Ph.D. student"
-            since: 2021
-            photo: "/img/people/ritik_roongta.jpg"
-            interests: "Network and system Security"
-            
-      - &jack_cook
-            name: "Jack Cook"
-            anchor: jack_cook
-            internal: true
-            role: "Ph.D. student"
-            since: 2021
-            photo: "/img/people/jack_cook.jpg"
-            interests: "Systems security, distributed computing, and software development"       
-            deployments: "Lead developer for <a href=\"http://www.edurange.org/\">EDURange</a>, an NSF-funded project that offers interactive, collaborative cybersecurity exercises, as well as a framework for creating such exercises."
-  
-      - &staford_titus
-            name: "Staford Titus"
-            anchor: staford_titus
-            internal: true
-            role: "Master's student"
-            since: 2021
-            photo: "/img/people/staford_titus.jpg"
-            interests: "Malware analysis & reverse engineering, Automobile security, IOT security"
-            publications:
-              - name: "Cyber Defense Magazine"
-                link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
-              - name:  "Cybrary"
-                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
-      
-      - &devansh_patel
-            name: "Devansh Patel"
-            anchor: devansh_patel
-            internal: true
-            role: "Master's student"
-            since: 2022
-            photo: "/img/people/devansh_patel.jpg"
-            interests: "Systems security, Reverse engineering, Digital privacy"
-     
-      - &athena_hernandez
-            name: "Athena Hernandez"
-            anchor: athena_hernandez
-            internal: true
-            role: "High school student"
-            since: 2022
-            photo: "/img/people/athena_hernandez.jpg"
-            interests: "Systems security, Privacy"
-
-      - &pinhan_zhao            
-            name: "Pinhan Zhao"
-            anchor: pinhan_zhao
-            internal: true
-            role: "Undergraduate"
-            since: 2021
-            photo: "/img/people/pinhan_zhao.jpg"
-            interests: "Cybersecurity, privacy, software development, computer networks"
-            publications:
-              - name: "Netdev 0x15"
-                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"
-
-      - &yuchen_zhang
-            name: "Yuchen (Dennis) Zhang"
-            anchor: yuchen_zhang
-            internal: true
-            role: "Post-doctoral researcher"
-            since: 2023
-            photo: "/img/people/yuchen_zhang.jpg"
-            interests: "Fuzz testing, static analysis, system and software security, Rust language analysis and security"
-            publications:
-              - name: "ASE 2022"
-                link: "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494"
-              - name: "USENIX Security 2022"
-                link: "https://www.usenix.org/system/files/sec22-zhang-yuchen.pdf"
-              - name: "NDSS 2022"
-                link: "https://arxiv.org/pdf/2203.06834.pdf"
-              - name: "SecureCom 2021"
-                link: "https://arxiv.org/pdf/2109.08635.pdf"
-
-      - &justin_koe
-            name: "Justin Koe"
-            anchor: justin_koe
-            internal: true
-            role: "Undergraduate Student"
-            since: 2023
-            photo: "/img/people/justin_koe.jpg"
-            interests: "Systems security, operating systems"
-
-      - &tristan_brigham
-            name: "Tristan Brigham"
-            anchor: tristan_brigham
-            internal: true
-            role: "Undergraduate Student"
-            since: 2023
-            photo: "/img/people/tristan_brigham.jpg"
-            interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
-            
-      - &neil_naveen
-            name: "Neil Naveen"
-            anchor: neil_naveen
-            internal: true 
-            role: "High School Student"
-            since: 2024
-            photo: "/img/people/neil_naveen.jpg"
-            interests: "Security and algorithms"
 
       - &renata_vaderna
             name: "Renata Vaderna"
@@ -766,6 +511,68 @@ people:
                 - name: IEEE Open Journal of Vehicular Technology
                   link: "https://ieeexplore.ieee.org/document/10818588" 
 
+      - &staford_titus
+            name: "Staford Titus"
+            anchor: staford_titus
+            internal: true
+            role: "Master's student"
+            since: 2021
+            photo: "/img/people/staford_titus.jpg"
+            interests: "Malware analysis & reverse engineering, Automobile security, IOT security"
+            publications:
+              - name: "Cyber Defense Magazine"
+                link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
+              - name:  "Cybrary"
+                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
+
+      - &justin_koe
+            name: "Justin Koe"
+            anchor: justin_koe
+            internal: true
+            role: "Undergraduate Student"
+            since: 2023
+            photo: "/img/people/justin_koe.jpg"
+            interests: "Systems security, operating systems"
+
+      - &tristan_brigham
+            name: "Tristan Brigham"
+            anchor: tristan_brigham
+            internal: true
+            role: "Undergraduate Student"
+            since: 2023
+            photo: "/img/people/tristan_brigham.jpg"
+            interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
+      
+      - &devansh_patel
+            name: "Devansh Patel"
+            anchor: devansh_patel
+            internal: true
+            role: "Master's student"
+            since: 2022
+            photo: "/img/people/devansh_patel.jpg"
+            interests: "Systems security, Reverse engineering, Digital privacy"
+
+      - &pinhan_zhao            
+            name: "Pinhan Zhao"
+            anchor: pinhan_zhao
+            internal: true
+            role: "Undergraduate"
+            since: 2021
+            photo: "/img/people/pinhan_zhao.jpg"
+            interests: "Cybersecurity, privacy, software development, computer networks"
+            publications:
+              - name: "Netdev 0x15"
+                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"
+      
+      - &neil_naveen
+            name: "Neil Naveen"
+            anchor: neil_naveen
+            internal: true 
+            role: "High School Student"
+            since: 2024
+            photo: "/img/people/neil_naveen.jpg"
+            interests: "Security and algorithms"
+
       - &yongjae_chung
             name: "Yongjae Chung"
             anchor: yongjae_chung
@@ -774,7 +581,7 @@ people:
             since: 2024
             photo: "/img/people/yongjae_chung.jpg"
             interests: "Systems security, machine learning"
-            
+
       - &ziyi_xu
             name: "Ziyi Xu"
             anchor: ziyi_xu
@@ -783,7 +590,7 @@ people:
             since: 2025
             photo: "/img/people/ziyi_xu.jpg"
             interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
-        
+
       - &aman_ns
             name: "Aman N S"
             anchor: aman_ns
@@ -792,7 +599,7 @@ people:
             since: 2025
             photo: "/img/people/aman_ns.jpg"
             interests: "Cybersecurity, Software Development, Algorithms"
-            
+
       - &sanchit_sahay
             name: "Sanchit Sahay"
             anchor: sanchit_sahay
@@ -803,6 +610,47 @@ people:
             interests: "Operating Systems, Systems Software"
             site: "https://stupendoussuperpowers.github.io"
 
+      - &yuchen_zhang
+            name: "Yuchen (Dennis) Zhang"
+            anchor: yuchen_zhang
+            internal: true
+            role: "Post-doctoral researcher"
+            since: 2023
+            photo: "/img/people/yuchen_zhang.jpg"
+            interests: "Fuzz testing, static analysis, system and software security, Rust language analysis and security"
+            publications:
+              - name: "ASE 2022"
+                link: "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494"
+              - name: "USENIX Security 2022"
+                link: "https://www.usenix.org/system/files/sec22-zhang-yuchen.pdf"
+              - name: "NDSS 2022"
+                link: "https://arxiv.org/pdf/2203.06834.pdf"
+              - name: "SecureCom 2021"
+                link: "https://arxiv.org/pdf/2109.08635.pdf"
+
+      - &sai_peddinti
+          name: Sai Teja Peddinti
+          anchor: sai_peddinti
+          internal: true
+          role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
+          since: "2011"
+          photo: "/img/people/sai_peddinti.jpg"
+          site: "http://www.saitejapeddinti.com/"
+          interests: "Privacy, security, social networks, machine learning"
+          publications:
+                - name: "ICWSM 2016"
+                  link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
+                - name: "COSN 2014"
+                  link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
+                - name: "SPSM 2014"
+                  link: "http://dl.acm.org/citation.cfm?id=2666625"
+                - name: "S&P 2014"
+                  link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
+                - name: "U.S. Patent 9246929"
+                  link: "https://www.google.com/patents/US9246929"
+
+  ################################################
+      
     people_cards:
       - type: "Faculty"
         anchor: faculty
