@@ -773,7 +773,7 @@ projects:
     - &tuf
         name: "The Update Framework (TUF)"
         anchor: "tuf"
-        image: "/img/projects/tuf_diagram.png"
+        image: "/img/projects/tuf-logo.png"
         site: "https://theupdateframework.github.io"
         status: *adopted
         description:
@@ -817,7 +817,7 @@ projects:
     - &uptane
         name: "Uptane"
         anchor: "uptane"
-        image: "/img/projects/uptane_diagram.png"
+        image: "/img/projects/uptane-logo.svg"
         status: *adopted
         site: "https://uptane.github.io/"
         description:
@@ -878,7 +878,7 @@ projects:
     - &in-toto
         name: "in-toto"
         anchor: "in-toto"
-        image: "/img/projects/in-toto_diagram.png"
+        image: "/img/projects/in-toto-logo.svg"
         status: *adopted
         site: "https://in-toto.io"
         description:
@@ -929,7 +929,7 @@ projects:
     - &gittuf
         name: "gittuf"
         anchor: "gittuf"
-        image: "/img/projects/gittuf.png"
+        image: "/img/projects/gittuf-logo.png"
         status: *adopted
         site: "https://gittuf.github.io"
         description:
@@ -986,7 +986,7 @@ projects:
         name: "The Archive Framework (TAF)"
         anchor: "taf"
         status: *starting
-        site:
+        site: "https://github.com/openlawlibrary/taf"
         description:
           - "Built on top of The Update Framework (TUF), TAF leverages
             TUF's security capabilities to protect Git repositories and provide

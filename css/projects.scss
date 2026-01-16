@@ -63,11 +63,8 @@
 
     .image {
       float: right;
-      width: 100%;
-      @media(min-width: $tablet) {
-	width: 50%;
-        margin: 0.8rem;
-      }
+      max-height: 250px;
+      max-width: 250px;
     }
 
     ul .header {

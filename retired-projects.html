@@ -13,11 +13,8 @@ layout: default
 
 <div class="projects">
   {% for project in site.data.data.projects.project_cards %}
-    {% if project.status %}
-    <!-- FIXME: do we ever not have project status associated? -->
-      {% if project.status.tag != "retired" %}
-        {% continue %}
-      {% endif %}
+    {% if project.status.tag != "retired" %}
+      {% continue %}
     {% endif %}
   <div class="project">
     <a class="anchor" name="{{ project.anchor }}"></a>
@@ -62,35 +59,6 @@ layout: default
     <div class="description"><p>
       {{ project.description }}
     </p></div>
-
-    <ul>
-       {% if project.products %}
-         <li>
-           <span class="header">Products: </span>
-           <span class="products">{{ project.products }}</span>
-         </li>
-       {% endif %}
-
-       {% if project.people %}
-          <br />
-          <li><div class="people">
-             <span class="header">People: </span>
-             {% assign personLinks = '' | split:':' %}
-             {% for person in project.people %}
-             {% if person == nil %}
-                 {% capture personLink %}<span style="color: red;">NAME MISSING</span>{% endcapture %}
-             {% else %}
-                 {% assign defaultLink = "people#" | append: person.anchor %}
-                 {% capture personLink %}{% if person.link or person.anchor %}<a class={% if
-             person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link | default: defaultLink}}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
-             {% endif %}
-               {% assign personLinks = personLinks | push: personLink %}
-             {% endfor %}
-
-             {{ personLinks | array_to_sentence_string }}
-          </div></li>
-       {% endif %}
-    </ul>
   </div>
   {% endfor %}
 </div>
