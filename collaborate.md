@@ -15,7 +15,7 @@ the subject.  Please include a code sample and/or GitHub ID along with
 your resume.  
 
 To make it easier to work with us, please follow our 
-<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md">lab's workflow</a>.  
+<a href="https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md">lab's workflow</a>.
 We have guidelines for
 <a href="https://github.com/secure-systems-lab/code-style-guidelines">code
 style</a>, 
