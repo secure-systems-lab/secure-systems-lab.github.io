@@ -985,7 +985,7 @@ projects:
     - &taf
         name: "The Archive Framework (TAF)"
         anchor: "taf"
-        status: *starting
+        status: *adopted
         site: "https://github.com/openlawlibrary/taf"
         description:
           - "Built on top of The Update Framework (TUF), TAF leverages
@@ -1361,12 +1361,12 @@ projects:
     - *uptane
     - *in-toto
     - *gittuf
-    - *jot
     - *taf
-    - *cachecash
+    - *jot
     - *lind
-    - *atoms
     - *crashsimulator
+    - *atoms
+    - *cachecash
     - *pph
     - *blindspots
     - *seattle
