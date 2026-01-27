@@ -707,6 +707,7 @@ people:
         anchor: postdocs
         people:
           - *marco_de_vincenzi
+          - *vidya_lakshmi_rajagopalan
 
       - type: Alumni
         anchor: alumni
