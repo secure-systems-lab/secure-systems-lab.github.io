@@ -511,6 +511,23 @@ people:
                 - name: IEEE Open Journal of Vehicular Technology
                   link: "https://ieeexplore.ieee.org/document/10818588" 
 
+      - &vidya_lakshmi_rajagopalan
+            name: "Vidya Lakshmi Rajagopalan"
+            anchor: vidya_lakshmi_rajagopalan
+            internal: true
+            role: "Postdoctoral Associate"
+            since: 2026
+            photo: "/img/people/vidya_rajagopalan.png"
+            site: "https://vidyalakshmir.github.io"
+            interests: "Kernel security, binary analysis, program analysis, reverse engineering, distributed systems security"
+            publications:
+              - name: "ACM CCS 2023"
+                link: "https://vidyalakshmir.github.io/docs/syspart_ccs23.pdf"
+              - name: "FEAST 2024"
+                link: "https://vidyalakshmir.github.io/docs/syscalldebloating.pdf"
+              - name: "ACE 2010"
+                link: "https://vidyalakshmir.github.io/docs/jpermit.pdf"
+
       - &staford_titus
             name: "Staford Titus"
             anchor: staford_titus
@@ -690,6 +707,7 @@ people:
         anchor: postdocs
         people:
           - *marco_de_vincenzi
+          - *vidya_lakshmi_rajagopalan
 
       - type: Alumni
         anchor: alumni
