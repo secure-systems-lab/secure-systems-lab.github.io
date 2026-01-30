@@ -53,9 +53,9 @@ layout: default
                   {% capture pubLink %}
                   {% if project.anchor %}
                     {% if project.status.tag == "retired" %}
-                      <a href="retired-projects#{{ project.anchor }}">
+                      <a href="/retired-projects#{{ project.anchor }}">
                     {% else %}
-                      <a href="projects#{{ project.anchor }}">
+                      <a href="/projects#{{ project.anchor }}">
                     {% endif %}
                   {% endif %}
                     {{ project.name}}
