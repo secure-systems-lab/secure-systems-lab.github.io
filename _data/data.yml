@@ -665,6 +665,15 @@ people:
                   link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
                 - name: "U.S. Patent 9246929"
                   link: "https://www.google.com/patents/US9246929"
+      - &ann_malavet
+          name: "Ann Malavet"
+          anchor: ann_malavet
+          internal: true
+          role: "Ph.D. Candidate"
+          since: 2023
+          photo: "/img/people/ann_malavet.jpeg"
+          site: "http://annmalavet.com"
+          interests: "Systems security, cryptocurrency fraud, AI application security"
 
   ################################################
       
@@ -684,7 +693,8 @@ people:
           - *nick_renner
           - *yaxuan_wen
           - *patrick_zielinski
-          
+          - *ann_malavet
+
       - type: "Other Students"
         anchor: otherstudents
         people:
