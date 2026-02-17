@@ -13,11 +13,8 @@ layout: default
 
 <div class="projects">
   {% for project in site.data.data.projects.project_cards %}
-    {% if project.status %}
-    <!-- FIXME: do we ever not have project status associated? -->
-      {% if project.status.tag == "retired" %}
-        {% continue %}
-      {% endif %}
+    {% if project.status.tag == "retired" %}
+      {% continue %}
     {% endif %}
   <div class="project">
     <a class="anchor" name="{{ project.anchor }}"></a>
@@ -66,30 +63,6 @@ layout: default
           </p>
           {% endfor %}
       </div>
-
-       {% if project.products %}
-          <h5 class="header">Products</h5>
-          <p class="products">{{ project.products }}</p>
-       {% endif %}
-
-       {% if project.people %}
-          <div class="people">
-              <h5 class="header">People</h5>
-             {% assign personLinks = '' | split:':' %}
-             {% for person in project.people %}
-             {% if person == nil %}
-                 {% capture personLink %}<span style="color: red;">NAME MISSING</span>{% endcapture %}
-             {% else %}
-                 {% assign defaultLink = "people#" | append: person.anchor %}
-                 {% capture personLink %}{% if person.link or person.anchor %}<a class={% if
-             person.internal %}"internal"{% else %}"external"{% endif %} href="{{ person.link | default: defaultLink}}">{% endif %}{{ person.name }}{% if person.link %}</a>{% endif %}{% endcapture %}
-             {% endif %}
-               {% assign personLinks = personLinks | push: personLink %}
-             {% endfor %}
-
-             {{ personLinks | array_to_sentence_string }}
-          </div>
-       {% endif %}
   </div>
   {% endfor %}
   <div class="project">
