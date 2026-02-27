@@ -1418,7 +1418,7 @@ publications:
       authors:
         - name: "R. Vaderna, D. Nikolic, P. Zielinski, D. Greisen, B. Ard, J. Cappos"
       project: *taf
-      booktitle: "To appear in the Network and Distributed System Security Symposium 2026 (NDSS 2026) [Artifact Available] [Artifact Functional] [Artifact Reproduced]"
+      booktitle: Network and Distributed System Security Symposium 2026 (NDSS 2026) [Artifact Available] [Artifact Functional] [Artifact Reproduced]"
       year: "2026"
       pages: ""
       publisher: ""
