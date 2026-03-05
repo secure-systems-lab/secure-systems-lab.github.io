@@ -500,15 +500,15 @@ people:
             site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
             interests: "Automotive cybersecurity, cyber-physical systems, V2X authentication"
             publications:
-                - name: "ACM Computing Surveys"
+                - name: "ACM CSUR"
                   link: "https://dl.acm.org/doi/pdf/10.1145/3637059"
-                - name: "IEEE Transactions on Vehicular Technology"
+                - name: "IEEE TVT"
                   link: "https://ieeexplore.ieee.org/document/11123165"
-                - name: "IEEE Transactions on Intelligent Transportation Systems"
+                - name: "IEEE TITS"
                   link: "https://ieeexplore.ieee.org/abstract/document/9945656"
-                - name: "Journal of Computer Virology and Hacking Techniques"
+                - name: "J. Comput. Virol. Hack. Tech."
                   link: "https://link.springer.com/article/10.1007/s11416-024-00522-4"
-                - name: IEEE Open Journal of Vehicular Technology
+                - name: IEEE OJVT
                   link: "https://ieeexplore.ieee.org/document/10818588" 
 
       - &vidya_lakshmi_rajagopalan
@@ -694,17 +694,23 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
-
+          
+      - type: "Postdocs"
+        anchor: postdocs
+        people:
+          - *vidya_lakshmi_rajagopalan
+          - *marco_de_vincenzi
+          
       - type: "Other Students"
         anchor: otherstudents
         people:
-          - *staford_titus
-          - *jonathan_singer
-          - *justin_koe
-          - *tristan_brigham
-          - *devansh_patel
-          - *yuanrui_chen
-          - *pinhan_zhao
+            # - *staford_titus
+            # - *jonathan_singer
+            # - *justin_koe
+            # - *tristan_brigham
+            # - *devansh_patel
+            # - *yuanrui_chen
+            # - *pinhan_zhao
           - *neil_naveen
           - *yongjae_chung
           - *ziyi_xu
@@ -712,12 +718,6 @@ people:
           - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
-
-      - type: "Postdocs"
-        anchor: postdocs
-        people:
-          - *marco_de_vincenzi
-          - *vidya_lakshmi_rajagopalan
 
       - type: Alumni
         anchor: alumni
