@@ -494,7 +494,7 @@ people:
             name: "Marco De Vincenzi"
             anchor: marco_de_vincenzi
             internal: true
-            role: "Postdoctoral Associate (starting March 2026)"
+            role: "Postdoctoral Associate"
             since: 2026
             photo: "/img/people/marco.png"
             site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
@@ -1418,7 +1418,7 @@ publications:
       authors:
         - name: "R. Vaderna, D. Nikolic, P. Zielinski, D. Greisen, B. Ard, J. Cappos"
       project: *taf
-      booktitle: Network and Distributed System Security Symposium 2026 (NDSS 2026) [Artifact Available] [Artifact Functional] [Artifact Reproduced]"
+      booktitle: Network and Distributed System Security Symposium 2026 (NDSS 2026) [Artifact Available] [Artifact Functional] [Artifact Reproduced]
       year: "2026"
       pages: ""
       publisher: ""
