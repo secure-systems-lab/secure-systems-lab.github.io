@@ -67,28 +67,6 @@ people:
               link: "/papers/li-usenix-fence-2015.pdf"
           deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
 
-      - &sam_weber
-          name: "Sam Weber"
-          anchor: sam_weber
-          internal: true
-          role: "Research Professor"
-          since: "2016"
-          photo: "/img/people/sam_weber.jpg"
-          interests: "Secure development processes, Cybersecurity"
-          publications:
-            - name: "USENIX ATC 2017"
-              link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
-            - name: "ICSE 2016"
-              link: "http://dx.doi.org/10.1145/2884781.2884798"
-            - name: "IEEE Security and Privacy 2011"
-              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5629324"
-            - name: "IEEE Security and Privacy 2000"
-              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=848504"
-            - name: "Financial Crypto 2010"
-              link: "http://link.springer.com/chapter/10.1007%2F978-3-642-14577-3_7?LI=true#page-1"
-            - name: "SESS 2005"
-              link: "https://cwe.mitre.org/documents/sources/ASoftwareFlawTaxonomy-AimingToolsatSecurity%5BWeber,Karger,Paradkar%5D.pdf"
-
       - &vlad_diaz
           name: "Vladimir Diaz"
           anchor: vlad_diaz
@@ -415,35 +393,6 @@ people:
           publications:
             - name: "ICCES 2024"
               link: "https://ieeexplore.ieee.org/document/10859322"
-
-    
-      - &yuanrui_chen
-          name: "Yuanrui Chen"
-          anchor: yuanrui_chen
-          internal: true
-          role: "Undergraduate student"
-          since: 2020
-          photo: "/img/people/yuanrui_chen.jpg"
-          interests: "Network security, software security, and software development"
-
-      - &jonathan_singer
-            name: "Jonathan Singer"
-            anchor: jonathan_singer
-            internal: true
-            role: "Undergraduate student"
-            since: 2020
-            photo: "/img/people/jonathan_singer.jpg"
-            interests: "Systems security, network security, POSIX kernels"
-
-      - &raghav_sai
-            name: "Raghav Sai"
-            anchor: raghav_sai
-            internal: true
-            role: "Master's Student"
-            since: 2020
-            photo: "/img/people/raghav_sai.jpg"
-            interests: "Software development and security, internet privacy"
-
       - &renata_vaderna
             name: "Renata Vaderna"
             anchor: renata_vaderna
@@ -528,59 +477,6 @@ people:
               - name: "ACE 2010"
                 link: "https://vidyalakshmir.github.io/docs/jpermit.pdf"
 
-      - &staford_titus
-            name: "Staford Titus"
-            anchor: staford_titus
-            internal: true
-            role: "Master's student"
-            since: 2021
-            photo: "/img/people/staford_titus.jpg"
-            interests: "Malware analysis & reverse engineering, Automobile security, IOT security"
-            publications:
-              - name: "Cyber Defense Magazine"
-                link: "https://cyberdefensemagazine.tradepub.com/free/w_cyba96/"
-              - name:  "Cybrary"
-                link: "https://www.cybrary.it/blog/do-you-need-programming-for-cybersecurity/"   
-
-      - &justin_koe
-            name: "Justin Koe"
-            anchor: justin_koe
-            internal: true
-            role: "Undergraduate Student"
-            since: 2023
-            photo: "/img/people/justin_koe.jpg"
-            interests: "Systems security, operating systems"
-
-      - &tristan_brigham
-            name: "Tristan Brigham"
-            anchor: tristan_brigham
-            internal: true
-            role: "Undergraduate Student"
-            since: 2023
-            photo: "/img/people/tristan_brigham.jpg"
-            interests: "Operating system security; machine learning/AI applications to systems security and exploit detection"
-      
-      - &devansh_patel
-            name: "Devansh Patel"
-            anchor: devansh_patel
-            internal: true
-            role: "Master's student"
-            since: 2022
-            photo: "/img/people/devansh_patel.jpg"
-            interests: "Systems security, Reverse engineering, Digital privacy"
-
-      - &pinhan_zhao            
-            name: "Pinhan Zhao"
-            anchor: pinhan_zhao
-            internal: true
-            role: "Undergraduate"
-            since: 2021
-            photo: "/img/people/pinhan_zhao.jpg"
-            interests: "Cybersecurity, privacy, software development, computer networks"
-            publications:
-              - name: "Netdev 0x15"
-                link: "https://netdevconf.info/0x15/session.html?TCP-HyStart-Performance-over-a-Satellite-Network"
-      
       - &neil_naveen
             name: "Neil Naveen"
             anchor: neil_naveen
@@ -607,15 +503,6 @@ people:
             since: 2025
             photo: "/img/people/ziyi_xu.jpg"
             interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
-
-      - &aman_ns
-            name: "Aman N S"
-            anchor: aman_ns
-            internal: true 
-            role: "Master's student"
-            since: 2025
-            photo: "/img/people/aman_ns.jpg"
-            interests: "Cybersecurity, Software Development, Algorithms"
 
       - &sanchit_sahay
             name: "Sanchit Sahay"
@@ -704,17 +591,9 @@ people:
       - type: "Other Students"
         anchor: otherstudents
         people:
-            # - *staford_titus
-            # - *jonathan_singer
-            # - *justin_koe
-            # - *tristan_brigham
-            # - *devansh_patel
-            # - *yuanrui_chen
-            # - *pinhan_zhao
           - *neil_naveen
           - *yongjae_chung
           - *ziyi_xu
-          - *aman_ns
           - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
@@ -889,7 +768,6 @@ projects:
             - *marina_moore
             - *lois_delong
             - *lukas_puhringer
-            - *staford_titus
            
             - name: Ira McDonald (High North Inc.)
               link:
@@ -942,7 +820,6 @@ projects:
             - *santiago_torres
             - *lukas_puhringer
             - *aditya_sirish
-            - *yuanrui_chen
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - name: "Hammad Afzali Nanize (NJIT)"
@@ -1100,7 +977,6 @@ projects:
         href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
         people:
             - *ghada_almashaqbeh
-            - *raghav_sai
             - name: "Allison Bishop Lewko"
               link: "http://www.cs.columbia.edu/~allison"
             - *justin_cappos
@@ -1131,10 +1007,6 @@ projects:
         people:
             - *nick_renner
             - *yaxuan_wen
-            - *jonathan_singer
-            - *devansh_patel
-            - *justin_koe
-            - *tristan_brigham
             - *yiwen_li
             - *justin_cappos
             - *sanchit_sahay
