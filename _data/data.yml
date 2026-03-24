@@ -681,7 +681,7 @@ projects:
         name: "Testing Tools"
         anchor: testing_tools
 
-    intro: "Though all of SSL’s research initiatives—<a href='/retired-projects'>past</a>
+    intro: "Though all of SSL's research initiatives—<a href='/retired-projects'>past</a>
     and <a href='/projects'>present</a>—revolve around ensuring secure operation
     of computer systems, the specific areas addressed by the team vary greatly.
     Initiatives are grouped into the following categories:"
@@ -700,26 +700,6 @@ projects:
             malicious update is installed. TUF is a comprehensive, flexible
             framework to secure software updates even in situations where the
             software repository is compromised."
-          - "Developers can integrate TUF into any software update system, or
-            native programming language due to its concise, self-contained
-            architecture and specification. In 2019, it became both the
-            first security project and the first project led by an academic researcher to achieve
-            <a href=\"https://lwn.net/Articles/807777/\">graduate status</a> within the Cloud
-            Native Computing Foundation (CNCF).
-            <a href=\"https://store.cncf.io/collections/tuf\">Buy our merch!</a>"
-        products: "<a href=\"https://theupdateframework.com\">TUF</a> is used in
-        production by a <a
-    href=\"https://theupdateframework.github.io/adoptions.html\">variety of
-    companies</a>, including <a href=\"https://docs.microsoft.com/en-us/azure/container-registry/container-registry-content-trust\">Microsoft</a>, <a href=\"https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent\">IBM</a>,
-        <a href=\"https://www.vmware.com/\">VMware</a>,
-        <a href=\"https://github.com/digitalocean/do-agent\">DigitalOcean</a>,
-        <a href=\"https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/\">Cloudflare</a>, and
-        <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>.
-        It has been standardized for Python as documented in PEPs
-        <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and
-        <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>.
-        TUF, and Docker's popular implementation of TUF, are now
-        projects as part of the CNCF."
         people:
             - *sebastien_awwad
             - *marina_moore
@@ -746,33 +726,6 @@ projects:
             comprehensive array of security attacks, and is resilient to partial
             compromises, while addressing  automotive specific vulnerabilities and
             limitations."
-          - "Uptane was named one of
-            the <a href=\"https://www.popsci.com/top-security-innovations-2017#page-2\">Top
-            Security Innovations of 2017</a> by Popular Science Magazine.
-            Uptane is a <a href=\"https://www.jointdevelopment.org/\">Joint Development Foundation</a>
-            project of the <a href=\"https://www.linuxfoundation.org/\">Linux Foundation</a>,
-            operating under the formal title of Joint Development Foundation Projects, LLC, Uptane Series."
-        products: "Uptane has already been adopted by
-        <a href=\"/blog/2017-04-04-uptane-blog-post\">multiple auto makers</a>.
-        Uptane has been
-        <a href=\"https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html\">integrated</a>
-        into multiple products including OTA Plus and ATS Garage, two over-the-air
-        software update products from Advanced Telematic Systems. ATS also integrated
-        <a href=\"https://github.com/advancedtelematic/aktualizr\">aktualizr</a>,
-        a C++ implementation of Uptane, into <a
-        href=\"https://www.automotivelinux.org/\">Automotive Grade Linux</a>.
-        On January 25, 2018, Airbiquity
-        announced receipt of a <a href=\"https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group\">BIG Award for Business</a>
-        in the 2017 New Product Category for its OTAmatic
-        program, in which Uptane is a key component of the security package.
-        <a href=\"https://uptane.github.io/\">Our website</a> contains high level
-        information about the project, including the
-        <a href=\"https://uptane.github.io/papers/uptane-standard.2.0.0.html\">Uptane Standard for Design and Implementation v.2.0.0</a>
-        and
-        <a href=\"https://uptane.github.io/papers/uptane-deployment-best-practices-1.1.0.html\">Uptane Deployment Best Practices</a>.
-        We invite all
-        security researchers and academics to perform a
-        security review of Uptane."
         people:
             - *trishank_kuppusamy
             - *sebastien_awwad
@@ -807,26 +760,6 @@ projects:
           signing information about each step in the process. As such, in-toto
           provides accountability about how software is written, packaged and
           distributed...and by who."
-        products: "The in-toto software has already been integrated into several
-        open source projects. In 2019, Datadog announced the use of <a
-        href=\"https://www.datadoghq.com/blog/engineering/secure-publication-of-datadog-agent-integrations-with-tuf-and-in-toto/\">TUF
-        and in-toto</a> on their agents integration downloader. In November 23
-        of 2020, the framework released <a
-        href=\"https://techxplore.com/news/2020-12-free-tool-layer-software-chain.html/\">Version
-        1.0.0</a>, and on March 10, CNCF <a
-        href=\"https://www.cncf.io/blog/2022/03/10/supply-chain-security-project-in-toto-moves-to-the-cncf-incubator/\">announced</a>
-        the project had graduated to the incubator. Also, a <a
-        href=\"https://salsa.debian.org/reproducible-builds/debian-rebuilder-setup\">constellation</a>
-        <a href=\"https://r-b.engineering.nyu.edu/\">of</a> <a
-        href=\"https://reproducible.seal.purdue.wtf/\">rebuilders</a> are
-        generating in-toto metadata so you can check your Debian packages were
-        built reproducibly when using <a
-        href=\"https://github.com/in-toto/apt-transport-in-toto\">apt</a>. We
-        welcome you to download the in-toto instructions, which includes a <a
-        href=\"https://github.com/in-toto/demo/\">demo version</a> of our
-        software, or to clone our <a
-        href=\"https://github.com/in-toto/in-toto/\">repository</a> and follow
-        the directions to integrate in-toto into your software project!"
         people:
             - *santiago_torres
             - *lukas_puhringer
@@ -856,19 +789,6 @@ projects:
             lets you use new cryptographic algorithms (SHA256, etc.), protects
             against other attacks Git is vulnerable to, and more — all while being
             backwards compatible with GitHub, GitLab, etc."
-        products: "gittuf is an incubating project at the Open Source Security
-        Foundation (OpenSSF) as part of the Supply Chain Integrity Working
-        Group."
-        people:
-            - *aditya_sirish
-            - *patrick_zielinski
-            - name: "Billy Lynch (Chainguard)"
-              link: "https://github.com/wlynch"
-            - *neil_naveen
-            - *yongjae_chung
-            - name: "Reza Curtmola (NJIT)"
-              link: "https://cs.njit.edu/people/curtmola/"
-            - *justin_cappos
         tags:
             - *security
 
@@ -915,15 +835,6 @@ projects:
             enhance software resilience by leveraging the Lind sandbox and Intel
             SGX to create highly secure computing environments for critical
             operations."
-        products: ""
-        people:
-            - *yaxuan_wen
-            - *yuchen_zhang
-            - name: "Marcela Melara (Intel)"
-              link: "https://masomel.github.io/index.html"
-            - name: "John Kjell (TestifySec)"
-              link: "https://www.linkedin.com/"
-            - *justin_cappos
         tags:
             - *security
 
@@ -942,19 +853,6 @@ projects:
             objective of TAF is to ensure that documents stored in Git repositories
             remain accessible and verifiable, not just in the immediate future, but
             for decades and even centuries to come."
-        products: "TAF is already being used by about a dozen governments,
-        including the <a href=\"https://github.com/DCCouncil\">District of
-        Columbia</a>, Baltimore, and <a href=\"https://www.newswise.com/articles/maryland-becomes-first-state-to-use-nyu-tandon-developed-technology-to-secure-regulations-from-cyberattacks/?sc=rsbn\">the State of Maryland</a> to secure their laws. It is also used by a
-        variety of law libraries. For more information visit the <a
-        href=\"https://github.com/openlawlibrary/taf\">project's site</a>."
-        people:
-            - *renata_vaderna
-            - *patrick_zielinski
-            - name: "Dusan Nikolic (Open Law Library)"
-              link: "https://github.com/n-dusan"
-            - name: "David Greisen (Open Law Library)"
-              link: "https://github.com/dgreisen"
-            - *justin_cappos
         tags:
             - *security
 
@@ -971,26 +869,6 @@ projects:
             look to build a firm empirical foundation for reducing code confusion in
             software development and, thus, also reduce the frequency of buggy and
             malfunctioning programs."
-        products: "The <a href=\"https://atomsofconfusion.com\">project
-        website</a> provides background on our theory, studies, and analysis for
-        this work. We make all of our <a
-        href=\"http://atomsofconfusion.com/experiments.html\">study materials
-        and anonymized data</a> openly available so that other researchers can
-        replicate, validate, and build on our findings. Our results have been
-        used to fix bugs in a variety of software projects, including the <a
-        href=\"https://github.com/torvalds/linux/commit/7aa92c4229fefff0cab6930cf977f4a0e3e606d8\">linux
-        kernel</a>."
-        people:
-            - *dan_gopstein
-            - *lois_delong
-            - name: Phyllis Frankl
-              link: "http://engineering.nyu.edu/people/phyllis-frankl"
-            - name: April Yu Yan (UCSD)
-            - name: Martin Yeh (PSU)
-              link: "http://martinyeh.com/"
-            - *renata_vaderna
-            - *yanyan_zhuang
-            - *justin_cappos
         tags:
             - *software_engineering
 
@@ -1012,14 +890,6 @@ projects:
             shows that CacheCash scales to meet the workload of even the most popular
             services used today. By building CacheCash, we intend to change CDNs by
             more readily and pervasively including end-user served content."
-        products: "We are in stealth mode! If you want to be contacted when we
-        publicly release, please send an email to <a
-        href=\"mailto:cachecash@googlegroups.com\">cachecash@googlegroups.com</a>."
-        people:
-            - *ghada_almashaqbeh
-            - name: "Allison Bishop Lewko"
-              link: "http://www.cs.columbia.edu/~allison"
-            - *justin_cappos
         tags:
             - *security
             - *cryptography
@@ -1041,18 +911,6 @@ projects:
             access basic system requests—are much less likely to contain
             vulnerabilities. This limited kernel access reduces the possibility of
             interaction with flawed code."
-        products: "We are in stealth mode!  If you want to be contacted when we
-        publicly release, please send an email to <a
-        href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
-        people:
-            - *nick_renner
-            - *vidya_lakshmi_rajagopalan
-            - *yaxuan_wen
-            - *yiwen_li
-            - *justin_cappos
-            - *sanchit_sahay
-            - name: "Brendan Dolan-Gavitt"
-              link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
             - *security
             - *systems
@@ -1075,11 +933,6 @@ projects:
               project governance with well-defined maintainer and contribution
               processes, and encourages high documentation standards, including
               comprehensive READMEs, changelogs, and support guidance."
-          products: ""
-          people:
-              - *justin_cappos
-              - *marco_de_vincenzi
-              - *ann_malavet
           tags:
               - *security
               - *testing_tools
@@ -1099,9 +952,6 @@ projects:
              sanitization functions to limit data exposure, and ensures least-privilege access to MCP tools. 
              Unlike traditional information flow control systems, ShardGuard avoids complex labeling and taint 
              tracking, offering a more practical yet effective path to safe LLM-driven automation."
-          products: ""
-          people:
-              - *justin_cappos
           tags:
               - *security
 
@@ -1117,16 +967,6 @@ projects:
           deployment. The program enables software developers to identify
           vulnerabilities in product designs long before they are packaged and
           released."
-        products: "We are in stealth mode!  If you want to be contacted when we
-        publicly release, please email <a
-        href=\"mailto:crashsimulator@googlegroups.com\">crashsimulator@googlegroups.com</a>."
-        people:
-            - *preston_moore
-            - *justin_cappos
-            - name: "Phyllis Frankl"
-              link: "http://engineering.nyu.edu/people/phyllis-frankl"
-            - name: "Thomas Wies"
-              link: "https://cs.nyu.edu/wies/"
         tags:
             - *software_engineering
             - *testing_tools
@@ -1146,12 +986,6 @@ projects:
             are forced to crack passwords in sets. This increases the attackers’
             level of difficulty, making a PolyPasswordHasher-enabled database very
             hard to breach, even for an adversary with millions of computers."
-        products: "PPH is used in several projects, including the Seattle
-        Clearinghouse and BioBank. PPH has implementations available in seven languages,
-        including <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Java\">Java</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher/tree/master/python-reference-implementation\">Python</a>, <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-C\">C</a>, and <a href=\"https://github.com/PolyPasswordHasher/PolyPasswordHasher-Ruby\">Ruby</a>. Easy to integrate PPH libraries, such as the <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\"> Pluggable Authentication Module (PAM)</a>, are also available for a number of operating systems, including Linux and OS X."
-        people:
-            - *santiago_torres
-            - *justin_cappos
         tags:
             - *cryptography
             - *security
@@ -1169,21 +1003,6 @@ projects:
             (and acquire) computing resources from their desktop, laptop, or smartphone
             in the same manner as with cloud computing.  Seattle is used by educators,
             and for software development and research by thousands of people around the world."
-        products: "Seattle is used by thousands of developers and has been
-        installed on tens of thousands of devices.  Our website contains
-        information and links to <a
-        href=\"https://seattle.poly.edu/html/education.html\">educational
-        modules</a>, and a <a
-        href=\"https://seattleclearinghouse.poly.edu/html/login\">clearinghouse</a>
-        of available resources for those who wish to download and use the
-        Seattle program, or to <a
-        href=\"https://seattleclearinghouse.poly.edu/download/flibble/\">donate</a>
-        some computing power on their device for research purposes."
-        people:
-            - *albert_rafetseder
-            - *lukas_puhringer
-            - *sebastien_awwad
-            - *justin_cappos
         tags:
             - *security
             - *networking
@@ -1202,22 +1021,6 @@ projects:
           Sensibility also has additional security protections that ensure the
           safety of the device, while giving researchers access to unique
           information."
-        products: "We have had four years of hack-a-thons, where teams compete
-        to build the best application for Sensibility. <a
-        href=\"https://play.google.com/store/apps/details?id=com.sensibility_testbed\">Install
-        our Android app</a> or learn more by <a
-        href=\"https://seattlesensor.wordpress.com/\">visiting our project's
-        blog</a>!"
-        people:
-            - *albert_rafetseder
-            - *yanyan_zhuang
-            - name: "Yu Hu"
-            - name: "Richard Weiss"
-              link: "http://evergreen.edu/directory/people/weissr"
-            - name: "Leon Reznik"
-              link: "https://www.cs.rit.edu/people/faculty/lr"
-            - *lukas_puhringer
-            - *justin_cappos
         tags:
             - *testbeds
             - *privacy
@@ -1235,21 +1038,6 @@ projects:
             created by the misunderstanding of APIs by developers. In particular,
             we are looking for security-related blind spots in popular Java and
             Python APIs as a way to more holistically find and address bugs."
-        products: "We are in stealth mode!  If you want to be contacted when we
-        publicly release, please email <a
-        href=\"mailto:blindspots@googlegroups.com\">blindspots@googlegroups.com</a>."
-        people:
-            - *justin_cappos
-            - *lois_delong
-            - name: "Daniela Oliviera (UF)"
-              link: "http://www.daniela.ece.ufl.edu/Home.html"
-            - name: "Eliany Perez (UF)"
-            - name: "Sajidur Rahman (UF)"
-            - name: "Natalie Ebner (UF)"
-              link: "http://www.psych.ufl.edu/~ebner/"
-            - name: "Tian Lin (UF)"
-            - name: "Yuriy Brun (UMass-Amherst)"
-              link: "https://people.cs.umass.edu/~brun/"
         tags:
             - *software_engineering
 
@@ -1269,22 +1057,6 @@ projects:
             a network model, syscalls that deviate from expected network semantics
             can be identified. In return, these deviations can be mapped to a
             diagnosis by using a set of heuristics."
-        products: "NetCheck identified a wide array of networking bugs in
-        different projects, including in <a
-        href=\"http://bugs.python.org/issue7995\">Python</a>. The code for <a
-        href=\"https://netcheck.poly.edu/projects/project#TheNetChecktool\">NetCheck</a>
-        is available. However, it is worth reading our <a
-        href=\"/blog/2017-04-10-netcheck-blog-post\">blog</a> first to learn
-        about our experiences."
-        people:
-            - *yanyan_zhuang
-            - name: "Eleni Gessiou"
-            - name: "Steven Portzer"
-            - name: "Fraida Fund"
-            - name: "Monzur Muhammad"
-            - name: "Ivan Beschastnikh (UBC)"
-              link: "https://www.cs.ubc.ca/~bestchai/"
-            - *justin_cappos
         tags:
             - *software_engineering
             - *testing_tools
@@ -1302,13 +1074,6 @@ projects:
             potentially could be requested, the user's preferences—and any
             assumptions that could be deduced from those preferences—remain
             hidden."
-        products: "The prototype code for this project is available at its <a
-        href=\"https://github.com/trishankkarthik/multiblockpir\">github
-        repository</a>."
-        people:
-            - *luqin_wang
-            - *trishank_kuppusamy
-            - *justin_cappos
         tags:
             - *security
             - *cryptography
@@ -1329,17 +1094,6 @@ projects:
             such as firewalls, multiple Antivirus scanners, IDSs, and IPSs.
             However, VSN can guarantee lower costs for management, and better
             performance for its end users."
-        products: "This <a
-        href=\"https://www.google.com/patents/US9246929\">patented technique</A>
-        and its source code are available on the project <a
-        href=\"https://vsn.poly.edu\">web site</a>."
-        people:
-            - *sai_peddinti
-            - name: "Keith Ross"
-              link: "http://engineering.nyu.edu/people/keith-w-ross"
-            - name: "Nasir Memon"
-              link: "http://engineering.nyu.edu/people/nasir-memon"
-            - *justin_cappos
         tags:
             - *security
             - *networking
