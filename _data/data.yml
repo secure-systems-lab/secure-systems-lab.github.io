@@ -562,6 +562,15 @@ people:
           site: "http://annmalavet.com"
           interests: "Systems security, cryptocurrency fraud, AI application security"
 
+      - &sean_kim
+          name: "Sihoon (Sean) Kim"
+          anchor: sean_kim
+          internal: true
+          role: "Undergraduate Student"
+          since: 2025
+          photo: "/img/people/sihoon-kim.jpg"
+          interests: "Systems security, embedded systems"
+
   ################################################
       
     people_cards:
@@ -597,6 +606,7 @@ people:
           - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
+          - *sean_kim
 
       - type: Alumni
         anchor: alumni
