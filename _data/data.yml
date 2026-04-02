@@ -562,6 +562,15 @@ people:
           site: "http://annmalavet.com"
           interests: "Systems security, cryptocurrency fraud, AI application security"
 
+      - &sean_kim
+          name: "Sihoon (Sean) Kim"
+          anchor: sean_kim
+          internal: true
+          role: "Undergraduate Student"
+          since: 2025
+          photo: "/img/people/sihoon-kim.jpg"
+          interests: "Systems security, embedded systems"
+
   ################################################
       
     people_cards:
@@ -574,6 +583,12 @@ people:
       #   anchor: staff
       #   people:
 
+      - type: "Postdocs"
+        anchor: postdocs
+        people:
+          - *vidya_lakshmi_rajagopalan
+          - *marco_de_vincenzi
+
       - type: "PhD. Students"
         anchor: phd
         people:         
@@ -581,12 +596,6 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
-          
-      - type: "Postdocs"
-        anchor: postdocs
-        people:
-          - *vidya_lakshmi_rajagopalan
-          - *marco_de_vincenzi
           
       - type: "Other Students"
         anchor: otherstudents
@@ -597,6 +606,7 @@ people:
           - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
+          - *sean_kim
 
       - type: Alumni
         anchor: alumni
@@ -716,6 +726,7 @@ projects:
             - *trishank_kuppusamy
             - *vlad_diaz
             - *lukas_puhringer
+            - *marco_de_vincenzi
             - *justin_cappos
         tags:
         - *software_updates
@@ -860,6 +871,35 @@ projects:
             - *justin_cappos
         tags:
             - *security
+
+    - &sbomit
+            name: "SBOMit"
+            anchor: "sbomit"
+            image: "/img/projects/sbomit_logo.jpg"
+            status: *starting
+            site:
+            description:
+              - "SBOMit is a supply-chain security framework that generates accurate
+                SBOMs directly from in-toto attestations, ensuring that component
+                inventories reflect the real dependencies used during the build
+                process. SBOMit leverages the witness tool to capture build-time
+                filesystem, process, and execution events, and converts these
+                authenticated provenance records into a complete, verifiable SBOM. 
+                SBOMit produces a cryptographically verifiable SBOM enriched with
+                build-time dependency discovery captured from attestations, including
+                files, processes, and generated artifacts, as well as network-based
+                insights that identify dependencies retrieved dynamically during
+                execution. Each element is backed by authenticated in-toto
+                provenance, enabling strong guarantees for verification,
+                reproducibility, and policy enforcement."
+            products: ""
+            people:
+                - *yuchen_zhang
+                - *sanchit_sahay
+                - *justin_cappos
+            tags:
+                - *software_updates
+
     - &jot
         name: "Just One Turtle"
         anchor: "just-one-turtle"
@@ -1006,6 +1046,7 @@ projects:
         href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
         people:
             - *nick_renner
+            - *vidya_lakshmi_rajagopalan
             - *yaxuan_wen
             - *yiwen_li
             - *justin_cappos
@@ -1015,6 +1056,54 @@ projects:
         tags:
             - *security
             - *systems
+    - &darnit
+          name: "Darnit"
+          anchor: "darnit"
+          status: *stealth
+          site:
+          description:
+            - "Darnit is a pluggable compliance audit framework that helps projects
+              conform to software engineering best practices. It provides
+              infrastructure for running compliance audits, generating
+              cryptographic attestations, and automating remediation workflows. 
+              While security is a central focus, Darnit addresses the broader
+              spectrum of software quality by encompassing areas such as
+              vulnerability management, access controls, and threat modeling,
+              alongside strong testing practices like code reviews, CI/CD quality
+              gates, and test coverage. It also emphasizes build reproducibility
+              through artifact signing and dependency pinning, promotes clear
+              project governance with well-defined maintainer and contribution
+              processes, and encourages high documentation standards, including
+              comprehensive READMEs, changelogs, and support guidance."
+          products: ""
+          people:
+              - *justin_cappos
+              - *marco_de_vincenzi
+              - *ann_malavet
+          tags:
+              - *security
+              - *testing_tools
+
+    - &shardguard
+          name: "ShardGuard"
+          anchor: "shardGuard"
+          status: *stealth
+          site:
+          description:
+            - "ShardGuard is a proof-of-concept system designed to secure Model-Context Protocol (MCP) 
+            workflows in the presence of untrusted LLMs. While LLMs offer powerful automation capabilities 
+            across sensitive user contexts like email, calendars, and financial services, they also pose significant risks,
+             including prompt injection, data exfiltration, and unauthorized tool usage. 
+             ShardGuard tackles this by isolating execution into fine-grained, privacy-preserving steps coordinated by 
+             a trusted service. It leverages a trusted planning LLM to decompose tasks, uses opaque values and 
+             sanitization functions to limit data exposure, and ensures least-privilege access to MCP tools. 
+             Unlike traditional information flow control systems, ShardGuard avoids complex labeling and taint 
+             tracking, offering a more practical yet effective path to safe LLM-driven automation."
+          products: ""
+          people:
+              - *justin_cappos
+          tags:
+              - *security
 
     - &crashsimulator
         name: "CrashSimulator"
@@ -1262,8 +1351,11 @@ projects:
     - *in-toto
     - *gittuf
     - *taf
+    - *sbomit
     - *jot
     - *lind
+    - *darnit
+    - *shardguard
     - *crashsimulator
     - *atoms
     - *cachecash
