@@ -48,8 +48,6 @@ project:
     site: str(required=False)
     status: include('status')
     description: list(str())
-    products: str()
-    people: list(any(include('person'), include('proj_person')))
     tags: list(include('tag'))
 
 proj_person:
