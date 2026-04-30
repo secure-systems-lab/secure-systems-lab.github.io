@@ -14,6 +14,8 @@ people:
           photo: "/img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "EuroS&P 2026"
+              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
             - name: "NDSS 2026"
               link: "/papers/vaderna_taf_ndss_2026.pdf"
             - name: "NDSS 2025"
@@ -356,6 +358,8 @@ people:
           site: "https://saky.in/"
           interests: "Internet privacy, systems security"
           publications:      
+            - name: "EuroS&P 2026"
+              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
             - name: "NDSS 2025"
               link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
             - name: "VehicleSec 2024"
@@ -430,6 +434,8 @@ people:
             photo: "/img/people/patrick_zielinski.jpg"
             interests: "Distributed systems, version control systems, and cryptography"
             publications:
+              - name: "EuroS&P 2026"
+                link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
               - name: "NDSS 2026"
                 link: "/papers/vaderna_taf_ndss_2026.pdf"
               - name: "VehicleSec 2025"
@@ -1375,6 +1381,56 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
+    - &yelgundhalli_sourcefabric_eurosp2026
+      anchor: yelgundhalli_sourcefabric_eurosp2026
+      title: "SourceFabric: Consistent and Scalable Security Policies for Git Repositories"
+      authors:
+        - name: "A.S.A. Yelgundhalli, P. Zielinski, M. Marcela, D. Roellke, R. Curtmola, J. Cappos"
+      project: *gittuf
+      booktitle: "11th IEEE European Symposium on Security and Privacy"
+      year: "2026"
+      pages: ""
+      publisher: "IEEE"
+      link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
+      abstract: "A company's software is often developed across many
+                repositories, with large companies utilizing tens or hundreds of
+                thousands of Git repositories. The current approach to enforcing
+                security policies across these repositories (such as
+                multi-factor authentication, secret scanning, and branch
+                protection) is to use grouping constructs provided by forges
+                like GitHub, GitLab, and BitBucket. However, these solutions
+                impose a policy management burden, resulting in misconfigured,
+                inconsistent, and outdated security policies across different
+                repositories and groups.
+
+                We introduce SourceFabric, an open source system that enables
+                consistent and updated policies across a company's myriad
+                repositories through scalable and secure cross-repository policy
+                reuse. SourceFabric modularizes security policies, allowing
+                companies to define flexible security policies that can be
+                reused by appropriate company repositories. In doing so,
+                SourceFabric meets specific design and security requirements.
+                First, SourceFabric ensures that a repository's effective
+                security policy is complete and sound, i.e. all required
+                policies are applied and no extraneous policies are applied.
+                This is necessary to prevent a repository's policy from being
+                overly restrictive or overly permissive. Second, SourceFabric
+                ensures that the parties responsible for managing the reused
+                security policies can update them as needed, without being
+                constrained by factors such as the number of repositories
+                reusing the policy or other policies reused alongside the
+                updated policy. SourceFabric also automatically updates a
+                repository's reused policies to ensure they do not grow stale.
+                Finally, SourceFabric enables verifiability and auditability of
+                reused policies, preventing attacks such as policy equivocation
+                and untrusted policy issuers.
+                
+                SourceFabric was created by a team of academic and industry
+                practitioners to address an acute, real-world policy management
+                need. SourceFabric has been upstreamed into production within
+                the popular OpenSSF project, SourceFabric, and is being piloted
+                at Bloomberg."
 
     - &vaderna_taf_ndss26
       anchor: vaderna_taf_ndss26
@@ -3104,6 +3160,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *yelgundhalli_sourcefabric_eurosp2026
         - *vaderna_taf_ndss26
         - *yelgundhalli_gittuf_ndss_2025
         - *covsbom_issre_2024
