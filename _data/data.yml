@@ -584,8 +584,8 @@ people:
           role: "Research Assistant"
           since: 2026
           photo: "/img/people/uk-jang.png"
-          interests: "Operating systems, cybersecurity"
-
+          interests: "Operating systems, Cybersecurity"
+          
   ################################################
       
     people_cards:
@@ -622,6 +622,7 @@ people:
           - *aaditya_rengarajan
           - *naman_badlani
           - *sean_kim
+          - *uk_jang
 
       - type: Alumni
         anchor: alumni
@@ -934,6 +935,7 @@ projects:
         people:
             - *yaxuan_wen
             - *yuchen_zhang
+            - *uk_jang
             - name: "Marcela Melara (Intel)"
               link: "https://masomel.github.io/index.html"
             - name: "John Kjell (TestifySec)"
@@ -1066,6 +1068,7 @@ projects:
             - *yiwen_li
             - *justin_cappos
             - *sanchit_sahay
+            - *uk_jang
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
