@@ -576,6 +576,15 @@ people:
           since: 2025
           photo: "/img/people/sihoon-kim.jpg"
           interests: "Systems security, embedded systems"
+      
+      - &uk_jang
+          name: "Uk (Jake) Jang"
+          anchor: uk_jang
+          internal: true
+          role: "Research Assistant"
+          since: 2026
+          photo: "/img/people/uk-jang.png"
+          interests: "Operating systems, cybersecurity"
 
   ################################################
       
