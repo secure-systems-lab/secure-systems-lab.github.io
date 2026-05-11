@@ -913,6 +913,7 @@ projects:
                 - *yuchen_zhang
                 - *sanchit_sahay
                 - *justin_cappos
+                - *uk_jang
             tags:
                 - *software_updates
 
@@ -935,7 +936,6 @@ projects:
         people:
             - *yaxuan_wen
             - *yuchen_zhang
-            - *uk_jang
             - name: "Marcela Melara (Intel)"
               link: "https://masomel.github.io/index.html"
             - name: "John Kjell (TestifySec)"
