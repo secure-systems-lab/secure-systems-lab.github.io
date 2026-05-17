@@ -14,6 +14,8 @@ people:
           photo: "/img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "EuroS&P 2026"
+              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
             - name: "NDSS 2026"
               link: "/papers/vaderna_taf_ndss_2026.pdf"
             - name: "NDSS 2025"
@@ -356,6 +358,8 @@ people:
           site: "https://saky.in/"
           interests: "Internet privacy, systems security"
           publications:      
+            - name: "EuroS&P 2026"
+              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
             - name: "NDSS 2025"
               link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
             - name: "VehicleSec 2024"
@@ -430,6 +434,8 @@ people:
             photo: "/img/people/patrick_zielinski.jpg"
             interests: "Distributed systems, version control systems, and cryptography"
             publications:
+              - name: "EuroS&P 2026"
+                link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
               - name: "NDSS 2026"
                 link: "/papers/vaderna_taf_ndss_2026.pdf"
               - name: "VehicleSec 2025"
@@ -562,6 +568,24 @@ people:
           site: "http://annmalavet.com"
           interests: "Systems security, cryptocurrency fraud, AI application security"
 
+      - &sean_kim
+          name: "Sihoon (Sean) Kim"
+          anchor: sean_kim
+          internal: true
+          role: "Undergraduate Student"
+          since: 2025
+          photo: "/img/people/sihoon-kim.jpg"
+          interests: "Systems security, embedded systems"
+      
+      - &uk_jang
+          name: "Uk (Jake) Jang"
+          anchor: uk_jang
+          internal: true
+          role: "Research Assistant"
+          since: 2026
+          photo: "/img/people/uk-jang.png"
+          interests: "Operating systems, Cybersecurity"
+          
   ################################################
       
     people_cards:
@@ -574,6 +598,12 @@ people:
       #   anchor: staff
       #   people:
 
+      - type: "Postdocs"
+        anchor: postdocs
+        people:
+          - *vidya_lakshmi_rajagopalan
+          - *marco_de_vincenzi
+
       - type: "PhD. Students"
         anchor: phd
         people:         
@@ -581,12 +611,6 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
-          
-      - type: "Postdocs"
-        anchor: postdocs
-        people:
-          - *vidya_lakshmi_rajagopalan
-          - *marco_de_vincenzi
           
       - type: "Other Students"
         anchor: otherstudents
@@ -597,6 +621,8 @@ people:
           - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
+          - *sean_kim
+          - *uk_jang
 
       - type: Alumni
         anchor: alumni
@@ -716,6 +742,7 @@ projects:
             - *trishank_kuppusamy
             - *vlad_diaz
             - *lukas_puhringer
+            - *marco_de_vincenzi
             - *justin_cappos
         tags:
         - *software_updates
@@ -860,6 +887,36 @@ projects:
             - *justin_cappos
         tags:
             - *security
+
+    - &sbomit
+            name: "SBOMit"
+            anchor: "sbomit"
+            image: "/img/projects/sbomit_logo.jpg"
+            status: *starting
+            site:
+            description:
+              - "SBOMit is a supply-chain security framework that generates accurate
+                SBOMs directly from in-toto attestations, ensuring that component
+                inventories reflect the real dependencies used during the build
+                process. SBOMit leverages the witness tool to capture build-time
+                filesystem, process, and execution events, and converts these
+                authenticated provenance records into a complete, verifiable SBOM. 
+                SBOMit produces a cryptographically verifiable SBOM enriched with
+                build-time dependency discovery captured from attestations, including
+                files, processes, and generated artifacts, as well as network-based
+                insights that identify dependencies retrieved dynamically during
+                execution. Each element is backed by authenticated in-toto
+                provenance, enabling strong guarantees for verification,
+                reproducibility, and policy enforcement."
+            products: ""
+            people:
+                - *yuchen_zhang
+                - *sanchit_sahay
+                - *justin_cappos
+                - *uk_jang
+            tags:
+                - *software_updates
+
     - &jot
         name: "Just One Turtle"
         anchor: "just-one-turtle"
@@ -1006,15 +1063,65 @@ projects:
         href=\"mailto:lind-dev@googlegroups.com\">lind-dev@googlegroups.com</a>."
         people:
             - *nick_renner
+            - *vidya_lakshmi_rajagopalan
             - *yaxuan_wen
             - *yiwen_li
             - *justin_cappos
             - *sanchit_sahay
+            - *uk_jang
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
             - *security
             - *systems
+    - &darnit
+          name: "Darnit"
+          anchor: "darnit"
+          status: *stealth
+          site:
+          description:
+            - "Darnit is a pluggable compliance audit framework that helps projects
+              conform to software engineering best practices. It provides
+              infrastructure for running compliance audits, generating
+              cryptographic attestations, and automating remediation workflows. 
+              While security is a central focus, Darnit addresses the broader
+              spectrum of software quality by encompassing areas such as
+              vulnerability management, access controls, and threat modeling,
+              alongside strong testing practices like code reviews, CI/CD quality
+              gates, and test coverage. It also emphasizes build reproducibility
+              through artifact signing and dependency pinning, promotes clear
+              project governance with well-defined maintainer and contribution
+              processes, and encourages high documentation standards, including
+              comprehensive READMEs, changelogs, and support guidance."
+          products: ""
+          people:
+              - *justin_cappos
+              - *marco_de_vincenzi
+              - *ann_malavet
+          tags:
+              - *security
+              - *testing_tools
+
+    - &shardguard
+          name: "ShardGuard"
+          anchor: "shardGuard"
+          status: *stealth
+          site:
+          description:
+            - "ShardGuard is a proof-of-concept system designed to secure Model-Context Protocol (MCP) 
+            workflows in the presence of untrusted LLMs. While LLMs offer powerful automation capabilities 
+            across sensitive user contexts like email, calendars, and financial services, they also pose significant risks,
+             including prompt injection, data exfiltration, and unauthorized tool usage. 
+             ShardGuard tackles this by isolating execution into fine-grained, privacy-preserving steps coordinated by 
+             a trusted service. It leverages a trusted planning LLM to decompose tasks, uses opaque values and 
+             sanitization functions to limit data exposure, and ensures least-privilege access to MCP tools. 
+             Unlike traditional information flow control systems, ShardGuard avoids complex labeling and taint 
+             tracking, offering a more practical yet effective path to safe LLM-driven automation."
+          products: ""
+          people:
+              - *justin_cappos
+          tags:
+              - *security
 
     - &crashsimulator
         name: "CrashSimulator"
@@ -1262,8 +1369,11 @@ projects:
     - *in-toto
     - *gittuf
     - *taf
+    - *sbomit
     - *jot
     - *lind
+    - *darnit
+    - *shardguard
     - *crashsimulator
     - *atoms
     - *cachecash
@@ -1283,6 +1393,56 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
+    - &yelgundhalli_sourcefabric_eurosp2026
+      anchor: yelgundhalli_sourcefabric_eurosp2026
+      title: "SourceFabric: Consistent and Scalable Security Policies for Git Repositories"
+      authors:
+        - name: "A.S.A. Yelgundhalli, P. Zielinski, M. Marcela, D. Roellke, R. Curtmola, J. Cappos"
+      project: *gittuf
+      booktitle: "11th IEEE European Symposium on Security and Privacy"
+      year: "2026"
+      pages: ""
+      publisher: "IEEE"
+      link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
+      abstract: "A company's software is often developed across many
+                repositories, with large companies utilizing tens or hundreds of
+                thousands of Git repositories. The current approach to enforcing
+                security policies across these repositories (such as
+                multi-factor authentication, secret scanning, and branch
+                protection) is to use grouping constructs provided by forges
+                like GitHub, GitLab, and BitBucket. However, these solutions
+                impose a policy management burden, resulting in misconfigured,
+                inconsistent, and outdated security policies across different
+                repositories and groups.
+
+                We introduce SourceFabric, an open source system that enables
+                consistent and updated policies across a company's myriad
+                repositories through scalable and secure cross-repository policy
+                reuse. SourceFabric modularizes security policies, allowing
+                companies to define flexible security policies that can be
+                reused by appropriate company repositories. In doing so,
+                SourceFabric meets specific design and security requirements.
+                First, SourceFabric ensures that a repository's effective
+                security policy is complete and sound, i.e. all required
+                policies are applied and no extraneous policies are applied.
+                This is necessary to prevent a repository's policy from being
+                overly restrictive or overly permissive. Second, SourceFabric
+                ensures that the parties responsible for managing the reused
+                security policies can update them as needed, without being
+                constrained by factors such as the number of repositories
+                reusing the policy or other policies reused alongside the
+                updated policy. SourceFabric also automatically updates a
+                repository's reused policies to ensure they do not grow stale.
+                Finally, SourceFabric enables verifiability and auditability of
+                reused policies, preventing attacks such as policy equivocation
+                and untrusted policy issuers.
+                
+                SourceFabric was created by a team of academic and industry
+                practitioners to address an acute, real-world policy management
+                need. SourceFabric has been upstreamed into production within
+                the popular OpenSSF project, SourceFabric, and is being piloted
+                at Bloomberg."
 
     - &vaderna_taf_ndss26
       anchor: vaderna_taf_ndss26
@@ -3012,6 +3172,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *yelgundhalli_sourcefabric_eurosp2026
         - *vaderna_taf_ndss26
         - *yelgundhalli_gittuf_ndss_2025
         - *covsbom_issre_2024
