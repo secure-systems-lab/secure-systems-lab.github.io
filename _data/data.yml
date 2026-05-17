@@ -920,6 +920,7 @@ projects:
     - &jot
         name: "Just One Turtle"
         anchor: "just-one-turtle"
+        image: "/img/projects/jot-logo.png"
         status: *starting
         site:
         description:
@@ -1046,7 +1047,7 @@ projects:
     - &lind
         name: "Lind"
         anchor: "lind"
-        image: "/img/projects/lind_diagram.jpg"
+        image: "/img/projects/lind-logo.png"
         status: *starting
         site:
         description:
