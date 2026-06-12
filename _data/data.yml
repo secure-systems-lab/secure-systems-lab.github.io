@@ -514,11 +514,11 @@ people:
             name: "Sanchit Sahay"
             anchor: sanchit_sahay
             internal: true 
-            role: "Master's student"
+            role: "Ph.D. Student"
             since: 2025
             photo: "/img/people/sanchit_sahay.jpg"
-            interests: "Operating Systems, Systems Software"
-            site: "https://stupendoussuperpowers.github.io"
+            interests: "Build Observability, Operating Systems, Systems Software"
+            site: "https://www.sahaysanchit.com"
 
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
@@ -611,14 +611,13 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
-          
+          - *sanchit_sahay
       - type: "Other Students"
         anchor: otherstudents
         people:
           - *neil_naveen
           - *yongjae_chung
           - *ziyi_xu
-          - *sanchit_sahay
           - *aaditya_rengarajan
           - *naman_badlani
           - *sean_kim
