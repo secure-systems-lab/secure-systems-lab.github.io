@@ -510,6 +510,15 @@ people:
             photo: "/img/people/ziyi_xu.jpg"
             interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
 
+      - &qianxi_chen
+            name: "Qianxi Chen"
+            anchor: qianxi_chen
+            internal: true
+            role: "Ph.D. Student"
+            since: 2025
+            photo: "/img/people/qianxi_chen.jpg"
+            interests: "Operating systems, system security, and distributed systems"
+
       - &sanchit_sahay
             name: "Sanchit Sahay"
             anchor: sanchit_sahay
@@ -611,6 +620,7 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
+          - *qianxi_chen
           - *sanchit_sahay
       - type: "Other Students"
         anchor: otherstudents
@@ -1068,6 +1078,7 @@ projects:
             - *yiwen_li
             - *justin_cappos
             - *sanchit_sahay
+            - *qianxi_chen
             - *uk_jang
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
