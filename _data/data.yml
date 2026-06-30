@@ -365,27 +365,6 @@ people:
             - name: "VehicleSec 2024"
               link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
-      - &aaditya_rengarajan
-          name: "Aaditya Rengarajan"
-          anchor: aaditya_rengarajan
-          site: "https://aaditya.intellx.in/"
-          internal: true
-          role: "Master's student"
-          since: 2025
-          photo: "/img/people/aaditya_rengarajan.png"
-          interests: "Cybersecurity, Network Security, Cyber Threat Intelligence, Dark Web Monitoring, Privacy-Preserving Machine Learning, AI in Cybersecurity, Offensive Security, Malware Classification, Cloud Storage Security, Incident Response, Dynamic Policy Adjustment"
-          publications:
-            - name: "ICDSCNC 2024"
-              link: "https://doi.org/10.1109/ICDSCNC62492.2024.10939481"
-            - name: "PuneCon 2024"
-              link: "https://doi.org/10.1109/PuneCon63413.2024.10895282"
-            - name: "ICAMAC 2024"
-              link: "https://doi.org/10.1109/ICAMAC62387.2024.10828750" 
-            - name: "CVMI 2024"
-              link: "https://doi.org/10.1109/CVMI61877.2024.10782249"  
-            - name: "ICHPIC 2023"
-              link: "https://psgcare.org/wp-content/uploads/2023/06/ICHPIC-Souvenir-with-ISBN.pdf#page=63"
-      
       - &naman_badlani
           name: "Naman Badlani"
           anchor: naman_badlani
@@ -492,24 +471,6 @@ people:
             photo: "/img/people/neil_naveen.jpg"
             interests: "Security and algorithms"
 
-      - &yongjae_chung
-            name: "Yongjae Chung"
-            anchor: yongjae_chung
-            internal: true 
-            role: "Master's student"
-            since: 2024
-            photo: "/img/people/yongjae_chung.jpg"
-            interests: "Systems security, machine learning"
-
-      - &ziyi_xu
-            name: "Ziyi Xu"
-            anchor: ziyi_xu
-            internal: true 
-            role: "Master's student"
-            since: 2025
-            photo: "/img/people/ziyi_xu.jpg"
-            interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
-
       - &sanchit_sahay
             name: "Sanchit Sahay"
             anchor: sanchit_sahay
@@ -567,15 +528,6 @@ people:
           photo: "/img/people/ann_malavet.jpeg"
           site: "http://annmalavet.com"
           interests: "Systems security, cryptocurrency fraud, AI application security"
-
-      - &sean_kim
-          name: "Sihoon (Sean) Kim"
-          anchor: sean_kim
-          internal: true
-          role: "Undergraduate Student"
-          since: 2025
-          photo: "/img/people/sihoon-kim.jpg"
-          interests: "Systems security, embedded systems"
       
       - &uk_jang
           name: "Uk (Jake) Jang"
@@ -616,12 +568,8 @@ people:
         anchor: otherstudents
         people:
           - *neil_naveen
-          - *yongjae_chung
-          - *ziyi_xu
           - *sanchit_sahay
-          - *aaditya_rengarajan
           - *naman_badlani
-          - *sean_kim
           - *uk_jang
 
       - type: Alumni
@@ -742,7 +690,6 @@ projects:
             - *trishank_kuppusamy
             - *vlad_diaz
             - *lukas_puhringer
-            - *marco_de_vincenzi
             - *justin_cappos
         tags:
         - *software_updates
@@ -881,7 +828,6 @@ projects:
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
-            - *yongjae_chung
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - *justin_cappos
@@ -910,6 +856,7 @@ projects:
                 reproducibility, and policy enforcement."
             products: ""
             people:
+                - *marco_de_vincenzi
                 - *yuchen_zhang
                 - *sanchit_sahay
                 - *justin_cappos
