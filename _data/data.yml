@@ -471,15 +471,42 @@ people:
             photo: "/img/people/neil_naveen.jpg"
             interests: "Security and algorithms"
 
+      - &yongjae_chung
+            name: "Yongjae Chung"
+            anchor: yongjae_chung
+            internal: true 
+            role: "Master's student"
+            since: 2024
+            photo: "/img/people/yongjae_chung.jpg"
+            interests: "Systems security, machine learning"
+
+      - &ziyi_xu
+            name: "Ziyi Xu"
+            anchor: ziyi_xu
+            internal: true 
+            role: "Master's student"
+            since: 2025
+            photo: "/img/people/ziyi_xu.jpg"
+            interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
+
+      - &qianxi_chen
+            name: "Qianxi Chen"
+            anchor: qianxi_chen
+            internal: true
+            role: "Ph.D. Student"
+            since: 2025
+            photo: "/img/people/qianxi_chen.jpg"
+            interests: "Operating systems, system security, and distributed systems"
+
       - &sanchit_sahay
             name: "Sanchit Sahay"
             anchor: sanchit_sahay
             internal: true 
-            role: "Master's student"
+            role: "Ph.D. Student"
             since: 2025
             photo: "/img/people/sanchit_sahay.jpg"
-            interests: "Operating Systems, Systems Software"
-            site: "https://stupendoussuperpowers.github.io"
+            interests: "Build Observability, Operating Systems, Systems Software"
+            site: "https://www.sahaysanchit.com"
 
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
@@ -563,12 +590,15 @@ people:
           - *yaxuan_wen
           - *patrick_zielinski
           - *ann_malavet
-          
+          - *qianxi_chen
+          - *sanchit_sahay
       - type: "Other Students"
         anchor: otherstudents
         people:
           - *neil_naveen
-          - *sanchit_sahay
+          - *yongjae_chung
+          - *ziyi_xu
+          - *aaditya_rengarajan
           - *naman_badlani
           - *uk_jang
 
@@ -1016,6 +1046,7 @@ projects:
             - *yiwen_li
             - *justin_cappos
             - *sanchit_sahay
+            - *qianxi_chen
             - *uk_jang
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
