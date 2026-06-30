@@ -365,17 +365,6 @@ people:
             - name: "VehicleSec 2024"
               link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
-      - &naman_badlani
-          name: "Naman Badlani"
-          anchor: naman_badlani
-          internal: true
-          role: "Master's student"
-          since: 2025
-          photo: "/img/people/naman_badlani.jpg"
-          interests: "Cybersecurity, Vulnerability Assessment, Penetration Testing, Kernel Security, Privilege Escalation, LLM Security, Deepfake Audio Classification, Machine Learning, Computer Networks"
-          publications:
-            - name: "ICCES 2024"
-              link: "https://ieeexplore.ieee.org/document/10859322"
       - &renata_vaderna
             name: "Renata Vaderna"
             anchor: renata_vaderna
@@ -471,15 +460,6 @@ people:
             photo: "/img/people/neil_naveen.jpg"
             interests: "Security and algorithms"
 
-      - &yongjae_chung
-            name: "Yongjae Chung"
-            anchor: yongjae_chung
-            internal: true 
-            role: "Master's student"
-            since: 2024
-            photo: "/img/people/yongjae_chung.jpg"
-            interests: "Systems security, machine learning"
-
       - &ziyi_xu
             name: "Ziyi Xu"
             anchor: ziyi_xu
@@ -564,6 +544,15 @@ people:
           since: 2026
           photo: "/img/people/uk-jang.png"
           interests: "Operating systems, Cybersecurity"
+
+      - &sean_kim
+          name: "Sihoon (Sean) Kim"
+          anchor: sean_kim
+          internal: true
+          role: "Undergraduate Student"
+          since: 2026
+          photo: "/img/people/sihoon-kim.jpg"
+          interests: "Systems security, embedded systems"
           
   ################################################
       
@@ -596,9 +585,7 @@ people:
         anchor: otherstudents
         people:
           - *neil_naveen
-          - *yongjae_chung
-          - *ziyi_xu
-          - *naman_badlani
+          - *sean_kim
           - *uk_jang
 
       - type: Alumni
