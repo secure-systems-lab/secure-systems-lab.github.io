@@ -553,6 +553,16 @@ people:
           since: 2026
           photo: "/img/people/sihoon-kim.jpg"
           interests: "Systems security, embedded systems"
+
+      - &pratham_hegde
+          name: "Pratham Hegde"
+          anchor: pratham_hegde
+          internal: true
+          role: "Master's student"
+          since: 2026
+          photo: "/img/people/pratham_hegde.jpg"
+          site: "https://www.prathamhegde.com/"
+          interests: "Security, Cryptography"
           
   ################################################
       
@@ -584,6 +594,7 @@ people:
       - type: "Other Students"
         anchor: otherstudents
         people:
+          - *pratham_hegde
           - *neil_naveen
           - *sean_kim
           - *uk_jang
@@ -844,6 +855,7 @@ projects:
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
+            - *pratham_hegde
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - *justin_cappos
