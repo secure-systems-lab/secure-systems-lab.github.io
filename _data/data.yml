@@ -558,7 +558,7 @@ people:
           name: "Pratham Hegde"
           anchor: pratham_hegde
           internal: true
-          role: "Master's student"
+          role: "Master's Student"
           since: 2026
           photo: "/img/people/pratham_hegde.jpg"
           site: "https://www.prathamhegde.com/"
@@ -594,10 +594,10 @@ people:
       - type: "Other Students"
         anchor: otherstudents
         people:
-          - *pratham_hegde
           - *neil_naveen
           - *sean_kim
           - *uk_jang
+          - *pratham_hegde
 
       - type: Alumni
         anchor: alumni
