@@ -563,6 +563,16 @@ people:
           photo: "/img/people/pratham_hegde.jpg"
           site: "https://www.prathamhegde.com/"
           interests: "Security, Cryptography"
+      
+      - &shounak_ghosh
+          name: "Shounak Ghosh"
+          anchor: shounak_ghosh
+          internal: true
+          role: "Master's Student"
+          since: 2025
+          photo: "/img/people/shounak_ghosh.jpg"
+          site: "https://shounak-ghosh.github.io/"
+          interests: "Systems security, Distributed systems, AI application security"
           
   ################################################
       
@@ -598,6 +608,7 @@ people:
           - *sean_kim
           - *uk_jang
           - *pratham_hegde
+          - *shounak_ghosh
 
       - type: Alumni
         anchor: alumni
@@ -1046,6 +1057,7 @@ projects:
             - *sanchit_sahay
             - *qianxi_chen
             - *uk_jang
+            - *shounak_ghosh
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
