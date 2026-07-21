@@ -488,6 +488,15 @@ people:
             interests: "Build Observability, Operating Systems, Systems Software"
             site: "https://www.sahaysanchit.com"
 
+      - &mayank_gite
+            name: "Mayank Gite"
+            anchor: mayank_gite
+            internal: true
+            role: "Master's Student"
+            since: 2025
+            photo: "/img/people/mayank_gite.jpg"
+            interests: "System security, Operating systems"
+
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
             anchor: yuchen_zhang
@@ -609,6 +618,7 @@ people:
           - *uk_jang
           - *pratham_hegde
           - *shounak_ghosh
+          - *mayank_gite
 
       - type: Alumni
         anchor: alumni
@@ -1058,6 +1068,7 @@ projects:
             - *qianxi_chen
             - *uk_jang
             - *shounak_ghosh
+            - *mayank_gite
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
