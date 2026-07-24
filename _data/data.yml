@@ -488,6 +488,15 @@ people:
             interests: "Build Observability, Operating Systems, Systems Software"
             site: "https://www.sahaysanchit.com"
 
+      - &mayank_gite
+            name: "Mayank Gite"
+            anchor: mayank_gite
+            internal: true
+            role: "Master's Student"
+            since: 2025
+            photo: "/img/people/mayank_gite.jpg"
+            interests: "System security, Operating systems"
+
       - &yuchen_zhang
             name: "Yuchen (Dennis) Zhang"
             anchor: yuchen_zhang
@@ -553,6 +562,26 @@ people:
           since: 2026
           photo: "/img/people/sihoon-kim.jpg"
           interests: "Systems security, embedded systems"
+
+      - &pratham_hegde
+          name: "Pratham Hegde"
+          anchor: pratham_hegde
+          internal: true
+          role: "Master's Student"
+          since: 2026
+          photo: "/img/people/pratham_hegde.jpg"
+          site: "https://www.prathamhegde.com/"
+          interests: "Security, Cryptography"
+      
+      - &shounak_ghosh
+          name: "Shounak Ghosh"
+          anchor: shounak_ghosh
+          internal: true
+          role: "Master's Student"
+          since: 2025
+          photo: "/img/people/shounak_ghosh.jpg"
+          site: "https://shounak-ghosh.github.io/"
+          interests: "Systems security, Distributed systems, AI application security"
           
   ################################################
       
@@ -587,6 +616,9 @@ people:
           - *neil_naveen
           - *sean_kim
           - *uk_jang
+          - *pratham_hegde
+          - *shounak_ghosh
+          - *mayank_gite
 
       - type: Alumni
         anchor: alumni
@@ -844,6 +876,7 @@ projects:
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
+            - *pratham_hegde
             - name: "Reza Curtmola (NJIT)"
               link: "https://cs.njit.edu/people/curtmola/"
             - *justin_cappos
@@ -1034,6 +1067,8 @@ projects:
             - *sanchit_sahay
             - *qianxi_chen
             - *uk_jang
+            - *shounak_ghosh
+            - *mayank_gite
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
