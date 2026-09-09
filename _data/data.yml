@@ -600,6 +600,16 @@ people:
           photo: "/img/people/sahil_zunjarrao.png"
           site: "https://sahilzunjarrao.netlify.app/"
           interests: "Software supply chain security, systems security, application security"
+
+      - &moka_lu
+          name: "Moka Lu"
+          anchor: moka_lu
+          internal: true
+          role: "Undergraduate Student"
+          since: 2026
+          photo: "/img/people/moka_lu.jpg"
+          site: "https://github.com/ml9767-ops" 
+          interests: "Software supply chain security, Cryptography"
           
   ################################################
       
@@ -638,6 +648,7 @@ people:
           - *mayank_gite
           - *sahil_zunjarrao
           - *aavyan_kapoor
+          - *moka_lu
 
       - type: Alumni
         anchor: alumni
@@ -932,6 +943,7 @@ projects:
                 - *sanchit_sahay
                 - *justin_cappos
                 - *uk_jang
+                - *moka_lu
             tags:
                 - *software_updates
 
