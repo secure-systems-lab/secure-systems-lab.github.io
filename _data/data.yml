@@ -458,6 +458,15 @@ people:
             since: 2024
             photo: "/img/people/neil_naveen.jpg"
             interests: "Security and algorithms"
+            
+      - &aavyan_kapoor
+            name: "Aavyan Kapoor"
+            anchor: aavyan_kapoor
+            internal: true 
+            role: "High School Student"
+            since: 2026
+            photo: "/img/people/aavyan_kapoor.jpg"
+            interests: "AI Usage and System Security"
 
       - &ziyi_xu
             name: "Ziyi Xu"
@@ -591,6 +600,16 @@ people:
           photo: "/img/people/sahil_zunjarrao.png"
           site: "https://sahilzunjarrao.netlify.app/"
           interests: "Software supply chain security, systems security, application security"
+
+      - &moka_lu
+          name: "Moka Lu"
+          anchor: moka_lu
+          internal: true
+          role: "Undergraduate Student"
+          since: 2026
+          photo: "/img/people/moka_lu.jpg"
+          site: "https://github.com/ml9767-ops" 
+          interests: "Software supply chain security, Cryptography"
           
   ################################################
       
@@ -628,6 +647,8 @@ people:
           - *shounak_ghosh
           - *mayank_gite
           - *sahil_zunjarrao
+          - *aavyan_kapoor
+          - *moka_lu
 
       - type: Alumni
         anchor: alumni
@@ -886,6 +907,7 @@ projects:
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
+            - *aavyan_kapoor
             - *pratham_hegde
             - *sahil_zunjarrao
             - name: "Reza Curtmola (NJIT)"
@@ -921,6 +943,7 @@ projects:
                 - *sanchit_sahay
                 - *justin_cappos
                 - *uk_jang
+                - *moka_lu
             tags:
                 - *software_updates
 
