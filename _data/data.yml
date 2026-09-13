@@ -14,6 +14,8 @@ people:
           photo: "/img/people/justin_cappos.jpg"
           interests: "Solving real world security problems in practice"
           publications:
+            - name: "SCORED 2026"
+              link: "/papers/sahay_sbomit_scored_2026.pdf"
             - name: "EuroS&P 2026"
               link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
             - name: "NDSS 2026"
@@ -422,6 +424,8 @@ people:
             site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
             interests: "Automotive cybersecurity, cyber-physical systems, V2X authentication"
             publications:
+                - name: "SCORED 2026"
+                  link: "/papers/sahay_sbomit_scored_2026.pdf"
                 - name: "ACM CSUR"
                   link: "https://dl.acm.org/doi/pdf/10.1145/3637059"
                 - name: "IEEE TVT"
@@ -495,6 +499,9 @@ people:
             photo: "/img/people/sanchit_sahay.jpg"
             interests: "Build Observability, Operating Systems, Systems Software"
             site: "https://www.sahaysanchit.com"
+            publications:
+              - name: "SCORED 2026"
+                link: "/papers/sahay_sbomit_scored_2026.pdf"
 
       - &mayank_gite
             name: "Mayank Gite"
@@ -561,6 +568,9 @@ people:
           since: 2026
           photo: "/img/people/uk-jang.png"
           interests: "Operating systems, Cybersecurity"
+          publications:
+              - name: "SCORED 2026"
+                link: "/papers/sahay_sbomit_scored_2026.pdf"
 
       - &sean_kim
           name: "Sihoon (Sean) Kim"
@@ -1427,6 +1437,35 @@ publications:
 
   ### DO NOT FORGET TO ADD YOUR NEW TAG &XXXXXX TO THE ENTRIES AT THE BOTTOM ###
   ### IF YOU FORGET, YOUR ENTRIES WILL NOT SHOW UP ON THE SITE! ###
+
+    - &sahay_sbomit_scored_2026
+      anchor: sahay_sbomit_scored_2026
+      title: "Over the Shoulder: Improving SBOM Accuracy by Watching the Build"
+      authors:
+        - name: "S. Sahay, V. Yadav, A. Reddypalle, U. Jang, M. De Vincenzi, S. Torres-Arias, J. Cappos"
+      project: *sbomit
+      booktitle: "Conference on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED '26)"
+      year: "2026"
+      pages: ""
+      publisher: "ACM"
+      link: "/papers/sahay_sbomit_scored_2026.pdf"
+      abstract: "Software Bills of Materials (SBOMs) are increasingly used as
+                authoritative software inventories but popular generators use
+                techniques that may not expose every input that ends up in or
+                influences a build artifact. This paper presents SBOMit, an
+                OpenSSF project that generates and enriches SBOMs using
+                evidence collected while the software build workflow executes.
+                witness-ebpf uses low-overhead tracing methods to record
+                inputs like filesystem and network activity as in-toto
+                attestations, which are later processed into package
+                identities for an enriched SBOM. We evaluate SBOMit across 98
+                CNCF projects, measuring a median runtime overhead of 8.1%
+                without requiring any modifications to the project source. We
+                further compare SBOMit with static SBOM generation methods to
+                identify build inputs and contexts that static methods fail to
+                recover. Our results show that build observability driven SBOM
+                generation is practical at scale and provides a more
+                trustworthy and auditable source of information."
 
     - &yelgundhalli_sourcefabric_eurosp2026
       anchor: yelgundhalli_sourcefabric_eurosp2026
