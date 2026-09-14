@@ -9,4 +9,4 @@ gem "webrick", "~> 1.9"
 
 gem "pathutil", "~> 0.16.2"
 
-gem "json", "~> 2.21"
+gem "json", "~> 3.0"
