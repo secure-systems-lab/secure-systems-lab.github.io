@@ -3,6 +3,11 @@ people:
     people: list(include('person'))
     people_cards: list(include('people_card'))
 
+alumni:
+    intro: str()
+    alumni: list(include('person'))
+    people_cards: list(include('people_card'))
+
 projects:
     intro: str()
     statuses: list(include('status'))

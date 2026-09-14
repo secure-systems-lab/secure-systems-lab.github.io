@@ -1,697 +1,807 @@
-people:
-    intro: "Our lab's participants range from professors with dozens of years of
-    experience to high school students. This diversity in background and experience
-    enables us to address real-world problems using fresh perspectives."
+# How do I add...
+#
+# - A current student?
+# 1. Copy the person template under people and add to the proper section.
+# 2. Add the person's ID (e.g. &first_last) to the people_cards section under
+#    the proper header.
+# 3. Add a picture to the `img` directory
+#
+# - An alum?
+# 1a. If the person is listed in the current members list, cut and paste their
+#     data and name ID into the proper section under alumni.
+# 1b. If the person is not listed in the current members list, copy the person
+#     template under alumni and add to the proper section.
+# 2.  Add the person's name ID to the people_cards section under the proper header.
+#
+# - A publication?
+# 1a. If this publication is from the lab, upload the PDF file under `papers`,
+#     title it appropriately, and add the publication entry to the proper people.
+# 1b. If this publication is not from the lab, e.g. from your previous institution,
+#     add a link to the publication in the publication entry for the proper people.
+#
+# - Something else?
+# 1. Copy what exists and make it work :)
 
-    people:
-      - &justin_cappos
-          name: "Justin Cappos"
-          anchor: justin_cappos
-          site: "https://ssl.engineering.nyu.edu/personalpages/jcappos/"
-          internal: true
-          role: "Professor and Lab Director"
-          since: 2010
-          photo: "/img/people/justin_cappos.jpg"
-          interests: "Solving real world security problems in practice"
-          publications:
+
+############### Current Members ###################
+
+people:
+
+# This section is for **current** lab members.
+
+  intro: "Our lab's participants range from professors with dozens of years of
+  experience to high school students. This diversity in background and experience
+  enables us to address real-world problems using fresh perspectives."
+
+  people:
+
+  # Template:
+  #   - &first_last
+  #      name: "First Last"
+  #      anchor: first_last
+  #      site: "A link to your personal site here if you want" (OPTIONAL)
+  #      internal: true (true if you are at NYU here, false if you are not)
+  #      role: "Your role here at the lab"
+  #      since: 20xx (the year you started working here)
+  #      photo: "path/to/the/image/under/img/people"
+  #      interests: "What interests you?"
+  #      publications:
+  #        - name: "Venue Name Year"
+  #          link: "Path to PDF if lab publication, link otherwise"
+
+  ############### Current Faculty ###################
+
+    - &justin_cappos
+        name: "Justin Cappos"
+        anchor: justin_cappos
+        site: "https://ssl.engineering.nyu.edu/personalpages/jcappos/"
+        internal: true
+        role: "Professor and Lab Director"
+        since: 2010
+        photo: "/img/people/justin_cappos.jpg"
+        interests: "Solving real world security problems in practice"
+        publications:
+          - name: "SCORED 2026"
+            link: "/papers/sahay_sbomit_scored_2026.pdf"
+          - name: "EuroS&P 2026"
+            link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
+          - name: "NDSS 2026"
+            link: "/papers/vaderna_taf_ndss_2026.pdf"
+          - name: "NDSS 2025"
+            link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+          - name: "ACSAC 2023"
+            link: "/papers/moore_artemis_2023.pdf"
+          - name: "USENIX Security 2019"
+            link: "/papers/torres-toto-usenix19.pdf"
+          - name: "AsiaCCS 2018"
+            link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
+          - name: "MSR 2018"
+            link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
+          - name: "FSE 2017"
+            link: "/papers/gopstein_atoms_fse_2017.pdf"
+          - name: "USENIX Security 2017"
+            link: "/papers/gopstein_atoms_fse_2017.pdf"
+          - name: "USENIX ATC 2017a"
+            link: "https://www.usenix.org/system/files/conference/atc17/atc17-kuppusamy.pdf"
+          - name: "USENIX ATC 2017b"
+            link: "/papers/li_lind_usenix_2017.pdf"
+          - name: "USENIX Security 2016"
+            link: "/papers/torres_toto_usenixsec-2016.pdf"
+          - name: "NSDI 2016"
+            link: "/papers/kuppusamy_nsdi_16.pdf"
+          - name: "[more]"
+            link: "/personalpages/jcappos/publications.htm"
+        deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in Microsoft, IBM, Google, VMware, Redhat, DigitalOcean, Datadog and Docker; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://uptane.github.io/\">Uptane</a> used in over a third of new cars on US roads starting in a few years.  <a href=\"in-toto.io\">in-toto</a> used by thousands of companies including Twitter, PBS, Washington Post, NBC, etc.  <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+
+################ Current Staff ####################
+
+# None
+
+############## Current Postdocs ###################
+
+    - &marco_de_vincenzi
+        name: "Marco De Vincenzi"
+        anchor: marco_de_vincenzi
+        internal: true
+        role: "Postdoctoral Associate"
+        since: 2026
+        photo: "/img/people/marco.png"
+        site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
+        interests: "Automotive cybersecurity, cyber-physical systems, V2X authentication"
+        publications:
             - name: "SCORED 2026"
               link: "/papers/sahay_sbomit_scored_2026.pdf"
-            - name: "EuroS&P 2026"
-              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
-            - name: "NDSS 2026"
-              link: "/papers/vaderna_taf_ndss_2026.pdf"
-            - name: "NDSS 2025"
-              link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
-            - name: "ACSAC 2023"
-              link: "/papers/moore_artemis_2023.pdf"
-            - name: "USENIX Security 2019"
-              link: "/papers/torres-toto-usenix19.pdf"
-            - name: "AsiaCCS 2018"
-              link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
-            - name: "MSR 2018"
-              link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
-            - name: "FSE 2017"
-              link: "/papers/gopstein_atoms_fse_2017.pdf"
-            - name: "USENIX Security 2017"
-              link: "/papers/gopstein_atoms_fse_2017.pdf"
-            - name: "USENIX ATC 2017a"
-              link: "https://www.usenix.org/system/files/conference/atc17/atc17-kuppusamy.pdf"
-            - name: "USENIX ATC 2017b"
-              link: "/papers/li_lind_usenix_2017.pdf"
-            - name: "USENIX Security 2016"
-              link: "/papers/torres_toto_usenixsec-2016.pdf"
-            - name: "NSDI 2016"
-              link: "/papers/kuppusamy_nsdi_16.pdf"
-            - name: "[more]"
-              link: "/personalpages/jcappos/publications.htm"
-          deployments: "<a href=\"https://theupdateframework.com\">TUF</a> used in Microsoft, IBM, Google, VMware, Redhat, DigitalOcean, Datadog and Docker; <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag security in git</a>; <a href=\"https://uptane.github.io/\">Uptane</a> used in over a third of new cars on US roads starting in a few years.  <a href=\"in-toto.io\">in-toto</a> used by thousands of companies including Twitter, PBS, Washington Post, NBC, etc.  <a href=\"https://seattle.poly.edu/html/\">Seattle</a> deployed on thousands of devices and used in one hundred classes; <a href=\"https://www.cs.arizona.edu/stork/\">Stork</a>'s security model used in <a href=\"/papers/samuel_pm_login_09.pdf\">major Linux package managers</a>; etc."
+            - name: "ACM CSUR"
+              link: "https://dl.acm.org/doi/pdf/10.1145/3637059"
+            - name: "IEEE TVT"
+              link: "https://ieeexplore.ieee.org/document/11123165"
+            - name: "IEEE TITS"
+              link: "https://ieeexplore.ieee.org/abstract/document/9945656"
+            - name: "J. Comput. Virol. Hack. Tech."
+              link: "https://link.springer.com/article/10.1007/s11416-024-00522-4"
+            - name: IEEE OJVT
+              link: "https://ieeexplore.ieee.org/document/10818588" 
 
-      - &albert_rafetseder
-          name: "Albert Rafetseder"
-          anchor: "albert_rafetseder"
-          internal: true
-          role: "Research Professor, now affiliated with Research Group Cooperative Systems at the University of Vienna"
-          since: "2011"
-          photo: "/img/people/albert_rafetseder.jpg"
-          interests: "Building experimental platforms for research, education, and the general public"
-          publications:
-            - name: "TPDS 2018"
-              link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
-            - name: "SAS 2018"
-              link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
-            - name: "HotMobile 2018"
-              link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
-            - name: "FWC 2017"
-              link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
-            - name: "login 2015"
-              link: "/papers/zhuang_sensibility_login_2015.pdf"
-            - name: "GREE 2013"
-              link: "/papers/zhuang_seattle_gree_13.pdf"
-            - name: "USENIX ATC 2015 (Fence)"
-              link: "/papers/li-usenix-fence-2015.pdf"
-          deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
+    - &vidya_lakshmi_rajagopalan
+        name: "Vidya Lakshmi Rajagopalan"
+        anchor: vidya_lakshmi_rajagopalan
+        internal: true
+        role: "Postdoctoral Associate"
+        since: 2026
+        photo: "/img/people/vidya_rajagopalan.png"
+        site: "https://vidyalakshmir.github.io"
+        interests: "Kernel security, binary analysis, program analysis, reverse engineering, distributed systems security"
+        publications:
+          - name: "ACM CCS 2023"
+            link: "https://vidyalakshmir.github.io/docs/syspart_ccs23.pdf"
+          - name: "FEAST 2024"
+            link: "https://vidyalakshmir.github.io/docs/syscalldebloating.pdf"
+          - name: "ACE 2010"
+            link: "https://vidyalakshmir.github.io/docs/jpermit.pdf"
 
-      - &vlad_diaz
-          name: "Vladimir Diaz"
-          anchor: vlad_diaz
-          internal: true
-          role: "Developer"
-          since: "2013"
-          photo: "/img/people/vlad_diaz.jpg"
-          interests: "Software update security"
-          publications:
-            - name: "USENIX ATC 2017"
-              link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
-            - name: "NSDI 16"
-              link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
-            - name: "PEP 458"
-              link: "https://www.python.org/dev/peps/pep-0458/"
-            - name: "PEP 480"
-              link: "http://www.python.org/dev/peps/pep-0480/"
-          deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+############ Current Ph.D. Students ###############
 
-      - &sebastien_awwad
-          name: "Sebastien Awwad"
-          anchor: sebastien_awwad
-          internal: true
-          role: "Developer, now Security Engineer at Anaconda"
-          since: "2015"
-          photo: "/img/people/sebastien_awwad.jpg"
-          interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
-          publications:
-            - name: "ESCAR USA 2020 Special Issue"
-              link: "/papers/moore_pouf_2020.pdf"     
-            - name: "escar 2016"
-              link: "/papers/kuppusamy_escar_16.pdf"
-          deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
+    - &yaxuan_wen
+        name: "Yaxuan(Alice) Wen"
+        anchor: yaxuan_wen
+        internal: true
+        role: "Ph.D. Candidate"
+        since: 2024
+        site: "https://alicewyx.me"
+        photo: "/img/people/yaxuan_wen.jpg"
+        interests: "System security, software security"
 
-      - &lukas_puhringer
-          name: "Lukas Pühringer"
-          anchor: "lukas_pühringer"
-          internal: true
-          role: "Developer"
-          since: "2016"
-          photo: "/img/people/lukas_puhringer.jpg"
-          interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
-          publications:
-            - name: "FWC 2017"
-              link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
-            - name: "PIK 2013"
-              link: "/papers/rafetseder_sensorium_netsys_13.pdf"
-            - name: "TryRepy Wiki"
-              link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
-          deployments: "<a
-          href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium
-          Framework</a> (used on smartphones to capture data for <a
-          href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>),
-          Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
-      
-      - &trishank_kuppusamy
-          name: "Trishank Kuppusamy"
-          anchor: trishank_kuppusamy
-          internal: true
-          role:  "Ph.D. 2017, now Engineering Manager at DataDog"
-          since: "2011"
-          photo: "/img/people/trishank_kuppusamy.jpg"
-          site: "https://github.com/trishankkarthik"
-          interests: "Securing software updates for community repositories and automobiles"
-          publications:
-              - name: "USENIX Security 2019"
-                link: "https://ssl.engineering.nyu.edu/papers/torres-toto-usenix19.pdf"
-              - name: "IEEE VT 2018"
-                link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
+    - &patrick_zielinski
+        name: "Patrick Zielinski"
+        anchor: patrick_zielinski
+        internal: true
+        role: "Ph.D. Candidate"
+        since: 2024
+        photo: "/img/people/patrick_zielinski.jpg"
+        interests: "Distributed systems, version control systems, and cryptography"
+        publications:
+          - name: "EuroS&P 2026"
+            link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
+          - name: "NDSS 2026"
+            link: "/papers/vaderna_taf_ndss_2026.pdf"
+          - name: "VehicleSec 2025"
+            link: "https://mlab.engineering.nyu.edu/static/vehiclesec25-final9.pdf"
+          - name: "NDSS 2025"
+            link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+          - name: "ACSAC 2024"
+            link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
+
+    - &qianxi_chen
+        name: "Qianxi Chen"
+        anchor: qianxi_chen
+        internal: true
+        role: "Ph.D. Student"
+        since: 2025
+        photo: "/img/people/qianxi_chen.jpg"
+        interests: "Operating systems, system security, and distributed systems"
+
+    - &ann_malavet
+        name: "Ann Malavet"
+        anchor: ann_malavet
+        internal: true
+        role: "Ph.D. Candidate"
+        since: 2023
+        photo: "/img/people/ann_malavet.jpeg"
+        site: "http://annmalavet.com"
+        interests: "Systems security, cryptocurrency fraud, AI application security"
+
+    - &sanchit_sahay
+        name: "Sanchit Sahay"
+        anchor: sanchit_sahay
+        internal: true 
+        role: "Ph.D. Student"
+        since: 2025
+        photo: "/img/people/sanchit_sahay.jpg"
+        interests: "Build Observability, Operating Systems, Systems Software"
+        site: "https://www.sahaysanchit.com"
+        publications:
+          - name: "SCORED 2026"
+            link: "/papers/sahay_sbomit_scored_2026.pdf"
+
+    - &fredrik_wilke
+        name: "Fredrik Wilke"
+        anchor: fredrik_wilke
+        internal: true
+        role: "Ph.D. Student"
+        since: 2026
+        interests: "Operating systems, Systems Security, Computer Architecture"
+        photo: "/img/people/fredrik.jpg"
+        site: "https://flj-wilke.de"
+
+######## Current HS / UG / MS Students ##########          
+
+    - &mayank_gite
+        name: "Mayank Gite"
+        anchor: mayank_gite
+        internal: true
+        role: "Master's Student"
+        since: 2025
+        photo: "/img/people/mayank_gite.jpg"
+        interests: "System security, Operating systems"
+    
+    - &uk_jang
+        name: "Uk (Jake) Jang"
+        anchor: uk_jang
+        internal: true
+        role: "Research Assistant"
+        since: 2026
+        photo: "/img/people/uk-jang.png"
+        interests: "Operating systems, Cybersecurity"
+        publications:
+            - name: "SCORED 2026"
+              link: "/papers/sahay_sbomit_scored_2026.pdf"
+
+    - &sean_kim
+        name: "Sihoon (Sean) Kim"
+        anchor: sean_kim
+        internal: true
+        role: "Undergraduate Student"
+        since: 2026
+        photo: "/img/people/sihoon-kim.jpg"
+        interests: "Systems security, embedded systems"
+
+    - &pratham_hegde
+        name: "Pratham Hegde"
+        anchor: pratham_hegde
+        internal: true
+        role: "Master's Student"
+        since: 2026
+        photo: "/img/people/pratham_hegde.jpg"
+        site: "https://www.prathamhegde.com/"
+        interests: "Security, Cryptography"
+    
+    - &shounak_ghosh
+        name: "Shounak Ghosh"
+        anchor: shounak_ghosh
+        internal: true
+        role: "Master's Student"
+        since: 2025
+        photo: "/img/people/shounak_ghosh.jpg"
+        site: "https://shounak-ghosh.github.io/"
+        interests: "Systems security, Distributed systems, AI application security"
+
+    - &sahil_zunjarrao
+        name: "Sahil Zunjarrao"
+        anchor: sahil_zunjarrao
+        internal: true
+        role: "Master's Student"
+        since: 2026
+        photo: "/img/people/sahil_zunjarrao.png"
+        site: "https://sahilzunjarrao.netlify.app/"
+        interests: "Software supply chain security, systems security, application security"
+
+    - &aavyan_kapoor
+        name: "Aavyan Kapoor"
+        anchor: aavyan_kapoor
+        internal: true 
+        role: "High School Student"
+        since: 2026
+        photo: "/img/people/aavyan_kapoor.jpg"
+        interests: "AI Usage and System Security"
+
+    - &moka_lu
+        name: "Moka Lu"
+        anchor: moka_lu
+        internal: true
+        role: "Undergraduate Student"
+        since: 2026
+        photo: "/img/people/moka_lu.jpg"
+        site: "https://github.com/ml9767-ops" 
+        interests: "Software supply chain security, Cryptography"
+
+################################################
+
+  people_cards:
+    - type: "Faculty"
+      anchor: faculty
+      people:
+        - *justin_cappos
+
+    # - type: "Staff"
+    #   anchor: staff
+    #   people:
+
+    - type: "Postdocs"
+      anchor: postdocs
+      people:
+        - *vidya_lakshmi_rajagopalan
+        - *marco_de_vincenzi
+
+    - type: "PhD. Students"
+      anchor: phd
+      people:         
+        - *yaxuan_wen
+        - *patrick_zielinski
+        - *ann_malavet
+        - *qianxi_chen
+        - *sanchit_sahay
+        - *fredrik_wilke
+
+    - type: "Other Students"
+      anchor: otherstudents
+      people:
+        - *sean_kim
+        - *uk_jang
+        - *pratham_hegde
+        - *shounak_ghosh
+        - *mayank_gite
+        - *sahil_zunjarrao
+        - *aavyan_kapoor
+        - *moka_lu
+
+################# Alumni ######################
+
+alumni:
+  intro: "Our lab's alumni, listed here, have gone on to work in top universities and companies. For current members, see <a href='/people'> here.</a>" 
+
+  alumni:
+
+    # Template:
+    #   - &first_last
+    #      name: "First Last"
+    #      anchor: first_last
+    #      site: "A link to your personal site here if you want" (OPTIONAL)
+    #      internal: true (true if you are at NYU here, false if you are not)
+    #      role: "Your role here at the lab"
+    #      since: 20xx (the year you started working here)
+    #      photo: "path/to/the/image/under/img/people"
+    #      interests: "What interests you?"
+    #      publications:
+    #        - name: "Venue Name Year"
+    #          link: "Path to PDF if lab publication, link otherwise"
+
+############ Previous Faculty ###############
+
+    - &albert_rafetseder
+      name: "Albert Rafetseder"
+      anchor: "albert_rafetseder"
+      internal: true
+      role: "Research Professor, now affiliated with Research Group Cooperative Systems at the University of Vienna"
+      since: "2011"
+      photo: "/img/people/albert_rafetseder.jpg"
+      interests: "Building experimental platforms for research, education, and the general public"
+      publications:
+        - name: "TPDS 2018"
+          link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
+        - name: "SAS 2018"
+          link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
+        - name: "HotMobile 2018"
+          link: "http://www.cs.uccs.edu/~yzhuang/CS4930_5930/spring2018/slides/hotmobile18.pdf"
+        - name: "FWC 2017"
+          link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
+        - name: "login 2015"
+          link: "/papers/zhuang_sensibility_login_2015.pdf"
+        - name: "GREE 2013"
+          link: "/papers/zhuang_seattle_gree_13.pdf"
+        - name: "USENIX ATC 2015 (Fence)"
+          link: "/papers/li-usenix-fence-2015.pdf"
+      deployments: "<a href=\"https://seattle.poly.edu/html\">Seattle</a> running on a server, desktop, laptop, smartphone, WiFi router near you!"
+
+    - &yanyan_zhuang
+        name: "Yanyan Zhuang"
+        anchor: yanyan_zhuang
+        site: "http://www.cs.uccs.edu/~yzhuang/"
+        internal: true
+        role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
+        since: "2014"
+        photo: "/img/people/yanyan_zhuang.jpg"
+        interests: "Mobile systems, wireless networks, privacy and security"
+        publications:
+          - name: "Behaviour and Information Security"
+            link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"          
+          - name: "TPDS 2018"
+            link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
+          - name: "SAS 2018"
+            link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
+          - name: "HotMobile 2018"
+            link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
+          - name: "FIE 2017"
+            link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
+          - name: "FSE 2017"
+            link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
+          - name: "TrustCom 2015"
+            link: "https://ssl.engineering.nyu.edu/papers/weiss_trustcom2015.pdf"
+          - name: "ACSAC 2014"
+            link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
+          - name: "NSDI 2014"
+            link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
+          - name: "SIGCSE 2014"
+            link: "http://dl.acm.org/citation.cfm?id=2538931"
+        deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
+
+############### Previous Staff ##################
+
+    - &vlad_diaz
+            name: "Vladimir Diaz"
+            anchor: vlad_diaz
+            internal: true
+            role: "Developer"
+            since: "2013"
+            photo: "/img/people/vlad_diaz.jpg"
+            interests: "Software update security"
+            publications:
               - name: "USENIX ATC 2017"
                 link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
+              - name: "NSDI 16"
+                link: "https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-kuppusamy.pdf"
+              - name: "PEP 458"
+                link: "https://www.python.org/dev/peps/pep-0458/"
+              - name: "PEP 480"
+                link: "http://www.python.org/dev/peps/pep-0480/"
+            deployments: "<a href=\"https://theupdateframework.com\">TUF</a>, which is either currently used or is being integrated into the following: <a href=\"https://www.youtube.com/watch?v=J0GkcToeDiM\">Ruby</a>, <a href=\"https://www.python.org/dev/peps/pep-0458/\">PyPI</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS/Quay</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, <a href=\"https://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, <a href=\"http://schd.ws/hosted_files/linuxconcontainerconeurope2016/50/When%20the%20going%20gets%20tough%2C%20get%20TUF%20going%21%20Linuxcon%20EU.pdf\">Docker</a>, <a href\"https://github.com/rust-lang/crates.io/issues/75#issuecomment-65765091\">Rust</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>."
+
+    - &sebastien_awwad
+        name: "Sebastien Awwad"
+        anchor: sebastien_awwad
+        internal: true
+        role: "Developer, now Security Engineer at Anaconda"
+        since: "2015"
+        photo: "/img/people/sebastien_awwad.jpg"
+        interests: "Incentivizing secure code, secure frameworks, computational neuroscience"
+        publications:
+          - name: "ESCAR USA 2020 Special Issue"
+            link: "/papers/moore_pouf_2020.pdf"     
+          - name: "escar 2016"
+            link: "/papers/kuppusamy_escar_16.pdf"
+        deployments: "<a href=\"https://github.com/uptane/uptane\">Uptane reference implementation</a>, TUF modifications, Python dependency resolver"
+
+    - &lois_delong
+        name: "Lois Anne DeLong"
+        anchor: lois_delong
+        internal: true
+        role: "Research Associate/Technical Writer"
+        since: "2015"
+        photo: "/img/people/lois_delong.jpg"
+        interests: "Experimental design involving human subjects; links between natural and programming languages; preparation and dissemination of technical standards"
+        publications:
+              - name: "Behaviour and Information Security"
+                link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"
+              - name: "ESCAR USA 2020 Special Issue"
+                link: "/papers/moore_pouf_2020.pdf"
+              - name: "SOUPS 2018"
+                link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
+              - name: "IEEE VT 2018"
+                link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
+              - name: "FSE 2017"
+                link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
               - name: ";login 2017"
                 link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
-              - name: "escar 2016"
-                link: "/papers/kuppusamy_escar_16.pdf"
-              - name: "NSDI 2016"
-                link: "/papers/kuppusamy_nsdi_16.pdf"
-              - name: "GLOBECOM 2015"
-                link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-              - name: "ISBA 2015"
-                link: "http://ieeexplore.ieee.org/document/7126366/"
-          deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
-      
-      - &luqin_wang
-          name: "Luqin Wang"
-          anchor: luqin_wang
-          internal: true
-          role: "Ph.D. 2016 (co-advised by Yong Liu), now a Research Scientist at Facebook"
-          since: "2011"
-          photo: "/img/people/luqin_wang.jpg"
-          interests: "Social networks, Internet measurement, network security and distributed systems"
-          publications:
-              - name: "PAM 2015"
-                link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
-              - name: "GLOBECOM 2015"
-                link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
-      - &ghada_almashaqbeh
-          name: "Ghada Almashaqbeh"
-          anchor: ghada_almashaqbeh
-          internal: true
-          role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now a tenure track assistant professor at UConn"
-          since: "2015"
-          photo: "/img/people/ghada_almashaqbeh.jpg"
-          site: "http://www.cs.columbia.edu/~ghada/"
-          interests: "Cryptography, security, distributed computing"
-          publications:
-            - name: "Financial Crypto 2020"
-              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_microcash_fc20.pdf"
-            - name: "CNS 2019"
-              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_capnet_cns19.pdf"
-            - name: "CryBlock 2019"
-              link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_ABC_cryblock_19.pdf"
-            - name: "ACM Transactions on Privacy and Security 2018"
-              link: "https://dl.acm.org/citation.cfm?id=3154600"
-            - name: "BMC Medical Informatics and Decision-Making 2015"
-              link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4"
 
-      - &yiwen_li
-          name: "Yiwen Li"
-          anchor: yiwen_li
-          internal: true
-          role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Software Platform Architect at Intel"
-          since: "2013"
-          photo: "/img/people/yiwen_li.jpg"
-          interests: "Operating system security, virtualization, network security"
-          publications:
-              - name: "USENIX ATC 2017"
-                link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
-              - name: "NENS 2014 (poster)"
-                link: "http://systems.cs.brown.edu/nens/?page_id=21"
-              - name: "CATT 2014 (poster)"
-                link:
+    - &lukas_puhringer
+        name: "Lukas Pühringer"
+        anchor: "lukas_pühringer"
+        internal: true
+        role: "Developer"
+        since: "2016"
+        photo: "/img/people/lukas_puhringer.jpg"
+        interests: "Security in operating systems and full stack networking. Distributed software and version control systems"
+        publications:
+          - name: "FWC 2017"
+            link: "https://github.com/aaaaalbert/fogwc/raw/SUBMITTED/paper.pdf"
+          - name: "PIK 2013"
+            link: "/papers/rafetseder_sensorium_netsys_13.pdf"
+          - name: "TryRepy Wiki"
+            link: "https://seattle.poly.edu/static/try_repy_thesis.pdf"
+        deployments: "<a href=\"https://play.google.com/store/apps/details?id=at.univie.sensorium&hl=en\">Sensorium Framework</a> (used on smartphones to capture data for <a href=\"http://homepage.univie.ac.at/albert.rafetseder/o3gm/\">Open3GMap</a>), Sensibility Testbed, <a href=\"https://dmarc-viewer.abteil.org/\">DMARC viewer</a> to analyze DMARC aggregate reports"
 
-      - &santiago_torres
-          name: "Santiago Torres-Arias"
-          anchor: santiago_torres
-          internal: true
-          role: "Ph.D. 2020, now an assistant professor of Electrical and Computer Engineering at Purdue University"
-          since: "2014"
-          photo: "/img/people/santiago_torres.png"
-          site: "https://sangy.xyz"
-          interests: "Password protection and securing the software supply chain"
-          publications:
-              - name: "Journal of Computer Security"
-                link: "/papers/afzali-webgit-jcs20.pdf"
-              - name: "USENIX Security 2019"
-                link: "/papers/torres-toto-usenix19.pdf"
-              - name: "IFIP SEC"
-                link: "/papers/vaidya_cvc_IFIPsec_19"
-              - name: "AsiaCCS"
-                link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
-              - name: "NSDI 2016"
-                link: "/papers/kuppusamy_nsdi_16.pdf"
-              - name: "USENIX Security 2016"
-                link: "/papers/torres_toto_usenixsec-2016.pdf"
-              - name: "CyberTalks 2016"
-                link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
-              - name: ";login 2014"
-                link: "https://ssl.engineering.nyu.edu/papers/torres_pph_login_2014.pdf"
-          deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
+############### Postdoc Alumni ##################
 
-      - &lois_delong
-          name: "Lois Anne DeLong"
-          anchor: lois_delong
-          internal: true
-          role: "Research Associate/Technical Writer"
-          since: "2015"
-          photo: "/img/people/lois_delong.jpg"
-          interests: "Experimental design involving human subjects; links between natural and programming languages; preparation and dissemination of technical standards"
-          publications:
-                - name: "Behaviour and Information Security"
-                  link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"
-                - name: "ESCAR USA 2020 Special Issue"
-                  link: "/papers/moore_pouf_2020.pdf"
-                - name: "SOUPS 2018"
-                  link: "https://people.cs.umass.edu/~brun/pubs/pubs/Oliveira18soups.pdf"
-                - name: "IEEE VT 2018"
-                  link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
-                - name: "FSE 2017"
-                  link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
-                - name: ";login 2017"
-                  link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
+    - &yuchen_zhang
+        name: "Yuchen (Dennis) Zhang"
+        anchor: yuchen_zhang
+        internal: true
+        role: "Post-doctoral researcher"
+        since: 2023
+        photo: "/img/people/yuchen_zhang.jpg"
+        interests: "Fuzz testing, static analysis, system and software security, Rust language analysis and security"
+        publications:
+          - name: "ASE 2022"
+            link: "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494"
+          - name: "USENIX Security 2022"
+            link: "https://www.usenix.org/system/files/sec22-zhang-yuchen.pdf"
+          - name: "NDSS 2022"
+            link: "https://arxiv.org/pdf/2203.06834.pdf"
+          - name: "SecureCom 2021"
+            link: "https://arxiv.org/pdf/2109.08635.pdf"
 
-      - &preston_moore
-          name: "Preston Kent Moore"
-          anchor: preston_moore
-          internal: true
-          role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
-          since: "2015"
-          photo: "/img/people/preston_moore2.jpg"
-          interests: "Secure software engineering, automated testing, systems security"
-          publications:
-         
-            - name: "ICSOFT 2022"
-              link: "http://ssl.engineering.nyu.edu/papers/moore_port_icsoft_2022.pdf"
-            - name: "CCSCNE 2022"
-              link: "http://ssl.engineering.nyu.edu/papers/moore_shuffle_ccsne_2022.pdf" 
-            - name: "ISSRE 2019"
-              link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
-      
-      - &dan_gopstein
-          name: "Dan Gopstein"
-          anchor: dan_gopstein
-          internal: true
-          role: "Ph.D. 2020"
-          since: "2015"
-          photo: "/img/people/dan_gopstein.jpg"
-          interests: "Programming languages and software systems"
-          publications:
-            - name: "FSE 2020"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_fse2020.pdf"
-            - name: "MSR 2018"
-              link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
-            - name: "FIE 2017"
-              link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
-            - name: "FSE 2017"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
-            - name: "SIGGRAPH Asia 2015"
-              link: "http://game.engineering.nyu.edu/projects/animesh/"
-          deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
+    - &renata_vaderna
+        name: "Renata Vaderna"
+        anchor: renata_vaderna
+        internal: true
+        role: "Post-doctoral researcher"
+        since: 2024
+        photo: "/img/people/renata_vaderna.jpg"
+        interests: "Sofrware engineering, software security"
+        publications:
+          - name: "NDSS 2026"
+            link: "/papers/vaderna_taf_ndss_2026.pdf"
+          - name: "Scientific Programming 2018"
+            link: "https://www.hindawi.com/journals/sp/2018/7264060/"
+          - name: "Knowledge-Based Systems 2016"
+            link: "https://www.researchgate.net/publication/309705513_textX_A_Python_tool_for_Domain-Specific_Languages_Implementation"
+          - name: "Knowledge-Based Systems 2015"
+            link: https://www.researchgate.net/publication/287967078_Arpeggio_A_flexible_PEG_parser_for_Python
 
-      - &yanyan_zhuang
-          name: "Yanyan Zhuang"
-          anchor: yanyan_zhuang
-          site: "http://www.cs.uccs.edu/~yzhuang/"
-          internal: true
-          role: "Research Professor, now a tenure track professor at the University of Colorado, Colorado Springs"
-          since: "2014"
-          photo: "/img/people/yanyan_zhuang.jpg"
-          interests: "Mobile systems, wireless networks, privacy and security"
-          publications:
-            - name: "Behaviour and Information Security"
-              link: "/papers/yeh_atoms_eeg_b_it_2021.pdf"          
-            - name: "TPDS 2018"
-              link: "https://www.cs.ubc.ca/~bestchai/papers/tsumiki-tpds2018.pdf"
-            - name: "SAS 2018"
-              link: "https://ssl.engineering.nyu.edu/papers/zhuang_sensibility_sas_2018.pdf"
-            - name: "HotMobile 2018"
-              link: "http://delivery.acm.org/10.1145/3180000/3177120/p113-zhuang.pdf?ip=216.165.95.185&id=3177120&acc=OPEN&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1520025514_1c9ae8cae6c0e6c2fa65fdceafa767a5"
-            - name: "FIE 2017"
-              link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
-            - name: "FSE 2017"
-              link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
-            - name: "TrustCom 2015"
-              link: "https://ssl.engineering.nyu.edu/papers/weiss_trustcom2015.pdf"
-            - name: "ACSAC 2014"
-              link: "http://test.scripts.psu.edu/users/k/q/kqy1/papers/OliveiraRMYCZ2014.pdf"
-            - name: "NSDI 2014"
-              link: "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-zhuang.pdf"
-            - name: "SIGCSE 2014"
-              link: "http://dl.acm.org/citation.cfm?id=2538931"
-          deployments: Led development and hack-a-thons for the <a href="https://github.com/SensibilityTestbed">Sensibility Testbed</a>
+################ Ph.D. Alumni ###################
 
-      - &marina_moore
-          name: "Marina Moore"
-          anchor: marina_moore
-          internal: true
-          role: "Ph.D. 2024"
-          since: 2018
-          photo: "/img/people/marina_moore.jpg"
-          interests: "Systems security, privacy"
-          publications:      
-            - name: "VehicleSec 2024"
-              link: "/papers/moore_scudo_vehiclesec_2024.pdf"
-            - name: "ACSAC 2023"
-              link: "/papers/moore_artemis_2023.pdf"
-            - name: "ESCAR USA 2020 Special Issue"
-              link: "/papers/moore_pouf_2020.pdf"
+    - &sai_peddinti
+        name: Sai Teja Peddinti
+        anchor: sai_peddinti
+        internal: true
+        role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
+        since: "2011"
+        photo: "/img/people/sai_peddinti.jpg"
+        site: "http://www.saitejapeddinti.com/"
+        interests: "Privacy, security, social networks, machine learning"
+        publications:
+              - name: "ICWSM 2016"
+                link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
+              - name: "COSN 2014"
+                link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
+              - name: "SPSM 2014"
+                link: "http://dl.acm.org/citation.cfm?id=2666625"
+              - name: "S&P 2014"
+                link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
+              - name: "U.S. Patent 9246929"
+                link: "https://www.google.com/patents/US9246929"
 
-      - &nick_renner
-          name: "Nick Renner"
-          anchor: nick_renner
-          internal: true
-          role: "Ph.D. 2026 (co-advised by Brendan Dolan-Gavitt)"
-          since: 2019
-          photo: "/img/people/nick_renner.png"
-          interests: "Systems security, operating systems, Internet of Things"
+    - &trishank_kuppusamy
+        name: "Trishank Kuppusamy"
+        anchor: trishank_kuppusamy
+        internal: true
+        role:  "Ph.D. 2017, now Engineering Manager at DataDog"
+        since: "2011"
+        photo: "/img/people/trishank_kuppusamy.jpg"
+        site: "https://github.com/trishankkarthik"
+        interests: "Securing software updates for community repositories and automobiles"
+        publications:
+            - name: "USENIX Security 2019"
+              link: "https://ssl.engineering.nyu.edu/papers/torres-toto-usenix19.pdf"
+            - name: "IEEE VT 2018"
+              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1"
+            - name: "USENIX ATC 2017"
+              link: "https://ssl.engineering.nyu.edu/papers/kuppusamy-mercury-usenix-2017.pdf"
+            - name: ";login 2017"
+              link: "https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf"
+            - name: "escar 2016"
+              link: "/papers/kuppusamy_escar_16.pdf"
+            - name: "NSDI 2016"
+              link: "/papers/kuppusamy_nsdi_16.pdf"
+            - name: "GLOBECOM 2015"
+              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
+            - name: "ISBA 2015"
+              link: "http://ieeexplore.ieee.org/document/7126366/"
+        deployments: "Led specification of <a href=\"https://uptane.github.io/\">Uptane</a>. Worked on <a href=\"https://theupdateframework.com\">TUF</a>, now used in <a href=\"https://blog.docker.com/2015/08/content-trust-docker-1-8/\">Docker</a>, <a href=\"https://flynn.io/docs/development#the-update-framework-%28tuf%29\">Flynn</a>, and <a href=\"https://leap.se/en/2014/darkest-night\">LEAP</a>. Standardized TUF for Python with PEPs <a href=\"https://www.python.org/dev/peps/pep-0458/\">458</a> and <a href=\"https://www.python.org/dev/peps/pep-0480/\">480</a>. Involved with integrations of TUF for <a href=\"https://medium.com/square-corner-blog/securing-rubygems-with-tuf-part-1-d374fdd05d85#.n2j4f9tsw\">Ruby</a>, <a href=\"https://github.com/appc/spec/issues/211\">CoreOS</a>, <a href=\"http://www.well-typed.com/blog/2015/04/improving-hackage-security/\">Haskell</a>, and <a href=\"http://opam.ocaml.org/blog/Signing-the-opam-repository/\">OCaml</a>."
+    
+    - &luqin_wang
+        name: "Luqin Wang"
+        anchor: luqin_wang
+        internal: true
+        role: "Ph.D. 2016 (co-advised by Yong Liu), now a Research Scientist at Facebook"
+        since: "2011"
+        photo: "/img/people/luqin_wang.jpg"
+        interests: "Social networks, Internet measurement, network security and distributed systems"
+        publications:
+            - name: "PAM 2015"
+              link: "http://eeweb.poly.edu/faculty/yongliu/docs/BitCoin_TR.pdf"
+            - name: "GLOBECOM 2015"
+              link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7417246&tag=1"
 
-      - &aditya_sirish
-          name: "Aditya Sirish A Yelgundhalli"
-          anchor: aditya_sirish
-          internal: true
-          role: "Ph.D. 2025"
-          since: 2019
-          photo: "/img/people/aditya_sirish.jpg"
-          site: "https://saky.in/"
-          interests: "Internet privacy, systems security"
-          publications:      
-            - name: "EuroS&P 2026"
-              link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
-            - name: "NDSS 2025"
-              link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
-            - name: "VehicleSec 2024"
-              link: "/papers/moore_scudo_vehiclesec_2024.pdf"
+    - &yiwen_li
+        name: "Yiwen Li"
+        anchor: yiwen_li
+        internal: true
+        role: "Ph.D. 2021 (co-advised by Brendan Dolan-Gavitt), now a Software Platform Architect at Intel"
+        since: "2013"
+        photo: "/img/people/yiwen_li.jpg"
+        interests: "Operating system security, virtualization, network security"
+        publications:
+            - name: "USENIX ATC 2017"
+              link: "http://ssl.engineering.nyu.edu/papers/li_lind_usenix_2017.pdf"
+            - name: "NENS 2014 (poster)"
+              link: "http://systems.cs.brown.edu/nens/?page_id=21"
+            - name: "CATT 2014 (poster)"
+              link:
 
-      - &renata_vaderna
-            name: "Renata Vaderna"
-            anchor: renata_vaderna
-            internal: true
-            role: "Post-doctoral researcher"
-            since: 2024
-            photo: "/img/people/renata_vaderna.jpg"
-            interests: "Sofrware engineering, software security"
-            publications:
-              - name: "NDSS 2026"
-                link: "/papers/vaderna_taf_ndss_2026.pdf"
-              - name: "Scientific Programming 2018"
-                link: "https://www.hindawi.com/journals/sp/2018/7264060/"
-              - name: "Knowledge-Based Systems 2016"
-                link: "https://www.researchgate.net/publication/309705513_textX_A_Python_tool_for_Domain-Specific_Languages_Implementation"
-              - name: "Knowledge-Based Systems 2015"
-                link: https://www.researchgate.net/publication/287967078_Arpeggio_A_flexible_PEG_parser_for_Python
+    - &santiago_torres
+        name: "Santiago Torres-Arias"
+        anchor: santiago_torres
+        internal: true
+        role: "Ph.D. 2020, now an assistant professor of Electrical and Computer Engineering at Purdue University"
+        since: "2014"
+        photo: "/img/people/santiago_torres.png"
+        site: "https://sangy.xyz"
+        interests: "Password protection and securing the software supply chain"
+        publications:
+            - name: "Journal of Computer Security"
+              link: "/papers/afzali-webgit-jcs20.pdf"
+            - name: "USENIX Security 2019"
+              link: "/papers/torres-toto-usenix19.pdf"
+            - name: "IFIP SEC"
+              link: "/papers/vaidya_cvc_IFIPsec_19"
+            - name: "AsiaCCS"
+              link: "https://ssl.engineering.nyu.edu/papers/afzali_asiaccs_2018.pdf"
+            - name: "NSDI 2016"
+              link: "/papers/kuppusamy_nsdi_16.pdf"
+            - name: "USENIX Security 2016"
+              link: "/papers/torres_toto_usenixsec-2016.pdf"
+            - name: "CyberTalks 2016"
+              link: "http://www.westpoint.edu/acc/SitePages/CyberTalks.aspx"
+            - name: ";login 2014"
+              link: "https://ssl.engineering.nyu.edu/papers/torres_pph_login_2014.pdf"
+        deployments: "Security fixes related to <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">tag attacks</a> used in <a href=\"/papers/torres_toto_usenixsec-2016.pdf\">git</a>. PPH libraries in 8 languages, support for different OSes, Yubikey support, and <a href=\"https://github.com/LolalyLuo/PolyPasswordHasher/tree/PPHPAMModule\">PAM</a>. PPH deployments in the <a href=\"https://seattle.poly.edu\">Seattle Clearinghouse</a> and BioBank."
 
-      - &yaxuan_wen
-            name: "Yaxuan(Alice) Wen"
-            anchor: yaxuan_wen
-            internal: true
-            role: "Ph.D. Candidate"
-            since: 2024
-            site: "https://alicewyx.me"
-            photo: "/img/people/yaxuan_wen.jpg"
-            interests: "System security, software security"
+    - &preston_moore
+        name: "Preston Kent Moore"
+        anchor: preston_moore
+        internal: true
+        role: "Ph.D. 2022 (co-advised with Phyllis Frankl), now a Senior Software Engineer at Anaconda"
+        since: "2015"
+        photo: "/img/people/preston_moore2.jpg"
+        interests: "Secure software engineering, automated testing, systems security"
+        publications:
+        
+          - name: "ICSOFT 2022"
+            link: "http://ssl.engineering.nyu.edu/papers/moore_port_icsoft_2022.pdf"
+          - name: "CCSCNE 2022"
+            link: "http://ssl.engineering.nyu.edu/papers/moore_shuffle_ccsne_2022.pdf" 
+          - name: "ISSRE 2019"
+            link: "http://ssl.engineering.nyu.edu/papers/moore_crashsim_issre2019.pdf"
+        
+    - &dan_gopstein
+        name: "Dan Gopstein"
+        anchor: dan_gopstein
+        internal: true
+        role: "Ph.D. 2020"
+        since: "2015"
+        photo: "/img/people/dan_gopstein.jpg"
+        interests: "Programming languages and software systems"
+        publications:
+          - name: "FSE 2020"
+            link: "https://ssl.engineering.nyu.edu/papers/gopstein_thinking_fse2020.pdf"
+          - name: "MSR 2018"
+            link: "https://atomsofconfusion.com/papers/atom-finder-msr-2018.pdf"
+          - name: "FIE 2017"
+            link: "https://atomsofconfusion.com/papers/program-comprehension-eeg-2017.pdf"
+          - name: "FSE 2017"
+            link: "https://ssl.engineering.nyu.edu/papers/gopstein_atoms_fse_2017.pdf"
+          - name: "SIGGRAPH Asia 2015"
+            link: "http://game.engineering.nyu.edu/projects/animesh/"
+        deployments: "<a href=\"https://rubygems.org/gems/deep_enumerable\">DeepEnumerable</a> Ruby package for the declarative manipulation of deeply nested data structures; <a href=\"https://cran.r-project.org/web/packages/clust.bin.pair/\">clust.bin.pair</a> R package containing statistical tests for clustered binary matched pair data."
 
-      - &patrick_zielinski
-            name: "Patrick Zielinski"
-            anchor: patrick_zielinski
-            internal: true
-            role: "Ph.D. Candidate"
-            since: 2024
-            photo: "/img/people/patrick_zielinski.jpg"
-            interests: "Distributed systems, version control systems, and cryptography"
-            publications:
-              - name: "EuroS&P 2026"
-                link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
-              - name: "NDSS 2026"
-                link: "/papers/vaderna_taf_ndss_2026.pdf"
-              - name: "VehicleSec 2025"
-                link: "https://mlab.engineering.nyu.edu/static/vehiclesec25-final9.pdf"
-              - name: "NDSS 2025"
-                link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
-              - name: "ACSAC 2024"
-                link: "https://portokalidis.net/files/sidecar_acsac24.pdf"
+    - &ghada_almashaqbeh
+        name: "Ghada Almashaqbeh"
+        anchor: ghada_almashaqbeh
+        internal: true
+        role: "Ph.D. 2019 from Columbia University (co-advised by Allison Bishop and Tal Malkin), now a tenure track assistant professor at UConn"
+        since: "2015"
+        photo: "/img/people/ghada_almashaqbeh.jpg"
+        site: "http://www.cs.columbia.edu/~ghada/"
+        interests: "Cryptography, security, distributed computing"
+        publications:
+          - name: "Financial Crypto 2020"
+            link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_microcash_fc20.pdf"
+          - name: "CNS 2019"
+            link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_capnet_cns19.pdf"
+          - name: "CryBlock 2019"
+            link: "https://ssl.engineering.nyu.edu/papers/almashaqbeh_ABC_cryblock_19.pdf"
+          - name: "ACM Transactions on Privacy and Security 2018"
+            link: "https://dl.acm.org/citation.cfm?id=3154600"
+          - name: "BMC Medical Informatics and Decision-Making 2015"
+            link: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-15-S5-S4"
 
-      - &marco_de_vincenzi
-            name: "Marco De Vincenzi"
-            anchor: marco_de_vincenzi
-            internal: true
-            role: "Postdoctoral Associate"
-            since: 2026
-            photo: "/img/people/marco.png"
-            site: "https://scholar.google.com/citations?user=6khaGAsAAAAJ&hl=en"
-            interests: "Automotive cybersecurity, cyber-physical systems, V2X authentication"
-            publications:
-                - name: "SCORED 2026"
-                  link: "/papers/sahay_sbomit_scored_2026.pdf"
-                - name: "ACM CSUR"
-                  link: "https://dl.acm.org/doi/pdf/10.1145/3637059"
-                - name: "IEEE TVT"
-                  link: "https://ieeexplore.ieee.org/document/11123165"
-                - name: "IEEE TITS"
-                  link: "https://ieeexplore.ieee.org/abstract/document/9945656"
-                - name: "J. Comput. Virol. Hack. Tech."
-                  link: "https://link.springer.com/article/10.1007/s11416-024-00522-4"
-                - name: IEEE OJVT
-                  link: "https://ieeexplore.ieee.org/document/10818588" 
+    - &marina_moore
+        name: "Marina Moore"
+        anchor: marina_moore
+        internal: true
+        role: "Ph.D. 2024"
+        since: 2018
+        photo: "/img/people/marina_moore.jpg"
+        interests: "Systems security, privacy"
+        publications:      
+          - name: "VehicleSec 2024"
+            link: "/papers/moore_scudo_vehiclesec_2024.pdf"
+          - name: "ACSAC 2023"
+            link: "/papers/moore_artemis_2023.pdf"
+          - name: "ESCAR USA 2020 Special Issue"
+            link: "/papers/moore_pouf_2020.pdf"
 
-      - &vidya_lakshmi_rajagopalan
-            name: "Vidya Lakshmi Rajagopalan"
-            anchor: vidya_lakshmi_rajagopalan
-            internal: true
-            role: "Postdoctoral Associate"
-            since: 2026
-            photo: "/img/people/vidya_rajagopalan.png"
-            site: "https://vidyalakshmir.github.io"
-            interests: "Kernel security, binary analysis, program analysis, reverse engineering, distributed systems security"
-            publications:
-              - name: "ACM CCS 2023"
-                link: "https://vidyalakshmir.github.io/docs/syspart_ccs23.pdf"
-              - name: "FEAST 2024"
-                link: "https://vidyalakshmir.github.io/docs/syscalldebloating.pdf"
-              - name: "ACE 2010"
-                link: "https://vidyalakshmir.github.io/docs/jpermit.pdf"
+    - &nick_renner
+        name: "Nick Renner"
+        anchor: nick_renner
+        internal: true
+        role: "Ph.D. 2026 (co-advised by Brendan Dolan-Gavitt)"
+        since: 2019
+        photo: "/img/people/nick_renner.png"
+        interests: "Systems security, operating systems, Internet of Things"
 
-      - &neil_naveen
-            name: "Neil Naveen"
-            anchor: neil_naveen
-            internal: true 
-            role: "High School Student"
-            since: 2024
-            photo: "/img/people/neil_naveen.jpg"
-            interests: "Security and algorithms"
-            
-      - &aavyan_kapoor
-            name: "Aavyan Kapoor"
-            anchor: aavyan_kapoor
-            internal: true 
-            role: "High School Student"
-            since: 2026
-            photo: "/img/people/aavyan_kapoor.jpg"
-            interests: "AI Usage and System Security"
+    - &aditya_sirish
+        name: "Aditya Sirish A Yelgundhalli"
+        anchor: aditya_sirish
+        internal: true
+        role: "Ph.D. 2025"
+        since: 2019
+        photo: "/img/people/aditya_sirish.jpg"
+        site: "https://saky.in/"
+        interests: "Internet privacy, systems security"
+        publications:      
+          - name: "EuroS&P 2026"
+            link: "/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf"
+          - name: "NDSS 2025"
+            link: "/papers/yelgundhalli_gittuf_ndss_2025.pdf"
+          - name: "VehicleSec 2024"
+            link: "/papers/moore_scudo_vehiclesec_2024.pdf"
 
-      - &ziyi_xu
-            name: "Ziyi Xu"
-            anchor: ziyi_xu
-            internal: true 
-            role: "Master's student"
-            since: 2025
-            photo: "/img/people/ziyi_xu.jpg"
-            interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
+########### HS / UG / MS Alumni #################
 
-      - &qianxi_chen
-            name: "Qianxi Chen"
-            anchor: qianxi_chen
-            internal: true
-            role: "Ph.D. Student"
-            since: 2025
-            photo: "/img/people/qianxi_chen.jpg"
-            interests: "Operating systems, system security, and distributed systems"
+    - &neil_naveen
+        name: "Neil Naveen"
+        anchor: neil_naveen
+        internal: true 
+        role: "High School Student"
+        since: 2024
+        photo: "/img/people/neil_naveen.jpg"
+        interests: "Security and algorithms"
 
-      - &sanchit_sahay
-            name: "Sanchit Sahay"
-            anchor: sanchit_sahay
-            internal: true 
-            role: "Ph.D. Student"
-            since: 2025
-            photo: "/img/people/sanchit_sahay.jpg"
-            interests: "Build Observability, Operating Systems, Systems Software"
-            site: "https://www.sahaysanchit.com"
-            publications:
-              - name: "SCORED 2026"
-                link: "/papers/sahay_sbomit_scored_2026.pdf"
+    - &ziyi_xu
+        name: "Ziyi Xu"
+        anchor: ziyi_xu
+        internal: true 
+        role: "Master's student"
+        since: 2025
+        photo: "/img/people/ziyi_xu.jpg"
+        interests: "Software supply chain security, dependency risk analysis, and intelligent systems"
 
-      - &fredrik_wilke
-            name: "Fredrik Wilke"
-            anchor: fredrik_wilke
-            internal: true
-            role: "Ph.D. Student"
-            since: 2026
-            interests: "Operating systems, Systems Security, Computer Architecture"
-            photo: "/img/people/fredrik.jpg"
-            site: "https://flj-wilke.de"
-      - &mayank_gite
-            name: "Mayank Gite"
-            anchor: mayank_gite
-            internal: true
-            role: "Master's Student"
-            since: 2025
-            photo: "/img/people/mayank_gite.jpg"
-            interests: "System security, Operating systems"
+#################################################
 
-      - &yuchen_zhang
-            name: "Yuchen (Dennis) Zhang"
-            anchor: yuchen_zhang
-            internal: true
-            role: "Post-doctoral researcher"
-            since: 2023
-            photo: "/img/people/yuchen_zhang.jpg"
-            interests: "Fuzz testing, static analysis, system and software security, Rust language analysis and security"
-            publications:
-              - name: "ASE 2022"
-                link: "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494"
-              - name: "USENIX Security 2022"
-                link: "https://www.usenix.org/system/files/sec22-zhang-yuchen.pdf"
-              - name: "NDSS 2022"
-                link: "https://arxiv.org/pdf/2203.06834.pdf"
-              - name: "SecureCom 2021"
-                link: "https://arxiv.org/pdf/2109.08635.pdf"
+  people_cards:
+    - type: "Faculty"
+      anchor: faculty
+      people:
+        - *yanyan_zhuang
+        - *albert_rafetseder
 
-      - &sai_peddinti
-          name: Sai Teja Peddinti
-          anchor: sai_peddinti
-          internal: true
-          role: "Ph.D. 2015 (co-advised by Keith Ross), now a Senior Research Scientist at Google"
-          since: "2011"
-          photo: "/img/people/sai_peddinti.jpg"
-          site: "http://www.saitejapeddinti.com/"
-          interests: "Privacy, security, social networks, machine learning"
-          publications:
-                - name: "ICWSM 2016"
-                  link: "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13063"
-                - name: "COSN 2014"
-                  link: "http://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf"
-                - name: "SPSM 2014"
-                  link: "http://dl.acm.org/citation.cfm?id=2666625"
-                - name: "S&P 2014"
-                  link: "http://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf"
-                - name: "U.S. Patent 9246929"
-                  link: "https://www.google.com/patents/US9246929"
-      - &ann_malavet
-          name: "Ann Malavet"
-          anchor: ann_malavet
-          internal: true
-          role: "Ph.D. Candidate"
-          since: 2023
-          photo: "/img/people/ann_malavet.jpeg"
-          site: "http://annmalavet.com"
-          interests: "Systems security, cryptocurrency fraud, AI application security"
-      
-      - &uk_jang
-          name: "Uk (Jake) Jang"
-          anchor: uk_jang
-          internal: true
-          role: "Research Assistant"
-          since: 2026
-          photo: "/img/people/uk-jang.png"
-          interests: "Operating systems, Cybersecurity"
-          publications:
-              - name: "SCORED 2026"
-                link: "/papers/sahay_sbomit_scored_2026.pdf"
+    - type: "Staff"
+      anchor: staff
+      people:
+        - *lukas_puhringer
+        - *lois_delong
+        - *sebastien_awwad
+        - *vlad_diaz
 
-      - &sean_kim
-          name: "Sihoon (Sean) Kim"
-          anchor: sean_kim
-          internal: true
-          role: "Undergraduate Student"
-          since: 2026
-          photo: "/img/people/sihoon-kim.jpg"
-          interests: "Systems security, embedded systems"
+    - type: "Postdocs"
+      anchor: postdocs
+      people:
+        - *yuchen_zhang
+        - *renata_vaderna
 
-      - &pratham_hegde
-          name: "Pratham Hegde"
-          anchor: pratham_hegde
-          internal: true
-          role: "Master's Student"
-          since: 2026
-          photo: "/img/people/pratham_hegde.jpg"
-          site: "https://www.prathamhegde.com/"
-          interests: "Security, Cryptography"
-      
-      - &shounak_ghosh
-          name: "Shounak Ghosh"
-          anchor: shounak_ghosh
-          internal: true
-          role: "Master's Student"
-          since: 2025
-          photo: "/img/people/shounak_ghosh.jpg"
-          site: "https://shounak-ghosh.github.io/"
-          interests: "Systems security, Distributed systems, AI application security"
+    - type: "PhD. Students"
+      anchor: phd
+      people:         
+        - *nick_renner
+        - *aditya_sirish
+        - *marina_moore
+        - *preston_moore
+        - *yiwen_li
+        - *santiago_torres
+        - *dan_gopstein
+        - *ghada_almashaqbeh
+        - *trishank_kuppusamy
+        - *luqin_wang
+        - *sai_peddinti
 
-      - &sahil_zunjarrao
-          name: "Sahil Zunjarrao"
-          anchor: sahil_zunjarrao
-          internal: true
-          role: "Master's Student"
-          since: 2026
-          photo: "/img/people/sahil_zunjarrao.png"
-          site: "https://sahilzunjarrao.netlify.app/"
-          interests: "Software supply chain security, systems security, application security"
+    - type: "Other Students"
+      anchor: otherstudents
+      people:
+        - *neil_naveen
+        - *ziyi_xu
 
-      - &moka_lu
-          name: "Moka Lu"
-          anchor: moka_lu
-          internal: true
-          role: "Undergraduate Student"
-          since: 2026
-          photo: "/img/people/moka_lu.jpg"
-          site: "https://github.com/ml9767-ops" 
-          interests: "Software supply chain security, Cryptography"
-          
-  ################################################
-      
-    people_cards:
-      - type: "Faculty"
-        anchor: faculty
-        people:
-          - *justin_cappos
-
-      # - type: "Staff"
-      #   anchor: staff
-      #   people:
-
-      - type: "Postdocs"
-        anchor: postdocs
-        people:
-          - *vidya_lakshmi_rajagopalan
-          - *marco_de_vincenzi
-
-      - type: "PhD. Students"
-        anchor: phd
-        people:         
-          - *yaxuan_wen
-          - *patrick_zielinski
-          - *ann_malavet
-          - *qianxi_chen
-          - *sanchit_sahay
-          - *fredrik_wilke
-      - type: "Other Students"
-        anchor: otherstudents
-        people:
-          - *neil_naveen
-          - *sean_kim
-          - *uk_jang
-          - *pratham_hegde
-          - *shounak_ghosh
-          - *mayank_gite
-          - *sahil_zunjarrao
-          - *aavyan_kapoor
-          - *moka_lu
-
-      - type: Alumni
-        anchor: alumni
-        people:
-          - *nick_renner
-          - *yuchen_zhang
-          - *renata_vaderna
-          - *aditya_sirish
-          - *lukas_puhringer
-          - *marina_moore
-          - *lois_delong
-          - *preston_moore
-          - *yiwen_li
-          - *santiago_torres
-          - *dan_gopstein
-          - *ghada_almashaqbeh
-          - *trishank_kuppusamy
-          - *sebastien_awwad
-          - *yanyan_zhuang
-          - *albert_rafetseder
-          - *vlad_diaz       
-          - *luqin_wang
-          - *sai_peddinti
+################### Projects #####################
 
 projects:
     statuses:
