@@ -503,6 +503,15 @@ people:
               - name: "SCORED 2026"
                 link: "/papers/sahay_sbomit_scored_2026.pdf"
 
+      - &fredrik_wilke
+            name: "Fredrik Wilke"
+            anchor: fredrik_wilke
+            internal: true
+            role: "Ph.D. Student"
+            since: 2026
+            interests: "Operating systems, Systems Security, Computer Architecture"
+            photo: "/img/people/fredrik.jpg"
+            site: "https://flj-wilke.de"
       - &mayank_gite
             name: "Mayank Gite"
             anchor: mayank_gite
@@ -647,6 +656,7 @@ people:
           - *ann_malavet
           - *qianxi_chen
           - *sanchit_sahay
+          - *fredrik_wilke
       - type: "Other Students"
         anchor: otherstudents
         people:
@@ -1113,6 +1123,7 @@ projects:
             - *uk_jang
             - *shounak_ghosh
             - *mayank_gite
+            - *fredrik_wilke
             - name: "Brendan Dolan-Gavitt"
               link: "http://engineering.nyu.edu/people/brendan-dolan-gavitt"
         tags:
