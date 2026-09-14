@@ -3245,6 +3245,7 @@ and the Debian popularity contest. Our tests found a total of 63 bugs in 31 appl
     - type: Conference Papers
       anchor: conference
       publications:
+        - *sahay_sbomit_scored_2026
         - *yelgundhalli_sourcefabric_eurosp2026
         - *vaderna_taf_ndss26
         - *yelgundhalli_gittuf_ndss_2025
