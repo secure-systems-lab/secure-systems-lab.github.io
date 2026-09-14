@@ -748,6 +748,16 @@ alumni:
         photo: "/img/people/neil_naveen.jpg"
         interests: "Security and algorithms"
 
+    - &huong_hoang
+        name: "Huong (Celine) Hoang"
+        anchor: huong_hoang
+        internal: true
+        role: "B.S. 2026, now Software Engineer at Meta"
+        since: 2024
+        photo: "/img/people/huong_hoang.jpg"
+        site: "https://github.com/celinehoang177"
+        interests: "Systems, artificial intelligence, and software security"
+
     - &ziyi_xu
         name: "Ziyi Xu"
         anchor: ziyi_xu
@@ -1230,6 +1240,7 @@ projects:
             - *justin_cappos
             - *sanchit_sahay
             - *qianxi_chen
+            - *huong_hoang
             - *uk_jang
             - *shounak_ghosh
             - *mayank_gite
