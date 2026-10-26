@@ -138,6 +138,28 @@ people:
             link: "https://vidyalakshmir.github.io/docs/syscalldebloating.pdf"
           - name: "ACE 2010"
             link: "https://vidyalakshmir.github.io/docs/jpermit.pdf"
+    
+    - &hala_ali
+        name: "Hala Ali"
+        anchor: hala_ali
+        internal: true
+        role: "Postdoctoral Associate"
+        since: 2026
+        photo: "/img/people/hala.jpg"
+        site: "https://halaali198.github.io/"
+        interests: "Memory forensics, software and ML supply chain security, malware analysis"
+        publications:
+            - name: "IEEE ACSAC 2026"
+              link: "https://www.openconf.org/acsac2026/modules/request.php?module=oc_program&action=summary.php&id=282"
+            - name: "Computers & Security Journal"
+              link: "https://www.sciencedirect.com/science/article/pii/S0167404826003019"
+            - name: "DFRWS USA 2026"
+              link: "https://www.sciencedirect.com/science/article/pii/S2666281726000752"
+            - name: "DFRWS USA 2025"
+              link: "https://www.sciencedirect.com/science/article/pii/S2666281725000599"
+            - name: "Computers & Security Journal"
+              link: "https://www.sciencedirect.com/science/article/pii/S0167404824000713"
+           
 
 ############ Current Ph.D. Students ###############
 
@@ -311,6 +333,7 @@ people:
       people:
         - *vidya_lakshmi_rajagopalan
         - *marco_de_vincenzi
+        - *hala_ali
 
     - type: "PhD. Students"
       anchor: phd
@@ -988,6 +1011,7 @@ projects:
         people:
             - *aditya_sirish
             - *patrick_zielinski
+            - *hala_ali
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
