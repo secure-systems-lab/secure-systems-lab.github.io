@@ -333,6 +333,7 @@ people:
       people:
         - *vidya_lakshmi_rajagopalan
         - *marco_de_vincenzi
+        - *hala_ali
 
     - type: "PhD. Students"
       anchor: phd
@@ -1010,6 +1011,7 @@ projects:
         people:
             - *aditya_sirish
             - *patrick_zielinski
+            - *hala_ali
             - name: "Billy Lynch (Chainguard)"
               link: "https://github.com/wlynch"
             - *neil_naveen
