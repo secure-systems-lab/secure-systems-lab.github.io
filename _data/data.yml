@@ -1218,7 +1218,6 @@ projects:
           people:
               - *justin_cappos
               - *marco_de_vincenzi
-              - *ann_malavet
           tags:
               - *security
               - *testing_tools
