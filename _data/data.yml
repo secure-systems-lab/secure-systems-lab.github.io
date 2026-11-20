@@ -197,7 +197,7 @@ people:
         name: "Qianxi Chen"
         anchor: qianxi_chen
         internal: true
-        role: "Ph.D. Student"
+        role: "Ph.D. Candidate"
         since: 2025
         photo: "/img/people/qianxi_chen.jpg"
         interests: "Operating systems, system security, and distributed systems"
